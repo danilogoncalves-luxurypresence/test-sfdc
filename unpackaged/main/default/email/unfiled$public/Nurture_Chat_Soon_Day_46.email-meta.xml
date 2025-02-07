@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>Nurture Chat Soon - Day 46</name>
+    <style>freeForm</style>
+    <subject>Re: Let’s keep in touch! Was so nice to meet you</subject>
+    <textOnly>Hi {!Contact.FirstName} ,
+
+I wanted to touch base and see if you have some time to catch up and discuss your website and digital marketing needs.
+
+Luxury Presence helps real estate agents like you create beautiful, eye-catching websites and build their brands. We&#39;d love to help you elevate your online presence and win more business.
+
+If you&#39;re interested in learning more, feel free to schedule a quick chat with me. I promise it’ll be worth the time! Every agent who scheduled time with me and explored our offerings has told me they&#39;ve learned something new.
+
+Looking forward to hearing back from you.
+
+Best,
+{!User.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

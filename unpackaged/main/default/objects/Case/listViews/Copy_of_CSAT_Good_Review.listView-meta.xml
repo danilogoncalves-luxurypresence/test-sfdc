@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_CSAT_Good_Review</fullName>
+    <columns>Delighted_Score__c</columns>
+    <columns>Delighted_Comment__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Property_Website,Case.Support,Case.Zendesk_Ticket_Sync</value>
+    </filters>
+    <filters>
+        <field>Delighted_Score__c</field>
+        <operation>lessOrEqual</operation>
+        <value>3</value>
+    </filters>
+    <label>CSAT | Follow Up</label>
+    <sharedTo>
+        <role>Support_Manager</role>
+    </sharedTo>
+</ListView>

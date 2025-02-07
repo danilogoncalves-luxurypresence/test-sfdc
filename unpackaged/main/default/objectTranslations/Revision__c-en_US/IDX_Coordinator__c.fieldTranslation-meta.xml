@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- IDX Coordinator --></label>
+        <name>IDX_Coordinator__c</name>
+        <relationshipLabel><!-- Revisions (IDX Coordinator) --></relationshipLabel>
+    </CustomFieldTranslation>

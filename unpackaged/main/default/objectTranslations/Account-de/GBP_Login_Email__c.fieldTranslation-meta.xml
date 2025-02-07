@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GBP Login Email --></label>
+        <name>GBP_Login_Email__c</name>
+        <picklistValues>
+            <masterLabel>luxurypresenceseo@gmail.com</masterLabel>
+            <translation><!-- luxurypresenceseo@gmail.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>seo@luxurypresence.com</masterLabel>
+            <translation><!-- seo@luxurypresence.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>seogbp@luxurypresence.com</masterLabel>
+            <translation><!-- seogbp@luxurypresence.com --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Let me know if you have any questions about the Payment Past Due email I recently sent. You can update your payment information or make a payment in our <a href="https://users.instapayments.io/luxurypresence/secure/login">Client Billing Portal</a>. I’m here if you need any help!<br />
+<br />
+Best,<br />
+{{{Sender.Name}}}</body>
+</html>

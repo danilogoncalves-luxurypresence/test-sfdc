@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Hope you're doing well!&nbsp; I wanted to share an example of a client who has seen great success with our Brand+ Plan.<br />
+<br />
+After partnering with Luxury Presence, top Austin agent Anna Morrison Lee saw a 30% increase in monthly website visitors and a 25% increase in impressions. She also gained 20 5-star Google reviews and went from not ranking to ranking #1 for her brand name. You can <a href="https://www.luxurypresence.com/case/how-anna-morrison-lee-grew-her-reach-in-austin/">read the full case study here</a>.&nbsp;<br />
+<br />
+Would love to help you achieve similar results.&nbsp; Just book a time in my calendar and we can get you started ASAP!<br />
+https://luxurypresence.na.chilipiper.com/book/me/{{{Sender.FirstName}}}-{{{Sender.LastName}}}<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}</body>
+</html>

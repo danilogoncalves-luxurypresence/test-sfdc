@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>1st Follow-up - Launched without Approval - MLS Grid</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>1st Follow-up - Launched without Approval - MLS Grid</name>
+    <style>freeForm</style>
+    <subject>Following Up: IDX Agreement Incomplete</subject>
+    <textOnly>Hi {!Contact.FirstName},    
+
+I hope you are having a great day! I&#39;m following up with our previous email, can you provide the necessary information so that we may draft the necessary paperwork to send to required parties for signature?
+
+Please note if we do not receive a signed data access agreement we will need to hide the home search tool on your site. 
+
+Let me know if you have any questions or need anything from me. I&#39;m here to help!
+
+Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

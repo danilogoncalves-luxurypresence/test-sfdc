@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Not Found 404 Error</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Not Found 404 Error</name>
+    <style>none</style>
+    <subject>Understanding 404 Errors: Why They Aren’t Always a Major Concern for Your Website</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

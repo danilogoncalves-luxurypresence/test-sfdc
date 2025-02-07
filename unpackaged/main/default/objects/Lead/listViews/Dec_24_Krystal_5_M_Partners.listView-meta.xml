@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dec_24_Krystal_5_M_Partners</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND (5 OR 6)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>Partnership_Organization__c</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>City__c</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>Years_in_Business__c</columns>
+    <columns>Prior_12_months_total_transaction_value__c</columns>
+    <columns>LAST_CALL_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>greaterThan</operation>
+        <value>5000000</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>lessOrEqual</operation>
+        <value>10000000</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>harrelson</value>
+    </filters>
+    <filters>
+        <field>Rep_Assigned_Date__c</field>
+        <operation>equals</operation>
+        <value>12/16/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>LAST_CALL_DATE</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>LAST_CALL_DATE</field>
+        <operation>greaterThan</operation>
+        <value>12/16/2024 12:00 AM</value>
+    </filters>
+    <label>Dec 24 Krystal $5 M Partners</label>
+</ListView>

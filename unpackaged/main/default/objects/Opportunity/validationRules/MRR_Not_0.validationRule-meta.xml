@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MRR_Not_0</fullName>
+    <active>true</active>
+    <description>For opportunities Addendum rt, cannot be closed won if the field &quot;Total Fees&quot; is equal to 0 or empty, when addendum type is everything except &quot;Cancellation&quot; and Extension</description>
+    <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; &quot;Operations Team&quot;,
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+$Profile.Name &lt;&gt; &quot;System Admin2&quot;,
+Record_Type_Name__c = &quot;Addendum&quot;,
+ISPICKVAL( StageName , &quot;Closed Won&quot;),
+NOT(ISPICKVAL( Addendum_Type__c , &quot;Extension&quot;)),
+NOT(ISPICKVAL( Addendum_Type__c , &quot;Cancellation&quot;)),
+OR(
+ISBLANK( Total_Monthly_Fee__c ),
+Total_Monthly_Fee__c = 0
+)
+)</errorConditionFormula>
+    <errorMessage>The client&#39;s MRR cannot be $0, please add the correct MRR or use the correct opportunity type for this case.</errorMessage>
+</ValidationRule>

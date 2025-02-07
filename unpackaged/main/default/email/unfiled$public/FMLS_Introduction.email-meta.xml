@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>FMLS Introduction</name>
+    <style>freeForm</style>
+    <subject>IDX Introduction - FMLS - {!Contact.FirstName}{!Contact.LastName}</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+I hope you are having a great day! My name is [Coordinator’s Name] and I&#39;m an IDX Coordinator at Luxury Presence. FMLS requires agents to request a data access agreement on the FMLS platform. Please find instructions on how to do this below:
+
+Simply log into FMLS.com, navigate to MyFMLS&gt; Marketplace &gt; Browse Products. From there you can search for “Luxury Presence” in the search bar, and click on our product. On the product details page, you will need to enter the site URL. Please make sure that the URL is in the format: http://www. Then click “Subscribe.” Luxury Presence will receive an approval notification shortly after.
+
+Lastly, if you do not have a Domain/URL finalized, no problem! Please wait until your next call with your Implementation Manager and they will be able to discuss URL options with you in detail. Let me know if you have any questions in the meantime. I&#39;m here to help!
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

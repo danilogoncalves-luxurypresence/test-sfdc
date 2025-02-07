@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Reopen</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+ ISPICKVAL(PRIORVALUE( Status),&quot;Closed&quot;),
+ ISCHANGED( Status ),
+ $UserRole.Name = &quot;Email To Case&quot;,
+ RecordTypeId = &quot;0125f000000VvJz&quot;
+)</errorConditionFormula>
+    <errorMessage>Insufficient privileges to reopen the record</errorMessage>
+</ValidationRule>

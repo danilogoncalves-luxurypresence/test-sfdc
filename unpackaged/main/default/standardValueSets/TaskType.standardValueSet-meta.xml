@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DS</fullName>
+        <default>false</default>
+        <label>DS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>WB</fullName>
+        <default>false</default>
+        <label>WB</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IDX</fullName>
+        <default>false</default>
+        <label>IDX</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Working with PED</fullName>
+        <default>false</default>
+        <label>Working with PED</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Domains - Domain Forwarding</fullName>
+        <default>false</default>
+        <label>Domains - Domain Forwarding</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Domains - DNS Updates</fullName>
+        <default>false</default>
+        <label>Domains - DNS Updates</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Domains - Publishing Property Websites</fullName>
+        <default>false</default>
+        <label>Domains - Publishing Property Websites</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IDX - Activate/ Remove Agent Sync</fullName>
+        <default>false</default>
+        <label>IDX - Activate/ Remove Agent Sync</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IDX - Activate/ Remove Buyer Sync</fullName>
+        <default>false</default>
+        <label>IDX - Activate/ Remove Buyer Sync</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IDX - Activate/ Remove Office Sync</fullName>
+        <default>false</default>
+        <label>IDX - Activate/ Remove Office Sync</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IDX - Troubleshooting Missing Listings</fullName>
+        <default>false</default>
+        <label>IDX - Troubleshooting Missing Listings</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Call or Meeting</fullName>
+        <default>false</default>
+        <label>Client Call or Meeting</label>
+    </standardValue>
+</StandardValueSet>

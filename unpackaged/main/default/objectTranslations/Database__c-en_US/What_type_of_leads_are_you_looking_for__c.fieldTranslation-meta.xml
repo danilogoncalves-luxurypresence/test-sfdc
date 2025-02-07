@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- What type of leads are you looking for? --></label>
+        <name>What_type_of_leads_are_you_looking_for__c</name>
+    </CustomFieldTranslation>

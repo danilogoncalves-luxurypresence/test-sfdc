@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sum of Quantity of IDX Tool or IDX Tool AddOns product line items --></help>
+        <label><!-- Number of IDX Product Lines --></label>
+        <name>Number_of_IDX_Product_Lines__c</name>
+    </CustomFieldTranslation>

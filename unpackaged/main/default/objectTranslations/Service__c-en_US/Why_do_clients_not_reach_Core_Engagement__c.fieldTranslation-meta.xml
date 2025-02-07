@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Why do clients not reach Core Engagement --></label>
+        <name>Why_do_clients_not_reach_Core_Engagement__c</name>
+        <picklistValues>
+            <masterLabel>Client Disinterest | Alternative Tools &amp; Resources</masterLabel>
+            <translation><!-- Client Disinterest | Alternative Tools &amp; Resources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Disinterest | No Applicable Business</masterLabel>
+            <translation><!-- Client Disinterest | No Applicable Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Disinterest | Technical Aptitude</masterLabel>
+            <translation><!-- Client Disinterest | Technical Aptitude --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Disinterest | Timing</masterLabel>
+            <translation><!-- Client Disinterest | Timing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Responsiveness</masterLabel>
+            <translation><!-- Client Responsiveness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Applicable</masterLabel>
+            <translation><!-- Not Applicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

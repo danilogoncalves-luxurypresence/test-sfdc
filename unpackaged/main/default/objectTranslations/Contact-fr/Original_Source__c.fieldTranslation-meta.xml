@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Original Source --></label>
+        <name>Original_Source__c</name>
+        <picklistValues>
+            <masterLabel>Direct Traffic</masterLabel>
+            <translation><!-- Direct Traffic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Marketing</masterLabel>
+            <translation><!-- Email Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offline Sources</masterLabel>
+            <translation><!-- Offline Sources --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organic Search</masterLabel>
+            <translation><!-- Organic Search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organic Social</masterLabel>
+            <translation><!-- Organic Social --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Campaigns</masterLabel>
+            <translation><!-- Other Campaigns --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Search</masterLabel>
+            <translation><!-- Paid Search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Social</masterLabel>
+            <translation><!-- Paid Social --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referrals</masterLabel>
+            <translation><!-- Referrals --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

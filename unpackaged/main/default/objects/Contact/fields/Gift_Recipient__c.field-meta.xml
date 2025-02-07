@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gift_Recipient__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>SF case # 00169734 - needed to track gift giving eligibility	Notates if a Client is eligible for a gift</description>
+    <label>Gift Recipient</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

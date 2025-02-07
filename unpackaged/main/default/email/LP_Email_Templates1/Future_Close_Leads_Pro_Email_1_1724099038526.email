@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Thanks so much for taking the time to meet and get a demo of Luxury Presence in action!<br />
+<br />
+After learning about your needs and goals, we believe our Leads Pro plan is the best fit for your business. Its tailor-made for those who want expert marketing support in elevating their online presence and includes lead generation and lead nurturing in order to save time and win more business.&nbsp;<br />
+<br />
+Here's everything you get with our Leads Pro plan:
+<ul>
+	<li>Website platform</li>
+	<li>IDX home search</li>
+	<li>Accessibility widget</li>
+	<li>Digital CMA</li>
+	<li>Property websites</li>
+	<li>Lead Intelligence</li>
+	<li>SEO migration</li>
+	<li>Local SEO</li>
+	<li>Lead Generation</li>
+	<li>Lead Nurturing</li>
+	<li>A dedicated customer success manager</li>
+	<li>Optional add-ons: agent subdomain sites and social media management</li>
+</ul>
+To get started with Leads Pro, just book a time in my calendar and we'll get things rolling!<br />
+https://luxurypresence.na.chilipiper.com/book/me/{{{Sender.FirstName}}}-{{{Sender.LastName}}}<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}</body>
+</html>

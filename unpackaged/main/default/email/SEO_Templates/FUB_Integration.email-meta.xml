@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>FUB Integration</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FUB Integration</name>
+    <style>none</style>
+    <subject>FUB Integration: Step by Step</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

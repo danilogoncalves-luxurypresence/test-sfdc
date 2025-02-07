@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Active_Status_with_Cancellation</fullName>
+    <active>true</active>
+    <description>Prevent a Subscription to be updated to &quot;Active&quot; if it has a &quot;Cancellation Date&quot;.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Status, &quot;Activated&quot;),
+NOT(ISBLANK(Cancellation_Date__c))
+)</errorConditionFormula>
+    <errorMessage>Please, remove the Cancellation Date before moving back to &quot;Active&quot;. Or contact your Salesforce Admin.</errorMessage>
+</ValidationRule>

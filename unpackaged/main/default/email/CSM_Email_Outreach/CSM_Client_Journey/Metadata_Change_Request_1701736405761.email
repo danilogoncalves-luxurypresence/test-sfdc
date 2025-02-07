@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+We can make the update you requested, but wanted to give you a heads up that you may see an impact on keyword rankings and organic traffic, since metadata has a significant impact on click-through rate.&nbsp;<br />
+<br />
+We follow these guidelines when optimizing your meta titles and descriptions:<br />
+<br />
+* Titles are 45-60 characters<br />
+* Descriptions are 145-160 characters<br />
+* Target keywords are included when possible<br />
+* Copy tells the user exactly what the page they're about to click on is about<br />
+<br />
+If you're ok with this, we'll go ahead and make the update. Note that it may take a few days to a week to reflect on the front end.&nbsp;<br />
+<br />
+Best,<br />
+{{{Sender.Name}}}</body>
+</html>

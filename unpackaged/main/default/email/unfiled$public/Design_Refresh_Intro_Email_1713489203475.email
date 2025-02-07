@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi {{{Recipient.FirstName}}},</p>
+
+<p><br />
+Thank you for taking my call today. Wanted to introduce our Design Project Manager, Salima Omwenga (cc'd). &nbsp;She will reach out shortly to schedule a time and start the design refresh process.<br />
+<br />
+Anything else, please let me know.<br />
+<br />
+Thank you,</p>
+</body>
+</html>

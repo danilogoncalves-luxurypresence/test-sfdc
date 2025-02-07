@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recurring_Revenue</fullName>
+    <active>true</active>
+    <label>Recurring Revenue</label>
+    <picklistValues>
+        <picklist>AddOn_RollUp_Category__c</picklist>
+        <values>
+            <fullName>Ad Spend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Time Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subscription</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Billing_Frequency__c</picklist>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yearly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Billing_Type__c</picklist>
+        <values>
+            <fullName>One-Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recurring</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Family</picklist>
+        <values>
+            <fullName>Add On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ala Carte Add On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Setup Fee</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QuantityUnitOfMeasure</picklist>
+        <values>
+            <fullName>Each</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tier_Plans_Available__c</picklist>
+        <values>
+            <fullName>Base</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leads Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Pro</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>AI Lead Nurture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agent Subdomains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Automated Blogs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blogs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Design Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Design Refresh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Editorial SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBP SetUp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GMB Posts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>MLS Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Demand Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platform Migration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presence Copilot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Key Word Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Migration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Optimizations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Launches</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White Label App</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

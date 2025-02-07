@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Launch_Pod_1_Ad_Astra_WB_QA_Tasks</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+    <columns>SUBJECT</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>STATUS</columns>
+    <columns>DUE_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>PRIORITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>New,Not Started,In Progress,Ready for QA,QA in Progress,Additional Revisions,Revisions in Progress,Sent for approval,Additional Feedback,At risk,Blocked,Open</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>Chri,Kris,Jefe,Yoym,Juan,Fern,esoto,KNguy,arome,Angl,Dani,pabug,jvita,amart,lgarc,jespi,jnahi,aramo</value>
+    </filters>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>equals</operation>
+        <value>Final QA</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Task.PFT,Task.Website_Launches</value>
+    </filters>
+    <filters>
+        <field>WHAT_NAME</field>
+        <operation>contains</operation>
+        <value>,Side NL,Website Implementation,Design Change,1:1,In-App Onboarding,Custom Website,Template Change</value>
+    </filters>
+    <label>Launch Pod 1 (Seikō) - WB/QA Tasks</label>
+</ListView>

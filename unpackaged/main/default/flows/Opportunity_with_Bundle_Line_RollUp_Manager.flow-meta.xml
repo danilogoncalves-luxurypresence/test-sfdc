@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <assignments>
+        <name>Add_to_Ad_Spend_Only</name>
+        <label>Add to Ad Spend Only</label>
+        <locationX>517</locationX>
+        <locationY>951</locationY>
+        <assignmentItems>
+            <assignToReference>addSpendNoALaCarteAmount</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>LoopAndSetRollUps.TotalPrice</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>IDXToolChecker</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Bundle_IDs</name>
+        <label>Assign Bundle IDs</label>
+        <locationX>52</locationX>
+        <locationY>599</locationY>
+        <assignmentItems>
+            <assignToReference>bundlePlanId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Bundle__r.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Get_Bundle_Name</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>IncrementAddOnAdSpendFee</name>
+        <label>IncrementAddOnAdSpendFee</label>
+        <locationX>1507</locationX>
+        <locationY>932</locationY>
+        <assignmentItems>
+            <assignToReference>vRollUpAddOnAdSpendFee</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>LoopAndSetRollUps.TotalPrice</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>IDXToolChecker</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>IncrementAddOnMarkeingFee</name>
+        <label>IncrementAddOnMarkeingFee</label>
+        <locationX>1747</locationX>
+        <locationY>670</locationY>
+        <assignmentItems>
+            <assignToReference>vRollUpAddOnMarketingFee</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>LoopAndSetRollUps.TotalPrice</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>IDXToolChecker</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>IncrementAddOnOneTimeFee</name>
+        <label>IncrementAddOnOneTimeFee</label>
+        <locationX>1943</locationX>
+        <locationY>796</locationY>
+        <assignmentItems>
+            <assignToReference>vRollUpAddOnOneTimeSetUpFee</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>LoopAndSetRollUps.TotalPrice</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>IDXToolChecker</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>IncrementAddOnSubscriptionFee</name>
+        <label>IncrementAddOnSubscriptionFee</label>
+        <locationX>1638</locationX>
+        <locationY>513</locationY>
+        <assignmentItems>
+            <assignToReference>vRollUpAddOnSubscriptionFee</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>LoopAndSetRollUps.TotalPrice</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>IDXToolChecker</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>IncrementIDXCounter</name>
+        <label>IncrementIDXCounter</label>
+        <locationX>1356</locationX>
+        <locationY>312</locationY>
+        <assignmentItems>
+            <assignToReference>vIDXToolQuantityCount</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>LoopAndSetRollUps.Quantity</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>LoopAndSetRollUps</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>IncrementOneTimeSetUpFee</name>
+        <label>IncrementOneTimeSetUpFee</label>
+        <locationX>1243</locationX>
+        <locationY>392</locationY>
+        <assignmentItems>
+            <assignToReference>vRollUpOneTimeSetUpFee</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>LoopAndSetRollUps.TotalPrice</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>LoopAndSetRollUps</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>SetLeadsProVariables</name>
+        <label>SetLeadsProVariables</label>
+        <locationX>650</locationX>
+        <locationY>50</locationY>
+        <assignmentItems>
+            <assignToReference>vAdSpendPortionToSubscriptionFeeFromConstant</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>cAdSpendLeadsProToSubscriptionFee</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>vAdSpendPortionToAdManagementFeeFromConstant</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>cAdSpendLeadsProToManagementFee</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>LoopAndSetRollUps</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>SetPlan</name>
+        <label>SetPlan</label>
+        <locationX>887</locationX>
+        <locationY>546</locationY>
+        <assignmentItems>
+            <assignToReference>vPlanProductName</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>LoopAndSetRollUps.Product_Name__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>vRollUpPlanSubscriptionFee</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>fPlanPortionSubscription</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>vRollUpPlanMarketingFee</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>fPlanPortionMarketing</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>vRollUpPlanAdSpendFee</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>fPlanPortionAdSpend</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>vRollUpPlanAdManagementFee</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>fPlanPortionAdManagement</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>LoopAndSetRollUps</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>SetRestOfPlanVariables</name>
+        <label>SetRestOfPlanVariables</label>
+        <locationX>782</locationX>
+        <locationY>367</locationY>
+        <assignmentItems>
+            <assignToReference>vAdSpendPortionToSubscriptionFeeFromConstant</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>vAdSpendPortionToAdManagementFeeFromConstant</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>LoopAndSetRollUps</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>SetSEOVariables</name>
+        <label>SetSEOVariables</label>
+        <locationX>774</locationX>
+        <locationY>234</locationY>
+        <assignmentItems>
+            <assignToReference>vAdSpendPortionToSubscriptionFeeFromConstant</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>cAdSpendSEOToSubscriptionFee</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>vAdSpendPortionToAdManagementFeeFromConstant</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>cAdSpendSEOToManagementFee</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>LoopAndSetRollUps</targetReference>
+        </connector>
+    </assignments>
+    <constants>
+        <description>portion of remaining Plan fee to ad spend management fee for Leads Pro Plan AFTER flat amount (cAdSpendPortionOfPlan) to ad spend
+---if updated make sure to update cAdSpendToSubscriptionFee - total must equal 1 (aka 100%); if less than 100% then it will go to marketing</description>
+        <name>cAdSpendLeadsProToManagementFee</name>
+        <dataType>Number</dataType>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </constants>
+    <constants>
+        <description>portion of remaining Plan fee to subscription to Leads Pro plan AFTER flat amount (cAdSpendPortionOfPlan) to ad spend
+---if updated make sure to update cAdSpendToManagementFee - total must equal 1 (aka 100%); ; if less than 100% then it will go to marketing</description>
+        <name>cAdSpendLeadsProToSubscriptionFee</name>
+        <dataType>Number</dataType>
+        <value>
+            <numberValue>0.541667</numberValue>
+        </value>
+    </constants>
+    <constants>
+        <name>cAdSpendPortionOfPlan</name>
+        <dataType>Number</dataType>
+        <value>
+            <numberValue>500.0</numberValue>
+        </value>
+    </constants>
+    <constants>
+        <description>portion of remaining Plan fee to ad spend management fee for SEO Plan AFTER flat amount (cAdSpendPortionOfPlan) to ad spend
+---if updated make sure to update cAdSpendToSubscriptionFee - total must equal 1 (aka 100%); if less than 100% then it will go to marketing</description>
+        <name>cAdSpendSEOToManagementFee</name>
+        <dataType>Number</dataType>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </constants>
+    <constants>
+        <description>portion of remaining Plan fee to subscription for SEO plan AFTER flat amount (cAdSpendPortionOfPlan) to ad spend
+---if updated make sure to update cAdSpendToManagementFee - total must equal 1 (aka 100%); ; if less than 100% then it will go to marketing</description>
+        <name>cAdSpendSEOToSubscriptionFee</name>
+        <dataType>Number</dataType>
+        <value>
+            <numberValue>0.270833</numberValue>
+        </value>
+    </constants>
+    <constants>
+        <description>portion of ala carte addOn Ad Spend that goes to monthly ad spend 
+***if this is updated make sure to update cAlaCarteAdSpendToManagement - so that total = 1 (aka 100%)</description>
+        <name>cAlaCarteAdSpendToAdSpend</name>
+        <dataType>Number</dataType>
+        <value>
+            <numberValue>0.85</numberValue>
+        </value>
+    </constants>
+    <constants>
+        <description>portion of ala carte addOn Ad Spend that goes to ad spend management fee
+***if this is updated make sure to update cAlaCarteAdSpendToAdSpend - so that total = 1 (aka 100%)</description>
+        <name>cAlaCarteAdSpendToManagement</name>
+        <dataType>Number</dataType>
+        <value>
+            <numberValue>0.15</numberValue>
+        </value>
+    </constants>
+    <constants>
+        <name>cSubscriptionPortionOfGrowthPremium</name>
+        <dataType>Currency</dataType>
+        <value>
+            <numberValue>450.0</numberValue>
+        </value>
+    </constants>
+    <decisions>
+        <name>IDXToolChecker</name>
+        <label>IDXToolChecker</label>
+        <locationX>1791</locationX>
+        <locationY>380</locationY>
+        <defaultConnector>
+            <targetReference>LoopAndSetRollUps</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>IDXTool</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.Family</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Add On</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>IDX</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>IncrementIDXCounter</targetReference>
+            </connector>
+            <label>IDXTool</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>giddy up</description>
+        <name>RollUpType</name>
+        <label>RollUpType</label>
+        <locationX>1080</locationX>
+        <locationY>606</locationY>
+        <defaultConnector>
+            <targetReference>IDXToolChecker</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Plan</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product_Name__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Plan</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.Family</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Plan</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SetPlan</targetReference>
+            </connector>
+            <label>Plan</label>
+        </rules>
+        <rules>
+            <name>OneTimeSetupFee</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product_Name__c</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>One-Time Setup Fee</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product_Name__c</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>one-time set up fee</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.Family</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Setup Fee</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>IncrementOneTimeSetUpFee</targetReference>
+            </connector>
+            <label>OneTimeSetupFee</label>
+        </rules>
+        <rules>
+            <name>AddOnOneTimeFee</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.Family</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Add On</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.Ala_Carte__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.AddOn_RollUp_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>One Time Fee</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>IncrementAddOnOneTimeFee</targetReference>
+            </connector>
+            <label>AddOnOneTimeFee</label>
+        </rules>
+        <rules>
+            <name>Ad_Spend_Not_a_la_Carte</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.Family</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Add On</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.AddOn_RollUp_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Ad Spend</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.Ala_Carte__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Add_to_Ad_Spend_Only</targetReference>
+            </connector>
+            <label>Ad Spend Not a la Carte</label>
+        </rules>
+        <rules>
+            <name>AddOnAlaCarteAdSpendFee</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.Family</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Add On</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.AddOn_RollUp_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Ad Spend</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.Ala_Carte__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>IncrementAddOnAdSpendFee</targetReference>
+            </connector>
+            <label>AddOnAlaCarteAdSpendFee</label>
+        </rules>
+        <rules>
+            <name>AddOnMarketingFee</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.Family</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Add On</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.AddOn_RollUp_Category__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Marketing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.Ala_Carte__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>IncrementAddOnMarkeingFee</targetReference>
+            </connector>
+            <label>AddOnMarketingFee</label>
+        </rules>
+        <rules>
+            <name>AddOnSubscriptionFee</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.Family</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Add On</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>LoopAndSetRollUps.Product2.Ala_Carte__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>IncrementAddOnSubscriptionFee</targetReference>
+            </connector>
+            <label>AddOnSubscriptionFee</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>WhichPlan</name>
+        <label>WhichPlan</label>
+        <locationX>500</locationX>
+        <locationY>298</locationY>
+        <defaultConnector>
+            <targetReference>SetRestOfPlanVariables</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>LeadsPro</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>bundlePlanName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>LeadsPro</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SetLeadsProVariables</targetReference>
+            </connector>
+            <label>LeadsPro</label>
+        </rules>
+        <rules>
+            <name>SEOPro</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>bundlePlanName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>SEO Pro</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SetSEOVariables</targetReference>
+            </connector>
+            <label>SEOPro</label>
+        </rules>
+    </decisions>
+    <description>Rolls up some values based on the Bundle Name that&#39;s assigned. This was formerly called Opportunity - Line RollUp Manager and depended on a product line item with a Product Family of Plan.</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>formula that (within loop) calculates the portion of the plan that should go to ad management</description>
+        <name>fPlanPortionAdManagement</name>
+        <dataType>Currency</dataType>
+        <expression>/* ONLY calculate a value if plan includes ad spend - otherwise return 0 */
+If (
+{!LoopAndSetRollUps.Product2.Plan_Includes_Ad_Spend__c},
+/* Remove plan portion of Ad Spend and portion of Ad Management Fee (which is percent of remaining */
+   {!LoopAndSetRollUps.TotalPrice} - {!fPlanPortionAdSpend} - 
+   ( 
+      (1 - {!vAdSpendPortionToAdManagementFeeFromConstant}) *
+      ({!LoopAndSetRollUps.TotalPrice} - {!fPlanPortionAdSpend})
+   ),
+/* ELSE plan that does not include ad spend, so set to 0 */
+0
+)</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <description>formula that (within loop) calculates the portion of the plan that should go to ad spend</description>
+        <name>fPlanPortionAdSpend</name>
+        <dataType>Currency</dataType>
+        <expression>/* ONLY calculate a value if plan includes ad spend - otherwise return 0 */
+If (
+   {!LoopAndSetRollUps.Product2.Plan_Includes_Ad_Spend__c},
+/* added * discount to allocate discount to each portion...if 100% of discount to be allocated to ad spend - to revert back just have the constant without the other math */
+/* since the ad spend is a flat removal current implementation removes applying the discount to the constant */
+         {!cAdSpendPortionOfPlan} /* - (cAdSpendPortionOfPlan * */
+/* if discount is blank then set to 0 */
+    /*     if ( IsBlank (LoopAndSetRollUps.Discount), 0, LoopAndSetRollUps.Discount/100) ) */ ,
+/* ELSE plan that does not include ad spend, so set to 0 */
+      0
+)</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <description>Growth &amp; Premium plan have a fixed $ amount of the plan that goes to subscription, rest goes to marketing
+-fPlanPortionSubscription does the calculation of how much to remove from plan total price
+&gt;&gt;&gt;to get marketing just remove all other plan portions</description>
+        <name>fPlanPortionMarketing</name>
+        <dataType>Currency</dataType>
+        <expression>{!LoopAndSetRollUps.TotalPrice} - {!fPlanPortionAdSpend} - {!fPlanPortionSubscription} - {!fPlanPortionAdManagement}</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <description>Growth &amp; Premium plan have a fixed $ amount of the plan that goes to subscription, Plans that include ad spend have a portion to subscription and rest to marketing, rest of plans have portion that goes to subscription</description>
+        <name>fPlanPortionSubscription</name>
+        <dataType>Currency</dataType>
+        <expression>If ( /* Growth or Premium */
+   Contains ({!LoopAndSetRollUps.Product_Name__c}, &quot;Growth&quot;) || 
+   Contains ({!LoopAndSetRollUps.Product_Name__c}, &quot;Premium&quot;),
+/* THEN - growth or premium */
+      /* added * discount to allocate discount to each portion...originally 100% of discount was allocated to marketing - to revert              back just have the constant without multiplying by the discount i.e.  remove * and if statement */
+      {!cSubscriptionPortionOfGrowthPremium} - ({!cSubscriptionPortionOfGrowthPremium} * 
+      /* if discount is blank then set to 0 */
+         if ( IsBlank ({!LoopAndSetRollUps.Discount}), 0, {!LoopAndSetRollUps.Discount}/100) ),
+/* === */
+/* ELSE IF plan includes ad spend - it should be full price minus any ad Spend portions 
+MAJOR assumption Ad Spend will NOT be part of growth or premium */
+     If ( /* plan includes ad spend */
+            {!LoopAndSetRollUps.Product2.Plan_Includes_Ad_Spend__c},
+/* THEN - plan includes ad spend */
+          /* Remove plan portion of Ad Spend and portion of Subscription Fee (which is percent of remaining */
+         {!LoopAndSetRollUps.TotalPrice} - {!fPlanPortionAdSpend} - 
+          ( 
+             (1 - {!vAdSpendPortionToSubscriptionFeeFromConstant}) *
+              ({!LoopAndSetRollUps.TotalPrice} - {!fPlanPortionAdSpend})
+          ),
+/* ELSE NOT Growth, Premium or a plan that includes ad Spend - put all into Subscription */
+   {!LoopAndSetRollUps.TotalPrice}
+   )
+)</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <description>for CB...we have to set the Tier Plan opportunity field by using the fProductNameToTierMapping formula --- update formula to encompass all the appropriate product names</description>
+        <name>fProductNameToTierMapping</name>
+        <dataType>String</dataType>
+        <expression>If (Contains ({!vPlanProductName}, &quot;Base&quot;), &quot;Base&quot;,
+If (Contains ({!vPlanProductName}, &quot;Brand&quot;), &quot;Brand+&quot;,
+If (Contains ({!vPlanProductName}, &quot;Enterprise&quot;), &quot;Enterprise&quot;,
+If (Contains ({!vPlanProductName}, &quot;Growth&quot;), &quot;Growth+&quot;,
+If (Contains ({!vPlanProductName}, &quot;Launch&quot;), &quot;Launch+&quot;,
+If (Contains ({!vPlanProductName}, &quot;Premium&quot;), &quot;Premium+&quot;,
+If (Contains ({!vPlanProductName}, &quot;Leads Pro&quot;), &quot;Leads Pro&quot;,
+If (Contains ({!vPlanProductName}, &quot;SEO Pro&quot;), &quot;SEO Pro&quot;,
+&quot;&quot;
+))))))))</expression>
+    </formulas>
+    <formulas>
+        <description>formula used to update the opportunity fee...uses loop variable that gets incremented (via Add assignment) in loop if type is hit multiple times, and adds appropriate other portions from plan or addOns</description>
+        <name>fRollUpAdManagementFee</name>
+        <dataType>Currency</dataType>
+        <expression>({!cAlaCarteAdSpendToManagement} * {!vRollUpAddOnAdSpendFee}) + {!vRollUpPlanAdManagementFee}</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <description>formula used to update the opportunity fee...uses loop variable that gets incremented (via Add assignment) in loop if type is hit multiple times, and adds appropriate other portions from plan or addOns</description>
+        <name>fRollUpAdSpendFee</name>
+        <dataType>Currency</dataType>
+        <expression>{!addSpendNoALaCarteAmount} + {!vRollUpPlanAdSpendFee} +
+/* portion of ala carte Ad Spend addOn */
+({!cAlaCarteAdSpendToAdSpend} * {!vRollUpAddOnAdSpendFee})</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <description>formula used to update the opportunity fee...uses loop variable that gets incremented (via Add assignment) in loop if type is hit multiple times, and adds appropriate other portions from plan or addOns</description>
+        <name>fRollUpMarketingFee</name>
+        <dataType>Currency</dataType>
+        <expression>{!vRollUpPlanMarketingFee} + {!vRollUpAddOnMarketingFee}
+/* portion of ala carte add Spend */
+/* REMOVED
++ fRollUpAdSpendManagementFee
+*/</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <description>formula used to update the opportunity fee...uses loop variable that gets incremented (via Add assignment) in loop if type is hit multiple times, and adds appropriate other portions from plan or addOns</description>
+        <name>fRollUpOneTimeFee</name>
+        <dataType>Currency</dataType>
+        <expression>{!vRollUpOneTimeSetUpFee} + {!vRollUpAddOnOneTimeSetUpFee}</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <description>formula used to update the opportunity fee...uses loop variable that gets incremented (via Add assignment) in loop if type is hit multiple times, and adds appropriate other portions from plan or addOns</description>
+        <name>fRollUpSubscriptionFee</name>
+        <dataType>Currency</dataType>
+        <expression>{!vRollUpPlanSubscriptionFee} + {!vRollUpAddOnSubscriptionFee}</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <description>If the total price is above the Threshold, which stores the Amount above that threshold.</description>
+        <name>totalPriceAmountAboveThreshold</name>
+        <dataType>Currency</dataType>
+        <expression>{!thisItemTotalPrice} - {!addOnSplitThreshold}</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Opportunity with Bundle - Line RollUp Manager {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity with Bundle - Line RollUp Manager</label>
+    <loops>
+        <name>LoopAndSetRollUps</name>
+        <label>LoopAndSetRollUps</label>
+        <locationX>1079</locationX>
+        <locationY>234</locationY>
+        <collectionReference>GetAllLineItems</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>RollUpType</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>UpdateFieldsOnOppty</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>Gets the name of the bundle from the Bundle Plan that&#39;s connected to the opportunity.</description>
+        <name>Get_Bundle_Name</name>
+        <label>Get Bundle Name</label>
+        <locationX>508</locationX>
+        <locationY>595</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>WhichPlan</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>bundlePlanId</elementReference>
+            </value>
+        </filters>
+        <object>Bundle_Plan__c</object>
+        <outputAssignments>
+            <assignToReference>bundlePlanName</assignToReference>
+            <field>Name</field>
+        </outputAssignments>
+    </recordLookups>
+    <recordLookups>
+        <name>GetAllLineItems</name>
+        <label>GetAllLineItems</label>
+        <locationX>50</locationX>
+        <locationY>418</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Bundle_IDs</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>OpportunityId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>OpportunityLineItem</object>
+        <sortField>Product_Name__c</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <description>for CB...we may have to set the Tier Plan field by using the fProductNameToTierMapping formula --- update formula first to encompass all the appropriate product names (may need to use contains)</description>
+        <name>UpdateFieldsOnOppty</name>
+        <label>UpdateFieldsOnOppty</label>
+        <locationX>1389</locationX>
+        <locationY>82</locationY>
+        <inputAssignments>
+            <field>Ad_Management_Fee__c</field>
+            <value>
+                <elementReference>fRollUpAdManagementFee</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Ad_Spend__c</field>
+            <value>
+                <elementReference>fRollUpAdSpendFee</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Monthly_Marketing_Fee__c</field>
+            <value>
+                <elementReference>fRollUpMarketingFee</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Monthly_Subscription_Fee__c</field>
+            <value>
+                <elementReference>fRollUpSubscriptionFee</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Number_of_IDX_Product_Lines__c</field>
+            <value>
+                <elementReference>vIDXToolQuantityCount</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>One_Time_Fee__c</field>
+            <value>
+                <elementReference>fRollUpOneTimeFee</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>149</locationX>
+        <locationY>11</locationY>
+        <connector>
+            <targetReference>GetAllLineItems</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>IsClosed</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>addOnAmountOver500</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+    </variables>
+    <variables>
+        <description>The threshold above which Add Ons are split or not split.</description>
+        <name>addOnSplitThreshold</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>500.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>addSpendNoALaCarteAmount</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <description>Stores the ID of the Bundle Plan</description>
+        <name>bundlePlanId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>bundlePlanName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>The total price of a current loop item.</description>
+        <name>thisItemTotalPrice</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+    </variables>
+    <variables>
+        <description>based upon plan set this variable to the proper constant value</description>
+        <name>vAdSpendPortionToAdManagementFeeFromConstant</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>6</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <description>based upon plan set this variable to the proper constant value</description>
+        <name>vAdSpendPortionToSubscriptionFeeFromConstant</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>6</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>vIDXToolQuantityCount</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>vPlanProductName</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>holds value of ad spend fee rollup attributed to addOns during loop
+-value contribution to this variable can come from any decision node in loop</description>
+        <name>vRollUpAddOnAdSpendFee</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <description>holds value of marketing fee rollup attributed to addOns during loop
+-value contribution to this variable can come from any decision node in loop</description>
+        <name>vRollUpAddOnMarketingFee</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <description>holds value of ad spend fee rollup attributed to One Time Fee during loop</description>
+        <name>vRollUpAddOnOneTimeSetUpFee</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <description>holds value of subscription fee rollup attributed to addOns during loop
+-value contribution to this variable can come from any decision node in loop</description>
+        <name>vRollUpAddOnSubscriptionFee</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <description>holds value of one-time setup fee rollup attributed to addOns during loop
+-value contribution to this variable can come from any decision node in loop</description>
+        <name>vRollUpOneTimeSetUpFee</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <description>rolls up value of ad spend management portion of plan by incrementing (in loop) the value every time an oppty line item meets criteria - used in fRollUp formulas</description>
+        <name>vRollUpPlanAdManagementFee</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <description>rolls up value of ad spend portion of plan by incrementing (in loop) the value every time an oppty line item meets criteria - used in fRollUp formulas</description>
+        <name>vRollUpPlanAdSpendFee</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <description>rolls up value of marketing portion of plan by incrementing (in loop) the value every time an oppty line item meets criteria - used in fRollUp formulas</description>
+        <name>vRollUpPlanMarketingFee</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <description>rolls up value of subscription portion of plan by incrementing (in loop) the value every time an oppty line item meets criteria - used in fRollUp formulas</description>
+        <name>vRollUpPlanSubscriptionFee</name>
+        <dataType>Currency</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>2</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+</Flow>

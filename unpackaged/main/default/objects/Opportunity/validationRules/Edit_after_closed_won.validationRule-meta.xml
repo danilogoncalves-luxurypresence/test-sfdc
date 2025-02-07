@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edit_after_closed_won</fullName>
+    <active>true</active>
+    <description>Only System Admin, Operations Team, Data Team, Sales Operations and Finance Team can edit the opp after closed</description>
+    <errorConditionFormula>AND(
+ISCHANGED(StageName),
+$Profile.Name &lt;&gt; &quot;Operations Team&quot;,
+$Profile.Name &lt;&gt; &quot;Sales Operations&quot;,
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+OR(Record_Type_Name__c = &quot;Closed Won - New Sales&quot;,
+Record_Type_Name__c = &quot;Closed Won - Addendum&quot;
+)
+)</errorConditionFormula>
+    <errorMessage>You don&#39;t have permission to edit the Opportunity after closed. Please contact System Admin.</errorMessage>
+</ValidationRule>

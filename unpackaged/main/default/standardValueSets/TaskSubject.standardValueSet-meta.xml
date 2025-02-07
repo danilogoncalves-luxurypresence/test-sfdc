@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Letter</fullName>
+        <default>false</default>
+        <label>Send Letter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Quote</fullName>
+        <default>false</default>
+        <label>Send Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>WB RR</fullName>
+        <default>false</default>
+        <label>WB RR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DS RR</fullName>
+        <default>false</default>
+        <label>DS RR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IDX RR</fullName>
+        <default>false</default>
+        <label>IDX RR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LE RR</fullName>
+        <default>false</default>
+        <label>LE RR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>HIC RR</fullName>
+        <default>false</default>
+        <label>HIC RR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CSS RR</fullName>
+        <default>false</default>
+        <label>CSS RR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Design QA FR1</fullName>
+        <default>false</default>
+        <label>Design QA FR1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Add Buyer Sync</fullName>
+        <default>false</default>
+        <label>Add Buyer Sync</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Remove Buyer Sync</fullName>
+        <default>false</default>
+        <label>Remove Buyer Sync</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Double Listing - Remove one MLS</fullName>
+        <default>false</default>
+        <label>Double Listing - Remove one MLS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Remove Agent Sync (Remove Listings)</fullName>
+        <default>false</default>
+        <label>Remove Agent Sync (Remove Listings)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Add Agent Sync (Sync Listings)</fullName>
+        <default>false</default>
+        <label>Add Agent Sync (Sync Listings)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Add Listing Sync (Property ID’s)</fullName>
+        <default>false</default>
+        <label>Add Listing Sync (Property ID’s)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Remove Listing Sync (Remove Property)</fullName>
+        <default>false</default>
+        <label>Remove Listing Sync (Remove Property)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Add Office Sync</fullName>
+        <default>false</default>
+        <label>Add Office Sync</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Remove Office Sync</fullName>
+        <default>false</default>
+        <label>Remove Office Sync</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Check Sync Status</fullName>
+        <default>false</default>
+        <label>Check Sync Status</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Property Audit</fullName>
+        <default>false</default>
+        <label>Property Audit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GA - GTM Account Access</fullName>
+        <default>false</default>
+        <label>GA - GTM Account Access</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pixel Implementation</fullName>
+        <default>false</default>
+        <label>Pixel Implementation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tag Implementation</fullName>
+        <default>false</default>
+        <label>Tag Implementation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lead Routing / Lead Email</fullName>
+        <default>false</default>
+        <label>Lead Routing / Lead Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Script Implementation</fullName>
+        <default>false</default>
+        <label>Script Implementation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CRM Integration</fullName>
+        <default>false</default>
+        <label>CRM Integration</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GSC Change Request</fullName>
+        <default>false</default>
+        <label>GSC Change Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>QA Assistants</fullName>
+        <default>false</default>
+        <label>QA Assistants</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Migration Audit QA</fullName>
+        <default>false</default>
+        <label>Migration Audit QA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Competitive Analysis</fullName>
+        <default>false</default>
+        <label>Competitive Analysis</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pause Campaign</fullName>
+        <default>false</default>
+        <label>Pause Campaign</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Change Blog Topic</fullName>
+        <default>false</default>
+        <label>Change Blog Topic</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Swap Topic</fullName>
+        <default>false</default>
+        <label>Swap Topic</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New or Additional Blog Topics</fullName>
+        <default>false</default>
+        <label>New or Additional Blog Topics</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Build Landing Page</fullName>
+        <default>false</default>
+        <label>Build Landing Page</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Launch Landing Page</fullName>
+        <default>false</default>
+        <label>Launch Landing Page</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IAO Launch Landing Page</fullName>
+        <default>false</default>
+        <label>IAO Launch Landing Page</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Change campaign (add/remove)</fullName>
+        <default>false</default>
+        <label>Change campaign (add/remove)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Change budget (increase/decrease)</fullName>
+        <default>false</default>
+        <label>Change budget (increase/decrease)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancel Campaign</fullName>
+        <default>false</default>
+        <label>Cancel Campaign</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Performance report request</fullName>
+        <default>false</default>
+        <label>Performance report request</label>
+    </standardValue>
+</StandardValueSet>

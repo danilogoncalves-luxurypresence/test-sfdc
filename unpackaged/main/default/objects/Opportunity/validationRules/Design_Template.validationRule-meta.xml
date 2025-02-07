@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Design_Template</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ $Profile.Name &lt;&gt; &quot;Onboarding&quot;,
+ $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+ ISCHANGED( StageName ),
+ ISPICKVAL ( StageName , &quot;Closed Won&quot;),
+ Record_Type_Name__c = &quot;New Sales&quot; , 
+OR(
+ ISPICKVAL( Design_Template__c, &quot;&quot; ),
+ ISPICKVAL( Deal_Split__c ,&quot;&quot;),
+ ISBLANK( Geographic_Target_Area_Areas_Served__c ),
+ ISBLANK( Client_Persona__c ),
+ ISBLANK( What_did_they_like_about_their_favorite__c ),
+ ISBLANK( What_clients_are_you_marketing_to__c ),
+ ISBLANK( Marketing_past_goals_competitors__c ),
+ ISPICKVAL( CRM_if_yes_please_specify__c ,&quot;&quot;),
+ ISPICKVAL( What_is_the_client_looking_to_achieve__c, &quot;&quot; ),
+ ISPICKVAL( Existing_website__c, &quot;&quot;),
+ ISPICKVAL( Difficulty_to_Close_Deal__c ,&quot;&quot;),
+ ISPICKVAL(  Client_Type__c , &quot;&quot; ),
+ ISBLANK( Brokerage__c ),
+ ISPICKVAL(   Account.Partnership_Organization__c, &quot;&quot;),
+ ISBLANK( Client_Notes__c ),
+ ISBLANK( LP_Site_Reference__c ),
+ ISPICKVAL( Beta_user__c,&quot;&quot; ),
+ ISBLANK( Subscription_Start_Date__c )
+ 
+
+)
+)</errorConditionFormula>
+    <errorMessage>Please, complete all fields in the &quot;Guidance for Success&quot; and &quot;Closed Won Required Fields&quot; sections.</errorMessage>
+</ValidationRule>

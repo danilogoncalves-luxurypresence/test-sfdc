@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Content_Revision_Type__c</fullName>
+    <label>Content Revision Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rewrites</fullName>
+                <default>false</default>
+                <label>Rewrites</label>
+            </value>
+            <value>
+                <fullName>Heavy Edits</fullName>
+                <default>false</default>
+                <label>Heavy Edits</label>
+            </value>
+            <value>
+                <fullName>Medium Edits</fullName>
+                <default>false</default>
+                <label>Medium Edits</label>
+            </value>
+            <value>
+                <fullName>Light Edits</fullName>
+                <default>false</default>
+                <label>Light Edits</label>
+            </value>
+            <value>
+                <fullName>Client Preference</fullName>
+                <default>false</default>
+                <label>Client Preference</label>
+            </value>
+            <value>
+                <fullName>Internal Error</fullName>
+                <default>false</default>
+                <label>Internal Error</label>
+            </value>
+            <value>
+                <fullName>Minor Edits</fullName>
+                <default>false</default>
+                <label>Minor Edits</label>
+            </value>
+            <value>
+                <fullName>Major Edits</fullName>
+                <default>false</default>
+                <label>Major Edits</label>
+            </value>
+            <value>
+                <fullName>Client Notes Not Addressed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Client Notes Not Addressed</label>
+            </value>
+            <value>
+                <fullName>Minor Changes</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Minor Changes</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Writer Error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Writer Error</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>Rescheduling/Demo Ghosted - Day 1</name>
+    <style>freeForm</style>
+    <subject>Luxury Presence - Rescheduling Link</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+
+It looks like we missed each other today. Let&#39;s schedule another time to walk through your goals and how we can help.
+
+
+You can use my meeting link to schedule a time that works for you, or reply to this email and let me know when would be best for you to meet.
+
+
+I&#39;m looking forward to showing you how we can tell your story with a personalized website.
+
+
+PS in the meantime, take a look at a few of our agents that recently won Wall Street Journal &amp; RealTrends awards:
+
+Darlene Streit -- Wall Street Journal REAL Trends 2022 Best Design Category
+Granston Group -- Wall Street Journal REAL Trends 2022 Best Seller Category
+The Malibu Life -- Wall Street Journal REAL Trends 2022 Best Video Category
+
+Thanks,
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

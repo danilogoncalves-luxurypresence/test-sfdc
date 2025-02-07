@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_email_to_Paulina_Bremer</name>
+        <label>Send email to Paulina Bremer</label>
+        <locationX>490</locationX>
+        <locationY>708</locationY>
+        <actionName>Service__c.New_social_media_service</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Create_SS</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Service__c.New_social_media_service</nameSegment>
+        <offset>0</offset>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <description>Send email 5 days before subscription start date</description>
+        <name>Service_will_begin</name>
+        <label>Service will begin</label>
+        <locationX>4450</locationX>
+        <locationY>384</locationY>
+        <actionName>Service__c.Service_is_to_begin_in_5_days</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Service__c.Service_is_to_begin_in_5_days</nameSegment>
+        <offset>0</offset>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>54.0</apiVersion>
+    <assignments>
+        <name>Add_1</name>
+        <label>Add 1</label>
+        <locationX>1304</locationX>
+        <locationY>1656</locationY>
+        <assignmentItems>
+            <assignToReference>Months</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Count</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>SSCollection</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>SSCollection</name>
+        <label>SSCollection</label>
+        <locationX>1304</locationX>
+        <locationY>1764</locationY>
+        <assignmentItems>
+            <assignToReference>SSCollectionVar</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>sVarSS</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <isGoTo>true</isGoTo>
+            <targetReference>Create_SS</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>sVarSSrecord</name>
+        <label>sVarSS</label>
+        <locationX>1304</locationX>
+        <locationY>1548</locationY>
+        <assignmentItems>
+            <assignToReference>sVarSS.Due_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>LastDaySocialMedia</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>sVarSS.Service__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>sVarSS.Account_Manager__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Account_Manager__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>sVarSS.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>SSNameSocialMedia</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>sVarSS.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Label.ID_SS_Social_Media</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_1</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <description>If &quot;Confirm new domain for SEO Migration&quot; is true in the opportunity then create &quot;Get client&#39;s new domain for SEO Migration&quot; task</description>
+        <name>Confirm_new_domain_for_SEO_Migration</name>
+        <label>Confirm new domain for SEO Migration</label>
+        <locationX>182</locationX>
+        <locationY>492</locationY>
+        <defaultConnector>
+            <targetReference>Is_beta_user</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Is_true</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Opportunity__r.Confirm_new_domain_for_SEO_Migration__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Confirm_new_domain_for_SEO_Migration_task</targetReference>
+            </connector>
+            <label>Is true</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Create_SS</name>
+        <label>Create SS</label>
+        <locationX>1436</locationX>
+        <locationY>1440</locationY>
+        <defaultConnector>
+            <targetReference>Create_SS_Records</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Social_Media</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Label.ID_Service_Social_Media</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Count</leftValueReference>
+                <operator>LessThan</operator>
+                <rightValue>
+                    <numberValue>12.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>sVarSSrecord</targetReference>
+            </connector>
+            <label>Social Media</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Is_beta_user</name>
+        <label>Is beta user?</label>
+        <locationX>182</locationX>
+        <locationY>792</locationY>
+        <defaultConnector>
+            <targetReference>Create_SS</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Beta_user</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Opportunity__r.Beta_user__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Yes</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Status_On_Hold</targetReference>
+            </connector>
+            <label>Beta user</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Evaluate the MLS related with the Opportunity</description>
+        <name>MLS</name>
+        <label>MLS?</label>
+        <locationX>2118</locationX>
+        <locationY>492</locationY>
+        <defaultConnector>
+            <targetReference>Create_SS</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>TREB</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.MLS_Board__r.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>TREB</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Collect_Domain_Information_task</targetReference>
+            </connector>
+            <label>TREB</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Plan_0</name>
+        <label>Plan</label>
+        <locationX>3790</locationX>
+        <locationY>384</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Not_Launch_Not_Brand</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Opportunity__r.Tier_Plan__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Launch</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Opportunity__r.Tier_Plan__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Brand</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SEO_Campaign_Summary</targetReference>
+            </connector>
+            <label>Not Launch, Not Brand</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Record_Type</name>
+        <label>Record Type</label>
+        <locationX>2998</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Website_Launch</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Website Launches</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Schedule_Welcome_Call_meeting</targetReference>
+            </connector>
+            <label>Website Launch</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Record_type1</name>
+        <label>Record type</label>
+        <locationX>4582</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Website_launches1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Website Launches</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Service_will_begin</targetReference>
+            </connector>
+            <label>Website launches</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Record_Types</name>
+        <label>Record Types</label>
+        <locationX>1436</locationX>
+        <locationY>384</locationY>
+        <defaultConnector>
+            <targetReference>Create_SS</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Website_Launches</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Website Launches</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Confirm_new_domain_for_SEO_Migration</targetReference>
+            </connector>
+            <label>Website Launches</label>
+        </rules>
+        <rules>
+            <name>SocialMedia</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Social Media</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Account_Social_Media</targetReference>
+            </connector>
+            <label>Social Media</label>
+        </rules>
+        <rules>
+            <name>Pages_of_Copywriting</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pages of Copywriting</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Account_Content</targetReference>
+            </connector>
+            <label>Pages of Copywriting</label>
+        </rules>
+        <rules>
+            <name>SEO_Key_Word_Analysis_SEO_Migration_SEO_Opt_GBP_Posts</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>SEO Keyword Analysis</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>SEO Migration</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>SEO Optimizations</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>GBP Posts</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Account_SEO</targetReference>
+            </connector>
+            <label>SEO Key Word Analysis, SEO Migration, SEO Opt, GBP Posts</label>
+        </rules>
+        <rules>
+            <name>Property_Website</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Property Website</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Property_Website_task</targetReference>
+            </connector>
+            <label>Property Website</label>
+        </rules>
+        <rules>
+            <name>Paid_Media1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Paid Media</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Account_Paid_Media</targetReference>
+            </connector>
+            <label>Paid Media</label>
+        </rules>
+        <rules>
+            <name>MLS_Implementation</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>MLS Implementation</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>MLS</targetReference>
+            </connector>
+            <label>MLS Implementation</label>
+        </rules>
+        <rules>
+            <name>Brand_Identity</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Label.ID_Service_Brand_Identity</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Brand_Identity_true</targetReference>
+            </connector>
+            <label>Brand Identity</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>SEO_Key_Word_Analysis_Premium_Elite</name>
+        <label>SEO Key Word Analysis, Premium/Elite</label>
+        <locationX>1150</locationX>
+        <locationY>900</locationY>
+        <defaultConnector>
+            <targetReference>Create_SS</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Premium_Elite</name>
+            <conditionLogic>1 AND (2 OR 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>SEO Keyword Analysis</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Opportunity__r.Tier_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Premium</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Opportunity__r.Tier_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Elite</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Competitive_Analysis</targetReference>
+            </connector>
+            <label>Premium/Elite</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>SEO_Keyword_analysis</name>
+        <label>SEO Keyword analysis</label>
+        <locationX>1150</locationX>
+        <locationY>600</locationY>
+        <defaultConnector>
+            <targetReference>SEO_Key_Word_Analysis_Premium_Elite</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>SEO_Keyword</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>SEO Keyword Analysis</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Account_SEO_Keyword_analysis</targetReference>
+            </connector>
+            <label>SEO Keyword</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Should_system_create_Campaign_Summary</name>
+        <label>Should system create Campaign Summary</label>
+        <locationX>3988</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes_it_s_SEO_Optimization</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>SEO Optimizations</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Name</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>(Monthly)</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Plan_0</targetReference>
+            </connector>
+            <label>Yes, it&#39;s SEO Optimization</label>
+        </rules>
+    </decisions>
+    <description>Create SS, Send emails, Create Tasks</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>Count1</name>
+        <dataType>Number</dataType>
+        <expression>{!Count}+1</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>DateValue</name>
+        <dataType>Date</dataType>
+        <expression>ADDMONTHS({!$Record.CreatedDate},{!Months})</expression>
+    </formulas>
+    <formulas>
+        <name>DateValue_1</name>
+        <dataType>Date</dataType>
+        <expression>ADDMONTHS({!DateValue},-1)</expression>
+    </formulas>
+    <formulas>
+        <name>DueDate1</name>
+        <dataType>DateTime</dataType>
+        <expression>{!$Flow.CurrentDateTime} + 1</expression>
+    </formulas>
+    <formulas>
+        <name>DueDate14BDays</name>
+        <dataType>Date</dataType>
+        <expression>CASE(
+MOD({!$Flow.CurrentDate}- DATE(1900, 1, 7), 7),
+0, ({!$Flow.CurrentDate}) + 14 + FLOOR((14-1)/5)*2,
+1, ({!$Flow.CurrentDate}) + 14+ FLOOR((14)/5)*2,
+2, ({!$Flow.CurrentDate}) + 14 + FLOOR((14+1)/5)*2,
+3, ({!$Flow.CurrentDate}) + 14 + FLOOR((14+2)/5)*2,
+4, ({!$Flow.CurrentDate}) + 14 + FLOOR((14+3)/5)*2,
+5, ({!$Flow.CurrentDate}) + 14 + CEILING((14)/5)*2,
+6, ({!$Flow.CurrentDate}) - IF(14&gt;0,1,0) + 14 + CEILING((14)/5)*2,
+null)</expression>
+    </formulas>
+    <formulas>
+        <name>DueDate1BuinessDay</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+  5, {!$Flow.CurrentDate} + 3,
+  6, {!$Flow.CurrentDate} + 2,
+  {!$Flow.CurrentDate} + 1
+)</expression>
+    </formulas>
+    <formulas>
+        <name>DueDate20</name>
+        <dataType>Date</dataType>
+        <expression>{!$Flow.CurrentDate}+20</expression>
+    </formulas>
+    <formulas>
+        <name>DueDate2BusinessDays</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+  4, {!$Flow.CurrentDate} + 4,
+  5, {!$Flow.CurrentDate} + 4,
+  6, {!$Flow.CurrentDate} + 3,
+  {!$Flow.CurrentDate} + 2
+)</expression>
+    </formulas>
+    <formulas>
+        <name>DueDate2weeks</name>
+        <dataType>DateTime</dataType>
+        <expression>{!$Flow.CurrentDateTime} + 14</expression>
+    </formulas>
+    <formulas>
+        <name>DueDate4BusinessDays</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+    2, {!$Flow.CurrentDate} + 6,
+3, {!$Flow.CurrentDate} + 6,
+  4, {!$Flow.CurrentDate} + 6,
+  5, {!$Flow.CurrentDate} + 6,
+  6, {!$Flow.CurrentDate} + 5,
+  {!$Flow.CurrentDate} + 4
+)</expression>
+    </formulas>
+    <formulas>
+        <name>DueDate7</name>
+        <dataType>DateTime</dataType>
+        <expression>{!$Flow.CurrentDateTime}+7</expression>
+    </formulas>
+    <formulas>
+        <name>DueDateIDXTool</name>
+        <dataType>Date</dataType>
+        <expression>IF(
+{!$Record.Website_Type__c} = &quot;Agent Website&quot;, {!$Flow.CurrentDate} + 2, {!$Flow.CurrentDate} + 3)</expression>
+    </formulas>
+    <formulas>
+        <name>forContentType</name>
+        <dataType>String</dataType>
+        <expression>IF(
+{!Count} = 0, &quot;Agent Bio&quot;, &quot;Neighborhood Guide&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <name>forDueDateQuarterly</name>
+        <dataType>Date</dataType>
+        <expression>CASE(
+{!Count},
+0, IF(AND( OR( {!forMonth}=1, {!forMonth}=2, {!forMonth}=3), {!forThisYear}=0) , DATE(YEAR(TODAY()),03,31), DATE(YEAR(TODAY())+1,03,31)), 
+1, IF( AND(OR( {!forMonth}=1, {!forMonth}=2, {!forMonth}=3, {!forMonth}=4, {!forMonth}=5, {!forMonth}=6),{!forThisYear}=0) , DATE(YEAR(TODAY()),06,30), DATE(YEAR(TODAY())+1,06,30)),
+2, IF( AND(OR( {!forMonth}=10, {!forMonth}=11, {!forMonth}=12),{!forThisYear}=1 ), DATE(YEAR(TODAY())+1,09,30), DATE(YEAR(TODAY()),09,30)),
+3, IF( AND(OR( {!forMonth}=10, {!forMonth}=11, {!forMonth}=12),{!forThisYear}=0) , DATE(YEAR(TODAY())+1,12,31), DATE(YEAR(TODAY()),12,31)),
+DATE(2023,3,31)
+)</expression>
+    </formulas>
+    <formulas>
+        <name>forMonth</name>
+        <dataType>Number</dataType>
+        <expression>MONTH(TODAY())</expression>
+        <scale>0</scale>
+    </formulas>
+    <formulas>
+        <name>forPagesCopywrittingName</name>
+        <dataType>String</dataType>
+        <expression>CASE( {!Count}, 
+1, {!$Record.Account__r.Name} + &quot;- Neighborhood Guide - #1&quot;,
+2, {!$Record.Account__r.Name} + &quot;- Neighborhood Guide - #2&quot;,
+3, {!$Record.Account__r.Name} + &quot;- Neighborhood Guide - #3&quot;,
+4, {!$Record.Account__r.Name} + &quot;- Neighborhood Guide - #4&quot;,
+5, {!$Record.Account__r.Name} + &quot;- Neighborhood Guide - #5&quot;,
+6, {!$Record.Account__r.Name} +&quot;- Neighborhood Guide - #6&quot;,
+{!$Record.Account__r.Name} +&quot;- Agent Bio&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <name>forScheduleMeetingName</name>
+        <dataType>String</dataType>
+        <expression>IF(
+OR({!$Record.Opportunity__r.VIP__c}= true, {!$Record.Opportunity__r.Semi_Custom_Pod__c} = true), 
+&quot;Schedule Design intake call&quot;, 
+&quot;Schedule welcome call&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <name>forThisYear</name>
+        <dataType>Number</dataType>
+        <expression>CASE(
+{!Count}, 
+0, IF(TODAY()&gt; DATE(YEAR(TODAY()),02,15),1,0),
+1, IF(TODAY()&gt; DATE(YEAR(TODAY()),05,15),1,0),
+2, IF(TODAY()&gt; DATE(YEAR(TODAY()),08,15),1,0),
+3, IF(TODAY()&gt; DATE(YEAR(TODAY()),11,15),1,0),
+0
+)</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>LastDayAllRT</name>
+        <dataType>Date</dataType>
+        <expression>IF( MONTH( {!DateValue} ) = 12, 
+DATE( YEAR( {!DateValue} ), 12, 31 ), 
+DATE( YEAR( {!DateValue} ), MONTH({!DateValue} ) + 1, 1) - 1)</expression>
+    </formulas>
+    <formulas>
+        <name>LastDaySocialMedia</name>
+        <dataType>Date</dataType>
+        <expression>IF( MONTH( {!DateValue_1} ) = 12, 
+DATE( YEAR( {!DateValue_1} ), 12, 20 ), 
+DATE( YEAR( {!DateValue_1} ), MONTH({!DateValue_1} ) , 20) )</expression>
+    </formulas>
+    <formulas>
+        <name>Month</name>
+        <dataType>String</dataType>
+        <expression>CASE(MONTH({!DateValue}),
+1, &quot;January&quot;,
+2,&quot;February&quot;,
+3, &quot;March&quot;,
+4, &quot;April&quot;,
+5,&quot;May&quot;,
+6,&quot;June&quot;,
+7,&quot;July&quot;,
+8,&quot;August&quot;,
+9,&quot;September&quot;,
+10,&quot;October&quot;,
+11,&quot;November&quot;,
+12,&quot;December&quot;,null)</expression>
+    </formulas>
+    <formulas>
+        <name>SSName</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account__r.Name}+ &quot; - &quot; + {!$Record.RecordType.Name} + &quot; - &quot;+{!Month}</expression>
+    </formulas>
+    <formulas>
+        <name>SSNameQuarterly</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account__r.Name}+ &quot; - &quot;+{!$Record.RecordType.Name} + &quot; - Quarter&quot;+TEXT({!Count1})</expression>
+    </formulas>
+    <formulas>
+        <name>SSNameSocialMedia</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Name} + &quot; - &quot; +{!Month}</expression>
+    </formulas>
+    <formulas>
+        <name>Subject</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account__r.Name}+ &quot; Index Audit&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>SubjectSEOCampaign</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account__r.Name}+ &quot; SEO Campaign Summary&quot;</expression>
+    </formulas>
+    <interviewLabel>LP - New Service {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>LP - New Service</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Collect_Domain_Information_task</name>
+        <label>Collect Domain Information task</label>
+        <locationX>1986</locationX>
+        <locationY>600</locationY>
+        <connector>
+            <targetReference>Create_SS</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.Account__r.Implementation_Manager__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>RecordTypeId</field>
+            <value>
+                <elementReference>$Label.ID_Task_IDX</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Collect Domain Information</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Competitive_Analysis</name>
+        <label>Competitive Analysis</label>
+        <locationX>1018</locationX>
+        <locationY>1008</locationY>
+        <connector>
+            <targetReference>Create_SS</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Competitive Analysis</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Compliance_QA</name>
+        <label>Compliance QA</label>
+        <locationX>1458</locationX>
+        <locationY>1140</locationY>
+        <connector>
+            <targetReference>Property_Website_Builder</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Property_Website_task.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Compliance QA</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Confirm_new_domain_for_SEO_Migration_task</name>
+        <label>Confirm new domain for SEO Migration task</label>
+        <locationX>50</locationX>
+        <locationY>600</locationY>
+        <connector>
+            <targetReference>Is_beta_user</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Confirm new domain for SEO Migration</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Create_SS_Records</name>
+        <label>Create SS Records</label>
+        <locationX>1568</locationX>
+        <locationY>1548</locationY>
+        <inputReference>SSCollectionVar</inputReference>
+    </recordCreates>
+    <recordCreates>
+        <name>GTM_Implementation_0</name>
+        <label>GTM Implementation</label>
+        <locationX>1458</locationX>
+        <locationY>924</locationY>
+        <connector>
+            <targetReference>Newsletter_Integration</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Property_Website_task.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>GTM Implementation</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>HIC</name>
+        <label>HIC</label>
+        <locationX>1458</locationX>
+        <locationY>600</locationY>
+        <connector>
+            <targetReference>SEO_Meta_Title_and_Description</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Property_Website_task.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>HIC</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Newsletter_Integration</name>
+        <label>Newsletter Integration</label>
+        <locationX>1458</locationX>
+        <locationY>1032</locationY>
+        <connector>
+            <targetReference>Compliance_QA</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Property_Website_task.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Newsletter Integration</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Property_Website_Builder</name>
+        <label>Property Website Builder</label>
+        <locationX>1458</locationX>
+        <locationY>1248</locationY>
+        <connector>
+            <targetReference>Create_SS</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Property_Website_task.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Property Website Builder</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Schedule_Welcome_Call_meeting</name>
+        <label>Schedule Welcome Call Meeting</label>
+        <locationX>2866</locationX>
+        <locationY>384</locationY>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Open</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>forScheduleMeetingName</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>SEO_Campaign_Summary</name>
+        <label>SEO Campaign Summary</label>
+        <locationX>3658</locationX>
+        <locationY>492</locationY>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>SubjectSEOCampaign</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>SEO_Meta_Title_and_Description</name>
+        <label>SEO Meta Title and Description</label>
+        <locationX>1458</locationX>
+        <locationY>708</locationY>
+        <connector>
+            <targetReference>Universal_GA_ID_0</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Property_Website_task.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>SEO Meta Title and Description </stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Universal_GA_ID_0</name>
+        <label>Universal GA ID</label>
+        <locationX>1458</locationX>
+        <locationY>816</locationY>
+        <connector>
+            <targetReference>GTM_Implementation_0</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Property_Website_task.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Universal GA ID</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordLookups>
+        <name>Property_Website_task</name>
+        <label>Property Website task</label>
+        <locationX>1458</locationX>
+        <locationY>492</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>HIC</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Property_website_task_user__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Account_Content</name>
+        <label>Account - Content</label>
+        <locationX>754</locationX>
+        <locationY>492</locationY>
+        <connector>
+            <targetReference>Update_Due_Date</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Account__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Content__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Account_Paid_Media</name>
+        <label>Account - Paid Media</label>
+        <locationX>1722</locationX>
+        <locationY>492</locationY>
+        <connector>
+            <targetReference>Create_SS</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Account__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Paid_Media__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Account_SEO</name>
+        <label>Account - SEO</label>
+        <locationX>1150</locationX>
+        <locationY>492</locationY>
+        <connector>
+            <targetReference>SEO_Keyword_analysis</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Account__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>SEO__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Account_SEO_Keyword_analysis</name>
+        <label>Account - SEO Keyword analysis</label>
+        <locationX>1018</locationX>
+        <locationY>708</locationY>
+        <connector>
+            <targetReference>SEO_Key_Word_Analysis_Premium_Elite</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Account__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Keyword_Analysis__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Account_Social_Media</name>
+        <label>Account - Social Media</label>
+        <locationX>490</locationX>
+        <locationY>492</locationY>
+        <connector>
+            <targetReference>Contract_Social_Media</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Account__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Social_Media__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Brand_Identity_true</name>
+        <label>Brand Identity - True</label>
+        <locationX>2426</locationX>
+        <locationY>492</locationY>
+        <connector>
+            <targetReference>Create_SS</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Brand_Identity__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Contact_Email</name>
+        <label>Contact Email</label>
+        <locationX>1436</locationX>
+        <locationY>276</locationY>
+        <connector>
+            <targetReference>Record_Types</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Account_Manager__c</field>
+            <value>
+                <elementReference>$Record.Account__r.Account_Manager__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Agent_Contact_Email__c</field>
+            <value>
+                <elementReference>$Record.Account__r.Contact__r.Email</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Broker_contact_email__c</field>
+            <value>
+                <elementReference>$Record.Account__r.Broker_Contact_Email__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Contract_Social_Media</name>
+        <label>Contract - Social Media</label>
+        <locationX>490</locationX>
+        <locationY>600</locationY>
+        <connector>
+            <targetReference>Send_email_to_Paulina_Bremer</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Contract__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Social_Media_Service__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Social_Media__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>Contract</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Status_On_Hold</name>
+        <label>Status On Hold</label>
+        <locationX>50</locationX>
+        <locationY>900</locationY>
+        <connector>
+            <targetReference>Create_SS</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>On_Hold_Reason__c</field>
+            <value>
+                <stringValue>In-app Onboarding</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>On hold</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Due_Date</name>
+        <label>Update Due Date</label>
+        <locationX>754</locationX>
+        <locationY>600</locationY>
+        <connector>
+            <targetReference>Create_SS</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Due_Date__c</field>
+            <value>
+                <elementReference>DueDate20</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>2883</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Contact_Email</targetReference>
+        </connector>
+        <object>Service__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <scheduledPaths>
+            <name>X1_Day_after</name>
+            <connector>
+                <targetReference>Record_Type</targetReference>
+            </connector>
+            <label>1 Day after</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>CreatedDate</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>X6_weeks</name>
+            <label>6 Weeks after</label>
+            <offsetNumber>42</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>CreatedDate</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>X10_Months_after</name>
+            <connector>
+                <targetReference>Should_system_create_Campaign_Summary</targetReference>
+            </connector>
+            <label>10 Months after</label>
+            <offsetNumber>300</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>CreatedDate</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>X5_days_before_subscription_start_date</name>
+            <connector>
+                <targetReference>Record_type1</targetReference>
+            </connector>
+            <label>5 days before subscription start date</label>
+            <offsetNumber>-5</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>Subscription_start_date__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>Count</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Months</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>1.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>SSCollectionVar</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Service_schedule__c</objectType>
+    </variables>
+    <variables>
+        <name>sVarSS</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Service_schedule__c</objectType>
+    </variables>
+</Flow>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Support</fullName>
+    <fields>Subject</fields>
+    <fields>Status</fields>
+    <fields>CaseNumber</fields>
+    <fields>Revision_Due_Date_Flag__c</fields>
+    <fields>Due_Date__c</fields>
+    <fields>OwnerId</fields>
+    <label>Internal Support</label>
+</CompactLayout>

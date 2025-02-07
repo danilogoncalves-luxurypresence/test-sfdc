@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bundle_Product_Highlights_Panel</fullName>
+    <fields>Name_Unique__c</fields>
+    <fields>Bundle_Plan__c</fields>
+    <fields>Standard_Price__c</fields>
+    <fields>Bundle_Price__c</fields>
+    <fields>Fixed_Price_Discount_Override__c</fields>
+    <fields>Discount_Override__c</fields>
+    <label>Bundle Product Highlights Panel</label>
+</CompactLayout>

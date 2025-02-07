@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>TX Compass w/ J. Rene Walker as BoR - Not Compliant - 2nd Follow Up</name>
+    <style>freeForm</style>
+    <subject>TX Compass w/ J. Rene Walker as BoR - Not Compliant - 2nd Follow Up</subject>
+    <textOnly>Hi {!Service__c.Contact_First_Name__c},
+
+Hope your week is going great! I wanted to follow up on the previous email. Compass requires the site meets their compliance rules and regulations before we can create the IDX request form for you and your broker of record to sign. Let me know if you have any questions on the items required for your site to meet compliance.
+
+Please note if the IDX is not approved before your site goes live we will have to hide the Home Search tool where the IDX data is currently being displayed.
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

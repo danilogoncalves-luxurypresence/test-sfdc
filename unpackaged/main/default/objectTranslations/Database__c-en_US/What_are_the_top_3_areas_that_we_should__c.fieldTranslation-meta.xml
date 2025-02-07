@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Priority Locations: These are the areas where we will focus our primary SEO efforts. Think about the cities or town where you are currently doing business or where you want to establish presence in the coming year --></help>
+        <label><!-- Top 3 areas that we should prioritize --></label>
+        <name>What_are_the_top_3_areas_that_we_should__c</name>
+    </CustomFieldTranslation>

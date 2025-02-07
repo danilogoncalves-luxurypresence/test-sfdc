@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Activation__c</fullName>
+    <description>Field was used when we were processing paused addendums. This field should remain for historical data, but no longer be in use as of 6/1/2023</description>
+    <label>Service Activation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

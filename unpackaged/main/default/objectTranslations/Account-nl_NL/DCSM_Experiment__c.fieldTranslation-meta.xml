@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field is used to track Accounts for the Digital CSM Experiment. --></help>
+        <label><!-- DCSM Experiment --></label>
+        <name>DCSM_Experiment__c</name>
+        <picklistValues>
+            <masterLabel>DCSM Experiment A</masterLabel>
+            <translation><!-- DCSM Experiment A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DCSM Experiment B</masterLabel>
+            <translation><!-- DCSM Experiment B --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

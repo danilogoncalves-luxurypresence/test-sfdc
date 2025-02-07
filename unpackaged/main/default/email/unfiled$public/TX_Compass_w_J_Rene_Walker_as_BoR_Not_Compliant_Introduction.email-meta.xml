@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>TX Compass w/ J. Rene Walker as BoR - Not Compliant - Introduction</name>
+    <style>freeForm</style>
+    <subject>IDX Introduction - {!Service__c.Contact_First_Name__c}{!Service__c.Contact_Last_Name__c}</subject>
+    <textOnly>Hi {!Service__c.Contact_First_Name__c},
+
+It&#39;s great to e-meet you! My name is {!Service__c.OwnerFullName} and I&#39;m an IDX Coordinator here at Luxury Presence. I am contacting you to start the MLS paperwork process!
+
+In order for us to display IDX data on your website, {!Service__c.MLS_Board_Name__c} requires us to have a data access agreement signed. Additionally, Compass also has compliance requirements that the site has to meet before your Broker of Record is able to sign.
+
+1. If the site is for a Team or Group the name and logo must be on the home page. Team/group names must end in “Team” or “Group”.
+2. If the site is for an individual agent the descriptor of an agent, sales agent, sales associate, or REALTOR® (including the trademark symbol) must be beside or under the agent name on the home page. 3. The Texas Real Estate Commission Information for Brokerage Services on the footer.
+4. The Texas Real Estate Commission Consumer Protection Notice on the footer.
+5. Compass logo is required to be on the footer but not allowed on Header of Homepage
+
+If you could please provide your updated IABS, and my team will work on making all updates needed to meet Compass compliance requirements.
+
+Lastly, if you do not have a Domain/URL finalized, no problem! Please wait until your next call with your Implementation Manager and they will be able to discuss URL options with you in detail. Let me know if you have any questions in the meantime. I&#39;m here to help!
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

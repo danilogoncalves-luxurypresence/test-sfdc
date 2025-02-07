@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- New Plan --></label>
+        <name>New_Plan__c</name>
+        <picklistValues>
+            <masterLabel>Brand+</masterLabel>
+            <translation><!-- Brand+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth+</masterLabel>
+            <translation><!-- Growth+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Launch+</masterLabel>
+            <translation><!-- Launch+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium+</masterLabel>
+            <translation><!-- Premium+ --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

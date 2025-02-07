@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBP_Login_Email__c</fullName>
+    <label>GBP Login Email</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>seo@luxurypresence.com</fullName>
+                <default>false</default>
+                <label>seo@luxurypresence.com</label>
+            </value>
+            <value>
+                <fullName>luxurypresenceseo@gmail.com</fullName>
+                <default>false</default>
+                <label>luxurypresenceseo@gmail.com</label>
+            </value>
+            <value>
+                <fullName>seogbp@luxurypresence.com</fullName>
+                <default>false</default>
+                <label>seogbp@luxurypresence.com</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

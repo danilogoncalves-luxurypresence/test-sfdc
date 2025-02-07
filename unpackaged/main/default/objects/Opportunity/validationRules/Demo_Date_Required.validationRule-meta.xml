@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo_Date_Required</fullName>
+    <active>true</active>
+    <description>When creating an opportunity through lead conversion or from an existing account, a new sales opportunity should always have a demo date.</description>
+    <errorConditionFormula>AND(
+ ISNEW(),
+ ISBLANK(Demo_Date__c),
+ NOT(ISPICKVAL(StageName,&#39;Flaked&#39;)),
+ Record_Type_Name__c = &quot;New Sales&quot;
+)</errorConditionFormula>
+    <errorDisplayField>Demo_Date__c</errorDisplayField>
+    <errorMessage>Please provide when the demo was held</errorMessage>
+</ValidationRule>

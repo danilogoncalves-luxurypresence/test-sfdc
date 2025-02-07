@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Pro_Bundles_with_Custom_Design</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+/*Changing Fields*/
+OR ( ISCHANGED(Website_Design__c),
+ISCHANGED(Bundle__c)
+),
+/*Different Bundle with Website Design*/
+OR(
+
+AND(ISPICKVAL(Website_Design__c, &#39;Pro&#39;),
+CONTAINS(Bundle__r.Name,&#39;Custom&#39;)),
+
+AND(ISPICKVAL(Website_Design__c, &#39;Custom&#39;),
+NOT(CONTAINS(Bundle__r.Name,&#39;Custom&#39;)))
+
+)
+)</errorConditionFormula>
+    <errorMessage>You can not select this website design with this plan. Please select Custom for Custom Plans, or Pro for Pro Plans.</errorMessage>
+</ValidationRule>

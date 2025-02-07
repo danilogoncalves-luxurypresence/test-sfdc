@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <assignments>
+        <name>Assign_Current_Tier_Rank</name>
+        <label>Assign Current Tier Rank</label>
+        <locationX>396</locationX>
+        <locationY>539</locationY>
+        <assignmentItems>
+            <assignToReference>CurrentTierRank</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>FormulaTierPlan</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Check_If_Highest_Tier_Plan</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_New_Highest_Tier_Rank</name>
+        <label>Assign New Highest Tier Rank</label>
+        <locationX>264</locationX>
+        <locationY>755</locationY>
+        <assignmentItems>
+            <assignToReference>HighestTierRank</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>CurrentTierRank</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>HighestTierPlan</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Check_Highest_Tier_Plan.Tier_Plan__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Check_Highest_Tier_Plan</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Check_If_Highest_Tier_Plan</name>
+        <label>Check Current and Highest</label>
+        <locationX>396</locationX>
+        <locationY>647</locationY>
+        <defaultConnector>
+            <targetReference>Check_Highest_Tier_Plan</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Higher</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>CurrentTierRank</leftValueReference>
+                <operator>GreaterThanOrEqualTo</operator>
+                <rightValue>
+                    <elementReference>HighestTierRank</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_New_Highest_Tier_Rank</targetReference>
+            </connector>
+            <label>Current &gt; Highest</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>If_Null</name>
+        <label>If Null</label>
+        <locationX>176</locationX>
+        <locationY>1031</locationY>
+        <defaultConnector>
+            <targetReference>Update_Highest_Tier_Plan</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>HighestTierRank</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Null</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>FormulaTierPlan</name>
+        <dataType>Number</dataType>
+        <expression>CASE(
+    {!Check_Highest_Tier_Plan.Tier_Plan__c},
+    &quot;None&quot;, 1,
+    &quot;Launch&quot;, 2,
+    &quot;Brand&quot;, 3,
+    &quot;Growth&quot;, 4,
+    &quot;Premium&quot;, 5,
+    &quot;Elite&quot;, 6,
+    &quot;Base&quot;, 7,
+    &quot;Launch+&quot;, 8,
+    &quot;Brand+&quot;, 9,
+    &quot;Growth+&quot;, 10,
+    &quot;Premium+&quot;, 11,
+    &quot;Enterprise&quot;, 12,
+    &quot;Leads Pro&quot;, 13,
+    &quot;SEO Pro&quot;, 14,
+    &quot;Lead&quot;, 15,
+    &quot;Presence Premier&quot;, 16,
+    &quot;Leads Premier&quot;, 17,
+    &quot;SEO Premier&quot;, 18,
+    &quot;All In Premier&quot;, 19,
+    0
+)</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>Subscription_AfterUpdate_HighestTierPlanOnAccount {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Subscription_AfterUpdate_HighestTierPlanOnAccount</label>
+    <loops>
+        <name>Check_Highest_Tier_Plan</name>
+        <label>Check Highest Tier Plan</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <collectionReference>Get_Subscriptions</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Assign_Current_Tier_Rank</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>If_Null</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Subscriptions</name>
+        <label>Get Subscriptions</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_Highest_Tier_Plan</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>AccountId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.AccountId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Activated</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Contract</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Highest_Tier_Plan</name>
+        <label>Update Highest Tier Plan</label>
+        <locationX>308</locationX>
+        <locationY>1139</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.AccountId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Tier_Plan__c</field>
+            <value>
+                <elementReference>HighestTierPlan</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Subscriptions</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Tier_Plan__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Contract</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <triggerOrder>1030</triggerOrder>
+    <variables>
+        <name>CurrentTierRank</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <name>HighestTierPlan</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>HighestTierRank</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>Subscriptions</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

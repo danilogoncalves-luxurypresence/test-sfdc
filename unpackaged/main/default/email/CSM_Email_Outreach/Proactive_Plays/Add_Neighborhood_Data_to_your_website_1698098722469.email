@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}}<br />
+<br />
+I noticed you haven’t activated our new Neighborhood Data feature yet.<br />
+<br />
+The feature lets you add School Data, Walkability Scores, and Demographic and Employment Data to the Neighborhood pages of your website.<br />
+<br />
+It is great for SEO and will help you rank for more local search terms. It’s included free of charge with your current plan with us.<br />
+<br />
+Since launching the feature, over 5,000 of our clients have already enabled it on their websites to grow their Google rankings.<br />
+<br />
+Would you like me to add it to your website?<br />
+<br />
+Best,&nbsp;<br />
+{{{Sender.FirstName}}}</body>
+</html>

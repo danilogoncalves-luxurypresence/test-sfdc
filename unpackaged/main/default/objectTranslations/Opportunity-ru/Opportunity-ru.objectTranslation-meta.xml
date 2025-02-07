@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Add Service</layout>
+        <sections>
+            <label><!-- Difference --></label>
+            <section>Difference</section>
+        </sections>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Product &amp; Contract Information --></label>
+            <section>Product &amp; Contract Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Addendum</layout>
+        <sections>
+            <label><!-- Contract Details --></label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label><!-- Current Fee --></label>
+            <section>Current Fee</section>
+        </sections>
+        <sections>
+            <label><!-- Demo Information --></label>
+            <section>Demo Information</section>
+        </sections>
+        <sections>
+            <label><!-- New Fee --></label>
+            <section>New Fee</section>
+        </sections>
+        <sections>
+            <label><!-- Refunds --></label>
+            <section>Refunds</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CS Addendums</layout>
+        <sections>
+            <label><!-- Contract Details --></label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label><!-- Current Fee --></label>
+            <section>Current Fee</section>
+        </sections>
+        <sections>
+            <label><!-- Form Detail --></label>
+            <section>Form Detail</section>
+        </sections>
+        <sections>
+            <label><!-- New Fee --></label>
+            <section>New Fee</section>
+        </sections>
+        <sections>
+            <label><!-- Refunds --></label>
+            <section>Refunds</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>LP - Closed  Won - New Sales</layout>
+        <sections>
+            <label><!-- Client Details --></label>
+            <section>Client Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing &amp; Social Media --></label>
+            <section>Marketing &amp; Social Media</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Product &amp; Contract Information --></label>
+            <section>Product &amp; Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- System information --></label>
+            <section>System information</section>
+        </sections>
+        <sections>
+            <label><!-- Website Details --></label>
+            <section>Website Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>LP - Closed Won Addendum</layout>
+        <sections>
+            <label><!-- Contract Details --></label>
+            <section>Contract Details</section>
+        </sections>
+        <sections>
+            <label><!-- Current Fee --></label>
+            <section>Current Fee</section>
+        </sections>
+        <sections>
+            <label><!-- New Fee --></label>
+            <section>New Fee</section>
+        </sections>
+        <sections>
+            <label><!-- Refunds --></label>
+            <section>Refunds</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>LP - Opportunity layout</layout>
+        <sections>
+            <label><!-- Client Details --></label>
+            <section>Client Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Demo Information --></label>
+            <section>Demo Information</section>
+        </sections>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing &amp; Social Media --></label>
+            <section>Marketing &amp; Social Media</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Product &amp; Contract Information --></label>
+            <section>Product &amp; Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- System information --></label>
+            <section>System information</section>
+        </sections>
+        <sections>
+            <label><!-- Website Details --></label>
+            <section>Website Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>LP - Sales Closed Won Opp</layout>
+        <sections>
+            <label><!-- Client Details --></label>
+            <section>Client Details</section>
+        </sections>
+        <sections>
+            <label><!-- Closed Won Required Fields --></label>
+            <section>Closed Won Required Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Demo Information --></label>
+            <section>Demo Information</section>
+        </sections>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Product &amp; Contract Information --></label>
+            <section>Product &amp; Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- System information --></label>
+            <section>System information</section>
+        </sections>
+        <sections>
+            <label><!-- Website Details --></label>
+            <section>Website Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>LP - Sales Opportunity layout</layout>
+        <sections>
+            <label><!-- Client Details --></label>
+            <section>Client Details</section>
+        </sections>
+        <sections>
+            <label><!-- Closed Won Required Fields --></label>
+            <section>Closed Won Required Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Demo Information --></label>
+            <section>Demo Information</section>
+        </sections>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Product &amp; Contract Information --></label>
+            <section>Product &amp; Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- System information --></label>
+            <section>System information</section>
+        </sections>
+        <sections>
+            <label><!-- Website Details --></label>
+            <section>Website Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout</layout>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Partnership Deals</layout>
+        <sections>
+            <label><!-- Client Details --></label>
+            <section>Client Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Product &amp; Contract Information --></label>
+            <section>Product &amp; Contract Information</section>
+        </sections>
+        <sections>
+            <label><!-- System information --></label>
+            <section>System information</section>
+        </sections>
+        <sections>
+            <label><!-- Website Details --></label>
+            <section>Website Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Reactivation</layout>
+        <sections>
+            <label><!-- Budget Fields --></label>
+            <section>Budget Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Difference --></label>
+            <section>Difference</section>
+        </sections>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Product &amp; Contract Information --></label>
+            <section>Product &amp; Contract Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Reduce Service</layout>
+        <sections>
+            <label><!-- Difference --></label>
+            <section>Difference</section>
+        </sections>
+        <sections>
+            <label><!-- Fees --></label>
+            <section>Fees</section>
+        </sections>
+        <sections>
+            <label><!-- Product &amp; Contract Information --></label>
+            <section>Product &amp; Contract Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Add or Change a Plan --></label>
+        <name>Add_or_Change_a_Plan</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Closed Won Required Fields --></label>
+        <name>Closed_Won_Required_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Contract Required Fields --></label>
+        <name>Contract_Required_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- MLS Fields --></label>
+        <name>MLS_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Manage Products --></label>
+        <name>Manage_Products</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Manager MLS Fields --></label>
+        <name>Manager_MLS_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Mark status as complete --></label>
+        <name>Mark_status_as_complete</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Opportunity Admin &amp; Sales Ops - Journey Date/Time Stamps --></label>
+        <name>Opportunity_Admin_Sales_Ops_Journey_Date_Time_Stamps</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Opportunity Admin &amp; Sales Ops - Supporting Fields --></label>
+        <name>Opportunity_Admin_Sales_Ops_Supporting_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Opportunity Admin &amp; Sales Ops - UTM Fields --></label>
+        <name>Opportunity_Admin_Sales_Ops_UTM_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Other Opportunity Fields --></label>
+        <name>Other_Opportunity_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Record Demo Outcome --></label>
+        <name>Record_Demo_Outcome</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SDR Fields --></label>
+        <name>SDR_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Opportunity --></label>
+        <name>VIPFields</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Add Service --></label>
+        <name>Add_Service</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Addendum --></label>
+        <name>Addendum</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Closed Won - Addendum --></label>
+        <name>Closed_Won_Addendum</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Closed Won - New Sales --></label>
+        <name>Closed_Won_New_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- New Sales --></label>
+        <name>New_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Partnership Deals --></label>
+        <name>Partnership_Deals</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Reactivation --></label>
+        <name>Reactivation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Reduce Service --></label>
+        <name>Reduce_Service</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please add a primary contact on the account --></errorMessage>
+        <name>Account_Primary_Contact</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The field &quot;Lead Gen Service&quot; should link to the specific service where the ad budget adjustment will be applied. --></errorMessage>
+        <name>Ad_Spend_and_Add_Plan_false</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please only add a Tier Plan is the client is adding a new plan/subscription, if that&apos;s the case, please select the field &quot;Add Plan&quot; to indicate that. --></errorMessage>
+        <name>Add_Plan_False</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Since Add Plan is selected, please remove the related Subscription as this is from another active subscription, once removed, when you go to the Subscription stage the appropriate subscription will be created for this new subscription. --></errorMessage>
+        <name>Add_Plan_True_Contact_Draft</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in the website design field --></errorMessage>
+        <name>Addendum_Add_Website_Design</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not modify the Addendum, please contact the system admin. --></errorMessage>
+        <name>Addendum_Automated_Worked</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure to add Addendum Effective Date in order to Closed Won the opportunity. --></errorMessage>
+        <name>Addendum_Effective_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not close an &quot;Addendum&quot; opportunity if a New Sales opportunity does not exist on the account. Please reach out to the #salesforce channel for assistance. --></errorMessage>
+        <name>Addendum_Opportunity</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete Subscription Extension Date. --></errorMessage>
+        <name>Addendum_SubscriptionExtensionDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill this field before changing status to Closed Won. --></errorMessage>
+        <name>Addendum_execution_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Select Addendum Type before changing to Close Won --></errorMessage>
+        <name>Addendum_type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- There should not be a difference in MRR with extension, please review that current and new fees match. --></errorMessage>
+        <name>Addendum_type_Extension</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete the Reactivation Date field --></errorMessage>
+        <name>Addendum_type_Paused</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot complete an upgrade/downgrade only for MRR change here, please create an Add or Reduce Opportunity for this. --></errorMessage>
+        <name>Addendum_with_same_Tier_Plan</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete the number of subdomains --></errorMessage>
+        <name>Agent_Subdomains</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not modify the Close Date after the opportunity has been closed. --></errorMessage>
+        <name>Close_Date_After_Closed_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Closed lost root cause&quot; is blank. Please provide a root cause before moving this opportunity to closed lost. --></errorMessage>
+        <name>Closed_Lost_Cause_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Closed lost primary&quot; reason is blank. Please provide a primary reason before moving this opportunity to closed lost. --></errorMessage>
+        <name>Closed_Lost_Primary_Reason_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please, include the Subscription information. If there is no Subscription on the Account, or you believe the Subscription details are not correct, please, get in touch with your Salesforce Administrator. --></errorMessage>
+        <name>Contract_not_empty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please indicate the Count of Subdomains Purchased --></errorMessage>
+        <name>Count_of_Subdomains_Purchased</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill out the current fee section before close --></errorMessage>
+        <name>Current_Fees</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The demo date cannot be more than 30 days from today. --></errorMessage>
+        <name>Demo_Date_Greater_than_30_Days</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide when the demo was held --></errorMessage>
+        <name>Demo_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete Design and Product Expectations --></errorMessage>
+        <name>Design_Product_Expectations_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please, complete all fields in the &quot;Guidance for Success&quot; and &quot;Closed Won Required Fields&quot; sections. --></errorMessage>
+        <name>Design_Template</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You don&apos;t have permission to edit the Opportunity after closed. Please contact System Admin. --></errorMessage>
+        <name>Edit_after_closed_won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Addendum Effective Date must be today or a future date. --></errorMessage>
+        <name>Effective_Date_Before_Closed_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Addendum Execution Date must be today or a future date. --></errorMessage>
+        <name>Execution_Date_Before_Closed_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please make sure to add Addendum Execution Date and Billing Start Date in order to Closed Won the opportunity --></errorMessage>
+        <name>Execution_Date_and_Billing_Start_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not go back to Flaked stage. --></errorMessage>
+        <name>Flaked_Stage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- In order to close the opportunity, please fill the IAO Contact --></errorMessage>
+        <name>IAO_Contact</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- LP Sales team should add MLS Board --></errorMessage>
+        <name>IDX_Tool</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please, make sure the number of IDX Products added and MLS Boards added match. --></errorMessage>
+        <name>IDX_and_MLS_numbers</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- f the Client is a Brokerage they are not eligible for In-App Onboarding. Please Set &quot;In-App Onboarding&quot; to No&quot; instead of &quot;None&quot; --></errorMessage>
+        <name>In_app_Onboarding_for_Brokerages</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not make a Addendum with a Legacy Tier Plan, please check your information. --></errorMessage>
+        <name>Legacy_Plans</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Closed opportunities can not be modified. If you need further assistance, reach out to our #crm-team --></errorMessage>
+        <name>Lock_Closed_Opportunities</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The client&apos;s MRR cannot be $0, please add the correct MRR or use the correct opportunity type for this case. --></errorMessage>
+        <name>MRR_Not_0</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill before changing to Closed Won --></errorMessage>
+        <name>Marketing_fee</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill before changing to Closed Won --></errorMessage>
+        <name>MonthlyMarketing_fee</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill before changing to Closed Won --></errorMessage>
+        <name>Monthly_fee</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not create a &quot;New Sales&quot; opportunity since the Account already has a New Sales opportunity --></errorMessage>
+        <name>New_Sales_Oppotunities</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please document the Omit Reason in the Client Notes field --></errorMessage>
+        <name>Omit_from_Reporting_Note</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please check &quot;Plan Migration&quot; field --></errorMessage>
+        <name>Plan_Migration</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not select this website design with this plan. Please select Custom for Custom Plans, or Pro for Pro Plans. --></errorMessage>
+        <name>Prevent_Pro_Bundles_with_Custom_Design</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete Primary reason field. --></errorMessage>
+        <name>Primary_reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete Refund, Refund reason and Credit fields --></errorMessage>
+        <name>Refund_Credit_yes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please set  Refund or Credit as 0 --></errorMessage>
+        <name>Refund_or_Credit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot add a Tier Plan unless this Reduce opportunity is removing the plan entirely. If that is the case, please check the &quot;Remove plan&quot; checkbox --></errorMessage>
+        <name>Remove_Plan_with_Tier_Plan</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To create a new sales opportunity, please provide the following required field: Client Type. --></errorMessage>
+        <name>Required_Fields_Upon_New_Sales_Creation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fields missing. --></errorMessage>
+        <name>Required_fields_Demo_held_to_Contract</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete Root Cause field. --></errorMessage>
+        <name>Root_Cause</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity cannot be closed until 3/4/23. Please connect with your manager for assistance. --></errorMessage>
+        <name>SEO_Pro_and_Leads_Pro_Tier_Plan</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill the Saved Notes field. --></errorMessage>
+        <name>Saved_Notes_Addendum</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in the Service Activation date --></errorMessage>
+        <name>Service_activation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete Social Media field --></errorMessage>
+        <name>Social_Media</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot select a Subscription Extension Date before Subscription Start Date --></errorMessage>
+        <name>Subscription_Extension_Date_before_Start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please create a Tenant record before closing the opportunity. --></errorMessage>
+        <name>Tenants_in_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill before changing to Closed Won --></errorMessage>
+        <name>TierPlan_Addendum</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The &quot;Total Fees&quot; field cannot be empty, make sure you go through &quot;Manage Products&quot; to ensure you have the plan, contract term and products added so the fees populate. --></errorMessage>
+        <name>Total_Fees_Not_Null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You are not allowed to set Override Subscription Renewal Date to &quot;No&quot;. Please reach out to your CSM Manager. --></errorMessage>
+        <name>Validate_Override_Renewal_Date_Field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Override Subscription Renewal Date is still pending approval. Please reach out to your CSM Manager. --></errorMessage>
+        <name>Validate_Override_Renewal_at_Close_Won</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill the phone field on the primary contact. --></errorMessage>
+        <name>Validate_Primary_Contact_Phone</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before closing a TTV opportunity, please provide the following: OM (at account level). --></errorMessage>
+        <name>Validate_TTV_Opportunity_Fields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete this field --></errorMessage>
+        <name>Website_Implementation_Service</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete &quot;Website Subscription Payment Term&quot; and &quot;Marketing Subscription Payment Term&quot; before closing the opportunity --></errorMessage>
+        <name>Website_and_Marketing_Subscription</name>
+    </validationRules>
+</CustomObjectTranslation>

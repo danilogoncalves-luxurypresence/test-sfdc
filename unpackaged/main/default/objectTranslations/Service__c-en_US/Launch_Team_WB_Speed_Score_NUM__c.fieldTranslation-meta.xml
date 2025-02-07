@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Launch Team: WB Speed Score --></label>
+        <name>Launch_Team_WB_Speed_Score_NUM__c</name>
+    </CustomFieldTranslation>

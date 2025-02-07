@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support_24</letterhead>
+    <name>Cancellation Request</name>
+    <style>freeForm</style>
+    <subject>We&#39;re Here to Help - Next Steps with Luxury Presence</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Thank you for reaching out to Luxury Presence Support. I&#39;m sorry to hear you&#39;re thinking of cancelling your website.
+
+It&#39;s important to us that we meet your expectations. Before I loop in the accounts team to go through next steps, I’d love to better understand the reason behind your decision. We value your partnership and want to ensure we’ve done everything we can to help you get the most out of your website!
+
+Are there any specific challenges or areas where we could improve? Your feedback is really important to us, and we’d appreciate the opportunity to address any concerns you may have.
+
+Looking forward to hearing from you!
+
+Best regards,
+{!User.FirstName}
+Luxury Presence Support
+(310) 955-1077
+support@luxurypresence.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

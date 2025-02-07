@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal Requests</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Blocked</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Deployed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Discovery</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Needs Deployment</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Ready</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Ready for UAT</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Review</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>UAT</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

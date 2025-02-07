@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hello&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+I hope you're doing well since we last connected.<br />
+<br />
+As we enter the last week of the quarter, I've been approved to put together pricing well below what I can typically get approved for any clients I've met with this year.<br />
+<br />
+I would love to review our end-of-quarter discounts if you have a few minutes this week.<br />
+<br />
+Feel free to reach out: 480-956-5628 (direct line, call/text)<br />
+Or book a meeting with me&nbsp;<a href="http://meetings.hubspot.com/amanda719">here</a><span style="font-size:11.0pt"><span style="font-family:Calibri">.</span></span><br />
+<br />
+I look forward to reconnecting!<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}</body>
+</html>

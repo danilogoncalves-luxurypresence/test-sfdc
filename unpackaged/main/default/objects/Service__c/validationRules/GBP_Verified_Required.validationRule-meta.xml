@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBP_Verified_Required</fullName>
+    <active>false</active>
+    <description>SF Case #00151185</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Status__c, &quot;Ready to Launch&quot;),
+Tier_Plan__c &lt;&gt; &quot;Launch+&quot;,
+OR(
+RecordType.Name = &quot;In - App Onboarding&quot;,
+RecordType.Name = &quot;Website Launches&quot;,
+RecordType.Name = &quot;Custom Website&quot;
+
+),
+
+
+
+OR (
+ISPICKVAL( Was_the_GBP_Verified__c ,&quot;&quot;),
+AND(
+ISPICKVAL(Was_the_GBP_Verified__c, &quot;No&quot;),
+ISBLANK( Why_was_the_GBP_not_verified__c )
+)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Was_the_GBP_Verified__c</errorDisplayField>
+    <errorMessage>&quot;Was the GBP Verified?&quot; is Required. If &quot;No&quot; is selected please fill out Why GBP was not verified.</errorMessage>
+</ValidationRule>

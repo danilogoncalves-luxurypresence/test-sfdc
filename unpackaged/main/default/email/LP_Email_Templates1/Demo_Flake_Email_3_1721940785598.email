@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Please forgive my professional persistence, happy to reach out by phone but I figured email is preferred.<br />
+<br />
+I'd love to find a better time for us to connect.<br />
+https://luxurypresence.na.chilipiper.com/book/me/{{{Sender.FirstName}}}-{{{Sender.LastName}}}<br />
+<br />
+In the meantime, check out some of our <a href="https://www.luxurypresence.com/case-studies/">case studies</a> and <a href="https://www.luxurypresence.com/real-estate-marketing-platform/">solutions</a> that will help you generate leads, save time, and wow your clients.</p>
+
+<p>The best way to generate leads is by creating a clear, consistent, and memorable personal brand to stand out from the other agents.<br />
+&nbsp;</p>
+
+<p>Best regards,<br />
+{{{Sender.Name}}}</p>
+</body>
+</html>

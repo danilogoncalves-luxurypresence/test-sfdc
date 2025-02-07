@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Time Zone --></label>
+        <name>Time_Zone__c</name>
+        <picklistValues>
+            <masterLabel>Alaska Time (AK)</masterLabel>
+            <translation><!-- Alaska Time (AK) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Denver</masterLabel>
+            <translation><!-- America/Denver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/Los_Angeles</masterLabel>
+            <translation><!-- America/Los_Angeles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>America/New_York</masterLabel>
+            <translation><!-- America/New_York --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Atlantic Standard (AST)</masterLabel>
+            <translation><!-- Atlantic Standard (AST) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Central Time (CT)</masterLabel>
+            <translation><!-- Central Time (CT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eastern Time (ET)</masterLabel>
+            <translation><!-- Eastern Time (ET) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMT-10 Hawaii-Aleutian Standard Time</masterLabel>
+            <translation><!-- GMT-10 Hawaii-Aleutian Standard Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMT-4 Eastern Daylight Time</masterLabel>
+            <translation><!-- GMT-4 Eastern Daylight Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMT-5 Central Daylight Time</masterLabel>
+            <translation><!-- GMT-5 Central Daylight Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMT-6 Mountain Daylight Time</masterLabel>
+            <translation><!-- GMT-6 Mountain Daylight Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMT-7 Pacific Daylight Time</masterLabel>
+            <translation><!-- GMT-7 Pacific Daylight Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMT-8 Alaska Daylight Time</masterLabel>
+            <translation><!-- GMT-8 Alaska Daylight Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii Standard Time (HST)</masterLabel>
+            <translation><!-- Hawaii Standard Time (HST) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountain Standard Time (MST)</masterLabel>
+            <translation><!-- Mountain Standard Time (MST) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountain Time (MT)</masterLabel>
+            <translation><!-- Mountain Time (MT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Newfoundland Standard (NDT)</masterLabel>
+            <translation><!-- Newfoundland Standard (NDT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific Time (PT)</masterLabel>
+            <translation><!-- Pacific Time (PT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Puerto Rico Standard Time (PST)</masterLabel>
+            <translation><!-- Puerto Rico Standard Time (PST) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

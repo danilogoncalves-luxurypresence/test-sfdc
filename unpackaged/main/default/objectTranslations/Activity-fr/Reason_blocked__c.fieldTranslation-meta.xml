@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reason blocked --></label>
+        <name>Reason_blocked__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting for DS</masterLabel>
+            <translation><!-- Waiting for DS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on IM</masterLabel>
+            <translation><!-- Waiting on IM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on Logo</masterLabel>
+            <translation><!-- Waiting on Logo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on Sales</masterLabel>
+            <translation><!-- Waiting on Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on WB</masterLabel>
+            <translation><!-- Waiting on WB --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

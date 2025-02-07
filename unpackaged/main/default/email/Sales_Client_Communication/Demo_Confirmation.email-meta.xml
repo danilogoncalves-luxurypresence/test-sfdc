@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to confirm a demo after your Set a prospect.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>Demo Confirmation</name>
+    <style>freeForm</style>
+    <subject>Luxury Presence Consultation | Before our call...</subject>
+    <textOnly>Hi {!Lead.Name},
+
+
+
+Thank you for your time today! 
+
+
+
+Our next call is scheduled for [day of week], [month] [date] at [time] [a.m./p.m.] [timezone]. I’ll be presenting a live demo, so please make sure you’re in front of a computer for the best experience. 
+
+
+
+I’m looking forward to learning more about your goals and sharing details about how Luxury Presence can help you grow your business.
+
+
+
+In advance of our call, check out this video for a great overview of our all-in-one platform.
+
+
+
+Speak with you soon!
+
+
+
+
+{!Lead.OwnerFirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

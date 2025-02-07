@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subscription_Extension_Date_before_Start</fullName>
+    <active>true</active>
+    <errorConditionFormula>Subscription_Extension_Date__c &lt;  Subscription_Start_Date__c</errorConditionFormula>
+    <errorDisplayField>Subscription_Extension_Date__c</errorDisplayField>
+    <errorMessage>You cannot select a Subscription Extension Date before Subscription Start Date</errorMessage>
+</ValidationRule>

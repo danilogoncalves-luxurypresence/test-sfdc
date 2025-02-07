@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Rating Reason --></label>
+        <name>Rating_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Acknowledgment of value gained from the LP’s product and solutions</masterLabel>
+            <translation><!-- Acknowledgment of value gained from the LP’s product and solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Active client engagement and participation in discussions</masterLabel>
+            <translation><!-- Active client engagement and participation in discussions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adequate client participation, but not highly engaged</masterLabel>
+            <translation><!-- Adequate client participation, but not highly engaged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call includes routine updates but strategic discussions are one-way without involvement from the client</masterLabel>
+            <translation><!-- Call includes routine updates but strategic discussions are one-way without involvement from the client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clear and proactive communication during the call</masterLabel>
+            <translation><!-- Clear and proactive communication during the call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Clear communication, but lacking depth or proactiveness</masterLabel>
+            <translation><!-- Clear communication, but lacking depth or proactiveness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client expressed concerns with budget</masterLabel>
+            <translation><!-- Client expressed concerns with budget --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client expresses dissatisfaction or negative feedback</masterLabel>
+            <translation><!-- Client expresses dissatisfaction or negative feedback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client is having issues in understanding/communicating their goals</masterLabel>
+            <translation><!-- Client is having issues in understanding/communicating their goals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client is neither overly positive nor negative</masterLabel>
+            <translation><!-- Client is neither overly positive nor negative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client is unhappy with performance or delayed deliverables</masterLabel>
+            <translation><!-- Client is unhappy with performance or delayed deliverables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Collaboration and enthusiasm were demonstrated during the call</masterLabel>
+            <translation><!-- Collaboration and enthusiasm were demonstrated during the call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivering additional value or unexpected positive outcomes.</masterLabel>
+            <translation><!-- Delivering additional value or unexpected positive outcomes. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lack of clear communication during the call</masterLabel>
+            <translation><!-- Lack of clear communication during the call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited client contribution to the conversation</masterLabel>
+            <translation><!-- Limited client contribution to the conversation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited participation or interest in discussions</masterLabel>
+            <translation><!-- Limited participation or interest in discussions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low client engagement during the call</masterLabel>
+            <translation><!-- Low client engagement during the call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No specific feedback provided</masterLabel>
+            <translation><!-- No specific feedback provided --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The client expresses satisfaction and positive feedback</masterLabel>
+            <translation><!-- The client expresses satisfaction and positive feedback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The client is a strong candidate for upselling opportunities</masterLabel>
+            <translation><!-- The client is a strong candidate for upselling opportunities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The client is happy about positive performance and deliverables are on track</masterLabel>
+            <translation><!-- The client is happy about positive performance and deliverables are on track --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The client is indifferent about performance</masterLabel>
+            <translation><!-- The client is indifferent about performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The client is initiating discussions on potential improvements or opportunities</masterLabel>
+            <translation><!-- The client is initiating discussions on potential improvements or opportunities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The client is not putting much effort into their marketing outside of what LP is doing</masterLabel>
+            <translation><!-- The client is not putting much effort into their marketing outside of what LP is doing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unresolved complaints or concerns are voiced during the call</masterLabel>
+            <translation><!-- Unresolved complaints or concerns are voiced during the call --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

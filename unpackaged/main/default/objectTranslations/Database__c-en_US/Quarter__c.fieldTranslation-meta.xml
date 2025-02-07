@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Quarter in which the assessment was completed. --></help>
+        <label><!-- Quarter --></label>
+        <name>Quarter__c</name>
+        <picklistValues>
+            <masterLabel>Q1&#39;24</masterLabel>
+            <translation><!-- Q1&apos;24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q1&#39;25</masterLabel>
+            <translation><!-- Q1&apos;25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q2&#39;24</masterLabel>
+            <translation><!-- Q2&apos;24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q2&#39;25</masterLabel>
+            <translation><!-- Q2&apos;25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q3&#39;24</masterLabel>
+            <translation><!-- Q3&apos;24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q3&#39;25</masterLabel>
+            <translation><!-- Q3&apos;25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q4&#39;23</masterLabel>
+            <translation><!-- Q4&apos;23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q4&#39;24</masterLabel>
+            <translation><!-- Q4&apos;24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q4&#39;25</masterLabel>
+            <translation><!-- Q4&apos;25 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

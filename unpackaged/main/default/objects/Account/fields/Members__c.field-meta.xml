@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Members__c</fullName>
+    <label>Members</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All Agents</fullName>
+                <default>false</default>
+                <label>All Agents</label>
+            </value>
+            <value>
+                <fullName>All Partners</fullName>
+                <default>false</default>
+                <label>All Partners</label>
+            </value>
+            <value>
+                <fullName>Affiliates Only</fullName>
+                <default>false</default>
+                <label>Affiliates Only</label>
+            </value>
+            <value>
+                <fullName>Brokerage Only</fullName>
+                <default>false</default>
+                <label>Brokerage Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

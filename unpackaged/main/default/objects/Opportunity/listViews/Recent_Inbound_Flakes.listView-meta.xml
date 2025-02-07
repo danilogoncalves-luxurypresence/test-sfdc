@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recent_Inbound_Flakes</fullName>
+    <booleanFilter>(1 OR 2 OR 3 OR 4)</booleanFilter>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>SDR_user__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Opportunity_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>006Rg00000Fn6YHIAZ,006Rg00000FefWrIAJ,006Rg00000FFqSHIA1,006Rg00000FFN5JIAX,006Rg00000FAoCcIAL,006Rg00000F67e6IAB,006Rg00000EsTcsIAF,006Rg00000EocRpIAJ,006Rg00000El8BmIAJ,006Rg00000ERj2cIAD</value>
+    </filters>
+    <filters>
+        <field>Opportunity_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>006Rg00000EQ5P0IAL,006Rg00000Euoy9IAB,006Rg00000FKhTBIA1,006Rg00000FYC4YIAX,006Rg00000FDRD3IAP,006Rg00000EvZU1IAN,006Rg00000EnlqXIAR,006Rg00000EssmYIAR,006Rg00000G4eKEIAZ,006Rg00000FytqnIAB</value>
+    </filters>
+    <filters>
+        <field>Opportunity_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>006Rg00000EzI3BIAV,006Rg00000EJY4MIAX,006Rg00000EBZtdIAH,006Rg00000EjhFFIAZ,006Rg00000Fg3thIAB,006Rg00000FflySIAR,006Rg00000FaxQlIAJ,006Rg00000FR6boIAD</value>
+    </filters>
+    <filters>
+        <field>Opportunity_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>006Rg00000FM00kIAD,006Rg00000F1SGAIA3,006Rg00000Ewmx4IAB,006Rg00000ES3KfIAL,006Rg00000EewurIAB,006Rg00000FOSsBIAX,006Rg00000ExwSvIAJ,006Rg00000ExCd0IAF,006Rg00000EgivxIAB,006Rg00000EQ4cbIAD,006Rg00000F94OkIAJ</value>
+    </filters>
+    <label>Recent Inbound Flakes</label>
+</ListView>

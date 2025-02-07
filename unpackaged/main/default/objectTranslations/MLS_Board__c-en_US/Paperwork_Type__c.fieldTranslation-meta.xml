@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Paperwork Type --></label>
+        <name>Paperwork_Type__c</name>
+        <picklistValues>
+            <masterLabel>Alexander Team Only</masterLabel>
+            <translation><!-- Alexander Team Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Initiated</masterLabel>
+            <translation><!-- Client Initiated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client-Initiated</masterLabel>
+            <translation><!-- Client-Initiated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client-Initiated/Digital Agreements</masterLabel>
+            <translation><!-- Client-Initiated/Digital Agreements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Agreements</masterLabel>
+            <translation><!-- Digital Agreements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opt-in</masterLabel>
+            <translation><!-- Opt-in --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical Agreements</masterLabel>
+            <translation><!-- Physical Agreements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical IDX Agreement</masterLabel>
+            <translation><!-- Physical IDX Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical IDX Agreement or Client?</masterLabel>
+            <translation><!-- Physical IDX Agreement or Client? --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor-Friendly</masterLabel>
+            <translation><!-- Vendor-Friendly --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

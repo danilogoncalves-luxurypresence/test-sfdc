@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_your_business_more_buyer_or_seller_fo__c</fullName>
+    <inlineHelpText>Is your business more buyer or seller-focused? What would you like to be</inlineHelpText>
+    <label>More buyer or seller-focused</label>
+    <length>131072</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DCSM_Experiment__c</fullName>
+    <description>Digital CSM Experiment marker for test accounts</description>
+    <inlineHelpText>This field is used to track Accounts for the Digital CSM Experiment.</inlineHelpText>
+    <label>DCSM Experiment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DCSM Experiment A</fullName>
+                <default>false</default>
+                <label>DCSM Experiment A</label>
+            </value>
+            <value>
+                <fullName>DCSM Experiment B</fullName>
+                <default>false</default>
+                <label>DCSM Experiment B</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

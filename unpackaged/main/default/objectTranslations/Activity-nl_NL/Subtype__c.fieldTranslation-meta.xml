@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Subtype --></label>
+        <name>Subtype__c</name>
+        <picklistValues>
+            <masterLabel>&quot;Detail Pages&quot; do not follow metadata best practices:</masterLabel>
+            <translation><!-- &quot;Detail Pages&quot; do not follow metadata best practices: --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Correct GBP URL</masterLabel>
+            <translation><!-- Correct GBP URL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fix the following broken links</masterLabel>
+            <translation><!-- Fix the following broken links --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP Set Up Service is not complete</masterLabel>
+            <translation><!-- GBP Set Up Service is not complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSC 404/Soft 404 Errors</masterLabel>
+            <translation><!-- GSC 404/Soft 404 Errors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDX integration is not complete</masterLabel>
+            <translation><!-- IDX integration is not complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implement the redirects for key pages</masterLabel>
+            <translation><!-- Implement the redirects for key pages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indexing Check</masterLabel>
+            <translation><!-- Indexing Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Pages Migration Verification</masterLabel>
+            <translation><!-- Key Pages Migration Verification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Listings are not populating</masterLabel>
+            <translation><!-- Listings are not populating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locations aren&#39;t available in the neighborhood data section</masterLabel>
+            <translation><!-- Locations aren&apos;t available in the neighborhood data section --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Locations cannot be found in Google Maps:</masterLabel>
+            <translation><!-- Locations cannot be found in Google Maps: --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meta Robots Check</masterLabel>
+            <translation><!-- Meta Robots Check --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NAP is not consistent with Salesforce/GBP/USPS</masterLabel>
+            <translation><!-- NAP is not consistent with Salesforce/GBP/USPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighborhood Data Elements</masterLabel>
+            <translation><!-- Neighborhood Data Elements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighborhood Guide Content</masterLabel>
+            <translation><!-- Neighborhood Guide Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighborhood Map &amp; Properties</masterLabel>
+            <translation><!-- Neighborhood Map &amp; Properties --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other pages do not follow metadata best practices:</masterLabel>
+            <translation><!-- Other pages do not follow metadata best practices: --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>People are not searching the following location(s) by name</masterLabel>
+            <translation><!-- People are not searching the following location(s) by name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preserve the content of these key pages</masterLabel>
+            <translation><!-- Preserve the content of these key pages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Review GBP URL</masterLabel>
+            <translation><!-- Review GBP URL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEO Migration Service is not Done</masterLabel>
+            <translation><!-- SEO Migration Service is not Done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Target neighborhoods are not in one State/County</masterLabel>
+            <translation><!-- Target neighborhoods are not in one State/County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The KWA Service is not complete</masterLabel>
+            <translation><!-- The KWA Service is not complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The location for the KWA is not one of the neighborhood/MLS pages</masterLabel>
+            <translation><!-- The location for the KWA is not one of the neighborhood/MLS pages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>There are no MLS listings for the following areas</masterLabel>
+            <translation><!-- There are no MLS listings for the following areas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website 404 Check</masterLabel>
+            <translation><!-- Website 404 Check --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

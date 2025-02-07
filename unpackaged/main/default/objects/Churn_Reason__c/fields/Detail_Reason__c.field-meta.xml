@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Detail_Reason__c</fullName>
+    <label>Detail Reason</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Root_Cause__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Quantity of Leads</fullName>
+                <default>false</default>
+                <label>Quantity of Leads</label>
+            </value>
+            <value>
+                <fullName>Quality of Leads</fullName>
+                <default>false</default>
+                <label>Quality of Leads</label>
+            </value>
+            <value>
+                <fullName>Search Engine Ranking</fullName>
+                <default>false</default>
+                <label>Search Engine Ranking</label>
+            </value>
+            <value>
+                <fullName>Website Traffic</fullName>
+                <default>false</default>
+                <label>Website Traffic</label>
+            </value>
+            <value>
+                <fullName>Website Customization Limitations</fullName>
+                <default>false</default>
+                <label>Website Customization Limitations</label>
+            </value>
+            <value>
+                <fullName>MLS Feed Functionality</fullName>
+                <default>false</default>
+                <label>MLS Feed Functionality</label>
+            </value>
+            <value>
+                <fullName>Home Search Tool</fullName>
+                <default>false</default>
+                <label>Home Search Tool</label>
+            </value>
+            <value>
+                <fullName>CRM Integration</fullName>
+                <default>false</default>
+                <label>CRM Integration</label>
+            </value>
+            <value>
+                <fullName>Deliverable Delayed</fullName>
+                <default>false</default>
+                <label>Deliverable Delayed</label>
+            </value>
+            <value>
+                <fullName>Deliverable Missed</fullName>
+                <default>false</default>
+                <label>Deliverable Missed</label>
+            </value>
+            <value>
+                <fullName>Response Times/SLA</fullName>
+                <default>false</default>
+                <label>Response Times/SLA</label>
+            </value>
+            <value>
+                <fullName>Quality of Responses</fullName>
+                <default>false</default>
+                <label>Quality of Responses</label>
+            </value>
+            <value>
+                <fullName>Quality of Deliverable</fullName>
+                <default>false</default>
+                <label>Quality of Deliverable</label>
+            </value>
+            <value>
+                <fullName>Expectations/Contract Misunderstanding</fullName>
+                <default>false</default>
+                <label>Expectations/Contract Misunderstanding</label>
+            </value>
+            <value>
+                <fullName>Out of Business/Retiring</fullName>
+                <default>false</default>
+                <label>Out of Business/Retiring</label>
+            </value>
+            <value>
+                <fullName>Non-Payment/Collections</fullName>
+                <default>false</default>
+                <label>Non-Payment/Collections</label>
+            </value>
+            <value>
+                <fullName>Budget/Client Performance</fullName>
+                <default>false</default>
+                <label>Budget/Client Performance</label>
+            </value>
+            <value>
+                <fullName>Client Responsiveness</fullName>
+                <default>false</default>
+                <label>Client Responsiveness</label>
+            </value>
+            <value>
+                <fullName>Hired In-House</fullName>
+                <default>false</default>
+                <label>Hired In-House</label>
+            </value>
+            <value>
+                <fullName>Brokerage Providing Services</fullName>
+                <default>false</default>
+                <label>Brokerage Providing Services</label>
+            </value>
+            <value>
+                <fullName>NA</fullName>
+                <default>false</default>
+                <label>NA</label>
+            </value>
+            <value>
+                <fullName>Social Media followers</fullName>
+                <default>false</default>
+                <label>Social Media followers</label>
+            </value>
+            <value>
+                <fullName>Value/ROI</fullName>
+                <default>false</default>
+                <label>Value/ROI</label>
+            </value>
+            <value>
+                <fullName>Product Adoption</fullName>
+                <default>false</default>
+                <label>Product Adoption</label>
+            </value>
+            <value>
+                <fullName>Budget</fullName>
+                <default>false</default>
+                <label>Budget</label>
+            </value>
+            <value>
+                <fullName>Client Performance</fullName>
+                <default>false</default>
+                <label>Client Performance</label>
+            </value>
+            <value>
+                <fullName>Saved</fullName>
+                <default>false</default>
+                <label>Saved</label>
+            </value>
+            <value>
+                <fullName>CRM Functionality</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CRM Functionality</label>
+            </value>
+            <value>
+                <fullName>Reason not populated</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reason not populated</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Saved</controllingFieldValue>
+            <valueName>Saved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance</controllingFieldValue>
+            <valueName>Quantity of Leads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance</controllingFieldValue>
+            <valueName>Quality of Leads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance</controllingFieldValue>
+            <valueName>Search Engine Ranking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance</controllingFieldValue>
+            <valueName>Website Traffic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance</controllingFieldValue>
+            <valueName>Social Media followers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance</controllingFieldValue>
+            <valueName>Value/ROI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>Website Customization Limitations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>MLS Feed Functionality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>Home Search Tool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product</controllingFieldValue>
+            <valueName>CRM Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Deliverable Delayed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Deliverable Missed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Response Times/SLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Quality of Responses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Quality of Deliverable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Expectations/Contract Misunderstanding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Product Adoption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structural Churn</controllingFieldValue>
+            <valueName>Out of Business/Retiring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structural Churn</controllingFieldValue>
+            <valueName>Non-Payment/Collections</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structural Churn</controllingFieldValue>
+            <valueName>Client Responsiveness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structural Churn</controllingFieldValue>
+            <valueName>Hired In-House</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structural Churn</controllingFieldValue>
+            <valueName>Brokerage Providing Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structural Churn</controllingFieldValue>
+            <valueName>Budget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Structural Churn</controllingFieldValue>
+            <valueName>Client Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NA</controllingFieldValue>
+            <valueName>NA</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

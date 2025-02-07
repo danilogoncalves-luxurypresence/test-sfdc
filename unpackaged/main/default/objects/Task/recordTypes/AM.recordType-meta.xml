@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AM</fullName>
+    <active>true</active>
+    <label>AM</label>
+    <picklistValues>
+        <picklist>Analytics_Task_Origin__c</picklist>
+        <values>
+            <fullName>AM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Analytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revisions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Integration_Type__c</picklist>
+        <values>
+            <fullName>Direct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zapier</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_blocked__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting for DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting on IM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting on Logo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting on Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting on WB</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Blocked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pause Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready for QA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent for approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Add Agent Sync %28Sync Listings%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add Buyer Sync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add Listing Sync %28Property ID%E2%80%99s%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add Office Sync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSS RR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change Blog Topic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check Sync Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitive Analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DS RR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Double Listing - Remove one MLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIC RR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IAO Launch Landing Page</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX RR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LE RR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch Landing Page</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New or Additional Blog Topics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Audit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remove Agent Sync %28Remove Listings%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remove Buyer Sync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remove Listing Sync %28Remove Property%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remove Office Sync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Send Quote</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swap Topic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WB RR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subtype__c</picklist>
+        <values>
+            <fullName>%22Detail Pages%22 do not follow metadata best practices%3A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correct GBP URL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fix the following broken links</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBP Set Up Service is not complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSC 404%2FSoft 404 Errors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX integration is not complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implement the redirects for key pages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indexing Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Key Pages Migration Verification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Listings are not populating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Locations aren%27t available in the neighborhood data section</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Locations cannot be found in Google Maps%3A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meta Robots Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAP is not consistent with Salesforce%2FGBP%2FUSPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neighborhood Data Elements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neighborhood Guide Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neighborhood Map %26 Properties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other pages do not follow metadata best practices%3A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>People are not searching the following location%28s%29 by name</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preserve the content of these key pages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Review GBP URL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Migration Service is not Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Target neighborhoods are not in one State%2FCounty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The KWA Service is not complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The location for the KWA is not one of the neighborhood%2FMLS pages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>There are no MLS listings for the following areas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website 404 Check</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WB</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Alt-Text</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bright Local</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consistent NAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Definition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBP Set Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBP URL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Keyword Analysis %2B Content Strategy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Link Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLS%2FProperty Listings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metadata</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Migration %28Post Launch%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Migration %28Pre Launch%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Viable Location</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

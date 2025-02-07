@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Verification_code_not_null</fullName>
+    <active>true</active>
+    <description>Should not allow to change status to Verification if the code field is complete</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( Status__c , &quot;Verification&quot;),
+ISBLANK( Verification_code__c ),
+RecordType.Name = &quot;GBP Set Up&quot;
+)</errorConditionFormula>
+    <errorDisplayField>Verification_code__c</errorDisplayField>
+    <errorMessage>Please complete the Verification code field</errorMessage>
+</ValidationRule>

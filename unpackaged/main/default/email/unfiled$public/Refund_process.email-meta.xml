@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>Refund process</name>
+    <style>freeForm</style>
+    <subject>Refund process</subject>
+    <textOnly>Hi team! 
+
+The client {!Opportunity.Account} needs to start a refund process for addendum {!Opportunity.Name}.
+
+Refund reason: {!Opportunity.Refund_reason__c}
+
+Refund: {!Opportunity.Refund__c}
+
+Credit: {!Opportunity.Credit__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

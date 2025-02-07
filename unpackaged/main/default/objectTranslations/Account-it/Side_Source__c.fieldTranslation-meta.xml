@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Side Source --></label>
+        <name>Side_Source__c</name>
+        <picklistValues>
+            <masterLabel>LP to Side Billing - Side</masterLabel>
+            <translation><!-- LP to Side Billing - Side --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Left Side</masterLabel>
+            <translation><!-- Left Side --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Left Side, Kept Website</masterLabel>
+            <translation><!-- Left Side, Kept Website --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Left Side, Unresponsive</masterLabel>
+            <translation><!-- Left Side, Unresponsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Migration - Side</masterLabel>
+            <translation><!-- Migration - Side --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Logos - Side</masterLabel>
+            <translation><!-- New Logos - Side --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Website - Side</masterLabel>
+            <translation><!-- Personal Website - Side --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

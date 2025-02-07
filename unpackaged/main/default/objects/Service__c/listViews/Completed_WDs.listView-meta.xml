@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completed_WDs</fullName>
+    <columns>NAME</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Pod__c</columns>
+    <columns>Staging_link_status__c</columns>
+    <columns>Staging_Link__c</columns>
+    <columns>Tier_Plan__c</columns>
+    <columns>Design_Template__c</columns>
+    <columns>Website_Builder__c</columns>
+    <columns>Data_Specialist__c</columns>
+    <columns>Header_Image_Curator__c</columns>
+    <columns>Completed_Date_Time__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>WD Review,Client Revision,Revision Submitted</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.Custom_Website,Service__c.Website_Launches</value>
+    </filters>
+    <filters>
+        <field>Pod__c</field>
+        <operation>equals</operation>
+        <value>Pod 1,Pod 2,Pod 3,Pod 4,Pod 5,Pod 6,Pod 7,Pod 8,Pod 9,Pod 10</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notContain</operation>
+        <value>VIP</value>
+    </filters>
+    <filters>
+        <field>VIP__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Completed WDs</label>
+</ListView>

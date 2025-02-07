@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>REBNY Introduction - Broker Unknown</name>
+    <style>freeForm</style>
+    <subject>IDX Introduction - REBNY - {!Service__c.Contact_First_Name__c} {!Service__c.Contact_Last_Name__c}</subject>
+    <textOnly>Hi {!Service__c.Contact_First_Name__c},
+
+It&#39;s great to e-meet you! My name is {!Service__c.OwnerFullName} and I am an IDX Coordinator at Luxury Presence, I will be responsible for the IDX search tool setup process on your new website.
+
+In order for us to display IDX data on your website, REBNY requires us to have a data access agreement signed through Trestle.com. If you could please provide the information below so I may draft your agreement.
+
+Agent: {!Service__c.Contact_First_Name__c}  {!Service__c.Contact_Last_Name__c}
+Agent Email: {!Service__c.Agent_Contact_Email__c}
+Broker of Record name:
+Broker of Record email:
+
+In addition, REBNY requires agents to complete their in-house Ethics Course. Substitutions are not accepted. It will cover the Residential Listing Service as well as ethics. The course is complimentary and runs approximately 1.5 hours long. If the course is not completed before your site goes Live the Home Search tool will need to be hidden.
+
+Please note the Ethics Course is only offered once a month and the next course is {!Service__c.Next_course__c}
+
+Please click HERE to register for the course.
+
+Let me know if you have any questions, I am happy to help!
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Alt-Text</masterLabel>
+            <translation><!-- Alt-Text --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bright Local</masterLabel>
+            <translation><!-- Bright Local --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRO</masterLabel>
+            <translation><!-- CRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consistent NAP</masterLabel>
+            <translation><!-- Consistent NAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Content</masterLabel>
+            <translation><!-- Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Definition</masterLabel>
+            <translation><!-- Definition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP Set Up</masterLabel>
+            <translation><!-- GBP Set Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP URL</masterLabel>
+            <translation><!-- GBP URL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keyword Analysis + Content Strategy</masterLabel>
+            <translation><!-- Keyword Analysis + Content Strategy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Link Building</masterLabel>
+            <translation><!-- Link Building --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MLS/Property Listings</masterLabel>
+            <translation><!-- MLS/Property Listings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metadata</masterLabel>
+            <translation><!-- Metadata --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEO Migration (Post Launch)</masterLabel>
+            <translation><!-- SEO Migration (Post Launch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEO Migration (Pre Launch)</masterLabel>
+            <translation><!-- SEO Migration (Pre Launch) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Viable Location</masterLabel>
+            <translation><!-- Viable Location --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Source --></label>
+        <name>Source__c</name>
+        <picklistValues>
+            <masterLabel>Client Revision</masterLabel>
+            <translation><!-- Client Revision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Revision</masterLabel>
+            <translation><!-- Internal Revision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opening Video</masterLabel>
+            <translation><!-- Opening Video --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA Passback</masterLabel>
+            <translation><!-- QA Passback --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

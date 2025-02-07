@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Follow-up to Duplicate GBP (when both profiles have Google reviews) [if they don’t have access to original profile]</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Follow-up to Duplicate GBP (when both profiles have Google reviews) [if they don</name>
+    <style>none</style>
+    <subject>Ownership Transfer Required for Your Google Business Profile</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

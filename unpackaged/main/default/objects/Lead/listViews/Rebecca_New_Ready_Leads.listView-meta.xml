@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rebecca_New_Ready_Leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>MLS_Board__c</columns>
+    <columns>Prior_12_months_total_transaction_value__c</columns>
+    <columns>Average_active_list_price__c</columns>
+    <columns>Active_listings__c</columns>
+    <columns>MLS_Lead_Grading_Tier__c</columns>
+    <columns>MLS_MLS_Lead_Category__c</columns>
+    <columns>Most_recent_MLS_transaction__c</columns>
+    <columns>Prior_12_months_average_price__c</columns>
+    <columns>Prior_12_months_average_buyer_price__c</columns>
+    <columns>Prior_12_months_buyer_listings__c</columns>
+    <columns>Prior_12_months_sold_transaction_value__c</columns>
+    <columns>Rolling_yoy_growth_rate__c</columns>
+    <columns>Yoy_growth_score__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>MLS_Agent_master_key__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Rep_Assigned_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>5/28/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>equals</operation>
+        <value>CA</value>
+    </filters>
+    <label>Rebecca New/Ready Leads</label>
+</ListView>

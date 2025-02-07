@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Information on Google Sitelinks for Your Website</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Sitelinks</name>
+    <style>none</style>
+    <subject>Information on Google Sitelinks for Your Website</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

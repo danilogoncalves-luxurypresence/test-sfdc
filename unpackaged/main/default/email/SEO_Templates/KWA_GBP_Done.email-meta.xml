@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>KWA &amp; GBP Done</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>KWA &amp; GBP Done</name>
+    <style>none</style>
+    <subject>Branded Keyword Analysis and Google Business Profile</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

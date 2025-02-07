@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>3 Month Outreach</fullName>
+        <default>false</default>
+        <label>3 Month Outreach</label>
+    </standardValue>
+    <standardValue>
+        <fullName>6 Month Outreach</fullName>
+        <default>false</default>
+        <label>6 Month Outreach</label>
+    </standardValue>
+    <standardValue>
+        <fullName>9 Month Outreach</fullName>
+        <default>false</default>
+        <label>9 Month Outreach</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Queued</fullName>
+        <default>false</default>
+        <label>Queued</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reactivated</fullName>
+        <default>false</default>
+        <label>Reactivated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Upsell</fullName>
+        <default>false</default>
+        <label>Upsell</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <environments>Default</environments>
+    <formulas>
+        <name>Business_3Days_Formula</name>
+        <dataType>Date</dataType>
+        <expression>CASE(
+MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+3, {!$Flow.CurrentDate} + 5,
+4, {!$Flow.CurrentDate} + 5,
+5, {!$Flow.CurrentDate} + 5,
+6, {!$Flow.CurrentDate} + 4,
+{!$Flow.CurrentDate} +3
+)</expression>
+    </formulas>
+    <formulas>
+        <name>RecordName</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account__r.Name} + &quot; - &quot; + &quot;QA Passback&quot;</expression>
+    </formulas>
+    <interviewLabel>LP - QA Passback Revision created {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>LP - QA Passback Revision created</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>User_QA_Passback_Revision</name>
+        <label>User - QA Passback Revision</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Update_Owner</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>IsActive</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>SEO_QA_queue__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_Owner</name>
+        <label>Update Owner, Record Name and Due Date</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <connector>
+            <targetReference>Update_User_Last_Revision_Assigned</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>RecordName</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Revision_Owner__c</field>
+            <value>
+                <elementReference>User_QA_Passback_Revision.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Revisions_Due_Date__c</field>
+            <value>
+                <elementReference>Business_3Days_Formula</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_User_Last_Revision_Assigned</name>
+        <label>Update User - Last Revision Assigned</label>
+        <locationX>176</locationX>
+        <locationY>539</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>User_QA_Passback_Revision.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Last_revision_assigned__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <object>User</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>User_QA_Passback_Revision</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>RecordTypeId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>012O90000000JKPIA2</stringValue>
+            </value>
+        </filters>
+        <object>Revision__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

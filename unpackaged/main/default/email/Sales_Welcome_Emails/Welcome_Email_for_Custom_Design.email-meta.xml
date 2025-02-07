@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>Upgrade Custom Design</name>
+    <style>freeForm</style>
+    <subject>Welcome to Luxury Presence!</subject>
+    <textOnly>Hi {!Account.Primary_Contact_First_Name__c}!
+
+Welcome to Luxury Presence! I’m excited to introduce you to our Custom Website Onboarding Manager, {!Account.Implementation_Manager__c} cc&#39;d on this email. {!Account.Implementation_Manager__c} will be your primary point of contact going forward and will reach out to you to schedule your Design Intake Call. Please complete the Custom Website Questionnaire to give your Onboarding Manager background prior to your Design Intake Call.
+
+On the design intake call, you will go over your current marketing + branding, website and marketing goals, and the timeline of the custom website process. After the call, our team will begin building the first draft of your website via the staging link.  If you have any questions, please don’t hesitate to reach out to {!Account.Implementation_Manager__c}.
+
+As a thank you for partnering up with Luxury Presence, I wanted to let you know about our lucrative referral program. If you refer LP to another agent who signs up with us, you will receive a $1,200 credit applied to your account.  Link to referral form --&gt; Click here!
+
+Welcome to the team!
+
+Thank you,
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

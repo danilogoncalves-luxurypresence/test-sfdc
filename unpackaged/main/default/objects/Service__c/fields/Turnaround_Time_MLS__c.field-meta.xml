@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Turnaround_Time_MLS__c</fullName>
+    <externalId>false</externalId>
+    <formula>(
+ROUND( 8 * (
+( 5 * FLOOR( (  DATEVALUE(Completed_Date_Time__c)  - DATE( 1900, 1, 8) ) / 7) +
+MIN(5,
+MOD( DATEVALUE(Completed_Date_Time__c) - DATE( 1900, 1, 8), 7) +
+MIN( 1, 24 / 8 * ( MOD(DATETIMEVALUE(Completed_Date_Time__c) - DATETIMEVALUE( &#39;1900-01-08 16:00:00&#39; ), 1 ) ) )
+)
+)
+-
+( 5 * FLOOR( ( DATEVALUE(  Get_Paperwork_Started_Date_Time__c  ) - DATE( 1900, 1, 8) ) / 7) +
+MIN( 5,
+MOD( DATEVALUE( Get_Paperwork_Started_Date_Time__c ) - DATE( 1996, 1, 1), 7 ) +
+MIN( 1, 24 / 8 * ( MOD( Get_Paperwork_Started_Date_Time__c - DATETIMEVALUE( &#39;1900-01-08 16:00:00&#39; ), 1) ) )
+)
+)
+),
+0 )
+)/8</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Turnaround Time MLS</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

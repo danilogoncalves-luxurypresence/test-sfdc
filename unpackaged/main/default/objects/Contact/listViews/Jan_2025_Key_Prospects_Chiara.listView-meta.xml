@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jan_2025_Key_Prospects_Chiara</fullName>
+    <booleanFilter>1 or 2 or 3 or 4 or 5</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LAST_ACTIVITY_DATETIME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000002J4QZYA0,003EY000001cTfaYAE,003EY000002v7lzYAA,003EY000004495QYAQ,003EY000003koFeYAI,003EY000002VTxWYAW,003EY000001ofqKYAQ,003Rg000004rmAfIAI,003Rg00000Ak3utIAB,003EY000001q5woYAA</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000003S3O1YAK,003EY000001rbWsYAI,003EY0000025ssSYAQ,003Rg00000LPb0KIAT,003EY000002cbktYAA,003EY000003V37ZYAS,003EY000002jVhDYAU,003EY000002PxiZYAS,003EY000002kJuGYAU,003EY000002vyL9YAI</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003Rg000004ExlvIAC,003EY000003XbqFYAS,--,003EY0000045IByYAM,003Rg00000BkqbZIAR,003EY000004jl6VYAQ,003EY0000042o4gYAA,003EY000002oOTKYA2,003Rg000004i2a5IAA</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003Rg000003xjiXIAQ,003Rg000007Zi8cIAC,003Rg000006kfcuIAA,--,003Rg000006pLN7IAM,003Rg0000070StGIAU,003Rg000008nGISIA2,003Rg000008qunvIAA,003Rg00000D1WhYIAV,003Rg00000DcW7VIAV</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003Rg00000FOaL5IAL,003Rg00000GifuHIAR</value>
+    </filters>
+    <label>Jan 2025 - Key Prospects - Chiara</label>
+</ListView>

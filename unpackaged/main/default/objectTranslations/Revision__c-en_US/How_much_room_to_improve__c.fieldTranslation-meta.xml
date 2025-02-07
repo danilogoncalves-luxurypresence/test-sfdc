@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Room to improve their view of LP? --></label>
+        <name>How_much_room_to_improve__c</name>
+        <picklistValues>
+            <masterLabel>1 very unhappy, most room to improve</masterLabel>
+            <translation><!-- 1 very unhappy, most room to improve --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Neutral, neither very happy or unhappy</masterLabel>
+            <translation><!-- 3 Neutral, neither very happy or unhappy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 very happy, no room for improvement</masterLabel>
+            <translation><!-- 5 very happy, no room for improvement --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

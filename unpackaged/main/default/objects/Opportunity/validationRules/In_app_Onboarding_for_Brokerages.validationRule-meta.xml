@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>In_app_Onboarding_for_Brokerages</fullName>
+    <active>true</active>
+    <description>Prevent users from selecting in-app onboarding when a Client is a brokerage # 00134669</description>
+    <errorConditionFormula>AND (
+Record_Type_Name__c = &quot;New Sales&quot;,
+ISCHANGED(StageName),
+ISPICKVAL( StageName , &quot;Closed Won&quot;),
+
+OR (
+ISPICKVAL (Client_Type__c, &quot;review&quot;),
+ISPICKVAL (Client_Type__c, &quot;Brokerage Plus&quot;)
+),
+
+OR(
+ISPICKVAL(Beta_user__c, &quot;Yes&quot;),
+ISPICKVAL ( Beta_user__c, &quot;&quot;)
+))</errorConditionFormula>
+    <errorMessage>f the Client is a Brokerage they are not eligible for In-App Onboarding. Please Set &quot;In-App Onboarding&quot; to No&quot; instead of &quot;None&quot;</errorMessage>
+</ValidationRule>

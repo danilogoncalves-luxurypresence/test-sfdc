@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>Beta: Welcome Email for IAO , Pro Design for Launch+ and Brand+</name>
+    <style>freeForm</style>
+    <subject>Welcome to Luxury Presence!</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Welcome to Luxury Presence! We&#39;re thrilled to have the opportunity to work together and help elevate your digital presence.
+
+Shortly, you will receive an invitation to our platform, which will allow you to start the onboarding process and begin creating your brand-new website. To ensure a seamless experience, we have assigned a dedicated Onboarding Specialist,{!Account.Implementation_Manager__c}, who will be your main point of contact throughout your onboarding journey.
+
+Please feel free to reach out to your assigned Onboarding Specialist if you need any assistance. They are here to provide support and ensure that everything runs smoothly for you.
+
+We will only start working on the buildout of your website upon the completion of your onboarding modules.
+
+Timeline of Process
+
+Please accept the invite within 48 hrs
+Please complete the onboarding modules within the next 3 days
+We’ll get to work building your new website!
+Your Onboarding Specialist will schedule a call to review the draft of your website within 5 days after you complete onboarding
+​
+
+Should you have any further inquiries, please don&#39;t hesitate to ask. I&#39;m always available to help.
+​
+As a thank you for partnering up with Luxury Presence, I wanted to let you know about our lucrative referral program. If you refer LP to another agent who signs up with us, you will receive a $1,200 credit applied to your account. Link to referral form --&gt; Click here!
+
+Best regards,
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

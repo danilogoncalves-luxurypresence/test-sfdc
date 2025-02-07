@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Hold_Reason__c</fullName>
+    <label>Blocked Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blocked</fullName>
+                <default>false</default>
+                <label>Blocked</label>
+            </value>
+            <value>
+                <fullName>Needs more information from BSA</fullName>
+                <default>false</default>
+                <label>Needs more information from BSA</label>
+            </value>
+            <value>
+                <fullName>Needs more information from the Submitter</fullName>
+                <default>false</default>
+                <label>Needs more information from the Submitter</label>
+            </value>
+            <value>
+                <fullName>On Hold until next quarter</fullName>
+                <default>false</default>
+                <label>On Hold until next quarter</label>
+            </value>
+            <value>
+                <fullName>Bandwidth</fullName>
+                <default>false</default>
+                <label>Bandwidth</label>
+            </value>
+            <value>
+                <fullName>Dependent on another process</fullName>
+                <default>false</default>
+                <label>Dependent on another process</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Backlogged due to bandwidth</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Backlogged due to bandwidth</label>
+            </value>
+            <value>
+                <fullName>Waiting on CS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Waiting on CS</label>
+            </value>
+            <value>
+                <fullName>Waiting on Operations</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Waiting on Operations</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

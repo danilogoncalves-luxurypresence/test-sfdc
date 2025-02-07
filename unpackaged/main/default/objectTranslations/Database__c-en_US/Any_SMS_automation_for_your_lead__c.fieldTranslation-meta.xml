@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Are you currently using any SMS automation for your lead nurture? --></help>
+        <label><!-- Any SMS automation for your lead --></label>
+        <name>Any_SMS_automation_for_your_lead__c</name>
+    </CustomFieldTranslation>

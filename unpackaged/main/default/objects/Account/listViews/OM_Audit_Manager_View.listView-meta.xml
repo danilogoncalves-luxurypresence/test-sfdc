@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OM_Audit_Manager_View</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>LAST_EMAIL_SENT_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <label>OM Audit Manager View</label>
+</ListView>

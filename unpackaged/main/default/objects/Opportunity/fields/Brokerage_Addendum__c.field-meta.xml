@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brokerage_Addendum__c</fullName>
+    <label>Brokerage Addendum</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Compass</fullName>
+                <default>false</default>
+                <label>Compass</label>
+            </value>
+            <value>
+                <fullName>SIR</fullName>
+                <default>false</default>
+                <label>SIR</label>
+            </value>
+            <value>
+                <fullName>Corcoran</fullName>
+                <default>false</default>
+                <label>Corcoran</label>
+            </value>
+            <value>
+                <fullName>Coldwell Banker</fullName>
+                <default>false</default>
+                <label>Coldwell Banker</label>
+            </value>
+            <value>
+                <fullName>ReMax</fullName>
+                <default>false</default>
+                <label>ReMax</label>
+            </value>
+            <value>
+                <fullName>Side</fullName>
+                <default>false</default>
+                <label>Side</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

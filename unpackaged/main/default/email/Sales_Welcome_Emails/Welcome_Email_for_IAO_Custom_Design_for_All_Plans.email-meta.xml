@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>IAO Custom Design for All Plans</name>
+    <style>freeForm</style>
+    <subject>Welcome to Luxury Presence!</subject>
+    <textOnly>Hi {!Account.Contact__c} ,
+
+
+Welcome to Luxury Presence! We&#39;re absolutely thrilled to help elevate your digital presence. To get started, we&#39;re introducing you to your Custom Website Onboarding Manager, {!Account.Implementation_Manager__c}, who is cc&#39;d on this email and will be your main point of contact throughout this journey.
+
+Shortly, you&#39;ll receive an invitation to our platform, signaling the start of your onboarding and the creation of your new website. Please accept this invite within 48 hours and complete the onboarding modules within the next 3 days.
+
+After completing the Onboarding Modules, which will provide {!Account.Implementation_Manager__c} with insights into your marketing, branding, and website goals, they will reach out to schedule the Design Intake Call. This crucial call will discuss the timeline for your custom website and address any questions you may have.
+
+Following the Design Intake Call, our team will get to work on the first draft of your website and will share a staging link with you.
+
+As a token of our appreciation for partnering with Luxury Presence, we&#39;re also excited to inform you about our referral program. If you refer another agent who signs up with us, you will receive a $1,200 credit applied to your account. You can find more information and the referral form by clicking here.
+
+Please feel free to reach out to {!Account.Implementation_Manager__c} at any point if you need assistance or have any inquiries. Our team is here to support you and ensure a seamless and successful onboarding experience.
+
+
+Welcome to the team, and thank you for choosing Luxury Presence. We look forward to building something incredible together.
+
+
+Best regards,
+
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

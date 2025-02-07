@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>A new deal is created</name>
+    <style>freeForm</style>
+    <subject>A new deal is closed</subject>
+    <textOnly>Hi!
+
+A new opportunity has been closed.
+
+Please confirm:
+1.PandaDoc Agreement is correct
+2.Payment has been collected in Stripe
+
+Details:
+
+1.Order Number: {!Contract.ContractNumber}
+2.One Time Services: pending
+3.One Time Fees: {!Opportunity.One_Time_Fee__c}
+4.Monthly Services: {!Opportunity.Tier_Plan__c}
+5.Payment Terms: {!Opportunity.Contract_Term_Months__c}
+
+Have a nice day</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

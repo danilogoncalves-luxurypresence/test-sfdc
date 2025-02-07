@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Brand Plan Non-Branded KW</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Brand Plan Non-Branded KW</name>
+    <style>none</style>
+    <subject>SEO Keywords - Luxury Presence</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

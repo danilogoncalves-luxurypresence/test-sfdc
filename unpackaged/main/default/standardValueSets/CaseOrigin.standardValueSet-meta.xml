@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Phone</fullName>
+        <default>false</default>
+        <label>Phone</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web</fullName>
+        <default>false</default>
+        <label>Knowledge Base</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Product</fullName>
+        <default>false</default>
+        <label>Product</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chat Bot</fullName>
+        <default>false</default>
+        <label>Chat Bot</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ada Bot</fullName>
+        <default>false</default>
+        <label>Chat Bot - Off Hours</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AdaBot</fullName>
+        <default>false</default>
+        <label>Chat Bot</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SEO</fullName>
+        <default>false</default>
+        <label>SEO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Slack</fullName>
+        <default>false</default>
+        <label>Slack</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Side</fullName>
+        <default>false</default>
+        <label>Side</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NPS Outreach</fullName>
+        <default>false</default>
+        <label>NPS Outreach</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Launch_Team_POD_3_WB_QA_Tasks</fullName>
+    <booleanFilter>(1 AND 2 AND 3 AND 6 AND 7) OR (3 AND 4 AND 5 AND 6 AND 7) OR (3 AND 7 AND 9 AND 8) OR ( 1 AND 2 AND 3 )</booleanFilter>
+    <columns>SUBJECT</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>STATUS</columns>
+    <columns>DUE_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>PRIORITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>New,Not Started,In Progress,Ready for QA,QA in Progress,Additional Revisions,Revisions in Progress,Sent for approval,Additional Feedback,At risk,Blocked,Open</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>contains</operation>
+        <value>Janu,Edma,Jefe,jde l,rroyo,jsant,jyat,jcruz,desgu,jnahi,aramo</value>
+    </filters>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>contains</operation>
+        <value>Final QA,Cross Domain Migration</value>
+    </filters>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>contains</operation>
+        <value>Nico</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Task.PFT,Task.Website_Launches</value>
+    </filters>
+    <filters>
+        <field>WHAT_NAME</field>
+        <operation>contains</operation>
+        <value>,Side NL,Website Implementation,Design Change,1:1,In-App Onboarding,Custom Website,Template Change</value>
+    </filters>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>Ready for QA</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>Fern,nsand,Dani,esoto,Yoym,Juan</value>
+    </filters>
+    <label>Launch Pod 3 (Ad Astra) - WB/QA Tasks</label>
+</ListView>

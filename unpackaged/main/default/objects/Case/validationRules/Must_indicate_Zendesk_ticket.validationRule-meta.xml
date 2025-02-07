@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_indicate_Zendesk_ticket</fullName>
+    <active>false</active>
+    <description>If Zendesk ticket exists, must indicate number of ticket</description>
+    <errorConditionFormula>AND(
+
+Has_Zendesk_ticket__c = TRUE,
+ Zendesk_Ticket__c =&quot;&quot;)</errorConditionFormula>
+    <errorMessage>Please indicate Zendesk Ticket in field</errorMessage>
+</ValidationRule>

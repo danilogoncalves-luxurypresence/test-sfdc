@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- For use of Brand+ clients in in-app onboarding. Add the names of the 6 MLS Page communities the client would like featured on their website. Note the first community listed will be the primary community. --></help>
+        <label><!-- List of Locations --></label>
+        <name>List_of_Locations__c</name>
+    </CustomFieldTranslation>

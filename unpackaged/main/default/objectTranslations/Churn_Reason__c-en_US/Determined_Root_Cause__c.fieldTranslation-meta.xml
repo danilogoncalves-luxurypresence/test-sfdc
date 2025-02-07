@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Determined Root Cause --></label>
+        <name>Determined_Root_Cause__c</name>
+        <picklistValues>
+            <masterLabel>CSM</masterLabel>
+            <translation><!-- CSM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Content</masterLabel>
+            <translation><!-- Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding</masterLabel>
+            <translation><!-- Onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ops</masterLabel>
+            <translation><!-- Ops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media</masterLabel>
+            <translation><!-- Paid Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Migration</masterLabel>
+            <translation><!-- Plan Migration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Team</masterLabel>
+            <translation><!-- Product Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEO</masterLabel>
+            <translation><!-- SEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation><!-- Social Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

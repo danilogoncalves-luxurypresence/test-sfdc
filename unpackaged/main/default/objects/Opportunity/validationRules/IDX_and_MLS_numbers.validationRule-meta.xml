@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IDX_and_MLS_numbers</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+OR(
+ Record_Type_Name__c = &quot;Add Service&quot;, 
+ Record_Type_Name__c = &quot;Reduce Service&quot;,
+ Record_Type_Name__c = &quot;New Sales&quot;
+),
+ Number_of_IDX_Product_Lines__c  &lt;&gt;   Number_of_MLS_Boards__c , 
+ ISPICKVAL( StageName , &quot;Closed Won&quot;)
+)</errorConditionFormula>
+    <errorMessage>Please, make sure the number of IDX Products added and MLS Boards added match.</errorMessage>
+</ValidationRule>

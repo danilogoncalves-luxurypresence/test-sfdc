@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- GBP Status --></label>
+        <name>GBP_Status1__c</name>
+        <picklistValues>
+            <masterLabel>Disable</masterLabel>
+            <translation><!-- Disable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP Suspended</masterLabel>
+            <translation><!-- GBP Suspended --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP Verified</masterLabel>
+            <translation><!-- GBP Verified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Verification</masterLabel>
+            <translation><!-- Needs Verification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Access</masterLabel>
+            <translation><!-- No Access --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

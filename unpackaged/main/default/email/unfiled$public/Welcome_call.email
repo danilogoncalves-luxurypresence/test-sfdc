@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p data-pm-slice="1 1 []">Hi {!Account.Contact__c},</p><p><br></p><p>Please fill out this <u><a href="https://t.sidekickopen70.com/s3t/c/5/f18dQhb0S7kF8c7Mq5W54W18n2zGCwVN8Jbw_8QsRtKVn1hF61pgM7RW16gGz78zlXRG101?te=W3R5hFj4cm2zwW3Z_WtL49TRJnW3K9ck-3F6bT8W4rCV-F43WgzYW3Fbt5S4fLGdtW4csYc13VyjQJW4fQXJw3M664fW1GHF1749JGgpW4mKLS-3P4Gk5w3ZV6nw9CQ2&amp;si=8000000004064462&amp;pi=ef9b8ccb-bd1b-4dd4-b7f2-94ef55fc7627" class="ProsemirrorEditor-link">Design Quiz</a></u> (Typeform)&nbsp;<span style="font-size: 12pt;">before end of day today. This will give my team a jump start on being able to personalize your website’s rough draft. The team starts working in 24 hours, so the sooner this is completed the better.&nbsp;</span></p><p><br></p><p>If you already completed the form, please disregard this email.&nbsp;</p><p><br></p><p>All the best,</p><p><span style="font-size: 12pt;">&nbsp;</span></p><p>{!Service__c.OwnerFullName}</p><p><br></p>]]></td>
+</tr>
+</table>

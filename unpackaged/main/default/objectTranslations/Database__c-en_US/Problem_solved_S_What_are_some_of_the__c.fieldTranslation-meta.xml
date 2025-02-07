@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Problem solved (S): What are some of the challenges sellers are facing in your area and how are you solving it? --></help>
+        <label><!-- challenges sellers are facing in --></label>
+        <name>Problem_solved_S_What_are_some_of_the__c</name>
+    </CustomFieldTranslation>

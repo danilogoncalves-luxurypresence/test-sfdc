@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adding_Photos_Blogs</fullName>
+    <columns>Service__c</columns>
+    <columns>NAME</columns>
+    <columns>Google_document_link__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Status__c</columns>
+    <columns>Photos_In__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service_schedule__c.Blogs_per_Quarter</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notContain</operation>
+        <value>2 Blogs,3 Blogs,4 Blogs,5 Blogs,6 Blogs</value>
+    </filters>
+    <filters>
+        <field>Duplicate__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Adding Photos</value>
+    </filters>
+    <label>Adding Photos - Blogs</label>
+</ListView>

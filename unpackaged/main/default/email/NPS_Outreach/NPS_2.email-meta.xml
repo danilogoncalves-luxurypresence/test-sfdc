@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support_24</letterhead>
+    <name>NPS-2</name>
+    <style>freeForm</style>
+    <subject>Luxury Presence Feedback</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+I hope this email finds you well. I wanted to follow up on our prior outreach.
+
+We understand that your time is valuable, and truly appreciate your insights. Feedback is incredibly important in helping us improve our services for all our clients.
+
+If you have any further comments or concerns, or if there&#39;s anything specific you&#39;d like to discuss regarding your experience, please don&#39;t hesitate to reach out.
+
+Thank you once again for your valuable feedback, and we look forward to hearing from you soon.
+
+Thanks,
+The Luxury Presence Support Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

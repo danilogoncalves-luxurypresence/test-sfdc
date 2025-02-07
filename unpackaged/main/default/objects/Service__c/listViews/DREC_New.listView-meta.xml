@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DREC_New</fullName>
+    <booleanFilter>((1 AND 2) OR (3 AND 4 AND 8) OR (5 AND 6 AND 7)) AND 9</booleanFilter>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Modules_Complete__c</columns>
+    <columns>Welcome_Call_Date_calendly__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Assigned_VA__c</columns>
+    <columns>Staging_link_status__c</columns>
+    <columns>Website_Builder__c</columns>
+    <columns>Data_Specialist__c</columns>
+    <columns>Header_Image_Curator__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Build Site</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.Custom_Website,Service__c.Design_Refresh</value>
+    </filters>
+    <filters>
+        <field>Tier_Plan__c</field>
+        <operation>equals</operation>
+        <value>Enterprise,Presence Premier,SEO Premier,Leads Premier,All In Premier</value>
+    </filters>
+    <filters>
+        <field>Product__c</field>
+        <operation>contains</operation>
+        <value>website hosting,custom website</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.In_App_Onboarding</value>
+    </filters>
+    <filters>
+        <field>Product__c</field>
+        <operation>contains</operation>
+        <value>custom website</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Modules Complete</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>OWNER.FIRST_NAME</field>
+        <operation>notEqual</operation>
+        <value>Allie</value>
+    </filters>
+    <label>DREC New</label>
+</ListView>

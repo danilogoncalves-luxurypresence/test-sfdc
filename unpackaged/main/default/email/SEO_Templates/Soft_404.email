@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},
+
+A soft 404 is a situation where a web server returns a status code indicating that a page is not found (typically a 404 Not Found status code), but the content of the page suggests otherwise. In other words, the server signals to search engines that the page is missing, but the actual content of the page may still exist and may not accurately reflect a "not found" scenario.
+
+Here are common scenarios that lead to soft 404 errors:
+
+* Custom Error Pages: Some websites have custom error pages that return a 404 status code but include content that may not clearly convey an actual error. 
+* Redirects to Error Pages: If a page is set up to redirect to an error page (e.g., redirecting to a custom 404 page), it may still return a 404 status code. Search engines might interpret this as a soft 404, especially if the redirected page contains content.
+* Thin Content or Placeholder Pages: Pages with minimal or placeholder content that doesn't provide substantial value may trigger soft 404 errors. Search engines aim to deliver relevant and useful content to users, and pages lacking meaningful content may be flagged.
+
+Best, 
+The SEO team at Luxury Presence
+seo@luxurypresence.com

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>Rescheduling/Demo Ghosted - Day 3</name>
+    <style>freeForm</style>
+    <subject>Scheduling your Luxury Presence consultation</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+
+Checking in to see if you’ve had a chance to reschedule your Luxury Presence demo. I&#39;m excited to show you how we can elevate your business by telling your story through a personalized website.
+
+
+Please let me know what works best for you, or feel free to use my meeting link to select a time: [Meeting Link]
+
+
+I&#39;m confident that our personalized solutions will help you stand out from the competition and attract more clients.
+
+
+Looking forward to connecting!
+
+
+Best,
+{!User.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

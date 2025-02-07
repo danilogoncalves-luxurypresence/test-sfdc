@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IDX_required</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+ISPICKVAL( IDX_Task_Required__c , &#39;&#39;), 
+NOT( RecordType.Name = &quot;Design_Refresh&quot; ), 
+ISPICKVAL(Source__c , &#39;Internal Revision&#39;))</errorConditionFormula>
+    <errorDisplayField>IDX_Task_Required__c</errorDisplayField>
+    <errorMessage>Please specify if an IDX task is required for this revision.</errorMessage>
+</ValidationRule>

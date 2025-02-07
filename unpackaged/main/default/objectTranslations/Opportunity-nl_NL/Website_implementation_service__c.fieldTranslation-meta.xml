@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Website implementation service --></label>
+        <name>Website_implementation_service__c</name>
+        <relationshipLabel><!-- Opportunities (Website implementation service) --></relationshipLabel>
+    </CustomFieldTranslation>

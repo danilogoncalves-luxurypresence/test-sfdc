@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Side_Source__c</fullName>
+    <label>Side Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Migration - Side</fullName>
+                <default>false</default>
+                <label>Migration - Side</label>
+            </value>
+            <value>
+                <fullName>New Logos - Side</fullName>
+                <default>false</default>
+                <label>New Logos - Side</label>
+            </value>
+            <value>
+                <fullName>LP to Side Billing - Side</fullName>
+                <default>false</default>
+                <label>LP to Side Billing - Side</label>
+            </value>
+            <value>
+                <fullName>Personal Website - Side</fullName>
+                <default>false</default>
+                <label>Personal Website - Side</label>
+            </value>
+            <value>
+                <fullName>Left Side</fullName>
+                <default>false</default>
+                <label>Left Side</label>
+            </value>
+            <value>
+                <fullName>Left Side, Kept Website</fullName>
+                <default>false</default>
+                <label>Left Side, Kept Website</label>
+            </value>
+            <value>
+                <fullName>Left Side, Unresponsive</fullName>
+                <default>false</default>
+                <label>Left Side, Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Kept Website</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kept Website</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

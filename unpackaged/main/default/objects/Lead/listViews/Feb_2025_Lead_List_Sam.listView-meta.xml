@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Feb_2025_Lead_List_Sam</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>Prior_12_months_total_transaction_value__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LAST_CALL_DATE</columns>
+    <columns>Rep_Assigned_Date__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>LEAD.DO_NOT_CALL</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Reserve__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>25000000</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>lessOrEqual</operation>
+        <value>30000000</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Ready</value>
+    </filters>
+    <filters>
+        <field>LAST_CALL_DATE</field>
+        <operation>lessOrEqual</operation>
+        <value>10/1/2024 12:00 AM</value>
+    </filters>
+    <label>Feb 2025 - Lead List - Sam</label>
+    <queue>General</queue>
+</ListView>

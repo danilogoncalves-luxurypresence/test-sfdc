@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MLS_VA_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>MLS VA</label>
+    <queue>MLS_VA</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

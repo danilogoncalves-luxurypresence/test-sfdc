@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Who are your top two or three competitor --></label>
+        <name>Who_are_your_top_two_or_three_competitor__c</name>
+    </CustomFieldTranslation>

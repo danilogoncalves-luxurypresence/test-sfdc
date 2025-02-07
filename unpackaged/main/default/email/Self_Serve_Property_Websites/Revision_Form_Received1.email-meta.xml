@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Revision Form Received</name>
+    <style>none</style>
+    <subject>Thank you for submitting your Property Website Revision Form!</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Thank you for filling out the property website revision form. Our team is working on the updates. Please allow for 1-2 business days to get the updated preview website back to you.
+
+Best,
+
+Self Serve Property Websites
+Luxury Presence
+Phone: (310) 955-1077
+Email: support@luxurypresence.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

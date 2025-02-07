@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>GBP Not Showing on Search</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>GBP Not Showing on Search</name>
+    <style>none</style>
+    <subject>🗝️ Boost Your Google Visibility with Reviews &amp; Location Authority!</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subscription_extension_date_30_days_limi</fullName>
+    <active>false</active>
+    <description>They can edit the subscription extension field at any point prior to the start date (but can only edit it 60 days out)</description>
+    <errorConditionFormula>AND(
+ Subscription_extension_date__c - Subscription_start_date__c &gt; 30,
+ NOT(ISPICKVAL( Extention_addendum__c ,&quot;Yes&quot;)),
+ Extension_Addendum__c = false
+)</errorConditionFormula>
+    <errorMessage>The 30 days limit has passed, please fill the extension addendum field or contact billing</errorMessage>
+</ValidationRule>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jan_2025_MM_Key_Prospects_Briana</fullName>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LAST_ACTIVITY_DATETIME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003Rg00000GPbhXIAT,003Rg00000AKuOTIA1,003Rg000009xT92IAE,003Rg000008rQfjIAE,003Rg000008ARK6IAO,003Rg000007sb1lIAA,003Rg000006wlvzIAA,003Rg0000067Ta7IAE,003Rg0000066eqYIAQ,003Rg000005TBOcIAO,003Rg000005HjHFIA0</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>003Rg0000057Gd4IAE,003Rg000004rgmuIAA,003Rg000004QCL0IAO,003Rg000004dCOnIAM,003Rg000004cJ5qIAE,003EY000004Ln1FYAS,003EY000004KqzRYAS,003EY000004CJ62YAG,003EY00000498ODYAY,003EY0000043MBYYA2,003EY0000040txRYAQ</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>001Rg000004NGmcIAG,001Rg00000BGlUTIA1,001EY000003hEbyYAE,003EY000003vHW9YAM,003EY000003QRvpYAG,003EY000003mnQCYAY,003EY000003mBvTYAU,003EY000003dr66YAA,003EY000003dPVPYA2</value>
+    </filters>
+    <label>Jan 2025 - MM Key Prospects - Briana</label>
+</ListView>

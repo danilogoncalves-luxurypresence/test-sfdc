@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_before_closing</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  RecordTypeId &lt;&gt;  $Label.ID_Case_SFDC_Ticket,
+  ISBLANK(ContactId),
+  ISPICKVAL( Status, &quot;Closed&quot;),
+ $UserRole.Name = &quot;Email To Case&quot;
+)</errorConditionFormula>
+    <errorMessage>Please relate the case to a contact before closing.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blogs_Sent_for_Approval_Overdue</fullName>
+    <columns>Account__c</columns>
+    <columns>NAME</columns>
+    <columns>Account_Manager__c</columns>
+    <columns>Status__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service_schedule__c.Blogs_per_Quarter</value>
+    </filters>
+    <filters>
+        <field>Duplicate__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Sent for Client Approval</value>
+    </filters>
+    <filters>
+        <field>LAST_UPDATE</field>
+        <operation>lessOrEqual</operation>
+        <value>N_DAYS_AGO:7</value>
+    </filters>
+    <label>Blogs Sent for Approval 7+ Days Ago</label>
+</ListView>

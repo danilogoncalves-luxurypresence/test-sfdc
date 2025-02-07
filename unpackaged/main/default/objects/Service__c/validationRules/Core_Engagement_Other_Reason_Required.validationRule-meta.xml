@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Core_Engagement_Other_Reason_Required</fullName>
+    <active>false</active>
+    <description>Core Engagement Other Reason is required when Picklist value of Other is selected</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Why_do_clients_not_reach_Core_Engagement__c , &quot;Other&quot;), 
+    ISBLANK(Core_Engagement_Other_Reason__c)
+)</errorConditionFormula>
+    <errorMessage>Core Engagement Other Reason is required. Please fill out the reason field.</errorMessage>
+</ValidationRule>

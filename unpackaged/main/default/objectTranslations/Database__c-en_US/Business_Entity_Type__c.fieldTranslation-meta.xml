@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Choose your business structure: Sole Proprietorship, Partnership, Corporation, S Corp, or LLC. --></help>
+        <label><!-- Business Entity Type --></label>
+        <name>Business_Entity_Type__c</name>
+    </CustomFieldTranslation>

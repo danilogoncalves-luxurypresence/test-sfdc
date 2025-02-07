@@ -1,0 +1,116 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+Great to meet you today! Thanks for taking the time to share your audience profile, marketing goals, and targets with me. Here is your custom&nbsp;<u><strong>Marketing Strategy Deck</strong></u>.<br />
+<br />
+Below is a summary of the notes I took during our conversation. Please let me know if you have any changes or if you need help with any of the following action items.&nbsp;<br />
+<br />
+The following blog has been approved for production:<br />
+<br />
+[Blog Title]&nbsp;<br />
+<br />
+<u><strong>Your Action Items</strong></u>
+<ul>
+	<li><strong>Google Business Profile</strong>: Please provide the following info for your new profile&nbsp; [ADD]<u>due date Month/Day</u>
+	<ul>
+		<li>Business Name:</li>
+		<li>Primary Area (will be used in description):&nbsp;</li>
+		<li>Phone Number:</li>
+		<li>Address (no P.O. boxes):</li>
+		<li>Website URL:</li>
+		<li>Business Hours:</li>
+		<li>Other Service Areas:</li>
+		<li>Logo &amp; Cover Photo(s):</li>
+	</ul>
+	</li>
+</ul>
+<br />
+<span style="color:#d35400;"><strong>--OR STEP 2–</strong></span>
+
+<ul>
+	<li><strong>Google Business Profile</strong>: Please provide a screenshot of your existing profile and profile name and follow the instructions below to give our team access to start optimizing. Here’s a <a href="https://www.loom.com/share/Google-Business-or-Add-User-eba31b0161a84c1f91e1e5e17f467104">quick video overview</a> of the process.
+
+	<ul>
+		<li>On your computer, sign in to <a href="http://business.google.com/?skipLandingPage=true&amp;gmbsrc=ww-ww-et-gs-z-gmb-v-z-h~bhc-core-u%7Cmybb">Google Business Profile</a>. (If you have multiple locations, open the location you'd like to manage.)</li>
+		<li>Once on Google Search, click the three dots displayed to the right of “Your business on Google” and choose Business Profile settings.&nbsp;</li>
+		<li>Click Managers, then click Add.&nbsp;</li>
+		<li>Enter this email: luxurypresenceseo@gmail.com OR seogbp@luxurypresence.com&nbsp;</li>
+		<li>Select “Owner” under Access</li>
+		<li>&nbsp;Click Invite</li>
+	</ul>
+	</li>
+</ul>
+(IF Ads)
+
+<ul>
+	<li>Fill out this <u><strong>credit card authorization form</strong></u> for future ad campaigns by [ADD]<u>due date Month/Day</u></li>
+</ul>
+&nbsp;
+
+<ul>
+	<li>For Facebook Ads, add Luxury Presence to your business page and ad account by due [ADD]<u>date Month/Day</u>
+
+	<ul>
+		<li><a href="https://www.loom.com/share/Adding-Luxury-Presence-to-Facebook-Business-Account-ed885d2394d949b4a7e9968f4e0884e3">Watch this quick video</a> about how to give Luxury Presence Access to your Facebook Page and Ad Account.&nbsp;</li>
+		<li>Use this Business Manager ID account for Luxury Presence V3: 876463623096990</li>
+		<li>When you are assigning assets to Luxury Presence, click “Classic Pages,” select your page, then scroll down on the right side to "Full Control." Toggle on "Manage Page" and save changes.</li>
+	</ul>
+	</li>
+</ul>
+&nbsp;
+
+<ul>
+	<li>For Google Ads, add Luxury Presence to your Google Ads account by due [ADD]<u>date Month/Day</u>
+
+	<ul>
+		<li><a href="https://www.loom.com/share/How-to-Get-Access-to-Clients-Google-Ad-Account-584f927e35634403a07125f5c80ad4ea">Watch this quick video</a> about how to give Luxury Presence Access to your Google Ads Account.&nbsp;</li>
+		<li><a href="https://ads.google.com/home/#!/">Sign in</a> to Google Ad Manager.</li>
+		<li>Navigate to Admin &gt; Access &amp; authorization &gt; Users
+		<ul>
+			<li>Click New user</li>
+			<li>Enter user information analyticsga@luxurypresence.com or analytics@luxurypresence.com&nbsp;</li>
+			<li>Select the <a href="https://support.google.com/admanager/answer/177403">user role</a>&nbsp;of admin.</li>
+			<li>Click Save.</li>
+			<li>If it says the domain for our email is unavailable, please follow these additional steps:
+			<ul>
+				<li>Go to your SECURITY settings, then click on Allowed domains.</li>
+				<li>Click ADD DOMAIN and paste the domain of the email you want to add, (@luxurypresence.com). Then click SAVE and repeat the beginning steps.</li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+&nbsp;
+
+<ul>
+	<li><strong>Presence™ Platform:</strong> Please review the following resources to get up to speed on our platform.
+
+	<ul>
+		<li><a href="https://luxurypresence.my.site.com/helpcenter/s/">Knowledge Base</a></li>
+		<li><a href="https://luxurypresence.my.site.com/helpcenter/s/article/Presence-Platform-Overview">Presence Platform Overview</a></li>
+		<li><a href="https://whatsnew.luxurypresence.com/">Product updates and release notes</a></li>
+	</ul>
+	</li>
+</ul>
+<u>Action Items for Luxury Presence</u>
+
+<ul>
+	<li>Connect with SEO Team about target locations, Google Business Profile status, and content ideas for your annual content strategy</li>
+	<li><span style="color:#d35400;">(if applicable)</span> Connect with Social Media Team about questionnaire
+	<ul>
+		<li>If not completed: Please complete the attached questionnaire by [ADD]<u>date Month/Day</u></li>
+	</ul>
+	</li>
+	<li><span style="color:#d35400;">(if applicable)</span> Connect with Paid Media Team to build a strategy based on goals/persona</li>
+</ul>
+I'll send your first blog post as soon as it's ready for your review. Please reach out with any questions in the meantime! I'm excited for our first monthly call on [ADD]<u>date Month/Day.</u><br />
+<br />
+Warm regards,<br />
+<br />
+{{{Sender.Name}}}</body>
+</html>

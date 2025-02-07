@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>Add Service Presence Copilot White Label</name>
+    <style>freeForm</style>
+    <subject>Welcome to White Label Presence Copilot {!Contact.Name}!</subject>
+    <textOnly>Hi {!Account.Primary_Contact_First_Name__c},
+
+
+
+We&#39;re thrilled to begin your White Label App Onboarding experience! Thank you for choosing us as your partner—it&#39;s wonderful to have you on board.
+
+
+I’m excited to introduce you to Evan Cazes who is copied on this email and will be reaching out shortly with details to kick off your onboarding journey. 
+
+
+If you have any questions or need assistance along the way, please feel free to reach out to Evan. We&#39;re here to make sure you have a seamless experience.
+Can’t wait to get started together!
+
+
+Best regards,
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

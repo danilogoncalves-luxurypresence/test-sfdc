@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If &quot;Were the 6 MLS Pages added?&quot; is set to No, fill out this field --></help>
+        <label><!-- Why were MLS Pages not complete? --></label>
+        <name>Why_were_MLS_Pages_not_complete__c</name>
+    </CustomFieldTranslation>

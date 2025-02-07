@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Feed_Integration_Options__c</fullName>
+    <label>Feed Integration Options</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Luxury Portfolio</fullName>
+                <default>false</default>
+                <label>Luxury Portfolio</label>
+            </value>
+            <value>
+                <fullName>Leading RE</fullName>
+                <default>false</default>
+                <label>Leading RE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

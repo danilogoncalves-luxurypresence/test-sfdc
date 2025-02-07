@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Olivia_Blogs_test</fullName>
+    <columns>NAME</columns>
+    <columns>Content_Specialist__c</columns>
+    <columns>Account_Manager_Linked__c</columns>
+    <columns>Status__c</columns>
+    <columns>Due_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service_schedule__c.Blogs_per_Quarter</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notContain</operation>
+        <value>12 Blogs - 2nd Quarter,4 Blogs - 2nd Quarter,4 Blogs - 3rd Quarter,12 Blogs - 4th Quarter,4 Blogs - 1st Quarter,4 Blogs - 4th Quarter,2 Blogs - 1st Quarter,3 Blogs - 1st Quarter,6 Blogs - 1st Quarter</value>
+    </filters>
+    <filters>
+        <field>Content_Specialist__c</field>
+        <operation>equals</operation>
+        <value>Olivia Liu</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New,Ready for Assigning</value>
+    </filters>
+    <label>Olivia Blogs - test</label>
+</ListView>

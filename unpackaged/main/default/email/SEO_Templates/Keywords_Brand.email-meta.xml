@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Keywords - Brand +</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Keywords - Brand +</name>
+    <style>none</style>
+    <subject>How Our Optimized MLS Pages Drive Qualified Traffic and Lead Generation</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

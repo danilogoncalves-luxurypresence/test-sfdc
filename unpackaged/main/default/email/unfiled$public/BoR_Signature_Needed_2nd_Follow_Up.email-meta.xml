@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BoR Signature Needed - 2nd Follow Up</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>BoR Signature Needed - 2nd Follow Up</name>
+    <style>freeForm</style>
+    <subject>Following Up: MLS Introduction</subject>
+    <textOnly>Hi {!Service__c.Contact_First_Name__c},
+
+I hope you are having a great day! I&#39;m following up with our previous email, you are listed as the Broker of Record requested for signature for our client&#39;s IDX request. Please let me know if you are not the correct broker or record or if you have any questions. I&#39;m here to help!
+
+Please click HERE to sign the IDX request form.
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

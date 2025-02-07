@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- (MLS) MLS Lead Category --></label>
+        <name>MLS_MLS_Lead_Category__c</name>
+    </CustomFieldTranslation>

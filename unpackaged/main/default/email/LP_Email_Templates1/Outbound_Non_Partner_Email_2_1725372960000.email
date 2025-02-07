@@ -1,0 +1,11 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Just checking in to see if you received my last email.&nbsp; Who should I be directing my efforts towards?<br />
+<br />
+Thanks,<br />
+{{{Sender.FirstName}}}</body>
+</html>

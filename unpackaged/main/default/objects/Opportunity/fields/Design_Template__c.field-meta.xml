@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Design_Template__c</fullName>
+    <label>Design Template</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bespoke</fullName>
+                <default>false</default>
+                <label>Bespoke</label>
+            </value>
+            <value>
+                <fullName>Coldwell Banker Brand Agent</fullName>
+                <default>false</default>
+                <label>Coldwell Banker Brand Agent</label>
+            </value>
+            <value>
+                <fullName>Coldwell Banker Brand Property</fullName>
+                <default>false</default>
+                <label>Coldwell Banker Brand Property</label>
+            </value>
+            <value>
+                <fullName>Coldwell Banker Global Luxury Agent</fullName>
+                <default>false</default>
+                <label>Coldwell Banker Global Luxury Agent</label>
+            </value>
+            <value>
+                <fullName>Coldwell Banker Global Luxury Property</fullName>
+                <default>false</default>
+                <label>Coldwell Banker Global Luxury Property</label>
+            </value>
+            <value>
+                <fullName>Compass &quot;The Innovator&quot;</fullName>
+                <default>false</default>
+                <label>Compass &quot;The Innovator&quot;</label>
+            </value>
+            <value>
+                <fullName>Compass &quot;The Milestone&quot;</fullName>
+                <default>false</default>
+                <label>Compass &quot;The Milestone&quot;</label>
+            </value>
+            <value>
+                <fullName>Compass &quot;The Navigator&quot;</fullName>
+                <default>false</default>
+                <label>Compass &quot;The Navigator&quot;</label>
+            </value>
+            <value>
+                <fullName>Compass &quot;The Prestige&quot;</fullName>
+                <default>false</default>
+                <label>Compass &quot;The Prestige&quot;</label>
+            </value>
+            <value>
+                <fullName>Compass S&amp;E</fullName>
+                <default>false</default>
+                <label>Compass S&amp;E</label>
+            </value>
+            <value>
+                <fullName>Corcoran Agent #1</fullName>
+                <default>false</default>
+                <label>Corcoran Agent #1</label>
+            </value>
+            <value>
+                <fullName>Corcoran Agent #2</fullName>
+                <default>false</default>
+                <label>Corcoran Agent #2</label>
+            </value>
+            <value>
+                <fullName>Corcoran Development Site</fullName>
+                <default>false</default>
+                <label>Corcoran Development Site</label>
+            </value>
+            <value>
+                <fullName>Custom Website Package</fullName>
+                <default>false</default>
+                <label>Custom Website Package</label>
+            </value>
+            <value>
+                <fullName>Global Collective Agent</fullName>
+                <default>false</default>
+                <label>Global Collective Agent</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Pinnacle</fullName>
+                <default>false</default>
+                <label>Pinnacle</label>
+            </value>
+            <value>
+                <fullName>Sotheby&#39;s &quot;The Icon&quot;</fullName>
+                <default>false</default>
+                <label>Sotheby&#39;s &quot;The Icon&quot;</label>
+            </value>
+            <value>
+                <fullName>Sotheby&#39;s &quot;The Inspiration&quot;</fullName>
+                <default>false</default>
+                <label>Sotheby&#39;s &quot;The Inspiration&quot;</label>
+            </value>
+            <value>
+                <fullName>Sotheby&#39;s &quot;The Lifestyle&quot;</fullName>
+                <default>false</default>
+                <label>Sotheby&#39;s &quot;The Lifestyle&quot;</label>
+            </value>
+            <value>
+                <fullName>Sotheby&#39;s &quot;The Trailblazer&quot;</fullName>
+                <default>false</default>
+                <label>Sotheby&#39;s &quot;The Trailblazer&quot;</label>
+            </value>
+            <value>
+                <fullName>The Classic</fullName>
+                <default>false</default>
+                <label>The Classic</label>
+            </value>
+            <value>
+                <fullName>The Evolution</fullName>
+                <default>false</default>
+                <label>The Evolution</label>
+            </value>
+            <value>
+                <fullName>The Influencer</fullName>
+                <default>false</default>
+                <label>The Influencer</label>
+            </value>
+            <value>
+                <fullName>Masterpiece</fullName>
+                <default>false</default>
+                <label>The Masterpiece</label>
+            </value>
+            <value>
+                <fullName>The Masterpiece - CIRE</fullName>
+                <default>false</default>
+                <label>The Masterpiece - CIRE</label>
+            </value>
+            <value>
+                <fullName>The Producer</fullName>
+                <default>false</default>
+                <label>The Producer</label>
+            </value>
+            <value>
+                <fullName>The Producer - CIRE</fullName>
+                <default>false</default>
+                <label>The Producer - CIRE</label>
+            </value>
+            <value>
+                <fullName>The Signature</fullName>
+                <default>false</default>
+                <label>The Signature</label>
+            </value>
+            <value>
+                <fullName>The Visionary</fullName>
+                <default>false</default>
+                <label>The Visionary</label>
+            </value>
+            <value>
+                <fullName>The Visionary - Gestalt</fullName>
+                <default>false</default>
+                <label>The Visionary - Gestalt</label>
+            </value>
+            <value>
+                <fullName>Undecided</fullName>
+                <default>false</default>
+                <label>Undecided</label>
+            </value>
+            <value>
+                <fullName>Compass Template - Stripped</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Compass Template - Stripped</label>
+            </value>
+            <value>
+                <fullName>Property website (Non-Compass)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Property website (Non-Compass)</label>
+            </value>
+            <value>
+                <fullName>The Bold</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>The Bold</label>
+            </value>
+            <value>
+                <fullName>The Elite</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>The Elite</label>
+            </value>
+            <value>
+                <fullName>The Exclusive</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>The Exclusive</label>
+            </value>
+            <value>
+                <fullName>The Flaggship</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>The Flaggship</label>
+            </value>
+            <value>
+                <fullName>The Foundation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>The Foundation</label>
+            </value>
+            <value>
+                <fullName>The Modern</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>The Modern</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>2 day delay</name>
+    <style>freeForm</style>
+    <subject>ATTN: Get Started on the Luxury Presence Platform Upgrade!</subject>
+    <textOnly>Hi again!
+
+I wanted to follow up on my last email in regards to the Luxury Presence platform upgrade for the website Website Domain. In order to complete the upgrade, we must verify the Domain Registrar login credentials because we host the new platform on a different server. Please choose from one of the following options:
+
+Send via email your Domain Registrar username and password -OR-
+By phone, please pick a time by scheduling a call HERE
+
+We are so excited for you to see all the new changes!
+
+Best,
+Danielle.
+
+
+
+
+
+Luxury Presence Inc., 1808 Stanford Street, Santa Monica, California 90404, United States, 3109551077</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

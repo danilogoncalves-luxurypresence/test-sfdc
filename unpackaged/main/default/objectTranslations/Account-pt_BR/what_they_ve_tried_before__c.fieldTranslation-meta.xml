@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- What they’ve tried before: --></label>
+        <name>what_they_ve_tried_before__c</name>
+        <picklistValues>
+            <masterLabel>Blogs</masterLabel>
+            <translation><!-- Blogs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GMB</masterLabel>
+            <translation><!-- GMB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Ads</masterLabel>
+            <translation><!-- Paid Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEO</masterLabel>
+            <translation><!-- SEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation><!-- Social Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zillow</masterLabel>
+            <translation><!-- Zillow --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

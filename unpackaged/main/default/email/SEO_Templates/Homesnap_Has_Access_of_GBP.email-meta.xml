@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Homesnap Has Access of GBP</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Homesnap Has Access of GBP</name>
+    <style>none</style>
+    <subject>Action Needed: Transferring Google Business Profile Ownership from Homesnap</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

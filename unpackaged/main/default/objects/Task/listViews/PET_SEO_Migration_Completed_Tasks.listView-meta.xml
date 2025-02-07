@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PET_SEO_Migration_Completed_Tasks</fullName>
+    <columns>SUBJECT</columns>
+    <columns>DUE_DATE</columns>
+    <columns>STATUS</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>WHO_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>contains</operation>
+        <value>PET SEO Migration</value>
+    </filters>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </filters>
+    <label>PET SEO Migration - Completed Tasks</label>
+</ListView>

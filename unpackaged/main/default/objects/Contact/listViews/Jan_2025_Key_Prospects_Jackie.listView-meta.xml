@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jan_2025_Key_Prospects_Jackie</fullName>
+    <booleanFilter>1 or 2 or 3 or 4 or 5</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LAST_ACTIVITY_DATETIME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000002GPbHYAW,003EY000001cbZrYAI,003EY000001tRWHYA2,003EY000002OLa2YAG,003EY000002og1mYAA,003EY0000045GXVYA2,003EY0000045GcVYAU,003EY000001cU2wYAE,003EY000001qTMUYA2,003EY000003Qv7VYAS</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000002cmlAYAQ,003EY000002Mve6YAC,003Rg000009JGNFIA4,003EY000001kbGGYAY,003EY000002CtlUYAS,003Rg000008P0t3IAC,003EY0000020tVeYAI,003EY000001zenGYAQ,003EY000002QQxGYAW,003EY000001t6mjYAA</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000001kEaiYAE,003EY0000021fzAYAQ,003EY0000023Wz9YAE,003EY000002A4ylYAC,003EY000002UW1qYAG,003EY000002Wo5sYAC,003Rg000009x462IAA,003EY000003iMiOYAU,003EY000002vsvqYAA,003Rg000006qtPyIAI</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY0000045HqoYAE,003EY000004E3yxYAC,003Rg00000DAunqIAD,003EY0000045HxdYAE,003EY000003HsOYYA0,003EY000003nh8WYAQ,003EY000003WiEJYA0,003EY000003w5EjYAI,003EY000004KDRSYA4,003EY000004P9nZYAS</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003Rg00000B8qEQIAZ,003Rg000003vbQzIAI,003Rg000003zqfvIAA,003Rg000007WUgTIAW,003Rg0000089kv3IAA,--,003Rg00000Eo94rIAB</value>
+    </filters>
+    <label>Jan 2025 - Key Prospects - Jackie</label>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Link_to_Instance_url__c</fullName>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;https://app.luxurypresence.com/admin/accounts/&quot;&amp;Provider_ID_Unique__c , &quot;Go to Presence Account&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Link to Instance</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

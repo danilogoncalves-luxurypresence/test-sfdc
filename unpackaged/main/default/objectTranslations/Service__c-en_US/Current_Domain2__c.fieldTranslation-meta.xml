@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Displays the current domain from the opportunity --></help>
+        <label><!-- Current Domain --></label>
+        <name>Current_Domain2__c</name>
+    </CustomFieldTranslation>

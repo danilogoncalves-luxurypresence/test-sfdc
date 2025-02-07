@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tier_Plan_Product__c</fullName>
+    <formula>PricebookEntry.Tier_Plan_Product__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tier Plan Product?</label>
+    <type>Checkbox</type>
+</CustomField>

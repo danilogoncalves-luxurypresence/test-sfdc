@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+{{{Sender.FirstName}}} here, quickly checking in! Our team has developed your marketing strategy, keyword analysis, and blog ideations for you to review and approve.&nbsp;<br />
+<br />
+Since we were unable to connect, our approach was informed by our niche knowledge of the real estate market. Please follow the links below to see your documents and let me know if you have any questions.<br />
+<br />
+<u><strong>SEO Strategy<br />
+<br />
+Paid Media Strategy<br />
+<br />
+Social Strategy</strong></u><br />
+<br />
+Your first set of blog topics is below and is based on popular buyer and seller interests. You’re welcome to offer alternative topics to replace these if you’d like. <strong>Your content will go into production in 7 days, so please let me know if you have any edits before then.</strong><br />
+<br />
+<br />
+[Month] - [Blog topic 1]<br />
+<br />
+[Month] - [Blog topic 2]<br />
+<br />
+[Month] - [Blog topic 3]<br />
+<br />
+[Month] - [Blog topic 4]<br />
+<br />
+[Month] - [Blog topic 5]<br />
+<br />
+[Month] - [Blog topic 6]<br />
+<br />
+...<br />
+<br />
+[Month] - [Blog topic 24]<br />
+<br />
+Based on the topics above, please communicate some “must-haves” and “don’ts” like favorite spots or places to avoid including.<br />
+<br />
+I'm so looking forward to helping you reach your marketing goals. I'd love to set up a time to go over each slide together so I can better explain the nuances of your plan. You can [ADD]&nbsp;<u>use my calendar link</u> to find a time on my schedule that works for you.<br />
+<br />
+Best,<br />
+{{{Sender.Name}}}</body>
+</html>

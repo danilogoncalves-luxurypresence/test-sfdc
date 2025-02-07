@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_POD_2_Tasks_Eliana</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>SUBJECT</columns>
+    <columns>WHO_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>DUE_DATE</columns>
+    <columns>STATUS</columns>
+    <columns>OWNER_ROLE</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Assigned_POD__c</field>
+        <operation>equals</operation>
+        <value>Pod 2</value>
+    </filters>
+    <filters>
+        <field>Team__c</field>
+        <operation>equals</operation>
+        <value>LP VA&#39;s</value>
+    </filters>
+    <label>Copy of POD 2 Tasks( Eliana )</label>
+</ListView>

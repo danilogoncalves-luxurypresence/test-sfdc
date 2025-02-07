@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flaked_Stage</fullName>
+    <active>true</active>
+    <description>Users can only go from Qualifying stage to Flake</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(StageName, &quot;Flaked&quot;),
+    ISCHANGED(StageName),
+    NOT(ISPICKVAL(PRIORVALUE(StageName), &quot;Qualifying&quot;))
+)</errorConditionFormula>
+    <errorMessage>You can not go back to Flaked stage.</errorMessage>
+</ValidationRule>

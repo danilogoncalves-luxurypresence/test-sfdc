@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Saved_Notes_Addendum</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordTypeId = &quot;0125f000000VvK3&quot;,
+ISPICKVAL( StageName, &quot;Closed Lost&quot;),
+ISBLANK( Saved_Notes__c )
+)</errorConditionFormula>
+    <errorDisplayField>Saved_Notes__c</errorDisplayField>
+    <errorMessage>Please fill the Saved Notes field.</errorMessage>
+</ValidationRule>

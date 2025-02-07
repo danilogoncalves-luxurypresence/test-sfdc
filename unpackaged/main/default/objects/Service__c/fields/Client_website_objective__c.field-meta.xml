@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_website_objective__c</fullName>
+    <label>Client Website Objective</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Digital Business Card</fullName>
+                <default>false</default>
+                <label>Digital Business Card</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Product (Dashboard to make changes)</fullName>
+                <default>false</default>
+                <label>Product (Dashboard to make changes)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

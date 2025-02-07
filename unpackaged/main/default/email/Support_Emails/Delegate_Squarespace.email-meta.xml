@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support_24</letterhead>
+    <name>Delegate Access - Squarespace</name>
+    <style>freeForm</style>
+    <subject>How to Delegate Access to Your Squarespace Account</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+To help us assist you with your Squarespace domain, please follow the steps below to grant us access:
+
+1.Open the Permissions &amp; Ownership panel in your Squarespace account.
+2. Click Invite Contributor (or Invite Domain Manager if applicable).
+3. In the Invite window, enter the following details:
+- Name: Luxury Presence
+- Email: domainaccess@luxurypresence.com
+- Under Global, turn on the Administrator toggle
+4. Click Invite to send the invitation.
+
+This article from our Help Center walks you through the steps in more detail:
+https://luxurypresence.my.site.com/helpcenter/s/article/How-to-Share-Access-to-Your-Squarespace-Account
+
+Once you&#39;ve invited us, kindly let us know, and we’ll take it from there!
+
+If you have any questions or need assistance with this process, don’t hesitate to reach out.
+
+Best regards,
+{!User.FirstName}
+Luxury Presence Support
+(310) 955-1077
+support@luxurypresence.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

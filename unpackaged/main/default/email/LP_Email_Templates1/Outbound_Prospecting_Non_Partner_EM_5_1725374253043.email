@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hey {{{Recipient.FirstName}}},<br />
+<br />
+I’m sure you are probably wondering by now, "Who is this&nbsp;{{{Sender.FirstName}}} person, and why do they want to talk to me so badly?"<br />
+<br />
+To put it simply, Luxury Presence helps real estate agents stand out in the competitive market, attract discerning buyers, and achieve higher sales prices for their listings.<br />
+<br />
+You don’t just have to take my word for it! Recently, Taylor Lucyk said this about us:<br />
+"Luxury Presence is A+ across the board — the support we’ve gotten has been incredible. They’ve helped us drive our site to the right people and have provided the analytics to help us continue growing."<br />
+<br />
+Given you are an established real estate agent, am I wrong to assume this is an area you are responsible for? If so, who should I be speaking with? If not, how does tomorrow afternoon look for a quick call?<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}</body>
+</html>

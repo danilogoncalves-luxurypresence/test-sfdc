@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Buildout Type --></label>
+        <name>Buildout_Type__c</name>
+        <picklistValues>
+            <masterLabel>Migration from Lead Generation</masterLabel>
+            <translation><!-- Migration from Lead Generation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Migration from On-Demand Ads</masterLabel>
+            <translation><!-- Migration from On-Demand Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net new client</masterLabel>
+            <translation><!-- Net new client --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

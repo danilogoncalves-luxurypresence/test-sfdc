@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Are all the blog topics currently approved by the client? Mark checkbox if client has approved all their topics for this subscription year. --></help>
+        <label><!-- Topics Approved? --></label>
+        <name>Topics_Approved__c</name>
+    </CustomFieldTranslation>

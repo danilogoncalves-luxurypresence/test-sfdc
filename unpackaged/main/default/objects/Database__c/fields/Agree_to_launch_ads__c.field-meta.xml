@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agree_to_launch_ads__c</fullName>
+    <inlineHelpText>Our team will launch your paid ads within three weeks after your website is live, once AI Lead Nurture is activated.</inlineHelpText>
+    <label>Agree to launch ads?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

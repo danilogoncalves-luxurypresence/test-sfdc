@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- MLS Status --></label>
+        <name>MLS_Status__c</name>
+        <picklistValues>
+            <masterLabel>Agent and Broker Signature</masterLabel>
+            <translation><!-- Agent and Broker Signature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client HST Hidden</masterLabel>
+            <translation><!-- Client HST Hidden --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client On Hold</masterLabel>
+            <translation><!-- Client On Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Get Paperwork Started</masterLabel>
+            <translation><!-- Get Paperwork Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDX Complete</masterLabel>
+            <translation><!-- IDX Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paused</masterLabel>
+            <translation><!-- Paused --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Broker Information</masterLabel>
+            <translation><!-- Pending Broker Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Client Submission</masterLabel>
+            <translation><!-- Pending Client Submission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Domain Name</masterLabel>
+            <translation><!-- Pending Domain Name --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending MLS Approval</masterLabel>
+            <translation><!-- Pending MLS Approval --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

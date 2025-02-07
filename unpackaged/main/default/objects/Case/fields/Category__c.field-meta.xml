@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <inlineHelpText>WEBSITE BUILDER - Update links, issue redirects, delete &amp; duplicate page, update/upload/resize photo, update page contents, update/upload logo, add modal. CSS/ADVANCED - Multiple requests, update branding (colors, logo), property sync (missing/incorrect listings), custom page creation, CSS &amp; script application (iframe/widgets/embedded codes), website responsiveness, creating agent subdomain, mix of Website Builder and Content tasks. CONTENT/DATA SPECIALIST - Bulk adding/updating/deleting any CMS content</inlineHelpText>
+    <label>Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Edits we taught the client to do</fullName>
+                <default>false</default>
+                <label>Edits we taught the client to do</label>
+            </value>
+            <value>
+                <fullName>Edits that Require Support</fullName>
+                <default>false</default>
+                <label>Edits that Require Support</label>
+            </value>
+            <value>
+                <fullName>IDX / Listings</fullName>
+                <default>false</default>
+                <label>IDX / Listings</label>
+            </value>
+            <value>
+                <fullName>Edits the Client Cloud Do (but we did them)</fullName>
+                <default>false</default>
+                <label>Edits the Client Cloud Do (but we did them)</label>
+            </value>
+            <value>
+                <fullName>Website Refresh/ReDesign</fullName>
+                <default>false</default>
+                <label>Website Refresh/ReDesign</label>
+            </value>
+            <value>
+                <fullName>Log in Questions</fullName>
+                <default>false</default>
+                <label>Log in Questions</label>
+            </value>
+            <value>
+                <fullName>Jira Ticket</fullName>
+                <default>false</default>
+                <label>Jira Ticket</label>
+            </value>
+            <value>
+                <fullName>DNS</fullName>
+                <default>false</default>
+                <label>DNS</label>
+            </value>
+            <value>
+                <fullName>Integrations</fullName>
+                <default>false</default>
+                <label>Integrations</label>
+            </value>
+            <value>
+                <fullName>Widgets</fullName>
+                <default>false</default>
+                <label>Widgets</label>
+            </value>
+            <value>
+                <fullName>Copywriting</fullName>
+                <default>false</default>
+                <label>Copywriting</label>
+            </value>
+            <value>
+                <fullName>Outbound</fullName>
+                <default>false</default>
+                <label>Outbound</label>
+            </value>
+            <value>
+                <fullName>Google</fullName>
+                <default>false</default>
+                <label>Google</label>
+            </value>
+            <value>
+                <fullName>Leads</fullName>
+                <default>false</default>
+                <label>Leads</label>
+            </value>
+            <value>
+                <fullName>Property Websites</fullName>
+                <default>false</default>
+                <label>Property Websites</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>SEO</fullName>
+                <default>false</default>
+                <label>SEO</label>
+            </value>
+            <value>
+                <fullName>Brokerage Change</fullName>
+                <default>false</default>
+                <label>Brokerage Change</label>
+            </value>
+            <value>
+                <fullName>Data Specialist</fullName>
+                <default>false</default>
+                <label>Content/Data Specialist</label>
+            </value>
+            <value>
+                <fullName>CSS/Advanced</fullName>
+                <default>false</default>
+                <label>CSS/Advanced</label>
+            </value>
+            <value>
+                <fullName>Website Builder</fullName>
+                <default>false</default>
+                <label>Website Builder</label>
+            </value>
+            <value>
+                <fullName>Bug Report / Technical  Issue</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bug Report / Technical  Issue</label>
+            </value>
+            <value>
+                <fullName>Call: Finance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Call: Finance</label>
+            </value>
+            <value>
+                <fullName>Call: HR</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Call: HR</label>
+            </value>
+            <value>
+                <fullName>Call: Implementation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Call: Implementation</label>
+            </value>
+            <value>
+                <fullName>Call: Support</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Call: Support</label>
+            </value>
+            <value>
+                <fullName>Cancelation Request</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cancelation Request</label>
+            </value>
+            <value>
+                <fullName>Cloudflare Email</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cloudflare Email</label>
+            </value>
+            <value>
+                <fullName>Customization</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customization</label>
+            </value>
+            <value>
+                <fullName>Domain / DNS / Email / Launch</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Domain / DNS / Email / Launch</label>
+            </value>
+            <value>
+                <fullName>EOD Report</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>EOD Report</label>
+            </value>
+            <value>
+                <fullName>Escalations (Formerly AX Team)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Escalations (Formerly AX Team)</label>
+            </value>
+            <value>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Feature Request</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Google: GMB, Analytics GTM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Google: GMB, Analytics GTM</label>
+            </value>
+            <value>
+                <fullName>Integrations: Juicer / Zapier / CRM etc.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Integrations: Juicer / Zapier / CRM etc.</label>
+            </value>
+            <value>
+                <fullName>Internal Revision: Implementation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Internal Revision: Implementation</label>
+            </value>
+            <value>
+                <fullName>Internal Revision: Marketing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Internal Revision: Marketing</label>
+            </value>
+            <value>
+                <fullName>Leads: Unsubcribe/ Spam/ Alerts</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Leads: Unsubcribe/ Spam/ Alerts</label>
+            </value>
+            <value>
+                <fullName>MLS / Listings</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MLS / Listings</label>
+            </value>
+            <value>
+                <fullName>Migration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Migration</label>
+            </value>
+            <value>
+                <fullName>PUP: Edits we taught the client to do</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PUP: Edits we taught the client to do</label>
+            </value>
+            <value>
+                <fullName>Proactive Engagement: i.e. Launch Emails</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Proactive Engagement: i.e. Launch Emails</label>
+            </value>
+            <value>
+                <fullName>Questions</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Questions</label>
+            </value>
+            <value>
+                <fullName>SEO / Marketing / Copy-writing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SEO / Marketing / Copy-writing</label>
+            </value>
+            <value>
+                <fullName>Widgets: ADA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Widgets: ADA</label>
+            </value>
+            <value>
+                <fullName>Widgets: Chat Bot / Pop Up / Custom Form / Language</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Widgets: Chat Bot / Pop Up / Custom Form / Language</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

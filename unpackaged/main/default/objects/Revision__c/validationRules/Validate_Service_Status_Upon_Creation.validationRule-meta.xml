@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Service_Status_Upon_Creation</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISNEW()
+&amp;&amp;
+RecordType.DeveloperName = &#39;Onboarding&#39;
+&amp;&amp;
+ISPICKVAL(Source__c,&#39;Client Revision&#39;)
+&amp;&amp;
+NOT(ISPICKVAL(Service__r.Status__c, &#39;Client Revision&#39;))</errorConditionFormula>
+    <errorMessage>Please, move the service status to Revision Round before creating a new revision</errorMessage>
+</ValidationRule>

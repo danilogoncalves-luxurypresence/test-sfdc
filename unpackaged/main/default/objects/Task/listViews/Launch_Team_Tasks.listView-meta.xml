@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Launch_Team_Tasks</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4</booleanFilter>
+    <columns>SUBJECT</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>STATUS</columns>
+    <columns>DUE_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>PRIORITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>New,Not Started,In Progress,Ready for QA,QA in Progress,Additional Revisions,Revisions in Progress,Sent for approval,Additional Feedback,At risk,Blocked,Open</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>contains</operation>
+        <value>Jona,Ryan,Jani,Janu,Ramo,Nico,rryan,Edma,Fran,Chri,Kris,Jefe,Jham,Yoym,Juan,Mich,Frank,jde l,Fern,mlims,cmerq,nsand,Ralp,esoto,rroyo,jsant,jyat,jcruz,JC,KNguy,arome,Angl,Dani,desgu,pabug,jvita,amart,lgarc,jespi,jnahi,aramo,jequi</value>
+    </filters>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>contains</operation>
+        <value>Final QA,Cross Domain Migration</value>
+    </filters>
+    <filters>
+        <field>WHAT_NAME</field>
+        <operation>notContain</operation>
+        <value>Side NL,SIDE NL</value>
+    </filters>
+    <label>Launch Team - WB/QA Tasks</label>
+</ListView>

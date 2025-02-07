@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Plan</fullName>
+        <default>false</default>
+        <label>Plan</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Setup Fee</fullName>
+        <default>false</default>
+        <label>Setup Fee</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Add On</fullName>
+        <default>false</default>
+        <label>Add On</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ala Carte Add On</fullName>
+        <default>false</default>
+        <label>Ala Carte Add On</label>
+    </standardValue>
+</StandardValueSet>

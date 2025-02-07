@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_SLA_Breach__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <externalId>false</externalId>
+    <formula>IF(
+    ISPICKVAL(Status, &quot;New&quot;),
+    IF(
+        (NOW() - CreatedDate) * 24 &lt; 1,
+        &quot;🟢&quot;,
+        IF(
+            (NOW() - CreatedDate) * 24 &lt; 3,
+            &quot;🟡&quot;,
+            &quot;🔴&quot;
+        )
+    ),
+    IF(
+        ISPICKVAL(Status, &quot;Open&quot;),
+        IF(
+            (NOW() - CreatedDate) * 24 &lt; 2,
+            &quot;🟢&quot;,
+            IF(
+                (NOW() - CreatedDate) * 24 &lt; 4,
+                &quot;🟡&quot;,
+                &quot;🔴&quot;
+            )
+        ),
+        IF(
+            ISPICKVAL(Status, &quot;Awaiting Client Response&quot;),
+            IF(
+                (NOW() - CreatedDate) &lt; 1,
+                &quot;🟢&quot;,
+                IF(
+                    (NOW() - CreatedDate) &lt; 2,
+                    &quot;🟡&quot;,
+                    &quot;🔴&quot;
+                )
+            ),
+            IF(
+                ISPICKVAL(Status, &quot;Awaiting Internal Team&quot;),
+                IF(
+                    (NOW() - CreatedDate) &lt; 1,
+                    &quot;🟢&quot;,
+                    &quot;🔴&quot;
+                ),
+                IF(
+                    ISPICKVAL(Status, &quot;Awaiting Jira Response&quot;),
+                    IF(
+                        (NOW() - CreatedDate) &lt; 3,
+                        &quot;🟢&quot;,
+                        &quot;🔴&quot;
+                    ),
+                    &quot;⚪&quot;
+                )
+            )
+        )
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>New: 🟢 &lt; 1 hr, 🟡 &lt; 3 hrs, 🔴 &gt; 3 hrs
+Open: 🟢 &lt; 2 hrs, 🟡 &lt; 4 hrs, 🔴 &gt; 4 hrs
+Awaiting Client Response: 🟢 &lt; 1 day, 🟡 &lt; 2 days, 🔴 &gt; 2 days
+Awaiting Internal Team: 🟢 &lt; 1 day, 🔴 &gt; 1 day
+Awaiting Jira Response: 🟢 &lt; 3 days, 🔴 &gt; 3 days</inlineHelpText>
+    <label>Support SLA Breach</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OTP_Task_progress</fullName>
+    <columns>WHAT_NAME</columns>
+    <columns>WHO_NAME</columns>
+    <columns>SUBJECT</columns>
+    <columns>STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>contains</operation>
+        <value>OTP</value>
+    </filters>
+    <label>OTP Task progress</label>
+</ListView>

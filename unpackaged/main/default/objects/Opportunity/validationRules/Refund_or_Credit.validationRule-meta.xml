@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Refund_or_Credit</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+Refund__c &gt; 0,  
+Credit__c &gt;0)</errorConditionFormula>
+    <errorMessage>Please set  Refund or Credit as 0</errorMessage>
+</ValidationRule>

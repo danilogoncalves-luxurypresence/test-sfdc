@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>Presence Copilot Add Users</name>
+    <style>freeForm</style>
+    <subject>Welcome to Presence Copilot!</subject>
+    <textOnly>Hi {!Account.Primary_Contact_First_Name__c},
+
+
+You have successfully added [X] more users to Presence Copilot! 
+
+For next steps, you will receive an email from copilot@luxurypresence.com with access details to the Presence Copilot app. This email will include all the necessary instructions on how to log in and start utilizing the app.
+
+Should you have any questions or require further assistance, please feel free to reach out to us at copilot@luxurypresence.com. We are here to help and ensure you have everything you need for a seamless experience.
+
+
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

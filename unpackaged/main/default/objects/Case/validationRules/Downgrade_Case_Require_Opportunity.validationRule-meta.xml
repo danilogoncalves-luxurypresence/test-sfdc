@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Downgrade_Case_Require_Opportunity</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    Record_Type_Name__c = &quot;Retention Case&quot;,
+    ISPICKVAL(Status, &quot;Closed&quot;),
+    ISPICKVAL(Retention_Result__c, &quot;Downgrade&quot;),
+
+    AND(
+        OR(
+            ISBLANK(Opportunity__c),
+            Opportunity__r.RecordTypeId &lt;&gt; &#39;012EY0000004Kor&#39;,
+            Opportunity__r.AccountId &lt;&gt; AccountId
+        ),
+
+        OR(
+            ISBLANK(Opportunity__c),
+            NOT(ISPICKVAL(Opportunity__r.Addendum_Type__c, &#39;Downgrade&#39;)),
+            Opportunity__r.AccountId &lt;&gt; AccountId
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>The Opportunity field is required. Please ensure this field is populated with the Downgrade Addendum and that the Opportunity is linked to the same Account as the Case before closing it.</errorMessage>
+</ValidationRule>

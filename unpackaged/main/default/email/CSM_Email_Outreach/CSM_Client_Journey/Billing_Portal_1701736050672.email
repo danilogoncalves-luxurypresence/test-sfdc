@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+<a href="https://users.instapayments.io/luxurypresence/secure/login">Here’s the link to your Client Billing Portal.</a><br />
+<br />
+To log in, use the email address associated with your Luxury Presence account.<br />
+<br />
+This secure portal allows you to see your subscription, billing history, and receipts. You can also &nbsp; update your credit card information at any time.<br />
+<br />
+If you have any issues or questions, please email billing@luxurypresence.com.&nbsp;<br />
+<br />
+Best,<br />
+Luxury Presence</body>
+</html>

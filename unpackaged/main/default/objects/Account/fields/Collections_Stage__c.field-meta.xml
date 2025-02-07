@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Collections_Stage__c</fullName>
+    <label>Collections Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>30 Day</fullName>
+                <default>false</default>
+                <label>30 Day</label>
+            </value>
+            <value>
+                <fullName>60 Day</fullName>
+                <default>false</default>
+                <label>60 Day</label>
+            </value>
+            <value>
+                <fullName>90 Day</fullName>
+                <default>false</default>
+                <label>90 Day</label>
+            </value>
+            <value>
+                <fullName>90+ Day</fullName>
+                <default>false</default>
+                <label>90+ Day</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

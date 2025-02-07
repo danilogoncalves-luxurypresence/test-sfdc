@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_plan_amount__c</fullName>
+    <formula>ROUND(
+Plan_Monthly_Marketing_Fee__c + Plan_Monthly_Subscription_Fee__c 
+/*Total_Monthly_Fee__c -  Add_on_Amount__c +  Ad_Management_Fee__c + (IF(Ad_Spend__c  &gt; 0, ( Ad_Spend__c - 500), 0) )*/
+, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total plan amount</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

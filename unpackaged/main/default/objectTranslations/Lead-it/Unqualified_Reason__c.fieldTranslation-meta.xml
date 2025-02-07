@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Unqualified Reason --></label>
+        <name>Unqualified_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Black Listed</masterLabel>
+            <translation><!-- Black Listed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Ready Now</masterLabel>
+            <translation><!-- Not Ready Now --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing to High</masterLabel>
+            <translation><!-- Pricing to High --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

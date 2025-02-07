@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Addendum_Add_Website_Design</fullName>
+    <active>true</active>
+    <description>Requires website design to be added to downgrade or upgrade addendums</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( Website_Design__c ,&quot;&quot;),
+ISCHANGED(StageName),
+ISPICKVAL( StageName , &quot;Closed Won&quot;),
+RecordTypeId = $Label.ID_Opp_Addendum,
+OR(
+ISPICKVAL( Addendum_Type__c , &quot;Downgrade&quot;),
+ISPICKVAL( Addendum_Type__c, &quot;Upgrade&quot;)
+)
+)</errorConditionFormula>
+    <errorMessage>Please fill in the website design field</errorMessage>
+</ValidationRule>

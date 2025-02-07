@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Must_Select_Available_Tier_Plan</fullName>
+    <active>false</active>
+    <errorConditionFormula>If (
+   Ala_Carte__c &amp;&amp;
+   IsBlank (Tier_Plans_Available__c),
+/* then */
+      TRUE,
+/* else */
+      FALSE
+)</errorConditionFormula>
+    <errorDisplayField>Tier_Plans_Available__c</errorDisplayField>
+    <errorMessage>You must include at least 1 Tier Plan if this product is listed as ala carte</errorMessage>
+</ValidationRule>

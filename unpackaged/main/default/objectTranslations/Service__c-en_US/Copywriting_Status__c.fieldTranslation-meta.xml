@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Have all of the pre-launch copywriting pages been written and added to the site? If not, please provide the status and link the Monday submission --></help>
+        <label><!-- Copywriting Status --></label>
+        <name>Copywriting_Status__c</name>
+    </CustomFieldTranslation>

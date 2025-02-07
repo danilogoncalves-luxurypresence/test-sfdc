@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Please enter your 9-digit EIN (XX-XXXXXXX) if you have one. Sole proprietors without employees typically don&apos;t need an EIN. --></help>
+        <label><!-- Tax ID/ EIN --></label>
+        <name>Tax_ID_EIN__c</name>
+    </CustomFieldTranslation>

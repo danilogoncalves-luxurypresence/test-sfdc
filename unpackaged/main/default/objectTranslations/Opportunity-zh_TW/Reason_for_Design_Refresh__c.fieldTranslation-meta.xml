@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reason for Design Refresh --></label>
+        <name>Reason_for_Design_Refresh__c</name>
+        <picklistValues>
+            <masterLabel>Change between 2 LP templates</masterLabel>
+            <translation><!-- Change between 2 LP templates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change between 2 brokerage templates</masterLabel>
+            <translation><!-- Change between 2 brokerage templates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change between brokerage template to a LP Design</masterLabel>
+            <translation><!-- Change between brokerage template to a LP Design --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

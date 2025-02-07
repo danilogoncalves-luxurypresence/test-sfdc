@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2024_Luxury_Forum_Attendees_06_24_24</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Lead_Brokerage__c</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>Partnership_Organization__c</columns>
+    <columns>Prior_12_months_total_transaction_value__c</columns>
+    <columns>LEAD.ZIP</columns>
+    <columns>Office_Name__c</columns>
+    <columns>LAST_CALL_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>X2024_Event_Name__c</field>
+        <operation>equals</operation>
+        <value>6.18 - 6.19 RE/MAX Lux Forum - Tahoe</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>d&#39;alessandro</value>
+    </filters>
+    <label>2024 Luxury Forum - 06-24-24 - Chiara</label>
+</ListView>

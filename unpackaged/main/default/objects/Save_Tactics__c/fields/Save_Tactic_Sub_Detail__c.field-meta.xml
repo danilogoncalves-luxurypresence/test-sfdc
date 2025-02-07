@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Save_Tactic_Sub_Detail__c</fullName>
+    <label>Save Tactic Sub Detail</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Save_Tactics__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Educate on NEW features / add-ons</fullName>
+                <default>false</default>
+                <label>Educate on NEW features / add-ons</label>
+            </value>
+            <value>
+                <fullName>Design Refresh/Custom Website</fullName>
+                <default>false</default>
+                <label>Design Refresh/Custom Website</label>
+            </value>
+            <value>
+                <fullName>Change in Services</fullName>
+                <default>false</default>
+                <label>Change in Services</label>
+            </value>
+            <value>
+                <fullName>Free Additional Service</fullName>
+                <default>false</default>
+                <label>Free Additional Service</label>
+            </value>
+            <value>
+                <fullName>Upgrade Plan</fullName>
+                <default>false</default>
+                <label>Upgrade Plan</label>
+            </value>
+            <value>
+                <fullName>Upsell Add-on</fullName>
+                <default>false</default>
+                <label>Upsell Add-on</label>
+            </value>
+            <value>
+                <fullName>Design Refresh/CWO</fullName>
+                <default>false</default>
+                <label>Design Refresh/CWO</label>
+            </value>
+            <value>
+                <fullName>Downgrade</fullName>
+                <default>false</default>
+                <label>Downgrade</label>
+            </value>
+            <value>
+                <fullName>Update Current Terms</fullName>
+                <default>false</default>
+                <label>Update Current Terms</label>
+            </value>
+            <value>
+                <fullName>Partial Credit</fullName>
+                <default>false</default>
+                <label>Partial Credit</label>
+            </value>
+            <value>
+                <fullName>Monthly Service Credit</fullName>
+                <default>false</default>
+                <label>Monthly Service Credit</label>
+            </value>
+            <value>
+                <fullName>Temporary Lower MRR</fullName>
+                <default>false</default>
+                <label>Temporary Lower MRR</label>
+            </value>
+            <value>
+                <fullName>Lower MRR</fullName>
+                <default>false</default>
+                <label>Lower MRR</label>
+            </value>
+            <value>
+                <fullName>Downgrade Plan</fullName>
+                <default>false</default>
+                <label>Downgrade Plan</label>
+            </value>
+            <value>
+                <fullName>Pause Partial Service</fullName>
+                <default>false</default>
+                <label>Pause Partial Service</label>
+            </value>
+            <value>
+                <fullName>Pause Full Service</fullName>
+                <default>false</default>
+                <label>Pause Full Service</label>
+            </value>
+            <value>
+                <fullName>Temporary Pause</fullName>
+                <default>false</default>
+                <label>Temporary Pause</label>
+            </value>
+            <value>
+                <fullName>Partial Refund</fullName>
+                <default>false</default>
+                <label>Partial Refund</label>
+            </value>
+            <value>
+                <fullName>Full Refund</fullName>
+                <default>false</default>
+                <label>Full Refund</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Listen/Education</controllingFieldValue>
+            <valueName>Educate on NEW features / add-ons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Provide Free Service</controllingFieldValue>
+            <valueName>Design Refresh/Custom Website</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Provide Free Service</controllingFieldValue>
+            <valueName>Change in Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Provide Free Service</controllingFieldValue>
+            <valueName>Free Additional Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upsell</controllingFieldValue>
+            <valueName>Upgrade Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upsell</controllingFieldValue>
+            <valueName>Upsell Add-on</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upsell</controllingFieldValue>
+            <valueName>Design Refresh/CWO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Update Contract Terms</controllingFieldValue>
+            <valueName>Downgrade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Update Contract Terms</controllingFieldValue>
+            <valueName>Update Current Terms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Partial Credit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Credit</controllingFieldValue>
+            <valueName>Monthly Service Credit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reduced MRR</controllingFieldValue>
+            <valueName>Temporary Lower MRR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reduced MRR</controllingFieldValue>
+            <valueName>Lower MRR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reduced MRR</controllingFieldValue>
+            <valueName>Downgrade Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pause</controllingFieldValue>
+            <valueName>Pause Partial Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pause</controllingFieldValue>
+            <valueName>Pause Full Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pause</controllingFieldValue>
+            <valueName>Temporary Pause</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refund</controllingFieldValue>
+            <valueName>Partial Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refund</controllingFieldValue>
+            <valueName>Full Refund</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

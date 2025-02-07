@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revision_Due_Date_Flag__c</fullName>
+    <description>Flag to show how close revision case is to due date</description>
+    <externalId>false</externalId>
+    <formula>IF(
+TODAY() &gt;= Due_Date__c,
+IMAGE(&quot;/img/samples/flag_red.gif&quot;, &quot;Due Today or Overdue&quot;),
+IF(
+(Due_Date__c - TODAY()) = 1,
+IMAGE(&quot;/img/samples/flag_yellow.gif&quot;, &quot;Due in 1 Day&quot;),
+IMAGE(&quot;/img/samples/flag_green.gif&quot;, &quot;More than 1 Day Left&quot;)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Red: Case is due today or past due.
+Yellow: Case is due tomorrow (1 day left).
+Green: Case has more than 1 day left.</inlineHelpText>
+    <label>Near Due?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

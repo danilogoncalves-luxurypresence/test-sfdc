@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>1.16 Compass Winter Park FL Workshop</fullName>
+        <default>false</default>
+        <label>1.16 Compass Winter Park FL Workshop</label>
+    </customValue>
+    <customValue>
+        <fullName>3.7 Realty One March Webinar</fullName>
+        <default>false</default>
+        <label>3.7 Realty One March Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>3.12 Harcourts NA Agent Webinar</fullName>
+        <default>false</default>
+        <label>3.12 Harcourts NA Agent Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>3.21 SIR Webinar</fullName>
+        <default>false</default>
+        <label>3.21 SIR Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>3.19 Howard Hanna Agent Webinar</fullName>
+        <default>false</default>
+        <label>3.19 Howard Hanna Agent Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>4.19 milehimodern Agent Webinar</fullName>
+        <default>false</default>
+        <label>4.19 milehimodern Agent Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>5.29 Radius Agent Webinar</fullName>
+        <default>false</default>
+        <label>5.29 Radius Agent Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>6.20 SIR Webinar</fullName>
+        <default>false</default>
+        <label>6.20 SIR Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>6.18 eXP Webinar</fullName>
+        <default>false</default>
+        <label>6.18 eXP Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>6.27 Coffee &amp; Contracts Agent Webinar</fullName>
+        <default>false</default>
+        <label>6.27 Coffee &amp; Contracts Agent Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>7.16 Compass Carlsbad Sales Meeting</fullName>
+        <default>false</default>
+        <label>7.16 Compass Carlsbad Sales Meeting</label>
+    </customValue>
+    <customValue>
+        <fullName>7.24 Compass Mission Valley Sales Meeting</fullName>
+        <default>false</default>
+        <label>7.24 Compass Mission Valley Sales Meeting</label>
+    </customValue>
+    <customValue>
+        <fullName>8.15 Realty ONE Global Webinar</fullName>
+        <default>false</default>
+        <label>8.15 Realty ONE Global Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>9.17 Compass UWS Sales Meeting</fullName>
+        <default>false</default>
+        <label>9.17 Compass UWS Sales Meeting</label>
+    </customValue>
+    <customValue>
+        <fullName>10.8 The Agency NYC Sales Meeting</fullName>
+        <default>false</default>
+        <label>10.8 The Agency NYC Sales Meeting</label>
+    </customValue>
+    <customValue>
+        <fullName>10.17 BHHS Webinar</fullName>
+        <default>false</default>
+        <label>10.17 BHHS Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>10.31 LP Courted Webinar</fullName>
+        <default>false</default>
+        <label>10.31 LP Courted Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>11.6 SIR Q4 Webinar</fullName>
+        <default>false</default>
+        <label>11.6 SIR Q4 Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>11.12 eXp Luxury Workshop</fullName>
+        <default>false</default>
+        <label>11.12 eXp Luxury Workshop</label>
+    </customValue>
+    <customValue>
+        <fullName>11.20 Real Q4 Webinar</fullName>
+        <default>false</default>
+        <label>11.20 Real Q4 Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>11.5 - milehimodern Pres</fullName>
+        <default>false</default>
+        <label>11.5 - milehimodern Pres</label>
+    </customValue>
+    <customValue>
+        <fullName>11.12 - Compass SEO Oakland Pres</fullName>
+        <default>false</default>
+        <label>11.12 - Compass SEO Oakland Pres</label>
+    </customValue>
+    <customValue>
+        <fullName>12.6 LeadingRE Webinar Week</fullName>
+        <default>false</default>
+        <label>12.6 LeadingRE Webinar Week</label>
+    </customValue>
+    <customValue>
+        <fullName>12.12 BHHS Webinar</fullName>
+        <default>false</default>
+        <label>12.12 BHHS Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>12.16 Real Partner Webinar</fullName>
+        <default>false</default>
+        <label>12.16 Real Partner Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>1.8.25 The Agency MAM Training</fullName>
+        <default>false</default>
+        <label>1.8.25 The Agency MAM Training</label>
+    </customValue>
+    <customValue>
+        <fullName>1.14.25 BHHS Luxury Webinar</fullName>
+        <default>false</default>
+        <label>1.14.25 BHHS Luxury Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>1.16.25 John L. Scott Presentation</fullName>
+        <default>false</default>
+        <label>1.16.25 John L. Scott Presentation</label>
+    </customValue>
+    <customValue>
+        <fullName>1.27.25 E&amp;V Gestalt Staff Training</fullName>
+        <default>false</default>
+        <label>1.27.25 E&amp;V Gestalt Staff Training</label>
+    </customValue>
+    <customValue>
+        <fullName>1.28.25 Compass Austin MA Training</fullName>
+        <default>false</default>
+        <label>1.28.25 Compass Austin MA Training</label>
+    </customValue>
+    <customValue>
+        <fullName>1.30.25 TTR SIR Presentation</fullName>
+        <default>false</default>
+        <label>1.30.25 TTR SIR Presentation</label>
+    </customValue>
+    <customValue>
+        <fullName>2.3.25 Coldwell Banker Luxury MM Training</fullName>
+        <default>false</default>
+        <label>2.3.25 Coldwell Banker Luxury MM Training</label>
+    </customValue>
+    <customValue>
+        <fullName>2.11.25 John L Scott Webinar</fullName>
+        <default>false</default>
+        <label>2.11.25 John L Scott Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>2.12.25 The Agency Webinar</fullName>
+        <default>false</default>
+        <label>2.12.25 The Agency Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>2.20.25 SIR Webinar</fullName>
+        <default>false</default>
+        <label>2.20.25 SIR Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>2.27.25 Compass Burlingame SEO Pres</fullName>
+        <default>false</default>
+        <label>2.27.25 Compass Burlingame SEO Pres</label>
+    </customValue>
+    <customValue>
+        <fullName>12.6 Future Proof Your Brokerage</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>12.6 Future Proof Your Brokerage</label>
+    </customValue>
+    <masterLabel>2024 Partnership Presentations/Webinars</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

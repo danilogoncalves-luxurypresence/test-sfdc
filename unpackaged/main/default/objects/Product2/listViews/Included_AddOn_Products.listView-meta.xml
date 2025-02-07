@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Included_AddOn_Products</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Launch_plus__c</columns>
+    <columns>Brand_plus__c</columns>
+    <columns>Growth_plus__c</columns>
+    <columns>Premium_plus__c</columns>
+    <columns>Enterprise__c</columns>
+    <columns>Leads_Pro__c</columns>
+    <columns>SEO_Pro__c</columns>
+    <columns>Product_Sort_Order__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.FAMILY</field>
+        <operation>notEqual</operation>
+        <value>Plan,Setup Fee</value>
+    </filters>
+    <filters>
+        <field>Ala_Carte__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Included AddOn Products - ALL Possible</label>
+</ListView>

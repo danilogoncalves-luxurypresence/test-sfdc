@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing</fullName>
+    <active>true</active>
+    <label>Marketing</label>
+    <picklistValues>
+        <picklist>CRM_Analytics_Task_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CSS_Task_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Client_satisfaction_with_our_product__c</picklist>
+        <values>
+            <fullName>1- Very Dissatisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2- Somewhat Dissatisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3- Neutral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4- Somewhat Satisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5- Very Satisfied</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Content_Revision_Type__c</picklist>
+        <values>
+            <fullName>Client Preference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Major Edits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minor Edits</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DS_Accuracy__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DS_Complexity__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DS_Day_turnaround__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DS_Escalates_Technical_Issues__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DS_Quality__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DS_Two_Day_Turnaround__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Day_turnaround__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Footage_Type__c</picklist>
+        <values>
+            <fullName>Client %26 Stock Videos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Videos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stock Videos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HIC_Task_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>How_much_room_to_improve__c</picklist>
+        <values>
+            <fullName>1 very unhappy%2C most room to improve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 Neutral%2C neither very happy or unhappy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 very happy%2C no room for improvement</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>How_satisfied_is_the_client__c</picklist>
+        <values>
+            <fullName>1- Very Dissatisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2- Somewhat Dissatisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3- Neutral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4- Somewhat Satisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5- Very Satisfied</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IDX_Task_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Internal_Revision_Scoring__c</picklist>
+        <values>
+            <fullName>1%3A Very Unsatisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%3A Unsatisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%3A Neutral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%3A Satisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%3A Very Satisfied</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MLS_Request__c</picklist>
+        <values>
+            <fullName>Add Agent Sync %28Listing%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add Buyer Sync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add Listing Sync %28Property%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add Office Sync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check Sync Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Double Listing - Remove one MLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remove Agent Sync %28Listing%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remove Buyer Sync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remove Listing Sync %28Property%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Remove Office Sync</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Revision_Score__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Revision_Type__c</picklist>
+        <values>
+            <fullName>Blogs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pages of Copywriting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Scope__c</picklist>
+        <values>
+            <fullName>Adding Hyperlinks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Additional Context Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info from Bad Source</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neighborhoods Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdated Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Photo Updates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requesting New Topic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restaurant or Shop Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spelling %2F Grammar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural Changes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Title %2F Subtitle Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Track Changes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update CTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voice %2F Tone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wrong Location</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Status_PL__c</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blocked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Build Out in Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Launched</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Revision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creating Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credential Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Live</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>POC Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paused</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Build IM Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready for Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready to Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revision Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staging Link</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WD Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Launched</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Source__c</picklist>
+        <values>
+            <fullName>Client Revision</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Waiting on IM%2FAM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Refresh__c</picklist>
+        <values>
+            <fullName>Global Refresh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imagery%2FVideography Refresh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single%2FTwo Page Refresh</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>WB_Accuracy__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>WB_Complexity__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>WB_Escalates_Technical_Issues__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>WB_Quality__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>WB_Two_Day_Turnaround__c</picklist>
+        <values>
+            <fullName>0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

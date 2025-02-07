@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Brand Plan Follow Up</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Brand Plan Follow Up</name>
+    <style>none</style>
+    <subject>Action Required: Confirm Details for Your Google Business Profile Setup</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

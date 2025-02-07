@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Root_Cause</fullName>
+    <active>false</active>
+    <description>If is addendum, closed won and Root Cause is null then send error</description>
+    <errorConditionFormula>AND(
+ RecordTypeId = &quot;0125f000000VvK3&quot;,
+ ISPICKVAL( StageName, &quot;Closed Won&quot;),
+ ISPICKVAL ( Root_Cause__c ,&quot;&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Root_Cause__c</errorDisplayField>
+    <errorMessage>Please complete Root Cause field.</errorMessage>
+</ValidationRule>

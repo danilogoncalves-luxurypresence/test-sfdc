@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}},<br />
+&nbsp;<br />
+Hope you’re having a great day today! Just seeing if you got my voicemail.&nbsp;<br />
+<br />
+Are you open to a quick call? Otherwise, is there someone else that this conversation would be better suited for?<br />
+<br />
+Cheers,<br />
+{{{Sender.FirstName}}}</body>
+</html>

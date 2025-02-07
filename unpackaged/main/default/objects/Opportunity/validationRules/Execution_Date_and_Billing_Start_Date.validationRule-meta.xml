@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Execution_Date_and_Billing_Start_Date</fullName>
+    <active>false</active>
+    <description>For Add-Service, Remove Service and Addendum require both Addendum Execution Date and Billing Start date in order to move the</description>
+    <errorConditionFormula>AND(
+ISCHANGED( StageName ),
+ISPICKVAL( StageName ,&quot;Closed Won&quot;),
+OR(
+ISBLANK( Addendum_Execution_Date__c ),
+ISBLANK( Billing_Start_Date__c )),
+OR(
+Record_Type_Name__c = &quot;Add Service&quot;,
+Record_Type_Name__c = &quot;Reduce Service&quot;,
+AND(Record_Type_Name__c = &quot;Addendum&quot;),
+OR(ISPICKVAL( Addendum_Type__c,&quot;Upgrade&quot;),
+ISPICKVAL( Addendum_Type__c,&quot;Downgrade&quot;))
+
+)
+
+
+)</errorConditionFormula>
+    <errorMessage>Please make sure to add Addendum Execution Date and Billing Start Date in order to Closed Won the opportunity</errorMessage>
+</ValidationRule>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What would you like your clients to know about you? --></help>
+        <label><!-- What would you like your clients to know --></label>
+        <name>What_would_you_like_your_clients_to_know__c</name>
+    </CustomFieldTranslation>

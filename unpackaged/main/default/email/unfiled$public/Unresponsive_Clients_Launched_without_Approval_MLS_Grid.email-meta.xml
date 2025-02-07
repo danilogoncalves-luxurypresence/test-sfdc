@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Unresponsive Clients - Launched without Approval - MLS Grid</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>Unresponsive Clients - Launched without Approval - MLS Grid</name>
+    <style>freeForm</style>
+    <subject>IDX Agreement Incomplete - Contact: MLS Board Name - {!Contact.FirstName} {!Contact.LastName}</subject>
+    <textOnly>Hi {!Contact.FirstName},    
+
+It&#39;s great to e-meet you! My name is {IDX COORDINATOR NAME} and I&#39;m an IDX Coordinator at Luxury Presence. I&#39;m contacting you because we are conducting an audit of our MLS Feeds on agent websites. It appears that the required paperwork for the MLS currently being displayed on your website is incomplete. 
+
+In order for us to display IDX data on your website, Contact: MLS Board Name requires us to have a data access agreement signed on MLS Grid. I kindly ask that you provide me with the following information to initiate the agreement for digital signatures. 
+
+Agent&#39;s Name: Contact: First name Contact: Last name​
+Agent&#39;s Email: Contact: Email Domain​
+Brokerage: Contact: Brokerage​
+Broker of Record&#39;s Name: ?
+Broker of Record&#39;s Email: ?
+Domain name: ?
+(***Information above must reflect the agent for whom the website is being created and must be an active member of MLS)
+
+Please note if we do not receive a signed data access agreement we will need to hide the home search tool on your site. 
+
+Let me know if you have any questions. I&#39;m here to help.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

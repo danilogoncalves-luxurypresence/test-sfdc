@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bundle Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bundle Plans</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Bundle Plan Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Bundle Plan for Bundle Product Page --></label>
+        <name>Bundle_Plan_for_Bundle_Product_Page</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Bundles need to contain at least two products to be active. --></errorMessage>
+        <name>Active_Requires_Products</name>
+    </validationRules>
+</CustomObjectTranslation>

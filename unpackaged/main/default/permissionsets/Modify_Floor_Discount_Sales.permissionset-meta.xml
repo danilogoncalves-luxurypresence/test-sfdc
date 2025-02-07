@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Modify Floor Discount-Sales</label>
+    <license>Salesforce</license>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>PricebookEntry.Discount_Approval_Floor__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

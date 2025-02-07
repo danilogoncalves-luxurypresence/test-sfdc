@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Content Status --></label>
+        <name>Content_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Content</masterLabel>
+            <translation><!-- Create Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final QA</masterLabel>
+            <translation><!-- Final QA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Questionnaire</masterLabel>
+            <translation><!-- Pending Questionnaire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posted</masterLabel>
+            <translation><!-- Posted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Client Review</masterLabel>
+            <translation><!-- Ready for Client Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent For Approval</masterLabel>
+            <translation><!-- Sent For Approval --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,3180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Sales</fullName>
+    <active>true</active>
+    <businessProcess>New Sales</businessProcess>
+    <label>New Sales</label>
+    <picklistValues>
+        <picklist>Addendum_Type__c</picklist>
+        <values>
+            <fullName>Cancellation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downgrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Affiliate_Partnerships__c</picklist>
+        <values>
+            <fullName>Acre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aerial Canvas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Affogato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AgentUpgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BoxBrownie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLOSING DAY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capturely</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contracts and Coffee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Empower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOLLOW UP BOSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAXA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAGEL MEDIA GROUP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE Luxe Leaders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Realty Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sign More</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Studio Twenty Three</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Testimonial Tree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TotalBrokerage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Beta_user__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Brokerage_Addendum__c</picklist>
+        <values>
+            <fullName>Coldwell Banker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corcoran</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ReMax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Side</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CRM_if_yes_please_specify__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Client_Profile__c</picklist>
+        <values>
+            <fullName>Easy Breezy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Frugal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Influence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Value</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready to Spend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tech Adverse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tech Savvy</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Client_Type__c</picklist>
+        <values>
+            <fullName>Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brokerage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brokerage Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Plus</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Client_goals_for_website__c</picklist>
+        <values>
+            <fullName>Digital Business Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product %28Dashboard to make changes%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Closed_Lost_Primary_Reason__c</picklist>
+        <values>
+            <fullName>Design%2Flook and feel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Geography</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In a contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low transaction volume</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Market Conditions%2FMacro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing development%2Fnew construction features</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing rental features</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing search filters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need CRM functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other %22Now%27s not a good time%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part-time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect%27s network</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retiring%2Fscaling back</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Closed_Lost_Root_Cause__c</picklist>
+        <values>
+            <fullName>Bad Fit%2FICP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ghosted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing%2FIncorrect DM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reputation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Competitor__c</picklist>
+        <values>
+            <fullName>Agent Fire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agent Image</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CINC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Collections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delta Media Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HomeStack</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDC Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inside Real Estate %28KVcore%2C Boomtown%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lofty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LoneWolf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Placester</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Geeks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RealScout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sierra Interactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TREM Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Union St Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WordPress %28In-House%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ylopo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zenlist</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Term_Months__c</picklist>
+        <values>
+            <fullName>12</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>24</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Current_Marketing_Product__c</picklist>
+        <values>
+            <fullName>Both</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Generation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Current_Social_Media__c</picklist>
+        <values>
+            <fullName>Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dominance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Social Media Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deal_Split__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Demo_Outcome__c</picklist>
+        <values>
+            <fullName>Flaked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not_Qualified_during_needs_analysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Re-set</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sale</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Demo_Status__c</picklist>
+        <values>
+            <fullName>Held Demo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Held Demo Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Held</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Design_Template__c</picklist>
+        <values>
+            <fullName>Bespoke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coldwell Banker Brand Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coldwell Banker Brand Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coldwell Banker Global Luxury Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coldwell Banker Global Luxury Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass %22The Innovator%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass %22The Milestone%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass %22The Navigator%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass %22The Prestige%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass S%26E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corcoran Agent %231</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corcoran Agent %232</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corcoran Development Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom Website Package</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Collective Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Masterpiece</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pinnacle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sotheby%27s %22The Icon%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sotheby%27s %22The Inspiration%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sotheby%27s %22The Lifestyle%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sotheby%27s %22The Trailblazer%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Classic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Evolution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Influencer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Masterpiece - CIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Producer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Producer - CIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Signature</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Visionary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Visionary - Gestalt</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Difficulty_to_Close_Deal__c</picklist>
+        <values>
+            <fullName>Difficult</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Easy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Disruptor_Package__c</picklist>
+        <values>
+            <fullName>Listing Concierge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Event_Name__c</picklist>
+        <values>
+            <fullName>10%2E11%2E23 Compass Cup Miami 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E22%2E23 Real Rise San Diego 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E23%2E23 T360 Tech Summit Ft Worth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E30%2E23 %40Properties Expo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E11 The Agency Austin Grand Opening 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E14%2E23 Compass REtreat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E14%2E23 NAR NXT- Anaheim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E14%2E23 The Agency Global Forum - Austin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E28%2E23 eXp Luxury Is NOW - Irving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%2E11%2E23 Compass NYC Holiday Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2022 Compass Holiday Parties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Big Block Realty Collective Coaching Call 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAR REImagine 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB Colorado Global Luxury Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB D%27Ann Harper Awards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB Gen Blue Atlanta Oct 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB Gen Blue Experience 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chirag Shah Future Proof Agent 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christie%27s Agent Conference 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass BH Office Event 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Cup Golf Tournament 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass East Coast Luxury Summit 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Fall REtreat 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Retreat 2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass S%26E 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENGAGE%3A Coldwell Banker Global Luxury Summit 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXPCON Oct 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUBCON Sept 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICC Summit Real Estate Conference 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ILHM Launch Webinar 9%2E21%2E22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inman Connect Las Vegas 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inman Connect Las Vegas 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inman Connect New York 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inman Connect New York 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inman Connect Vegas 2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inman Luxury Connect 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inman Luxury Connect Las Vegas 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leaders in Luxury 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leading RE Limitless 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metro Networking Event Oct 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAR Realtors Conference %26 Expo 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE%2FMAX Collection Luxury Forum 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE%2FMAX Luxury Forum 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REALM Member Event %7C San Diego</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radius Aug Webinar 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR GNE 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR One Summit 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR Q3 2022 Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR Tahoe Summit 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR-MNE-NJ 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Side x Side 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T360 Summit 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Ferry EDGE 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Ferry Edge 2023 - 9%2E12%2E23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Ferry Elite Event 2023 - 6%2E20%2E23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Ferry Elite Retreat 2023 - 2%2E2%2E23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Ferry Success Summit 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Ferry Success Summit 2023 - 8%2E22%2E23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Ferry Team Event 2023 - 6%2E27%2E23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eXp Shareholder Summit 2023</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Existing_website__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Has_a_follow_up_touchpoint_been_schedule__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Has_the_Account_Manager_been_notified__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>How_responsive_was_the_client__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_Renewal_Addeddum__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_this_opportunity_going_to_add_a_new_w__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_this_opportunity_going_to_cancel_one__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Build Your Presence Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Referrals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referrals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industry Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industry Events List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLS Database</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manager Assigned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organic Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Team Generated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnership Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnership Events List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnership Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presence Copilot Giveaway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Ops Cut List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self-Sourced</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lead_Magnet_Campaign_download__c</picklist>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>Lost to Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missing IDX Filter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO CRM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Budget %2F Lost Funding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Decision %2F Non-Responsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Product Deficiency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SaaS Model</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MLS_Board__c</picklist>
+        <values>
+            <fullName>%5BIn progress%5D AR - Northwest Arkansas Board of REALTORS MLS %28NWAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%5BIn progress%5D WI - REALTOR Association of Northeast Wisconsin %28RANW%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AK - Alaska Multiple Listing Service%2C Inc%2E %28AMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL - Baldwin County Association of REALTORS %28BCAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL - Valley MLS %28NALMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AR - Cooperative Arkansas %28CARMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZ - Arizona Regional MLS %28ARMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZ - Sedona Verde Valley %28SVVAOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZ - Southern Arizona MLS %28TAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AZ - Tucson AoR %28TAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BNAR - Buffalo Niagara Association of REALTORS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bermuda SIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Bakersfield Association of REALTORS %28BAOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Bay Area Real Estate Information Services %28BAREIS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Bay East AoR %28BEAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Big Bear Association of REALTORS %28BBAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Bridge MLS %28EBRD%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - California Regional MLS %28CRMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Combined LA%2FWestside MLS %28CLAW%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Conejo Simi Moorpark %28CSMAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Contra Costa Association of Realtors %28CCAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Desert Area MLS %2F CDAR %28DAMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Fresno Association of REALTORS %28FMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Idyllwild Association of Realtors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - MLSListings%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - MetroList MLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - North Santa Barbara County Regional MLS %28NSBCRMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Pasadena-Foothills AoR %28CRMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Rim O%27 the World Association of REALTORS %28ROTWAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - San Diego MLS %28SDMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - San Francisco MLS %28SFAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Santa Barbara AoR %28SBAOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Shasta Association of REALTORS %28SAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - South Tahoe Board of REALTORS %28STAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Southland Regional AoR %28CRISNET%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Tahoe Sierra MLS %28TSBOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Tehachapi Area Association of REALTORS %28TAAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA - Ventura County Coastal Association %28VCMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAN - Calgary Board of Realtors %2F Pillar9 %28CBR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAN - Canadian Real Estate Association %28CREA%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAN - Edmonton %28EBR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAN - Information Technology Systems Ontario %28ITSO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAN - Oakville Milton District Real Estate Board %28OMDREB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAN - Real Estate Board of Greater Vancouver %28VBR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAN - Toronto Real Estate Board %28TREB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAN - Vancouver Island and Victoria Real Estate Board %2F VIVA %28VREB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCAR - North Carolina Regional MLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIRABA - Cayman Islands Real Estate Brokers Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO - Aspen %2F Glenwood Springs MLS %28AGSMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO - Colorado Real Estate Network %28CREN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO - Grand County Board of REALTORS %28GCBOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO - Information and Real Estate Services%2C LLC %28IRES%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO - METROLIST - REColorado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO - Pikes Peak Multiple Listing Service %28PPAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO - Pueblo Association of REALTORS %28PAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO - Summit MLS %28SAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO - Telluride Association of REALTORS %28TAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO - Vail Board of Realtors %28VBR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CR - Costa Rica Global Association of REALTORS %28CRGR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CREA - Canadian Real Estate Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CT - Greenwich %28GAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CT - Smart MLS%2C Inc%2E %28GNHAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DASH Feed - Coldwell Banker %28CB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DASH Feed - Sotheby%27s International Realty %28SIR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Douglas Elliman feed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Amelia Island-Nassau County %28AINCAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Beaches MLS %2F Palm Beaches and Greater Fort Lauderdale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Bonita Springs Association of REALTORS %28BEAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Central Listing Service at Ocean Reef%2C Inc%2E %28CLSOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Daytona Beach Area Association of REALTORS %28DBAAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Emerald Coast AoR %28ECAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Hernando County Association of Realtors %28HCAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Key West Association of REALTORS %28KWAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - MLS of South Brevard %26 the Space Coast Association of REALTORS %28SPACE%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Miami Association of REALTORS %28RAMB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Naples MLS %28MLSN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Northeast Florida MLS%2C Inc%2E %28NEFMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Palm Beach Board of Realtors %28PBMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Pensacola Association of REALTORS%C2%AE%2C Inc%2E %28PMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - REALTORS Association of Indian River County%2C Inc%2E %28RAIRC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Royal Palm Coast Association of REALTORS %2F Southwest Florida MLS %28GFMB %2F SWFL%29%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - Stellar MLS %28MFRMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FL - The Florida Keys Board of REALTORS %28FKBOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA - Central Georgia MLS %28CGMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA - First Georgia MLS %28FMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA - Georgia MLS %28GAMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA - Golden Isles Association of Realtors %28GIAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA - Lake Country Board Of REALTORS %28LCBOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GA - Northeast Georgia Board of REALTORS%2C Inc%2E %28NEGBOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GFMB - Royal Palm Coast %2F Florida Gulf MLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HI - HICentral MLS %28HBR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HI - Hawaii Information Service %28HIS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HI - Realtors Association of Maui %28RAM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HI- HICentral %2F Honolulu BoR %28HBR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IA - Iowa City Area Association of REALTORS %28ICAAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID - Coeur d%27Alene MLS %28CDAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID - Intermountains MLS %28IMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID - Selkirk Association of REALTORS %28SAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ID - Sun Valley Board of Realtors %28SBOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IL - Midwest Real Estate Data %28MRED%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN - Greater Northwest Indiana %28GNIAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN - Indiana Regional MLS %28LBAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IN - Metropolitan Indianapolis BoR %28MIBOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KADREA - Kamloops and District Real Estate Association</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KS - Heartland MLS %28MOKS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KVBOR - Kanawha Valley Board of Realtors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY - Lexington-Bluegrass AoR %28LBAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY - Metro Search Inc %2F Greater Louisville MLS %28MSMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KY - Northern Kentucky Association of REALTORS %28NKMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA - Acadiana MLS %28RAAMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA - Greater Baton Rouge MLS %28GBRMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LVAR - Greater Lehigh Valley REALTORS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA - Berkshire County Multiple Listing Service %28BCMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA - Cape Cod and Islands Multiple Listing Service%2C Inc%2E %28CCIAOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA - LINK Martha%27s Vineyard %28LMV%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA - Martha%27s Vineyard MLS %28MVMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MA - Property Information Network%2C Inc%2E %28MLSPIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME - Maine Listings Real Estate Information System%2C Inc%2E %28MREIS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEX - MLS of Baja California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI - Greater Lansing Association of REALTORS %28GLAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI - Michigan Regional Information Center%2C LLC %28SWMRIC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI - Northern Great Lakes Regional MLS %28NGLRMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI - Realcomp II LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MN - Northstar MLS %2F Regional MLS of Minnesota%2C Inc %28RMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MO - Mid America Regional Information Systems %28MARIS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT - Big Sky Country MLS - Gallatin MLS %28BZM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MT - Northwest Montana Association of REALTORS %2F Montana Regional %28NMAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC - Carolina MLS %2F Canopy MLS %28CMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC - Carolina Smokies Association of REALTORS %28FBOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC - Carteret County %2F North Carolina Regional MLS %28CCAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC - Highland Cashiers MLS %28HCMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC - Longleaf Pine REALTORS%2C Inc%2E %28FRAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC - Roanoke Valley Lake Gaston Board of REALTORS %28RVLGBR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NC - Triad MLS%2C Inc%2E %28TRIAD%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NH - The New England Real Estate Network %28NNEREN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ - Cape May MLS %28CMCAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ - Central Jersey Multiple Listing System %28MCMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ - Garden State MLS %28GSMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ - Hudson County %2F Realty MLS %28HCMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ - Monmouth Ocean Regional %28MOMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ - New Jersey Multiple Listing Service %28NJMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NJ - South Jersey Shore Regional MLS %28SJSRMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NM - Santa Fe Association of Realtors %28SFAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NV - Greater Las Vegas Association %28GLVAR%29of REALTORS %28</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NV - Incline Village Board of Realtors %28IVBOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NV - Northern Nevada Regional MLS %28NNRMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY - Adirondack-Champlain Valley MLS %28ACVMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY - Brooklyn Board of REALTORS %28BBOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY - Columbia Greene Northern Dutchess MLS %28CGND%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY - Global MLS %28GCAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY - MLS of Ulster County%2C Inc%2E %28MLSUC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY - Mid Hudson MLS %28MHMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY - New York State MLS %28STATE%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY - OneKey MLS %2F Hudson Gateway %26 Long Island MLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY - Otsego-Delaware BoR %28ODBR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY - Real Estate Board of New York %28REBNY%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY - Staten Island Board of REALTORS %28SIBOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NY - Western New York Real Estate Information Systems %2F NY State Alliance %28WNYREIS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OH - Columbus and Central Ohio Regional MLS %28CBR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OH - Firelands Association of REALTORS %28FMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OH - MLS of Greater Cincinnati %28CINCY%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OH - Toledo %2F NORIS - Northwest Ohio Realtors %28TBR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OH - Yes MLS %28NEOHREX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OK - Greater Tulsa Association of REALTORS %2F MLS Technology %28NORES%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OK - Oklahoma City Metropolitan AoR %28OKC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR - Central Oregon Association of REALTORS %28MLCOBO%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR - Lincoln County Board of REALTORS %28LCBR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR - Portland Regional MLS %28RMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR - Southern Oregon Multiple Listing Service %28SOMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OR - Willamette Valley Multiple Listing Service %28WVMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - New Feed Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA - Greater Lehigh Valley REALTORS %28LVAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA - Pocono Mountains Association of REALTORS %28PMAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA - West Penn Multi-List%2C Inc%2E %28WPN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RI - State-Wide MLS%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC - Charleston Trident Multiple Listing Service%2C Inc%2E %28CTAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC - Consolidated Multiple Listing Service%2C Inc%2E %28CMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC - Greater Greenville %28GGAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC - Hilton Head Island MLS %28HHMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC - The Coastal Carolinas Association of REALTORS MLS %28CCAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SC - Western Upstate Association of REALTORS %28AAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TMLS - Triangle MLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN - Greater Chattanooga Association of REALTORS %28CAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN - Knoxville Area Association of Realtors %28KAAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TN - Realtracs %2F Middle Tennessee Regional MLS %28MTRMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - Austin%2FCentral Texas Reality Information Service %28ACTRIS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - Central Hill Country Board of REALTORS %28GCBOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - Central Texas MLS %28CTXMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - Corpus Christi Association of REALTORS %2F South Texas MLS %28CCAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - Galveston Association of Realtors %28GAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - Greater Tyler Association of REALTORS %28GTAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - Highland Lakes Association of REALTORS %28HLAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - Houston MLS %28HAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - Kerrville Board of REALTORS %28KBOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - Lubbock Association of Realtors %28LAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - North Texas Real Estate Information Systems %28NTREIS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - San Antonio Board of REALTORS %28SABOR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TX - Waco Association of REALTORS %28WAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UT - Park City Board of REALTORS %28PCBR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UT - Utah Real Estate %2F Wasatch Front Regional MLS%2C Inc%2E %28WFRMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA - BRIGHT MLS - Bright MLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA - Central Virginia Regional Multiple Listing Service %28CVRMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA - Real Estate Information Network%2C Inc%2E %28REIN%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VA - Williamsburg Area Association of REALTORS %28WMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VBR - Real Estate Board of Greater Vancouver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA - Northwest Multiple Listing Service %28NWMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WA - Spokane Association of Realtors %28SAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WI - Greater Milwaukee Association of REALTORS %28GMAR%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WI - South Central Wisconsin MLS %28SCWMLS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WI - Wisconsin Real Estate Exchange %28WIREX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WIREX - Wisconsin Real Estate Exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WY - Teton Board of REALTORS %28TBOR%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>MLS_Implementation_Timeline__c</picklist>
+        <values>
+            <fullName>Existing Feed %3D Pre-Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Feed Integration %3D Pending Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New WNT Feed %3D Post-Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No MLS Add-On</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Manual_Assignment__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marketing_Product__c</picklist>
+        <values>
+            <fullName>Both</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Generation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Marketing Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marketing_subscription_payment_term__c</picklist>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Marketing Subscription</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_Addendum__c</picklist>
+        <values>
+            <fullName>Cancellation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Churn%2FExpansion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pause</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_template__c</picklist>
+        <values>
+            <fullName>Classic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coldwell Banker %28Property%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coldwell Banker Brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coldwell Banker Global Luxury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coldwell Banker Global Luxury %28Property%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Innovator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Milestone %28Dev%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Navigator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Prestige</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass S%26E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corcoran Agent 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corcoran Agent 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corcoran Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evolution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Collective</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Valuation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Influencer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Masterpiece</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pinnacle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redirect Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sothebys 4 %28Property%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Edge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Icon - SIR 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Inspiration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Trailblazer - SIR 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Visionary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The producer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Universal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VDB Custom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vanguard Properties</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Onboarding__c</picklist>
+        <values>
+            <fullName>Live</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No longer with LP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Original_Source__c</picklist>
+        <values>
+            <fullName>Direct Traffic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offline Sources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organic Search</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organic Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Campaigns</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Search</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referrals</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Override_Subscription_Renewal_Date__c</picklist>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Paid_Search_Inbound__c</picklist>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Paid_Social_Inbound__c</picklist>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partnership_Webinars_2023__c</picklist>
+        <values>
+            <fullName>Big Block Realty Collective Coaching Call 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Boca Raton Sales Meeting - Sep 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUB Webinar 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch RE October Workshop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REMAX Webinar 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radius August Webinar 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR Q1 webinar %2B Compass Sales Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR September 2023 Webinar</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Escalation_Service__c</picklist>
+        <values>
+            <fullName>Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blog%2FContent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Reason__c</picklist>
+        <values>
+            <fullName>Brokerage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brokerage Providing Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Budget</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Budget%2FClient Performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Responsiveness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cost is too High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deliverable Delayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deliverable Missed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expectations%2FContract Misunderstanding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hired In-House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Search Tool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Values</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX feed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In a contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLS Feed Functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Payment%2FCollections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online Reviews</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of Business%2FRetiring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality of Deliverable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality of Leads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality of Responses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quantity of Leads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Response Times%2FSLA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scaling back</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Search Engine Ranking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time of year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction Volume</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Customization Limitations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Traffic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of Mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_for_Design_Refresh__c</picklist>
+        <values>
+            <fullName>Change between 2 LP templates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change between 2 brokerage templates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change between brokerage template to a LP Design</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Refund_Credit__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Requires_SEO_Migration__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Root_Cause__c</picklist>
+        <values>
+            <fullName>Don%27t think it will work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Features</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner%2FSpouse disagree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poorly Qualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reputation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Saved_Tactics__c</picklist>
+        <values>
+            <fullName>Saved %28downgraded%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saved %28no additional offering%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saved %28offered additional service%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saved %28offered credit%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Experience_Team__c</picklist>
+        <values>
+            <fullName>Account Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Fulfillment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Social_Media__c</picklist>
+        <values>
+            <fullName>Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dominance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Social Media Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Source__c</picklist>
+        <values>
+            <fullName>Lead Generated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manually Generated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subscription_Fee_Payment_Term__c</picklist>
+        <values>
+            <fullName>2 years Upfront</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TTV_Beta__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Team_That_Escalated__c</picklist>
+        <values>
+            <fullName>Account Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementation Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tier_Plan__c</picklist>
+        <values>
+            <fullName>All In Premier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Base</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leads Premier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leads Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presence Premier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Premier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Pro</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Existing Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Urgency_Level__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>VIP_Reason__c</picklist>
+        <values>
+            <fullName>CB Global Luxury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB ILA %28International Luxury Alliance%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB SOE %28Society of Excellence%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Celebrity Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Influencer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corcoran Influencer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Collective Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Brokerage 50%2B Agents</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Brokerage Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Major Market Transaction Volume %3E%241B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minor Market Transaction Volume %3E%24500M</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network Member</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Misc%2E VIP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR Market Leader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WSJ Top 250</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Website_Design__c</picklist>
+        <values>
+            <fullName>BeSpoke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pro</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Website_Type__c</picklist>
+        <values>
+            <fullName>Agent Subdomain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agent Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brokerage Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coming Soon Page</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customization Package</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Side - Migration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Side - New Logos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Website_subscription_payment_term__c</picklist>
+        <values>
+            <fullName>2 Years Upfront</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 years upfront</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>What_is_the_client_looking_to_achieve__c</picklist>
+        <values>
+            <fullName>Build Cohesive Online Branding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Business Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generate Leads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impress Clients %26 Position Self as Top-Producing Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product %28Dashboard to make changes%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X2024_Event_Name__c</picklist>
+        <values>
+            <fullName>1%2E14 - BHHS Luxury Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E22 - 1%2E26 - The Agency - Pasadena %2F NYC %2F Park City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E22%2E25 - 1%2E23%2E25 - CompassCup-FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E23%2E24 Inman Connect NYC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E24%2E24 Side x Side - San Diego</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E9%2E25 - ICNY25 Registrants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E9%2E25 -ICNY25 Registrants - LP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E14-10%2E15 %E2%80%93 BHHS-CA 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E21 - 10%2E23 - Real Rise - LV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E24 - 10%2E26 - KW Lux Symposium - SD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E27 - 10%2E30 - eXpcon - Miami</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E9 - Q3 RA%7CCon - Austin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E9 Inman-Austin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E13 - 11%2E14 - CBGL - LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E13 - 11%2E14 - Compass Retreat - Charleston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%2E11 - 12%2E13 - Forbes GP - Maui</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%2E12 - Compass Boca - Holiday24</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E26%2E24 Leading RE - LV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E29%2E24 Goldbar Live - NYC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E3%2E25 - Daniel Gale SIR - NY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E4%2E24 Realty One Summit - Las Vegas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E5 - Top Producer One Summit - LV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E9%2E24 JPAR - TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E21 Compass Lux Summit - Philly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E12 - 6%2E14 The Agency Leadership Summit - Charlotte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%2E27 - 8%2E29 - TF Summit - Dallas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%2E29 - 9%2E1 - Compass Jazz Aspen Experience - CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E23 - 9%2E24 - CBGL Miami</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E29 - 10%2E1 - T3 Tech Summit - New Orleans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E4 - 9%2E6 - CEO%26Leadership Exchange - DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E7 - ONE Magical - Nashville</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E8 - 9%2E10 - SIRE - Nashville</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Florida 2024 Events</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

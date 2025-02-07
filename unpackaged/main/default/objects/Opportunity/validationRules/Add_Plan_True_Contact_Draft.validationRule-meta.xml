@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_Plan_True_Contact_Draft</fullName>
+    <active>true</active>
+    <description>If the field &quot;Add Plan&quot; is TRUE, the related contract cannot be &quot;Active&quot; it has to be in the Draft Status.</description>
+    <errorConditionFormula>AND(
+  Add_Plan__c = true, 
+  NOT(ISPICKVAL(Contract.Status, &quot;Draft&quot;)),
+  NOT(ISPICKVAL( StageName , &quot;Closed Won&quot;)),
+  NOT(ISBLANK( Contract.Id ))
+
+)</errorConditionFormula>
+    <errorMessage>Since Add Plan is selected, please remove the related Subscription as this is from another active subscription, once removed, when you go to the Subscription stage the appropriate subscription will be created for this new subscription.</errorMessage>
+</ValidationRule>

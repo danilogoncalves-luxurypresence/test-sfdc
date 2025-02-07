@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Modules_In_Progress_1BD</name>
+        <label>Modules In Progress 1BD</label>
+        <locationX>314</locationX>
+        <locationY>516</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>bModulesInProgress1BD</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Owner:User.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>24 Hrs Modules in Progress | {!$Record.Name}</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Modules_in_Progress_2BD</name>
+        <label>Modules in Progress 2BD</label>
+        <locationX>1370</locationX>
+        <locationY>516</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>bModulesInProgress2BD</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Owner:User.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>72 Hrs Modules in Progress |  {!$Record.Name}</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Modules_in_Progress_3BD</name>
+        <label>Modules in Progress 3BD</label>
+        <locationX>2426</locationX>
+        <locationY>516</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>bModulesInProgess3BD</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Owner:User.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>120 Hrs Modules in Progress | {!$Record.Name}</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Pending_Invitation_1_BD</name>
+        <label>Pending Invitation 1 BD</label>
+        <locationX>50</locationX>
+        <locationY>516</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>bPendingInvitation1BD</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Owner:User.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>IAO | 24 Hrs Pending Invitation | {!$Record.Name}</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Pending_Invitation_2BD</name>
+        <label>Pending Invitation 2BD</label>
+        <locationX>1106</locationX>
+        <locationY>516</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>bPendingInvitation2BD</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Owner:User.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue> IAO | 48 Hrs Pending Invitation | {!$Record.Name}</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Pending_Invitation_3BD</name>
+        <label>Pending Invitation 3BD</label>
+        <locationX>2162</locationX>
+        <locationY>516</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>bPendingInvitation3BD</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <elementReference>$Record.Owner:User.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>IAO | 72 Hrs Pending Invitation | {!$Record.Name}</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>57.0</apiVersion>
+    <decisions>
+        <name>Business_Days</name>
+        <label>Business Days?</label>
+        <locationX>1832</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>X1BD</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.In_App_Status_1_BD__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Flow.CurrentDate</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Status</targetReference>
+            </connector>
+            <label>1BD</label>
+        </rules>
+        <rules>
+            <name>X2BD</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.In_App_Status_2BD__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Flow.CurrentDate</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Status</targetReference>
+            </connector>
+            <label>2BD</label>
+        </rules>
+        <rules>
+            <name>X3BD</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.In_App_Status_3_BD__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Flow.CurrentDate</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_2_of_Status</targetReference>
+            </connector>
+            <label>3BD</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Copy_1_of_Status</name>
+        <label>Status?</label>
+        <locationX>1502</locationX>
+        <locationY>396</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_1_of_Pending_Invitation</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending Invitation</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Pending_Invitation_2BD</targetReference>
+            </connector>
+            <label>Pending Invitation</label>
+        </rules>
+        <rules>
+            <name>Modules_in_Progress2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Modules_in_Progress_2BD</targetReference>
+            </connector>
+            <label>Modules in Progress</label>
+        </rules>
+        <rules>
+            <name>Modules_Complete2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Modules Complete</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Modules Complete</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Copy_2_of_Status</name>
+        <label>Status?</label>
+        <locationX>2558</locationX>
+        <locationY>396</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_2_of_Pending_Invitation</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending Invitation</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Pending_Invitation_3BD</targetReference>
+            </connector>
+            <label>Pending Invitation</label>
+        </rules>
+        <rules>
+            <name>Modules_in_Progress3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Modules in Progress</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Modules_in_Progress_3BD</targetReference>
+            </connector>
+            <label>Modules in Progress</label>
+        </rules>
+        <rules>
+            <name>Modules_Complete3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Modules Complete</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Modules Complete</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Status</name>
+        <label>Status?</label>
+        <locationX>446</locationX>
+        <locationY>396</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Pending_Invitation</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending Invitation</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Pending_Invitation_1_BD</targetReference>
+            </connector>
+            <label>Pending Invitation</label>
+        </rules>
+        <rules>
+            <name>Modules_in_Progress</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Modules in Progress</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Modules_In_Progress_1BD</targetReference>
+            </connector>
+            <label>Modules in Progress</label>
+        </rules>
+        <rules>
+            <name>Modules_Complete</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Modules Complete</stringValue>
+                </rightValue>
+            </conditions>
+            <label>Modules Complete</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>LP - Send In-App Email {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>LP - Send In-App Email</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>1706</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Business_Days</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>In_App_Email__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Service__c</object>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2023-03-06</startDate>
+            <startTime>08:01:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <textTemplates>
+        <name>bModulesInProgess3BD</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi {!$Record.Owner:User.FirstName},
+Your new IAO client, {!$Record.Name}, accepted their invite to the Presence Platform on {!$Record.Last_In_App_Status__c}. Please review whether client has completed all modules.  If they have not, please reach out to the client directly.
+Once they complete all modules, please make sure to update the service status to “Modules Complete”.</text>
+    </textTemplates>
+    <textTemplates>
+        <name>bModulesInProgress1BD</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi {!$Record.Owner:User.FirstName}
+Your new IAO client, {!$Record.Name}, accepted their invite to the Presence Platform on {!$Record.Last_In_App_Status__c}. Please review whether client has completed all modules.  If they have not, please reach out to the client directly.
+Once they complete all modules, please make sure to update the service status to “Modules Complete”.</text>
+    </textTemplates>
+    <textTemplates>
+        <name>bModulesInProgress2BD</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi {!$Record.Owner:User.FirstName},
+Your new IAO client, {!$Record.Name}, accepted their invite to the Presence Platform on {!$Record.Last_In_App_Status__c}. Please review whether client has completed all modules.  If they have not, please reach out to the client directly.
+Once they complete all modules, please make sure to update the service status to to “Modules Complete”.</text>
+    </textTemplates>
+    <textTemplates>
+        <name>bPendingInvitation1BD</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi {!$Record.Owner:User.FirstName},
+Your new IAO client,{!$Record.Name}, was invited to the Presence Platform on {!$Record.Last_In_App_Status__c}. Please review whether client has accepted their invite.  If they have not, please reach out to the client directly.
+Once they accept, please make sure to update the service status to ‘Modules in Progress’.</text>
+    </textTemplates>
+    <textTemplates>
+        <name>bPendingInvitation2BD</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi {!$Record.Owner:User.FirstName},
+Your new IAO client,{!$Record.Name}, was invited to the Presence Platform on {!$Record.Last_Status_Update__c}. Please review whether client has accepted their invite.  If they have not, please reach out to the client directly.
+Once they accept, please make sure to update the service status to ‘Modules in Progress’.</text>
+    </textTemplates>
+    <textTemplates>
+        <name>bPendingInvitation3BD</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi {!$Record.Owner:User.FirstName},
+Your new IAO client, {!$Record.Name}, was invited to the Presence Platform on {!$Record.Last_In_App_Status__c} Please review whether client has accepted their invite.  If they have not, please reach out to the client directly.
+Once they accept, please make sure to update the service status to ‘Modules in Progress’.</text>
+    </textTemplates>
+</Flow>

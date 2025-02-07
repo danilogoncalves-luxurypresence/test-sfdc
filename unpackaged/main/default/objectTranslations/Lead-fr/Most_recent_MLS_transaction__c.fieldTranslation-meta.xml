@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- (MLS) Most recent MLS transaction --></label>
+        <name>Most_recent_MLS_transaction__c</name>
+    </CustomFieldTranslation>

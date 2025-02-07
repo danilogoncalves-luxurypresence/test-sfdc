@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}},<br />
+<br />
+I came across your <span style="color:#d35400;">[[[LinkedIn/Social/Website/Brokerage Profile]]]</span> and <span style="color:#d35400;">[[[ AOO]]]</span>.&nbsp;As a real estate professional, a strong online presence is crucial for attracting and converting clients, but being able to collaborate easily with those clients is just as important.&nbsp;<br />
+<br />
+I work for Luxury Presence, and&nbsp;we're dedicated to helping you build your brand, grow your business, and close more deals!<br />
+<br />
+For example,&nbsp;<a href="https://www.luxurypresence.com/case/how-anne-dresser-kocur-skyrocketed-new-visits-to-her-site-by-150/">how Anne Dresser Kocur Skyrocketted New Visits to her Site by 150%</a> .<br />
+<br />
+{{{Recipient.FirstName}}}, would tomorrow work to discuss?<br />
+<br />
+Thanks in advance,<br />
+{{{Sender.FirstName}}}</body>
+</html>

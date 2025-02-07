@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SEO_Pro_and_Leads_Pro_Tier_Plan</fullName>
+    <active>false</active>
+    <description>Prevent the Add Service or Addendum opportunity from closing if the tier plan field value is &quot;Leads Pro&quot; or &quot;SEO Pro&quot;</description>
+    <errorConditionFormula>AND(
+OR(
+ISPICKVAL( Tier_Plan__c, &quot;SEO Pro&quot;),
+ISPICKVAL( Tier_Plan__c, &quot;Leads Pro&quot;)),
+OR(
+Record_Type_Name__c = &quot;Addendum&quot;,
+Record_Type_Name__c = &quot;Add Service&quot;),
+
+ISPICKVAL(StageName ,&quot;Closed Won&quot;)
+
+)</errorConditionFormula>
+    <errorMessage>Opportunity cannot be closed until 3/4/23. Please connect with your manager for assistance.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Started</fullName>
+        <default>false</default>
+        <label>Not Started</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Collect Brand Assets</fullName>
+        <default>false</default>
+        <label>Collect Brand Assets</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Ready for QA</fullName>
+        <default>false</default>
+        <label>Ready for QA</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>QA in Progress</fullName>
+        <default>false</default>
+        <label>QA in Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Additional Revisions</fullName>
+        <default>false</default>
+        <label>Additional Revisions</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Revisions in Progress</fullName>
+        <default>false</default>
+        <label>Revisions in Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent for approval</fullName>
+        <default>false</default>
+        <label>Sent for approval</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>SFA Revisions</fullName>
+        <default>false</default>
+        <label>SFA Revisions</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>SFA Revisions In Progress</fullName>
+        <default>false</default>
+        <label>SFA Revisions In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Additional Feedback</fullName>
+        <default>false</default>
+        <label>Additional Feedback</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>At risk</fullName>
+        <default>false</default>
+        <label>At risk</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Blocked</fullName>
+        <default>false</default>
+        <label>Blocked</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Done</fullName>
+        <default>false</default>
+        <label>Done</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>true</default>
+        <label>Open</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>To-do</fullName>
+        <default>false</default>
+        <label>To-do</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Paused</fullName>
+        <default>false</default>
+        <label>Paused</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>GA account access</fullName>
+        <default>false</default>
+        <label>GA account access</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>GTM account access</fullName>
+        <default>false</default>
+        <label>GTM account access</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pixel implementation</fullName>
+        <default>false</default>
+        <label>Pixel implementation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Update lead alert emails</fullName>
+        <default>false</default>
+        <label>Update lead alert emails</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Setup CRM integration</fullName>
+        <default>false</default>
+        <label>Setup CRM integration</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Custom CRM/lead-routing requests</fullName>
+        <default>false</default>
+        <label>Custom CRM/lead-routing requests</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Google Tag request</fullName>
+        <default>false</default>
+        <label>Google Tag request</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>De-index pages</fullName>
+        <default>false</default>
+        <label>De-index pages</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Script implementation</fullName>
+        <default>false</default>
+        <label>Script implementation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Widget integration</fullName>
+        <default>false</default>
+        <label>Widget integration</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Google Ads tracking</fullName>
+        <default>false</default>
+        <label>Google Ads tracking</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Remove IP addresses</fullName>
+        <default>false</default>
+        <label>Remove IP addresses</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pause Campaign</fullName>
+        <default>false</default>
+        <label>Pause Campaign</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Build Landing Page</fullName>
+        <default>false</default>
+        <label>Build Landing Page</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Gather TCR Info</fullName>
+        <default>false</default>
+        <label>Gather TCR Info</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Client TCR Text</fullName>
+        <default>false</default>
+        <label>Pending Client TCR Text</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Incorrect Client Info</fullName>
+        <default>false</default>
+        <label>Incorrect Client Info</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Ready For Submission</fullName>
+        <default>false</default>
+        <label>Ready For Submission</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Submitted to TCR</fullName>
+        <default>false</default>
+        <label>Submitted to TCR</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>TCR Failed</fullName>
+        <default>false</default>
+        <label>TCR Failed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Complete</fullName>
+        <default>false</default>
+        <label>Complete</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+        <closed>true</closed>
+    </standardValue>
+</StandardValueSet>

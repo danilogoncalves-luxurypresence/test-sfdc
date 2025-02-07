@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Send_Delighted_Survey__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Created by Janice for Delighted testing - will delete or repurpose after Case # 00122389</description>
+    <label>Send Delighted Survey</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

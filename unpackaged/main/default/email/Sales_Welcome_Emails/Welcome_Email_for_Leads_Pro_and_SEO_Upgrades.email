@@ -1,0 +1,17 @@
+Hi {!Contact.FirstName},
+
+
+I’m thrilled to introduce your Client Success Manager, {!Account.Account_Manager__c}, who will ensure that you are set for success on your new plan.
+
+
+Your CSM will follow up with you shortly to ask to schedule a call so that we can get started on your marketing deliverables. We are so excited that you’ve decided to continue your journey with Luxury Presence.
+
+
+As always, please feel free to reach out if you have any questions.
+
+
+Best,
+{!User.FirstName} {!User.LastName}
+{!User.Phone}
+{!User.Email}
+Luxury Presence

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Discount_Price_of_Other_Products__c</fullName>
+    <description>Set in the Bundle Product Trigger Handler.</description>
+    <inlineHelpText>Total of the Bundle Price of all associated products that do NOT hav Product Family of Setup Fee.</inlineHelpText>
+    <label>Total Discount Price of Other Products</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

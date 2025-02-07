@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- VIP Reason --></label>
+        <name>VIP_Reason__c</name>
+        <picklistValues>
+            <masterLabel>CB Global Luxury</masterLabel>
+            <translation><!-- CB Global Luxury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB ILA (International Luxury Alliance)</masterLabel>
+            <translation><!-- CB ILA (International Luxury Alliance) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB Market Leader</masterLabel>
+            <translation><!-- CB Market Leader --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CB SOE (Society of Excellence)</masterLabel>
+            <translation><!-- CB SOE (Society of Excellence) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Celebrity Agent</masterLabel>
+            <translation><!-- Celebrity Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass Influencer</masterLabel>
+            <translation><!-- Compass Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corcoran Influencer</masterLabel>
+            <translation><!-- Corcoran Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Collective Member</masterLabel>
+            <translation><!-- Global Collective Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Brokerage 50+ Agents</masterLabel>
+            <translation><!-- Large Brokerage 50+ Agents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large Brokerage Client</masterLabel>
+            <translation><!-- Large Brokerage Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Major Market Transaction Volume &gt;$1B</masterLabel>
+            <translation><!-- Major Market Transaction Volume &gt;$1B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor Market Transaction Volume &gt;$500M</masterLabel>
+            <translation><!-- Minor Market Transaction Volume &gt;$500M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network Member</masterLabel>
+            <translation><!-- Network Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Misc. VIP</masterLabel>
+            <translation><!-- Other - Misc. VIP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - Misc. VIP (Please add Notes)</masterLabel>
+            <translation><!-- Other - Misc. VIP (Please add Notes) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIR Market Leader</masterLabel>
+            <translation><!-- SIR Market Leader --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WSJ Top 250</masterLabel>
+            <translation><!-- WSJ Top 250 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

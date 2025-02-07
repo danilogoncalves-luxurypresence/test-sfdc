@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>MLSGRID Introduction - 2nd Follow Up</name>
+    <style>freeForm</style>
+    <subject>MLSGRID Introduction - 2nd Follow Up</subject>
+    <textOnly>Hi {!Service__c.Contact_First_Name__c},
+
+I hope you are having a wonderful week! I wanted to follow up on the previous email.
+
+In order for us to display IDX data on your website, {!Service__c.MLS_Board_Name__c} requires us to have a data access agreement signed on MLS Grid. I kindly ask that you provide me with the following information to initiate the agreement for digital signatures.
+
+Agent&#39;s Name: {!Service__c.Contact_First_Name__c}
+{!Service__c.Contact_Last_Name__c}
+Agent&#39;s Email: {!Service__c.Agent_Contact_Email__c}
+Brokerage: {!Service__c.Contact_First_Name__c}
+{!Service__c.Contact_Last_Name__c}
+Broker of Record&#39;s Name:
+Broker of Record&#39;s Email:
+Domain name: {!Service__c.Contact_Email_Domain__c}
+
+(*** Please note: In order to be approved, the agent listed above must be a member of the MLS Board mentioned. If you are the contact person or marketing coordinator and not a member of the MLS, please change the agent&#39;s name in your reply to reflect the agent for whom you are coordinating the website.)
+
+Lastly, if you do not have a Domain/URL finalized, no problem! Please wait until your next call with your Implementation Manager and they will be able to discuss URL options with you in detail. Let me know if you have any questions in the meantime. I&#39;m here to help!
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

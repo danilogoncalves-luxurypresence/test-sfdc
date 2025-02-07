@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner_MLS_Queues</fullName>
+    <active>false</active>
+    <description>Sales User cannot change the owner of a lead from the queue to a user if the queue is: MLS Leads (Existing) OR MLS Leads (Net New)</description>
+    <errorConditionFormula>AND(
+ISCHANGED( OwnerId ),
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+$User.Username &lt;&gt; &quot;edayal@luxurypresence.com&quot;,
+$User.LastName &lt;&gt; &quot;Presence&quot;,
+OR(
+ PRIORVALUE( OwnerId )=  $Label.ID_Queue_MLS_Existing,
+  PRIORVALUE(OwnerId) = $Label.ID_Queue_MLS_Net_New  )
+)</errorConditionFormula>
+    <errorMessage>You can not modify the owner, please contact your system admin</errorMessage>
+</ValidationRule>

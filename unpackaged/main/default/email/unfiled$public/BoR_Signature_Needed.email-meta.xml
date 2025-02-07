@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BoR Signature Needed</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>BoR Signature Needed</name>
+    <style>freeForm</style>
+    <subject>Broker Signature Requested for IDX Approval</subject>
+    <textOnly>Hi {!Service__c.Contact_First_Name__c},
+
+I hope your week is off to a great start. My name is {!Service__c.OwnerFullName} and I am an IDX Coordinator here at Luxury Presence. I am reaching out to you because we are working with {!Service__c.MLS_Board_Name__c} for their IDX data request for their new website and you are listed as the Broker of Record requested for signature.
+
+Please click HERE to sign the IDX request form.
+
+Let me know if you have any questions, I am happy to help!
+
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

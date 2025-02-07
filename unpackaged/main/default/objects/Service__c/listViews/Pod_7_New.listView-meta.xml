@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pod_7_New</fullName>
+    <booleanFilter>1 AND 2 AND (3 OR (4 AND 5))</booleanFilter>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Modules_Complete__c</columns>
+    <columns>Welcome_Call_Date_calendly__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Assigned_VA__c</columns>
+    <columns>Staging_link_status__c</columns>
+    <columns>Website_Builder__c</columns>
+    <columns>Data_Specialist__c</columns>
+    <columns>Header_Image_Curator__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Modules Complete,New,Build Site</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.Custom_Website,Service__c.In_App_Onboarding,Service__c.Website_Launches</value>
+    </filters>
+    <filters>
+        <field>PFT_Pod__c</field>
+        <operation>equals</operation>
+        <value>Pod 7</value>
+    </filters>
+    <filters>
+        <field>Tier_Plan__c</field>
+        <operation>equals</operation>
+        <value>Enterprise,Presence Premier,SEO Premier,Leads Premier,All In Premier</value>
+    </filters>
+    <filters>
+        <field>OWNER.ALIAS</field>
+        <operation>equals</operation>
+        <value>Jord</value>
+    </filters>
+    <label>Pod 7 New</label>
+</ListView>

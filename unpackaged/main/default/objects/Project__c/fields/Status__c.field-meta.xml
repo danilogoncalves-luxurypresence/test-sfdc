@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>📓Definition</fullName>
+                <default>false</default>
+                <label>📓Definition</label>
+            </value>
+            <value>
+                <fullName>⏹️Not Started</fullName>
+                <default>false</default>
+                <label>⏹️Not Started</label>
+            </value>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>💹Active</label>
+            </value>
+            <value>
+                <fullName>Ongoing</fullName>
+                <default>false</default>
+                <label>♻️Ongoing</label>
+            </value>
+            <value>
+                <fullName>📌On Hold</fullName>
+                <default>false</default>
+                <label>📌On Hold</label>
+            </value>
+            <value>
+                <fullName>☑️Completed</fullName>
+                <default>false</default>
+                <label>☑️Completed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

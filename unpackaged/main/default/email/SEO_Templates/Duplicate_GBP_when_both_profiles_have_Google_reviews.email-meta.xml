@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Duplicate GBP (when both profiles have Google reviews)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Duplicate GBP (when both profiles have Google reviews)</name>
+    <style>none</style>
+    <subject>⚠️ Action Needed: Duplicate Google Business Profile Detected – Let&#39;s Resolve It!</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

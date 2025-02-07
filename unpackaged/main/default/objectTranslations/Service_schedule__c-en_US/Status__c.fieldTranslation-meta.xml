@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ad Buildout</masterLabel>
+            <translation><!-- Ad Buildout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adding Photos</masterLabel>
+            <translation><!-- Adding Photos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call completed</masterLabel>
+            <translation><!-- Call completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call scheduled</masterLabel>
+            <translation><!-- Call scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Review</masterLabel>
+            <translation><!-- Client Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Create Content</masterLabel>
+            <translation><!-- Create Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Creating Content</masterLabel>
+            <translation><!-- Creating Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deck sent</masterLabel>
+            <translation><!-- Deck sent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Done</masterLabel>
+            <translation><!-- Done --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edit Content</masterLabel>
+            <translation><!-- Edit Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edited</masterLabel>
+            <translation><!-- Edited --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final QA</masterLabel>
+            <translation><!-- Final QA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inbox</masterLabel>
+            <translation><!-- Inbox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Live/Scheduled</masterLabel>
+            <translation><!-- Live/Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Meeting Held</masterLabel>
+            <translation><!-- Meeting Held --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Meeting Held</masterLabel>
+            <translation><!-- No Meeting Held --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Show</masterLabel>
+            <translation><!-- No Show --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not started</masterLabel>
+            <translation><!-- Not started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PMS Buildout</masterLabel>
+            <translation><!-- PMS Buildout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paused</masterLabel>
+            <translation><!-- Paused --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Questionnaire</masterLabel>
+            <translation><!-- Pending Questionnaire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Photos added</masterLabel>
+            <translation><!-- Photos added --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Posted</masterLabel>
+            <translation><!-- Posted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Assigning</masterLabel>
+            <translation><!-- Ready for Assigning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Client Review</masterLabel>
+            <translation><!-- Ready for Client Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready for Launch</masterLabel>
+            <translation><!-- Ready for Launch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revisions Requested</masterLabel>
+            <translation><!-- Revisions Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent for Client Approval</masterLabel>
+            <translation><!-- Sent for Client Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategist Review</masterLabel>
+            <translation><!-- Strategist Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on CSM</masterLabel>
+            <translation><!-- Waiting on CSM --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

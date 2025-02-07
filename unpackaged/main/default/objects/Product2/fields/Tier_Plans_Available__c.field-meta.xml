@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tier_Plans_Available__c</fullName>
+    <description>NOTE: if pick list values are added, then update Tier Plans Available formula field on PriceBook Entry record --- if the new value needs to be on pick list in Manage Products</description>
+    <inlineHelpText>if Ala Carte? then enter tier plans that this product can be added to</inlineHelpText>
+    <label>Tier Plans Available</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Tier_Plan</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

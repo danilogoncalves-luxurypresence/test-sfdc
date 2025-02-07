@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is the product acive? It has to be. --></help>
+        <label><!-- Product Active Status --></label>
+        <name>Product_Active_Status__c</name>
+    </CustomFieldTranslation>

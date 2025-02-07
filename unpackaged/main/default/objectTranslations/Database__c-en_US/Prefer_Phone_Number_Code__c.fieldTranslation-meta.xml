@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Which area code do you prefer for the phone number that the AI text will use? --></help>
+        <label><!-- Prefer Phone Number Code --></label>
+        <name>Prefer_Phone_Number_Code__c</name>
+    </CustomFieldTranslation>

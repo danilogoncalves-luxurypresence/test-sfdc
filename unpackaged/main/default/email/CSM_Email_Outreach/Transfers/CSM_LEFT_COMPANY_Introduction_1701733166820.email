@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}},<br />
+<br />
+I'm {{{Sender.FirstName}}}, your new Client Success Manager at Luxury Presence. [PREVIOUS CSM NAME] has moved on, and I'm excited to be your dedicated contact moving forward.<br />
+<br />
+Having reviewed your account, I'm confident we can continue to grow your digital presence and achieve your business goals.&nbsp;<br />
+<br />
+Let's schedule a quick call to kick off our partnership. Please select a time here: ​[​INSERT CALENDAR LINK].&nbsp;<br />
+<br />
+Looking forward to meeting with you!&nbsp;<br />
+<br />
+​W​armly,&nbsp;<br />
+<br />
+{{{Sender.Name}}}</body>
+</html>

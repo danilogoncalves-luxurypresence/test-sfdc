@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>Design Quiz</name>
+    <style>freeForm</style>
+    <subject>Design Quiz</subject>
+    <textOnly>Hi {!Account.Contact__c},
+
+
+
+Please fill out this Design Quiz (Typeform) before end of day today. This will give my team a jump start on being able to personalize your website’s rough draft. The team starts working in 24 hours, so the sooner this is completed the better.
+
+
+
+If you already completed the form, please disregard this email.
+
+
+
+All the best,
+
+
+{!Service__c.OwnerFullName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

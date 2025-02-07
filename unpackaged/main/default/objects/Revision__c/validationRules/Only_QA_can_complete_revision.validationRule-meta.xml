@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_QA_can_complete_revision</fullName>
+    <active>false</active>
+    <description>Restrict so that only QA can change Revision to status = Done.</description>
+    <errorConditionFormula>AND(
+NOT(ISPICKVAL( Revision_Owner__r.Contact.Position__c ,&quot;QA&quot;)),
+ISPICKVAL( Status__c , &quot;Done&quot;))</errorConditionFormula>
+    <errorMessage>Only QA can change Revision to status = Done.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hey {{{Recipient.FirstName}}},<br />
+<br />
+I wanted to shoot you a note to leave you with a couple of resources you should find valuable.<br />
+<br />
+Since you are in real estate I think you will find these pieces particularly interesting:<br />
+<br />
+<a href="https://www.luxurypresence.com/case/how-we-helped-elizabeth-dewoody-stand-out-online/">How We Helped Elizabeth DeWoody Stand Out Online&nbsp;</a><br />
+<a href="https://www.luxurypresence.com/case/reimagining-sam-palmers-digital-identity-with-luxury-presence/">Reimagining Sam Palmer’s Digital Identity with Luxury Presence&nbsp;&nbsp;</a><br />
+<a href="https://www.luxurypresence.com/case/how-we-generated-a-680-percent-roi-for-cindy-rosenfeld/">How We Generated a 680% ROI for Cindy Rosenfeld</a><br />
+<br />
+If this information is of interest to you, let me know. You know how to get ahold of me!<br />
+Cheers,<br />
+{{{Sender.FirstName}}}</p>
+</body>
+</html>

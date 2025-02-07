@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_is_your_minimum_monthly_ad_budget__c</fullName>
+    <description>What is your minimum monthly ad budget? (what you spend on Facebook ads or Google ads only)</description>
+    <inlineHelpText>What is your minimum monthly ad budget? (what you spend on Facebook ads or Google ads only)</inlineHelpText>
+    <label>What is your minimum monthly ad budget?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Footage_Type__c</fullName>
+    <label>Footage Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client Videos</fullName>
+                <default>false</default>
+                <label>Client Videos</label>
+            </value>
+            <value>
+                <fullName>Client &amp; Stock Videos</fullName>
+                <default>false</default>
+                <label>Client &amp; LP Stock Videos</label>
+            </value>
+            <value>
+                <fullName>Stock Videos</fullName>
+                <default>false</default>
+                <label>LP Stock Videos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

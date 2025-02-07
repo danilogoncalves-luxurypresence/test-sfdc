@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brand_Email_Tracking__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox field to track whether the post-launch email has been sent to the client. The email is sent immediately once the status is moved, and the field is set to True after the email is successfully triggered.</description>
+    <label>Brand Email Tracking</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

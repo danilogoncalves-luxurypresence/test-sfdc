@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Client Website Objective --></label>
+        <name>Client_website_objective__c</name>
+        <picklistValues>
+            <masterLabel>Digital Business Card</masterLabel>
+            <translation><!-- Digital Business Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product (Dashboard to make changes)</masterLabel>
+            <translation><!-- Product (Dashboard to make changes) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

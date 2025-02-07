@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MLS_Leads_Category</fullName>
+    <active>false</active>
+    <description>If the MLS Lead Category = Mid-Market or Do not Call, only: System Admins, JP Decheneux, Ho Yin Cheung and Drew Wilke can reassign those leads. Anyone else should not be able to reassign the owner of a lead that has either of those values in the MLS Lead</description>
+    <errorConditionFormula>AND(
+ISCHANGED(OwnerId),
+OR( 
+  MLS_MLS_Lead_Category__c = &quot;Mid-Market&quot;,
+  MLS_MLS_Lead_Category__c= &quot;Do not Call2&quot; ),
+  $Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+  $User.Username &lt;&gt; &quot;jpdescheneaux@luxurypresence.com&quot;,
+  $User.Username &lt;&gt; &quot;hcheung@luxurypresence.com&quot;,
+  $User.Username &lt;&gt; &quot;drew@luxurypresence.com&quot;,
+  $User.Username &lt;&gt; &quot;edayal@luxurypresence.com&quot;
+
+
+
+
+
+)</errorConditionFormula>
+    <errorMessage>You can not modify the owner, please contact your system admin.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Share_with_Everyone</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with Everyone</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Superuser</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>LastName</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_with_Hubspot</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share with Hubspot</label>
+        <sharedTo>
+            <role>Hubspot</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Exclude_Hubspot__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

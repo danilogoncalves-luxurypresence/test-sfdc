@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Client Profile --></label>
+        <name>Client_Profile__c</name>
+        <picklistValues>
+            <masterLabel>Easy Breezy</masterLabel>
+            <translation><!-- Easy Breezy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frugal</masterLabel>
+            <translation><!-- Frugal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Influence</masterLabel>
+            <translation><!-- High Influence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Maintenance</masterLabel>
+            <translation><!-- High Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Value</masterLabel>
+            <translation><!-- High Value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready to Spend</masterLabel>
+            <translation><!-- Ready to Spend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Adverse</masterLabel>
+            <translation><!-- Tech Adverse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Savvy</masterLabel>
+            <translation><!-- Tech Savvy --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

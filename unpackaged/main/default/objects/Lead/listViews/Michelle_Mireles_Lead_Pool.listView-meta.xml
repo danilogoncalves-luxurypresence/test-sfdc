@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Michelle_Mireles_Lead_Pool</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>LEAD.STATE</field>
+        <operation>equals</operation>
+        <value>fl,tx,ca,ny,co</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>10000000</value>
+    </filters>
+    <label>Michelle Mireles Lead Pool</label>
+    <queue>General</queue>
+</ListView>

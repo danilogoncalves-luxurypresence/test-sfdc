@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>Trestle (General) - Introduction</name>
+    <style>freeForm</style>
+    <subject>IDX Introduction - {!Contact.FirstName}{!Contact.LastName}</subject>
+    <textOnly>Hi Contact: First name,
+
+Nice to e-meet you! My name is [Coordinator’s Name], and I am an IDX Coordinator at Luxury Presence. I will be responsible for the IDX search tool setup process for Contact: MLS Board Name on your new website.
+
+In order for us to display IDX data on your website, the Contact: MLS Board Name requires us to have a data access agreement completed on Trestle. I kindly ask that you provide me with the following information to initiate the agreement for digital signatures.
+
+Agent&#39;s Name: Contact: First name​ Contact: Last name​
+Agent&#39;s Email: Contact: Email​
+Brokerage: Contact: Brokerage​
+Office ID:
+Broker of Record&#39;s Name:
+Broker of Record&#39;s Email:
+Domain name: Contact: Email Domain​
+
+(*** Please note: In order to be approved, the agent listed above must be a member of the MLS Board mentioned. If you are the contact person or marketing coordinator and not a member of the MLS, please change the agent&#39;s name in your reply to reflect the agent for whom you are coordinating the website.)
+
+If you do not have a Domain/URL finalized, no problem! Please wait until your next call with your Implementation Manager and they will be able to discuss URL options with you in detail. Let me know if you have any questions in the meantime. I&#39;m here to help!
+
+Best regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

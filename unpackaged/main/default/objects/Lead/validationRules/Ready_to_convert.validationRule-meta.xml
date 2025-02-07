@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ready_to_convert</fullName>
+    <active>true</active>
+    <description>If the rep wants to move the lead to the Scheduled the following fields need to be filled
+
+Please, complete all the fields in the Guidance for Success section to convert the Lead.</description>
+    <errorConditionFormula>AND(
+ NOT( $User.Id = &#39;005EY000000HgBC&#39;),
+ NOT ( $UserRole.DeveloperName = &#39;Hubspot&#39;),
+ $User.Username &lt;&gt; &#39;dgoncalves@luxurypresence.com&#39;,
+ ISPICKVAL( Status , &quot;Scheduled&quot;), 
+ OR(
+  ISBLANK(  Demo_Date__c),
+  ISBLANK( Website ),
+  ISPICKVAL( LeadSource , &quot;&quot;),
+  ISBLANK( FirstName ), 
+  ISBLANK ( MobilePhone ), 
+  ISPICKVAL( Time_Zone__c , &quot;&quot;),
+  ISBLANK( Address ), 
+  ISPICKVAL ( Partnership_Organization__c , &quot;&quot;),
+  ISBLANK( Lead_Brokerage__c ),
+  ISPICKVAL( Client_Type__c ,&quot;&quot;),
+  ISBLANK( Lead_Brokerage__c )
+
+ )
+)</errorConditionFormula>
+    <errorMessage>The following fields must be completed before converting: Demo Date, Website, Lead Source, First Name, Mobile Phone, Time Zone, Address, Partnership Organization, Lead Brokerage, Client Type.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jaime_Launch_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Contact__c</columns>
+    <columns>Contact_Email__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>ACCOUNT.SALES</columns>
+    <columns>Brokerage__c</columns>
+    <columns>Partnership_Organization__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>AE_old__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>AE_old__c</field>
+        <operation>equals</operation>
+        <value>Jaime Aguilar</value>
+    </filters>
+    <label>Jaime Launch Accounts</label>
+</ListView>

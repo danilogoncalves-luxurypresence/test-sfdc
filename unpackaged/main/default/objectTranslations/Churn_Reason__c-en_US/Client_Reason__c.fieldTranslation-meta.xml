@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Client Reason --></label>
+        <name>Client_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Insufficient customer service</masterLabel>
+            <translation><!-- Insufficient customer service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing features I need</masterLabel>
+            <translation><!-- Missing features I need --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not enough marketing results or leads</masterLabel>
+            <translation><!-- Not enough marketing results or leads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (update response in Other reason field)</masterLabel>
+            <translation><!-- Other (update response in Other reason field) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price is too high</masterLabel>
+            <translation><!-- Price is too high --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saved</masterLabel>
+            <translation><!-- Saved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shutting down my company</masterLabel>
+            <translation><!-- Shutting down my company --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical issues</masterLabel>
+            <translation><!-- Technical issues --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

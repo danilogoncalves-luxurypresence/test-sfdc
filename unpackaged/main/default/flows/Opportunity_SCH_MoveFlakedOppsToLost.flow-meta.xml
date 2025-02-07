@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <description>[Entry: Stage = Flaked, Days_Stage &gt;= 60]
+Daily check for opportunities in flaked stage for more than 60days and close losing them</description>
+    <environments>Default</environments>
+    <interviewLabel>Opportunity_SCH_MoveFlakedOppsToLost {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Opportunity_SCH_MoveFlakedOppsToLost</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Move_Opportunity_to_Closed_Lost</name>
+        <label>Move Opportunity to Closed Lost</label>
+        <locationX>176</locationX>
+        <locationY>252</locationY>
+        <inputAssignments>
+            <field>Closed_Lost_Primary_Reason__c</field>
+            <value>
+                <stringValue>Other &quot;Now&#39;s not a good time&quot;</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Closed_Lost_Root_Cause__c</field>
+            <value>
+                <stringValue>Timing</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>StageName</field>
+            <value>
+                <stringValue>Closed Lost</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Move_Opportunity_to_Closed_Lost</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>StageName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Flaked</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Days_in_Current_Status__c</field>
+            <operator>GreaterThanOrEqualTo</operator>
+            <value>
+                <numberValue>60.0</numberValue>
+            </value>
+        </filters>
+        <object>Opportunity</object>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2024-09-17</startDate>
+            <startTime>02:00:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

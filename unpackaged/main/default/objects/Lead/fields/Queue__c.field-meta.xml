@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Queue__c</fullName>
+    <formula>IF(
+
+OR( OwnerId =  &quot;00GO90000001VWPMA2&quot; ,  OwnerId =  $Label.ID_Queue_Partners  ), true, false
+
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Queue?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

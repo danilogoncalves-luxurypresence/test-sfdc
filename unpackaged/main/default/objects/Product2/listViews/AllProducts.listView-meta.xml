@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllProducts</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.ACTIVE</columns>
+    <columns>Type__c</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>PRODUCT2.CREATED_DATE</columns>
+    <columns>Ala_Carte__c</columns>
+    <columns>AddOn_RollUp_Category__c</columns>
+    <columns>Billing_Frequency__c</columns>
+    <columns>Billing_Type__c</columns>
+    <columns>PRODUCT2.RECORD_TYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.RECORD_TYPE</field>
+        <operation>notEqual</operation>
+        <value>Product2.Bundle,Product2.One_Time_Fees,Product2.Recurring_Revenue</value>
+    </filters>
+    <label>All Products</label>
+</ListView>

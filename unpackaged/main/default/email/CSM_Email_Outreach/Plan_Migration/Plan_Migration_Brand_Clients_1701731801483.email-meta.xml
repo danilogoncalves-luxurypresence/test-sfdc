@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Alert Brand clients that we are migrating them to the Brand+ plan with new deliverables, sharing a form for them to opt in to new deliverables, and subtly mention new TOS.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Plan Migration: Brand Clients</name>
+    <style>none</style>
+    <subject>We’re upgrading your plan at no cost to you</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

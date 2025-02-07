@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>One-time initial GBP optimization</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>One-time initial GBP optimization</name>
+    <style>none</style>
+    <subject>🛠️ Need Updates to Your Google Business Profile? We&#39;re Here to Help!</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

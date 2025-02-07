@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Auto_response_new_support_case</fullName>
+        <description>Auto response new support case</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>support@luxurypresence.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Support_Auto_Response</template>
+    </alerts>
+    <alerts>
+        <fullName>Client_Unresponsive</fullName>
+        <description>Client Unresponsive</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>support@luxurypresence.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Client_Unresponsive</template>
+    </alerts>
+    <alerts>
+        <fullName>nwcs_ldl__Notify_Case_Owner</fullName>
+        <description>Notify Case Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>nwcs_ldl__LeadDealer_Templates/nwcs_ldl__New_Case_Notification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>ChangePriorityToHigh</fullName>
+        <field>Priority</field>
+        <literalValue>High</literalValue>
+        <name>Changes the case priority to high.</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>nwcs_ldl__Uncheck_Send_Notification</fullName>
+        <field>nwcs_ldl__SendNotification__c</field>
+        <literalValue>0</literalValue>
+        <name>Uncheck Send Notification</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <outboundMessages>
+        <fullName>Delighted_Outbound_Custom_Trigger</fullName>
+        <apiVersion>59.0</apiVersion>
+        <description>Used for calling the Delighted API</description>
+        <endpointUrl>https://delighted.com/integrations/salesforce/notification/custom/GQhL1PvwW8tGavnmEjWT6a3N58k0eoWq</endpointUrl>
+        <fields>Id</fields>
+        <includeSessionId>true</includeSessionId>
+        <integrationUser>opssystemuser@luxurypresence.com</integrationUser>
+        <name>Delighted Outbound - Custom Trigger</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <outboundMessages>
+        <fullName>Send_Survey_for_SFDC_Cases</fullName>
+        <apiVersion>60.0</apiVersion>
+        <endpointUrl>https://hooks.zapier.com/hooks/catch/17010592/3c6ksex/</endpointUrl>
+        <fields>Business_System_Analyst__c</fields>
+        <fields>CaseNumber</fields>
+        <fields>Deployment_Date__c</fields>
+        <fields>Id</fields>
+        <fields>OwnerId</fields>
+        <fields>Subject</fields>
+        <fields>Submitted_By__c</fields>
+        <includeSessionId>false</includeSessionId>
+        <integrationUser>jnagel@luxurypresence.com</integrationUser>
+        <name>Send Survey for SFDC Cases</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <outboundMessages>
+        <fullName>Support_Send_Delighted_Survey</fullName>
+        <apiVersion>60.0</apiVersion>
+        <endpointUrl>https://delighted.com/integrations/salesforce/notification/custom/h2kRvU5e901d82ZVYCH4AWhBAVHXB5WV</endpointUrl>
+        <fields>Id</fields>
+        <includeSessionId>true</includeSessionId>
+        <integrationUser>opssystemuser@luxurypresence.com</integrationUser>
+        <name>Support Send Delighted Survey</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <outboundMessages>
+        <fullName>x_delighted_Case_6QQINI</fullName>
+        <apiVersion>50.0</apiVersion>
+        <description>Send surveys with Delighted when Case object changes</description>
+        <endpointUrl>https://delighted.com/integrations/salesforce/notification/foAzpHRT76UCLJFHGkr44zjkBmwVJAFW/185</endpointUrl>
+        <fields>AccountId</fields>
+        <fields>CaseNumber</fields>
+        <fields>ClosedDate</fields>
+        <fields>ContactEmail</fields>
+        <fields>ContactId</fields>
+        <fields>ContactMobile</fields>
+        <fields>CreatedDate</fields>
+        <fields>Id</fields>
+        <fields>Subject</fields>
+        <fields>SuppliedEmail</fields>
+        <includeSessionId>true</includeSessionId>
+        <integrationUser>mmcgowan@luxurypresence.com</integrationUser>
+        <name>x_delighted_Case_6QQINI</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <outboundMessages>
+        <fullName>x_delighted_Case_H91UBB</fullName>
+        <apiVersion>50.0</apiVersion>
+        <description>Send surveys with Delighted when Case object changes</description>
+        <endpointUrl>https://delighted.com/integrations/salesforce/notification/8WbknK5zOjnBkNykxxRCZvM8W3zHcEsv/201</endpointUrl>
+        <fields>AccountId</fields>
+        <fields>CaseNumber</fields>
+        <fields>ClosedDate</fields>
+        <fields>ContactEmail</fields>
+        <fields>ContactId</fields>
+        <fields>ContactMobile</fields>
+        <fields>CreatedDate</fields>
+        <fields>Id</fields>
+        <fields>Record_Type_Name__c</fields>
+        <fields>Subject</fields>
+        <fields>SuppliedEmail</fields>
+        <includeSessionId>true</includeSessionId>
+        <integrationUser>auntalan@luxurypresence.com</integrationUser>
+        <name>x_delighted_Case_H91UBB</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+    <rules>
+        <fullName>SFDC Closed Case Survey Trigger</fullName>
+        <actions>
+            <name>Send_Survey_for_SFDC_Cases</name>
+            <type>OutboundMessage</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>SFDC Ticket</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Case_Survey_Sent__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Do_Not_Send_Survey__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Deployment_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Request_Type__c</field>
+            <operation>notEqual</operation>
+            <value>Reporting,Data,Documentation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Submitted_By__c</field>
+            <operation>notContain</operation>
+            <value>Flora Carvajal,Phi Vo,Monica Cabello,Ho Yin Cheung,Luxury Presence,Isabel Bravo,Alyssa Shaffer,Raiza Cibrian,Renata Hurtado,Janice Nagel</value>
+        </criteriaItems>
+        <description>Used in Zapier to send survey to the Submitted by User</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>nwcs_ldl__New Case Notification</fullName>
+        <actions>
+            <name>nwcs_ldl__Notify_Case_Owner</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>nwcs_ldl__Uncheck_Send_Notification</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.nwcs_ldl__SendNotification__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>This rule has been deprecated</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>x_delighted_autogen_Case_Status_Closed_IYC0TE</fullName>
+        <actions>
+            <name>x_delighted_Case_H91UBB</name>
+            <type>OutboundMessage</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <description>Creates survey in Delighted when a Case Status equals Closed</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>x_delighted_autogen_Case_Status_Closed_SBJXRQ</fullName>
+        <actions>
+            <name>x_delighted_Case_6QQINI</name>
+            <type>OutboundMessage</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <description>Creates survey in Delighted when a Case Status equals Closed</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

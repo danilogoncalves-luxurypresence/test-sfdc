@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Revision Type --></label>
+        <name>Revision_Type__c</name>
+        <picklistValues>
+            <masterLabel>Blogs</masterLabel>
+            <translation><!-- Blogs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google Doc - Long</masterLabel>
+            <translation><!-- Google Doc - Long --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google Doc - Medium</masterLabel>
+            <translation><!-- Google Doc - Medium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google Doc - Short</masterLabel>
+            <translation><!-- Google Doc - Short --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jotform</masterLabel>
+            <translation><!-- Jotform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lightning Pod</masterLabel>
+            <translation><!-- Lightning Pod --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pages of Copywriting</masterLabel>
+            <translation><!-- Pages of Copywriting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA Passback</masterLabel>
+            <translation><!-- QA Passback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video Creation</masterLabel>
+            <translation><!-- Video Creation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Video Revision</masterLabel>
+            <translation><!-- Video Revision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xpress Checkout</masterLabel>
+            <translation><!-- Xpress Checkout --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

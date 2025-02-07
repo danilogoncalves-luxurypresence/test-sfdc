@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support_24</letterhead>
+    <name>NPS-1</name>
+    <style>freeForm</style>
+    <subject>Luxury Presence Feedback</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Thank you for taking the time to provide feedback within our Presence™ Platform! Your opinion is invaluable to us as we work to continuously improve our services.
+
+We’re sorry to hear that we haven’t met your expectations. I’d love to better understand any challenges you may have experienced and address them for you. Any additional details you can share will enable our team to make our product better.
+
+Please feel free to share any specific concerns or suggestions you have as well! Our team is committed to addressing any areas of improvement, and we listen to every bit of feedback we receive.
+
+I look forward to hearing from you soon.
+
+Thanks,
+The Luxury Presence Support Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

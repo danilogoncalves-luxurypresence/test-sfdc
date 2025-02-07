@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>GBP Suspended</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>GBP Suspended</name>
+    <style>none</style>
+    <subject>Google Business Profile Suspended – We&#39;re on It! Here’s What to Do Next</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

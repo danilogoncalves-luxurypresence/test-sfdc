@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Saved_Tactics__c</fullName>
+    <label>Saved Tactics</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Saved (offered credit)</fullName>
+                <default>false</default>
+                <label>Saved (offered credit)</label>
+            </value>
+            <value>
+                <fullName>Saved (downgraded)</fullName>
+                <default>false</default>
+                <label>Saved (downgraded)</label>
+            </value>
+            <value>
+                <fullName>Saved (offered additional service)</fullName>
+                <default>false</default>
+                <label>Saved (offered additional service)</label>
+            </value>
+            <value>
+                <fullName>Saved (no additional offering)</fullName>
+                <default>false</default>
+                <label>Saved (no additional offering)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

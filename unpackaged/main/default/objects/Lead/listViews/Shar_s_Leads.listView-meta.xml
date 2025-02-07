@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shar_s_Leads</fullName>
+    <booleanFilter>1 AND (2 OR 3) and 4</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LAST_CALL_DATE</columns>
+    <columns>LAST_ACTIVITY_DATETIME</columns>
+    <columns>Callback_date__c</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>Partnership_Organization__c</columns>
+    <columns>Consecutive_calls_No_Contact__c</columns>
+    <columns>Lead_Brokerage__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Rep_Assigned_Date__c</columns>
+    <columns>Average_Listing_Price__c</columns>
+    <columns>Last_12_months_transactions__c</columns>
+    <columns>Yoy_growth_score__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Shareefa</value>
+    </filters>
+    <filters>
+        <field>Yoy_growth_score__c</field>
+        <operation>lessThan</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Average_Listing_Price__c</field>
+        <operation>lessOrEqual</operation>
+        <value>500000</value>
+    </filters>
+    <filters>
+        <field>Last_12_months_transactions__c</field>
+        <operation>lessOrEqual</operation>
+        <value>10</value>
+    </filters>
+    <label>Shar&#39;s Leads</label>
+</ListView>

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Database</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Database</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>AI Lead Nurture</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Database Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Database Quiz</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CSM Book Health</layout>
+        <sections>
+            <label><!-- Content --></label>
+            <section>Content</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- SEO --></label>
+            <section>SEO</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Design Intake</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Leads Pro</layout>
+        <sections>
+            <label><!-- AILN --></label>
+            <section>AILN</section>
+        </sections>
+        <sections>
+            <label><!-- Campaing Details --></label>
+            <section>Campaing Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Locations --></label>
+            <section>Locations</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>New Campaign</layout>
+        <sections>
+            <label><!-- Campaign Details --></label>
+            <section>Campaign Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Locations --></label>
+            <section>Locations</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>New Strategy Brief</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>On-Demand Ads</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Plan Migration</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SEO Blog Selection</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SEO Pro</layout>
+        <sections>
+            <label><!-- AILN --></label>
+            <section>AILN</section>
+        </sections>
+        <sections>
+            <label><!-- Campaign Details --></label>
+            <section>Campaign Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Keyword Analysis Info --></label>
+            <section>Keyword Analysis Info</section>
+        </sections>
+        <sections>
+            <label><!-- Locations --></label>
+            <section>Locations</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Strategy Brief</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Admin --></label>
+            <section>System Admin</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- AI Lead Nurture --></label>
+        <name>AI_Lead_Nurture</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CSM Health Assessment --></label>
+        <name>CSM_Book_Health</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Credentials --></label>
+        <name>Credentials</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Design Intake --></label>
+        <name>Design_Intake</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Leads Pro --></label>
+        <name>Leads_Pro</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- New Campaign --></label>
+        <name>New_Campaign</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- New Strategy Brief --></label>
+        <name>New_Strategy_Brief</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- On-Demand Ads --></label>
+        <name>On_Demand_Ads</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Plan Migration --></label>
+        <name>Plan_Migration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Quiz --></label>
+        <name>Quiz</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SEO Blog Selection --></label>
+        <name>SEO_Blog_Selection</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SEO Pro --></label>
+        <name>SEO_Pro</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Strategy Brief --></label>
+        <name>Strategy_Brief</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

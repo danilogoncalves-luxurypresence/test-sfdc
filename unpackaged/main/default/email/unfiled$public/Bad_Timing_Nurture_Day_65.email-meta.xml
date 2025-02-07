@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>Bad Timing Nurture - Day 65</name>
+    <style>freeForm</style>
+    <subject>How to stand out in a competitive market</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+As you know, standing out in a crowded market can be challenging, no matter how much experience you have.
+
+That&#39;s where Luxury Presence comes in.
+
+Our customized websites and marketing solutions are designed to help you build a strong brand and grow your business.
+
+We understand that timing is everything, but we don&#39;t want you to miss out on the opportunity to elevate your business.
+
+If you have any questions or would like to revisit the conversation, feel free to book a time on my calendar.
+
+And to learn more about how we&#39;ve helped other real estate agents, teams, and brokerages, check out our case studies.
+
+Let&#39;s work together to help you stand out and win more business.
+
+
+Best,
+{!User.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi {{{Recipient.FirstName}}},<br />
+<br />
+Thank you for taking my call today! As discussed please see the link to the addendum highlighting the change of services.</p>
+
+<p><br />
+Please sign the addendum to your subscription <em>[Here].</em></p>
+
+<p><br />
+I'm available for a quick call to discuss this in more detail.<br />
+You can book a time with me <em>[Here]</em>.</p>
+
+<p><br />
+Thank you,</p>
+</body>
+</html>

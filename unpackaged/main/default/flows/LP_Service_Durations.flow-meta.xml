@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <decisions>
+        <name>Flow_triggered_by</name>
+        <label>Flow triggered by</label>
+        <locationX>1062</locationX>
+        <locationY>335</locationY>
+        <defaultConnectorLabel>Inserted</defaultConnectorLabel>
+        <rules>
+            <name>Updated</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Duration</targetReference>
+            </connector>
+            <label>Updated Status</label>
+        </rules>
+        <rules>
+            <name>MLS_Status</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.MLS_Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Copy_1_of_Update_Duration</targetReference>
+            </connector>
+            <label>Updated MLS Status</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Prior_Status_In_App</name>
+        <label>Prior Status In-App</label>
+        <locationX>578</locationX>
+        <locationY>911</locationY>
+        <defaultConnector>
+            <targetReference>Change_Last_Updated</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>New_IAO_Client</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>New IAO Client</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>New_IAO_Time</targetReference>
+            </connector>
+            <label>New IAO Client</label>
+        </rules>
+        <rules>
+            <name>Pending_Invitation</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending Invitation</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Pending_invitation_time</targetReference>
+            </connector>
+            <label>Pending Invitation</label>
+        </rules>
+        <rules>
+            <name>Waiting_on_Modules</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Modules in Progress</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Waiting_modules_time</targetReference>
+            </connector>
+            <label>Waiting on Modules</label>
+        </rules>
+        <rules>
+            <name>Modules_Complete</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Modules Complete</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Modules_complete_time</targetReference>
+            </connector>
+            <label>Modules Complete</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>WB_Review</name>
+        <label>WB Review</label>
+        <locationX>578</locationX>
+        <locationY>575</locationY>
+        <defaultConnector>
+            <targetReference>Prior_Status_In_App</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>WD_Review_change</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>WD Review</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Staging Link</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Add_duration_to_WD_build_time</targetReference>
+            </connector>
+            <label>WD Review change</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>forABSValue</name>
+        <dataType>Number</dataType>
+        <expression>ABS({!forDifferenceDate}/7)</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>forBDays</name>
+        <dataType>Number</dataType>
+        <expression>(5 * ( FLOOR( ( TODAY()- DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( TODAY()- DATE( 1900,
+1, 8), 7 ) ) )
+-
+(5 * ( FLOOR( ( DATEVALUE( {!$Record.Last_Status_Update__c}) - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD(  DATEVALUE({!$Record.Last_Status_Update__c}) - DATE( 1900,
+1, 8), 7 ) ) )</expression>
+        <scale>0</scale>
+    </formulas>
+    <formulas>
+        <name>forBH</name>
+        <dataType>Number</dataType>
+        <expression>CASE( {!varLastDay},
+1, IF(
+     {!forDifferenceDate}&lt;5, 
+    (((NOW()-{!$Record.Last_Status_Update__c}))), 
+     ((NOW()-{!$Record.Last_Status_Update__c})-{!forABSValue})),
+2, IF({!forDifferenceDate}&lt;4, 
+    (NOW()-{!$Record.Last_Status_Update__c})/8, 
+   ((NOW()-{!$Record.Last_Status_Update__c})-{!forABSValue})),
+3, IF({!forDifferenceDate}&lt;3, 
+    ((NOW()-{!$Record.Last_Status_Update__c})), 
+   ((NOW()-{!$Record.Last_Status_Update__c})-{!forABSValue})),
+4, IF({!forDifferenceDate}&lt;2, 
+    (NOW()-{!$Record.Last_Status_Update__c}), 
+   ((NOW()-{!$Record.Last_Status_Update__c})-{!forABSValue})),
+  ((NOW()-{!$Record.Last_Status_Update__c})-{!forABSValue})
+)</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>forDifferenceDate</name>
+        <dataType>Number</dataType>
+        <expression>{!varCurrentDate}-{!varLastDate}</expression>
+        <scale>0</scale>
+    </formulas>
+    <formulas>
+        <name>forDivision</name>
+        <dataType>Number</dataType>
+        <expression>NOW()-{!$Record.Last_Status_Update__c}</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>MLSText</name>
+        <dataType>String</dataType>
+        <expression>TEXT({!$Record__Prior.MLS_Status__c}) &amp; &quot; : &quot; &amp; TEXT({!statusDuration}) &amp; &quot; days&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>statusDuration</name>
+        <dataType>Number</dataType>
+        <expression>(ROUND( 8 * (
+( 5 * FLOOR( ( DATEVALUE( NOW()  ) - DATE( 1900, 1, 8) ) / 7) +
+MIN(5,
+MOD( DATEVALUE( NOW() ) - DATE( 1900, 1, 8), 7) +
+MIN( 1, 24 / 8 * ( MOD(NOW()  - DATETIMEVALUE( &#39;1900-01-08 16:00:00&#39; ), 1 ) ) )
+)
+)
+-
+( 5 * FLOOR( ( DATEVALUE( {!$Record__Prior.Last_Status_Update__c}   ) - DATE( 1900, 1, 8) ) / 7) +
+MIN( 5,
+MOD( DATEVALUE( {!$Record__Prior.Last_Status_Update__c}   ) - DATE( 1996, 1, 1), 7 ) +
+MIN( 1, 24 / 8 * ( MOD( {!$Record__Prior.Last_Status_Update__c}   - DATETIMEVALUE( &#39;1900-01-08 16:00:00&#39; ), 1) ) )
+)
+)
+),
+0 )
+)/8</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>statusDurationText</name>
+        <dataType>String</dataType>
+        <expression>TEXT({!$Record__Prior.Status__c}) &amp; &quot; : &quot; &amp; TEXT({!forBH}) &amp; &quot;days&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>varCurrentDate</name>
+        <dataType>Date</dataType>
+        <expression>TODAY()</expression>
+    </formulas>
+    <formulas>
+        <name>varLastDate</name>
+        <dataType>Date</dataType>
+        <expression>DATEVALUE({!$Record.Last_Status_Update__c})</expression>
+    </formulas>
+    <formulas>
+        <name>varLastDay</name>
+        <dataType>Number</dataType>
+        <expression>MOD(DATEVALUE( {!$Record.Last_Status_Update__c}) - DATE( 1900, 1, 7 ), 7 )</expression>
+        <scale>0</scale>
+    </formulas>
+    <interviewLabel>LP- Service Durations {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>LP- Service Durations</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Add_duration_to_WD_build_time</name>
+        <label>Add duration to WD build time</label>
+        <locationX>446</locationX>
+        <locationY>695</locationY>
+        <connector>
+            <targetReference>Prior_Status_In_App</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>WD_Draft_Build_Time__c</field>
+            <value>
+                <elementReference>forBH</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Change_Last_Updated</name>
+        <label>Change Last Updated</label>
+        <locationX>578</locationX>
+        <locationY>1247</locationY>
+        <inputAssignments>
+            <field>Last_Status_Update__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Copy_1_of_Change_Last_Updated</name>
+        <label>Change Last Updated</label>
+        <locationX>1282</locationX>
+        <locationY>575</locationY>
+        <inputAssignments>
+            <field>Last_Status_Update__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Copy_1_of_Update_Duration</name>
+        <label>Update Duration MLS</label>
+        <locationX>1282</locationX>
+        <locationY>455</locationY>
+        <connector>
+            <targetReference>Copy_1_of_Change_Last_Updated</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Status_Duration__c</field>
+            <value>
+                <elementReference>MLSText</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Time_between_stages__c</field>
+            <value>
+                <elementReference>forBH</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Modules_complete_time</name>
+        <label>Modules complete time</label>
+        <locationX>842</locationX>
+        <locationY>1031</locationY>
+        <connector>
+            <targetReference>Change_Last_Updated</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Modules_Complete_Time__c</field>
+            <value>
+                <elementReference>forBDays</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>New_IAO_Time</name>
+        <label>New IAO Time</label>
+        <locationX>50</locationX>
+        <locationY>1031</locationY>
+        <connector>
+            <targetReference>Change_Last_Updated</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>New_IAO_Client_Time__c</field>
+            <value>
+                <elementReference>forBDays</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Pending_invitation_time</name>
+        <label>Pending invitation time</label>
+        <locationX>314</locationX>
+        <locationY>1031</locationY>
+        <connector>
+            <targetReference>Change_Last_Updated</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Pending_Invitation_Time__c</field>
+            <value>
+                <elementReference>forBDays</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Duration</name>
+        <label>Update Duration</label>
+        <locationX>578</locationX>
+        <locationY>455</locationY>
+        <connector>
+            <targetReference>WB_Review</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Status_Duration__c</field>
+            <value>
+                <elementReference>statusDurationText</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Time_between_stages__c</field>
+            <value>
+                <elementReference>forBH</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Waiting_modules_time</name>
+        <label>Waiting modules time</label>
+        <locationX>578</locationX>
+        <locationY>1031</locationY>
+        <connector>
+            <targetReference>Change_Last_Updated</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Waiting_on_Modules_Time__c</field>
+            <value>
+                <elementReference>forBDays</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>936</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Flow_triggered_by</targetReference>
+        </connector>
+        <object>Service__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

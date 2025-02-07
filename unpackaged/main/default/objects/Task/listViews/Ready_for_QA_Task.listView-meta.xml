@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ready_for_QA_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Ready for QA</label>
+    <queue>Ready_for_QA</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

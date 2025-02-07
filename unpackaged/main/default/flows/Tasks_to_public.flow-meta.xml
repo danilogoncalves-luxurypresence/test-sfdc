@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Notification_to_owner</name>
+        <label>Notification to owner</label>
+        <locationX>2426</locationX>
+        <locationY>492</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <connector>
+            <targetReference>Change_reminder_date</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>$Label.ID_Notification_TaskPastDueDate</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <stringValue>Please complete the task</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>Incomplete task</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>collectionUser</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>customNotificationAction</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>55.0</apiVersion>
+    <assignments>
+        <name>Add_owner_to_collection</name>
+        <label>Add owner to collection</label>
+        <locationX>2426</locationX>
+        <locationY>384</locationY>
+        <assignmentItems>
+            <assignToReference>collectionUser</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Notification_to_owner</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Record_type</name>
+        <label>Record type?</label>
+        <locationX>578</locationX>
+        <locationY>384</locationY>
+        <defaultConnector>
+            <targetReference>Subject0</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>IDX_Mod</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>IDX Mod</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>IDX_Mod_user</targetReference>
+            </connector>
+            <label>IDX Mod</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Send_follow_up_email1</name>
+        <label>Send follow up email</label>
+        <locationX>2030</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Subject_Send_follow_up_email</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Send follow up email</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Completed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Alert_client</targetReference>
+            </connector>
+            <label>Subject: Send follow up email</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Send_follow_up_email_not_done</name>
+        <label>Send follow up email not done</label>
+        <locationX>1502</locationX>
+        <locationY>576</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Not_done1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Send follow up email</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Completed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Call_client</targetReference>
+            </connector>
+            <label>Not done</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Send_Strategy_Deck_and_schedule_review_not_done</name>
+        <label>Send Strategy Deck and schedule review not done</label>
+        <locationX>1502</locationX>
+        <locationY>276</locationY>
+        <defaultConnector>
+            <targetReference>Send_follow_up_email_not_done</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Not_completed</name>
+            <conditionLogic>1 AND (2 OR 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Send Strategy Deck and schedule review call</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Completed</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Call_Scheduled__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_follow_up_email</targetReference>
+            </connector>
+            <label>Not completed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Service_found</name>
+        <label>Service found?</label>
+        <locationX>710</locationX>
+        <locationY>1008</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Service_Pause_Campaing</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Service_PauseCampaign.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_owner_and_due_date</targetReference>
+            </connector>
+            <label>Service - Pause Campaing</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Subject</name>
+        <label>Subject</label>
+        <locationX>2558</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Follow_up_with_client_about_the_verification_code</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Follow up with client about the verification code</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Completed</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Add_owner_to_collection</targetReference>
+            </connector>
+            <label>Follow up with client about the verification code</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Evaluate the subject of the created Task</description>
+        <name>Subject0</name>
+        <label>Subject?</label>
+        <locationX>578</locationX>
+        <locationY>792</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Migration_Audit_QA</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Migration Audit QA</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>User_Migration_Audit_QA</targetReference>
+            </connector>
+            <label>Migration Audit QA</label>
+        </rules>
+        <rules>
+            <name>Change_Blog_Topic</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Change Blog Topic</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>User_Content_VA</targetReference>
+            </connector>
+            <label>Change Blog Topic</label>
+        </rules>
+        <rules>
+            <name>Pause_Campaign</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pause Campaign</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Service_PauseCampaign</targetReference>
+            </connector>
+            <label>Pause Campaign</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>for1BD</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+5,{!$Flow.CurrentDate} + 3,
+  {!$Flow.CurrentDate} + 1
+)</expression>
+    </formulas>
+    <formulas>
+        <name>for2BDays</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+  4, {!$Flow.CurrentDate} + 4,
+  5, {!$Flow.CurrentDate} + 4,
+6, {!$Flow.CurrentDate} + 3,
+  {!$Flow.CurrentDate} + 2
+)</expression>
+    </formulas>
+    <formulas>
+        <name>forDueDate</name>
+        <dataType>Date</dataType>
+        <expression>IF(
+{!$Record.Subject}=&quot;Property Audit&quot;,
+      CASE( 
+            MOD(DATEVALUE({!$Record.CreatedDate}) - DATE( 1900, 1, 7 ), 7 ),
+            3, {!$Record.CreatedDate} + 5,
+            4, {!$Record.CreatedDate} + 5,
+            5, {!$Record.CreatedDate} + 5,
+            {!$Record.CreatedDate} + 3),
+CASE( 
+  MOD(DATEVALUE({!$Record.CreatedDate})  - DATE( 1900, 1, 7 ), 7 ),
+  5, {!$Record.CreatedDate} + 3,
+  6, {!$Record.CreatedDate} + 2,
+{!$Record.CreatedDate} + 1
+)
+)</expression>
+    </formulas>
+    <interviewLabel>Tasks to public {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Task - created</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Alert_client</name>
+        <label>Alert client</label>
+        <locationX>1898</locationX>
+        <locationY>384</locationY>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>RecordTypeId</field>
+            <value>
+                <elementReference>$Label.ID_Task_AM</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Alert client</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.WhatId</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Call_client</name>
+        <label>Call client</label>
+        <locationX>1370</locationX>
+        <locationY>684</locationY>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>RecordTypeId</field>
+            <value>
+                <elementReference>$Label.ID_Task_AM</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Call client</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.WhatId</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Send_follow_up_email</name>
+        <label>Send follow up email</label>
+        <locationX>1370</locationX>
+        <locationY>384</locationY>
+        <connector>
+            <targetReference>Send_follow_up_email_not_done</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>RecordTypeId</field>
+            <value>
+                <elementReference>$Label.ID_Task_AM</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Send follow up email</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.WhatId</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordLookups>
+        <name>IDX_Mod_user</name>
+        <label>IDX Mod user</label>
+        <locationX>446</locationX>
+        <locationY>492</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Owner_and_due_date</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>IDX_Mod_task__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Service_PauseCampaign</name>
+        <label>Service</label>
+        <locationX>710</locationX>
+        <locationY>900</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Service_found</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.WhatId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Service__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>User_Content_VA</name>
+        <label>User - Content VA</label>
+        <locationX>314</locationX>
+        <locationY>900</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Add_Content_VA_User</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Content_VA__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>IsActive</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <sortField>Last_task_assigned__c</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>User_Migration_Audit_QA</name>
+        <label>User - Migration Audit QA</label>
+        <locationX>50</locationX>
+        <locationY>900</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Add_Migration_Audit_User</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>IsActive</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Migration_Audit_QA_Task__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <sortField>Last_task_assigned__c</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Add_Content_VA_User</name>
+        <label>Add Content VA User</label>
+        <locationX>314</locationX>
+        <locationY>1008</locationY>
+        <connector>
+            <targetReference>Last_Task_Assign_Content_VA</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>User_Content_VA.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Add_Migration_Audit_User</name>
+        <label>Add Migration Audit User</label>
+        <locationX>50</locationX>
+        <locationY>1008</locationY>
+        <connector>
+            <targetReference>Last_Task_Assign_Migration</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>User_Migration_Audit_QA.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Change_reminder_date</name>
+        <label>Change reminder date</label>
+        <locationX>2426</locationX>
+        <locationY>600</locationY>
+        <inputAssignments>
+            <field>IsReminderSet</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ReminderDateTime</field>
+            <value>
+                <elementReference>for2BDays</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Last_Task_Assign_Content_VA</name>
+        <label>Last Task Assign - Content VA</label>
+        <locationX>314</locationX>
+        <locationY>1116</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>User_Content_VA.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Last_task_assigned__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <object>User</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Last_Task_Assign_Migration</name>
+        <label>Last Task Assign - Migration</label>
+        <locationX>50</locationX>
+        <locationY>1116</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>User_Migration_Audit_QA.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Last_task_assigned__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <object>User</object>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Update owner according to the IDX Mod task field in User. Due date depends on subject</description>
+        <name>Owner_and_due_date</name>
+        <label>Owner and due date</label>
+        <locationX>446</locationX>
+        <locationY>600</locationY>
+        <connector>
+            <targetReference>Subject0</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>forDueDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>IDX_Mod_user.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Public</name>
+        <label>Public</label>
+        <locationX>578</locationX>
+        <locationY>276</locationY>
+        <connector>
+            <targetReference>Record_type</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>IsVisibleInSelfService</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_owner_and_due_date</name>
+        <label>Update owner and due date</label>
+        <locationX>578</locationX>
+        <locationY>1116</locationY>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>for1BD</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Service_PauseCampaign.Assigned_PM_VA__r.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>1442</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Public</targetReference>
+        </connector>
+        <object>Task</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <scheduledPaths>
+            <name>X2_days</name>
+            <connector>
+                <targetReference>Send_Strategy_Deck_and_schedule_review_not_done</targetReference>
+            </connector>
+            <label>2 days</label>
+            <offsetNumber>2</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>X7_days</name>
+            <connector>
+                <targetReference>Send_follow_up_email1</targetReference>
+            </connector>
+            <label>7 days</label>
+            <offsetNumber>7</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>Reminder_set</name>
+            <connector>
+                <targetReference>Subject</targetReference>
+            </connector>
+            <label>Reminder set</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <recordField>Reminder_date__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>bodyNotification</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>There has been a new task assigned to the Ready to Launch queue for client: {!$Record.Account.Name} 
+Task Link: https://luxurypresence.lightning.force.com/lightning/{!$Record.Id}</text>
+    </textTemplates>
+    <variables>
+        <name>collectionUser</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

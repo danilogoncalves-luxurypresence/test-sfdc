@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Launch_Team_DS_Tasks</fullName>
+    <booleanFilter>1 AND 2 AND 3</booleanFilter>
+    <columns>SUBJECT</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>STATUS</columns>
+    <columns>DUE_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>PRIORITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>New,Not Started,In Progress,Ready for QA,QA in Progress,Additional Revisions,Sent for approval,SFA Revisions,SFA Revisions In Progress,Additional Feedback,At risk,Blocked,Open,To-do</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>contains</operation>
+        <value>Ryan,Kris,Jefe,pabug,jvita,amart,lgarc,jespi,jnahi,aramo,Jaz</value>
+    </filters>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>equals</operation>
+        <value>Property Crawl</value>
+    </filters>
+    <label>Launch Team - DS Tasks</label>
+</ListView>

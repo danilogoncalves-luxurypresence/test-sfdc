@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MLS_Existing_Tier_2</fullName>
+    <booleanFilter>1 AND 2 AND (3 OR 7 or 8 OR 9) AND 4 AND 5 and 6 and 10</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Prior_12_months_total_transaction_value__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>MLS_Agent_master_key__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>LEAD.PHONE</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>MLS Leads (Existing)</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Engaging</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>greaterThan</operation>
+        <value>15000000</value>
+    </filters>
+    <filters>
+        <field>Partnership_Organization__c</field>
+        <operation>notEqual</operation>
+        <value>Sotheby&#39;s International Realty,Sotheby&#39;s Int Realty Affiliate,Corcoran,Corcoran Affiliate,@ Properties,The Agency,Christie’s International Real Estate Affiliate,Side</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>MLS Leads (Net New)</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>general</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>partner</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>lessThan</operation>
+        <value>20000000</value>
+    </filters>
+    <label>MLS (All) - Tier 2</label>
+    <sharedTo>
+        <role>Sales_Onboarding</role>
+        <role>Superuser</role>
+    </sharedTo>
+</ListView>

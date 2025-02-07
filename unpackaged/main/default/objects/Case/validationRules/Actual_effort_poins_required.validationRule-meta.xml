@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_effort_poins_required</fullName>
+    <active>true</active>
+    <description>To close a SFDC Case (to move to deployed or closed) the field, &quot;actual effort points&quot; is required.</description>
+    <errorConditionFormula>AND(
+ ISBLANK( Actual_Ops_Effort_Points__c ),
+ Record_Type_Name__c = &quot;SFDC Ticket&quot;,
+OR(
+ ISPICKVAL( Status , &quot;Deployed&quot;),
+ ISPICKVAL( Status , &quot;Closed&quot;)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Actual_Ops_Effort_Points__c</errorDisplayField>
+    <errorMessage>Please add &quot;Actual Effort Points&quot;</errorMessage>
+</ValidationRule>

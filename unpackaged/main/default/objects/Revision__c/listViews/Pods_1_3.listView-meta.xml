@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pods_1_3</fullName>
+    <columns>NAME</columns>
+    <columns>Revisions_Due_Date__c</columns>
+    <columns>Status__c</columns>
+    <columns>Implementation_Manager__c</columns>
+    <columns>Revision_Round__c</columns>
+    <columns>Revision_Type__c</columns>
+    <columns>Staging_Link__c</columns>
+    <columns>Revisions_Document_Link__c</columns>
+    <columns>Website_builder__c</columns>
+    <columns>Design_template__c</columns>
+    <columns>Community_URL__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Revision__c.Custom_Website,Revision__c.Onboarding</value>
+    </filters>
+    <filters>
+        <field>Revisions_Pod__c</field>
+        <operation>equals</operation>
+        <value>Pod 1,Pod 2,Pod 3</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New,In progress,Ready for QA,QA,Additional Revisions,Submitted for Approval</value>
+    </filters>
+    <label>Pods 1-3</label>
+</ListView>

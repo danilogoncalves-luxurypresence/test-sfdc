@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Introduction to the support team, access details for webinars, and a link to the knowledge base for additional support and resources.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>Launch: 1 week post launch</name>
+    <style>freeForm</style>
+    <subject>One Week In – We’re Here to Help with Any Website Changes!</subject>
+    <textOnly>Hi {!Account.Contact__c},
+
+Can you believe it’s already been a week since your website launched? We just wanted to check in and make sure you know how to reach us if you need any assistance with updates or changes.
+
+You can connect with us through:
+Chat: Live chat with us from the platform
+Phone: 310-955-1077
+Email: support@luxurypresence.com
+
+For your convenience, here’s a quick link to our Help Center with plenty of useful resources.
+
+We’re here to help, and we look forward to hearing from you soon!
+
+Best,
+The Luxury Presence Support Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

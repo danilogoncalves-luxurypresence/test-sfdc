@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SFDC_Cases</fullName>
+    <columns>Flag__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>Submitted_By__c</columns>
+    <columns>Post_Date__c</columns>
+    <columns>Reported_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Team_Category__c</field>
+        <operation>equals</operation>
+        <value>Advanced Edits and Site Status,Basic Edits,IDX,NPS / Outreach,Triage - Another LP Team,Triage - Log In Questions,Triage - Basic Questions,Billing - Do Not Use</value>
+    </filters>
+    <filters>
+        <field>Due_Date__c</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,In Progress,Awaiting Client Response,Awaiting Jira Response,Escalated</value>
+    </filters>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.SFDC_Ticket</value>
+    </filters>
+    <label>SFDC Cases</label>
+    <sharedTo>
+        <role>Sales_Leadership</role>
+    </sharedTo>
+</ListView>

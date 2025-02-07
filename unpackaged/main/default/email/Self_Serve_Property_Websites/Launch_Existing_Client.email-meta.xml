@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Launch - Existing Client</name>
+    <style>none</style>
+    <subject>Congrats! Your Property Website is Live</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Congratulations, [site url] is now live
+
+Now that your website is live, you have access to the website on the Luxury Presence platform. Use the platform to make edits to your website.
+
+• To login in go to app.luxurypresence.com (username is your email: [please indicate listing agent&#39;s email and register them to the Presence Account])
+
+• To reset your password go here
+• Learn how to use the dashboard in this short video tutorial, watch here
+
+Have a question or concern?
+
+Our Client Success Team can help! Please email support@luxurypresence.com
+
+P.S if when you no longer wish to have the property website please email support requesting cancellation.
+
+Best,
+
+Self Serve Property Websites
+Luxury Presence
+Phone: (310) 955-1077
+Email: support@luxurypresence.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

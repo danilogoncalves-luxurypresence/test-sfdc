@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>Rescheduling/Demo Ghosted - Day 30</name>
+    <style>freeForm</style>
+    <subject>Last call to schedule your Luxury Presence demo</subject>
+    <textOnly>Hi {!Contact.FirstName} ,
+
+I’m sending one more quick reminder so you can schedule your demo [Meeting Link] and start elevating your real estate business with Luxury Presence.
+
+We’re the fastest-growing marketing platform for real estate agents and teams—check out our case studies here to see the results we&#39;ve achieved for other real estate professionals. We’d love to help you find the same success.
+
+
+Book your demo now: [Meeting Link]
+
+
+Best,
+{!User.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

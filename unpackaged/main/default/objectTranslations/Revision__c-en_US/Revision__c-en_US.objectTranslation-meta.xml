@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Revision</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Revisions</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Custom Website</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Design Change/Refresh</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Implementation</layout>
+        <sections>
+            <label><!-- Asset Tracker --></label>
+            <section>Asset Tracker</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Feedback --></label>
+            <section>Feedback</section>
+        </sections>
+        <sections>
+            <label><!-- Scores --></label>
+            <section>Scores</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Live Client Design Revision</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Marketing</layout>
+        <sections>
+            <label><!-- Client Profile --></label>
+            <section>Client Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Feedback --></label>
+            <section>Feedback</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Migration</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Feedback --></label>
+            <section>Feedback</section>
+        </sections>
+        <sections>
+            <label><!-- Scores --></label>
+            <section>Scores</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>QA Passback</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Point of Contact --></label>
+            <section>Point of Contact</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Take 2</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Video Pod</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Custom Website --></label>
+        <name>Custom_Website</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Design Refresh --></label>
+        <name>Design_Refresh</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Live Client Design Revision --></label>
+        <name>Live_Client_Design_Revision</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Marketing --></label>
+        <name>Marketing</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Migration --></label>
+        <name>Migration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Onboarding --></label>
+        <name>Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Onboarding inactive --></label>
+        <name>Onboarding_inactive</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Opening Video --></label>
+        <name>Opening_Video</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- QA Passback --></label>
+        <name>QA_Passback</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Take 2 --></label>
+        <name>Take_2</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please add a scope before moving revision status to &quot;Done&quot; --></errorMessage>
+        <name>Content_Revision_Scope</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please specify if an IDX task is required for this revision. --></errorMessage>
+        <name>IDX_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only QA can change Revision to status = Done. --></errorMessage>
+        <name>Only_QA_can_complete_revision</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please reassign the Revision to the QA. --></errorMessage>
+        <name>Owner_QA_Status_QA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please assign the revision. --></errorMessage>
+        <name>Revision_Owner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please, move the service status to Revision Round before creating a new revision --></errorMessage>
+        <name>Validate_Service_Status_Upon_Creation</name>
+    </validationRules>
+</CustomObjectTranslation>

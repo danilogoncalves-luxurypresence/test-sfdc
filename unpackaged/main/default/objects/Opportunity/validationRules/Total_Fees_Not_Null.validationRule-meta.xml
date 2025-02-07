@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Fees_Not_Null</fullName>
+    <active>true</active>
+    <description>When a new sales opportunity moves from &quot;Selling&quot; to &quot;Contract&quot;, the opportunity fees cannot be blank. (Fees should be populated automatically by the products)</description>
+    <errorConditionFormula>AND(
+ ISCHANGED( StageName ),
+ ISPICKVAL( StageName , &quot;Contract&quot;),
+ Total_Fees__c = 0.0
+
+)</errorConditionFormula>
+    <errorMessage>The &quot;Total Fees&quot; field cannot be empty, make sure you go through &quot;Manage Products&quot; to ensure you have the plan, contract term and products added so the fees populate.</errorMessage>
+</ValidationRule>

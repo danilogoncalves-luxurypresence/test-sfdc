@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>BRIGHT Introduction</name>
+    <style>freeForm</style>
+    <subject>IDX Introduction - BRIGHT MLS - {!Service__c.Contact_First_Name__c}{!Service__c.Contact_Last_Name__c}</subject>
+    <textOnly>Hi {!Service__c.Contact_First_Name__c},
+
+I hope you are having a great day! My name is {!Service__c.OwnerFullName} and I am an IDX Coordinator at Luxury Presence! In order to display IDX data on your website, the agent, managing broker, and vendor needs to sign a data access agreement. Bright MLS requires agents to submit an IDX request on the Bright MLS platform. Please follow the steps below to request IDX services:
+
+Follow these steps to submit IDX and VOW licensing requests to Bright:
+1. Log into brightmls.com and select Account &amp; Settings from the drop-down menu under your name.
+2. From the My Subscription tab, go to IDX and VOW Licensing Request. Note, if you have more than one subscription with Bright, you’ll be prompted to choose the appropriate ID and then continue.
+3. Next, please select that you would like an IDX website.
+4. In the Vendor Name field, please select Luxury Presence.
+5. In the Website URL field, enter your full personal/agent website address. Please be sure to include the URL address (www) along with the domain extension (.com, .org, .net).
+6. Review your entry and when ready, click Submit.
+
+After you complete these steps, please reach out to your managing broker to approve the request on their end, and then Luxury Presence will receive an email notification once the request has been processed!
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Launch_Team_POD_3_DS_Tasks</fullName>
+    <booleanFilter>(1 AND 2 AND 3 AND 5 AND 6 AND 7 AND 8) OR (2 AND 3 AND 4 AND 5 AND 6 AND 7 AND 8)</booleanFilter>
+    <columns>SUBJECT</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>STATUS</columns>
+    <columns>DUE_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>PRIORITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>New,Not Started,In Progress,Ready for QA,QA in Progress,Sent for approval,Additional Feedback,At risk,Blocked,Open,To-do,Paused</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>contains</operation>
+        <value>Jefe,jespi,jnahii,aramo,Jaz</value>
+    </filters>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>contains</operation>
+        <value>Property Crawl</value>
+    </filters>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>Additional Revisions</value>
+    </filters>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>contains</operation>
+        <value>Final QA,Property Crawl</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Task.Website_Launches</value>
+    </filters>
+    <filters>
+        <field>Assigned_Team__c</field>
+        <operation>contains</operation>
+        <value>Launch</value>
+    </filters>
+    <filters>
+        <field>Record_Type_Name__c</field>
+        <operation>equals</operation>
+        <value>Website Launch,Template Change</value>
+    </filters>
+    <label>Launch Pod 3 (Ad Astra) - DS Tasks</label>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IDX_Tool</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordTypeId = &quot;0128D000000E4I1&quot;,
+IDX_Tool__c = true, 
+MLS_count__c = 0, 
+ISPICKVAL( StageName , &quot;Contract&quot;)
+)</errorConditionFormula>
+    <errorMessage>LP Sales team should add MLS Board</errorMessage>
+</ValidationRule>

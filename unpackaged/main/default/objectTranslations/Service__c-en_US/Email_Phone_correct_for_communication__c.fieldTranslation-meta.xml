@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Email/Phone correct for communication? --></label>
+        <name>Email_Phone_correct_for_communication__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only email correct</masterLabel>
+            <translation><!-- Only email correct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Only phone correct</masterLabel>
+            <translation><!-- Only phone correct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

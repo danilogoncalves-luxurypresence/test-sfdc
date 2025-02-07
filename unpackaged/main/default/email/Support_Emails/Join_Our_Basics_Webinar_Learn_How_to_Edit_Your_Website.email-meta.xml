@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Join Our Basics Webinar: Learn How to Edit Your Website</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Join Our Basics Webinar: Learn How to Edit Your Website</name>
+    <style>none</style>
+    <subject>Join Our Basics Webinar: Learn How to Edit Your Website</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

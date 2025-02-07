@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Handoff Rating Reason --></label>
+        <name>Handoff_Rating_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Escalation due to sales overselling or misunderstanding</masterLabel>
+            <translation><!-- Escalation due to sales overselling or misunderstanding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect domain information</masterLabel>
+            <translation><!-- Incorrect domain information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No A la Carte items noted on salesforce</masterLabel>
+            <translation><!-- No A la Carte items noted on salesforce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No domain information</masterLabel>
+            <translation><!-- No domain information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No notes</masterLabel>
+            <translation><!-- No notes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No preferred communication input</masterLabel>
+            <translation><!-- No preferred communication input --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No template selected</masterLabel>
+            <translation><!-- No template selected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Notes not helpful</masterLabel>
+            <translation><!-- Notes not helpful --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

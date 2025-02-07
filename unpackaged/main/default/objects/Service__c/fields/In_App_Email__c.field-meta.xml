@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>In_App_Email__c</fullName>
+    <formula>IF(
+ OR(
+
+ In_App_Status_1_BD__c = TODAY(),
+ In_App_Status_2BD__c = TODAY(),
+ In_App_Status_3_BD__c = TODAY()
+
+ ), 
+True, false
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>In-App Email?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

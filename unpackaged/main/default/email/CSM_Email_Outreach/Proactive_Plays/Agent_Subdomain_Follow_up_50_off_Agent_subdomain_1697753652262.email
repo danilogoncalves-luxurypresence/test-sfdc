@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}}<br />
+<br />
+I hope you’re having a great week thus far. I am just following up on my last email to see if you had any questions about our Agent subdomains.<br />
+<br />
+I wanted to share some great examples with you:<br />
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<a href="https://tonytadros.pacificpropertiesrealtygroup.com/">Tony Tadros</a><br />
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<a href="https://kentonhaleem.dppre.com/">Kenton Haleem</a><br />
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<a href="https://annie.circle-re.com/">Annie Caruso</a><br />
+<br />
+Let me know if you’d like to hop on a quick call to discuss this further, or feel free to order your subdomains&nbsp;here.&nbsp;(just $15/mo per website offering until <strong>11/10</strong>)<br />
+<br />
+Best,<br />
+{{{Sender.Name}}}</body>
+</html>

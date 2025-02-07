@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SEO_SEO_Migration</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Current_domain__c</columns>
+    <columns>New_domain_if_changing__c</columns>
+    <columns>Migration_Audit_Redirects__c</columns>
+    <columns>Tier_Plan_Account__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.SEO_Migration</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Done,No Migration Needed,Cancelled</value>
+    </filters>
+    <label>SEO - SEO Migration</label>
+</ListView>

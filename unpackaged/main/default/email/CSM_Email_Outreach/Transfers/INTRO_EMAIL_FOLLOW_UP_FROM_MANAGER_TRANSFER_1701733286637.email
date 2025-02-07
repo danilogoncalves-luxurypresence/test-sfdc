@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}},<br />
+<br />
+I'm {{{Sender.FirstName}}}, stepping in as your dedicated Client Success Manager at Luxury Presence. My top priority is ensuring a smooth transition from [Previous CSM].<br />
+<br />
+Let's connect and align on your goals. Please choose a convenient time to meet: [INSERT CALENDAR LINK].<br />
+<br />
+Rest assured, your current projects remain on track. If we haven't scheduled a meeting by next week, expect a friendly reminder from me.<br />
+<br />
+Excited to work with you! Reach out anytime if you have questions.<br />
+<br />
+<br />
+​Warmly,<br />
+{{{Sender.Name}}}</body>
+</html>

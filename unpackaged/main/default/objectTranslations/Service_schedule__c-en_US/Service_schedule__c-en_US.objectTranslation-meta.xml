@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Service Schedule</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Service Schedules</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Blogs</layout>
+        <sections>
+            <label><!-- Client Profile --></label>
+            <section>Client Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GBP Posts</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- SEO Fields --></label>
+            <section>SEO Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Monthly and Quarterly Reporting</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Pages of Coprywritting</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Paid Media</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Platforms --></label>
+            <section>Platforms</section>
+        </sections>
+        <sections>
+            <label><!-- Reporting and Optimizations --></label>
+            <section>Reporting and Optimizations</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quarterly/ Monthly Reporting</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SEO Optimizations</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- SEO Fields --></label>
+            <section>SEO Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Social Media</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Create Revision --></label>
+        <name>Create_Revision</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Blogs --></label>
+        <name>Blogs_per_Quarter</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GBP Posts --></label>
+        <name>GBP_Posts</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Monthly and Quarterly Reporting --></label>
+        <name>Monthly_and_Quarterly_Reporting</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Pages of Copywriting --></label>
+        <name>Pages_of_Copywriting</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Paid Media --></label>
+        <name>Paid_Media</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SEO Optimizations --></label>
+        <name>SEO_Optimizations</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Social Media --></label>
+        <name>Social_Media</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Submit for approval to change status. --></errorMessage>
+        <name>AD_Buildout_Approved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To change status to &quot;Ready to Launch&quot; make sure is the Fina QA --></errorMessage>
+        <name>FinalQA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Add the meeting contact --></errorMessage>
+        <name>Meeting_Contact_Blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Update client health rating to red, yellow, or green --></errorMessage>
+        <name>Meeting_Held_Health_Rating</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Submit for approval to change status. --></errorMessage>
+        <name>PMS_Buildout_Approved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a Paid Media Specialist. --></errorMessage>
+        <name>PMS_Buildout_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Select a PM Quality Score. --></errorMessage>
+        <name>PM_Quality_Score</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Submit for approval to change status. --></errorMessage>
+        <name>Social_Media_Approved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status cannot change to Live/Scheduled if “PDF of Content Published Uploaded” is unchecked --></errorMessage>
+        <name>Status_LiveScheduled</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Partnership Organization --></label>
+        <name>Partnership_Organization__c</name>
+        <picklistValues>
+            <masterLabel>@ Properties</masterLabel>
+            <translation><!-- @ Properties --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Avenue 8</masterLabel>
+            <translation><!-- Avenue 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berkshire Hathaway HomeServices</masterLabel>
+            <translation><!-- Berkshire Hathaway HomeServices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Big Block Realty</masterLabel>
+            <translation><!-- Big Block Realty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bluegrass</masterLabel>
+            <translation><!-- Bluegrass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>California Concierge</masterLabel>
+            <translation><!-- California Concierge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Christie’s International Real Estate Affiliate</masterLabel>
+            <translation><!-- Christie’s International Real Estate Affiliate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coldwell Banker Affiliate</masterLabel>
+            <translation><!-- Coldwell Banker Affiliate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coldwell Banker Realty</masterLabel>
+            <translation><!-- Coldwell Banker Realty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass</masterLabel>
+            <translation><!-- Compass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corcoran</masterLabel>
+            <translation><!-- Corcoran --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corcoran Affiliate</masterLabel>
+            <translation><!-- Corcoran Affiliate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engel &amp; Volkers Gestalt Group (Pending)</masterLabel>
+            <translation><!-- Engel &amp; Volkers Gestalt Group (Pending) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterprise</masterLabel>
+            <translation><!-- Enterprise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harcourts North America</masterLabel>
+            <translation><!-- Harcourts North America --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harvery Kalles</masterLabel>
+            <translation><!-- Harvery Kalles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Howard Hanna</masterLabel>
+            <translation><!-- Howard Hanna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intero</masterLabel>
+            <translation><!-- Intero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JPAR</masterLabel>
+            <translation><!-- JPAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LoKation Real Estate</masterLabel>
+            <translation><!-- LoKation Real Estate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxury Poerfolio International</masterLabel>
+            <translation><!-- Luxury Poerfolio International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milehimodern</masterLabel>
+            <translation><!-- Milehimodern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pinnacle Realty Advisors</masterLabel>
+            <translation><!-- Pinnacle Realty Advisors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Radius Agent</masterLabel>
+            <translation><!-- Radius Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real RE</masterLabel>
+            <translation><!-- Real RE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Realty ONE Group</masterLabel>
+            <translation><!-- Realty ONE Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Side</masterLabel>
+            <translation><!-- Side --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sotheby&#39;s Int Realty Affiliate</masterLabel>
+            <translation><!-- Sotheby&apos;s Int Realty Affiliate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sotheby&#39;s International Realty</masterLabel>
+            <translation><!-- Sotheby&apos;s International Realty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Agency</masterLabel>
+            <translation><!-- The Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Remax Collection</masterLabel>
+            <translation><!-- The Remax Collection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Serhant Team</masterLabel>
+            <translation><!-- The Serhant Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>William Raveis</masterLabel>
+            <translation><!-- William Raveis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eXP Luxury</masterLabel>
+            <translation><!-- eXP Luxury --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

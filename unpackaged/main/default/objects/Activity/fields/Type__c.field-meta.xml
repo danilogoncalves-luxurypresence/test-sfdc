@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SEO Migration (Pre Launch)</fullName>
+                <default>false</default>
+                <label>SEO Migration (Pre Launch)</label>
+            </value>
+            <value>
+                <fullName>Definition</fullName>
+                <default>false</default>
+                <label>Definition</label>
+            </value>
+            <value>
+                <fullName>Viable Location</fullName>
+                <default>false</default>
+                <label>Viable Location</label>
+            </value>
+            <value>
+                <fullName>Keyword Analysis + Content Strategy</fullName>
+                <default>false</default>
+                <label>Keyword Analysis + Content Strategy</label>
+            </value>
+            <value>
+                <fullName>Content</fullName>
+                <default>false</default>
+                <label>Content</label>
+            </value>
+            <value>
+                <fullName>MLS/Property Listings</fullName>
+                <default>false</default>
+                <label>MLS/Property Listings</label>
+            </value>
+            <value>
+                <fullName>GBP Set Up</fullName>
+                <default>false</default>
+                <label>GBP Set Up</label>
+            </value>
+            <value>
+                <fullName>Consistent NAP</fullName>
+                <default>false</default>
+                <label>Consistent NAP</label>
+            </value>
+            <value>
+                <fullName>Metadata</fullName>
+                <default>false</default>
+                <label>Metadata</label>
+            </value>
+            <value>
+                <fullName>Alt-Text</fullName>
+                <default>false</default>
+                <label>Alt-Text</label>
+            </value>
+            <value>
+                <fullName>GBP URL</fullName>
+                <default>false</default>
+                <label>GBP URL</label>
+            </value>
+            <value>
+                <fullName>SEO Migration (Post Launch)</fullName>
+                <default>false</default>
+                <label>SEO Migration (Post Launch)</label>
+            </value>
+            <value>
+                <fullName>Bright Local</fullName>
+                <default>false</default>
+                <label>Bright Local</label>
+            </value>
+            <value>
+                <fullName>Link Building</fullName>
+                <default>false</default>
+                <label>Link Building</label>
+            </value>
+            <value>
+                <fullName>CRO</fullName>
+                <default>false</default>
+                <label>CRO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

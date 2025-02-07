@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Shows the # of days for a site to launch based on the opportunity close date --></help>
+        <label><!-- # of Days to Launch Adjusted --></label>
+        <name>of_Days_to_Launch_Adjusted__c</name>
+    </CustomFieldTranslation>

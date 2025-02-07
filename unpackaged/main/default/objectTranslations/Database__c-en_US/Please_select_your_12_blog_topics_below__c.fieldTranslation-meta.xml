@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Please select your 12 blog topics below --></label>
+        <name>Please_select_your_12_blog_topics_below__c</name>
+        <picklistValues>
+            <masterLabel># Top Factors that Influence Home Resell Value in [Location]</masterLabel>
+            <translation><!-- # Top Factors that Influence Home Resell Value in [Location] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel># [Location] Condo Upgrade Ideas</masterLabel>
+            <translation><!-- # [Location] Condo Upgrade Ideas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 Simple Tips for Enhancing Space in Your [Location] Home</masterLabel>
+            <translation><!-- 10 Simple Tips for Enhancing Space in Your [Location] Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 Tips for First-Time Homebuyers in [Location]</masterLabel>
+            <translation><!-- 10 Tips for First-Time Homebuyers in [Location] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>A Comprehensive Guide to Home Financing in [Location]</masterLabel>
+            <translation><!-- A Comprehensive Guide to Home Financing in [Location] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discovering [Location&#39;s] Best Things to Do</masterLabel>
+            <translation><!-- Discovering [Location&apos;s] Best Things to Do --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Improvement Projects That Add Value in [Location]</masterLabel>
+            <translation><!-- Home Improvement Projects That Add Value in [Location] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>How to Choose the Perfect Color Palette for Your [Location] Home</masterLabel>
+            <translation><!-- How to Choose the Perfect Color Palette for Your [Location] Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>How to Downsize Effectively in [Location]</masterLabel>
+            <translation><!-- How to Downsize Effectively in [Location] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>How to Own Your Dream Home in [Location]: A Step-by-Step Guide</masterLabel>
+            <translation><!-- How to Own Your Dream Home in [Location]: A Step-by-Step Guide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>How to Stage Your Home for a Quick Sale in [Location]</masterLabel>
+            <translation><!-- How to Stage Your Home for a Quick Sale in [Location] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Luxury Home Design Trends in [Location]</masterLabel>
+            <translation><!-- Luxury Home Design Trends in [Location] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Benefits of Buying a New Construction Home in [Location]</masterLabel>
+            <translation><!-- The Benefits of Buying a New Construction Home in [Location] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Benefits of Working With an Experienced [Location] Real Estate [Agent/Team]</masterLabel>
+            <translation><!-- The Benefits of Working With an Experienced [Location] Real Estate [Agent/Team] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Best Day Trips from [Location]</masterLabel>
+            <translation><!-- The Best Day Trips from [Location] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Best Parks and Recreation Areas in [Location]</masterLabel>
+            <translation><!-- The Best Parks and Recreation Areas in [Location] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Best ROI Improvements for Homes in [Location]</masterLabel>
+            <translation><!-- The Best ROI Improvements for Homes in [Location] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top 5 Outdoor Activities to do in [Location]: A Local&#39;s Guide</masterLabel>
+            <translation><!-- Top 5 Outdoor Activities to do in [Location]: A Local&apos;s Guide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>What To Know Before Selling A [Location] Home</masterLabel>
+            <translation><!-- What To Know Before Selling A [Location] Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>What to Know About Buying a Condo in [Location]</masterLabel>
+            <translation><!-- What to Know About Buying a Condo in [Location] --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

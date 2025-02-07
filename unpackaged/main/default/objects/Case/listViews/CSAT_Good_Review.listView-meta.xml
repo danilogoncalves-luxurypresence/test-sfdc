@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CSAT_Good_Review</fullName>
+    <columns>Delighted_Score__c</columns>
+    <columns>Delighted_Comment__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Last_update__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.LAST_UPDATE</columns>
+    <columns>Agent_Name__c</columns>
+    <columns>Closed_Month__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>Delighted_Score__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>4</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED_DATE</field>
+        <operation>equals</operation>
+        <value>LAST_WEEK</value>
+    </filters>
+    <label>CSAT- Good Review</label>
+</ListView>

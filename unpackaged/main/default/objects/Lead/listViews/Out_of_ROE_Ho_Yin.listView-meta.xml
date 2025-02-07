@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Out_of_ROE_Ho_Yin</fullName>
+    <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Hubspot_Last_activity_date__c</columns>
+    <columns>Last_Activity_Date__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Hubspot_Last_activity_date__c</field>
+        <operation>lessThan</operation>
+        <value>N_DAYS_AGO:60</value>
+    </filters>
+    <filters>
+        <field>Last_Activity_Date__c</field>
+        <operation>lessThan</operation>
+        <value>N_DAYS_AGO:60</value>
+    </filters>
+    <filters>
+        <field>LAST_ACTIVITY_DATETIME</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Out of ROE - General</label>
+    <queue>General</queue>
+</ListView>

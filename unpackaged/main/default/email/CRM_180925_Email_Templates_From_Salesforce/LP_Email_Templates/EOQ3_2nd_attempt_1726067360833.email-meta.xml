@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EOQ3 2nd attempt</name>
+    <style>none</style>
+    <subject>Luxury Presence EOQ Incentives</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

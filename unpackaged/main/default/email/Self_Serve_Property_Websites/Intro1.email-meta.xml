@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Intro</name>
+    <style>none</style>
+    <subject>Luxury Presence Property Website</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Great news, our team has begun working on building the property website! Please allow for 3 business days to get you the website preview.
+
+Best,
+
+Self Serve Property Websites
+Luxury Presence
+Phone: (310) 955-1077
+Email: support@luxurypresence.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

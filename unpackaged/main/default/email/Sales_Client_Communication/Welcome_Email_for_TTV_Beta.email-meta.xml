@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>Welcome Email for TTV Beta</name>
+    <style>freeForm</style>
+    <subject>Welcome to Luxury Presence!</subject>
+    <textOnly>Hi {!Account.Primary_Contact_First_Name__c},
+
+Welcome to Luxury Presence! We&#39;re thrilled to have the opportunity to work together and help elevate your digital presence.
+
+Shortly, you will receive an invitation to our platform, which will allow you to start the initial onboarding process and begin creating your brand new website. 
+
+To ensure a seamless experience, we have scheduled a call with you and your Onboarding Specialist, {OM Name}. They will be working with you to complete your initial onboarding setup on a Zoom call about 2 business days from today. On this call, you will review the information you provided in the platform and wrap up any details to ensure a smooth onboarding. From there, {OM Name} will continue to be your main point of contact throughout your onboarding journey.  
+
+Please feel free to reach out to your assigned Onboarding Specialist if you need any assistance.  {OM Name} is cc’d on this email and is here to provide support and ensure that everything runs smoothly for you.
+
+Timeline of Process
+
+* Please accept the Presence invite immediately (from support@luxurypresence.com)
+* Please complete the initial onboarding within the next 2 business days
+* Please attend your technical onboarding call that was pre-scheduled
+* We will begin the buildout of your website upon the completion of your technical onboarding call
+
+Should you have any further inquiries, please don&#39;t hesitate to ask. I&#39;m always available to help.
+
+As a thank you for partnering up with Luxury Presence, I wanted to let you know about our lucrative referral program. If you refer Luxury Presence to another agent, team, or brokerage that signs up with us, you will receive a $1,200 credit applied to your account. Link to referral form --&gt; Click here!
+​
+Best regards,
+
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

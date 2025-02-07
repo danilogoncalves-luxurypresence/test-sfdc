@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HIC_Task_Overview</fullName>
+    <columns>NAME</columns>
+    <columns>Header_Image_Curator__c</columns>
+    <columns>HIC_Task_Status__c</columns>
+    <columns>WB_Pod__c</columns>
+    <columns>Tier_Plan__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Staging_Link__c</columns>
+    <columns>Staging_link_status__c</columns>
+    <columns>Implementation_Manager__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PFT_Pod__c</field>
+        <operation>equals</operation>
+        <value>Pod 1,Pod 2,Pod 3,Pod 4,Pod 5,Pod 6,Pod 7,Pod 8,Pod 9,Pod 10</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Modules Complete,Staging Link</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.Agent_Subdomains,Service__c.Custom_Website,Service__c.Design_Refresh,Service__c.In_App_Onboarding,Service__c.Website_Launches</value>
+    </filters>
+    <filters>
+        <field>Implementation_Manager__c</field>
+        <operation>notContain</operation>
+        <value>Courtney Javornik</value>
+    </filters>
+    <filters>
+        <field>HIC_Task_Status__c</field>
+        <operation>contains</operation>
+        <value>Not Started,In Progress,Ready For QA,QA In Progress,Additional Revisions,Revisions in progress,Sent for Approval,SFA Revisions,SFA Revisions In Progress,Waiting on HIC,Waiting on DS,Blocked</value>
+    </filters>
+    <label>HIC Task Overview</label>
+</ListView>

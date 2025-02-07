@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Are_you_an_agent_team_or_brokerage__c</fullName>
+    <label>Are you an agent, team, or brokerage?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agent</fullName>
+                <default>false</default>
+                <label>Agent</label>
+            </value>
+            <value>
+                <fullName>Team</fullName>
+                <default>false</default>
+                <label>Team</label>
+            </value>
+            <value>
+                <fullName>Brokerage (under 20 agents)</fullName>
+                <default>false</default>
+                <label>Brokerage (under 20 agents)</label>
+            </value>
+            <value>
+                <fullName>Brokerage (20+ agents)</fullName>
+                <default>false</default>
+                <label>Brokerage (20+ agents)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

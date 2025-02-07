@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Term extracted from Chargebees JSON string
+blank means forever --></help>
+        <label><!-- Term (text) --></label>
+        <name>Term_text__c</name>
+    </CustomFieldTranslation>

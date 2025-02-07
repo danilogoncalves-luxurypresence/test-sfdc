@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>Username</identityMapping>
+    <issuer>https://accounts.google.com/o/saml2?idpid=C00uv777i</issuer>
+    <loginUrl>https://accounts.google.com/o/saml2/idp?idpid=C00uv777i</loginUrl>
+    <name>Google SSO with Partner Community</name>
+    <oauthTokenEndpoint>https://luxurypresence.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <redirectBinding>true</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P1Rg00000003M5</requestSigningCertId>
+    <salesforceLoginUrl>https://luxurypresence.my.salesforce.com</salesforceLoginUrl>
+    <samlEntityId>https://luxurypresence.my.site.com/login</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <useConfigRequestMethod>true</useConfigRequestMethod>
+    <useSameDigestAlgoForSigning>true</useSameDigestAlgoForSigning>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIDdDCCAlygAwIBAgIGAXkUTCN0MA0GCSqGSIb3DQEBCwUAMHsxFDASBgNVBAoTC0dvb2dsZSBJ
+bmMuMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MQ8wDQYDVQQDEwZHb29nbGUxGDAWBgNVBAsTD0dv
+b2dsZSBGb3IgV29yazELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWEwHhcNMjEwNDI3
+MTcwNjQxWhcNMjYwNDI2MTcwNjQxWjB7MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEWMBQGA1UEBxMN
+TW91bnRhaW4gVmlldzEPMA0GA1UEAxMGR29vZ2xlMRgwFgYDVQQLEw9Hb29nbGUgRm9yIFdvcmsx
+CzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAl8mrhjn2O7bFuSao4swvVq564plukAbZ2uc9I2IrSctempo1ewfZyo1wJo53+BE6
+U0q6Clao5BYaK607XmHeIMrGoj2EZclxb5boV7ybBCDYDwqDxqqqengV757+ImLNtKYOYOyczaWN
+ChNH2LXCo3qG7SL/mUn/z6bJVyPmWg1KQ27kUrZagoJSbtkk3uroh+ZxeCvqx36kRZcLoWS04RyU
+LK4+C1n1D1CVj2aoI6wd56mcnD0BlRaEKL1VunwjSgD/z8uWK45dyaT4EV7ohxEfkgBtUnK3rNP8
+SNd4CKkDQuJsamKXupLMytXg40iAEhMNpcdszV2BjszxXo+PdwIDAQABMA0GCSqGSIb3DQEBCwUA
+A4IBAQCGSYYY+H31F1ZK3pe8IjGMzfcyXUbg9nBVXjZ4N0Xff1nH2X8ZCeXn75YGEfKTd89DfOUS
+hZ/iZsaAF6o8uYd+O7yqG9qsgZpO3lIvp9vDximuRrfASKnzWkhwEt13eXjnVlxyIrVGEamwwrlE
+jNrTmdIFHV4VFQmepW7zSzzBeOkOiCRKZh6odunojRqRkkPGFihiyyDZG6bHlNBl2dfFWBd71sgD
+2Uod8ZgbEgDTjoDeH/3bBKSJTQAhieiPmonDION+iS+wYGrlMCwX2c+KFf/ccd5RGO6EZJobwlbO
+KVeS7q/sTqwQlfavNtXqtTq/kMmApnRRHlTADHbw8bwF</validationCert>
+</SamlSsoConfig>

@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+Hope you are doing well! [Teammate name] and I were able to connect and work out a plan to address your request for a new marketing manager. It has been a pleasure working with you and I completely understand the need for a fresh start to facilitate your success.<br />
+<br />
+Please meet [CSM Name]! She has / He has / They have a strong understanding of the digital marketing space and will be a great fit for your needs. I've also assigned an additional strategist to act as backup support. Together they will be able to provide consistency and an elevated level of collaboration.<br />
+<br />
+[CSM Name] has been brought up to speed on your progress so far. She/He/They will be reaching out later today to say hello and schedule a brief intro. I'm looking forward to seeing your growth!<br />
+<br />
+Best,&nbsp;<br />
+{{{Sender.Name}}}</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Primary_Contact_Phone</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ $Profile.Name &lt;&gt; &#39;System Administrator&#39;,
+ ISBLANK(Account.Contact__r.Phone),
+ IsWon = true,
+ ISCHANGED(IsWon)
+)</errorConditionFormula>
+    <errorMessage>Please fill the phone field on the primary contact.</errorMessage>
+</ValidationRule>

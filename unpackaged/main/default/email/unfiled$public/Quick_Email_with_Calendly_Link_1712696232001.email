@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi {{{Recipient.FirstName}}},</p>
+
+<p><br />
+Please take a look at my availability <em>[HERE - insert link]</em> so we can find some time to chat regarding your account with Luxury Presence!</p>
+
+<p><br />
+Hope to talk soon!</p>
+</body>
+</html>

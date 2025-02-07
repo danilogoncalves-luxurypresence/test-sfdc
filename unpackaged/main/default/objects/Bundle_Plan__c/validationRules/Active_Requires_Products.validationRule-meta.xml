@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Requires_Products</fullName>
+    <active>true</active>
+    <errorConditionFormula>isActive__c = true
+ &amp;&amp;  Number_of_Products__c &lt; 2</errorConditionFormula>
+    <errorDisplayField>isActive__c</errorDisplayField>
+    <errorMessage>Bundles need to contain at least two products to be active.</errorMessage>
+</ValidationRule>

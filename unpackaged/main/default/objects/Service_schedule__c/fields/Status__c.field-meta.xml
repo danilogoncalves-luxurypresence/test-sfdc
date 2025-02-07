@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>true</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Pending Questionnaire</fullName>
+                <default>false</default>
+                <label>Pending Questionnaire</label>
+            </value>
+            <value>
+                <fullName>Ready for Assigning</fullName>
+                <default>false</default>
+                <label>Ready for Assigning</label>
+            </value>
+            <value>
+                <fullName>PMS Buildout</fullName>
+                <default>false</default>
+                <label>PMS Buildout</label>
+            </value>
+            <value>
+                <fullName>Ad Buildout</fullName>
+                <default>false</default>
+                <label>Ad Buildout</label>
+            </value>
+            <value>
+                <fullName>Inbox</fullName>
+                <default>false</default>
+                <label>Inbox</label>
+            </value>
+            <value>
+                <fullName>Creating Content</fullName>
+                <default>false</default>
+                <label>Creating Content</label>
+            </value>
+            <value>
+                <fullName>Waiting on CSM</fullName>
+                <default>false</default>
+                <label>Waiting on CSM</label>
+            </value>
+            <value>
+                <fullName>Adding Photos</fullName>
+                <default>false</default>
+                <label>Adding Photos</label>
+            </value>
+            <value>
+                <fullName>Ready for Launch</fullName>
+                <default>false</default>
+                <label>Ready for Launch</label>
+            </value>
+            <value>
+                <fullName>Create Content</fullName>
+                <default>false</default>
+                <label>Create Content</label>
+            </value>
+            <value>
+                <fullName>Photos added</fullName>
+                <default>false</default>
+                <label>Photos added</label>
+            </value>
+            <value>
+                <fullName>Edit Content</fullName>
+                <default>false</default>
+                <label>Edit Content</label>
+            </value>
+            <value>
+                <fullName>Final QA</fullName>
+                <default>false</default>
+                <label>Final QA</label>
+            </value>
+            <value>
+                <fullName>Ready for Client Review</fullName>
+                <default>false</default>
+                <label>Ready for Client Review</label>
+            </value>
+            <value>
+                <fullName>Strategist Review</fullName>
+                <default>false</default>
+                <label>Strategist Review</label>
+            </value>
+            <value>
+                <fullName>Client Review</fullName>
+                <default>false</default>
+                <label>Client Review</label>
+            </value>
+            <value>
+                <fullName>Edited</fullName>
+                <default>false</default>
+                <label>Edited</label>
+            </value>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Sent for Client Approval</fullName>
+                <default>false</default>
+                <label>Sent for Client Approval</label>
+            </value>
+            <value>
+                <fullName>Revisions Requested</fullName>
+                <default>false</default>
+                <label>Revisions Requested</label>
+            </value>
+            <value>
+                <fullName>Live</fullName>
+                <default>false</default>
+                <label>Live/Scheduled</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Not started</fullName>
+                <default>false</default>
+                <label>Not started</label>
+            </value>
+            <value>
+                <fullName>No Show</fullName>
+                <default>false</default>
+                <label>No Show</label>
+            </value>
+            <value>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Meeting Held</fullName>
+                <default>false</default>
+                <label>Meeting Held</label>
+            </value>
+            <value>
+                <fullName>No Meeting Held</fullName>
+                <default>false</default>
+                <label>No Meeting Held</label>
+            </value>
+            <value>
+                <fullName>Done</fullName>
+                <default>false</default>
+                <label>Done</label>
+            </value>
+            <value>
+                <fullName>Posted</fullName>
+                <default>false</default>
+                <label>Posted</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Call scheduled</fullName>
+                <default>false</default>
+                <label>Call scheduled</label>
+            </value>
+            <value>
+                <fullName>Call completed</fullName>
+                <default>false</default>
+                <label>Call completed</label>
+            </value>
+            <value>
+                <fullName>Deck sent</fullName>
+                <default>false</default>
+                <label>Deck sent</label>
+            </value>
+            <value>
+                <fullName>Paused</fullName>
+                <default>false</default>
+                <label>Paused</label>
+            </value>
+            <value>
+                <fullName>Photos</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Photos</label>
+            </value>
+            <value>
+                <fullName>Specialist Review</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Specialist Review</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

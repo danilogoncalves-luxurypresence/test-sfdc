@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Subdomains_New</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Assigned_VA__c</columns>
+    <columns>Staging_link_status__c</columns>
+    <columns>Website_Builder__c</columns>
+    <columns>Data_Specialist__c</columns>
+    <columns>Header_Image_Curator__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New,Sub-Template Revisions,Create Subdomain Sites</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.Agent_Subdomains</value>
+    </filters>
+    <label>Agent Subdomains New</label>
+</ListView>

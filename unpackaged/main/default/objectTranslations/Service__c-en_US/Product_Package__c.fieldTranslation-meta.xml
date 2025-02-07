@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product Package --></label>
+        <name>Product_Package__c</name>
+        <picklistValues>
+            <masterLabel>Brand SEO</masterLabel>
+            <translation><!-- Brand SEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Editorial SEO</masterLabel>
+            <translation><!-- Editorial SEO --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

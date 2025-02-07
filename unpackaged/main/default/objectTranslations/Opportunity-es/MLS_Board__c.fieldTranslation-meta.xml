@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- MLS Board --></label>
+        <name>MLS_Board__c</name>
+        <picklistValues>
+            <masterLabel>AK - Alaska Multiple Listing Service, Inc. (AMLS)</masterLabel>
+            <translation><!-- AK - Alaska Multiple Listing Service, Inc. (AMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL - Baldwin County Association of REALTORS (BCAR)</masterLabel>
+            <translation><!-- AL - Baldwin County Association of REALTORS (BCAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL - Valley MLS (NALMLS)</masterLabel>
+            <translation><!-- AL - Valley MLS (NALMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR - Cooperative Arkansas (CARMLS)</masterLabel>
+            <translation><!-- AR - Cooperative Arkansas (CARMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ - Arizona Regional MLS (ARMLS)</masterLabel>
+            <translation><!-- AZ - Arizona Regional MLS (ARMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ - Sedona Verde Valley (SVVAOR)</masterLabel>
+            <translation><!-- AZ - Sedona Verde Valley (SVVAOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ - Southern Arizona MLS (TAR)</masterLabel>
+            <translation><!-- AZ - Southern Arizona MLS (TAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ - Tucson AoR (TAR)</masterLabel>
+            <translation><!-- AZ - Tucson AoR (TAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BNAR - Buffalo Niagara Association of REALTORS</masterLabel>
+            <translation><!-- BNAR - Buffalo Niagara Association of REALTORS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bermuda SIR</masterLabel>
+            <translation><!-- Bermuda SIR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Bakersfield Association of REALTORS (BAOR)</masterLabel>
+            <translation><!-- CA - Bakersfield Association of REALTORS (BAOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Bay Area Real Estate Information Services (BAREIS)</masterLabel>
+            <translation><!-- CA - Bay Area Real Estate Information Services (BAREIS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Bay East AoR (BEAR)</masterLabel>
+            <translation><!-- CA - Bay East AoR (BEAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Big Bear Association of REALTORS (BBAR)</masterLabel>
+            <translation><!-- CA - Big Bear Association of REALTORS (BBAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Bridge MLS (EBRD)</masterLabel>
+            <translation><!-- CA - Bridge MLS (EBRD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - California Regional MLS (CRMLS)</masterLabel>
+            <translation><!-- CA - California Regional MLS (CRMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Combined LA/Westside MLS (CLAW)</masterLabel>
+            <translation><!-- CA - Combined LA/Westside MLS (CLAW) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Conejo Simi Moorpark (CSMAR)</masterLabel>
+            <translation><!-- CA - Conejo Simi Moorpark (CSMAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Contra Costa Association of Realtors (CCAR)</masterLabel>
+            <translation><!-- CA - Contra Costa Association of Realtors (CCAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Desert Area MLS / CDAR (DAMLS)</masterLabel>
+            <translation><!-- CA - Desert Area MLS / CDAR (DAMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Fresno Association of REALTORS (FMLS)</masterLabel>
+            <translation><!-- CA - Fresno Association of REALTORS (FMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Idyllwild Association of Realtors</masterLabel>
+            <translation><!-- CA - Idyllwild Association of Realtors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - MLSListings, Inc.</masterLabel>
+            <translation><!-- CA - MLSListings, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - MetroList MLS</masterLabel>
+            <translation><!-- CA - MetroList MLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - North Santa Barbara County Regional MLS (NSBCRMLS)</masterLabel>
+            <translation><!-- CA - North Santa Barbara County Regional MLS (NSBCRMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Pasadena-Foothills AoR (CRMLS)</masterLabel>
+            <translation><!-- CA - Pasadena-Foothills AoR (CRMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Rim O&#39; the World Association of REALTORS (ROTWAR)</masterLabel>
+            <translation><!-- CA - Rim O&apos; the World Association of REALTORS (ROTWAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - San Diego MLS (SDMLS)</masterLabel>
+            <translation><!-- CA - San Diego MLS (SDMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - San Francisco MLS (SFAR)</masterLabel>
+            <translation><!-- CA - San Francisco MLS (SFAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Santa Barbara AoR (SBAOR)</masterLabel>
+            <translation><!-- CA - Santa Barbara AoR (SBAOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Shasta Association of REALTORS (SAR)</masterLabel>
+            <translation><!-- CA - Shasta Association of REALTORS (SAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - South Tahoe Board of REALTORS (STAR)</masterLabel>
+            <translation><!-- CA - South Tahoe Board of REALTORS (STAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Southland Regional AoR (CRISNET)</masterLabel>
+            <translation><!-- CA - Southland Regional AoR (CRISNET) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Tahoe Sierra MLS (TSBOR)</masterLabel>
+            <translation><!-- CA - Tahoe Sierra MLS (TSBOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Tehachapi Area Association of REALTORS (TAAR)</masterLabel>
+            <translation><!-- CA - Tehachapi Area Association of REALTORS (TAAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA - Ventura County Coastal Association (VCMLS)</masterLabel>
+            <translation><!-- CA - Ventura County Coastal Association (VCMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN - Calgary Board of Realtors / Pillar9 (CBR)</masterLabel>
+            <translation><!-- CAN - Calgary Board of Realtors / Pillar9 (CBR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN - Canadian Real Estate Association (CREA)</masterLabel>
+            <translation><!-- CAN - Canadian Real Estate Association (CREA) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN - Edmonton (EBR)</masterLabel>
+            <translation><!-- CAN - Edmonton (EBR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN - Information Technology Systems Ontario (ITSO)</masterLabel>
+            <translation><!-- CAN - Information Technology Systems Ontario (ITSO) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN - Oakville Milton District Real Estate Board (OMDREB)</masterLabel>
+            <translation><!-- CAN - Oakville Milton District Real Estate Board (OMDREB) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN - Real Estate Board of Greater Vancouver (VBR)</masterLabel>
+            <translation><!-- CAN - Real Estate Board of Greater Vancouver (VBR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN - Toronto Real Estate Board (TREB)</masterLabel>
+            <translation><!-- CAN - Toronto Real Estate Board (TREB) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN - Vancouver Island and Victoria Real Estate Board / VIVA (VREB)</masterLabel>
+            <translation><!-- CAN - Vancouver Island and Victoria Real Estate Board / VIVA (VREB) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CCAR - North Carolina Regional MLS</masterLabel>
+            <translation><!-- CCAR - North Carolina Regional MLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIRABA - Cayman Islands Real Estate Brokers Association</masterLabel>
+            <translation><!-- CIRABA - Cayman Islands Real Estate Brokers Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO - Aspen / Glenwood Springs MLS (AGSMLS)</masterLabel>
+            <translation><!-- CO - Aspen / Glenwood Springs MLS (AGSMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO - Colorado Real Estate Network (CREN)</masterLabel>
+            <translation><!-- CO - Colorado Real Estate Network (CREN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO - Grand County Board of REALTORS (GCBOR)</masterLabel>
+            <translation><!-- CO - Grand County Board of REALTORS (GCBOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO - Information and Real Estate Services, LLC (IRES)</masterLabel>
+            <translation><!-- CO - Information and Real Estate Services, LLC (IRES) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO - METROLIST - REColorado</masterLabel>
+            <translation><!-- CO - METROLIST - REColorado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO - Pikes Peak Multiple Listing Service (PPAR)</masterLabel>
+            <translation><!-- CO - Pikes Peak Multiple Listing Service (PPAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO - Pueblo Association of REALTORS (PAR)</masterLabel>
+            <translation><!-- CO - Pueblo Association of REALTORS (PAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO - Summit MLS (SAR)</masterLabel>
+            <translation><!-- CO - Summit MLS (SAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO - Telluride Association of REALTORS (TAR)</masterLabel>
+            <translation><!-- CO - Telluride Association of REALTORS (TAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO - Vail Board of Realtors (VBR)</masterLabel>
+            <translation><!-- CO - Vail Board of Realtors (VBR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR - Costa Rica Global Association of REALTORS (CRGR)</masterLabel>
+            <translation><!-- CR - Costa Rica Global Association of REALTORS (CRGR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CREA - Canadian Real Estate Association</masterLabel>
+            <translation><!-- CREA - Canadian Real Estate Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT - Greenwich (GAR)</masterLabel>
+            <translation><!-- CT - Greenwich (GAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT - Smart MLS, Inc. (GNHAR)</masterLabel>
+            <translation><!-- CT - Smart MLS, Inc. (GNHAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DASH Feed - Coldwell Banker (CB)</masterLabel>
+            <translation><!-- DASH Feed - Coldwell Banker (CB) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DASH Feed - Sotheby&#39;s International Realty (SIR)</masterLabel>
+            <translation><!-- DASH Feed - Sotheby&apos;s International Realty (SIR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Douglas Elliman feed</masterLabel>
+            <translation><!-- Douglas Elliman feed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Amelia Island-Nassau County (AINCAR)</masterLabel>
+            <translation><!-- FL - Amelia Island-Nassau County (AINCAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Beaches MLS / Palm Beaches and Greater Fort Lauderdale</masterLabel>
+            <translation><!-- FL - Beaches MLS / Palm Beaches and Greater Fort Lauderdale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Bonita Springs Association of REALTORS (BEAR)</masterLabel>
+            <translation><!-- FL - Bonita Springs Association of REALTORS (BEAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Central Listing Service at Ocean Reef, Inc. (CLSOR)</masterLabel>
+            <translation><!-- FL - Central Listing Service at Ocean Reef, Inc. (CLSOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Daytona Beach Area Association of REALTORS (DBAAR)</masterLabel>
+            <translation><!-- FL - Daytona Beach Area Association of REALTORS (DBAAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Emerald Coast AoR (ECAR)</masterLabel>
+            <translation><!-- FL - Emerald Coast AoR (ECAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Hernando County Association of Realtors (HCAR)</masterLabel>
+            <translation><!-- FL - Hernando County Association of Realtors (HCAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Key West Association of REALTORS (KWAR)</masterLabel>
+            <translation><!-- FL - Key West Association of REALTORS (KWAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - MLS of South Brevard &amp; the Space Coast Association of REALTORS (SPACE)</masterLabel>
+            <translation><!-- FL - MLS of South Brevard &amp; the Space Coast Association of REALTORS (SPACE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Miami Association of REALTORS (RAMB)</masterLabel>
+            <translation><!-- FL - Miami Association of REALTORS (RAMB) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Naples MLS (MLSN)</masterLabel>
+            <translation><!-- FL - Naples MLS (MLSN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Northeast Florida MLS, Inc. (NEFMLS)</masterLabel>
+            <translation><!-- FL - Northeast Florida MLS, Inc. (NEFMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Palm Beach Board of Realtors (PBMLS)</masterLabel>
+            <translation><!-- FL - Palm Beach Board of Realtors (PBMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Pensacola Association of REALTORS®, Inc. (PMLS)</masterLabel>
+            <translation><!-- FL - Pensacola Association of REALTORS®, Inc. (PMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - REALTORS Association of Indian River County, Inc. (RAIRC)</masterLabel>
+            <translation><!-- FL - REALTORS Association of Indian River County, Inc. (RAIRC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Royal Palm Coast Association of REALTORS / Southwest Florida MLS (GFMB / SWFL))</masterLabel>
+            <translation><!-- FL - Royal Palm Coast Association of REALTORS / Southwest Florida MLS (GFMB / SWFL)) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - Stellar MLS (MFRMLS)</masterLabel>
+            <translation><!-- FL - Stellar MLS (MFRMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL - The Florida Keys Board of REALTORS (FKBOR)</masterLabel>
+            <translation><!-- FL - The Florida Keys Board of REALTORS (FKBOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA - Central Georgia MLS (CGMLS)</masterLabel>
+            <translation><!-- GA - Central Georgia MLS (CGMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA - First Georgia MLS (FMLS)</masterLabel>
+            <translation><!-- GA - First Georgia MLS (FMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA - Georgia MLS (GAMLS)</masterLabel>
+            <translation><!-- GA - Georgia MLS (GAMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA - Golden Isles Association of Realtors (GIAR)</masterLabel>
+            <translation><!-- GA - Golden Isles Association of Realtors (GIAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA - Lake Country Board Of REALTORS (LCBOR)</masterLabel>
+            <translation><!-- GA - Lake Country Board Of REALTORS (LCBOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA - Northeast Georgia Board of REALTORS, Inc. (NEGBOR)</masterLabel>
+            <translation><!-- GA - Northeast Georgia Board of REALTORS, Inc. (NEGBOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GFMB - Royal Palm Coast / Florida Gulf MLS</masterLabel>
+            <translation><!-- GFMB - Royal Palm Coast / Florida Gulf MLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI - HICentral MLS (HBR)</masterLabel>
+            <translation><!-- HI - HICentral MLS (HBR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI - Hawaii Information Service (HIS)</masterLabel>
+            <translation><!-- HI - Hawaii Information Service (HIS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI - Realtors Association of Maui (RAM)</masterLabel>
+            <translation><!-- HI - Realtors Association of Maui (RAM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI- HICentral / Honolulu BoR (HBR)</masterLabel>
+            <translation><!-- HI- HICentral / Honolulu BoR (HBR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA - Iowa City Area Association of REALTORS (ICAAR)</masterLabel>
+            <translation><!-- IA - Iowa City Area Association of REALTORS (ICAAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID - Coeur d&#39;Alene MLS (CDAR)</masterLabel>
+            <translation><!-- ID - Coeur d&apos;Alene MLS (CDAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID - Intermountains MLS (IMLS)</masterLabel>
+            <translation><!-- ID - Intermountains MLS (IMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID - Selkirk Association of REALTORS (SAR)</masterLabel>
+            <translation><!-- ID - Selkirk Association of REALTORS (SAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID - Sun Valley Board of Realtors (SBOR)</masterLabel>
+            <translation><!-- ID - Sun Valley Board of Realtors (SBOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL - Midwest Real Estate Data (MRED)</masterLabel>
+            <translation><!-- IL - Midwest Real Estate Data (MRED) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN - Greater Northwest Indiana (GNIAR)</masterLabel>
+            <translation><!-- IN - Greater Northwest Indiana (GNIAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN - Indiana Regional MLS (LBAR)</masterLabel>
+            <translation><!-- IN - Indiana Regional MLS (LBAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN - Metropolitan Indianapolis BoR (MIBOR)</masterLabel>
+            <translation><!-- IN - Metropolitan Indianapolis BoR (MIBOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KADREA - Kamloops and District Real Estate Association</masterLabel>
+            <translation><!-- KADREA - Kamloops and District Real Estate Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS - Heartland MLS (MOKS)</masterLabel>
+            <translation><!-- KS - Heartland MLS (MOKS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KVBOR - Kanawha Valley Board of Realtors</masterLabel>
+            <translation><!-- KVBOR - Kanawha Valley Board of Realtors --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY - Lexington-Bluegrass AoR (LBAR)</masterLabel>
+            <translation><!-- KY - Lexington-Bluegrass AoR (LBAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY - Metro Search Inc / Greater Louisville MLS (MSMLS)</masterLabel>
+            <translation><!-- KY - Metro Search Inc / Greater Louisville MLS (MSMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY - Northern Kentucky Association of REALTORS (NKMLS)</masterLabel>
+            <translation><!-- KY - Northern Kentucky Association of REALTORS (NKMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA - Acadiana MLS (RAAMLS)</masterLabel>
+            <translation><!-- LA - Acadiana MLS (RAAMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA - Greater Baton Rouge MLS (GBRMLS)</masterLabel>
+            <translation><!-- LA - Greater Baton Rouge MLS (GBRMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LVAR - Greater Lehigh Valley REALTORS</masterLabel>
+            <translation><!-- LVAR - Greater Lehigh Valley REALTORS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA - Berkshire County Multiple Listing Service (BCMLS)</masterLabel>
+            <translation><!-- MA - Berkshire County Multiple Listing Service (BCMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA - Cape Cod and Islands Multiple Listing Service, Inc. (CCIAOR)</masterLabel>
+            <translation><!-- MA - Cape Cod and Islands Multiple Listing Service, Inc. (CCIAOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA - LINK Martha&#39;s Vineyard (LMV)</masterLabel>
+            <translation><!-- MA - LINK Martha&apos;s Vineyard (LMV) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA - Martha&#39;s Vineyard MLS (MVMLS)</masterLabel>
+            <translation><!-- MA - Martha&apos;s Vineyard MLS (MVMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA - Property Information Network, Inc. (MLSPIN)</masterLabel>
+            <translation><!-- MA - Property Information Network, Inc. (MLSPIN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME - Maine Listings Real Estate Information System, Inc. (MREIS)</masterLabel>
+            <translation><!-- ME - Maine Listings Real Estate Information System, Inc. (MREIS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEX - MLS of Baja California</masterLabel>
+            <translation><!-- MEX - MLS of Baja California --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI - Greater Lansing Association of REALTORS (GLAR)</masterLabel>
+            <translation><!-- MI - Greater Lansing Association of REALTORS (GLAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI - Michigan Regional Information Center, LLC (SWMRIC)</masterLabel>
+            <translation><!-- MI - Michigan Regional Information Center, LLC (SWMRIC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI - Northern Great Lakes Regional MLS (NGLRMLS)</masterLabel>
+            <translation><!-- MI - Northern Great Lakes Regional MLS (NGLRMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI - Realcomp II LTD</masterLabel>
+            <translation><!-- MI - Realcomp II LTD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN - Northstar MLS / Regional MLS of Minnesota, Inc (RMLS)</masterLabel>
+            <translation><!-- MN - Northstar MLS / Regional MLS of Minnesota, Inc (RMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO - Mid America Regional Information Systems (MARIS)</masterLabel>
+            <translation><!-- MO - Mid America Regional Information Systems (MARIS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT - Big Sky Country MLS - Gallatin MLS (BZM)</masterLabel>
+            <translation><!-- MT - Big Sky Country MLS - Gallatin MLS (BZM) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT - Northwest Montana Association of REALTORS / Montana Regional (NMAR)</masterLabel>
+            <translation><!-- MT - Northwest Montana Association of REALTORS / Montana Regional (NMAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC - Carolina MLS / Canopy MLS (CMLS)</masterLabel>
+            <translation><!-- NC - Carolina MLS / Canopy MLS (CMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC - Carolina Smokies Association of REALTORS (FBOR)</masterLabel>
+            <translation><!-- NC - Carolina Smokies Association of REALTORS (FBOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC - Carteret County / North Carolina Regional MLS (CCAR)</masterLabel>
+            <translation><!-- NC - Carteret County / North Carolina Regional MLS (CCAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC - Highland Cashiers MLS (HCMLS)</masterLabel>
+            <translation><!-- NC - Highland Cashiers MLS (HCMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC - Longleaf Pine REALTORS, Inc. (FRAR)</masterLabel>
+            <translation><!-- NC - Longleaf Pine REALTORS, Inc. (FRAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC - Roanoke Valley Lake Gaston Board of REALTORS (RVLGBR)</masterLabel>
+            <translation><!-- NC - Roanoke Valley Lake Gaston Board of REALTORS (RVLGBR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC - Triad MLS, Inc. (TRIAD)</masterLabel>
+            <translation><!-- NC - Triad MLS, Inc. (TRIAD) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH - The New England Real Estate Network (NNEREN)</masterLabel>
+            <translation><!-- NH - The New England Real Estate Network (NNEREN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ - Cape May MLS (CMCAR)</masterLabel>
+            <translation><!-- NJ - Cape May MLS (CMCAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ - Central Jersey Multiple Listing System (MCMLS)</masterLabel>
+            <translation><!-- NJ - Central Jersey Multiple Listing System (MCMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ - Garden State MLS (GSMLS)</masterLabel>
+            <translation><!-- NJ - Garden State MLS (GSMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ - Hudson County / Realty MLS (HCMLS)</masterLabel>
+            <translation><!-- NJ - Hudson County / Realty MLS (HCMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ - Monmouth Ocean Regional (MOMLS)</masterLabel>
+            <translation><!-- NJ - Monmouth Ocean Regional (MOMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ - New Jersey Multiple Listing Service (NJMLS)</masterLabel>
+            <translation><!-- NJ - New Jersey Multiple Listing Service (NJMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ - South Jersey Shore Regional MLS (SJSRMLS)</masterLabel>
+            <translation><!-- NJ - South Jersey Shore Regional MLS (SJSRMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM - Santa Fe Association of Realtors (SFAR)</masterLabel>
+            <translation><!-- NM - Santa Fe Association of Realtors (SFAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV - Greater Las Vegas Association (GLVAR)of REALTORS (</masterLabel>
+            <translation><!-- NV - Greater Las Vegas Association (GLVAR)of REALTORS ( --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV - Incline Village Board of Realtors (IVBOR)</masterLabel>
+            <translation><!-- NV - Incline Village Board of Realtors (IVBOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV - Northern Nevada Regional MLS (NNRMLS)</masterLabel>
+            <translation><!-- NV - Northern Nevada Regional MLS (NNRMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Adirondack-Champlain Valley MLS (ACVMLS)</masterLabel>
+            <translation><!-- NY - Adirondack-Champlain Valley MLS (ACVMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Brooklyn Board of REALTORS (BBOR)</masterLabel>
+            <translation><!-- NY - Brooklyn Board of REALTORS (BBOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Columbia Greene Northern Dutchess MLS (CGND)</masterLabel>
+            <translation><!-- NY - Columbia Greene Northern Dutchess MLS (CGND) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Global MLS (GCAR)</masterLabel>
+            <translation><!-- NY - Global MLS (GCAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - MLS of Ulster County, Inc. (MLSUC)</masterLabel>
+            <translation><!-- NY - MLS of Ulster County, Inc. (MLSUC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Mid Hudson MLS (MHMLS)</masterLabel>
+            <translation><!-- NY - Mid Hudson MLS (MHMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - New York State MLS (STATE)</masterLabel>
+            <translation><!-- NY - New York State MLS (STATE) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - OneKey MLS / Hudson Gateway &amp; Long Island MLS</masterLabel>
+            <translation><!-- NY - OneKey MLS / Hudson Gateway &amp; Long Island MLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Otsego-Delaware BoR (ODBR)</masterLabel>
+            <translation><!-- NY - Otsego-Delaware BoR (ODBR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Real Estate Board of New York (REBNY)</masterLabel>
+            <translation><!-- NY - Real Estate Board of New York (REBNY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Staten Island Board of REALTORS (SIBOR)</masterLabel>
+            <translation><!-- NY - Staten Island Board of REALTORS (SIBOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY - Western New York Real Estate Information Systems / NY State Alliance (WNYREIS)</masterLabel>
+            <translation><!-- NY - Western New York Real Estate Information Systems / NY State Alliance (WNYREIS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH - Columbus and Central Ohio Regional MLS (CBR)</masterLabel>
+            <translation><!-- OH - Columbus and Central Ohio Regional MLS (CBR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH - Firelands Association of REALTORS (FMLS)</masterLabel>
+            <translation><!-- OH - Firelands Association of REALTORS (FMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH - MLS of Greater Cincinnati (CINCY)</masterLabel>
+            <translation><!-- OH - MLS of Greater Cincinnati (CINCY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH - Toledo / NORIS - Northwest Ohio Realtors (TBR)</masterLabel>
+            <translation><!-- OH - Toledo / NORIS - Northwest Ohio Realtors (TBR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH - Yes MLS (NEOHREX)</masterLabel>
+            <translation><!-- OH - Yes MLS (NEOHREX) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK - Greater Tulsa Association of REALTORS / MLS Technology (NORES)</masterLabel>
+            <translation><!-- OK - Greater Tulsa Association of REALTORS / MLS Technology (NORES) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK - Oklahoma City Metropolitan AoR (OKC)</masterLabel>
+            <translation><!-- OK - Oklahoma City Metropolitan AoR (OKC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR - Central Oregon Association of REALTORS (MLCOBO)</masterLabel>
+            <translation><!-- OR - Central Oregon Association of REALTORS (MLCOBO) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR - Lincoln County Board of REALTORS (LCBR)</masterLabel>
+            <translation><!-- OR - Lincoln County Board of REALTORS (LCBR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR - Portland Regional MLS (RMLS)</masterLabel>
+            <translation><!-- OR - Portland Regional MLS (RMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR - Southern Oregon Multiple Listing Service (SOMLS)</masterLabel>
+            <translation><!-- OR - Southern Oregon Multiple Listing Service (SOMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR - Willamette Valley Multiple Listing Service (WVMLS)</masterLabel>
+            <translation><!-- OR - Willamette Valley Multiple Listing Service (WVMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other - New Feed Request</masterLabel>
+            <translation><!-- Other - New Feed Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA - Greater Lehigh Valley REALTORS (LVAR)</masterLabel>
+            <translation><!-- PA - Greater Lehigh Valley REALTORS (LVAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA - Pocono Mountains Association of REALTORS (PMAR)</masterLabel>
+            <translation><!-- PA - Pocono Mountains Association of REALTORS (PMAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA - West Penn Multi-List, Inc. (WPN)</masterLabel>
+            <translation><!-- PA - West Penn Multi-List, Inc. (WPN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI - State-Wide MLS, Inc.</masterLabel>
+            <translation><!-- RI - State-Wide MLS, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC - Charleston Trident Multiple Listing Service, Inc. (CTAR)</masterLabel>
+            <translation><!-- SC - Charleston Trident Multiple Listing Service, Inc. (CTAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC - Consolidated Multiple Listing Service, Inc. (CMLS)</masterLabel>
+            <translation><!-- SC - Consolidated Multiple Listing Service, Inc. (CMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC - Greater Greenville (GGAR)</masterLabel>
+            <translation><!-- SC - Greater Greenville (GGAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC - Hilton Head Island MLS (HHMLS)</masterLabel>
+            <translation><!-- SC - Hilton Head Island MLS (HHMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC - The Coastal Carolinas Association of REALTORS MLS (CCAR)</masterLabel>
+            <translation><!-- SC - The Coastal Carolinas Association of REALTORS MLS (CCAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC - Western Upstate Association of REALTORS (AAR)</masterLabel>
+            <translation><!-- SC - Western Upstate Association of REALTORS (AAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMLS - Triangle MLS</masterLabel>
+            <translation><!-- TMLS - Triangle MLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN - Greater Chattanooga Association of REALTORS (CAR)</masterLabel>
+            <translation><!-- TN - Greater Chattanooga Association of REALTORS (CAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN - Knoxville Area Association of Realtors (KAAR)</masterLabel>
+            <translation><!-- TN - Knoxville Area Association of Realtors (KAAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN - Realtracs / Middle Tennessee Regional MLS (MTRMLS)</masterLabel>
+            <translation><!-- TN - Realtracs / Middle Tennessee Regional MLS (MTRMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Austin/Central Texas Reality Information Service (ACTRIS)</masterLabel>
+            <translation><!-- TX - Austin/Central Texas Reality Information Service (ACTRIS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Central Hill Country Board of REALTORS (GCBOR)</masterLabel>
+            <translation><!-- TX - Central Hill Country Board of REALTORS (GCBOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Central Texas MLS (CTXMLS)</masterLabel>
+            <translation><!-- TX - Central Texas MLS (CTXMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Corpus Christi Association of REALTORS / South Texas MLS (CCAR)</masterLabel>
+            <translation><!-- TX - Corpus Christi Association of REALTORS / South Texas MLS (CCAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Galveston Association of Realtors (GAR)</masterLabel>
+            <translation><!-- TX - Galveston Association of Realtors (GAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Greater Tyler Association of REALTORS (GTAR)</masterLabel>
+            <translation><!-- TX - Greater Tyler Association of REALTORS (GTAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Highland Lakes Association of REALTORS (HLAR)</masterLabel>
+            <translation><!-- TX - Highland Lakes Association of REALTORS (HLAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Houston MLS (HAR)</masterLabel>
+            <translation><!-- TX - Houston MLS (HAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Kerrville Board of REALTORS (KBOR)</masterLabel>
+            <translation><!-- TX - Kerrville Board of REALTORS (KBOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Lubbock Association of Realtors (LAR)</masterLabel>
+            <translation><!-- TX - Lubbock Association of Realtors (LAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - North Texas Real Estate Information Systems (NTREIS)</masterLabel>
+            <translation><!-- TX - North Texas Real Estate Information Systems (NTREIS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - San Antonio Board of REALTORS (SABOR)</masterLabel>
+            <translation><!-- TX - San Antonio Board of REALTORS (SABOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX - Waco Association of REALTORS (WAR)</masterLabel>
+            <translation><!-- TX - Waco Association of REALTORS (WAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT - Park City Board of REALTORS (PCBR)</masterLabel>
+            <translation><!-- UT - Park City Board of REALTORS (PCBR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT - Utah Real Estate / Wasatch Front Regional MLS, Inc. (WFRMLS)</masterLabel>
+            <translation><!-- UT - Utah Real Estate / Wasatch Front Regional MLS, Inc. (WFRMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA - BRIGHT MLS - Bright MLS</masterLabel>
+            <translation><!-- VA - BRIGHT MLS - Bright MLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA - Central Virginia Regional Multiple Listing Service (CVRMLS)</masterLabel>
+            <translation><!-- VA - Central Virginia Regional Multiple Listing Service (CVRMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA - Real Estate Information Network, Inc. (REIN)</masterLabel>
+            <translation><!-- VA - Real Estate Information Network, Inc. (REIN) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA - Williamsburg Area Association of REALTORS (WMLS)</masterLabel>
+            <translation><!-- VA - Williamsburg Area Association of REALTORS (WMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VBR - Real Estate Board of Greater Vancouver</masterLabel>
+            <translation><!-- VBR - Real Estate Board of Greater Vancouver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA - Northwest Multiple Listing Service (NWMLS)</masterLabel>
+            <translation><!-- WA - Northwest Multiple Listing Service (NWMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA - Spokane Association of Realtors (SAR)</masterLabel>
+            <translation><!-- WA - Spokane Association of Realtors (SAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI - Greater Milwaukee Association of REALTORS (GMAR)</masterLabel>
+            <translation><!-- WI - Greater Milwaukee Association of REALTORS (GMAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI - South Central Wisconsin MLS (SCWMLS)</masterLabel>
+            <translation><!-- WI - South Central Wisconsin MLS (SCWMLS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI - Wisconsin Real Estate Exchange (WIREX)</masterLabel>
+            <translation><!-- WI - Wisconsin Real Estate Exchange (WIREX) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WIREX - Wisconsin Real Estate Exchange</masterLabel>
+            <translation><!-- WIREX - Wisconsin Real Estate Exchange --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY - Teton Board of REALTORS (TBOR)</masterLabel>
+            <translation><!-- WY - Teton Board of REALTORS (TBOR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>[In progress] AR - Northwest Arkansas Board of REALTORS MLS (NWAR)</masterLabel>
+            <translation><!-- [In progress] AR - Northwest Arkansas Board of REALTORS MLS (NWAR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>[In progress] WI - REALTOR Association of Northeast Wisconsin (RANW)</masterLabel>
+            <translation><!-- [In progress] WI - REALTOR Association of Northeast Wisconsin (RANW) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

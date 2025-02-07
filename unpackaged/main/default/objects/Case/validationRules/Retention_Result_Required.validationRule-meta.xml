@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retention_Result_Required</fullName>
+    <active>true</active>
+    <description>SF Case #00183695 - VR needed for data integrity</description>
+    <errorConditionFormula>AND(
+
+Record_Type_Name__c = &quot;Retention Case&quot;,
+ISPICKVAL(Status , &quot;Closed&quot;),
+ISPICKVAL( Retention_Result__c , &quot;&quot;)
+
+)</errorConditionFormula>
+    <errorMessage>Please fill out the Retention Result before closing the case.</errorMessage>
+</ValidationRule>

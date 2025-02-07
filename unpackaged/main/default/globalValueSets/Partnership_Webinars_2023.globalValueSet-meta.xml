@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>FUB Webinar 2023</fullName>
+        <default>false</default>
+        <label>FUB Webinar 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>Radius August Webinar 2023</fullName>
+        <default>false</default>
+        <label>Radius August Webinar 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>REMAX Webinar 2023</fullName>
+        <default>false</default>
+        <label>REMAX Webinar 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>SIR September 2023 Webinar</fullName>
+        <default>false</default>
+        <label>SIR September 2023 Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>SIR Q1 webinar + Compass Sales Meeting</fullName>
+        <default>false</default>
+        <label>SIR Q1 webinar + Compass Sales Meeting</label>
+    </customValue>
+    <customValue>
+        <fullName>Compass Boca Raton Sales Meeting - Sep 2023</fullName>
+        <default>false</default>
+        <label>Compass Boca Raton Sales Meeting - Sep 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>Big Block Realty Collective Coaching Call 2023</fullName>
+        <default>false</default>
+        <label>Big Block Realty Collective Coaching Call 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>Launch RE October Workshop</fullName>
+        <default>false</default>
+        <label>Launch RE October Workshop</label>
+    </customValue>
+    <masterLabel>Partnership Webinars 2023</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assets_for_Initial_Draft__c</fullName>
+    <inlineHelpText>If you answered yes to the previous question, what assets from your live site should we incorporate in the initial draft of your new, Luxury Presence site?</inlineHelpText>
+    <label>Assets for Initial Draft</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

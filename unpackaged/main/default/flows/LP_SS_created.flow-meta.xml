@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Assign_Team_for_Content_Creation</name>
+        <label>Assign Team for Content Creation</label>
+        <locationX>446</locationX>
+        <locationY>408</locationY>
+        <actionName>New_Task_General</actionName>
+        <actionType>quickAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>OwnerId</name>
+            <value>
+                <elementReference>$Record.Freelancer__c</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>ActivityDate</name>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>contextId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>Subject</name>
+            <value>
+                <stringValue>Assign Team for Content Creation</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>New_Task_General</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <decisions>
+        <name>Record_type</name>
+        <label>Record type</label>
+        <locationX>578</locationX>
+        <locationY>288</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Blogs_per_quarter</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Label.ID_SS_Blogs_per_Quarter</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Team_for_Content_Creation</targetReference>
+            </connector>
+            <label>Blogs per quarter</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Record_type1</name>
+        <label>Record type</label>
+        <locationX>50</locationX>
+        <locationY>408</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Pages_of_copywriting</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Label.ID_SS_PagesCopywriting</elementReference>
+                </rightValue>
+            </conditions>
+            <label>Pages of copywriting</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>LP - SS - created {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>LP - SS - created</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Add_Account_Manager</name>
+        <label>Add Account Manager</label>
+        <locationX>50</locationX>
+        <locationY>288</locationY>
+        <connector>
+            <targetReference>Record_type1</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Account_Manager__c</field>
+            <value>
+                <elementReference>$Record.Service__r.Account__r.Account_Manager__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Add_Account_Manager</targetReference>
+        </connector>
+        <object>Service_schedule__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <scheduledPaths>
+            <name>X21_days_before_due_date</name>
+            <connector>
+                <targetReference>Record_type</targetReference>
+            </connector>
+            <label>21days before due date</label>
+            <offsetNumber>-21</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>Due_Date__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

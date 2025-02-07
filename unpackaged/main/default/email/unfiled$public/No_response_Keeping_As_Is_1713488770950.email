@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi {{{Recipient.FirstName}}},</p>
+
+<p><br />
+I'm sorry I have not been able to get a hold of you. &nbsp;At this point, I'll hold off on my outreach. &nbsp;Please know that I cannot legally change the terms of your agreement without a signed amendment. &nbsp;At this time, your terms will not change, however, I am here whenever you're ready for a discussion.<br />
+<br />
+Thank you,</p>
+</body>
+</html>

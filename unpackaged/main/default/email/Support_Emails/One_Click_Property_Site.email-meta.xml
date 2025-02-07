@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support_24</letterhead>
+    <name>How to Create a One-Click Property Website</name>
+    <style>freeForm</style>
+    <subject>How to Create a One-Click Property Website</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Creating a property website is quick and easy with our One-Click feature! Follow these steps to effortlessly create a dedicated website for your properties:
+
+1. Log in to the Presence™ Platform.
+2. From your dashboard, navigate to Websites and click on Property Sites.
+3. Click Create Property Site in the top-right corner.
+4. Select the property you&#39;d like to create a website for from your list of listings.
+5. Customize your property website by choosing a design template, adding or editing details such as images, property descriptions, and more.
+6. Once you&#39;ve made your adjustments, click Publish to launch the site.
+
+That&#39;s it! Your property website is now live and ready to showcase your listing.
+
+This article from our Help Center walks through the steps in more detail:
+https://luxurypresence.my.site.com/helpcenter/s/article/How-to-Create-a-One-Click-Property-Website
+
+Let us know if you have any questions - we&#39;re here to help!
+
+Best regards,
+{!User.FirstName}
+Luxury Presence Support
+(310) 955-1077
+support@luxurypresence.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

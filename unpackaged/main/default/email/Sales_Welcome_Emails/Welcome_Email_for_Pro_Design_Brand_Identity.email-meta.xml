@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>(ARCHIVED) Pro Design + Brand Identity</name>
+    <style>freeForm</style>
+    <subject>Welcome to Luxury Presence!</subject>
+    <textOnly>Hi {!Account.Primary_Contact_First_Name__c}!
+
+Welcome to Luxury Presence! I’m excited to introduce you to your Onboarding Manager, Deal: {!Account.Implementation_Manager__c}, cc&#39;d on this email.  ________ will be your primary point of contact going forward and will reach out to you to schedule your Discovery Call.
+
+The Discovery Call will be our opportunity to get to know you and your business, as well as any design/stylistic preferences you might have to kick off the branding process. Ahead of the call please complete the Brand Identity Questionnaire, this will ensure our team is able to come prepared with mood boards to review together. If you have any questions, please don’t hesitate to reach out to ______.
+
+As a thank you for partnering up with Luxury Presence, I wanted to let you know about our lucrative referral program. If you refer LP to another agent who signs up with us, you will receive a $1,200 credit applied to your account. Link to referral form --&gt; Click here!
+
+Thank you,
+{!User.FirstName}
+
+PS: Your contract is attached for your records!</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

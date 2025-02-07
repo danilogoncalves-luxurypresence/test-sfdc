@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cole_Johnson_AZ_List</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Lead_Brokerage__c</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>Partnership_Organization__c</columns>
+    <columns>Prior_12_months_total_transaction_value__c</columns>
+    <columns>Rep_Assigned_Date__c</columns>
+    <columns>LEAD.ZIP</columns>
+    <columns>Office_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owned_by_a_Queue__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>notEqual</operation>
+        <value>dnc</value>
+    </filters>
+    <filters>
+        <field>LEAD.ZIP</field>
+        <operation>equals</operation>
+        <value>85253</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>500000</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>notEqual</operation>
+        <value>Resting Queue</value>
+    </filters>
+    <label>Cole Johnson AZ List</label>
+</ListView>

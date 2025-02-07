@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- MLS Request --></label>
+        <name>MLS_Request__c</name>
+        <picklistValues>
+            <masterLabel>Add Agent Sync (Listing)</masterLabel>
+            <translation><!-- Add Agent Sync (Listing) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Buyer Sync</masterLabel>
+            <translation><!-- Add Buyer Sync --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Listing Sync (Property)</masterLabel>
+            <translation><!-- Add Listing Sync (Property) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add Office Sync</masterLabel>
+            <translation><!-- Add Office Sync --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check Sync Status</masterLabel>
+            <translation><!-- Check Sync Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Double Listing - Remove one MLS</masterLabel>
+            <translation><!-- Double Listing - Remove one MLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove Agent Sync (Listing)</masterLabel>
+            <translation><!-- Remove Agent Sync (Listing) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove Buyer Sync</masterLabel>
+            <translation><!-- Remove Buyer Sync --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove Listing Sync (Property)</masterLabel>
+            <translation><!-- Remove Listing Sync (Property) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remove Office Sync</masterLabel>
+            <translation><!-- Remove Office Sync --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

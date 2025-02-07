@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Subdomains</fullName>
+    <active>true</active>
+    <description>If the Website Type is Agent Subdomain that the number field has to be completed.</description>
+    <errorConditionFormula>IF(AND(ISPICKVAL( Website_Type__c , &#39;Agent Subdomain&#39;), ISBLANK( Website_Set_Up_of_Agent_Subdomains__c ) ), TRUE, FALSE)</errorConditionFormula>
+    <errorDisplayField>Website_Set_Up_of_Agent_Subdomains__c</errorDisplayField>
+    <errorMessage>Please complete the number of subdomains</errorMessage>
+</ValidationRule>

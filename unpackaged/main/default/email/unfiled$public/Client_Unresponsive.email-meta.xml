@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template when Case is Received</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>Client Unresponsive</name>
+    <style>freeForm</style>
+    <subject>Case {!Case.CaseNumber}</subject>
+    <textOnly>Hi {!Contact.FirstName}!
+
+I hope you are having a wonderful day! I just wanted to check on this case as I have not received your response. If you have additional questions, I’ll be more than happy to provide assistance.
+
+I know how busy you must be so feel free to take your time and reply to this email thread when you have a moment. The case will remain open, but I will move on to assist other clients in order to ensure we are assisting clients in a timely manner.
+
+
+Thanks,
+
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

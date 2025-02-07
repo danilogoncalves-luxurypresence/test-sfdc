@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Pod_2_Backlog</fullName>
+    <columns>NAME</columns>
+    <columns>Implementation_Manager__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Staging_Link__c</columns>
+    <columns>Assigned_VA__c</columns>
+    <columns>Staging_link_status__c</columns>
+    <columns>Website_Builder__c</columns>
+    <columns>WB_Task_Status__c</columns>
+    <columns>Data_Specialist__c</columns>
+    <columns>DS_Task_Status__c</columns>
+    <columns>Header_Image_Curator__c</columns>
+    <columns>HIC_Task_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PFT_Pod__c</field>
+        <operation>equals</operation>
+        <value>Pod 2,Pod 3</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Build Site</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.Custom_Website,Service__c.In_App_Onboarding,Service__c.Website_Launches</value>
+    </filters>
+    <filters>
+        <field>Implementation_Manager__c</field>
+        <operation>notContain</operation>
+        <value>Courtney Javornik</value>
+    </filters>
+    <label>Custom Pod 2- Backlog</label>
+</ListView>

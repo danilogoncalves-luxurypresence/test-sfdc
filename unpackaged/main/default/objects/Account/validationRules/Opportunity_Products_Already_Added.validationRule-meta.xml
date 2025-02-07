@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Products_Already_Added</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ ISCHANGED( Partnership_Organization__c ),
+ Amount_of_Opportunity_Products__c &gt; 0
+)</errorConditionFormula>
+    <errorMessage>Please remove all products from your open opportunity before changing the value on Partnership Organization, that way there is no issue with the partner/standard pricebook.</errorMessage>
+</ValidationRule>

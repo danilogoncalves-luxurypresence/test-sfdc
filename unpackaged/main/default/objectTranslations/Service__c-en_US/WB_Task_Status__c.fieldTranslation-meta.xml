@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- WB Task Status --></label>
+        <name>WB_Task_Status__c</name>
+        <picklistValues>
+            <masterLabel>Additional Revisions</masterLabel>
+            <translation><!-- Additional Revisions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blocked</masterLabel>
+            <translation><!-- Blocked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA In Progress</masterLabel>
+            <translation><!-- QA In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ready For QA</masterLabel>
+            <translation><!-- Ready For QA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revisions in progress</masterLabel>
+            <translation><!-- Revisions in progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFA Revisions</masterLabel>
+            <translation><!-- SFA Revisions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SFA Revisions In Progress</masterLabel>
+            <translation><!-- SFA Revisions In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent for Approval</masterLabel>
+            <translation><!-- Sent for Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on DS</masterLabel>
+            <translation><!-- Waiting on DS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on HIC</masterLabel>
+            <translation><!-- Waiting on HIC --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

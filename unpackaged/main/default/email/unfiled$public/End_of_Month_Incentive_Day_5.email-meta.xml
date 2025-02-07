@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>End of Month Incentive - Day 5</name>
+    <style>freeForm</style>
+    <subject>Last chance to waive your website setup fees</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Quick reminder that our end-of-month offer is almost over! This is your last chance to save thousands of dollars by having all of your website setup fees heavily discounted.
+
+Our team is here to help you create a stunning website that takes your online presence to the next level and attracts more clients. Plus, with our expertise in real estate marketing, we can help you grow your business and close more deals.
+
+Don&#39;t miss out on this opportunity! Let&#39;s hop on a quick call to discuss how we can help you and reduce your setup fees before the deadline.
+
+Book a meeting here: [Meeting Link]
+
+Best,
+{!User.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

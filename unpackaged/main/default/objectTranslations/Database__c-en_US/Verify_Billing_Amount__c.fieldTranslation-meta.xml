@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Verify billing amounts in Stripe, ensuring the sums for billing align at the level of the account. --></help>
+        <label><!-- Verify Billing Amount --></label>
+        <name>Verify_Billing_Amount__c</name>
+    </CustomFieldTranslation>

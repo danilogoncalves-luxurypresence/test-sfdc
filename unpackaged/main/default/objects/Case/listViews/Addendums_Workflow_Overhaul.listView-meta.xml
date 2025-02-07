@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Addendums_Workflow_Overhaul</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>SF_Team_Reviewed__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Business_System_Analyst__c</columns>
+    <columns>Team__c</columns>
+    <columns>Request_Type__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Ultimate_Parent__c</columns>
+    <columns>Project__c</columns>
+    <columns>PARENT.CASE_NUMBER</columns>
+    <columns>Impacted_Teams__c</columns>
+    <columns>Priority_Category__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.SFDC_Ticket</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Project__c</field>
+        <operation>equals</operation>
+        <value>Addendum Workflow Overhaul,Plan Change Combinations,Addendum Bugs</value>
+    </filters>
+    <label>Addendums Workflow Overhaul</label>
+</ListView>

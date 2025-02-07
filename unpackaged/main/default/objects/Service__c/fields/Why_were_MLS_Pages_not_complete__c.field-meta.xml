@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Why_were_MLS_Pages_not_complete__c</fullName>
+    <description>Salesforce Case #00151185</description>
+    <inlineHelpText>If &quot;Were the 6 MLS Pages added?&quot; is set to No, fill out this field</inlineHelpText>
+    <label>Why were MLS Pages not complete?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

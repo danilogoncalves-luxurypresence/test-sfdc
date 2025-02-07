@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_reason_required</fullName>
+    <active>false</active>
+    <description>If Do you want to have credit instead? = &quot;Yes&quot; then Credit reason is mandatory</description>
+    <errorConditionFormula>AND(
+
+ RecordTypeId =&quot;0125f000000VvKM&quot;,
+ ISPICKVAL( Do_you_want_to_have_credit_instead__c ,&quot;Yes&quot;),
+ ISBLANK( Credit_Reason__c )
+)</errorConditionFormula>
+    <errorDisplayField>Credit_Reason__c</errorDisplayField>
+    <errorMessage>Please complete Credit Reason field</errorMessage>
+</ValidationRule>

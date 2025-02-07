@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Saved Tactics --></label>
+        <name>Saved_Tactics__c</name>
+        <picklistValues>
+            <masterLabel>Saved (downgraded)</masterLabel>
+            <translation><!-- Saved (downgraded) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saved (no additional offering)</masterLabel>
+            <translation><!-- Saved (no additional offering) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saved (offered additional service)</masterLabel>
+            <translation><!-- Saved (offered additional service) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saved (offered credit)</masterLabel>
+            <translation><!-- Saved (offered credit) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

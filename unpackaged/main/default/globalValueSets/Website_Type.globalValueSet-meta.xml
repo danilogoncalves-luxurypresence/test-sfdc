@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Agent Website</fullName>
+        <default>false</default>
+        <label>Brand Websites</label>
+    </customValue>
+    <customValue>
+        <fullName>Team Website</fullName>
+        <default>false</default>
+        <label>Team Website</label>
+    </customValue>
+    <customValue>
+        <fullName>Brokerage Website</fullName>
+        <default>false</default>
+        <label>Brokerage Website</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Website</fullName>
+        <default>false</default>
+        <label>Property Website</label>
+    </customValue>
+    <customValue>
+        <fullName>Development Website</fullName>
+        <default>false</default>
+        <label>Development Website</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing Only</fullName>
+        <default>false</default>
+        <label>Marketing Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Customization Package</fullName>
+        <default>false</default>
+        <label>Customization Package</label>
+    </customValue>
+    <customValue>
+        <fullName>Coming Soon Page</fullName>
+        <default>false</default>
+        <label>Coming Soon Page</label>
+    </customValue>
+    <customValue>
+        <fullName>Agent Subdomain</fullName>
+        <default>false</default>
+        <label>Agent Subdomain</label>
+    </customValue>
+    <customValue>
+        <fullName>Side - New Logos</fullName>
+        <default>false</default>
+        <label>Side - New Logos</label>
+    </customValue>
+    <customValue>
+        <fullName>Side - Migration</fullName>
+        <default>false</default>
+        <label>Side - Migration</label>
+    </customValue>
+    <masterLabel>Website Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

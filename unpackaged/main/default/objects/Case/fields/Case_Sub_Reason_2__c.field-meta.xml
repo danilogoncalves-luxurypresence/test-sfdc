@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Sub_Reason_2__c</fullName>
+    <description>Identify the secondary sub reason, optional.</description>
+    <label>Case Sub Reason 2</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Case_Reason_2__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CMS</fullName>
+                <default>false</default>
+                <label>CMS</label>
+            </value>
+            <value>
+                <fullName>Page Builder</fullName>
+                <default>false</default>
+                <label>Page Builder</label>
+            </value>
+            <value>
+                <fullName>Billing</fullName>
+                <default>false</default>
+                <label>Billing</label>
+            </value>
+            <value>
+                <fullName>People</fullName>
+                <default>false</default>
+                <label>People</label>
+            </value>
+            <value>
+                <fullName>Onboarding</fullName>
+                <default>false</default>
+                <label>Onboarding</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>CSM</fullName>
+                <default>false</default>
+                <label>CSM</label>
+            </value>
+            <value>
+                <fullName>IDX</fullName>
+                <default>false</default>
+                <label>IDX</label>
+            </value>
+            <value>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+                <label>Reporting</label>
+            </value>
+            <value>
+                <fullName>Listing Feeds</fullName>
+                <default>false</default>
+                <label>Listing Feeds</label>
+            </value>
+            <value>
+                <fullName>One Click Property Sites</fullName>
+                <default>false</default>
+                <label>One Click Property Sites</label>
+            </value>
+            <value>
+                <fullName>Home Search Tool</fullName>
+                <default>false</default>
+                <label>Home Search Tool</label>
+            </value>
+            <value>
+                <fullName>Self Serve Property Websites</fullName>
+                <default>false</default>
+                <label>Self Serve Property Websites</label>
+            </value>
+            <value>
+                <fullName>Presentations</fullName>
+                <default>false</default>
+                <label>Presentations</label>
+            </value>
+            <value>
+                <fullName>DNS record change</fullName>
+                <default>false</default>
+                <label>DNS record change</label>
+            </value>
+            <value>
+                <fullName>Domain change</fullName>
+                <default>false</default>
+                <label>Domain change</label>
+            </value>
+            <value>
+                <fullName>IDX issue</fullName>
+                <default>false</default>
+                <label>IDX issue</label>
+            </value>
+            <value>
+                <fullName>Non-IDX issue</fullName>
+                <default>false</default>
+                <label>Non-IDX issue</label>
+            </value>
+            <value>
+                <fullName>Zapier connection</fullName>
+                <default>false</default>
+                <label>Zapier connection</label>
+            </value>
+            <value>
+                <fullName>CRM integration</fullName>
+                <default>false</default>
+                <label>CRM integration</label>
+            </value>
+            <value>
+                <fullName>Lead alert notification</fullName>
+                <default>false</default>
+                <label>Lead alert notification</label>
+            </value>
+            <value>
+                <fullName>Adding a user</fullName>
+                <default>false</default>
+                <label>Adding a user</label>
+            </value>
+            <value>
+                <fullName>Question</fullName>
+                <default>false</default>
+                <label>Question</label>
+            </value>
+            <value>
+                <fullName>LPEvent</fullName>
+                <default>false</default>
+                <label>Luxury Presence Event</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Brokerage change</fullName>
+                <default>false</default>
+                <label>Brokerage change</label>
+            </value>
+            <value>
+                <fullName>Elective</fullName>
+                <default>false</default>
+                <label>Elective</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Leads</controllingFieldValue>
+            <valueName>Zapier connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leads</controllingFieldValue>
+            <valueName>CRM integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Leads</controllingFieldValue>
+            <valueName>Lead alert notification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Google Analytics</controllingFieldValue>
+            <valueName>Adding a user</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Google Analytics</controllingFieldValue>
+            <valueName>Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upcoming Event</controllingFieldValue>
+            <valueName>LPEvent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Upcoming Event</controllingFieldValue>
+            <valueName>Webinar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Design Change</controllingFieldValue>
+            <valueName>Brokerage change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Design Change</controllingFieldValue>
+            <valueName>Elective</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Edit Request</controllingFieldValue>
+            <controllingFieldValue>How to Question</controllingFieldValue>
+            <valueName>CMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Edit Request</controllingFieldValue>
+            <controllingFieldValue>How to Question</controllingFieldValue>
+            <valueName>Page Builder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Another LP Team</controllingFieldValue>
+            <valueName>Billing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Another LP Team</controllingFieldValue>
+            <valueName>People</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Another LP Team</controllingFieldValue>
+            <valueName>Onboarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Another LP Team</controllingFieldValue>
+            <valueName>Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Another LP Team</controllingFieldValue>
+            <valueName>CSM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Another LP Team</controllingFieldValue>
+            <valueName>IDX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How to Question</controllingFieldValue>
+            <valueName>Reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How to Question</controllingFieldValue>
+            <valueName>Listing Feeds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How to Question</controllingFieldValue>
+            <valueName>One Click Property Sites</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How to Question</controllingFieldValue>
+            <valueName>Home Search Tool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How to Question</controllingFieldValue>
+            <valueName>Self Serve Property Websites</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>How to Question</controllingFieldValue>
+            <valueName>Presentations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stackpath</controllingFieldValue>
+            <valueName>DNS record change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stackpath</controllingFieldValue>
+            <valueName>Domain change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bug Report</controllingFieldValue>
+            <valueName>IDX issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bug Report</controllingFieldValue>
+            <valueName>Non-IDX issue</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

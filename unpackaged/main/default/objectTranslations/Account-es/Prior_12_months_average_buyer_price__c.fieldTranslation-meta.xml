@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- MLS) Prior 12 months avg buyer price --></label>
+        <name>Prior_12_months_average_buyer_price__c</name>
+    </CustomFieldTranslation>

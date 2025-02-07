@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lock_Closed_Opportunities</fullName>
+    <active>false</active>
+    <description>Validation rule to prevent general users to modify closed opportunities</description>
+    <errorConditionFormula>AND(
+PRIORVALUE( IsClosed ) = True,
+NOT(OR(
+$Profile.Name = &quot;System Administrator&quot;,
+$Profile.Name = &quot;System Admin2&quot;,
+$Profile.Name = &quot;Operations Team&quot;))
+)</errorConditionFormula>
+    <errorMessage>Closed opportunities can not be modified. If you need further assistance, reach out to our #crm-team</errorMessage>
+</ValidationRule>

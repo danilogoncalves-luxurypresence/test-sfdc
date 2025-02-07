@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client</fullName>
+    <active>true</active>
+    <label>Client</label>
+    <picklistValues>
+        <picklist>Affiliate_Partnerships__c</picklist>
+        <values>
+            <fullName>Acre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aerial Canvas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Affogato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AgentUpgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BoxBrownie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CLOSING DAY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capturely</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contracts and Coffee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Empower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOLLOW UP BOSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MAXA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAGEL MEDIA GROUP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE Luxe Leaders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Realty Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sign More</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Studio Twenty Three</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Testimonial Tree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TotalBrokerage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Are_you_an_agent_team_or_brokerage__c</picklist>
+        <values>
+            <fullName>Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brokerage %2820%2B agents%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brokerage %28under 20 agents%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Build_Your_Presence_Webinar__c</picklist>
+        <values>
+            <fullName>4%2E25%2E2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2E30%2E2024</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Client_Type__c</picklist>
+        <values>
+            <fullName>Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brokerage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brokerage Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Plus</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Event_Name__c</picklist>
+        <values>
+            <fullName>10%2E11%2E23 Compass Cup Miami 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E22%2E23 Real Rise San Diego 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E23%2E23 T360 Tech Summit Ft Worth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E30%2E23 %40Properties Expo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E11 The Agency Austin Grand Opening 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E14%2E23 Compass REtreat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E14%2E23 NAR NXT- Anaheim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E14%2E23 The Agency Global Forum - Austin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E28%2E23 eXp Luxury Is NOW - Irving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%2E11%2E23 Compass NYC Holiday Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2022 Compass Holiday Parties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Big Block Realty Collective Coaching Call 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAR REImagine 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB Colorado Global Luxury Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB D%27Ann Harper Awards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB Gen Blue Atlanta Oct 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB Gen Blue Experience 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chirag Shah Future Proof Agent 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christie%27s Agent Conference 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass BH Office Event 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Cup Golf Tournament 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass East Coast Luxury Summit 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Fall REtreat 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Retreat 2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass S%26E 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENGAGE%3A Coldwell Banker Global Luxury Summit 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXPCON Oct 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUBCON Sept 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICC Summit Real Estate Conference 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ILHM Launch Webinar 9%2E21%2E22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inman Connect Las Vegas 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inman Connect Las Vegas 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inman Connect New York 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inman Connect New York 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inman Connect Vegas 2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inman Luxury Connect 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inman Luxury Connect Las Vegas 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leaders in Luxury 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leading RE Limitless 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metro Networking Event Oct 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAR Realtors Conference %26 Expo 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE%2FMAX Collection Luxury Forum 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE%2FMAX Luxury Forum 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REALM Member Event %7C San Diego</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radius Aug Webinar 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR GNE 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR One Summit 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR Q3 2022 Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR Tahoe Summit 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR-MNE-NJ 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Side x Side 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T360 Summit 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Ferry EDGE 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Ferry Edge 2023 - 9%2E12%2E23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Ferry Elite Event 2023 - 6%2E20%2E23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Ferry Elite Retreat 2023 - 2%2E2%2E23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Ferry Success Summit 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Ferry Success Summit 2023 - 8%2E22%2E23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Ferry Team Event 2023 - 6%2E27%2E23</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eXp Shareholder Summit 2023</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GenderIdentity</picklist>
+        <values>
+            <fullName>Female</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Male</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nonbinary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Listed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Gong__Flow_Status__c</picklist>
+        <values>
+            <fullName>Bounced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finished %28meeting booked%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finished %28no reply%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finished %28removed manually%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finished %28replied%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flow deleted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No license</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opted Out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paused</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Person deleted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Removed %28other%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To-do expired</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LP_Academy_Team__c</picklist>
+        <values>
+            <fullName>CSD - CSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD - Client Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD - Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD - DCSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD - Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD - PFT - IDX - Offshore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD - PFT - IDX - Onshore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD - PFT - Launch - Offshore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD - PFT - Launch - Onshore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD - PFT - PET - Offshore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD - PFT - PET - Onshore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD - Paid Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD - SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD - Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSD - Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales - AE1 - Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales - AE1s and AE2s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales - Managers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales - SDR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales - SDR - Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales - Strategic AE3 and BDR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Build Your Presence Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Referrals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referrals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industry Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industry Events List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLS Database</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manager Assigned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organic Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Team Generated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnership Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnership Events List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnership Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presence Copilot Giveaway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospecting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Ops Cut List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self-Sourced</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lead_Magnet_Campaign_download__c</picklist>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Linkedin_Ads__c</picklist>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lost_Reason__c</picklist>
+        <values>
+            <fullName>Don%27t think it will work</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Features</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner%2FSpouse disagree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poorly Qualified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reputation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Timing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marketing_Category__c</picklist>
+        <values>
+            <fullName>DNC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-Market</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partners</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marketing_Status__c</picklist>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disqualify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engaging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engaging Demo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurture-Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pursuing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Organic_Partner_Inquiry__c</picklist>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Original_Source__c</picklist>
+        <values>
+            <fullName>Direct Traffic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offline Sources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organic Search</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organic Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Campaigns</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Search</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referrals</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PFT_Pod__c</picklist>
+        <values>
+            <fullName>Pod 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Side</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Paid_Search_Inbound__c</picklist>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Paid_Social_Inbound__c</picklist>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Meeting_Outcome__c</picklist>
+        <values>
+            <fullName>Client retention</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead generated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presentation booked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promotional opp</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partnership_Organization__c</picklist>
+        <values>
+            <fullName>%40 Properties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avenue 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Berkshire Hathaway HomeServices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Big Block Realty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bluegrass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>California Concierge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christie%E2%80%99s International Real Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christie%E2%80%99s International Real Estate Affiliate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coldwell Banker Affiliate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coldwell Banker Realty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corcoran</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corcoran Affiliate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engel %26 Volkers Gestalt Group %28Pending%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harcourts North America</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harvey Kalles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Howard Hanna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JPAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LoKation Real Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Milehimodern</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pinnacle Realty Advisors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radius Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real RE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Realty ONE Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Side</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sotheby%27s Int Realty Affiliate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sotheby%27s International Realty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Remax Collection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Serhant Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>William Raveis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eXP Luxury</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partnership_Webinars_2023__c</picklist>
+        <values>
+            <fullName>Big Block Realty Collective Coaching Call 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Boca Raton Sales Meeting - Sep 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FUB Webinar 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch RE October Workshop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REMAX Webinar 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Radius August Webinar 2023</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR Q1 webinar %2B Compass Sales Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR September 2023 Webinar</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Position__c</picklist>
+        <values>
+            <fullName>Ads Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content Creator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Design Project Associate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Design project coordinator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Header Image Curator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX Data Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logo Editor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migration Crawl %26 Mapping Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team leader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trainer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Builder</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Preferred_Cadence__c</picklist>
+        <values>
+            <fullName>Bi-monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Preferred_Contact_Methods__c</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Text</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Video Call</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pronouns</picklist>
+        <values>
+            <fullName>He%2FHim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>He%2FThey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Listed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>She%2FHer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>She%2FThey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>They%2FThem</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ROE_Status__c</picklist>
+        <values>
+            <fullName>In ROE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of ROE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Revision_pod__c</picklist>
+        <values>
+            <fullName>Pod 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Side</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cooling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Re - Engage Prospect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Team__c</picklist>
+        <values>
+            <fullName>Account Manager Assistant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Analytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Analytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS PH Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Specialist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Design Consultant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Design Consultant Team %2F Header Image Curation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PFT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PFT - Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PFT - Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PFT - Migration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PFT - Revisions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PFT - Website Execution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PH Zendesk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Time_Zone__c</picklist>
+        <values>
+            <fullName>Alaska Time %28AK%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atlantic Standard %28AST%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Time %28CT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eastern Time %28ET%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii Standard Time %28HST%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mountain Standard Time %28MST%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mountain Time %28MT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Newfoundland Standard %28NDT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pacific Time %28PT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Puerto Rico Standard Time %28PST%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Website_execution_pod__c</picklist>
+        <values>
+            <fullName>Pod 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pod 9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Side</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>What_is_the_client_looking_to_achieve__c</picklist>
+        <values>
+            <fullName>Build Cohesive Online Branding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Digital Business Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generate Leads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impress Clients %26 Position Self as Top-Producing Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product %28Dashboard to make changes%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X2024_Event_Name__c</picklist>
+        <values>
+            <fullName>1%2E14 - BHHS Luxury Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E22 - 1%2E26 - The Agency - Pasadena %2F NYC %2F Park City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E22%2E25 - 1%2E23%2E25 - CompassCup-FL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E23%2E24 Inman Connect NYC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E24%2E24 Side x Side - San Diego</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E9%2E25 - ICNY25 Registrants</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E9%2E25 -ICNY25 Registrants - LP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E14-10%2E15 %E2%80%93 BHHS-CA 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E21 - 10%2E23 - Real Rise - LV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E22 LP Executive Insights Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E24 - 10%2E26 - KW Lux Symposium - SD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E27 - 10%2E30 - eXpcon - Miami</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E31 LP Courted Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E9 - Q3 RA%7CCon - Austin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E9 Inman-Austin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E13 - 11%2E14 - CBGL - LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E13 - 11%2E14 - Compass Retreat - Charleston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%2E11 - 12%2E13 - Forbes GP - Maui</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%2E12 - Compass Boca - Holiday24</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E26%2E24 Leading RE - LV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E29%2E24 Goldbar Live - NYC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E3%2E25 - Daniel Gale SIR - NY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E4%2E24 Realty One Summit - Las Vegas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E5 - Top Producer One Summit - LV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E9%2E24 JPAR - TX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E13 - Women of Compass Luncheon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E21 Compass Lux Summit - Philly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E6 - 3%2E8 - Tahoe Connect - CA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2E16 - 4%2E17 - Hannacon - Orlando</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2E21 - 4%2E24 - The Gathering - AZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2E22 - 4%2E24 - T3 Leadership Summit - AZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2E21 - 5%2E22 - Inman Connect - Miami</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2E21 - 5%2E23 - real summit - Banff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2E8 - 5%2E10 - eXpcon - Toronto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E12 - 6%2E14 - Agency Leadership Summit - Charlotte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E12%2E - 6%2E14 The Agency Leadership Summit - Charlotte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E18 - 6%2E19 RE%2FMAX Lux Forum - Tahoe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E20 - 6%2E21 Serhant Netflix Premiere - NYC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E25 - 6%2E26 CIRE Masters - BH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E3 - 6%2E4 - Agency CO Retreat - Vail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%2E17 - GCMastermind - LA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%2E30 - 8%2E1 ICLV - LV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%2E1 - 8%2E2 - eXp Build 24 - NJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%2E27 - 8%2E29 - TF Summit - Dallas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%2E29 - 9%2E1 - Compass Jazz Aspen Experience - CO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E23 - 9%2E24 - CBGL Miami</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E24 - Nikki Field Zoom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E25 LP Nar Settlement Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E29 - 10%2E1 - T3 Tech Summit - New Orleans</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E4 - 9%2E6 - CEO%26Leadership Exchange - DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E4 - 9%2E6 - RIS Media CEO%2FLeadership Exchange - DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E7 - ONE Magical - Nashville</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E8 - 9%2E10 - SIRE - Nashville</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass Florida 2024 Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Women%E2%80%99s Council of Realtors - Austin</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X2024_Partnership_Presentations_Webinars__c</picklist>
+        <values>
+            <fullName>1%2E14%2E25 BHHS Luxury Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E16 Compass Winter Park FL Workshop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E16%2E25 John L%2E Scott Presentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E27%2E25 E%26V Gestalt Staff Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E28%2E25 Compass Austin MA Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E30%2E25 TTR SIR Presentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1%2E8%2E25 The Agency MAM Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E17 BHHS Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E31 LP Courted Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E12 - Compass SEO Oakland Pres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E12 eXp Luxury Workshop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E5 - milehimodern Pres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11%2E6 SIR Q4 Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%2E12 BHHS Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%2E16 Real Partner Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%2E6 LeadingRE Webinar Week</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E11%2E25 John L Scott Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E12%2E25 The Agency Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E20%2E25 SIR Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E27%2E25 Compass Burlingame SEO Pres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E3%2E25 Coldwell Banker Luxury MM Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E12 Harcourts NA Agent Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E19 Howard Hanna Agent Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E21 SIR Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E7 Realty One March Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2E19 milehimodern Agent Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2E29 Radius Agent Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E18 eXP Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E20 SIR Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E27 Coffee %26 Contracts Agent Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%2E16 Compass Carlsbad Sales Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%2E24 Compass Mission Valley Sales Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%2E15 Realty ONE Global Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9%2E17 Compass UWS Sales Meeting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

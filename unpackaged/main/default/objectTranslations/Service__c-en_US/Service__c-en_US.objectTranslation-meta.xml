@@ -1,0 +1,1341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Service</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Services</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>AI Lead Nurture</layout>
+        <sections>
+            <label><!-- Account Info --></label>
+            <section>Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Main Task Details --></label>
+            <section>Main Task Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Automated Blogs</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Blogs</layout>
+        <sections>
+            <label><!-- Client Profile --></label>
+            <section>Client Profile</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Brand Identity</layout>
+        <sections>
+            <label><!-- Branding Assets --></label>
+            <section>Branding Assets</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Content Review</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Copilot</layout>
+        <sections>
+            <label><!-- Account Info --></label>
+            <section>Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Main Task Details --></label>
+            <section>Main Task Details</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Custom Website</layout>
+        <sections>
+            <label><!-- Client Marketing Team --></label>
+            <section>Client Marketing Team</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Initial Website Draft --></label>
+            <section>Initial Website Draft</section>
+        </sections>
+        <sections>
+            <label><!-- Launch Team --></label>
+            <section>Launch Team</section>
+        </sections>
+        <sections>
+            <label><!-- Main Task Details --></label>
+            <section>Main Task Details</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Onboarding Team --></label>
+            <section>Onboarding Team</section>
+        </sections>
+        <sections>
+            <label><!-- Revisions Team --></label>
+            <section>Revisions Team</section>
+        </sections>
+        <sections>
+            <label><!-- SEO &amp; Analytics Team --></label>
+            <section>SEO &amp; Analytics Team</section>
+        </sections>
+        <sections>
+            <label><!-- Service Information --></label>
+            <section>Service Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Design Change</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Launch Team --></label>
+            <section>Launch Team</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Website Execution Team --></label>
+            <section>Website Execution Team</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Design Refresh</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GBP Posts</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- SEO Fields --></label>
+            <section>SEO Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>GBP Set Up</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- SEO Fields --></label>
+            <section>SEO Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>General</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>In - App Onboarding</layout>
+        <sections>
+            <label><!-- Account Info --></label>
+            <section>Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- Client Marketing Team --></label>
+            <section>Client Marketing Team</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DCT Team --></label>
+            <section>DCT Team</section>
+        </sections>
+        <sections>
+            <label><!-- In-App Outboarding --></label>
+            <section>In-App Outboarding</section>
+        </sections>
+        <sections>
+            <label><!-- Landing Page --></label>
+            <section>Landing Page</section>
+        </sections>
+        <sections>
+            <label><!-- Launch Team --></label>
+            <section>Launch Team</section>
+        </sections>
+        <sections>
+            <label><!-- Main Task Details --></label>
+            <section>Main Task Details</section>
+        </sections>
+        <sections>
+            <label><!-- Onboarding Team --></label>
+            <section>Onboarding Team</section>
+        </sections>
+        <sections>
+            <label><!-- Revisions Team --></label>
+            <section>Revisions Team</section>
+        </sections>
+        <sections>
+            <label><!-- SEO &amp; Analytics Team --></label>
+            <section>SEO &amp; Analytics Team</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Website Execution Team --></label>
+            <section>Website Execution Team</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>MLS Implementation</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Onboarding Information --></label>
+            <section>Onboarding Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>On-Demand Ads</layout>
+        <sections>
+            <label><!-- Campaign Details --></label>
+            <section>Campaign Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Subscription --></label>
+            <section>Subscription</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Paid Media</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Platform Migration</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Data Specialist --></label>
+            <section>Data Specialist</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Header Image Curator --></label>
+            <section>Header Image Curator</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Website Builder --></label>
+            <section>Website Builder</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Property Website</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Data Specialist --></label>
+            <section>Data Specialist</section>
+        </sections>
+        <sections>
+            <label><!-- Domain fields --></label>
+            <section>Domain fields</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Header Image Curator --></label>
+            <section>Header Image Curator</section>
+        </sections>
+        <sections>
+            <label><!-- Jotform --></label>
+            <section>Jotform</section>
+        </sections>
+        <sections>
+            <label><!-- Launch Team --></label>
+            <section>Launch Team</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Website Builder --></label>
+            <section>Website Builder</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quarterly/ Monthly Reporting Services</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SEO Key Word Analysis</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- SEO Fields --></label>
+            <section>SEO Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Admin --></label>
+            <section>System Admin</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SEO Migration</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Deal Information --></label>
+            <section>Deal Information</section>
+        </sections>
+        <sections>
+            <label><!-- Onboarding Team --></label>
+            <section>Onboarding Team</section>
+        </sections>
+        <sections>
+            <label><!-- SEO Fields --></label>
+            <section>SEO Fields</section>
+        </sections>
+        <sections>
+            <label><!-- SEO Migration --></label>
+            <section>SEO Migration</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SEO Optimizations</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- SEO Fields --></label>
+            <section>SEO Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Admin --></label>
+            <section>System Admin</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Social Media</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Website Launches</layout>
+        <sections>
+            <label><!-- Account Info --></label>
+            <section>Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- Client Marketing Team --></label>
+            <section>Client Marketing Team</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DCT Team --></label>
+            <section>DCT Team</section>
+        </sections>
+        <sections>
+            <label><!-- In-App Outboarding --></label>
+            <section>In-App Outboarding</section>
+        </sections>
+        <sections>
+            <label><!-- Launch Team --></label>
+            <section>Launch Team</section>
+        </sections>
+        <sections>
+            <label><!-- Main Task Details --></label>
+            <section>Main Task Details</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Onboarding Team --></label>
+            <section>Onboarding Team</section>
+        </sections>
+        <sections>
+            <label><!-- Revisions Team --></label>
+            <section>Revisions Team</section>
+        </sections>
+        <sections>
+            <label><!-- SEO &amp; Analytics Team --></label>
+            <section>SEO &amp; Analytics Team</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Website Execution Team --></label>
+            <section>Website Execution Team</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Website Launches - Implementation</layout>
+        <sections>
+            <label><!-- Account Info --></label>
+            <section>Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- Client Marketing Team --></label>
+            <section>Client Marketing Team</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DCT Team --></label>
+            <section>DCT Team</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Team --></label>
+            <section>Implementation Team</section>
+        </sections>
+        <sections>
+            <label><!-- Launch Team --></label>
+            <section>Launch Team</section>
+        </sections>
+        <sections>
+            <label><!-- Main Task Details --></label>
+            <section>Main Task Details</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Revisions Team --></label>
+            <section>Revisions Team</section>
+        </sections>
+        <sections>
+            <label><!-- SEO &amp; Analytics Team --></label>
+            <section>SEO &amp; Analytics Team</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Website Execution Team --></label>
+            <section>Website Execution Team</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>White Label App</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Design Refresh --></label>
+        <name>Design_refresh</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Platform Migration --></label>
+        <name>Platform_Migration</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Platform Migration --></label>
+        <name>Platform_Migrationflow</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send to Slack --></label>
+        <name>Send_to_Slack</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Slack Alerts --></label>
+        <name>Slack_Alerts</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Template Change --></label>
+        <name>Template_Change</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- AI Lead Nurture --></label>
+        <name>AI_Lead_Nurture</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Agent Subdomains --></label>
+        <name>Agent_Subdomains</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Automated Blogs --></label>
+        <name>Automated_Blogs</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Blogs --></label>
+        <name>Blogs</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Brand Identity --></label>
+        <name>Brand_Identity</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Custom Website --></label>
+        <name>Custom_Website</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Template Change --></label>
+        <name>Design_Change</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Design Refresh --></label>
+        <name>Design_Refresh</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GBP Set Up --></label>
+        <name>GBP_Set_Up</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GBP Posts --></label>
+        <name>GMB_Posts</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- GBP SetUp --></label>
+        <name>General</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- In-App Onboarding --></label>
+        <name>In_App_Onboarding</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MLS Implementation --></label>
+        <name>MLS_Implementation</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Monthly and Quarterly Reporting --></label>
+        <name>Monthly_and_Quarterly_Reporting</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- On-Demand Ads --></label>
+        <name>On_Demand_Ads</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Pages of Copywriting --></label>
+        <name>Pages_of_Copywriting</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Paid Media --></label>
+        <name>Paid_Media</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Platform Migration --></label>
+        <name>Platform_Migration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Presence Copilot --></label>
+        <name>Presence_Copilot</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Property Website --></label>
+        <name>Property_Website</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SEO - General --></label>
+        <name>SEO_General</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SEO Keyword Analysis --></label>
+        <name>SEO_Key_Word_Analysis</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SEO Migration --></label>
+        <name>SEO_Migration</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- SEO Optimizations --></label>
+        <name>SEO_Optimizations</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Serhant SS --></label>
+        <name>Serhant_SS</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Social Media --></label>
+        <name>Social_Media</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Website Launches --></label>
+        <name>Website_Launches</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- White Label App --></label>
+        <name>White_Label_App</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- KWA cannot be completed without the account information. --></errorMessage>
+        <name>Account_Information</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please review Billing Set Up field --></errorMessage>
+        <name>Billing_Set_Up</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Change status to Sent for approval. --></errorMessage>
+        <name>Content_Review_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Core Engagement Other Reason is required. Please fill out the reason field. --></errorMessage>
+        <name>Core_Engagement_Other_Reason_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Reached Core Engagement is required. If &quot;No&quot; select Why do Clients not reach Core Engagement. If &quot;Other&quot; is selected please specify the Reason. --></errorMessage>
+        <name>Core_Engagement_Reached</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete Credit Reason field --></errorMessage>
+        <name>Credit_reason_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete Domain Registration, Notes, Password and Username fields --></errorMessage>
+        <name>Domain_registration_fields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Was the GBP Verified?&quot; is Required. If &quot;No&quot; is selected please fill out Why GBP was not verified. --></errorMessage>
+        <name>GBP_Verified_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please add the Google Doc Link --></errorMessage>
+        <name>Google_Doc_Link</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Were the 6 MLS Pages Added?&quot; are Required. If &quot;No&quot; is selected please fill out Why MLS Pages were not complete --></errorMessage>
+        <name>MLS_Pages_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please populate Campaign Type, Monthly Budget and Ad Type before moving to Start Build Out --></errorMessage>
+        <name>OnDemandAds_Validate_StartBuildOutFields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You don&apos;t have permission to change status, please contact your Technical PM. --></errorMessage>
+        <name>Ready_to_launch_to_Website_launched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please score the service in the scoring component --></errorMessage>
+        <name>Revision_Score_RR1_RR2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Submit for approval to change status. --></errorMessage>
+        <name>Revision_Submitted_Approval_Process</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a value for WB QA --></errorMessage>
+        <name>Rounds_of_QA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- SEO is not completed --></errorMessage>
+        <name>SEO_Client_launched</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please Assign a VA. --></errorMessage>
+        <name>SEO_Migration_Assigned_VA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please score the service in the scoring component --></errorMessage>
+        <name>Service_score_null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in the Scoring Notes for this service --></errorMessage>
+        <name>Social_Media_Score_Notes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Submit for approval to change status. --></errorMessage>
+        <name>Staging_Link_Approval_Process</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select the reason it was blocked. --></errorMessage>
+        <name>Status_changed_to_blocked</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Review Subdomains Document field --></errorMessage>
+        <name>Subdomains_document_not_null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Extension date cannot be edited when the website is launched, please contact billing --></errorMessage>
+        <name>Subscription_End_Date_and_Credit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The start date has begun to make any changes please contact billing. --></errorMessage>
+        <name>Subscription_Extension_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The 30 days limit has passed, please fill the extension addendum field or contact billing --></errorMessage>
+        <name>Subscription_extension_date_30_days_limi</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The 60 days limit has passed, please fill the extension addendum field or contact billing --></errorMessage>
+        <name>Subscription_extension_date_60_days_limi</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Courtesy Extension Date must be within the same calendar month and year as the Subscription Start Date. Please contact Billing. --></errorMessage>
+        <name>Validate_Courtesy_Extension_Same_Month</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete the Verification code field --></errorMessage>
+        <name>Verification_code_not_null</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete Website Draft Score before changing the stautus --></errorMessage>
+        <name>WD_Review</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please provide a reason to change it outside that stage. --></errorMessage>
+        <name>Website_launched_stage_changed</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Send_to_Slack --></label>
+        <name>Send_to_Slack</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Slack_Alerts --></label>
+        <name>Slack_Alerts</name>
+    </webLinks>
+</CustomObjectTranslation>

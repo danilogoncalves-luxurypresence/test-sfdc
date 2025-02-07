@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>(Email template for the previous CSM cc’d with the new CSM)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CSM TRANSFERRED DEPARTMENTS</name>
+    <style>none</style>
+    <subject>Meet Your New Client Success Manager, [New CSM Name]!</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

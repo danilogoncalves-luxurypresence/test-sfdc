@@ -1,0 +1,8 @@
+<html>
+ <head>
+  <title></title>
+ </head>
+ <body style="height: auto; min-height: auto;">
+  Hi&nbsp; {{{Recipient.FirstName}}},<br /> <br /> <br /> I’m thrilled to introduce your Client Success Manager, <strong>INSERT CSM NAME</strong>, who will ensure that you are set for success on your new plan.<br /> <br /> <br /> Your CSM will follow up with you shortly to ask to schedule a call so that we can get started on your marketing deliverables. We are so excited that you’ve decided to continue your journey with Luxury Presence.<br /> <br /> <br /> As always, please feel free to reach out if you have any questions.<br /> <br /> <br /> Best,<br /> {{{Sender.FirstName}}}<br /> <br /> <br /> <a href="https://www.luxurypresence.com/refer"><img alt="Referral Program Email Signature - 240809 - white" src="{[devName:Referral_Program_Email_Signature_2]}" style="max-width: 679.064453125px" title="Referral Program Email Signature - 240809 - white" /></a>
+ </body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Send out monthly to your clients. Add context if applicable.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>Email Brief | Client Monthly Automated Reporting</name>
+    <style>freeForm</style>
+    <subject>Luxury Presence | Your [Month] Results</subject>
+    <textOnly>Hi {client name},
+
+Attached is your monthly report and a glossary explaining the reporting metrics. Below are the month’s highlights, areas for improvement, and action items for you. 
+
+[CSM to insert paragraph on results, etc.]
+
+[Month] Highlights:
+{# of leads generated}
+{Warm hand-offs from AILN}
+{Keyword highlights for SEO Pro}
+Top-ranking keywords, etc.
+
+Recommendations:
+{optional}
+
+Reminders:
+{optional, if any}
+
+
+Let’s connect if you have questions or want to accelerate your growth with any of the recommendations above.
+
+Best,
+{CSM}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

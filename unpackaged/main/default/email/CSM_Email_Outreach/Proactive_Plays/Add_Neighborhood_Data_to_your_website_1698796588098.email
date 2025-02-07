@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi {{{Recipient.FirstName}}},</p>
+
+<p>I’m reaching out to see if I can help you market any of your listings. Agents who use our custom Property Sites receive <strong>63% more buyer leads</strong> on average than those who don’t.</p>
+
+<p>Here’s a case study about how celebrity agent Cindy Ambuel used our Property Sites to Close <a href="https://www.luxurypresence.com/case/how-cindy-ambuehl-leveraged-custom-property-websites-to-close-38-deals-worth-250-million/">38 Deals Worth $250 Million.</a></p>
+
+<p>The feature is included free of charge with your current plan. It takes just 2 minutes to learn how to use it. I’ve included a training video <a href="https://www.loom.com/share/d96d5ee7045a4ce9be9a199b1ea864b1?sid=e3d44c9f-9a10-402e-8dbf-59d5c985b74f">here</a>.</p>
+
+<p>If you need any help learning the tool, let me know!</p>
+
+<p>Best,</p>
+
+<p>{{{Sender.Name}}}</p>
+</body>
+</html>

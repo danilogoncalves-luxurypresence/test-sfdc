@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Lost_Primary_Reason__c</fullName>
+    <label>Closed Lost Primary Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Closed_Lost_Root_Cause__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>In a contract</fullName>
+                <default>false</default>
+                <label>In a contract</label>
+            </value>
+            <value>
+                <fullName>Other &quot;Now&#39;s not a good time&quot;</fullName>
+                <default>false</default>
+                <label>Other &quot;Now&#39;s not a good time&quot;</label>
+            </value>
+            <value>
+                <fullName>Low transaction volume</fullName>
+                <default>false</default>
+                <label>Low transaction volume</label>
+            </value>
+            <value>
+                <fullName>Retiring/scaling back</fullName>
+                <default>false</default>
+                <label>Retiring/scaling back</label>
+            </value>
+            <value>
+                <fullName>Part-time</fullName>
+                <default>false</default>
+                <label>Part-time</label>
+            </value>
+            <value>
+                <fullName>Geography</fullName>
+                <default>false</default>
+                <label>Geography</label>
+            </value>
+            <value>
+                <fullName>Online</fullName>
+                <default>false</default>
+                <label>Online</label>
+            </value>
+            <value>
+                <fullName>Prospect&#39;s network</fullName>
+                <default>false</default>
+                <label>Prospect&#39;s network</label>
+            </value>
+            <value>
+                <fullName>Need CRM functionality</fullName>
+                <default>false</default>
+                <label>Need CRM functionality</label>
+            </value>
+            <value>
+                <fullName>Missing integration</fullName>
+                <default>false</default>
+                <label>Missing integration</label>
+            </value>
+            <value>
+                <fullName>Missing search filters</fullName>
+                <default>false</default>
+                <label>Missing search filters</label>
+            </value>
+            <value>
+                <fullName>Missing development/new construction features</fullName>
+                <default>false</default>
+                <label>Missing development/new construction features</label>
+            </value>
+            <value>
+                <fullName>Missing rental features</fullName>
+                <default>false</default>
+                <label>Missing rental features</label>
+            </value>
+            <value>
+                <fullName>Design/look and feel</fullName>
+                <default>false</default>
+                <label>Design/look and feel</label>
+            </value>
+            <value>
+                <fullName>Market Conditions/Macro</fullName>
+                <default>false</default>
+                <label>Market Conditions/Macro</label>
+            </value>
+            <value>
+                <fullName>90 Days no movement</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>90 Days no movement</label>
+            </value>
+            <value>
+                <fullName>Brokerage</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Brokerage</label>
+            </value>
+            <value>
+                <fullName>Budget</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Budget</label>
+            </value>
+            <value>
+                <fullName>CRM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CRM</label>
+            </value>
+            <value>
+                <fullName>CRM Integration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CRM Integration</label>
+            </value>
+            <value>
+                <fullName>Content</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Content</label>
+            </value>
+            <value>
+                <fullName>Cost is too High</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cost is too High</label>
+            </value>
+            <value>
+                <fullName>Email Marketing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Email Marketing</label>
+            </value>
+            <value>
+                <fullName>Home Values</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Home Values</label>
+            </value>
+            <value>
+                <fullName>IDX feed</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IDX feed</label>
+            </value>
+            <value>
+                <fullName>Location</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Location</label>
+            </value>
+            <value>
+                <fullName>Now&#39;s not a good time</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Now&#39;s not a good time</label>
+            </value>
+            <value>
+                <fullName>Online Reviews</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Online Reviews</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Overall</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Overall</label>
+            </value>
+            <value>
+                <fullName>PPC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PPC</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>SEO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SEO</label>
+            </value>
+            <value>
+                <fullName>Scaling back</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Scaling back</label>
+            </value>
+            <value>
+                <fullName>Social</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Social</label>
+            </value>
+            <value>
+                <fullName>Spouse</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Spouse</label>
+            </value>
+            <value>
+                <fullName>Time of year</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Time of year</label>
+            </value>
+            <value>
+                <fullName>Transaction Volume</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Transaction Volume</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Website</label>
+            </value>
+            <value>
+                <fullName>Word of Mouth</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Word of Mouth</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Product Functionality</controllingFieldValue>
+            <valueName>Need CRM functionality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Functionality</controllingFieldValue>
+            <valueName>Missing integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Functionality</controllingFieldValue>
+            <valueName>Missing search filters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Functionality</controllingFieldValue>
+            <valueName>Missing development/new construction features</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Functionality</controllingFieldValue>
+            <valueName>Missing rental features</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Functionality</controllingFieldValue>
+            <valueName>Design/look and feel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Timing</controllingFieldValue>
+            <valueName>In a contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Timing</controllingFieldValue>
+            <valueName>Other &quot;Now&#39;s not a good time&quot;</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Timing</controllingFieldValue>
+            <valueName>Market Conditions/Macro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reputation</controllingFieldValue>
+            <valueName>Online</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reputation</controllingFieldValue>
+            <valueName>Prospect&#39;s network</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bad Fit/ICP</controllingFieldValue>
+            <valueName>Low transaction volume</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bad Fit/ICP</controllingFieldValue>
+            <valueName>Retiring/scaling back</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bad Fit/ICP</controllingFieldValue>
+            <valueName>Part-time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bad Fit/ICP</controllingFieldValue>
+            <valueName>Geography</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_Contact_Owner</fullName>
+    <active>true</active>
+    <description>If a contact has the field Industry Contact set to true, it can only be owned by Drew or JP.</description>
+    <errorConditionFormula>AND(
+Industry_Contact__c = true,
+Owner.CommunityNickname &lt;&gt; &quot;Drew Wilke&quot;,
+Owner.CommunityNickname&lt;&gt; &quot;JP Descheneaux&quot;
+)</errorConditionFormula>
+    <errorMessage>This contact can only be owned by certain users, please contact your system admin.</errorMessage>
+</ValidationRule>

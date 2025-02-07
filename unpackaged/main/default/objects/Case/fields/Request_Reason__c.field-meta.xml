@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Reason__c</fullName>
+    <label>Request Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Delayed Onboarding</fullName>
+                <default>false</default>
+                <label>Delayed Onboarding</label>
+            </value>
+            <value>
+                <fullName>Service Issue</fullName>
+                <default>false</default>
+                <label>Service Issue</label>
+            </value>
+            <value>
+                <fullName>Missed Deliverable</fullName>
+                <default>false</default>
+                <label>Missed Deliverable</label>
+            </value>
+            <value>
+                <fullName>Preserve Relationship</fullName>
+                <default>false</default>
+                <label>Preserve Relationship</label>
+            </value>
+            <value>
+                <fullName>Protect Brand</fullName>
+                <default>false</default>
+                <label>Protect Brand</label>
+            </value>
+            <value>
+                <fullName>Financial Hardship</fullName>
+                <default>false</default>
+                <label>Financial Hardship</label>
+            </value>
+            <value>
+                <fullName>Billing Issue</fullName>
+                <default>false</default>
+                <label>Billing Issue</label>
+            </value>
+            <value>
+                <fullName>Courtesy Credit (Post Launch)</fullName>
+                <default>false</default>
+                <label>Courtesy Credit (Post Launch)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Escalation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Escalation</label>
+            </value>
+            <value>
+                <fullName>Retention</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Retention</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_Courtesy_Extension_Same_Month</fullName>
+    <active>true</active>
+    <description>Ensures the Courtesy Extension Date remains in the same calendar month and year as the Subscription Start Date.</description>
+    <errorConditionFormula>AND(
+    OR(
+        RecordType.DeveloperName = &quot;Website_Launches&quot;,
+        RecordType.DeveloperName = &quot;Property_Website&quot;,
+        RecordType.DeveloperName = &quot;Custom_Website&quot;,
+        RecordType.DeveloperName = &quot;Agent_Subdomains&quot;,
+        RecordType.DeveloperName = &quot;In_App_Onboarding&quot;
+    ),
+    ISCHANGED(Subscription_extension_date__c),
+    OR(
+        MONTH(Subscription_extension_date__c) &lt;&gt; MONTH(Subscription_start_date__c),
+        YEAR(Subscription_extension_date__c) &lt;&gt; YEAR(Subscription_start_date__c)
+    )
+)</errorConditionFormula>
+    <errorMessage>Courtesy Extension Date must be within the same calendar month and year as the Subscription Start Date. Please contact Billing.</errorMessage>
+</ValidationRule>

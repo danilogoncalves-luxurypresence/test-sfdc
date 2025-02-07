@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Documentation__c</fullName>
+    <label>Documentation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>Update Current Documentation</fullName>
+                <default>false</default>
+                <label>Update Current Documentation</label>
+            </value>
+            <value>
+                <fullName>Create New Documentation</fullName>
+                <default>false</default>
+                <label>Create New Documentation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

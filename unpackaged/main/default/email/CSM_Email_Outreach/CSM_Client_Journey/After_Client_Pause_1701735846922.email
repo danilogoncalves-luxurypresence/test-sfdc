@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+Your Luxury Presence Marketing services are set to resume on [DATE]. I’m looking forward to kicking things off!<br />
+<br />
+Here are a few quick action items.&nbsp;
+<ul>
+	<li><strong>Schedule a meeting on my calendar <u>here</u></strong>. During this time, we’ll discuss your content calendar, monthly SEO optimizations, your Google Business Profile, and paid media for active lead generation.</li>
+	<li><strong>Review your next blog.</strong> Your <u>next blog post, [BLOG POST NAME]</u>, is ready for your review. It includes key phrases to help with search engine relevance. This post is scheduled to be published on your site 7 days from today, so please make any edits before then! You can add your edit requests via comments in the blog draft, or you can reply directly to this email with your approval. Note that small edits can still be applied to your live blog after this date.</li>
+</ul>
+Speak with you soon!&nbsp;<br />
+<br />
+Best,&nbsp;<br />
+{{{Sender.Name}}}</body>
+</html>

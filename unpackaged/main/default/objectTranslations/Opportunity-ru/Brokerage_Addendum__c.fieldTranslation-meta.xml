@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Brokerage Addendum --></label>
+        <name>Brokerage_Addendum__c</name>
+        <picklistValues>
+            <masterLabel>Coldwell Banker</masterLabel>
+            <translation><!-- Coldwell Banker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass</masterLabel>
+            <translation><!-- Compass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corcoran</masterLabel>
+            <translation><!-- Corcoran --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ReMax</masterLabel>
+            <translation><!-- ReMax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIR</masterLabel>
+            <translation><!-- SIR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Side</masterLabel>
+            <translation><!-- Side --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

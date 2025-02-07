@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Geographic Target Area/Areas Served --></label>
+        <name>Geographic_Target_Area_Areas_Served__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pages_to_Review__c</fullName>
+    <inlineHelpText>What pages would you like to make revisions on?
+Our team will be in touch once the revisions have been completed. Standard turnaround times are 2-3 business days.</inlineHelpText>
+    <label>Pages to Review</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

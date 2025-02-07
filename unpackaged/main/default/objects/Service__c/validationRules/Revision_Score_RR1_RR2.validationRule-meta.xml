@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revision_Score_RR1_RR2</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR(
+AND (
+ISPICKVAL( Status__c , &quot;Revision Submitted&quot;),
+ISPICKVAL( Revision_Score_RR1__c ,&quot;&quot;),
+Client_Revision_Count__c =1
+),
+
+AND (
+ISPICKVAL( Status__c , &quot;Revision Submitted&quot;),
+ISPICKVAL( Revision_Score_RR2__c ,&quot;&quot;),
+Client_Revision_Count__c =2
+)
+
+)</errorConditionFormula>
+    <errorMessage>Please score the service in the scoring component</errorMessage>
+</ValidationRule>

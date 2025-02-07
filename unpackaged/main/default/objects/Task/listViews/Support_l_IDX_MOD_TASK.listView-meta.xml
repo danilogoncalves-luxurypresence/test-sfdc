@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_l_IDX_MOD_TASK</fullName>
+    <columns>STATUS</columns>
+    <columns>SUBJECT</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>DUE_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Assigned_Team__c</field>
+        <operation>equals</operation>
+        <value>IDX</value>
+    </filters>
+    <filters>
+        <field>STATUS</field>
+        <operation>equals</operation>
+        <value>New,In Progress,Additional Revisions,Sent for approval,SFA Revisions,Additional Feedback,Done,Open,To-do,Completed</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER.ALIAS</field>
+        <operation>contains</operation>
+        <value>acohe</value>
+    </filters>
+    <label>Support l IDX MOD TASK {Template}</label>
+</ListView>

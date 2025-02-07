@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Lead Gen Service --></label>
+        <name>Lead_Gen_Service__c</name>
+        <relationshipLabel><!-- Opportunities (Lead Gen Service) --></relationshipLabel>
+    </CustomFieldTranslation>

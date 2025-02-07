@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+Thanks for reaching out! It’s my job to ensure that you’re getting the most value out of your Luxury Presence plan.<br />
+<br />
+Your subscription ends on [date] and you can make adjustments to your plan then. I've attached your contract for your reference.&nbsp;<br />
+<br />
+In the meanwhile, I want to make sure you’re taking advantage of your current plan! Your contract includes paid advertising for active lead generation, which you have not used so far. Is lead generation something you'd like to explore?&nbsp;<br />
+<br />
+There are some other opportunities we can lean into to help increase your business growth, including optimizing your Google Business Profile, sending consistent monthly newsletters to increase referrals from your network, and expert social media management. I’m happy to advise on any or all of these.&nbsp;<br />
+<br />
+Let’s schedule a quick call to discuss your needs in real-time. Are you available this week or next?[Link] <u>Here’s my calendar&nbsp;</u>so you can book a time that works for you.<br />
+<br />
+Best,<br />
+{{{Sender.Name}}}</body>
+</html>

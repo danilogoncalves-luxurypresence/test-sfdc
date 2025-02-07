@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Past Due Payment</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Past Due Payment</name>
+    <style>none</style>
+    <subject>Past Due Invoice on Your Account</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Average of RR1 &amp; RR 2 revisions --></help>
+        <label><!-- Service Score --></label>
+        <name>Service_Score__c</name>
+    </CustomFieldTranslation>

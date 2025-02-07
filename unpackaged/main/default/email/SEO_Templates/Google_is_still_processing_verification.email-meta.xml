@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Google is still processing verification</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Google is still processing verification</name>
+    <style>none</style>
+    <subject>Google is still processing verification - Update from Luxury Presence</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

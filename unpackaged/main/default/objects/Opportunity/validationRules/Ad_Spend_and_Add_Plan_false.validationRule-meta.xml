@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ad_Spend_and_Add_Plan_false</fullName>
+    <active>true</active>
+    <description>If the Product &quot;Ad Spend&quot; is added to an opportunity (Reduce Service RT or Add Service where Add Plan = false) then ensure the lookup field &quot;Lead Gen Service&quot; is not blank.</description>
+    <errorConditionFormula>AND(
+  Ad_Spend_Product__c = true,
+  Lead_Gen_Ads_Product__c = false,
+  ISBLANK(Lead_Gen_Service__c),
+  ISCHANGED( StageName ),
+  ISPICKVAL(StageName , &quot;Closed Won&quot;),
+OR(
+  Record_Type_Name__c = &quot;Reduce Service&quot;,
+  Record_Type_Name__c = &quot;Add Service&quot;
+)
+)</errorConditionFormula>
+    <errorMessage>The field &quot;Lead Gen Service&quot; should link to the specific service where the ad budget adjustment will be applied.</errorMessage>
+</ValidationRule>

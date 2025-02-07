@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+Your annual Luxury Presence [PLAN+ NAME] will automatically renew on [contract renewal date]. Your final payment for this term will be paid on [final payment date].&nbsp;<br />
+<br />
+If you’d like the option to move to monthly payments or if you have any questions regarding your plan, please reply to this email before your renewal date.<br />
+<br />
+If you need to change your credit card on file, you can <a href="https://users.instapayments.io/luxurypresence/secure/login">update it here</a>. Enter the email address associated with your account and you’ll receive an email with a secure link where you can enter your new card information.&nbsp;<br />
+<br />
+Looking forward to another great year together!&nbsp;<br />
+<br />
+{{{Sender.Name}}}</body>
+</html>

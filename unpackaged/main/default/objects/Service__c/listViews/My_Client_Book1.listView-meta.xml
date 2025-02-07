@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Client_Book1</fullName>
+    <columns>NAME</columns>
+    <columns>Tier_Plan_Account__c</columns>
+    <columns>Status__c</columns>
+    <columns>Staging_Link__c</columns>
+    <columns>Service_not_launched_80_days__c</columns>
+    <columns>Website_Launch_Date__c</columns>
+    <columns>Account__c</columns>
+    <columns>Account_Manager__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.Design_Refresh,Service__c.Design_Change</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Website Launched,Paused,Cancelled</value>
+    </filters>
+    <filters>
+        <field>OWNER.FIRST_NAME</field>
+        <operation>notEqual</operation>
+        <value>Allie</value>
+    </filters>
+    <label>Live Clients Board</label>
+</ListView>

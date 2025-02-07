@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CB_GL_Members_07_01_2024_ROE_12</fullName>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QEY000002jqlv2AA,00QRg000005N3OXMA0,00QRg000004iRlPMAU,00QRg000005MvDxMAK,00QEY000002nA0c2AE,00QRg000004iTdWMAU,00QEY000002oMz52AE,00QEY000002nAb92AE,00QEY000002ojor2AA,00QEY000002jo1i2AA,00QEY000002jx4P2AQ,00QEY000002jo6M2AQ</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QEY000002jryU2AQ,00QEY000002jzxe2AA,00QEY000002jzmr2AA,00QEY000002nBEX2A2,00QEY000002jppu2AA,00QRg000005N3ytMAC,00QEY000002qFYw2AM,00QEY000002jpst2AA,00QEY000002jp1u2AA,00QEY000002nA962AE,00QEY000002oN1O2AU,00QEY000002m0rN2AQ</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QEY000002jo9F2AQ,00QEY000002jr802AA,00QEY000002jtD02AI,00QEY000002o8OD2AY,00QEY000002jxO02AI,00QEY000002jo8P2AQ,00QEY000002oge42AA,00QEY000002joFP2AY,00QEY000002jv2D2AQ,00QEY000002o5II2AY,00QEY000002jtJF2AY,00QEY000002jpu72AA</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QRg000005N3kiMAC,00QEY000002jzl72AA,00QEY000002joJV2AY,00QEY000002jpQU2AY,00QRg000005N9oiMAC,00QEY000002kB9Z2AU,00QEY000002jtbj2AA,00QEY000002jsIH2AY,00QEY000002jqkd2AA,00QEY000002jtT22AI,00QRg000004iSo2MAE,00QEY000002nA252AE</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QEY000002joJw2AI,00QEY000002jqxE2AQ,00QEY000002k35A2AQ,00QEY000002jtMJ2AY,00QEY000002mjMk2AI,00QEY000002josc2AA,00QEY000002jyCq2AI,00QEY000002oMxL2AU,00QEY000002jr4p2AA,00QRg000005NBv0MAG,00QEY000002jr3u2AA,00QEY000002jtz22AA</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QRg0000057ZPtMAM,00QEY000002jx5e2AA,00QEY000002oNHG2A2,00QEY000002jsQU2AY,00QRg000005N4N7MAK,00QEY000002jsFg2AI,00QEY000002joJZ2AY,00QEY000002nkEf2AI,00QEY000002o9BL2AY,00QRg000004iTKKMA2,00QEY000002jvSW2AY,00QEY000002jt1c2AA</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QEY000002jpUO2AY,00QEY000002jofB2AQ,00QEY000002jx8Q2AQ,00QEY000002jokG2AQ,00QEY000002jwkC2AQ,00QEY000002oNJM2A2,00QRg0000059CVlMAM,00QRg0000058EZuMAM,00QEY000002jrDl2AI,00QEY000002k2GB2AY,00QEY000002jong2AA,00QRg000004iV5yMAE</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QEY000002jo852AA,00QEY000002jyAK2AY,00QRg000005N3yZMAS,00QEY000002jpg72AA,00QEY000002jpXX2AY,00QEY000002jpEM2AY,00QEY000002jtyW2AQ,00QRg000005N1bwMAC,00QRg000005N30xMAC,00QEY000002jqbL2AQ,00QEY000002jqks2AA,00QEY000002oTqs2AE</value>
+    </filters>
+    <label>CB GL Members - 07-01-2024 ROE - 12</label>
+</ListView>

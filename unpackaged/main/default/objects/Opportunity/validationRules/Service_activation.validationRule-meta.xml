@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_activation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISBLANK( Service_Activation__c  ),
+ISCHANGED(StageName),
+ISPICKVAL( StageName , &quot;Closed Won&quot;),
+RecordTypeId = &quot;0125f000000VvK3&quot;,
+ISPICKVAL( Addendum_Type__c ,&quot;Pause&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Service_Activation__c</errorDisplayField>
+    <errorMessage>Please fill in the Service Activation date</errorMessage>
+</ValidationRule>

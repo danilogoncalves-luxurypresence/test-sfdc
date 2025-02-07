@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Lost_Primary_Reason_Null</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+ ISPICKVAL( StageName , &quot;Closed Lost&quot;),
+
+ OR( ISPICKVAL(Closed_Lost_Root_Cause__c,&#39;Reputation&#39;),
+ISPICKVAL(Closed_Lost_Root_Cause__c,&#39;Product Functionality&#39;),
+ISPICKVAL(Closed_Lost_Root_Cause__c,&#39;Bad Fit/ICP&#39;),
+ISPICKVAL(Closed_Lost_Root_Cause__c,&#39;Timing&#39;)),
+
+ ISPICKVAL( Closed_Lost_Primary_Reason__c ,&quot;&quot;)
+)</errorConditionFormula>
+    <errorMessage>&quot;Closed lost primary&quot; reason is blank. Please provide a primary reason before moving this opportunity to closed lost.</errorMessage>
+</ValidationRule>

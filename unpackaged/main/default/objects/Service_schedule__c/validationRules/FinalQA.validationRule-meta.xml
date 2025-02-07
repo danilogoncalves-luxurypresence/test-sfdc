@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinalQA</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+ Final_QA__c =! true,
+ ISPICKVAL(Status__c , &quot;Ready for Launch&quot;), 
+ RecordType.Name = &quot;Paid Media&quot;
+
+)</errorConditionFormula>
+    <errorDisplayField>Final_QA__c</errorDisplayField>
+    <errorMessage>To change status to &quot;Ready to Launch&quot; make sure is the Fina QA</errorMessage>
+</ValidationRule>

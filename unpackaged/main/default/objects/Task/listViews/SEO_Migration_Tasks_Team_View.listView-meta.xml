@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SEO_Migration_Tasks_Team_View</fullName>
+    <columns>SUBJECT</columns>
+    <columns>WHO_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>DUE_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>WHAT_NAME</field>
+        <operation>contains</operation>
+        <value>SEO Migration</value>
+    </filters>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>notEqual</operation>
+        <value>New Client Setup</value>
+    </filters>
+    <filters>
+        <field>SUBJECT</field>
+        <operation>notContain</operation>
+        <value>Index Audit</value>
+    </filters>
+    <label>SEO Migration - Open Tasks</label>
+</ListView>

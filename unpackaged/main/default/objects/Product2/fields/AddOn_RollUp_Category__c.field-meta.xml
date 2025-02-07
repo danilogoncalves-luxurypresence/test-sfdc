@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AddOn_RollUp_Category__c</fullName>
+    <description>tell line rollUp flow which fee category to add the price to</description>
+    <inlineHelpText>determines which fee category to rollUp to opportunity
+-if blank will assume Subscription</inlineHelpText>
+    <label>AddOn RollUp Category</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Subscription</fullName>
+                <default>false</default>
+                <label>Subscription</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>One Time Fee</fullName>
+                <default>false</default>
+                <label>One Time Fee</label>
+            </value>
+            <value>
+                <fullName>Ad Spend</fullName>
+                <default>false</default>
+                <label>Ad Spend</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

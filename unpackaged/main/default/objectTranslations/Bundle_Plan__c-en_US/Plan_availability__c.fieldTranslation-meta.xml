@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Plan availability --></label>
+        <name>Plan_availability__c</name>
+        <picklistValues>
+            <masterLabel>Addendum</masterLabel>
+            <translation><!-- Addendum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Sales</masterLabel>
+            <translation><!-- New Sales --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <caseValues>
+            <plural>false</plural>
+            <value>Amended Subscription</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Amended Subscriptions</value>
+        </caseValues>
+        <name>amended_contract</name>
+        <startsWith>Consonant</startsWith>
+    </CustomFieldTranslation>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>dummy@luxurypresence.com.invalid</email>
+    <name>Callbacks</name>
+    <queueMembers>
+        <users>
+            <user>apaiva@luxurypresence.com</user>
+            <user>awright@luxurypresence.com</user>
+            <user>brebai@luxurypresence.com</user>
+            <user>bward@luxurypresence.com</user>
+            <user>blavoie@luxurypresence.com</user>
+            <user>ejarman@luxurypresence.com</user>
+            <user>jamponsah@luxurypresence.com</user>
+            <user>jherrera@luxurypresence.com</user>
+            <user>kayers@luxurypresence.com</user>
+            <user>kkalaydjian@luxurypresence.com</user>
+            <user>mstones@luxurypresence.com</user>
+            <user>mgorski@luxurypresence.com</user>
+            <user>spatterson@luxurypresence.com</user>
+            <user>slall@luxurypresence.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Case_Emails</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

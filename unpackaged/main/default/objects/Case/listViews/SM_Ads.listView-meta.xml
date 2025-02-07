@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SM_Ads</fullName>
+    <columns>OWNER_NAME</columns>
+    <columns>Due_Date__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>of_Reels__c</columns>
+    <columns>Add_CTA__c</columns>
+    <columns>Content_Creator__c</columns>
+    <columns>Service_Schedule__c</columns>
+    <columns>Strategist__c</columns>
+    <columns>Templates__c</columns>
+    <columns>Type_of_Music__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Social_Media_Reels</value>
+    </filters>
+    <filters>
+        <field>Social_Media_Request_Type__c</field>
+        <operation>equals</operation>
+        <value>Ads</value>
+    </filters>
+    <label>SM Ads</label>
+</ListView>

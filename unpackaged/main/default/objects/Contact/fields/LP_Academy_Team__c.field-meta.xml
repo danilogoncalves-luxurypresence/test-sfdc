@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LP_Academy_Team__c</fullName>
+    <description>Used for Employee Record Types and the Northpass integration</description>
+    <label>LP Academy Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CSD - Client Experience</fullName>
+                <default>false</default>
+                <label>CSD - Client Experience</label>
+            </value>
+            <value>
+                <fullName>CSD - Content</fullName>
+                <default>false</default>
+                <label>CSD - Content</label>
+            </value>
+            <value>
+                <fullName>CSD - CSM</fullName>
+                <default>false</default>
+                <label>CSD - CSM</label>
+            </value>
+            <value>
+                <fullName>CSD - DCSM</fullName>
+                <default>false</default>
+                <label>CSD - DCSM</label>
+            </value>
+            <value>
+                <fullName>CSD - Onboarding</fullName>
+                <default>false</default>
+                <label>CSD - Onboarding</label>
+            </value>
+            <value>
+                <fullName>CSD - Paid Media</fullName>
+                <default>false</default>
+                <label>CSD - Paid Media</label>
+            </value>
+            <value>
+                <fullName>CSD - PFT - IDX - Offshore</fullName>
+                <default>false</default>
+                <label>CSD - PFT - IDX - Offshore</label>
+            </value>
+            <value>
+                <fullName>CSD - PFT - IDX - Onshore</fullName>
+                <default>false</default>
+                <label>CSD - PFT - IDX - Onshore</label>
+            </value>
+            <value>
+                <fullName>CSD - PFT - Launch - Offshore</fullName>
+                <default>false</default>
+                <label>CSD - PFT - Launch - Offshore</label>
+            </value>
+            <value>
+                <fullName>CSD - PFT - Launch - Onshore</fullName>
+                <default>false</default>
+                <label>CSD - PFT - Launch - Onshore</label>
+            </value>
+            <value>
+                <fullName>CSD - PFT - PET - Offshore</fullName>
+                <default>false</default>
+                <label>CSD - PFT - PET - Offshore</label>
+            </value>
+            <value>
+                <fullName>CSD - PFT - PET - Onshore</fullName>
+                <default>false</default>
+                <label>CSD - PFT - PET - Onshore</label>
+            </value>
+            <value>
+                <fullName>CSD - SEO</fullName>
+                <default>false</default>
+                <label>CSD - SEO</label>
+            </value>
+            <value>
+                <fullName>CSD - Social Media</fullName>
+                <default>false</default>
+                <label>CSD - Social Media</label>
+            </value>
+            <value>
+                <fullName>CSD - Support</fullName>
+                <default>false</default>
+                <label>CSD - Support</label>
+            </value>
+            <value>
+                <fullName>Sales - AE1 - Onboarding</fullName>
+                <default>false</default>
+                <label>Sales - AE1 - Onboarding</label>
+            </value>
+            <value>
+                <fullName>Sales - AE1s and AE2s</fullName>
+                <default>false</default>
+                <label>Sales - AE1s and AE2s</label>
+            </value>
+            <value>
+                <fullName>Sales - Managers</fullName>
+                <default>false</default>
+                <label>Sales - Managers</label>
+            </value>
+            <value>
+                <fullName>Sales - SDR</fullName>
+                <default>false</default>
+                <label>Sales - SDR</label>
+            </value>
+            <value>
+                <fullName>Sales - SDR - Onboarding</fullName>
+                <default>false</default>
+                <label>Sales - SDR - Onboarding</label>
+            </value>
+            <value>
+                <fullName>Sales - Strategic AE3 and BDR</fullName>
+                <default>false</default>
+                <label>Sales - Strategic AE3 and BDR</label>
+            </value>
+            <value>
+                <fullName>CSD - Social - Offshore</fullName>
+                <default>false</default>
+                <label>CSD - Social - Offshore</label>
+            </value>
+            <value>
+                <fullName>CSD - Support - Offshore VAs</fullName>
+                <default>false</default>
+                <label>CSD - Support - Offshore VAs</label>
+            </value>
+            <value>
+                <fullName>CSD - Support - Onshore</fullName>
+                <default>false</default>
+                <label>CSD - Support - Onshore</label>
+            </value>
+            <value>
+                <fullName>CSD - Social Media - Onshore</fullName>
+                <default>false</default>
+                <label>CSD - Social Media - Onshore</label>
+            </value>
+            <value>
+                <fullName>Billing</fullName>
+                <default>false</default>
+                <label>Billing</label>
+            </value>
+            <value>
+                <fullName>CSD - PFT</fullName>
+                <default>false</default>
+                <label>CSD - PFT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

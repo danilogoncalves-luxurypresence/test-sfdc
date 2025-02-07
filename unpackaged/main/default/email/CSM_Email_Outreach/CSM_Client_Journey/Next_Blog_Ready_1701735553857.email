@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}},<br />
+<br />
+I've got your next blog post ready for your review! You can check it out at the link below.&nbsp;<br />
+<br />
+[Insert blog title here with hyperlink]<br />
+<br />
+Your blog is written with SEO as the #1 goal to ensure long-term keyword success. We incorporated key phrases including "[insert key phrase here]" to help with search engine relevance.<br />
+<br />
+This post is scheduled to be published on your site 7 days from today, so please make any edits before then! You can add your edit requests via comments in the blog draft, or you can reply directly to this email with your approval. If you do leave comments in the document, please let me know so I can notify our Content Team in a timely manner.<br />
+<br />
+Thank you!<br />
+{{{Sender.Name}}}</body>
+</html>

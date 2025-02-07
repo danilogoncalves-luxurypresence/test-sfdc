@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div><br></div><div><br></div><div><br></div>Hello&nbsp;{!Contact.FirstName},<div><br></div><div>We would love to hear your feedback after reviewing your Search Engine Optimization (SEO) performance report.&nbsp;</div><div><br></div><div>Please take just a few moments to let us know how we are doing by filling out <a href="https://delighted.com/t/z7SGmTWv?email={!Contact.Email}&amp;name={!Contact.FirstName}">this quick survey</a>.</div><div><br></div><div>Best,&nbsp;</div><div>Luxury Presence Team</div>]]></td>
+</tr>
+</table>

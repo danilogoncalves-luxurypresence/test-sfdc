@@ -1,0 +1,2076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Billing_notification_credit_reason_change</name>
+        <label>Billing notification - credit reason change</label>
+        <locationX>1612</locationX>
+        <locationY>3671</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>bodyCreditReasonChanged</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <stringValue>billing@luxurypresence.com</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>{!$Record.Name} - Credit Reason</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Cancelled_email</name>
+        <label>Cancelled email</label>
+        <locationX>50</locationX>
+        <locationY>1463</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Migration_falls_in_scope</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>CancelledEmail</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <stringValue>billing@luxurypresence.com</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue> Cancelled Deal for {!$Record.Name} </stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Content_Review_Approval</name>
+        <label>Content Review Approval</label>
+        <locationX>842</locationX>
+        <locationY>539</locationY>
+        <actionName>submit</actionName>
+        <actionType>submit</actionType>
+        <connector>
+            <targetReference>Migration_falls_in_scope</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>processDefinitionNameOrId</name>
+            <value>
+                <stringValue>Content_Review</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>objectId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>submit</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Notify_AM</name>
+        <label>Notify AM</label>
+        <locationX>226</locationX>
+        <locationY>1163</locationY>
+        <actionName>chatterPost</actionName>
+        <actionType>chatterPost</actionType>
+        <connector>
+            <targetReference>Website_Launches</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>text</name>
+            <value>
+                <stringValue>@[{!$Record.Account__r.Account_Manager__c}] Service is cancelled</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>subjectNameOrId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>chatterPost</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Owners_notification</name>
+        <label>Owners notification</label>
+        <locationX>226</locationX>
+        <locationY>863</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <connector>
+            <targetReference>CSM_not_support</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>$Label.ID_Notification_NewRecord</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <stringValue>The Service {!$Record.Name} has been cancelled, please review</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>Service Cancelled</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>collectionUser</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>customNotificationAction</nameSegment>
+        <offset>0</offset>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_email</name>
+        <label>Send email</label>
+        <locationX>1106</locationX>
+        <locationY>539</locationY>
+        <actionName>Service__c.Service_launched</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Email_sent_to_OM_true</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Service__c.Service_launched</nameSegment>
+        <offset>0</offset>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_email_to_Adam</name>
+        <label>Send email to Adam</label>
+        <locationX>1832</locationX>
+        <locationY>3071</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Service_status_SEO_Migration_Audit</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>bodyClientAgrees</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <stringValue>dceballos@izeicg.com,ibravo@luxurypresence.com</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Client don&#39;t agrees to upsell</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Subscription_Extention_date</name>
+        <label>Subscription Extention date</label>
+        <locationX>2602</locationX>
+        <locationY>539</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Update_Subscription</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <stringValue>billing@luxurypresence.com</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>New Subscription Extension for {!$Record.Name} </stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>BillingTemplate</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>54.0</apiVersion>
+    <assignments>
+        <name>Add_owner_to_collection_cancelled</name>
+        <label>Add owner to collection</label>
+        <locationX>226</locationX>
+        <locationY>755</locationY>
+        <assignmentItems>
+            <assignToReference>collectionUser</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Owners_notification</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Add_ss_to_collection</name>
+        <label>Add ss to collection</label>
+        <locationX>490</locationX>
+        <locationY>1787</locationY>
+        <assignmentItems>
+            <assignToReference>collectionServiceSchedule</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>singleServiceSchedule</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Each_ss</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Cancel_ss</name>
+        <label>Cancel ss</label>
+        <locationX>490</locationX>
+        <locationY>1679</locationY>
+        <assignmentItems>
+            <assignToReference>singleServiceSchedule.Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Cancelled</stringValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>singleServiceSchedule.Id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Each_ss.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_ss_to_collection</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Clear_variables</name>
+        <label>Clear variables</label>
+        <locationX>402</locationX>
+        <locationY>2087</locationY>
+        <assignmentItems>
+            <assignToReference>singleServiceSchedule</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>collectionServiceSchedule</assignToReference>
+            <operator>RemoveAll</operator>
+            <value>
+                <elementReference>collectionServiceSchedule</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Migration_falls_in_scope</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <description>If &quot;yes&quot; then create &quot;SEO Migration | Web Builder&quot; task assigned to Web Builder. If &quot;no&quot; send email notification to Adam and status = SEO Migration Audit</description>
+        <name>Client_agrees_to_upsell</name>
+        <label>Client agrees to upsell</label>
+        <locationX>1744</locationX>
+        <locationY>2963</locationY>
+        <defaultConnector>
+            <targetReference>Credit_reason_is_changed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Client_agrees_to_upsell__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Yes</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_building_site</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Yes</label>
+        </rules>
+        <rules>
+            <name>No2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Client_agrees_to_upsell__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_email_to_Adam</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>No</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Credit_reason_is_changed</name>
+        <label>Credit reason is changed?</label>
+        <locationX>1744</locationX>
+        <locationY>3563</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Credit_reason_changed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Credit_Reason__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Billing_notification_credit_reason_change</targetReference>
+            </connector>
+            <label>Credit reason changed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>CSM_not_support</name>
+        <label>CSM not support</label>
+        <locationX>358</locationX>
+        <locationY>1055</locationY>
+        <defaultConnector>
+            <targetReference>Website_Launches</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Not_support1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Account__r.Account_Manager__r.LastName</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Support</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Account__r.Account_Manager__r.IsActive</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Notify_AM</targetReference>
+            </connector>
+            <label>Not support</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Decision</name>
+        <label>Decision</label>
+        <locationX>1744</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Migration_falls_in_scope</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Cancellation_DateDecision</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cancelled</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Cancellation_Date</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Cancellation Date</label>
+        </rules>
+        <rules>
+            <name>Content_Status_Sent_for_Approval</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Content_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Sent For Approval</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Content_Review_Approval</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Content Status Sent for Approval</label>
+        </rules>
+        <rules>
+            <name>Status_Website_Launched</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Website Launched</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_email</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Status Website Launched</label>
+        </rules>
+        <rules>
+            <name>Website_draft_website_launches</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Staging Link</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Label.ID_Service_Website_Launches</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Template_change</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Website draft - website launches</label>
+        </rules>
+        <rules>
+            <name>Staging_link_Design_Refresh</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Staging Link</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Label.ID_Service_Design_Refresh</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Migration_falls_in_scope</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Staging link - Design Refresh</label>
+        </rules>
+        <rules>
+            <name>Extension_Subscription_Date</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Subscription_extension_date__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Subscription_Extention_date</targetReference>
+            </connector>
+            <label>Extension Subscription Date</label>
+        </rules>
+        <rules>
+            <name>Status_Unresponsive</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Unresponsive</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Unresponsive_Timestamp</targetReference>
+            </connector>
+            <label>Status Unresponsive</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>If picklist = yes, create task &quot;SEO Migration | Web Builder&quot;, if no then Status = &quot;On Hold&quot;</description>
+        <name>Migration_falls_in_scope</name>
+        <label>Migration falls in scope</label>
+        <locationX>1744</locationX>
+        <locationY>2363</locationY>
+        <defaultConnector>
+            <targetReference>Client_agrees_to_upsell</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Migration__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Yes</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Pods0</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Yes</label>
+        </rules>
+        <rules>
+            <name>No</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Migration__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>No</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Service_status_On_Hold</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>No</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Owner_User_Is_Active</name>
+        <label>Owner User Is Active?</label>
+        <locationX>358</locationX>
+        <locationY>647</locationY>
+        <defaultConnector>
+            <targetReference>CSM_not_support</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Owner_Active</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.IsActive</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Add_owner_to_collection_cancelled</targetReference>
+            </connector>
+            <label>Owner Active</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Pods</name>
+        <label>Pods?</label>
+        <locationX>1392</locationX>
+        <locationY>3179</locationY>
+        <defaultConnector>
+            <targetReference>Credit_reason_is_changed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>X1_or_4</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Website_execution_pod__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pod 1</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Website_execution_pod__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pod 4</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SEO_Migration_Build_Site_Task</targetReference>
+            </connector>
+            <label>1 or 4</label>
+        </rules>
+        <rules>
+            <name>X2_or_3</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Website_execution_pod__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pod 2</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Website_execution_pod__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pod 3</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SEO_Migration_Build_Site_Task_Danika</targetReference>
+            </connector>
+            <label>2 or 3</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Pods0</name>
+        <label>Pods?</label>
+        <locationX>1392</locationX>
+        <locationY>2471</locationY>
+        <defaultConnector>
+            <targetReference>Update_a_Building_site</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Copy_1_of_1_or_4</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Website_execution_pod__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pod 1</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Website_execution_pod__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pod 4</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SEO_Migration_Web_builder_task</targetReference>
+            </connector>
+            <label>1 or 4</label>
+        </rules>
+        <rules>
+            <name>Copy_1_of_2_or_3</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Website_execution_pod__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pod 2</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Owner:User.Website_execution_pod__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pod 3</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SEO_Migration_Web_builder_task0</targetReference>
+            </connector>
+            <label>2 or 3</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Template_change</name>
+        <label>Template change?</label>
+        <locationX>1876</locationX>
+        <locationY>539</locationY>
+        <defaultConnector>
+            <targetReference>Migration_falls_in_scope</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Template_change_true</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Template_Change__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>User_SEO_Meta_template_change</targetReference>
+            </connector>
+            <label>Template change true</label>
+        </rules>
+        <rules>
+            <name>Website_draft_tasks_created</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Website_Draft_Tasks__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Client_Research_Added_to_BD</targetReference>
+            </connector>
+            <label>Website draft tasks created?</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Website_Launches</name>
+        <label>Website Launches</label>
+        <locationX>358</locationX>
+        <locationY>1355</locationY>
+        <defaultConnector>
+            <targetReference>Migration_falls_in_scope</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Rtype_property</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Property Website</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Cancelled_email</targetReference>
+            </connector>
+            <label>Rtype property</label>
+        </rules>
+        <rules>
+            <name>SEO_Migration_SEO_Optimization</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>0125f000000VvKJAA0</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>0125f000000VvKKAA0</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Service_Schedule2</targetReference>
+            </connector>
+            <label>SEO Migration - SEO Optimization</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Website_Type</name>
+        <label>Website Type</label>
+        <locationX>1502</locationX>
+        <locationY>1079</locationY>
+        <defaultConnector>
+            <targetReference>Migration_falls_in_scope</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Not_Development_site</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Website_type1__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Development Website</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Template_Change_Data_Specialist</targetReference>
+            </connector>
+            <label>Not Development website</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Website_type1</name>
+        <label>Website type</label>
+        <locationX>1942</locationX>
+        <locationY>1187</locationY>
+        <defaultConnector>
+            <targetReference>Migration_falls_in_scope</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Not_development_website</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Website_type1__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Development Website</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>WD_Build_Data_Specialist</targetReference>
+            </connector>
+            <label>Not development website</label>
+        </rules>
+    </decisions>
+    <description>Cancellation Date when Cancelled, Approval Process when Sent for Approval, MLS Counters</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>DateValue</name>
+        <dataType>Date</dataType>
+        <expression>ADDMONTHS({!$Record.CreatedDate},{!Months})</expression>
+    </formulas>
+    <formulas>
+        <name>dueDate1BD</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+  5, {!$Flow.CurrentDate} + 3,
+  6, {!$Flow.CurrentDate} + 2,
+  {!$Flow.CurrentDate} + 1
+)</expression>
+    </formulas>
+    <formulas>
+        <name>DueDate2BusinessDays</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+  4, {!$Flow.CurrentDate} + 4,
+  5, {!$Flow.CurrentDate} + 4,
+6, {!$Flow.CurrentDate} + 3,
+  {!$Flow.CurrentDate} + 2
+)</expression>
+    </formulas>
+    <formulas>
+        <name>dueDate4BD</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+    2, {!$Flow.CurrentDate} + 6,
+3, {!$Flow.CurrentDate} + 6,
+  4, {!$Flow.CurrentDate} + 6,
+  5, {!$Flow.CurrentDate} + 6,
+  6, {!$Flow.CurrentDate} + 5,
+  {!$Flow.CurrentDate} + 4
+)</expression>
+    </formulas>
+    <formulas>
+        <name>DueDate7BDays</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+1, {!$Flow.CurrentDate} + 9,
+2, {!$Flow.CurrentDate} + 9,
+3, {!$Flow.CurrentDate} + 9,
+4, {!$Flow.CurrentDate} + 11,
+5, {!$Flow.CurrentDate} + 11,
+{!$Flow.CurrentDate} + 7
+)</expression>
+    </formulas>
+    <formulas>
+        <name>DueDateTaskQA</name>
+        <dataType>Date</dataType>
+        <expression>CASE({!$Record.RecordType.Name},
+&quot;Website Launches&quot;, {!DueDate2BusinessDays},
+&quot;Property Website&quot;, {!NextBusinessDay},
+&quot;Design Refresh&quot;,{!NextBusinessDay},
+&quot;Template Change&quot;,{!NextBusinessDay},
+&quot;Platform Migration&quot;, {!DueDate2BusinessDays}, {!NextBusinessDay})</expression>
+    </formulas>
+    <formulas>
+        <name>forDueDate1Month</name>
+        <dataType>Date</dataType>
+        <expression>ADDMONTHS(TODAY(),1)</expression>
+    </formulas>
+    <formulas>
+        <name>forDueDateQuarterly</name>
+        <dataType>Date</dataType>
+        <expression>CASE(
+{!SScount},
+0, IF(AND( OR( {!forMonth}=1, {!forMonth}=2, {!forMonth}=3), {!forThisYear}=0) , DATE(YEAR(TODAY()),03,31), DATE(YEAR(TODAY())+1,03,31)), 
+1, IF( AND(OR( {!forMonth}=1, {!forMonth}=2, {!forMonth}=3, {!forMonth}=4, {!forMonth}=5, {!forMonth}=6),{!forThisYear}=0) , DATE(YEAR(TODAY()),06,30), DATE(YEAR(TODAY())+1,06,30)),
+2, IF( AND(OR( {!forMonth}=10, {!forMonth}=11, {!forMonth}=12),{!forThisYear}=1 ), DATE(YEAR(TODAY())+1,09,30), DATE(YEAR(TODAY()),09,30)),
+3, IF( AND(OR( {!forMonth}=10, {!forMonth}=11, {!forMonth}=12),{!forThisYear}=0) , DATE(YEAR(TODAY()),12,31), DATE(YEAR(TODAY())+1,12,31)),
+DATE(2023,3,31)
+)</expression>
+    </formulas>
+    <formulas>
+        <name>forMonth</name>
+        <dataType>Number</dataType>
+        <expression>MONTH(TODAY())</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>forNewClientTaskName</name>
+        <dataType>String</dataType>
+        <expression>IF(
+{!$Record.Account__r.VIP__c} = true, &quot; VIP New Client Set Up&quot;, 
+&quot;New Client Set Up&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <name>forSubject</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Name} + &quot; &quot; + TEXT({!$Record.Status__c})</expression>
+    </formulas>
+    <formulas>
+        <name>forThisYear</name>
+        <dataType>Number</dataType>
+        <expression>CASE(
+{!SScount}, 
+0, IF(TODAY()&gt; DATE(YEAR(TODAY()),02,15),1,0),
+1, IF(TODAY()&gt; DATE(YEAR(TODAY()),05,15),1,0),
+2, IF(TODAY()&gt; DATE(YEAR(TODAY()),08,15),1,0),
+3, IF(TODAY()&gt; DATE(YEAR(TODAY()),11,15),1,0),
+0
+)</expression>
+        <scale>0</scale>
+    </formulas>
+    <formulas>
+        <name>LastDay</name>
+        <dataType>Date</dataType>
+        <expression>IF( MONTH( {!DateValue} ) = 12, 
+DATE( YEAR( {!DateValue} ), 12, 31 ), 
+DATE( YEAR( {!DateValue} ), MONTH({!DateValue} ) + 1, 1) - 1)</expression>
+    </formulas>
+    <formulas>
+        <name>MigrationTaskName</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account__r.Name} +&quot; SEO Migration Setup&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>Month</name>
+        <dataType>String</dataType>
+        <expression>CASE(MONTH({!DateValue}),
+1, &quot;January&quot;,
+2,&quot;February&quot;,
+3, &quot;March&quot;,
+4, &quot;April&quot;,
+5,&quot;May&quot;,
+6,&quot;June&quot;,
+7,&quot;July&quot;,
+8,&quot;August&quot;,
+9,&quot;September&quot;,
+10,&quot;October&quot;,
+11,&quot;November&quot;,
+12,&quot;December&quot;,null)</expression>
+    </formulas>
+    <formulas>
+        <name>NextBusinessDay</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+  5, {!$Flow.CurrentDate} + 3,
+  6, {!$Flow.CurrentDate} + 2,
+  {!$Flow.CurrentDate} + 1
+)</expression>
+    </formulas>
+    <formulas>
+        <name>SSName</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account__r.Name}+ &quot; - &quot; + {!$Record.RecordType.Name} + &quot; - &quot;+{!Month}</expression>
+    </formulas>
+    <formulas>
+        <name>SSNameQuarterly</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Account__r.Name}+ &quot; - &quot;+{!$Record.RecordType.Name} + &quot; - Quarter&quot;+TEXT({!SScount}+1)</expression>
+    </formulas>
+    <formulas>
+        <name>Today</name>
+        <dataType>DateTime</dataType>
+        <expression>NOW()</expression>
+    </formulas>
+    <interviewLabel>LP - Cancellation Date {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>LP - Service created or updated</label>
+    <loops>
+        <name>Each_ss</name>
+        <label>Each ss</label>
+        <locationX>402</locationX>
+        <locationY>1571</locationY>
+        <collectionReference>Service_Schedule2</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Cancel_ss</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Cancel_service_schedule</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Client_Research_Added_to_BD</name>
+        <label>Client Research Added to BD</label>
+        <locationX>1942</locationX>
+        <locationY>647</locationY>
+        <connector>
+            <targetReference>Header_Image_Curation</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.Data_Specialist__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Client Research Added to BD</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Header_Image_Curation</name>
+        <label>Header Image Curation</label>
+        <locationX>1942</locationX>
+        <locationY>755</locationY>
+        <connector>
+            <targetReference>WD_Build_Website_Builder</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.Header_Image_Curator__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Header Image Curation</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <description>SEO Migration Web Builder task</description>
+        <name>SEO_Migration_Build_Site_Task</name>
+        <label>SEO Migration Build Site Task - Danilen</label>
+        <locationX>1128</locationX>
+        <locationY>3287</locationY>
+        <connector>
+            <targetReference>Credit_reason_is_changed</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <stringValue>005EY000000HgMkYAK</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>SEO Migration | Build Site</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <description>SEO Migration Web Builder task</description>
+        <name>SEO_Migration_Build_Site_Task_Danika</name>
+        <label>SEO Migration Build Site Task - Danika</label>
+        <locationX>1392</locationX>
+        <locationY>3287</locationY>
+        <connector>
+            <targetReference>Credit_reason_is_changed</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <stringValue>005EY000000HgMiYAK</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>SEO Migration | Build Site</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <description>Create &quot;SEO Migration Web builder&quot; assigned to the Website builder</description>
+        <name>SEO_Migration_Web_builder_task</name>
+        <label>SEO Migration Web builder task</label>
+        <locationX>1128</locationX>
+        <locationY>2579</locationY>
+        <connector>
+            <targetReference>Update_a_Building_site</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <stringValue>005EY000000HgMkYAK</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>SEO Migration | Build Site</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <description>Create &quot;SEO Migration Web builder&quot; assigned to the Website builder</description>
+        <name>SEO_Migration_Web_builder_task0</name>
+        <label>SEO Migration Web builder task</label>
+        <locationX>1392</locationX>
+        <locationY>2579</locationY>
+        <connector>
+            <targetReference>Update_a_Building_site</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <stringValue>005EY000000HgMiYAK</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>SEO Migration | Web Builder</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Template_Change_Data_Specialist</name>
+        <label>Template Change | Data Specialist</label>
+        <locationX>1370</locationX>
+        <locationY>1187</locationY>
+        <connector>
+            <targetReference>Migration_falls_in_scope</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>DueDate2BusinessDays</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.Data_Specialist__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Template Change | Data Specialist</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Template_Change_SEO_Meta_Title_and_Descriptions</name>
+        <label>Template Change SEO Meta Title and Descriptions</label>
+        <locationX>1502</locationX>
+        <locationY>755</locationY>
+        <connector>
+            <targetReference>SEO_Meta_last_task_assigned_template_change</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>DueDate2BusinessDays</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>User_SEO_Meta_template_change.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Template Change | SEO Meta Title and Descriptions </stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Template_Change_Website_builder</name>
+        <label>Template Change | Website builder</label>
+        <locationX>1502</locationX>
+        <locationY>971</locationY>
+        <connector>
+            <targetReference>Website_Type</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.Website_Builder__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Template Change | Website builder</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>WD_Build_Data_Specialist</name>
+        <label>WD Build | Data Specialist</label>
+        <locationX>1810</locationX>
+        <locationY>1295</locationY>
+        <connector>
+            <targetReference>Migration_falls_in_scope</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.Data_Specialist__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>WD Build | Data Specialist</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>WD_Build_Website_Builder</name>
+        <label>WD Build | Website Builder</label>
+        <locationX>1942</locationX>
+        <locationY>863</locationY>
+        <connector>
+            <targetReference>Welcome_call</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.Website_Builder__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>WD Build | Website Builder </stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Welcome_call</name>
+        <label>Welcome call</label>
+        <locationX>1942</locationX>
+        <locationY>971</locationY>
+        <connector>
+            <targetReference>Website_draft_tasks_created_true</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>dueDate1BD</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.Account__r.Implementation_Manager__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>Normal</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Not Started</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Welcome call</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordLookups>
+        <name>Service_Schedule2</name>
+        <label>Service Schedule</label>
+        <locationX>402</locationX>
+        <locationY>1463</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Each_ss</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Service__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Service_schedule__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>SSPW_User</name>
+        <label>SSPW User</label>
+        <locationX>1744</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Decision</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>IsActive</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>SSPW__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>User_SEO_Meta_template_change</name>
+        <label>User SEO Meta template change</label>
+        <locationX>1502</locationX>
+        <locationY>647</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Template_Change_SEO_Meta_Title_and_Descriptions</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>SEO_Meta_Title_and_Descriptions_task__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>IsActive</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <sortField>Last_task_assigned__c</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Cancel_service_schedule</name>
+        <label>Cancel service schedule</label>
+        <locationX>402</locationX>
+        <locationY>1979</locationY>
+        <connector>
+            <targetReference>Clear_variables</targetReference>
+        </connector>
+        <inputReference>collectionServiceSchedule</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Cancellation_Date</name>
+        <label>Cancellation Date</label>
+        <locationX>358</locationX>
+        <locationY>539</locationY>
+        <connector>
+            <targetReference>Owner_User_Is_Active</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Cancellation_Date__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Email_sent_to_OM_true</name>
+        <label>Email sent to OM - true</label>
+        <locationX>1106</locationX>
+        <locationY>647</locationY>
+        <connector>
+            <targetReference>Migration_falls_in_scope</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Email_sent_to_OM__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>SEO_Meta_last_task_assigned_template_change</name>
+        <label>SEO Meta last task assigned template change</label>
+        <locationX>1502</locationX>
+        <locationY>863</locationY>
+        <connector>
+            <targetReference>Template_Change_Website_builder</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>User_SEO_Meta_template_change.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Last_task_assigned__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <object>User</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Service_status_On_Hold</name>
+        <label>Service status On Hold</label>
+        <locationX>1832</locationX>
+        <locationY>2471</locationY>
+        <connector>
+            <targetReference>Client_agrees_to_upsell</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>On hold</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Service_status_SEO_Migration_Audit</name>
+        <label>Service status SEO Migration Audit</label>
+        <locationX>1832</locationX>
+        <locationY>3179</locationY>
+        <connector>
+            <targetReference>Credit_reason_is_changed</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>SEO Migration Audit</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Set_Unresponsive_Timestamp</name>
+        <label>Set Unresponsive Timestamp</label>
+        <locationX>2866</locationX>
+        <locationY>539</locationY>
+        <connector>
+            <targetReference>Migration_falls_in_scope</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Unresponsive_Date_Time__c</field>
+            <value>
+                <elementReference>Today</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_a_Building_site</name>
+        <label>Update a Building site</label>
+        <locationX>1392</locationX>
+        <locationY>2771</locationY>
+        <connector>
+            <targetReference>Client_agrees_to_upsell</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>Build Site</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_building_site</name>
+        <label>Update building site</label>
+        <locationX>1392</locationX>
+        <locationY>3071</locationY>
+        <connector>
+            <targetReference>Pods</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>Build Site</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Subscription</name>
+        <label>Update Subscription</label>
+        <locationX>2602</locationX>
+        <locationY>647</locationY>
+        <connector>
+            <targetReference>Migration_falls_in_scope</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Courtesy_Extension_Date__c</field>
+            <value>
+                <elementReference>$Record.Subscription_extension_date__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Contract__r</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Website_draft_tasks_created_true</name>
+        <label>Website draft tasks created</label>
+        <locationX>1942</locationX>
+        <locationY>1079</locationY>
+        <connector>
+            <targetReference>Website_type1</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Website_Draft_Tasks__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>1618</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>SSPW_User</targetReference>
+        </connector>
+        <object>Service__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>BillingTemplate</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi there,
+Please extend {!$Record.Name} subscription to {!$Record.Subscription_extension_date__c}.
+Deal: {!$Record.Name} 
+Implementation Manager:{!$Record.Implementation_Manager__c}
+Subscription start date:{!$Record.Subscription_start_date__c}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>bodyClientAgrees</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hello, 
+Client {!$Record.Account__r.Name} did not upgrade their SEO Migration, but the AE set expectations. Please proceed with just the most important pages that fall within the max dynamic info per plan. 
+Link:https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>bodyCreditReasonChanged</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi Team!
+The Credit Reason of the service {!$Record.Name} has changed, please take a look at it.
+Credit Reason: {!$Record.Credit_Reason__c}
+Link: https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>bodyEmail</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi!
+The service {!$Record.Name} is in {!$Record.Status__c} status.
+https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>bodyPaidMediaApproved</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>The Ad for {!$Record.Name} has been approved by the client, please launch the campaign.</text>
+    </textTemplates>
+    <textTemplates>
+        <name>bodyPaidMediaApprovedAM</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>The campaign for {!$Record.Name} is now Live.</text>
+    </textTemplates>
+    <textTemplates>
+        <name>CancelledEmail</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;Hi there!&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The service {!$Record.Name} has been cancelled, please take this in mind.&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>FeedbackBody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Revisions have been completed for {!$Record.Name}: https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>NewBodyText</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>You have been assigned to a new service https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>OnHoldBody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>The Service stage is on hold for {!$Record.Name} : https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>ReadyToLaunchBody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Website is being prepared to launch for {!$Record.Name} : https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>RevisionBody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Stage has been moved and team is working on it/ reviewing for {!$Record.Name}: https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>WDBodyText</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>The staging link is ready and can be sent to client for {!$Record.Name}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>WebsiteDraftBody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Hi Team, the build for service {!$Record.Name} has started: https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>WebsiteLaunchBody</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>The service was launched for {!$Record.Name} : https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <triggerOrder>200</triggerOrder>
+    <variables>
+        <name>collectionServiceSchedule</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Service_schedule__c</objectType>
+    </variables>
+    <variables>
+        <name>collectionUser</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>CollectionWebsiteLaunches</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Service__c</objectType>
+    </variables>
+    <variables>
+        <name>EmailCollection</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>Months</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>1.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>singleServiceSchedule</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Service_schedule__c</objectType>
+    </variables>
+    <variables>
+        <name>SScount</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+        <value>
+            <numberValue>0.0</numberValue>
+        </value>
+    </variables>
+    <variables>
+        <name>SSvar</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Service_schedule__c</objectType>
+    </variables>
+    <variables>
+        <name>sVar</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Service__c</objectType>
+    </variables>
+    <variables>
+        <name>varCount</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <name>varCountComplete</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <name>varCountTotal</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

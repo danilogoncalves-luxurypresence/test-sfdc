@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Ready_to_Launch_Email</name>
+        <label>Ready to Launch - Email</label>
+        <locationX>50</locationX>
+        <locationY>539</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Analytics_Queue_User</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddressesArray</name>
+            <value>
+                <elementReference>varUsers</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Service Ready to Launch</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>bodyReadyToLaunch</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>57.0</apiVersion>
+    <assignments>
+        <name>Add_owner_and_csm_email_to_collection</name>
+        <label>Add owner and csm email to collection</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <assignmentItems>
+            <assignToReference>varUsers</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Owner:User.Email</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varUsers</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Account__r.Account_Manager__r.Email</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Ready_to_Launch_Email</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Status</name>
+        <label>Status</label>
+        <locationX>446</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Ready_to_Launch</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Ready to Launch</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Add_owner_and_csm_email_to_collection</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Ready to Launch</label>
+        </rules>
+        <rules>
+            <name>Cancelled</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cancelled</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Account_Website_Implementation_Status_Cancelled</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Cancelled</label>
+        </rules>
+        <rules>
+            <name>Website_Draft</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Staging Link</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Website_Draft_Date</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Website Draft</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>for1BDay</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+  5, {!$Flow.CurrentDate} + 3,
+  6, {!$Flow.CurrentDate} + 2,
+  {!$Flow.CurrentDate} + 1
+)</expression>
+    </formulas>
+    <formulas>
+        <name>for1Month</name>
+        <dataType>Date</dataType>
+        <expression>ADDMONTHS(TODAY(),1)</expression>
+    </formulas>
+    <formulas>
+        <name>for2BDays</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+  4, {!$Flow.CurrentDate} + 4,
+  5, {!$Flow.CurrentDate} + 4,
+  {!$Flow.CurrentDate} + 2
+)</expression>
+    </formulas>
+    <formulas>
+        <name>for5BDays</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+1, {!$Flow.CurrentDate} + 7,
+2, {!$Flow.CurrentDate} + 7,
+3, {!$Flow.CurrentDate} + 7,
+4, {!$Flow.CurrentDate} + 7,
+5, {!$Flow.CurrentDate} + 7,
+  {!$Flow.CurrentDate} + 5
+)</expression>
+    </formulas>
+    <formulas>
+        <name>forNewClientTask</name>
+        <dataType>String</dataType>
+        <expression>IF(
+{!$Record.Account__r.VIP__c} = true, &quot; VIP New Client Set Up&quot;, 
+&quot;New Client Set Up&quot;
+)</expression>
+    </formulas>
+    <interviewLabel>LP - Template Change Service Updated {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>LP - Template Change Service Updated</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Final_QA_Task</name>
+        <label>Final QA - Task</label>
+        <locationX>50</locationX>
+        <locationY>1079</locationY>
+        <connector>
+            <targetReference>Property_Crawl_Task</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Final_QA_User.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>RecordTypeId</field>
+            <value>
+                <stringValue>0125f000000VvKVAA0</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Final QA</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>GA4_ID_GTM_GSC_Implementation_Task</name>
+        <label>GA4 ID - GTM - GSC Implementation - Task</label>
+        <locationX>50</locationX>
+        <locationY>755</locationY>
+        <connector>
+            <targetReference>Analytics_Queue_Last_Task_Assigned</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Analytics_Queue_User.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>RecordTypeId</field>
+            <value>
+                <elementReference>$Label.ID_Task_Analytics</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>GA4 ID - GTM - GSC Implementation</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Property_Crawl_Task</name>
+        <label>Property Crawl - Task</label>
+        <locationX>50</locationX>
+        <locationY>1187</locationY>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>for1BDay</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <stringValue>005EY000000HgUfYAK</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Property Crawl</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Task_Header_Image_Curation</name>
+        <label>Task - Header Image Curation</label>
+        <locationX>578</locationX>
+        <locationY>539</locationY>
+        <connector>
+            <targetReference>Task_WD_Build_Data_Specialist</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.Header_Image_Curator__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Header Image Curation</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Task_WD_Build_Data_Specialist</name>
+        <label>Task - WD Build | Data Specialist</label>
+        <locationX>578</locationX>
+        <locationY>647</locationY>
+        <connector>
+            <targetReference>Task_WD_Build_Website_Builder</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.Data_Specialist__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>WD Build | Data Specialist</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Task_WD_Build_Website_Builder</name>
+        <label>Task - WD Build | Website Builder</label>
+        <locationX>578</locationX>
+        <locationY>755</locationY>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.Website_Builder__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>WD Build | Website Builder</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordLookups>
+        <name>Analytics_Queue_User</name>
+        <label>Analytics Queue User</label>
+        <locationX>50</locationX>
+        <locationY>647</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>GA4_ID_GTM_GSC_Implementation_Task</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>IsActive</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Analytics_Queue__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <sortField>Last_task_assigned__c</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Final_QA_User</name>
+        <label>Final QA User</label>
+        <locationX>50</locationX>
+        <locationY>971</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Final_QA_Task</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>IsActive</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Final_QA_Task__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <sortField>Last_task_assigned__c</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Account_Website_Implementation_Status_Cancelled</name>
+        <label>Account - Website Implementation Status - Cancelled</label>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Account__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Website_implementation_status__c</field>
+            <value>
+                <stringValue>Cancelled</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Analytics_Queue_Last_Task_Assigned</name>
+        <label>Analytics Queue - Last Task Assigned</label>
+        <locationX>50</locationX>
+        <locationY>863</locationY>
+        <connector>
+            <targetReference>Final_QA_User</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Analytics_Queue_User.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Last_task_assigned__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <object>User</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Website_Draft_Date</name>
+        <label>Website Draft Date</label>
+        <locationX>578</locationX>
+        <locationY>431</locationY>
+        <connector>
+            <targetReference>Task_Header_Image_Curation</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Website_Draft_Date__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>320</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Status</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Record_Type_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Template Change</stringValue>
+            </value>
+        </filters>
+        <object>Service__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>bodyFeedbackEmail</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Revisions have been completed for {!$Record.Name}: https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>bodyReadyToLaunch</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Website is being prepared to launch for client &quot;{!$Record.Name}&quot;. Check it here: https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>bodyRevisionEmail</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>Stage has been moved and team is working on it/ reviewing for {!$Record.Name}: https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <textTemplates>
+        <name>bodyWDReview</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;Hi, {!$Record.Owner:User.FirstName}!&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The Website Draft from your Client, {!$Record.Name}, is now ready for review! Please check the Service in Salesforce.&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>bodyWebsiteLaunchedEmail</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>The service was launched for {!$Record.Name} : https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <variables>
+        <name>varUsers</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

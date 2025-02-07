@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- New Addendum --></label>
+        <name>New_Addendum__c</name>
+        <picklistValues>
+            <masterLabel>Cancellation</masterLabel>
+            <translation><!-- Cancellation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Plan</masterLabel>
+            <translation><!-- Change Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Churn/Expansion</masterLabel>
+            <translation><!-- Churn/Expansion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pause</masterLabel>
+            <translation><!-- Pause --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

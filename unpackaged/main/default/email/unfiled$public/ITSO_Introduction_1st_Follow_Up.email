@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style=""><div><span style="font-size: 12pt;">Hi </span><span style="font-size: 12pt;">{!Contact.FirstName}</span><span style="font-size: 12pt;">,&nbsp; &nbsp;&nbsp;</span></div><div style=""><div style=""><br><div style=""><div style=""><div style=""><div style=""><div><div>Hope your week is going great! I wanted to follow up on the previous email and see if you had any questions on the requested items. I am happy to help! </div><br><div>Best Regards,</div></div><br></div></div></div></div></div></div></div>]]></td>
+</tr>
+</table>

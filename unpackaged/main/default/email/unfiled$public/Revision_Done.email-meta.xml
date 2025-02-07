@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>Revision Done</name>
+    <style>formalLetter</style>
+    <subject>A Revision has been completed</subject>
+    <textOnly>Dear {!Revision__c.Implementation_Manager__c}: The revision record for service {!Revision__c.Service__c} is done, access the revision here: {!Revision__c.Salesforce_URL__c} Best,
+LP Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Link to the client&apos;s completed strategy deck --></help>
+        <label><!-- Strategy Deck --></label>
+        <name>Strategy_Deck__c</name>
+    </CustomFieldTranslation>

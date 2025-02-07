@@ -1,0 +1,21 @@
+Hi {!Contact.FirstName},
+
+Encountering the status "Discovered - currently not indexed" in Google Search Console (GSC) is a common occurrence and may not necessarily be a cause for immediate concern. Here's why:
+
+* Natural Indexing Process: Google constantly discovers new pages on the web through crawling. The fact that a page is discovered means that Googlebot has encountered and crawled it. However, not all discovered pages are immediately indexed. Google goes through a process of evaluating and determining the relevance and quality of the content before deciding to include it in the index.
+* Quality and Relevance Assessment: Google's indexing process involves evaluating various factors such as content quality, relevance, uniqueness, and user experience. Pages that meet Google's criteria are more likely to be indexed, while those deemed low-quality or irrelevant may be delayed or excluded.
+* New or Updated Content: Newly published or recently updated content may take some time to be indexed. It's not uncommon for there to be a delay between a page being discovered and it appearing in the search index.
+* Indexing Constraints: Google has finite resources for crawling and indexing. Some pages may be intentionally deprioritized or face delays due to the sheer volume of content on the web. This is especially true for less frequently updated or lower-priority pages.
+* No Immediate SEO Impact: While a page is in the "Discovered - currently not indexed" state, it doesn't necessarily affect its visibility in search results. 
+
+To manage and understand this situation:
+
+* Focus on Quality Content: Ensure that your pages provide valuable, unique, and relevant content. Google is more likely to index high-quality content. We also recommend internally linking between pages to help with indexing.
+
+
+In summary, while the "Discovered - currently not indexed" status may be a normal part of the indexing process, it's essential to ensure the overall quality of your content and to be patient as Google evaluates and indexes pages at its own pace. Regular monitoring and optimization efforts will contribute to a more effective SEO strategy over time.
+
+
+
+Best,
+The SEO Team at Luxury Presence

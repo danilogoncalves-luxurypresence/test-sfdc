@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If you answered yes to the previous question which assets from your live site should we incorporate in the new draft of your Luxury Presence website? --></help>
+        <label><!-- Copied Assets --></label>
+        <name>Copied_Assets__c</name>
+    </CustomFieldTranslation>

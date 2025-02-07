@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jan_2025_Key_Prospects_Omar</fullName>
+    <booleanFilter>1 or 2 or 3 or 4</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LAST_ACTIVITY_DATETIME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY0000046ygMYAQ,003EY000001cZEjYAM,003EY000001ca5MYAQ,003EY00000447v5YAA,003EY00000447vOYAQ,003EY00000448sgYAA,003EY000001cZGZYA2,003EY00000479fPYAQ,003EY000001cZ7UYAU,003EY000001cdkEYAQ</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000001cZEqYAM,003EY000001cZEUYA2,003EY000001caWIYAY,003EY000001cZE6YAM,003EY000001cjd8YAA,003Rg000003Y5LMIA0,--,003EY000001lG1eYAE,003EY000001dyCiYAI,003EY000001codlYAA</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000001lMOBYA2,003EY000001j5j6YAA,003Rg00000DAHHtIAP,003EY0000038s1SYAQ,003Rg00000CegKzIAJ,003Rg00000Du4XtIAJ,003Rg00000ExPSBIA3,003Rg00000EVffbIAD,003Rg00000Fky0ZIAR,003Rg00000GvSUbIAN</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003Rg00000HE7fnIAD,--</value>
+    </filters>
+    <label>Jan 2025- Key Prospects - Omar</label>
+</ListView>

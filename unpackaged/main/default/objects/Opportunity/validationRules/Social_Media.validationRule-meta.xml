@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Social_Media</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ OR(
+  ISPICKVAL( Marketing_Product__c , &quot;Social Media&quot;),
+  ISPICKVAL( Marketing_Product__c , &quot;Both&quot;)
+ ),
+ ISPICKVAL(  Social_Media__c ,&quot;&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Social_Media__c</errorDisplayField>
+    <errorMessage>Please complete Social Media field</errorMessage>
+</ValidationRule>

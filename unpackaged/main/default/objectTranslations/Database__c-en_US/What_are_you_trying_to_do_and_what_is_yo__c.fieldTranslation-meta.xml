@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What are you trying to do and what is your ideal outcome? --></help>
+        <label><!-- Ideal outcome --></label>
+        <name>What_are_you_trying_to_do_and_what_is_yo__c</name>
+    </CustomFieldTranslation>

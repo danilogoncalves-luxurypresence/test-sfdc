@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total of the Minimum Allows Price on the Bundle Product of all associated products that do NOT hav Product Family of Setup Fee. --></help>
+        <label><!-- Total Minimum Price of Other Products --></label>
+        <name>Total_Minimum_Price_of_Other_Products__c</name>
+    </CustomFieldTranslation>

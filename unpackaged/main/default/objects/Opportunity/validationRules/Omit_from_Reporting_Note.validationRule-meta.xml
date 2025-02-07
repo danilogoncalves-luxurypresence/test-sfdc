@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Omit_from_Reporting_Note</fullName>
+    <active>true</active>
+    <description>When Omit_from_CSM_churn_reporting__c is checked, the Client Notes field must be populated</description>
+    <errorConditionFormula>AND(
+
+ISCHANGED(Omit_from_CSM_churn_reporting__c),
+Omit_from_CSM_churn_reporting__c = TRUE,
+ISBLANK(Client_Notes__c)
+)</errorConditionFormula>
+    <errorDisplayField>Client_Notes__c</errorDisplayField>
+    <errorMessage>Please document the Omit Reason in the Client Notes field</errorMessage>
+</ValidationRule>

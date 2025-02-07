@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clients_pre_launc__c</fullName>
+    <inlineHelpText>What was the client&#39;s pre-launch experience? Any escalations or areas of opportunity the AM should know about?</inlineHelpText>
+    <label>Client&#39;s Pre-Launch Experience?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

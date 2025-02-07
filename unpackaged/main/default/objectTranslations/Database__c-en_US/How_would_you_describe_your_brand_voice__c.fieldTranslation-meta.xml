@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- How would you describe your brand voice? --></label>
+        <name>How_would_you_describe_your_brand_voice__c</name>
+    </CustomFieldTranslation>

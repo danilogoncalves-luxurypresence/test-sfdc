@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Date Entered Marketing Qualified Lead --></label>
+        <name>Date_Entered_Marketing_Qualified_Lead__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Meeting_Outcome__c</fullName>
+    <label>Partner Meeting Outcome</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client retention</fullName>
+                <default>false</default>
+                <label>Client retention</label>
+            </value>
+            <value>
+                <fullName>Presentation booked</fullName>
+                <default>false</default>
+                <label>Presentation booked</label>
+            </value>
+            <value>
+                <fullName>Lead generated</fullName>
+                <default>false</default>
+                <label>Lead generated</label>
+            </value>
+            <value>
+                <fullName>Promotional opp</fullName>
+                <default>false</default>
+                <label>Promotional opp</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

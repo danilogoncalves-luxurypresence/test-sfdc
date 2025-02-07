@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Which of the below color palettes best reflects your brand? --></help>
+        <label><!-- Color Palettes --></label>
+        <name>Color_Palettes__c</name>
+    </CustomFieldTranslation>

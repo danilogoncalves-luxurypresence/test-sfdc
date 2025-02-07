@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unable_to_launch_Reason__c</fullName>
+    <label>Unable to Launch-Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Unable_to_launch__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No credentials</fullName>
+                <default>false</default>
+                <label>No credentials</label>
+            </value>
+            <value>
+                <fullName>Client delayed launched date</fullName>
+                <default>false</default>
+                <label>Client delayed launched date</label>
+            </value>
+            <value>
+                <fullName>Incorrect Credentials</fullName>
+                <default>false</default>
+                <label>Incorrect Credentials</label>
+            </value>
+            <value>
+                <fullName>Domain not present in Registrar</fullName>
+                <default>false</default>
+                <label>Domain not present in Registrar</label>
+            </value>
+            <value>
+                <fullName>Client Wants to Launch Themselves</fullName>
+                <default>false</default>
+                <label>Client Wants to Launch Themselves</label>
+            </value>
+            <value>
+                <fullName>MLS Pending</fullName>
+                <default>false</default>
+                <label>MLS Pending</label>
+            </value>
+            <value>
+                <fullName>SEO Migration Pending</fullName>
+                <default>false</default>
+                <label>SEO Migration Pending</label>
+            </value>
+            <value>
+                <fullName>External Issue (Stackpath, Registrar, etc)</fullName>
+                <default>false</default>
+                <label>External Issue (Stackpath, Registrar, etc)</label>
+            </value>
+            <value>
+                <fullName>Blocked by OTP Code.</fullName>
+                <default>false</default>
+                <label>Blocked by OTP Code.</label>
+            </value>
+            <value>
+                <fullName>Launch Blocker (Bug)</fullName>
+                <default>false</default>
+                <label>Launch Blocker (Bug)</label>
+            </value>
+            <value>
+                <fullName>Launched via Pointing</fullName>
+                <default>false</default>
+                <label>Launched via Pointing</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>No credentials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Client delayed launched date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Incorrect Credentials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Domain not present in Registrar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Client Wants to Launch Themselves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>MLS Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>SEO Migration Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>External Issue (Stackpath, Registrar, etc)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Blocked by OTP Code.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Launch Blocker (Bug)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Launched via Pointing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

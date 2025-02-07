@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+Great to see you today! Here’s your <u>monthly marketing deck</u> for easy reference and below is a summary of action items.<br />
+<br />
+<u><strong>Your Action Items&nbsp;</strong></u>
+<ul>
+	<li>Task here</li>
+	<li>*&nbsp;</li>
+</ul>
+<br />
+<u><strong>Action Items for Luxury Presence</strong></u>
+
+<ul>
+	<li>Connect with Specialty Team
+	<ul>
+		<li>Blog stuff 1&nbsp;</li>
+		<li>Other Stuff 2</li>
+	</ul>
+	</li>
+</ul>
+<br />
+I’ll keep you updated on how your blogs are professing! As always, feel free to reach out with any questions.<br />
+<br />
+Best,<br />
+{{{Sender.Name}}}</body>
+</html>

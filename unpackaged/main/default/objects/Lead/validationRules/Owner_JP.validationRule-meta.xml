@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner_JP</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(OwnerId),
+NOT( $Profile.Name = &quot;System Administrator&quot;),
+NOT ( $UserRole.DeveloperName = &#39;Hubspot&#39;),
+$User.Username &lt;&gt; &quot;edayal@luxurypresence.com&quot;,
+
+PRIORVALUE( OwnerId )= &quot;005Rg000004H0m5IAC&quot; 
+
+)</errorConditionFormula>
+    <errorMessage>You do not have permission to modify the owner, please contact your System Admin.</errorMessage>
+</ValidationRule>

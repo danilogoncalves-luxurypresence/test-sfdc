@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Reason__c</fullName>
+    <description>SF case 00163538</description>
+    <label>Client Reason</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Detail_Reason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not enough marketing results or leads</fullName>
+                <default>true</default>
+                <label>Not enough marketing results or leads</label>
+            </value>
+            <value>
+                <fullName>Missing features I need</fullName>
+                <default>false</default>
+                <label>Missing features I need</label>
+            </value>
+            <value>
+                <fullName>Technical issues</fullName>
+                <default>false</default>
+                <label>Technical issues</label>
+            </value>
+            <value>
+                <fullName>Insufficient customer service</fullName>
+                <default>false</default>
+                <label>Insufficient customer service</label>
+            </value>
+            <value>
+                <fullName>Shutting down my company</fullName>
+                <default>false</default>
+                <label>Shutting down my company</label>
+            </value>
+            <value>
+                <fullName>Price is too high</fullName>
+                <default>false</default>
+                <label>Price is too high</label>
+            </value>
+            <value>
+                <fullName>Other (update response in Other reason field)</fullName>
+                <default>false</default>
+                <label>Other (update response in Other reason field)</label>
+            </value>
+            <value>
+                <fullName>Saved</fullName>
+                <default>false</default>
+                <label>Saved</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Social Media followers</controllingFieldValue>
+            <controllingFieldValue>Value/ROI</controllingFieldValue>
+            <controllingFieldValue>Product Adoption</controllingFieldValue>
+            <controllingFieldValue>Budget</controllingFieldValue>
+            <controllingFieldValue>Client Performance</controllingFieldValue>
+            <controllingFieldValue>Deliverable Missed</controllingFieldValue>
+            <controllingFieldValue>Response Times/SLA</controllingFieldValue>
+            <controllingFieldValue>Quality of Responses</controllingFieldValue>
+            <controllingFieldValue>Quality of Deliverable</controllingFieldValue>
+            <controllingFieldValue>Expectations/Contract Misunderstanding</controllingFieldValue>
+            <controllingFieldValue>Out of Business/Retiring</controllingFieldValue>
+            <controllingFieldValue>Non-Payment/Collections</controllingFieldValue>
+            <controllingFieldValue>Budget/Client Performance</controllingFieldValue>
+            <controllingFieldValue>Client Responsiveness</controllingFieldValue>
+            <controllingFieldValue>Hired In-House</controllingFieldValue>
+            <controllingFieldValue>Quantity of Leads</controllingFieldValue>
+            <controllingFieldValue>Quality of Leads</controllingFieldValue>
+            <controllingFieldValue>Search Engine Ranking</controllingFieldValue>
+            <controllingFieldValue>Website Traffic</controllingFieldValue>
+            <controllingFieldValue>Website Customization Limitations</controllingFieldValue>
+            <controllingFieldValue>MLS Feed Functionality</controllingFieldValue>
+            <controllingFieldValue>Home Search Tool</controllingFieldValue>
+            <controllingFieldValue>CRM Integration</controllingFieldValue>
+            <controllingFieldValue>Deliverable Delayed</controllingFieldValue>
+            <controllingFieldValue>Brokerage Providing Services</controllingFieldValue>
+            <valueName>Not enough marketing results or leads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media followers</controllingFieldValue>
+            <controllingFieldValue>Value/ROI</controllingFieldValue>
+            <controllingFieldValue>Product Adoption</controllingFieldValue>
+            <controllingFieldValue>Budget</controllingFieldValue>
+            <controllingFieldValue>Client Performance</controllingFieldValue>
+            <controllingFieldValue>Deliverable Missed</controllingFieldValue>
+            <controllingFieldValue>Response Times/SLA</controllingFieldValue>
+            <controllingFieldValue>Quality of Responses</controllingFieldValue>
+            <controllingFieldValue>Quality of Deliverable</controllingFieldValue>
+            <controllingFieldValue>Expectations/Contract Misunderstanding</controllingFieldValue>
+            <controllingFieldValue>Out of Business/Retiring</controllingFieldValue>
+            <controllingFieldValue>Non-Payment/Collections</controllingFieldValue>
+            <controllingFieldValue>Budget/Client Performance</controllingFieldValue>
+            <controllingFieldValue>Client Responsiveness</controllingFieldValue>
+            <controllingFieldValue>Hired In-House</controllingFieldValue>
+            <controllingFieldValue>Quantity of Leads</controllingFieldValue>
+            <controllingFieldValue>Quality of Leads</controllingFieldValue>
+            <controllingFieldValue>Search Engine Ranking</controllingFieldValue>
+            <controllingFieldValue>Website Traffic</controllingFieldValue>
+            <controllingFieldValue>Website Customization Limitations</controllingFieldValue>
+            <controllingFieldValue>MLS Feed Functionality</controllingFieldValue>
+            <controllingFieldValue>Home Search Tool</controllingFieldValue>
+            <controllingFieldValue>CRM Integration</controllingFieldValue>
+            <controllingFieldValue>Deliverable Delayed</controllingFieldValue>
+            <controllingFieldValue>Brokerage Providing Services</controllingFieldValue>
+            <valueName>Missing features I need</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media followers</controllingFieldValue>
+            <controllingFieldValue>Value/ROI</controllingFieldValue>
+            <controllingFieldValue>Product Adoption</controllingFieldValue>
+            <controllingFieldValue>Budget</controllingFieldValue>
+            <controllingFieldValue>Client Performance</controllingFieldValue>
+            <controllingFieldValue>Deliverable Missed</controllingFieldValue>
+            <controllingFieldValue>Response Times/SLA</controllingFieldValue>
+            <controllingFieldValue>Quality of Responses</controllingFieldValue>
+            <controllingFieldValue>Quality of Deliverable</controllingFieldValue>
+            <controllingFieldValue>Expectations/Contract Misunderstanding</controllingFieldValue>
+            <controllingFieldValue>Out of Business/Retiring</controllingFieldValue>
+            <controllingFieldValue>Non-Payment/Collections</controllingFieldValue>
+            <controllingFieldValue>Budget/Client Performance</controllingFieldValue>
+            <controllingFieldValue>Client Responsiveness</controllingFieldValue>
+            <controllingFieldValue>Hired In-House</controllingFieldValue>
+            <controllingFieldValue>Quantity of Leads</controllingFieldValue>
+            <controllingFieldValue>Quality of Leads</controllingFieldValue>
+            <controllingFieldValue>Search Engine Ranking</controllingFieldValue>
+            <controllingFieldValue>Website Traffic</controllingFieldValue>
+            <controllingFieldValue>Website Customization Limitations</controllingFieldValue>
+            <controllingFieldValue>MLS Feed Functionality</controllingFieldValue>
+            <controllingFieldValue>Home Search Tool</controllingFieldValue>
+            <controllingFieldValue>CRM Integration</controllingFieldValue>
+            <controllingFieldValue>Deliverable Delayed</controllingFieldValue>
+            <controllingFieldValue>Brokerage Providing Services</controllingFieldValue>
+            <valueName>Technical issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media followers</controllingFieldValue>
+            <controllingFieldValue>Value/ROI</controllingFieldValue>
+            <controllingFieldValue>Product Adoption</controllingFieldValue>
+            <controllingFieldValue>Budget</controllingFieldValue>
+            <controllingFieldValue>Client Performance</controllingFieldValue>
+            <controllingFieldValue>Deliverable Missed</controllingFieldValue>
+            <controllingFieldValue>Response Times/SLA</controllingFieldValue>
+            <controllingFieldValue>Quality of Responses</controllingFieldValue>
+            <controllingFieldValue>Quality of Deliverable</controllingFieldValue>
+            <controllingFieldValue>Expectations/Contract Misunderstanding</controllingFieldValue>
+            <controllingFieldValue>Out of Business/Retiring</controllingFieldValue>
+            <controllingFieldValue>Non-Payment/Collections</controllingFieldValue>
+            <controllingFieldValue>Budget/Client Performance</controllingFieldValue>
+            <controllingFieldValue>Client Responsiveness</controllingFieldValue>
+            <controllingFieldValue>Hired In-House</controllingFieldValue>
+            <controllingFieldValue>Quantity of Leads</controllingFieldValue>
+            <controllingFieldValue>Quality of Leads</controllingFieldValue>
+            <controllingFieldValue>Search Engine Ranking</controllingFieldValue>
+            <controllingFieldValue>Website Traffic</controllingFieldValue>
+            <controllingFieldValue>Website Customization Limitations</controllingFieldValue>
+            <controllingFieldValue>MLS Feed Functionality</controllingFieldValue>
+            <controllingFieldValue>Home Search Tool</controllingFieldValue>
+            <controllingFieldValue>CRM Integration</controllingFieldValue>
+            <controllingFieldValue>Deliverable Delayed</controllingFieldValue>
+            <controllingFieldValue>Brokerage Providing Services</controllingFieldValue>
+            <valueName>Insufficient customer service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media followers</controllingFieldValue>
+            <controllingFieldValue>Value/ROI</controllingFieldValue>
+            <controllingFieldValue>Product Adoption</controllingFieldValue>
+            <controllingFieldValue>Budget</controllingFieldValue>
+            <controllingFieldValue>Client Performance</controllingFieldValue>
+            <controllingFieldValue>Deliverable Missed</controllingFieldValue>
+            <controllingFieldValue>Response Times/SLA</controllingFieldValue>
+            <controllingFieldValue>Quality of Responses</controllingFieldValue>
+            <controllingFieldValue>Quality of Deliverable</controllingFieldValue>
+            <controllingFieldValue>Expectations/Contract Misunderstanding</controllingFieldValue>
+            <controllingFieldValue>Out of Business/Retiring</controllingFieldValue>
+            <controllingFieldValue>Non-Payment/Collections</controllingFieldValue>
+            <controllingFieldValue>Budget/Client Performance</controllingFieldValue>
+            <controllingFieldValue>Client Responsiveness</controllingFieldValue>
+            <controllingFieldValue>Hired In-House</controllingFieldValue>
+            <controllingFieldValue>Quantity of Leads</controllingFieldValue>
+            <controllingFieldValue>Quality of Leads</controllingFieldValue>
+            <controllingFieldValue>Search Engine Ranking</controllingFieldValue>
+            <controllingFieldValue>Website Traffic</controllingFieldValue>
+            <controllingFieldValue>Website Customization Limitations</controllingFieldValue>
+            <controllingFieldValue>MLS Feed Functionality</controllingFieldValue>
+            <controllingFieldValue>Home Search Tool</controllingFieldValue>
+            <controllingFieldValue>CRM Integration</controllingFieldValue>
+            <controllingFieldValue>Deliverable Delayed</controllingFieldValue>
+            <controllingFieldValue>Brokerage Providing Services</controllingFieldValue>
+            <valueName>Shutting down my company</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media followers</controllingFieldValue>
+            <controllingFieldValue>Value/ROI</controllingFieldValue>
+            <controllingFieldValue>Product Adoption</controllingFieldValue>
+            <controllingFieldValue>Budget</controllingFieldValue>
+            <controllingFieldValue>Client Performance</controllingFieldValue>
+            <controllingFieldValue>Deliverable Missed</controllingFieldValue>
+            <controllingFieldValue>Response Times/SLA</controllingFieldValue>
+            <controllingFieldValue>Quality of Responses</controllingFieldValue>
+            <controllingFieldValue>Quality of Deliverable</controllingFieldValue>
+            <controllingFieldValue>Expectations/Contract Misunderstanding</controllingFieldValue>
+            <controllingFieldValue>Out of Business/Retiring</controllingFieldValue>
+            <controllingFieldValue>Non-Payment/Collections</controllingFieldValue>
+            <controllingFieldValue>Budget/Client Performance</controllingFieldValue>
+            <controllingFieldValue>Client Responsiveness</controllingFieldValue>
+            <controllingFieldValue>Hired In-House</controllingFieldValue>
+            <controllingFieldValue>Quantity of Leads</controllingFieldValue>
+            <controllingFieldValue>Quality of Leads</controllingFieldValue>
+            <controllingFieldValue>Search Engine Ranking</controllingFieldValue>
+            <controllingFieldValue>Website Traffic</controllingFieldValue>
+            <controllingFieldValue>Website Customization Limitations</controllingFieldValue>
+            <controllingFieldValue>MLS Feed Functionality</controllingFieldValue>
+            <controllingFieldValue>Home Search Tool</controllingFieldValue>
+            <controllingFieldValue>CRM Integration</controllingFieldValue>
+            <controllingFieldValue>Deliverable Delayed</controllingFieldValue>
+            <controllingFieldValue>Brokerage Providing Services</controllingFieldValue>
+            <valueName>Price is too high</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Social Media followers</controllingFieldValue>
+            <controllingFieldValue>Value/ROI</controllingFieldValue>
+            <controllingFieldValue>Product Adoption</controllingFieldValue>
+            <controllingFieldValue>Budget</controllingFieldValue>
+            <controllingFieldValue>Client Performance</controllingFieldValue>
+            <controllingFieldValue>Deliverable Missed</controllingFieldValue>
+            <controllingFieldValue>Response Times/SLA</controllingFieldValue>
+            <controllingFieldValue>Quality of Responses</controllingFieldValue>
+            <controllingFieldValue>Quality of Deliverable</controllingFieldValue>
+            <controllingFieldValue>Expectations/Contract Misunderstanding</controllingFieldValue>
+            <controllingFieldValue>Out of Business/Retiring</controllingFieldValue>
+            <controllingFieldValue>Non-Payment/Collections</controllingFieldValue>
+            <controllingFieldValue>Budget/Client Performance</controllingFieldValue>
+            <controllingFieldValue>Client Responsiveness</controllingFieldValue>
+            <controllingFieldValue>Hired In-House</controllingFieldValue>
+            <controllingFieldValue>Quantity of Leads</controllingFieldValue>
+            <controllingFieldValue>Quality of Leads</controllingFieldValue>
+            <controllingFieldValue>Search Engine Ranking</controllingFieldValue>
+            <controllingFieldValue>Website Traffic</controllingFieldValue>
+            <controllingFieldValue>Website Customization Limitations</controllingFieldValue>
+            <controllingFieldValue>MLS Feed Functionality</controllingFieldValue>
+            <controllingFieldValue>Home Search Tool</controllingFieldValue>
+            <controllingFieldValue>CRM Integration</controllingFieldValue>
+            <controllingFieldValue>Deliverable Delayed</controllingFieldValue>
+            <controllingFieldValue>Brokerage Providing Services</controllingFieldValue>
+            <controllingFieldValue>NA</controllingFieldValue>
+            <valueName>Other (update response in Other reason field)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Performance</controllingFieldValue>
+            <controllingFieldValue>Saved</controllingFieldValue>
+            <valueName>Saved</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

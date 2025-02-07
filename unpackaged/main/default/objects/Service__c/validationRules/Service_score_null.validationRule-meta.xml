@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_score_null</fullName>
+    <active>true</active>
+    <description>Service score can not be null if the status is &quot;revision round&quot;</description>
+    <errorConditionFormula>AND( RecordType.Name = &quot;Website Launches&quot;,
+ISPICKVAL( Status__c ,&quot;Client Revision&quot;),
+ISPICKVAL( Website_Draft_Score__c ,&quot;&quot;)
+)</errorConditionFormula>
+    <errorMessage>Please score the service in the scoring component</errorMessage>
+</ValidationRule>

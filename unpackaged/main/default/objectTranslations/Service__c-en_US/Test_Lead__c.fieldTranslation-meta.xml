@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Did you send a test lead and have the client confirm receipt? --></help>
+        <label><!-- Test Lead --></label>
+        <name>Test_Lead__c</name>
+    </CustomFieldTranslation>

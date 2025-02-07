@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OkForPandaDoc__c</fullName>
+    <description>not necessary on page layout - used for visibility in lightning page</description>
+    <formula>/* Record Type condition added 10/2/2023 by Richard */
+/* Always ok for Pandadoc when NOT New Sales */
+IF (RecordType.Name &lt;&gt; &quot;New Sales&quot;, TRUE, 
+
+IF (
+      !IsPickVal (StageName, &quot;Contract&quot;) ||
+      IsBlank ( Text(Tier_Plan__c) ) ||
+      IsBlank ( Subscription_Start_Date__c ) ||
+      IsBlank ( Text (Contract_Term_Months__c) ) ||
+      Number_of_IDX_Product_Lines__c &lt;&gt; Number_of_MLS_Boards__c ||
+/*
+      IsBlank ( Account.Account_Manager__c ) ||
+add other stakeholders....IM, Broker Contact, Primary Contact
+*/
+      IsBlank ( Account.BillingStreet ) ||
+      IsBlank ( Account.BillingCity ) ||
+      IsBlank ( Account.BillingState ) ||
+      IsBlank ( Account.BillingPostalCode ) ||
+      IsBlank ( Account.BillingCountry ),
+
+   FALSE, TRUE
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>if true, then user can create a PandaDoc</inlineHelpText>
+    <label>OkForPandaDoc?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

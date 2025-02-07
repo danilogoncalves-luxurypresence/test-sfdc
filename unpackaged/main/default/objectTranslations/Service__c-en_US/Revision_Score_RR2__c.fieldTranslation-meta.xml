@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Revision Score RR2 --></label>
+        <name>Revision_Score_RR2__c</name>
+        <picklistValues>
+            <masterLabel>1: Very Unsatisfied</masterLabel>
+            <translation><!-- 1: Very Unsatisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2: Unsatisfied</masterLabel>
+            <translation><!-- 2: Unsatisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3: Neutral</masterLabel>
+            <translation><!-- 3: Neutral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4: Satisfied</masterLabel>
+            <translation><!-- 4: Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5: Very Satisfied</masterLabel>
+            <translation><!-- 5: Very Satisfied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

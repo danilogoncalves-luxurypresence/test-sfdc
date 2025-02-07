@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_Requests_CSM_CX</fullName>
+    <booleanFilter>1 AND 2 AND (4 OR 3)</booleanFilter>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Team__c</columns>
+    <columns>Request_Type__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Quarter__c</columns>
+    <columns>Submitted_By__c</columns>
+    <columns>SF_Team_Reviewed__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.SFDC_Ticket</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Deployed,Done,Closed</value>
+    </filters>
+    <filters>
+        <field>Submitted_By__c</field>
+        <operation>equals</operation>
+        <value>Blake Wilkerson</value>
+    </filters>
+    <filters>
+        <field>Team__c</field>
+        <operation>equals</operation>
+        <value>CSM,CX</value>
+    </filters>
+    <label>Salesforce Requests - CSM/CX</label>
+</ListView>

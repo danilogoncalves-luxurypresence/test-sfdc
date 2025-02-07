@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OOO_Coverage_Lead_Generation_Services</fullName>
+    <booleanFilter>(1 AND 2)</booleanFilter>
+    <columns>NAME</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Content_Creator__c</columns>
+    <columns>Strategy_Brief__c</columns>
+    <columns>Account_Manager2__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Andrew</value>
+    </filters>
+    <filters>
+        <field>OWNER.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Liu</value>
+    </filters>
+    <label>OOO Coverage - Lead Generation Services</label>
+</ListView>

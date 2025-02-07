@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Verify_Billing_Amount__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Needed due to issue with subscription/marketing fee fields at the account level not updating for addendums/changes - once mrr field design has been completed this field can be deleted at some future date</description>
+    <inlineHelpText>Verify billing amounts in Stripe, ensuring the sums for billing align at the level of the account.</inlineHelpText>
+    <label>Verify Billing Amount</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

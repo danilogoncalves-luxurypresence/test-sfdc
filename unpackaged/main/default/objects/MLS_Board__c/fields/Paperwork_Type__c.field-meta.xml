@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Paperwork_Type__c</fullName>
+    <label>Paperwork Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Physical IDX Agreement</fullName>
+                <default>false</default>
+                <label>Physical IDX Agreement</label>
+            </value>
+            <value>
+                <fullName>Physical Agreements</fullName>
+                <default>false</default>
+                <label>Physical Agreements</label>
+            </value>
+            <value>
+                <fullName>Digital Agreements</fullName>
+                <default>false</default>
+                <label>Digital Agreements</label>
+            </value>
+            <value>
+                <fullName>Client-Initiated</fullName>
+                <default>false</default>
+                <label>Client-Initiated</label>
+            </value>
+            <value>
+                <fullName>Vendor-Friendly</fullName>
+                <default>false</default>
+                <label>Vendor-Friendly</label>
+            </value>
+            <value>
+                <fullName>Opt-in</fullName>
+                <default>false</default>
+                <label>Opt-in</label>
+            </value>
+            <value>
+                <fullName>Client-Initiated/Digital Agreements</fullName>
+                <default>false</default>
+                <label>Client-Initiated/Digital Agreements</label>
+            </value>
+            <value>
+                <fullName>Client Initiated</fullName>
+                <default>false</default>
+                <label>Client Initiated</label>
+            </value>
+            <value>
+                <fullName>Physical IDX Agreement or Client?</fullName>
+                <default>false</default>
+                <label>Physical IDX Agreement or Client?</label>
+            </value>
+            <value>
+                <fullName>Alexander Team Only</fullName>
+                <default>false</default>
+                <label>Alexander Team Only</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

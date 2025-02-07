@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Service Area Profile</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Service Area Profile</name>
+    <style>none</style>
+    <subject>Recommendation: Creating a Service Area Google Business Profile for Better Local Search Visibility</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

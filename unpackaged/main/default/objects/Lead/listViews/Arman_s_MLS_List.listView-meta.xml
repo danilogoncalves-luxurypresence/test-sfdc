@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Arman_s_MLS_List</fullName>
+    <booleanFilter>1 AND 2 AND (3 or 9) AND 4 AND 5 AND 6 AND 7 AND 8</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Prior_12_months_total_transaction_value__c</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>City__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>MLS_Agent_master_key__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>LEAD.PHONE</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>MLS Leads (net New)</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Engaging</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>greaterThan</operation>
+        <value>15000000</value>
+    </filters>
+    <filters>
+        <field>Partnership_Organization__c</field>
+        <operation>notEqual</operation>
+        <value>Sotheby&#39;s International Realty,Sotheby&#39;s Int Realty Affiliate,Corcoran,Corcoran Affiliate,@ Properties,The Agency,Christie’s International Real Estate Affiliate,Side</value>
+    </filters>
+    <filters>
+        <field>State__c</field>
+        <operation>equals</operation>
+        <value>az</value>
+    </filters>
+    <filters>
+        <field>LEAD.PHONE</field>
+        <operation>contains</operation>
+        <value>602</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>MLS Leads (existing)</value>
+    </filters>
+    <label>Arman&#39;s MLS List</label>
+</ListView>

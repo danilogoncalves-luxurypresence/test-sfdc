@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Thanks for the positive CSAT Review</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Thanks for the positive CSAT Review</name>
+    <style>none</style>
+    <subject>Thank You for Your Wonderful Feedback!</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

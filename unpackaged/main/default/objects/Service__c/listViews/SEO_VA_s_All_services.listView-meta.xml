@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SEO_VA_s_All_services</fullName>
+    <columns>NAME</columns>
+    <columns>OWNER.ALIAS</columns>
+    <columns>Status__c</columns>
+    <columns>Account__c</columns>
+    <columns>Account_Manager2__c</columns>
+    <columns>Implementation_Manager__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.GMB_Posts,Service__c.General,Service__c.SEO_Key_Word_Analysis,Service__c.SEO_Migration,Service__c.SEO_Optimizations</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Done,Paused,Cancelled</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notContain</operation>
+        <value>ignore,ADA,Opening,Monthly Reporting,Quarterly Reporting</value>
+    </filters>
+    <label>SEO VA&#39;s - All services</label>
+    <sharedTo>
+        <allPartnerUsers />
+        <role>SEO_Analyst</role>
+        <role>SEO_Manager</role>
+        <role>SEO_Marketing_VA</role>
+        <role>SEO_Migration</role>
+        <role>SEO_Specialist</role>
+        <role>Senior_SEO_Specialist</role>
+    </sharedTo>
+</ListView>

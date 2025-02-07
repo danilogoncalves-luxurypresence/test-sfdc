@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Set_Up_Citations_services</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>Product__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product__c</field>
+        <operation>equals</operation>
+        <value>Link Building</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Set Up</value>
+    </filters>
+    <label>Set Up - Link Building</label>
+    <sharedTo>
+        <portalRoleAndSubordinates>LuxuryPresencePFTWebsiteExecutionPartnerUser</portalRoleAndSubordinates>
+        <roleAndSubordinates>SEO_Analyst</roleAndSubordinates>
+        <roleAndSubordinates>SEO_Manager</roleAndSubordinates>
+        <roleAndSubordinates>SEO_Marketing_VA</roleAndSubordinates>
+        <roleAndSubordinates>SEO_Migration</roleAndSubordinates>
+        <roleAndSubordinates>SEO_Specialist</roleAndSubordinates>
+        <roleAndSubordinates>Senior_SEO_Specialist</roleAndSubordinates>
+    </sharedTo>
+</ListView>

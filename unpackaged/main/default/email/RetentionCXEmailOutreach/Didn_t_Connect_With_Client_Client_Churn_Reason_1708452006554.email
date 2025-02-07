@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+We're sorry to hear you're cancelling your subscription with Luxury Presence and that we weren't able to connect with you to help get you to stay.<br />
+<br />
+Tell us more about why&nbsp;you are leaving and submit your feedback&nbsp;<a href="https://form.jotform.com/240375849817166?salesforceId={{{Case.Id}}}&amp;typeA={{{Recipient.Name}}}&amp;email={{{Recipient.Email}}}">here</a>.&nbsp;<br />
+<br />
+Thank you,&nbsp;<br />
+Luxury Presence Team</body>
+</html>

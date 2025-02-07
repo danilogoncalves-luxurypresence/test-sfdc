@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+This is a quick note to let you know that your payment is past due for website services, including blog content and Google Business Profile optimizations. The last charge failed on [date] and we have not yet received a response from your team.<br />
+<br />
+Let me know if there have been any changes on your team and if we need to update any contact or billing information. I'm happy to facilitate a conversation with our Billing Team to resolve this matter. I can also advise on your domain renewal so you can get your website back up and running.<br />
+<br />
+Please call me or email me as soon as possible.<br />
+<br />
+Best,<br />
+{{{Sender.Name}}}</body>
+</html>

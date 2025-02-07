@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Testimonial Tree</fullName>
+        <default>false</default>
+        <label>Testimonial Tree</label>
+    </customValue>
+    <customValue>
+        <fullName>TotalBrokerage</fullName>
+        <default>false</default>
+        <label>TotalBrokerage</label>
+    </customValue>
+    <customValue>
+        <fullName>MAXA</fullName>
+        <default>false</default>
+        <label>MAXA</label>
+    </customValue>
+    <customValue>
+        <fullName>Cloze</fullName>
+        <default>false</default>
+        <label>Cloze</label>
+    </customValue>
+    <customValue>
+        <fullName>FOLLOW UP BOSS</fullName>
+        <default>false</default>
+        <label>FOLLOW UP BOSS</label>
+    </customValue>
+    <customValue>
+        <fullName>AgentUpgrade</fullName>
+        <default>false</default>
+        <label>AgentUpgrade</label>
+    </customValue>
+    <customValue>
+        <fullName>Aerial Canvas</fullName>
+        <default>false</default>
+        <label>Aerial Canvas</label>
+    </customValue>
+    <customValue>
+        <fullName>CLOSING DAY</fullName>
+        <default>false</default>
+        <label>CLOSING DAY</label>
+    </customValue>
+    <customValue>
+        <fullName>NAGEL MEDIA GROUP</fullName>
+        <default>false</default>
+        <label>NAGEL MEDIA GROUP</label>
+    </customValue>
+    <customValue>
+        <fullName>Studio Twenty Three</fullName>
+        <default>false</default>
+        <label>Studio Twenty Three</label>
+    </customValue>
+    <customValue>
+        <fullName>RE Luxe Leaders</fullName>
+        <default>false</default>
+        <label>RE Luxe Leaders</label>
+    </customValue>
+    <customValue>
+        <fullName>Affogato</fullName>
+        <default>false</default>
+        <label>Affogato</label>
+    </customValue>
+    <customValue>
+        <fullName>Sign More</fullName>
+        <default>false</default>
+        <label>Sign More</label>
+    </customValue>
+    <customValue>
+        <fullName>Capturely</fullName>
+        <default>false</default>
+        <label>Capturely</label>
+    </customValue>
+    <customValue>
+        <fullName>BoxBrownie</fullName>
+        <default>false</default>
+        <label>BoxBrownie</label>
+    </customValue>
+    <customValue>
+        <fullName>Empower</fullName>
+        <default>false</default>
+        <label>Empower</label>
+    </customValue>
+    <customValue>
+        <fullName>Acre</fullName>
+        <default>false</default>
+        <label>Acre</label>
+    </customValue>
+    <customValue>
+        <fullName>SEO Realty Pro</fullName>
+        <default>false</default>
+        <label>SEO Realty Pro</label>
+    </customValue>
+    <customValue>
+        <fullName>Contracts and Coffee</fullName>
+        <default>false</default>
+        <label>Contracts and Coffee</label>
+    </customValue>
+    <masterLabel>Affiliate Partnerships</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

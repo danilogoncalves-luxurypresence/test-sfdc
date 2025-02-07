@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Bundle_Product__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>If this product was added as part of a bundle, the system checks this. This allows us to remove/replace bundle products while retaining any one time products that were added.</description>
+    <label>Is Bundle Product?</label>
+    <type>Checkbox</type>
+</CustomField>

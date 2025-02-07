@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <environments>Default</environments>
+    <formulas>
+        <name>forABSValue</name>
+        <dataType>Number</dataType>
+        <expression>ABS({!forDifferenceDate}/7)</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>forBDays</name>
+        <dataType>Number</dataType>
+        <expression>(5 * ( FLOOR( ( TODAY()- DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD( TODAY()- DATE( 1900,
+1, 8), 7 ) ) )
+-
+(5 * ( FLOOR( ( DATEVALUE( {!$Record.Last_Status_Update__c}) - DATE( 1900, 1, 8) ) / 7 ) ) + MIN( 5, MOD(  DATEVALUE({!$Record.Last_Status_Update__c}) - DATE( 1900,
+1, 8), 7 ) ) )</expression>
+        <scale>0</scale>
+    </formulas>
+    <formulas>
+        <name>forBH</name>
+        <dataType>Number</dataType>
+        <expression>CASE( {!varLastDay},
+1, IF(
+     {!forDifferenceDate}&lt;5, 
+    (((NOW()-{!$Record.Last_Status_Update__c}))), 
+     ((NOW()-{!$Record.Last_Status_Update__c})-{!forABSValue})),
+2, IF({!forDifferenceDate}&lt;4, 
+    (NOW()-{!$Record.Last_Status_Update__c})/8, 
+   ((NOW()-{!$Record.Last_Status_Update__c})-{!forABSValue})),
+3, IF({!forDifferenceDate}&lt;3, 
+    ((NOW()-{!$Record.Last_Status_Update__c})), 
+   ((NOW()-{!$Record.Last_Status_Update__c})-{!forABSValue})),
+4, IF({!forDifferenceDate}&lt;2, 
+    (NOW()-{!$Record.Last_Status_Update__c}), 
+   ((NOW()-{!$Record.Last_Status_Update__c})-{!forABSValue})),
+  ((NOW()-{!$Record.Last_Status_Update__c})-{!forABSValue})
+)</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>forDifferenceDate</name>
+        <dataType>Number</dataType>
+        <expression>{!varCurrentDate}-{!varLastDate}</expression>
+        <scale>0</scale>
+    </formulas>
+    <formulas>
+        <name>forDivision</name>
+        <dataType>Number</dataType>
+        <expression>NOW()-{!$Record.Last_Status_Update__c}</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>statusDuration</name>
+        <dataType>Number</dataType>
+        <expression>(ROUND( 8 * (
+( 5 * FLOOR( ( DATEVALUE( NOW()  ) - DATE( 1900, 1, 8) ) / 7) +
+MIN(5,
+MOD( DATEVALUE( NOW() ) - DATE( 1900, 1, 8), 7) +
+MIN( 1, 24 / 8 * ( MOD(NOW()  - DATETIMEVALUE( &#39;1900-01-08 16:00:00&#39; ), 1 ) ) )
+)
+)
+-
+( 5 * FLOOR( ( DATEVALUE( {!$Record__Prior.Last_Status_Update__c}   ) - DATE( 1900, 1, 8) ) / 7) +
+MIN( 5,
+MOD( DATEVALUE( {!$Record__Prior.Last_Status_Update__c}   ) - DATE( 1996, 1, 1), 7 ) +
+MIN( 1, 24 / 8 * ( MOD( {!$Record__Prior.Last_Status_Update__c}   - DATETIMEVALUE( &#39;1900-01-08 16:00:00&#39; ), 1) ) )
+)
+)
+),
+0 )
+)/8</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>statusDurationText</name>
+        <dataType>String</dataType>
+        <expression>TEXT({!$Record__Prior.Status__c}) &amp; &quot; : &quot; &amp; TEXT({!forBH}) &amp; &quot;days&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>varCurrentDate</name>
+        <dataType>Date</dataType>
+        <expression>TODAY()</expression>
+    </formulas>
+    <formulas>
+        <name>varLastDate</name>
+        <dataType>Date</dataType>
+        <expression>DATEVALUE({!$Record.Last_Status_Update__c})</expression>
+    </formulas>
+    <formulas>
+        <name>varLastDay</name>
+        <dataType>Number</dataType>
+        <expression>MOD(DATEVALUE( {!$Record.Last_Status_Update__c}) - DATE( 1900, 1, 7 ), 7 )</expression>
+        <scale>0</scale>
+    </formulas>
+    <interviewLabel>LP - Service Schedule Durations {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>LP - Service Schedule Durations</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Change_Last_Updated</name>
+        <label>Change Last Updated</label>
+        <locationX>176</locationX>
+        <locationY>431</locationY>
+        <inputAssignments>
+            <field>Last_Status_Update__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Duration</name>
+        <label>Update Duration</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <connector>
+            <targetReference>Change_Last_Updated</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Status_Duration__c</field>
+            <value>
+                <elementReference>statusDurationText</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Time_Between_Stage__c</field>
+            <value>
+                <elementReference>forBH</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Update_Duration</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Status__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Service_schedule__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

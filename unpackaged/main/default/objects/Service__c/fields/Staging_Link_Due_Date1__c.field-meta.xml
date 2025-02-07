@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Staging_Link_Due_Date1__c</fullName>
+    <formula>CASE(
+MOD( DATEVALUE(CreatedDate) - DATE(1900, 1, 7), 7),
+0, (DATEVALUE(CreatedDate)) + 2 + FLOOR((2-1)/5)*2,
+1, (DATEVALUE(CreatedDate)) + 2+ FLOOR((2)/5)*2,
+2, (DATEVALUE(CreatedDate)) + 2 + FLOOR((2+1)/5)*2,
+3, (DATEVALUE(CreatedDate)) + 2 + FLOOR((2+2)/5)*2,
+4, (DATEVALUE(CreatedDate)) + 2 + FLOOR((2+3)/5)*2,
+5, (DATEVALUE(CreatedDate)) + 2 + CEILING((2)/5)*2,
+6, (DATEVALUE(CreatedDate)) - IF(2&gt;0,1,0) + 2 + CEILING((2)/5)*2,
+null)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Website Draft Due Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

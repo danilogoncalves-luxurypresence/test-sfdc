@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Score should be on a scale of 1-5 --></help>
+        <label><!-- Google Review Score --></label>
+        <name>Google_Review_Score__c</name>
+    </CustomFieldTranslation>

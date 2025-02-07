@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Time from New to Closed Won --></label>
+        <name>Time_from_New_to_Closed_Won__c</name>
+    </CustomFieldTranslation>

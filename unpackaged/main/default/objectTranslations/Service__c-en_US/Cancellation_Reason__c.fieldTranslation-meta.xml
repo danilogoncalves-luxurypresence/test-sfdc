@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Cancellation Reason --></label>
+        <name>Cancellation_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Already Migrated</masterLabel>
+            <translation><!-- Already Migrated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Already complete, migrate from Hubspot</masterLabel>
+            <translation><!-- Already complete, migrate from Hubspot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Churn</masterLabel>
+            <translation><!-- Churn --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Opt-ed out</masterLabel>
+            <translation><!-- Client Opt-ed out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downgrade</masterLabel>
+            <translation><!-- Downgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reactivation</masterLabel>
+            <translation><!-- Reactivation --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

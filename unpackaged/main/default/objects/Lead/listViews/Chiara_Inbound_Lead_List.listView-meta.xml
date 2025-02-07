@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chiara_Inbound_Lead_List</fullName>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QRg00000Ehr2b,00QRg00000EmK2o,00QRg00000CyVur,00QRg00000EoXDh,00QRg00000Eswrl,00QRg00000EeIuD,00QRg00000Emp1m,00QRg00000Eefqw,00QRg00000E7GgY,00QRg00000EpAmr</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QRg00000EHhFe,00QRg00000EiROW,00QRg00000EmW8p,00QRg00000EirAE,00QRg00000Elido,00QRg00000EelJV,00QRg00000EpnFN,00QRg00000EuRv7,00QRg00000EbACH,00QRg00000EnXu1</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QRg00000CYx3N,00QRg00000Eo8Tm,00QRg00000ELbm5,00QRg00000ErM2M,00QRg00000EpiGf,00QRg00000EeoxJ,00QRg00000Ehont,00QRg00000EqQET,00QRg00000EqsST,00QRg00000EQOkz</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QRg00000Ekylu,00QRg00000EU2fR,00QRg00000EeIuM,00QRg00000EhMLN,00QRg00000Eul4D,00QRg00000Ej1uN,00QRg00000EgJZG,00QRg00000EfO7x,00QRg00000EhmSj,00QRg00000EQ8YB</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QRg00000Ej84b,00QRg00000Epffq,00QRg00000EcH9U,00QRg00000EuFxB,00QRg00000EuCkn,00QRg00000Eo4d4</value>
+    </filters>
+    <label>Chiara Inbound Lead List</label>
+</ListView>

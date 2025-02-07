@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_Category__c</fullName>
+    <label>Marketing Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Partners</fullName>
+                <default>false</default>
+                <label>Partners</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>DNC</fullName>
+                <default>false</default>
+                <label>DNC</label>
+            </value>
+            <value>
+                <fullName>Mid-Market</fullName>
+                <default>false</default>
+                <label>Mid-Market</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Events</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Events</label>
+            </value>
+            <value>
+                <fullName>Inbound Partners</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Inbound Partners</label>
+            </value>
+            <value>
+                <fullName>Strategic Outbound</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Strategic Outbound</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

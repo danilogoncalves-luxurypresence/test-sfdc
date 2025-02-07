@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brokerages__c</fullName>
+    <label>Brokerages</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Christie&#39;s International</fullName>
+                <default>false</default>
+                <label>Christie&#39;s International</label>
+            </value>
+            <value>
+                <fullName>Coldwell Banker Brand</fullName>
+                <default>false</default>
+                <label>Coldwell Banker Brand</label>
+            </value>
+            <value>
+                <fullName>Coldwell Banker Luxury</fullName>
+                <default>false</default>
+                <label>Coldwell Banker Luxury</label>
+            </value>
+            <value>
+                <fullName>Compass</fullName>
+                <default>false</default>
+                <label>Compass</label>
+            </value>
+            <value>
+                <fullName>Corcoran Brand</fullName>
+                <default>false</default>
+                <label>Corcoran Brand</label>
+            </value>
+            <value>
+                <fullName>Side</fullName>
+                <default>false</default>
+                <label>Side</label>
+            </value>
+            <value>
+                <fullName>Sotheby&#39;s Affliate</fullName>
+                <default>false</default>
+                <label>Sotheby&#39;s Affliate</label>
+            </value>
+            <value>
+                <fullName>Sotheby&#39;s Brand</fullName>
+                <default>false</default>
+                <label>Sotheby&#39;s Brand</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Reminder 2 Days Later  - Pinnacle</name>
+    <style>none</style>
+    <subject>Let&#39;s Get The Property Website Live!</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+I hope this email finds you well. As a reminder, the preview website is ready to review!
+
+Please follow the 2 steps below
+
+Review the website ➡️ View Here
+Approve/submit edits ➡️ Click Here
+
+Let us know if you have any questions.
+
+
+Best,
+
+Self Serve Property Websites
+Luxury Presence
+Phone: (310) 955-1077
+Email: support@luxurypresence.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- How were the copywriting pages used on the site, please be as specific as possible --></help>
+        <label><!-- Copywriting Usage --></label>
+        <name>Copywriting_Usage__c</name>
+    </CustomFieldTranslation>

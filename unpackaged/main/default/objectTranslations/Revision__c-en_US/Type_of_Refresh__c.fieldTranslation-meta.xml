@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type of Refresh --></label>
+        <name>Type_of_Refresh__c</name>
+        <picklistValues>
+            <masterLabel>Global Refresh</masterLabel>
+            <translation><!-- Global Refresh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Imagery/Videography Refresh</masterLabel>
+            <translation><!-- Imagery/Videography Refresh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single/Two Page Refresh</masterLabel>
+            <translation><!-- Single/Two Page Refresh --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

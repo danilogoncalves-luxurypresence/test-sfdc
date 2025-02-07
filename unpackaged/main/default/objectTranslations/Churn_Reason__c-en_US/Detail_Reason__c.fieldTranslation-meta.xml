@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Detail Reason --></label>
+        <name>Detail_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Brokerage Providing Services</masterLabel>
+            <translation><!-- Brokerage Providing Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Budget</masterLabel>
+            <translation><!-- Budget --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Budget/Client Performance</masterLabel>
+            <translation><!-- Budget/Client Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRM Integration</masterLabel>
+            <translation><!-- CRM Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Performance</masterLabel>
+            <translation><!-- Client Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Responsiveness</masterLabel>
+            <translation><!-- Client Responsiveness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deliverable Delayed</masterLabel>
+            <translation><!-- Deliverable Delayed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deliverable Missed</masterLabel>
+            <translation><!-- Deliverable Missed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expectations/Contract Misunderstanding</masterLabel>
+            <translation><!-- Expectations/Contract Misunderstanding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hired In-House</masterLabel>
+            <translation><!-- Hired In-House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Search Tool</masterLabel>
+            <translation><!-- Home Search Tool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MLS Feed Functionality</masterLabel>
+            <translation><!-- MLS Feed Functionality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NA</masterLabel>
+            <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Payment/Collections</masterLabel>
+            <translation><!-- Non-Payment/Collections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Business/Retiring</masterLabel>
+            <translation><!-- Out of Business/Retiring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Adoption</masterLabel>
+            <translation><!-- Product Adoption --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality of Deliverable</masterLabel>
+            <translation><!-- Quality of Deliverable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality of Leads</masterLabel>
+            <translation><!-- Quality of Leads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality of Responses</masterLabel>
+            <translation><!-- Quality of Responses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quantity of Leads</masterLabel>
+            <translation><!-- Quantity of Leads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response Times/SLA</masterLabel>
+            <translation><!-- Response Times/SLA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saved</masterLabel>
+            <translation><!-- Saved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Search Engine Ranking</masterLabel>
+            <translation><!-- Search Engine Ranking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media followers</masterLabel>
+            <translation><!-- Social Media followers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Value/ROI</masterLabel>
+            <translation><!-- Value/ROI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website Customization Limitations</masterLabel>
+            <translation><!-- Website Customization Limitations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website Traffic</masterLabel>
+            <translation><!-- Website Traffic --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

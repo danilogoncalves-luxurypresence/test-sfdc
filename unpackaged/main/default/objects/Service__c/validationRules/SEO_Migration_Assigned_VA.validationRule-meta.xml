@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SEO_Migration_Assigned_VA</fullName>
+    <active>true</active>
+    <description>Status Migration - Please Assign a VA</description>
+    <errorConditionFormula>AND(
+ RecordType.Name =&quot;SEO Migration&quot;,
+ISCHANGED(Status__c),
+ISPICKVAL(Status__c,&quot;Migration&quot;),
+ISblank( Assigned_VA__c ))</errorConditionFormula>
+    <errorDisplayField>Assigned_VA__c</errorDisplayField>
+    <errorMessage>Please Assign a VA.</errorMessage>
+</ValidationRule>

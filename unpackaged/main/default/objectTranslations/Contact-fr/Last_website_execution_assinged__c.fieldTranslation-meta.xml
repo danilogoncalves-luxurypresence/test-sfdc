@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Last website execution assinged --></label>
+        <name>Last_website_execution_assinged__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Downgrade_Reason__c</fullName>
+    <label>Downgrade Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <label>Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Late Deliverables</fullName>
+                <default>false</default>
+                <label>Late Deliverables</label>
+            </value>
+            <value>
+                <fullName>Content Quality</fullName>
+                <default>false</default>
+                <label>Content Quality</label>
+            </value>
+            <value>
+                <fullName>Budget/Cost</fullName>
+                <default>false</default>
+                <label>Budget/Cost</label>
+            </value>
+            <value>
+                <fullName>No ROI/Don&#39;t see value</fullName>
+                <default>false</default>
+                <label>No ROI/Don&#39;t see value</label>
+            </value>
+            <value>
+                <fullName>Personal Reasons</fullName>
+                <default>false</default>
+                <label>Personal Reasons</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Website/Other Service</fullName>
+                <default>false</default>
+                <label>Website/Other Service</label>
+            </value>
+            <value>
+                <fullName>Non-renewal</fullName>
+                <default>false</default>
+                <label>Non-renewal</label>
+            </value>
+            <value>
+                <fullName>Wrong/Unmet Expectations</fullName>
+                <default>false</default>
+                <label>Wrong/Unmet Expectations</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

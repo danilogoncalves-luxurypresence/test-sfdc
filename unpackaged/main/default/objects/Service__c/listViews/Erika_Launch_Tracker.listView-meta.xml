@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Erika_Launch_Tracker</fullName>
+    <columns>NAME</columns>
+    <columns>Tier_Plan__c</columns>
+    <columns>Status__c</columns>
+    <columns>LAST_ACTIVITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Subdomain Websites Launched,Website Launched,Client Launched,Unresponsive,Cancelled</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.Agent_Subdomains,Service__c.Custom_Website,Service__c.In_App_Onboarding,Service__c.Property_Website,Service__c.Website_Launches</value>
+    </filters>
+    <filters>
+        <field>OWNER.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Erika</value>
+    </filters>
+    <filters>
+        <field>OWNER.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Amendola</value>
+    </filters>
+    <label>Erika - Launch Tracker</label>
+</ListView>

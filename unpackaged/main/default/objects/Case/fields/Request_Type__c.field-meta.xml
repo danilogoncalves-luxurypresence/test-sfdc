@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Type__c</fullName>
+    <label>Request Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Process</fullName>
+                <default>false</default>
+                <label>🖥️New Process</label>
+            </value>
+            <value>
+                <fullName>Process Adjustment</fullName>
+                <default>false</default>
+                <label>🏗️Process Adjustment</label>
+            </value>
+            <value>
+                <fullName>Issue</fullName>
+                <default>false</default>
+                <label>❗Issue</label>
+            </value>
+            <value>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+                <label>📊 Reporting</label>
+            </value>
+            <value>
+                <fullName>Data</fullName>
+                <default>false</default>
+                <label>💽Data</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>🏅Training</label>
+            </value>
+            <value>
+                <fullName>Field (New/Change)</fullName>
+                <default>false</default>
+                <label>🔠Field (New/Change)</label>
+            </value>
+            <value>
+                <fullName>Documentation</fullName>
+                <default>false</default>
+                <label>📝Documentation</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>🎲Other</label>
+            </value>
+            <value>
+                <fullName>(Not Salesforce)</fullName>
+                <default>false</default>
+                <label>(Not Salesforce)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

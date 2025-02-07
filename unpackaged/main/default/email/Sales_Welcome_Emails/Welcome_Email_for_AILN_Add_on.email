@@ -1,0 +1,17 @@
+Hi {!Contact.FirstName},
+
+
+I'm thrilled to set you up with our AI Lead Nurture offering.  To onboard you as quickly as possible please complete THIS FORM within the next 24 hours to make sure there are no delays in your setup.
+
+The three most important pieces of information we need to complete the form on time are:
+1. Legal Business Name
+2. Business Entity
+3. Your EIN (if available)
+
+Please note that verification and setup can take up to three weeks after receipt of your information.  As always, please feel free to reach out if you have any questions.
+
+Best,
+{!User.FirstName} {!User.LastName}
+{!User.Phone}
+{!User.Email}
+Luxury Presence

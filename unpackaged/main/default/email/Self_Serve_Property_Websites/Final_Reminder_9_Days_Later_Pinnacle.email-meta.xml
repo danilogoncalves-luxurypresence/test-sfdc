@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Final Reminder 9 Days Later  - Pinnacle</name>
+    <style>none</style>
+    <subject>Don&#39;t Forget About The Property Website?</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+I hope this email finds you well. This will be a final reminder from Luxury Presence regarding the property website for [Property Address]. Please make sure to...
+
+Review the website ➡️ View Here
+Approve/submit edits ➡️ Click Here
+
+Please note that the monthly subscription starts 30 days after your order submission. Let us know if you have any questions.
+
+
+We look forward to getting your property website online!
+
+Best,
+
+Self Serve Property Websites
+Luxury Presence
+Phone: (310) 955-1077
+Email: support@luxurypresence.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

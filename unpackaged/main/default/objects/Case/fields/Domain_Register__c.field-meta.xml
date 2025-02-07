@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Domain_Register__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What is your domain register?
+The provider you used to buy your domain, e.g. GoDaddy, Namecheap, or Network Solutions.</inlineHelpText>
+    <label>Domain Register</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

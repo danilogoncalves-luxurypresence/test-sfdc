@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Remove_Plan_with_Tier_Plan</fullName>
+    <active>true</active>
+    <description>Ensure that the field &quot;Tier Plan&quot; cannot have a value, if the &quot;Remove Plan&quot; field is unchecked, only for Reduce Record Type.</description>
+    <errorConditionFormula>AND(
+Record_Type_Name__c =&quot;Reduce Service&quot;,
+NOT(ISPICKVAL( Tier_Plan__c,&quot;&quot;)),
+Remove_Plan__c = FALSE
+)</errorConditionFormula>
+    <errorMessage>You cannot add a Tier Plan unless this Reduce opportunity is removing the plan entirely. If that is the case, please check the &quot;Remove plan&quot; checkbox</errorMessage>
+</ValidationRule>

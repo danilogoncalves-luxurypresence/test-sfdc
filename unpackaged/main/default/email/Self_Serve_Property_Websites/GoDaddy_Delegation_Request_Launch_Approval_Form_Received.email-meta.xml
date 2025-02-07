@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>GoDaddy Delegation Request - Launch Approval Form Received</name>
+    <style>none</style>
+    <subject>One Last Step to Launch Your Property Website!</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Thank you for your launch approval! We are excited to get your website live soon. However, we need access to the domain. When we sign into the account it triggers a code that expires after 10 minutes.
+
+Can you please share access to your GoDaddy account by following these steps:
+
+1. Go to your GoDaddy Account Settings. If you&#39;re not already logged in, you&#39;ll be prompted to log in.
+
+2. Click Delegate Access.
+
+3. In the People who can access my account section, click Invite to Access.
+
+4. Enter
+NAME: Luxury Presence
+EMAIL: propertysites@luxurypresence.com
+
+5. Access level: Products and Domains.
+
+6. Click Invite. GoDaddy will send us an email invitation to access your account.
+7. Respond to this email letting me know you granted the access so I can accept. GoDaddy will then send you an email telling you that I did!
+
+Best,
+
+Self Serve Property Websites
+Luxury Presence
+Phone: (310) 955-1077
+Email: support@luxurypresence.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

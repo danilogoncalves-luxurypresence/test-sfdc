@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <assignments>
+        <name>Set_New_Owner_for_Lead</name>
+        <label>Set New Owner for Lead</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <assignmentItems>
+            <assignToReference>varInputLead.OwnerId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>fNewOwnerId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varInputLead.Status</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Ready</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <description>Receives a lead record and update its owner based on the Marketing Category</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>fNewOwnerId</name>
+        <dataType>String</dataType>
+        <expression>CASE(TEXT({!varInputLead.Marketing_Category__c}), 
+&#39;General&#39;, {!$Label.ID_Queue_General}, 
+&#39;Partners&#39;, {!$Label.ID_Queue_Partners},
+&#39;Mid-Market&#39;,{!$Label.ID_Queue_MidMarket},
+&#39;Marketing&#39;,{!$Label.ID_Queue_Marketing},
+{!$Label.ID_Queue_General})</expression>
+    </formulas>
+    <interviewLabel>Lead_SBL {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Lead_SFL_SetOwnerBasedOnMarketingCategory</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Set_New_Owner_for_Lead</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>varInputLead</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Lead</objectType>
+    </variables>
+</Flow>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_Quality_Score</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+ RecordType.Name = &quot;Paid Media&quot;,
+ ISPICKVAL(PM_Quality_Score__c , &quot;&quot;),
+ ISPICKVAL ( Status__c , &quot;Live&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>PM_Quality_Score__c</errorDisplayField>
+    <errorMessage>Select a PM Quality Score.</errorMessage>
+</ValidationRule>

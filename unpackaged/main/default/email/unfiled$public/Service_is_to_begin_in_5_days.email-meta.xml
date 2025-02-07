@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>Service is to begin in 5 days.</name>
+    <style>freeForm</style>
+    <subject>Service is to begin in 5 days</subject>
+    <textOnly>Hey {!Service__c.OwnerFirstName} ,
+
+The service {!Service__c.Name}, with subscription date: {!Service__c.Subscription_start_date__c} is to begin in 5 days.
+
+IMPORTANT: If the client&#39;s start date needs to be extended, please use the following guidelines:
+
+If 30 days or less, revise the extension date field under the service (please check to make sure the client has not already been billed). If they&#39;ve been billed, a credit request needs to be submitted instead.
+
+If more than 30 days is needed, please create an extension addendum.
+Please ensure this is taken care of before the client is billed to prevent escalation. n.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style=""><font face="arial">Hi&nbsp;{!Contact.FirstName}</font><span style="font-family: arial;">,</span></div><div style=""><font face="arial"><br></font></div><div style=""><font face="arial">I wanted to quickly follow up about our end-of-month offer to discount all website setup fees. This offer is only available for a limited time and is expiring soon.</font></div><div style=""><br></div><div style=""><font face="arial">I don't want you to miss out on this chance to elevate your online presence and stand out from the competition.</font></div><div style=""><br></div><div style=""><font face="arial">Looking forward to hearing from you soon!</font></div><div style=""><br></div><div style=""><font face="arial">Best,</font></div><div style=""><font face="arial">{!User.Name}</font></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div>]]></td>
+</tr>
+</table>

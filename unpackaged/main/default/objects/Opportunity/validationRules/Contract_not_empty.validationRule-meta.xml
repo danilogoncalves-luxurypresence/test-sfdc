@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_not_empty</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+OR(
+Record_Type_Name__c = &quot;Addendum&quot;,
+Record_Type_Name__c = &quot;Reduce Service&quot;,
+Record_Type_Name__c = &quot;New Sales&quot;,
+Record_Type_Name__c = &quot;Add Service&quot;
+),
+ISPICKVAL( StageName , &quot;Closed Won&quot;),
+ISBLANK( ContractId )
+
+)</errorConditionFormula>
+    <errorMessage>Please, include the Subscription information. If there is no Subscription on the Account, or you believe the Subscription details are not correct, please, get in touch with your Salesforce Administrator.</errorMessage>
+</ValidationRule>

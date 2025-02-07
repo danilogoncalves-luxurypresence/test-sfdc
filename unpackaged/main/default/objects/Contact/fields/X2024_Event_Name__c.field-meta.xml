@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2024_Event_Name__c</fullName>
+    <label>Event Name</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1.9.25 - ICNY25 Registrants</fullName>
+                <default>false</default>
+                <label>1.9.25 - ICNY25 Registrants</label>
+            </value>
+            <value>
+                <fullName>1.23.24 Inman Connect NYC</fullName>
+                <default>false</default>
+                <label>1.23.24 Inman Connect NYC</label>
+            </value>
+            <value>
+                <fullName>1.24.24 Side x Side - San Diego</fullName>
+                <default>false</default>
+                <label>1.24.24 Side x Side - San Diego</label>
+            </value>
+            <value>
+                <fullName>2.4.24 Realty One Summit - Las Vegas</fullName>
+                <default>false</default>
+                <label>2.4.24 Realty One Summit - Las Vegas</label>
+            </value>
+            <value>
+                <fullName>1.22 - 1.26 - The Agency - Pasadena / NYC / Park City</fullName>
+                <default>false</default>
+                <label>1.22 - 1.26 - The Agency - Pasadena / NYC / Park City</label>
+            </value>
+            <value>
+                <fullName>2.9.24 JPAR - TX</fullName>
+                <default>false</default>
+                <label>2.9.24 JPAR - TX</label>
+            </value>
+            <value>
+                <fullName>2.26.24 Leading RE - LV</fullName>
+                <default>false</default>
+                <label>2.26.24 Leading RE - LV</label>
+            </value>
+            <value>
+                <fullName>2.29.24 Goldbar Live - NYC</fullName>
+                <default>false</default>
+                <label>2.29.24 Goldbar Live - NYC</label>
+            </value>
+            <value>
+                <fullName>2.5 - Top Producer One Summit - LV</fullName>
+                <default>false</default>
+                <label>2.5 - Top Producer One Summit - LV</label>
+            </value>
+            <value>
+                <fullName>3.6 - 3.8 - Tahoe Connect - CA</fullName>
+                <default>false</default>
+                <label>3.6 - 3.8 - Tahoe Connect - CA</label>
+            </value>
+            <value>
+                <fullName>4.16 - 4.17 - Hannacon - Orlando</fullName>
+                <default>false</default>
+                <label>4.16 - 4.17 - Hannacon - Orlando</label>
+            </value>
+            <value>
+                <fullName>Women’s Council of Realtors - Austin</fullName>
+                <default>false</default>
+                <label>Women’s Council of Realtors - Austin</label>
+            </value>
+            <value>
+                <fullName>Compass Florida 2024 Events</fullName>
+                <default>false</default>
+                <label>Compass Florida 2024 Events</label>
+            </value>
+            <value>
+                <fullName>3.21 Compass Lux Summit - Philly</fullName>
+                <default>false</default>
+                <label>3.21 Compass Lux Summit - Philly</label>
+            </value>
+            <value>
+                <fullName>4.21 - 4.24 - The Gathering - AZ</fullName>
+                <default>false</default>
+                <label>4.21 - 4.24 - The Gathering - AZ</label>
+            </value>
+            <value>
+                <fullName>3.13 - Women of Compass Luncheon</fullName>
+                <default>false</default>
+                <label>3.13 - Women of Compass Luncheon</label>
+            </value>
+            <value>
+                <fullName>4.22 - 4.24 - T3 Leadership Summit - AZ</fullName>
+                <default>false</default>
+                <label>4.22 - 4.24 - T3 Leadership Summit - AZ</label>
+            </value>
+            <value>
+                <fullName>5.8 - 5.10 - eXpcon - Toronto</fullName>
+                <default>false</default>
+                <label>5.8 - 5.10 - eXpcon - Toronto</label>
+            </value>
+            <value>
+                <fullName>5.21 - 5.22 - Inman Connect - Miami</fullName>
+                <default>false</default>
+                <label>5.21 - 5.22 - Inman Connect - Miami</label>
+            </value>
+            <value>
+                <fullName>5.21 - 5.23 - real summit - Banff</fullName>
+                <default>false</default>
+                <label>5.21 - 5.23 - real summit - Banff</label>
+            </value>
+            <value>
+                <fullName>6.3 - 6.4 - Agency CO Retreat - Vail</fullName>
+                <default>false</default>
+                <label>6.3 - 6.4 - Agency CO Retreat - Vail</label>
+            </value>
+            <value>
+                <fullName>6.18 - 6.19 RE/MAX Lux Forum - Tahoe</fullName>
+                <default>false</default>
+                <label>6.18 - 6.19 RE/MAX Lux Forum - Tahoe</label>
+            </value>
+            <value>
+                <fullName>6.12. - 6.14 The Agency Leadership Summit - Charlotte</fullName>
+                <default>false</default>
+                <label>6.12. - 6.14 The Agency Leadership Summit - Charlotte</label>
+            </value>
+            <value>
+                <fullName>6.25 - 6.26 CIRE Masters - BH</fullName>
+                <default>false</default>
+                <label>6.25 - 6.26 CIRE Masters - BH</label>
+            </value>
+            <value>
+                <fullName>6.20 - 6.21 Serhant Netflix Premiere - NYC</fullName>
+                <default>false</default>
+                <label>6.20 - 6.21 Serhant Netflix Premiere - NYC</label>
+            </value>
+            <value>
+                <fullName>7.30 - 8.1 ICLV - LV</fullName>
+                <default>false</default>
+                <label>7.30 - 8.1 ICLV - LV</label>
+            </value>
+            <value>
+                <fullName>7.17 - GCMastermind - LA</fullName>
+                <default>false</default>
+                <label>7.17 - GCMastermind - LA</label>
+            </value>
+            <value>
+                <fullName>6.12 - 6.14 - Agency Leadership Summit - Charlotte</fullName>
+                <default>false</default>
+                <label>6.12 - 6.14 - Agency Leadership Summit - Charlotte</label>
+            </value>
+            <value>
+                <fullName>8.1 - 8.2 - eXp Build 24 - NJ</fullName>
+                <default>false</default>
+                <label>8.1 - 8.2 - eXp Build 24 - NJ</label>
+            </value>
+            <value>
+                <fullName>9.4 - 9.6 - RIS Media CEO/Leadership Exchange - DC</fullName>
+                <default>false</default>
+                <label>9.4 - 9.6 - RIS Media CEO/Leadership Exchange - DC</label>
+            </value>
+            <value>
+                <fullName>8.27 - 8.29 - TF Summit - Dallas</fullName>
+                <default>false</default>
+                <label>8.27 - 8.29 - TF Summit - Dallas</label>
+            </value>
+            <value>
+                <fullName>8.29 - 9.1 - Compass Jazz Aspen Experience - CO</fullName>
+                <default>false</default>
+                <label>8.29 - 9.1 - Compass Jazz Aspen Experience - CO</label>
+            </value>
+            <value>
+                <fullName>9.4 - 9.6 - CEO&amp;Leadership Exchange - DC</fullName>
+                <default>false</default>
+                <label>9.4 - 9.6 - CEO&amp;Leadership Exchange - DC</label>
+            </value>
+            <value>
+                <fullName>9.7 - ONE Magical - Nashville</fullName>
+                <default>false</default>
+                <label>9.7 - ONE Magical - Nashville</label>
+            </value>
+            <value>
+                <fullName>9.8 - 9.10 - SIRE - Nashville</fullName>
+                <default>false</default>
+                <label>9.8 - 9.10 - SIRE - Nashville</label>
+            </value>
+            <value>
+                <fullName>9.23 - 9.24 - CBGL Miami</fullName>
+                <default>false</default>
+                <label>9.23 - 9.24 - CBGL Miami</label>
+            </value>
+            <value>
+                <fullName>9.29 - 10.1 - T3 Tech Summit - New Orleans</fullName>
+                <default>false</default>
+                <label>9.29 - 10.1 - T3 Tech Summit - New Orleans</label>
+            </value>
+            <value>
+                <fullName>10.9 Inman-Austin</fullName>
+                <default>false</default>
+                <label>10.9 Inman-Austin</label>
+            </value>
+            <value>
+                <fullName>10.14 - 10.15 - BHHS - CA</fullName>
+                <default>false</default>
+                <label>10.14 - 10.15 - BHHS - CA</label>
+            </value>
+            <value>
+                <fullName>10.21 - 10.23 - Real Rise - LV</fullName>
+                <default>false</default>
+                <label>10.21 - 10.23 - Real Rise - LV</label>
+            </value>
+            <value>
+                <fullName>10.27 - 10.30 - eXpcon - Miami</fullName>
+                <default>false</default>
+                <label>10.27 - 10.30 - eXpcon - Miami</label>
+            </value>
+            <value>
+                <fullName>11.13 - 11.14 - Compass Retreat - Charleston</fullName>
+                <default>false</default>
+                <label>11.13 - 11.14 - Compass Retreat - Charleston</label>
+            </value>
+            <value>
+                <fullName>11.13 - 11.14 - CBGL - LA</fullName>
+                <default>false</default>
+                <label>11.13 - 11.14 - CBGL - LA</label>
+            </value>
+            <value>
+                <fullName>9.24 - Nikki Field Zoom</fullName>
+                <default>false</default>
+                <label>9.24 - Nikki Field Zoom</label>
+            </value>
+            <value>
+                <fullName>10.14-10.15 – BHHS-CA 2024</fullName>
+                <default>false</default>
+                <label>10.14-10.15 – BHHS-CA 2024</label>
+            </value>
+            <value>
+                <fullName>10.24 - 10.26 - KW Lux Symposium - SD</fullName>
+                <default>false</default>
+                <label>10.24 - 10.26 - KW Lux Symposium - SD</label>
+            </value>
+            <value>
+                <fullName>10.9 - Q3 RA|Con - Austin</fullName>
+                <default>false</default>
+                <label>10.9 - Q3 RA|Con - Austin</label>
+            </value>
+            <value>
+                <fullName>10.31 LP Courted Webinar</fullName>
+                <default>false</default>
+                <label>10.31 LP Courted Webinar</label>
+            </value>
+            <value>
+                <fullName>10.22 LP Executive Insights Webinar</fullName>
+                <default>false</default>
+                <label>10.22 LP Executive Insights Webinar</label>
+            </value>
+            <value>
+                <fullName>9.25 LP Nar Settlement Webinar</fullName>
+                <default>false</default>
+                <label>9.25 LP Nar Settlement Webinar</label>
+            </value>
+            <value>
+                <fullName>12.11 - 12.13 - Forbes GP - Maui</fullName>
+                <default>false</default>
+                <label>12.11 - 12.13 - Forbes GP - Maui</label>
+            </value>
+            <value>
+                <fullName>12.12 - Compass Boca - Holiday24</fullName>
+                <default>false</default>
+                <label>12.12 - Compass Boca - Holiday24</label>
+            </value>
+            <value>
+                <fullName>1.14 - BHHS Luxury Webinar</fullName>
+                <default>false</default>
+                <label>1.14 - BHHS Luxury Webinar</label>
+            </value>
+            <value>
+                <fullName>1.9.25 -ICNY25 Registrants - LP</fullName>
+                <default>false</default>
+                <label>1.9.25 -ICNY25 Registrants - LP</label>
+            </value>
+            <value>
+                <fullName>2.3.25 - Daniel Gale SIR - NY</fullName>
+                <default>false</default>
+                <label>2.3.25 - Daniel Gale SIR - NY</label>
+            </value>
+            <value>
+                <fullName>1.22.25 - 1.23.25 - CompassCup-FL</fullName>
+                <default>false</default>
+                <label>1.22.25 - 1.23.25 - CompassCup-FL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

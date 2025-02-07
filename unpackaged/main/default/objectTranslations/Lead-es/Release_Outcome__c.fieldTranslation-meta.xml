@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Release Outcome --></label>
+        <name>Release_Outcome__c</name>
+        <picklistValues>
+            <masterLabel>Disqualify</masterLabel>
+            <translation><!-- Disqualify --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nurture</masterLabel>
+            <translation><!-- Nurture --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>TX Compass w/ J. Rene Walker - Meets Compliance - Introduction</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>TX Compass w/ J. Rene Walker - Meets Compliance - Introduction</name>
+    <style>freeForm</style>
+    <subject>IDX Introduction - Contact: MLS Board Name - {!Contact.FirstName} {!Contact.LastName}</subject>
+    <textOnly>Hi {!Contact.FirstName},    
+
+It&#39;s great to e-meet you! My name is [Coordinator’s Name] and I&#39;m an IDX Coordinator here at Luxury Presence. I am contacting you to start the MLS paperwork process!
+
+In order for us to display IDX data on your website, Contact: MLS Board Name requires us to have a data access agreement signed. Additionally, Compass also has compliance requirements that the site has to meet before your Broker of Record is able to sign. 
+
+Please click HERE to sign the IDX request form.
+
+Upon the first review of the site build, it appears your site already meets the requirements. Once you have signed the request form I will follow up with Compass regarding their compliance review and will let you know if any changes need to be made. 
+
+Lastly, if you do not have a Domain/URL finalized, no problem! Please wait until your next call with your Implementation Manager and they will be able to discuss URL options with you in detail. Let me know if you have any questions in the meantime. I&#39;m here to help!
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

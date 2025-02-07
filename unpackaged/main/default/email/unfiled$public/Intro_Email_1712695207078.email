@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi {{{Recipient.FirstName}}},</p>
+
+<p><br />
+A quick follow-up to my voicemail. As a Client Experience Manager with Luxury Presence, part of my role is to support agents throughout their journey with us and provide the best overall client experience.</p>
+
+<p><br />
+I understand you have some questions regarding your account, so I'd love to find some time for you and me to connect over a quick call. Please take a look at my availability <em>[Insert Calendly Link]</em> and let me know what works for you.</p>
+
+<p><br />
+Talk soon,</p>
+</body>
+</html>

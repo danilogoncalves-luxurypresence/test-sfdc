@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jira_ticket</fullName>
+    <active>false</active>
+    <description>Must insert jira ticket number if has jira ticket</description>
+    <errorConditionFormula>OR(
+AND(ISPICKVAL(Status,&quot;Awaiting Jira Response&quot;), Jira_Ticket__c =NULL),
+
+AND(ISPICKVAL(Status,&quot;Awaiting Jira Response&quot;), Has_Jira_ticket__c =FALSE),
+
+
+AND( Has_Jira_ticket__c =TRUE,  Jira_Ticket__c =NULL)
+)</errorConditionFormula>
+    <errorMessage>Please indicate Jira ticket number and mark as True &quot;Has Jira ticket&quot; field</errorMessage>
+</ValidationRule>

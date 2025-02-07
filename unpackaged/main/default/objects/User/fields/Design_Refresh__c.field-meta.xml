@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Design_Refresh__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Design refresh round robin assignment 00123798</description>
+    <label>Design Refresh</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

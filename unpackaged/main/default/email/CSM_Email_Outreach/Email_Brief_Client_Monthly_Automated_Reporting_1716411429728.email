@@ -1,0 +1,52 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi {{{Account.Primary_Contact_First_Name__c}}},</p>
+
+<p>Attached is your monthly report and a glossary explaining the reporting metrics. Below are the month’s highlights, areas for improvement, and action items for you.&nbsp;</p>
+
+<p>[CSM insert paragraph on results, etc.]</p>
+
+<p><i>Example: "This month we saw strong performance with CPL at X. The warm hand-off rate was slightly below our target, we're working on improving that. I'm also keeping an eye on your organic rankings, and we should see these increase over the coming months as we publish more content."</i></p>
+
+<p>[Month] Highlights:</p>
+
+<ul>
+	<li>[# of leads generated]</li>
+	<li>[Warm hand-offs from AILN]</li>
+	<li>[Keyword highlights for SEO Pro]
+	<ul>
+		<li>Top-ranking keywords, etc.</li>
+	</ul>
+	</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>Recommendations:</p>
+
+<ul>
+	<li>[optional]</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>Reminders:</p>
+
+<ul>
+	<li>[optional, if any]</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p>Let’s connect if you have questions or want to accelerate your growth with any of the recommendations above.</p>
+
+<p>&nbsp;</p>
+
+<p>Best,</p>
+
+<p>{{{Sender.FirstName}}}</p>
+</body>
+</html>

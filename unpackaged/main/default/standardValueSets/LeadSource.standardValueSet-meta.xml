@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Sales Ops Cut List</fullName>
+        <default>false</default>
+        <label>Sales Ops Cut List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospecting</fullName>
+        <default>false</default>
+        <label>Prospecting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partnership Events List</fullName>
+        <default>false</default>
+        <label>Partnership Events List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Industry Events List</fullName>
+        <default>false</default>
+        <label>Industry Events List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Self-Sourced</fullName>
+        <default>false</default>
+        <label>Self-Sourced</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manager Assigned</fullName>
+        <default>false</default>
+        <label>Manager Assigned</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MLS Database</fullName>
+        <default>false</default>
+        <label>MLS Database</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Team Generated</fullName>
+        <default>false</default>
+        <label>Partner Team Generated</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Presence Copilot Giveaway</fullName>
+        <default>false</default>
+        <label>Presence Copilot Giveaway</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partnership Inbound</fullName>
+        <default>false</default>
+        <label>Partnership Inbound</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partnership Events</fullName>
+        <default>false</default>
+        <label>Partnership Events</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Industry Events</fullName>
+        <default>false</default>
+        <label>Industry Events</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Referrals</fullName>
+        <default>false</default>
+        <label>Client Referrals</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Organic Inbound</fullName>
+        <default>false</default>
+        <label>Organic Inbound</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paid Inbound</fullName>
+        <default>false</default>
+        <label>Paid Inbound</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Build Your Presence Webinar</fullName>
+        <default>false</default>
+        <label>Build Your Presence Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee Referrals</fullName>
+        <default>false</default>
+        <label>Employee Referrals</label>
+    </standardValue>
+</StandardValueSet>

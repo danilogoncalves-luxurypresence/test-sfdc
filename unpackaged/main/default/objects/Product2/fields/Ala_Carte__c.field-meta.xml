@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ala_Carte__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>can this product be selected ala carte and added to a tier plan over and above included addOns</inlineHelpText>
+    <label>Ala Carte?</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

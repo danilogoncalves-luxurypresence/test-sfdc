@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- What was the client&apos;s pre-launch experience? Any escalations or areas of opportunity the AM should know about? --></help>
+        <label><!-- Client&apos;s Pre-Launch Experience? --></label>
+        <name>Clients_pre_launc__c</name>
+    </CustomFieldTranslation>

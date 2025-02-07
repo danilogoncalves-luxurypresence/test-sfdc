@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_Source__c</fullName>
+    <label>Vendor Source</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bridge Interactive</fullName>
+                <default>false</default>
+                <label>Bridge Interactive</label>
+            </value>
+            <value>
+                <fullName>Wolfnet</fullName>
+                <default>false</default>
+                <label>Wolfnet</label>
+            </value>
+            <value>
+                <fullName>Direct Integration</fullName>
+                <default>false</default>
+                <label>Direct Integration</label>
+            </value>
+            <value>
+                <fullName>MLS Grid</fullName>
+                <default>false</default>
+                <label>MLS Grid</label>
+            </value>
+            <value>
+                <fullName>Trestle</fullName>
+                <default>false</default>
+                <label>Trestle</label>
+            </value>
+            <value>
+                <fullName>FlexMLS</fullName>
+                <default>false</default>
+                <label>FlexMLS</label>
+            </value>
+            <value>
+                <fullName>Paragon</fullName>
+                <default>false</default>
+                <label>Paragon</label>
+            </value>
+            <value>
+                <fullName>Spark API</fullName>
+                <default>false</default>
+                <label>Spark API</label>
+            </value>
+            <value>
+                <fullName>Constellation</fullName>
+                <default>false</default>
+                <label>Constellation</label>
+            </value>
+            <value>
+                <fullName>Rapattoni</fullName>
+                <default>false</default>
+                <label>Rapattoni</label>
+            </value>
+            <value>
+                <fullName>The Matrix</fullName>
+                <default>false</default>
+                <label>The Matrix</label>
+            </value>
+            <value>
+                <fullName>Really</fullName>
+                <default>false</default>
+                <label>Really</label>
+            </value>
+            <value>
+                <fullName>Navica</fullName>
+                <default>false</default>
+                <label>Navica</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

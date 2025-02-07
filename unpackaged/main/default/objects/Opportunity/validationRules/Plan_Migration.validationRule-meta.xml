@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Migration</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED( StageName ),
+ISPICKVAL( StageName , &quot;Closed Won&quot;),
+Plan_Migration__c = false,
+RecordTypeId = $Label.ID_Opp_Addendum,
+OR(
+Current_Tier_Plan__c = &quot;Launch&quot;,
+Current_Tier_Plan__c = &quot;Brand&quot;,
+Current_Tier_Plan__c = &quot;Growth&quot;,
+Current_Tier_Plan__c = &quot;Premium&quot;
+),
+OR(
+ISPICKVAL( Tier_Plan__c , &quot;Launch+&quot;),
+ISPICKVAL( Tier_Plan__c , &quot;Brand+&quot;),
+ISPICKVAL( Tier_Plan__c , &quot;Growth+&quot;),
+ISPICKVAL( Tier_Plan__c , &quot;Premium+&quot;)
+)
+)</errorConditionFormula>
+    <errorDisplayField>Plan_Migration__c</errorDisplayField>
+    <errorMessage>Please check &quot;Plan Migration&quot; field</errorMessage>
+</ValidationRule>

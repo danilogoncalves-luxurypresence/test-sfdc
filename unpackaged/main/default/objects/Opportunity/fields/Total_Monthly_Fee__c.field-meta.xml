@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Monthly_Fee__c</fullName>
+    <formula>ROUND( Monthly_Subscription_Fee__c +  Monthly_Marketing_Fee__c ,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Monthly Subscription Fee + Monthly Marketing Fee (does not include Ad Spend or Ad Management Fee)</inlineHelpText>
+    <label>Total Monthly Fee</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

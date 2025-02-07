@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Content_Associate__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <inlineHelpText>This field provides visibility as to who is the content specialist listed from the old automation, please adjust content specialist B field accordingly</inlineHelpText>
+    <label>(A) Content Specialist</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Service_Schedules5</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

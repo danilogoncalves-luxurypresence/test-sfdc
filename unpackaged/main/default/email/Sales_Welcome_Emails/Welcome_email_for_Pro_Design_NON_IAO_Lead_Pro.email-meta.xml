@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>NON IAO Pro Design Leads Pro</name>
+    <style>freeForm</style>
+    <subject>Welcome to Luxury Presence!</subject>
+    <textOnly>Hi {!Account.Primary_Contact_First_Name__c}!
+
+
+I&#39;m excited to introduce you to your Onboarding Manager,
+
+{!Account.Implementation_Manager__c}, cc&#39;d on this email. They will be your primary point of contact going forward and will reach out to you within the next business day to schedule your welcome call for the website.
+
+
+Once the welcome call is confirmed, our team will begin working on a draft of your website, which will be shared in advance of the call. To begin building the draft, we ask that you COMPLETE THIS DESIGN QUIZ within the next 24 hours. It should take no more than 5 minutes. Confirming the welcome call and completing the design quiz will set the pace for the rest of the project and ensure that you launch within the next 30 business days.
+
+
+We’ll also need your input to begin work on the lead generation strategy for your business. Please share your marketing goals here. PLEASE NOTE: Completing this form will take 5 - 10 minutes. Navigating away from the page before clicking “submit” will result in a loss of your input. Thank you in advance for completing these two forms in a timely manner.
+
+
+As a thank you for partnering up with Luxury Presence, I wanted to let you know about our lucrative referral program. If you refer LP to another agent who signs up with us, you will receive a $1,200 credit applied to your account. Link to referral form --&gt; Click here!
+
+
+If you have any questions, please don’t hesitate to reach out to your Onboarding Manager. Welcome to the team!
+
+
+
+Best,
+
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

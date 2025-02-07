@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owned_by_a_Queue__c</fullName>
+    <description>used by Hubspot for routing &amp; assignment</description>
+    <formula>!IsBlank (Owner:Queue.Id)
+
+/*
+How do I know if a case owner is queue or user?
+
+The system will auto-generate two fields – Owner (Group/Queue) and Owner (User). If the owner is a queue, the Owner (Group/Queue) Id will have the queue Id and the Owner (User) Id will stay null. If the owner is a user then vice versa.
+
+*/</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>used by Hubspot for routing &amp; assignment</inlineHelpText>
+    <label>Owned by a Queue</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

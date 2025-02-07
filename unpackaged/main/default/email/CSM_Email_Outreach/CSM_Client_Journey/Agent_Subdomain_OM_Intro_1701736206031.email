@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}}<br />
+<br />
+I wanted to take a moment to introduce you to your Onboarding Manager, Name who is CC'd on this email. Name will be your main point of contact for the agent subdomain site(s) and will reach out to you within the next business day to schedule your Subdomain revisions call.<br />
+<br />
+To begin next steps, we ask that you COMPLETE this subdomain tracker sheet (Loom on how to get one -&gt; <a href="https://www.loom.com/share/6e3673dc215d4e929240ed39b6ef5390">Here</a>). Confirming the Subdomain revisions call and completing the subdomain tracker sheet will set the pace for the rest of the project.<br />
+<br />
+Needless to say, you are in great hands with [OM Name], and please do not hesitate to reach out if you have any questions or if I can be of assistance for anything else! &nbsp;<br />
+<br />
+Lastly, your contract addendum is attached for your records. (Attach addendum)<br />
+<br />
+All the best,<br />
+{{{Sender.Name}}}</body>
+</html>

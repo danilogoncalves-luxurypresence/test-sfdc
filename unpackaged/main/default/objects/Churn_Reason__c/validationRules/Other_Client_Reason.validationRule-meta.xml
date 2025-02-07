@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Client_Reason</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+ISPICKVAL(Client_Reason__c, &#39;Other (update response in Other reason field)&#39;),
+ISBLANK(Other_Client_Reason__c))</errorConditionFormula>
+    <errorMessage>Please fill out the Other reason the Client churned</errorMessage>
+</ValidationRule>

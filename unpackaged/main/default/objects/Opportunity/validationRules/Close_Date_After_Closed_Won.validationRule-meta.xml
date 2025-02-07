@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Date_After_Closed_Won</fullName>
+    <active>false</active>
+    <description>AEs and sales users should not be able to change the close date on new sales opportunities after they are closed won.</description>
+    <errorConditionFormula>AND(
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;,
+OR(Record_Type_Name__c = &quot;Closed Won - New Sales&quot;,
+Record_Type_Name__c = &quot;New Sales&quot;),
+ISCHANGED( CloseDate ),
+ISPICKVAL( StageName , &quot;Closed Won&quot;)
+
+)</errorConditionFormula>
+    <errorMessage>You can not modify the Close Date after the opportunity has been closed.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owned_by_a_Queue__c</fullName>
+    <description>used by Hubspot for routing &amp; assignment</description>
+    <formula>false
+
+/*
+Always false - contacts cannot be owned by a Queue
+*/</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>used by Hubspot for routing &amp; assignment</inlineHelpText>
+    <label>Owned by a Queue</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

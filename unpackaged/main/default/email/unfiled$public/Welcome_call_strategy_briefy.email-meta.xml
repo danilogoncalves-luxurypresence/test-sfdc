@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>Design Quiz &amp; Strategy Brief</name>
+    <style>freeForm</style>
+    <subject>Design Quiz</subject>
+    <textOnly>Hi {!Account.Contact__c},
+
+
+
+Please fill out this Design Quiz and this Strategy Form (Typeform) when you have a minute. This will give my team a jump start on being able to personalize your website rough draft.
+
+
+
+If you already completed the form(s), please disregard this email.
+
+
+
+All the best,
+
+
+{!Opportunity.OwnerFullName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

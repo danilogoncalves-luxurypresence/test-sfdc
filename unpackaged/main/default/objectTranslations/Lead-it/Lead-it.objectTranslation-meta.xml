@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label><!-- Hubspot --></label>
+            <section>Hubspot</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Lead Layout-LP</layout>
+        <sections>
+            <label><!-- Hubspot Embed --></label>
+            <section>Hubspot Embed</section>
+        </sections>
+        <sections>
+            <label><!-- Hubspot Sync Status --></label>
+            <section>Hubspot Sync Status</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Information --></label>
+            <section>Marketing Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Kubaru Properties --></label>
+        <name>Kubaru_Properties</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Lead Admin &amp; Sales Ops --></label>
+        <name>Lead_Admin_Sales_Ops</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Lead Admin &amp; Sales Ops - UTM Fields --></label>
+        <name>Lead_Admin_Sales_Ops_UTM_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- MLS Fields --></label>
+        <name>MLS_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Manager MLS Fields --></label>
+        <name>Manager_MLS_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Other Lead Fields --></label>
+        <name>Other_Lead_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Release --></label>
+        <name>Release</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Required Fields --></label>
+        <name>Required_Fields</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- if a lead has the field Industry Contact set to true, it can only be owned by Drew or JP.Lead can only be owned by certain users, please contact your system admin --></errorMessage>
+        <name>Industry_Contact_Owner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please, complete the following fields to move the Lead to Ready: Lead Source and First Name. --></errorMessage>
+        <name>Lead_is_Ready</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not modify the owner, please contact your system admin. --></errorMessage>
+        <name>MLS_Leads_Category</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have permission to modify the owner, please contact your System Admin. --></errorMessage>
+        <name>Owner_JP</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not modify the owner, please contact your system admin --></errorMessage>
+        <name>Owner_MLS_Queues</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not modify the Owner. Please, contact your Salesforce Administrator. --></errorMessage>
+        <name>Queue_to_User</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The following fields must be completed before converting: Demo Date, Website, Lead Source, First Name, Mobile Phone, Time Zone, Address, Partnership Organization, Lead Brokerage, Client Type. --></errorMessage>
+        <name>Ready_to_convert</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please, complete the following fields to move the Lead to Engaging: Mobile. --></errorMessage>
+        <name>Ready_to_engage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You have exceeded the amount of Leads you can reserve. Please, uncheck the &quot;Reserve&quot; box or remove a Lead from your reserved Leads. --></errorMessage>
+        <name>Reserve</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can not move the Lead to a Queue, please contact system admin --></errorMessage>
+        <name>Sales_User_cant_modify_owner</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Assign_Topic --></label>
+        <name>Assign_Topic</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

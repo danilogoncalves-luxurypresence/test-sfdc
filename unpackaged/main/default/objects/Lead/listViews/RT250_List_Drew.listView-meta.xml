@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RT250_List_Drew</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QRg00000ERoQZ,00QRg0000057pft,00QEY000002nAXS,00QRg00000FU3rk,00QEY000002jGj6,00QRg00000FU3rM,00QEY000002lgHy,00QRg00000EwJQR,00QRg00000FU3sE,00QRg00000FU3rr</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QEY000002lFes,00QEY000002k5pm,00QEY000002k6pp,00QEY000002jt57,00QRg0000057Dhv,00QRg0000059RRn,00QEY000002mBdy,00QEY000002lmPl,00QEY000002jyQN,00QRg00000FU3ro,00QRg00000EwT5O,00QRg00000FU3rD,00QEY000002o8MT,00QEY000002mGNo,00QRg00000CYedt</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QRg000004MEtG,00QEY000002mEDp,00QEY000002tzwK,00QEY000002jtQl,00QEY000002jvyn,00QEY000002lDpn,00QEY000002jii0,00QEY000002kSco,00QRg00000Cb42z,00QRg00000FU3rQ,00QRg00000FU3Cq,00QEY000002mTsT,00QEY000002k4dB,00QEY000002kOTX,00QEY000002mBoI</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QRg00000FU3Cp,00QEY000002jxqC,00QEY000002onQs,00QEY000002jH6i,00QRg00000CYp0C,00QRg00000FU3rn,00QRg00000FU3Cr,00QEY000002kQeS,00QRg0000059tK0,00QEY000002jHyc,00QRg000005MvMb,00QEY000002jou9,00QRg00000FU3s1,00QEY000002jMYP,00QRg0000059JAR</value>
+    </filters>
+    <filters>
+        <field>Lead_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>00QRg000005NCs3,00QEY000002tzts,00QEY000002kxKW,00QEY000002jGft,00QRg000005N512,00QRg0000056nxj,00QRg000005989G,00QRg00000FU3ri,00QRg0000058TyG,00QRg00000588eS,00QRg00000FU3r6,00QRg00000FU3rw,00QRg00000FU3rZ,00QEY000002kn3m,00QEY000002lSkl</value>
+    </filters>
+    <label>RT250 List - Drew</label>
+</ListView>

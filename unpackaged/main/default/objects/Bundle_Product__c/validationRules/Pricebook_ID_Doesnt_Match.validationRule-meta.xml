@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pricebook_ID_Doesnt_Match</fullName>
+    <active>false</active>
+    <description>The Pricebook ID of a product has to match the Plan</description>
+    <errorConditionFormula>!ISNEW()
+ &amp;&amp; Pricebook_ID__c !=  Bundle_Plan__r.Price_Book__c</errorConditionFormula>
+    <errorDisplayField>Product__c</errorDisplayField>
+    <errorMessage>This product is not in the Bundle&#39;s Pricebook.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subdomains_document_not_null</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ ISCHANGED( Status__c ),
+ ISPICKVAL( Status__c , &quot;Create Subdomain Sites&quot;),
+ ISBLANK( Subdomains_Document__c ),
+ Record_Type_Name__c = &quot;Agent Subdomains&quot;
+)</errorConditionFormula>
+    <errorDisplayField>Subdomains_Document__c</errorDisplayField>
+    <errorMessage>Review Subdomains Document field</errorMessage>
+</ValidationRule>

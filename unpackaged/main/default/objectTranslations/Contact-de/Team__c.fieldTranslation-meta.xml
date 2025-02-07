@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Team --></label>
+        <name>Team__c</name>
+        <picklistValues>
+            <masterLabel>Account Manager Assistant</masterLabel>
+            <translation><!-- Account Manager Assistant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounting</masterLabel>
+            <translation><!-- Accounting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analytics</masterLabel>
+            <translation><!-- Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brand Design</masterLabel>
+            <translation><!-- Brand Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Analytics</masterLabel>
+            <translation><!-- Business Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CS Ops</masterLabel>
+            <translation><!-- CS Ops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CS PH Support</masterLabel>
+            <translation><!-- CS PH Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSS</masterLabel>
+            <translation><!-- CSS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Experience</masterLabel>
+            <translation><!-- Client Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Services Leadership</masterLabel>
+            <translation><!-- Client Services Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Success Team</masterLabel>
+            <translation><!-- Client Success Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Support Team</masterLabel>
+            <translation><!-- Client Support Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Content</masterLabel>
+            <translation><!-- Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Content Team</masterLabel>
+            <translation><!-- Content Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Specialist</masterLabel>
+            <translation><!-- Data Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Team</masterLabel>
+            <translation><!-- Data Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design Consultant</masterLabel>
+            <translation><!-- Design Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design Consultant Team / Header Image Curation</masterLabel>
+            <translation><!-- Design Consultant Team / Header Image Curation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering Team</masterLabel>
+            <translation><!-- Engineering Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR</masterLabel>
+            <translation><!-- HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDX</masterLabel>
+            <translation><!-- IDX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDX Team</masterLabel>
+            <translation><!-- IDX Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Launch</masterLabel>
+            <translation><!-- Launch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding Team</masterLabel>
+            <translation><!-- Onboarding Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations Team</masterLabel>
+            <translation><!-- Operations Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFT</masterLabel>
+            <translation><!-- PFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFT - Design</masterLabel>
+            <translation><!-- PFT - Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFT - Launch</masterLabel>
+            <translation><!-- PFT - Launch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFT - Migration</masterLabel>
+            <translation><!-- PFT - Migration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFT - Revisions</masterLabel>
+            <translation><!-- PFT - Revisions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PFT - Website Execution</masterLabel>
+            <translation><!-- PFT - Website Execution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PH Zendesk</masterLabel>
+            <translation><!-- PH Zendesk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid Media</masterLabel>
+            <translation><!-- Paid Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partnerships</masterLabel>
+            <translation><!-- Partnerships --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Design</masterLabel>
+            <translation><!-- Product Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Fulfillment</masterLabel>
+            <translation><!-- Product Fulfillment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Marketing</masterLabel>
+            <translation><!-- Product Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Support</masterLabel>
+            <translation><!-- Product Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Team</masterLabel>
+            <translation><!-- Product Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEO</masterLabel>
+            <translation><!-- SEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEO Team</masterLabel>
+            <translation><!-- SEO Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Ops Team</masterLabel>
+            <translation><!-- Sales Ops Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Team</masterLabel>
+            <translation><!-- Sales Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media</masterLabel>
+            <translation><!-- Social Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talent Acquisition</masterLabel>
+            <translation><!-- Talent Acquisition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

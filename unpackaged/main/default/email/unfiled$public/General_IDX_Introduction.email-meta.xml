@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>General IDX Introduction</name>
+    <style>freeForm</style>
+    <subject>IDX Introduction - {!Service__c.MLS_Board_Name__c} - {!Service__c.Contact_First_Name__c}{!Service__c.Contact_Last_Name__c}</subject>
+    <textOnly>Hi {!Service__c.Contact_First_Name__c},
+
+It&#39;s great to e-meet you! My name is {!Service__c.OwnerFullName} and I&#39;m an IDX Coordinator at Luxury Presence. I&#39;m contacting you to start the MLS paperwork process!
+
+In order for us to display IDX data on your website, {!Service__c.MLS_Board_Name__c} requires us to have a data access agreement signed. I would like to start by confirming the information I have below and acquiring your managing broker&#39;s name and email. With this information, I will be able to draft the paperwork and send it out to the respective parties through PandaDoc (similar to DocuSign) for e-signatures.
+
+Agent’s Name:{!Service__c.Contact_First_Name__c}{!Service__c.Contact_Last_Name__c}
+Agent’s Email: {!Service__c.Contact_Email_Domain__c}
+Broker of Record&#39;s Name: {!Service__c.Contact_First_Name__c}
+Broker of Record&#39;s Email: {!Service__c.Broker_of_Record_Email__c}
+
+Let me know if you have any questions. I&#39;m here to help!
+
+All the best,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

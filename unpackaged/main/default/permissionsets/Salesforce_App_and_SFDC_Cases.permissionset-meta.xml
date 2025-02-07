@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Give access to SF App and SFDC Cases. Case Number: 00169425</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Salesforce App and SFDC Cases</label>
+    <applicationVisibilities>
+        <application>Salesforce_Team</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Case.SFDC_Ticket</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>RunFlow</name>
+    </userPermissions>
+</PermissionSet>

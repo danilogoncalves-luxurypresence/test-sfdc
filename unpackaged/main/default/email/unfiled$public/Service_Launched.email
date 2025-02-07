@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p data-pm-slice="1 1 []">Hi, </p><p><br></p><p>The website for the following service&nbsp;<a href="{!Service__c.Link}">{!Service__c.Name} </a>corresponding to the account: {!Service__c.Account__c} has been launched. </p><p><br></p><p>Kind regards,</p>]]></td>
+</tr>
+</table>

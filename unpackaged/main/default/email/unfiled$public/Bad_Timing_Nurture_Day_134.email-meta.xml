@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>Bad Timing Nurture - Day 134</name>
+    <style>freeForm</style>
+    <subject>The Tools You Need to Elevate Your Brand</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+I hope you&#39;ve had a great week so far. Have you had a chance to check out how Luxury Presence has helped leading real estate professionals elevate their brands and grow their businesses?
+
+At Luxury Presence, we believe in empowering real estate agents like you with the tools and resources you need to succeed. We offer customized websites, a Digital CMA integration, Instant Property Sites, On-Demand Ads, and more—all designed to help you stand out from the competition.
+
+If you&#39;re ready to take your brand to the next level, let&#39;s hop on a call to discuss your goals and how we can help you achieve them.
+
+Click here to book a time on my calendar that works for you.
+
+Looking forward to speaking with you soon!
+
+
+Best,
+{!User.Name}
+[Meeting link]</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Jira_ticket__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether the case is dependent on a Jira Ticket</description>
+    <inlineHelpText>Check if case is dependent of a ticket in Jira</inlineHelpText>
+    <label>Has Jira ticket</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

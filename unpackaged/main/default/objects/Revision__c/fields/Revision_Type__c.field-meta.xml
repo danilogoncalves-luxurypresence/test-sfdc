@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revision_Type__c</fullName>
+    <label>Revision Type</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Source__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Jotform</fullName>
+                <default>false</default>
+                <label>Jotform</label>
+            </value>
+            <value>
+                <fullName>Google Doc - Short</fullName>
+                <default>false</default>
+                <label>Google Doc - Short</label>
+            </value>
+            <value>
+                <fullName>Google Doc - Medium</fullName>
+                <default>false</default>
+                <label>Google Doc - Medium</label>
+            </value>
+            <value>
+                <fullName>Google Doc - Long</fullName>
+                <default>false</default>
+                <label>Google Doc - Long</label>
+            </value>
+            <value>
+                <fullName>Lightning Pod</fullName>
+                <default>false</default>
+                <label>Lightning Pod</label>
+            </value>
+            <value>
+                <fullName>Xpress Checkout</fullName>
+                <default>false</default>
+                <label>Xpress Checkout</label>
+            </value>
+            <value>
+                <fullName>Blogs</fullName>
+                <default>false</default>
+                <label>Blogs</label>
+            </value>
+            <value>
+                <fullName>Pages of Copywriting</fullName>
+                <default>false</default>
+                <label>Pages of Copywriting</label>
+            </value>
+            <value>
+                <fullName>QA Passback</fullName>
+                <default>false</default>
+                <label>QA Passback</label>
+            </value>
+            <value>
+                <fullName>Video Creation</fullName>
+                <default>false</default>
+                <label>Video Creation</label>
+            </value>
+            <value>
+                <fullName>Video Revision</fullName>
+                <default>false</default>
+                <label>Video Revision</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Internal Revision</controllingFieldValue>
+            <controllingFieldValue>Client Revision</controllingFieldValue>
+            <valueName>Xpress Checkout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Revision</controllingFieldValue>
+            <valueName>Jotform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Revision</controllingFieldValue>
+            <valueName>Google Doc - Short</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Revision</controllingFieldValue>
+            <valueName>Google Doc - Medium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Revision</controllingFieldValue>
+            <valueName>Google Doc - Long</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Revision</controllingFieldValue>
+            <valueName>Lightning Pod</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Revision</controllingFieldValue>
+            <valueName>Blogs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Revision</controllingFieldValue>
+            <valueName>Pages of Copywriting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>QA Passback</controllingFieldValue>
+            <valueName>QA Passback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opening Video</controllingFieldValue>
+            <valueName>Video Creation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Opening Video</controllingFieldValue>
+            <valueName>Video Revision</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

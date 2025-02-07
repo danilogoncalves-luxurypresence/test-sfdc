@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Scope --></label>
+        <name>Scope__c</name>
+        <picklistValues>
+            <masterLabel>Adding Hyperlinks</masterLabel>
+            <translation><!-- Adding Hyperlinks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Additional Context Provided</masterLabel>
+            <translation><!-- Additional Context Provided --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info from Bad Source</masterLabel>
+            <translation><!-- Info from Bad Source --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Large-Scale Item Edits</masterLabel>
+            <translation><!-- Large-Scale Item Edits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Needs Research</masterLabel>
+            <translation><!-- Needs Research --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighborhoods Change</masterLabel>
+            <translation><!-- Neighborhoods Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outdated Info</masterLabel>
+            <translation><!-- Outdated Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Photo Updates</masterLabel>
+            <translation><!-- Photo Updates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requesting New Topic</masterLabel>
+            <translation><!-- Requesting New Topic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restaurant or Shop Change</masterLabel>
+            <translation><!-- Restaurant or Shop Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small-Scale Item Edits</masterLabel>
+            <translation><!-- Small-Scale Item Edits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spelling / Grammar</masterLabel>
+            <translation><!-- Spelling / Grammar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Structural Changes</masterLabel>
+            <translation><!-- Structural Changes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Title / Subtitle Change</masterLabel>
+            <translation><!-- Title / Subtitle Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Track Changes</masterLabel>
+            <translation><!-- Track Changes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update CTA</masterLabel>
+            <translation><!-- Update CTA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voice / Tone</masterLabel>
+            <translation><!-- Voice / Tone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong Location</masterLabel>
+            <translation><!-- Wrong Location --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

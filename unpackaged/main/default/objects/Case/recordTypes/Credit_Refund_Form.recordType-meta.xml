@@ -1,0 +1,2001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Refund_Form</fullName>
+    <active>true</active>
+    <businessProcess>Credit - Refund Form</businessProcess>
+    <label>Credit Refund Form</label>
+    <picklistValues>
+        <picklist>Add_CTA__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Anayone_can_send__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Anyone_can_send_this_SFA__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Buy_in_Alignment__c</picklist>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not started</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Reason_1__c</picklist>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Reason_2__c</picklist>
+        <values>
+            <fullName>Another LP Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bug Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelation Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copywriting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Design Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edit Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google Analytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>How to Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Login Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Down Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stackpath</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subscription Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upcoming Event</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Reason_3__c</picklist>
+        <values>
+            <fullName>Another LP Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bug Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelation Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copywriting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Design Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edit Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google Analytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>How to Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Login Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Down Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stackpath</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subscription Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upcoming Event</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Sub_Reason_1__c</picklist>
+        <values>
+            <fullName>CMS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Sub_Reason_2__c</picklist>
+        <values>
+            <fullName>Adding a user</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brokerage change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DNS record change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Domain change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elective</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Search Tool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LPEvent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead alert notification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Listing Feeds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-IDX issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Click Property Sites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Page Builder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>People</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presentations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self Serve Property Websites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zapier connection</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Sub_Reason_3__c</picklist>
+        <values>
+            <fullName>Adding a user</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brokerage change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRM integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DNS record change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Domain change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elective</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Search Tool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LPEvent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead alert notification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Listing Feeds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-IDX issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Click Property Sites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Page Builder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>People</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presentations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Self Serve Property Websites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zapier connection</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Copywriting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DNS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edits that Require Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edits the Client Cloud Do %28but we did them%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edits we taught the client to do</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX %2F Listings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jira Ticket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Log in Questions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Property Websites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Refresh%2FReDesign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Widgets</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Churn_Reason__c</picklist>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service%2FExperience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural Churn</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Closed_Notes__c</picklist>
+        <values>
+            <fullName>Closed- Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed- Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed- Declined</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Competitor__c</picklist>
+        <values>
+            <fullName>Agent Fire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agent Image</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boom Town%21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brivity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brokerage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commissions Inc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Curaytor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gabriels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MoxiWorks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Placester</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate Webmasters %28REW%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Credit_Type__c</picklist>
+        <values>
+            <fullName>Full Month%28s%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DC__c</picklist>
+        <values>
+            <fullName>DC1-2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC1-2026</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC2-2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC2-2026</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC3-2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC3-2026</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC4-2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC4-2026</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC5-2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC5-2026</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC6-2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC7-2025</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DC8-2025</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Difficulty_Level__c</picklist>
+        <values>
+            <fullName>Complex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Easy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Endorsed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Do_we_need_to_add_the_client_s_logo__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Documentation__c</picklist>
+        <values>
+            <fullName>Create New Documentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Update Current Documentation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>EOS_Status__c</picklist>
+        <values>
+            <fullName>BUG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SFA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>STUCK</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Effort_Level__c</picklist>
+        <values>
+            <fullName>Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X-Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>X-Small</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Enablement_Collaboration__c</picklist>
+        <values>
+            <fullName>%3F%3F Enablement needed to deploy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%E2%9C%85 Enablement not needed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Enablement_Status__c</picklist>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not started</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Feedback_to_Data_Science__c</picklist>
+        <values>
+            <fullName>Accurate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inaccurate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>For_QA_TP_Reporting__c</picklist>
+        <values>
+            <fullName>Done QA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mark</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Goal__c</picklist>
+        <values>
+            <fullName>Brand Awareness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follows</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Traffic</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Identify_needs_and_audience__c</picklist>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not started</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Impacted_Teams__c</picklist>
+        <values>
+            <fullName>All Teams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS-All Teams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PFT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>On_Hold_Reason__c</picklist>
+        <values>
+            <fullName>Blocked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dependent on another process</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Chat Bot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Platform__c</picklist>
+        <values>
+            <fullName>Migration in Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>V3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Escalation_Service__c</picklist>
+        <values>
+            <fullName>Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blog%2FContent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intermediate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Nice to Have</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Urgent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority_Category__c</picklist>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Great</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Engineering__c</picklist>
+        <values>
+            <fullName>Bug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customization Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feature or Service Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Issue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Quarter__c</picklist>
+        <values>
+            <fullName>Q1-2024</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Refund_Credit__c</picklist>
+        <values>
+            <fullName>Credit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Request_Reason__c</picklist>
+        <values>
+            <fullName>Billing Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Courtesy Credit %28Post Launch%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delayed Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Hardship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missed Deliverable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preserve Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protect Brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Issue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Request_Source__c</picklist>
+        <values>
+            <fullName>Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid-cycle enhancement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roadmap</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Request_Type__c</picklist>
+        <values>
+            <fullName>%28Not Salesforce%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Documentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Field %28New%2FChange%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Process Adjustment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Requesting_Team__c</picklist>
+        <values>
+            <fullName>CSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ops</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Responsible_Team__c</picklist>
+        <values>
+            <fullName>Account Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advertising</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Analytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DS - Migration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instagram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mach20 - Analytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mach20 - DS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mach20 - SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mach20 - WB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QA Design Cohesion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WB - Migration</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Retention_Request_Type__c</picklist>
+        <values>
+            <fullName>Cancellation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downgrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Retention_Result__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saved</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_credit_refund__c</picklist>
+        <values>
+            <fullName>Blogs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copywriting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Social_Media_Plan__c</picklist>
+        <values>
+            <fullName>Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dominance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium%2B</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Social_Media_Request_Type__c</picklist>
+        <values>
+            <fullName>Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reels</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subcategory__c</picklist>
+        <values>
+            <fullName>ADA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accidental Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account Users</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adding Labels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adding Property Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brand Client Check In</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bug Report - Home Search</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bug Report - Sync</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chat Bot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cloudflare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compass CRM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complex Change - Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complex Change - Website Builder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Create Manual Listing%28s%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DNS Addition %2F Removal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Domain Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Client%2C New Sales Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feature Client Can%E2%80%99t Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Follow Up Boss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forwarding Additional Domains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GMB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GTM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Questions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google Analytics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth%2FPremium Client Check In</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Valuation Tool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instagram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Language</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migration Confusion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NPS Outreach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Networks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New User</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Presentations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Profile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Properties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Questions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Re-Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sendgrid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared with IDX Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spam Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third Party Pop Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time-consuming Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website builder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zapier</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Task_Progress_SLR__c</picklist>
+        <values>
+            <fullName>Deferred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Team_Category__c</picklist>
+        <values>
+            <fullName>Advanced Edits and Site Status</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basic Edits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billing - Do Not Use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NPS %2F Outreach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triage - Another LP Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triage - Basic Questions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triage - Log In Questions</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Team__c</picklist>
+        <values>
+            <fullName>All Teams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Billing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CS-All Teams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom Design</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PFT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Team_that_Escalated__c</picklist>
+        <values>
+            <fullName>Account Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementation Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TierSalesforce__c</picklist>
+        <values>
+            <fullName>%3F%3FTier 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%3F%3FTier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%3F%3FTier 3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tier__c</picklist>
+        <values>
+            <fullName>Tier 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tier 3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Contact__c</picklist>
+        <values>
+            <fullName>Attempted to Reach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Action</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Website_Template__c</picklist>
+        <values>
+            <fullName>Bold %5BV2%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Classic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corcoran Agent 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corcoran Agent 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elite %5BV2%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evolution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Foundation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Icon %5BSIR 3%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Influencer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Innovator %5BCompass 1%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspiration %5BSIR 1%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lifestyle %5BSIR Prop%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Milestone %5BCompass Prop%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modern %5BV2%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Navigator %5BCompass 2%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prestige %5BCompass 3%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Producer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trailblazer %5BSIR 2%5D</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

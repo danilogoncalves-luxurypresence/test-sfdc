@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+I hope your week is going well. I have some bittersweet news to share. [Insert reason].<br />
+<br />
+Rest assured, you will be in good hands! As you know, I’m backed by a team of marketing specialists in all areas of social, search engine optimization, and paid media. I'm excited to introduce you to your new Client Success Manager, [New CSM Name]. They have a strong understanding of real estate marketing technology, and will be a great fit for your needs!&nbsp;<br />
+<br />
+[New CSM Name] has been brought up to speed on your business and marketing, and will be reaching out shortly to introduce themselves. They’re CC’d on this email and you can reach them at [NEW CSM Email].&nbsp;<br />
+<br />
+It's been such a pleasure working with you, and I wish you all the success moving forward. Don't hesitate to reach out with any questions.<br />
+<br />
+Best,<br />
+{{{Sender.Name}}}</body>
+</html>

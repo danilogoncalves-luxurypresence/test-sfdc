@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Launch_Tier_IAO_Service_Launched__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether the IAO service has been launched for accounts on the Launch tier. Marked as True once the service is successfully launched</description>
+    <label>Launch Tier: IAO Service Launched</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

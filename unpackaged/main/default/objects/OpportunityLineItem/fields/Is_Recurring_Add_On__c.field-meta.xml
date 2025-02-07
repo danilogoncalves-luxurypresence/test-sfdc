@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Recurring_Add_On__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Is_Bundle_Product__c = false &amp;&amp; AddOn_RollUp_Category__c &lt;&gt; &#39;One Time Fee&#39;, &#39;Recurring AddOn&#39;, &#39;&#39;)</formula>
+    <label>Is Recurring Add On?</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

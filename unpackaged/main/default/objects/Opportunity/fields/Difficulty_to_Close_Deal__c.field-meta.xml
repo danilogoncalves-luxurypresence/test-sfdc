@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Difficulty_to_Close_Deal__c</fullName>
+    <label>Difficulty to Close Deal</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Easy</fullName>
+                <default>false</default>
+                <label>Easy</label>
+            </value>
+            <value>
+                <fullName>Normal</fullName>
+                <default>false</default>
+                <label>Normal</label>
+            </value>
+            <value>
+                <fullName>Difficult</fullName>
+                <default>false</default>
+                <label>Difficult</label>
+            </value>
+            <value>
+                <fullName>Medium</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Medium</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

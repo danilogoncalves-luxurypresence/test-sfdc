@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>MiamiRE (RAMB)  Introduction</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>MiamiRE (RAMB)  Introduction</name>
+    <style>freeForm</style>
+    <subject>IDX Introduction - MiamiRE - {!Contact.FirstName} {!Contact.LastName}</subject>
+    <textOnly>Hi {!Contact.FirstName},    
+
+Nice to e-meet you! My name is [Coordinator Name], and I am the IDX Coordinator at Luxury Presence! I will be responsible for the IDX search tool setup process on your new website.
+
+In order for us to display IDX data on your website, RAMB - Miami Association of Realtors® requires the agent to request the data access agreement on Bridge Interactive. Here is the instruction sheet to help you step by step with this process:{{ if custom.documentexists_4492460 }}Instructions{{ end }}.
+
+Please submit the request at your earliest convenience.
+
+Please let me know if you have any questions!
+
+
+{{ if custom.documentexists_4492460 }}
+FL_RAMB - Miami Association of REALTORS - IDX Request Form_Instructions.pdf	
+FL_RAMB - Miami Association of REALTORS - IDX Request Form_Instructions.pdf
+{{ custom.documentlink_id_4492460_skipform_true }}
+{{ end }}
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

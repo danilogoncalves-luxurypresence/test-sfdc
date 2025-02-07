@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- PDF of Content Published Uploaded --></label>
+        <name>PDF_of_Content_Published_Uploaded__c</name>
+    </CustomFieldTranslation>

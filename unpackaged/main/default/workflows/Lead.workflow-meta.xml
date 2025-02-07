@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>nwcs_ldl__Notify_Lead_Owner</fullName>
+        <description>Notify Lead Owner</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>nwcs_ldl__LeadDealer_Templates/nwcs_ldl__New_Lead_Notification</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>nwcs_ldl__Uncheck_Send_Notification</fullName>
+        <field>nwcs_ldl__SendNotification__c</field>
+        <literalValue>0</literalValue>
+        <name>Uncheck Send Notification</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>nwcs_ldl__New Lead Notification</fullName>
+        <actions>
+            <name>nwcs_ldl__Notify_Lead_Owner</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>nwcs_ldl__Uncheck_Send_Notification</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Lead.nwcs_ldl__SendNotification__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>This rule has been deprecated</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

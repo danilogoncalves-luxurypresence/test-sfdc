@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Received Edits</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Received Edits</name>
+    <style>none</style>
+    <subject>Working on Your Website Edits - Luxury Presence</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

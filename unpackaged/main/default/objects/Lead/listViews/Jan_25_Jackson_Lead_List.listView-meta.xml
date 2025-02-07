@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jan_25_Jackson_Lead_List</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>Partnership_Organization__c</columns>
+    <columns>Prior_12_months_total_transaction_value__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LAST_CALL_DATE</columns>
+    <columns>Rep_Assigned_Date__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Event_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>lessThan</operation>
+        <value>12/16/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>6990000</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>lessOrEqual</operation>
+        <value>7000000</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>coon</value>
+    </filters>
+    <filters>
+        <field>Rep_Assigned_Date__c</field>
+        <operation>equals</operation>
+        <value>1/10/2025 12:00 AM</value>
+    </filters>
+    <label>Jan 25 - Jackson Lead List</label>
+</ListView>

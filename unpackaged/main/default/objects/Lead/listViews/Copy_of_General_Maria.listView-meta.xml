@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_General_Maria</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>Partnership_Organization__c</columns>
+    <columns>Prior_12_months_total_transaction_value__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LAST_CALL_DATE</columns>
+    <columns>Rep_Assigned_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>5000000</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>lessOrEqual</operation>
+        <value>8000000</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Ready</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Orozco</value>
+    </filters>
+    <filters>
+        <field>Rep_Assigned_Date__c</field>
+        <operation>equals</operation>
+        <value>12/16/2024 12:00 AM</value>
+    </filters>
+    <label>Dec24 Maria Orozco Cut List</label>
+</ListView>

@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_Lead_Nurture</fullName>
+    <active>true</active>
+    <label>AI Lead Nurture</label>
+    <picklistValues>
+        <picklist>Agent_Bio_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creation in Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Claimed by Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Client Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Posted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Questionnaire Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Questionnaire Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted to Content</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>All_services_correct__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Blogs_Update_to_Date__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No%2C missing monday%2Ecom data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Campaign_Currency__c</picklist>
+        <values>
+            <fullName>CAD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Copywriting_Up_to_Date__c</picklist>
+        <values>
+            <fullName>Missing monday%2Ecom data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No schedules needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Current_Plan__c</picklist>
+        <values>
+            <fullName>Brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GBP_Post__c</picklist>
+        <values>
+            <fullName>GBP Post Behind</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post up-to-date</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service Schedules Incorrect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GBP_Status__c</picklist>
+        <values>
+            <fullName>Duplicate Profile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Access</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verification in progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verified</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>KWA_Status__c</picklist>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incomplete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs Refresh</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Neighborhood_Guide_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creation in Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Claimed by Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Client Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Posted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Questionnaire Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Questionnaire Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted to Content</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_Plan__c</picklist>
+        <values>
+            <fullName>Brand%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium%2B</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>No_Reason__c</picklist>
+        <values>
+            <fullName>Client Downgraded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Upgraded</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Please_select_your_12_blog_topics_below__c</picklist>
+        <values>
+            <fullName>%23 %5BLocation%5D Condo Upgrade Ideas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%23 Top Factors that Influence Home Resell Value in %5BLocation%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 Simple Tips for Enhancing Space in Your %5BLocation%5D Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 Tips for First-Time Homebuyers in %5BLocation%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A Comprehensive Guide to Home Financing in %5BLocation%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discovering %5BLocation%27s%5D Best Things to Do</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Improvement Projects That Add Value in %5BLocation%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>How to Choose the Perfect Color Palette for Your %5BLocation%5D Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>How to Downsize Effectively in %5BLocation%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>How to Own Your Dream Home in %5BLocation%5D%3A A Step-by-Step Guide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>How to Stage Your Home for a Quick Sale in %5BLocation%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxury Home Design Trends in %5BLocation%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Benefits of Buying a New Construction Home in %5BLocation%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Benefits of Working With an Experienced %5BLocation%5D Real Estate %5BAgent%2FTeam%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Best Day Trips from %5BLocation%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Best Parks and Recreation Areas in %5BLocation%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Best ROI Improvements for Homes in %5BLocation%5D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top 5 Outdoor Activities to do in %5BLocation%5D%3A A Local%27s Guide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>What To Know Before Selling A %5BLocation%5D Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>What to Know About Buying a Condo in %5BLocation%5D</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Contact_Correct__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Quarter__c</picklist>
+        <values>
+            <fullName>Q1%2724</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q1%2725</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q2%2724</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q2%2725</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q3%2724</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q3%2725</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q4%2723</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q4%2724</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Q4%2725</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>AI Lead Nurture</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Design Intake Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Design Quiz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook Credentials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google Credentials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Assessment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instagram Credentials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leads Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn Credentials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On-Demand Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plan Migration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Blog Selection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEO Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media Basic Quiz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Media Premium%2FDominance Quiz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strategy Brief</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Twitter Credentials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welcome Call</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

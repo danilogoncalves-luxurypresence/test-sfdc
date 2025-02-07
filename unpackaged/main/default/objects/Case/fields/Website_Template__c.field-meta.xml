@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Website_Template__c</fullName>
+    <label>Website Template</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Innovator [Compass 1]</fullName>
+                <default>false</default>
+                <label>Innovator [Compass 1]</label>
+            </value>
+            <value>
+                <fullName>Navigator [Compass 2]</fullName>
+                <default>false</default>
+                <label>Navigator [Compass 2]</label>
+            </value>
+            <value>
+                <fullName>Prestige [Compass 3]</fullName>
+                <default>false</default>
+                <label>Prestige [Compass 3]</label>
+            </value>
+            <value>
+                <fullName>Milestone [Compass Prop]</fullName>
+                <default>false</default>
+                <label>Milestone [Compass Prop]</label>
+            </value>
+            <value>
+                <fullName>Foundation</fullName>
+                <default>false</default>
+                <label>Foundation</label>
+            </value>
+            <value>
+                <fullName>Producer</fullName>
+                <default>false</default>
+                <label>Producer</label>
+            </value>
+            <value>
+                <fullName>Classic</fullName>
+                <default>false</default>
+                <label>Classic</label>
+            </value>
+            <value>
+                <fullName>Evolution</fullName>
+                <default>false</default>
+                <label>Evolution</label>
+            </value>
+            <value>
+                <fullName>Influencer</fullName>
+                <default>false</default>
+                <label>Influencer</label>
+            </value>
+            <value>
+                <fullName>Modern [V2]</fullName>
+                <default>false</default>
+                <label>Modern [V2]</label>
+            </value>
+            <value>
+                <fullName>Elite [V2]</fullName>
+                <default>false</default>
+                <label>Elite [V2]</label>
+            </value>
+            <value>
+                <fullName>Bold [V2]</fullName>
+                <default>false</default>
+                <label>Bold [V2]</label>
+            </value>
+            <value>
+                <fullName>Corcoran Agent 1</fullName>
+                <default>false</default>
+                <label>Corcoran Agent 1</label>
+            </value>
+            <value>
+                <fullName>Corcoran Agent 2</fullName>
+                <default>false</default>
+                <label>Corcoran Agent 2</label>
+            </value>
+            <value>
+                <fullName>Inspiration [SIR 1]</fullName>
+                <default>false</default>
+                <label>Inspiration [SIR 1]</label>
+            </value>
+            <value>
+                <fullName>Trailblazer [SIR 2]</fullName>
+                <default>false</default>
+                <label>Trailblazer [SIR 2]</label>
+            </value>
+            <value>
+                <fullName>Icon [SIR 3]</fullName>
+                <default>false</default>
+                <label>Icon [SIR 3]</label>
+            </value>
+            <value>
+                <fullName>Lifestyle [SIR Prop]</fullName>
+                <default>false</default>
+                <label>Lifestyle [SIR Prop]</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

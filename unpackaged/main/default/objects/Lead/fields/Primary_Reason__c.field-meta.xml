@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Reason__c</fullName>
+    <label>Release Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Release_Outcome__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lost Momentum</fullName>
+                <default>false</default>
+                <label>Lost Momentum</label>
+            </value>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <label>Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Rep Not Interested</fullName>
+                <default>false</default>
+                <label>Rep Not Interested</label>
+            </value>
+            <value>
+                <fullName>Current Client</fullName>
+                <default>false</default>
+                <label>Current Client</label>
+            </value>
+            <value>
+                <fullName>DNC</fullName>
+                <default>false</default>
+                <label>DNC</label>
+            </value>
+            <value>
+                <fullName>Not in Business</fullName>
+                <default>false</default>
+                <label>Not in Business</label>
+            </value>
+            <value>
+                <fullName>Agent Not Interested</fullName>
+                <default>false</default>
+                <label>Agent Not Interested</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Budget</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Budget</label>
+            </value>
+            <value>
+                <fullName>Don’t think it will work</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Don’t think it will work</label>
+            </value>
+            <value>
+                <fullName>Features</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Features</label>
+            </value>
+            <value>
+                <fullName>Partner/Spouse</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Partner/Spouse</label>
+            </value>
+            <value>
+                <fullName>Poorly Qualified</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Poorly Qualified</label>
+            </value>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Reputation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reputation</label>
+            </value>
+            <value>
+                <fullName>Timing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Timing</label>
+            </value>
+            <value>
+                <fullName>Tracking Number</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tracking Number</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Disqualify</controllingFieldValue>
+            <valueName>Current Client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disqualify</controllingFieldValue>
+            <valueName>DNC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disqualify</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nurture</controllingFieldValue>
+            <valueName>Lost Momentum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nurture</controllingFieldValue>
+            <valueName>Unresponsive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nurture</controllingFieldValue>
+            <valueName>Rep Not Interested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nurture</controllingFieldValue>
+            <valueName>Agent Not Interested</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

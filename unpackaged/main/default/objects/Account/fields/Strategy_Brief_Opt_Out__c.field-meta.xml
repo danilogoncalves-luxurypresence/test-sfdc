@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategy_Brief_Opt_Out__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Helps CSMs track clients opting out of strategy brief</description>
+    <inlineHelpText>This field should only be marked when the client does not complete the strategy brief.</inlineHelpText>
+    <label>Strategy Brief Opt Out</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

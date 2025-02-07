@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <caseValues>
+            <plural>false</plural>
+            <value>Subscription Document Version Count</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Subscription Document Version Counts</value>
+        </caseValues>
+        <name>contract_doc_version_count</name>
+        <startsWith>Consonant</startsWith>
+    </CustomFieldTranslation>

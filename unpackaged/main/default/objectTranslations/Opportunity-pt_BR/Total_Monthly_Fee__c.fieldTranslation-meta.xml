@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Monthly Subscription Fee + Monthly Marketing Fee (does not include Ad Spend or Ad Management Fee) --></help>
+        <label><!-- Total Monthly Fee --></label>
+        <name>Total_Monthly_Fee__c</name>
+    </CustomFieldTranslation>

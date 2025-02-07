@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows WE managers with partner licence edit task due dates</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>WE - Managers</label>
+    <license>Partner Community</license>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Revision__c.Due_date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Revision__c.Revisions_Due_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.ActivityDate</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

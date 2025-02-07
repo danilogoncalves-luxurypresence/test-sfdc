@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Does the client want to use our dashboard to make edits to the website? --></help>
+        <label><!-- Dashboard to Make Edits --></label>
+        <name>Dashboard_to_make_edits__c</name>
+    </CustomFieldTranslation>

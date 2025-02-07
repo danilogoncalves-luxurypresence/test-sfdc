@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_Opportunity</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(PRIORVALUE(Last_lost_opportunity_date__c))),
+ISPICKVAL(Status__c, &quot;Cooling&quot;),
+TODAY() - Last_lost_opportunity_date__c &lt; 181,
+ISCHANGED(OwnerId),
+$Profile.Name &lt;&gt; &quot;Sales Manager&quot;,
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;
+)</errorConditionFormula>
+    <errorMessage>You cannot modify the Contact. Please, contact your Salesforce Administrator.</errorMessage>
+</ValidationRule>

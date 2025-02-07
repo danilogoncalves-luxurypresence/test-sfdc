@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Event Name --></label>
+        <name>X2024_Event_Name__c</name>
+        <picklistValues>
+            <masterLabel>1.14 - BHHS Luxury Webinar</masterLabel>
+            <translation><!-- 1.14 - BHHS Luxury Webinar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.22 - 1.26 - The Agency - Pasadena / NYC / Park City</masterLabel>
+            <translation><!-- 1.22 - 1.26 - The Agency - Pasadena / NYC / Park City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.22.25 - 1.23.25 - CompassCup-FL</masterLabel>
+            <translation><!-- 1.22.25 - 1.23.25 - CompassCup-FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.23.24 Inman Connect NYC</masterLabel>
+            <translation><!-- 1.23.24 Inman Connect NYC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.24.24 Side x Side - San Diego</masterLabel>
+            <translation><!-- 1.24.24 Side x Side - San Diego --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.9.25 - ICNY25 Registrants</masterLabel>
+            <translation><!-- 1.9.25 - ICNY25 Registrants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.9.25 -ICNY25 Registrants - LP</masterLabel>
+            <translation><!-- 1.9.25 -ICNY25 Registrants - LP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10.14 - 10.15 - BHHS - CA</masterLabel>
+            <translation><!-- 10.14 - 10.15 - BHHS - CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10.14-10.15 – BHHS-CA 2024</masterLabel>
+            <translation><!-- 10.14-10.15 – BHHS-CA 2024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10.21 - 10.23 - Real Rise - LV</masterLabel>
+            <translation><!-- 10.21 - 10.23 - Real Rise - LV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10.22 LP Executive Insights Webinar</masterLabel>
+            <translation><!-- 10.22 LP Executive Insights Webinar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10.24 - 10.26 - KW Lux Symposium - SD</masterLabel>
+            <translation><!-- 10.24 - 10.26 - KW Lux Symposium - SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10.27 - 10.30 - eXpcon - Miami</masterLabel>
+            <translation><!-- 10.27 - 10.30 - eXpcon - Miami --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10.31 LP Courted Webinar</masterLabel>
+            <translation><!-- 10.31 LP Courted Webinar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10.9 - Q3 RA|Con - Austin</masterLabel>
+            <translation><!-- 10.9 - Q3 RA|Con - Austin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10.9 Inman-Austin</masterLabel>
+            <translation><!-- 10.9 Inman-Austin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11.13 - 11.14 - CBGL - LA</masterLabel>
+            <translation><!-- 11.13 - 11.14 - CBGL - LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11.13 - 11.14 - Compass Retreat - Charleston</masterLabel>
+            <translation><!-- 11.13 - 11.14 - Compass Retreat - Charleston --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12.11 - 12.13 - Forbes GP - Maui</masterLabel>
+            <translation><!-- 12.11 - 12.13 - Forbes GP - Maui --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12.12 - Compass Boca - Holiday24</masterLabel>
+            <translation><!-- 12.12 - Compass Boca - Holiday24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.26.24 Leading RE - LV</masterLabel>
+            <translation><!-- 2.26.24 Leading RE - LV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.29.24 Goldbar Live - NYC</masterLabel>
+            <translation><!-- 2.29.24 Goldbar Live - NYC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.3.25 - Daniel Gale SIR - NY</masterLabel>
+            <translation><!-- 2.3.25 - Daniel Gale SIR - NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.4.24 Realty One Summit - Las Vegas</masterLabel>
+            <translation><!-- 2.4.24 Realty One Summit - Las Vegas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.5 - Top Producer One Summit - LV</masterLabel>
+            <translation><!-- 2.5 - Top Producer One Summit - LV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.9.24 JPAR - TX</masterLabel>
+            <translation><!-- 2.9.24 JPAR - TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.13 - Women of Compass Luncheon</masterLabel>
+            <translation><!-- 3.13 - Women of Compass Luncheon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.21 Compass Lux Summit - Philly</masterLabel>
+            <translation><!-- 3.21 Compass Lux Summit - Philly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.6 - 3.8 - Tahoe Connect - CA</masterLabel>
+            <translation><!-- 3.6 - 3.8 - Tahoe Connect - CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.16 - 4.17 - Hannacon - Orlando</masterLabel>
+            <translation><!-- 4.16 - 4.17 - Hannacon - Orlando --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.21 - 4.24 - The Gathering - AZ</masterLabel>
+            <translation><!-- 4.21 - 4.24 - The Gathering - AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.22 - 4.24 - T3 Leadership Summit - AZ</masterLabel>
+            <translation><!-- 4.22 - 4.24 - T3 Leadership Summit - AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.21 - 5.22 - Inman Connect - Miami</masterLabel>
+            <translation><!-- 5.21 - 5.22 - Inman Connect - Miami --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.21 - 5.23 - real summit - Banff</masterLabel>
+            <translation><!-- 5.21 - 5.23 - real summit - Banff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.8 - 5.10 - eXpcon - Toronto</masterLabel>
+            <translation><!-- 5.8 - 5.10 - eXpcon - Toronto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.12 - 6.14 - Agency Leadership Summit - Charlotte</masterLabel>
+            <translation><!-- 6.12 - 6.14 - Agency Leadership Summit - Charlotte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.12. - 6.14 The Agency Leadership Summit - Charlotte</masterLabel>
+            <translation><!-- 6.12. - 6.14 The Agency Leadership Summit - Charlotte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.18 - 6.19 RE/MAX Lux Forum - Tahoe</masterLabel>
+            <translation><!-- 6.18 - 6.19 RE/MAX Lux Forum - Tahoe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.20 - 6.21 Serhant Netflix Premiere - NYC</masterLabel>
+            <translation><!-- 6.20 - 6.21 Serhant Netflix Premiere - NYC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.25 - 6.26 CIRE Masters - BH</masterLabel>
+            <translation><!-- 6.25 - 6.26 CIRE Masters - BH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.3 - 6.4 - Agency CO Retreat - Vail</masterLabel>
+            <translation><!-- 6.3 - 6.4 - Agency CO Retreat - Vail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7.17 - GCMastermind - LA</masterLabel>
+            <translation><!-- 7.17 - GCMastermind - LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7.30 - 8.1 ICLV - LV</masterLabel>
+            <translation><!-- 7.30 - 8.1 ICLV - LV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8.1 - 8.2 - eXp Build 24 - NJ</masterLabel>
+            <translation><!-- 8.1 - 8.2 - eXp Build 24 - NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8.27 - 8.29 - TF Summit - Dallas</masterLabel>
+            <translation><!-- 8.27 - 8.29 - TF Summit - Dallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8.29 - 9.1 - Compass Jazz Aspen Experience - CO</masterLabel>
+            <translation><!-- 8.29 - 9.1 - Compass Jazz Aspen Experience - CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9.23 - 9.24 - CBGL Miami</masterLabel>
+            <translation><!-- 9.23 - 9.24 - CBGL Miami --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9.24 - Nikki Field Zoom</masterLabel>
+            <translation><!-- 9.24 - Nikki Field Zoom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9.25 LP Nar Settlement Webinar</masterLabel>
+            <translation><!-- 9.25 LP Nar Settlement Webinar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9.29 - 10.1 - T3 Tech Summit - New Orleans</masterLabel>
+            <translation><!-- 9.29 - 10.1 - T3 Tech Summit - New Orleans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9.4 - 9.6 - CEO&amp;Leadership Exchange - DC</masterLabel>
+            <translation><!-- 9.4 - 9.6 - CEO&amp;Leadership Exchange - DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9.4 - 9.6 - RIS Media CEO/Leadership Exchange - DC</masterLabel>
+            <translation><!-- 9.4 - 9.6 - RIS Media CEO/Leadership Exchange - DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9.7 - ONE Magical - Nashville</masterLabel>
+            <translation><!-- 9.7 - ONE Magical - Nashville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9.8 - 9.10 - SIRE - Nashville</masterLabel>
+            <translation><!-- 9.8 - 9.10 - SIRE - Nashville --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass Florida 2024 Events</masterLabel>
+            <translation><!-- Compass Florida 2024 Events --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Women’s Council of Realtors - Austin</masterLabel>
+            <translation><!-- Women’s Council of Realtors - Austin --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

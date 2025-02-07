@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Additional Jira Tickets --></help>
+        <label><!-- Outstanding Jira/Support Tickets --></label>
+        <name>Additional_Jira_Tickets__c</name>
+    </CustomFieldTranslation>

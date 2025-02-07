@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Content_Status__c</fullName>
+    <label>Content Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Pending Questionnaire</fullName>
+                <default>false</default>
+                <label>Pending Questionnaire</label>
+            </value>
+            <value>
+                <fullName>Create Content</fullName>
+                <default>false</default>
+                <label>Create Content</label>
+            </value>
+            <value>
+                <fullName>Final QA</fullName>
+                <default>false</default>
+                <label>Final QA</label>
+            </value>
+            <value>
+                <fullName>Ready_for_Client_Review</fullName>
+                <default>false</default>
+                <label>Ready for Client Review</label>
+            </value>
+            <value>
+                <fullName>Sent For Approval</fullName>
+                <default>false</default>
+                <label>Sent For Approval</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Posted</fullName>
+                <default>false</default>
+                <label>Posted</label>
+            </value>
+            <value>
+                <fullName>Edit Content</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Edit Content</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

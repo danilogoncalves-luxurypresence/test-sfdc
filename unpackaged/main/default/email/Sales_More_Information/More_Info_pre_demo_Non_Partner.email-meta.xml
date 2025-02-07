@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to send before setting a demo if the client is adamant about you sending more information</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>More Info (pre-demo): Non-Partner</name>
+    <style>freeForm</style>
+    <subject>{!Lead.Name}, here is the info you requested</subject>
+    <textOnly>Hi {!Lead.Name},
+
+
+
+Thanks for taking the time to speak with me today! As promised, I’m following up with additional information about how Luxury Presence can help you attract more business, work more efficiently, and better serve your clients.
+
+
+
+Our solutions include award-winning websites, dedicated property sites, smart lead generation and nurturing tools, expert SEO management, and content services tailored to your audience. Also, we recently launched a mobile app that elevates agent-client collaboration with AI-powered tools, seamless communication, and personalized branding.
+
+
+
+Book time on my calendar here [Insert booking link] to learn more about any of these offerings as well as our pricing plans.
+
+
+
+In the meantime, check out this video for a great overview of our all-in-one platform.
+
+
+Best,
+
+{!Lead.OwnerFirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

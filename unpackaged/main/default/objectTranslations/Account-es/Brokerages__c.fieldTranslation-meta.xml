@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Brokerages --></label>
+        <name>Brokerages__c</name>
+        <picklistValues>
+            <masterLabel>Christie&#39;s International</masterLabel>
+            <translation><!-- Christie&apos;s International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coldwell Banker Brand</masterLabel>
+            <translation><!-- Coldwell Banker Brand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coldwell Banker Luxury</masterLabel>
+            <translation><!-- Coldwell Banker Luxury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass</masterLabel>
+            <translation><!-- Compass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corcoran Brand</masterLabel>
+            <translation><!-- Corcoran Brand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Side</masterLabel>
+            <translation><!-- Side --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sotheby&#39;s Affliate</masterLabel>
+            <translation><!-- Sotheby&apos;s Affliate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sotheby&#39;s Brand</masterLabel>
+            <translation><!-- Sotheby&apos;s Brand --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

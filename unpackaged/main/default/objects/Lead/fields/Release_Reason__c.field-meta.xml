@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Release_Reason__c</fullName>
+    <label>Dialpad Release Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Poorly Qualified</fullName>
+                <default>false</default>
+                <label>Poorly Qualified</label>
+            </value>
+            <value>
+                <fullName>Lost Momentum</fullName>
+                <default>false</default>
+                <label>Lost Momentum</label>
+            </value>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <label>Unresponsive</label>
+            </value>
+            <value>
+                <fullName>Tracking Number</fullName>
+                <default>false</default>
+                <label>Tracking Number</label>
+            </value>
+            <value>
+                <fullName>Rep Not Interested</fullName>
+                <default>false</default>
+                <label>Rep Not Interested</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Final Email - Launched without Approval</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>Final Email - Launched without Approval</name>
+    <style>freeForm</style>
+    <subject>Following Up: IDX Agreement Incompleete</subject>
+    <textOnly>Hi {!Contact.FirstName},    
+
+We have been trying to reach you regarding the completion of the data access agreement for Contact: MLS Board Name. Unfortunately, the required data access agreement for your MLS remains incomplete. The Home Search tool on your website has now been hidden in order to comply with the MLS’s rules and regulations. 
+
+Reason for incomplete agreement: Placeholder: Reason for incomplete: client needs to process payment broker signature no response to a request for signature​
+
+If you would like to reinstate the Home Search tool on your site please reconfirm the following in order to restart the MLS paperwork process:
+
+Agent&#39;s Name:
+Agent&#39;s Email:
+MLS Board:
+Brokerage:
+Broker of Record&#39;s Name: 
+Broker of Record&#39;s Email: 
+Domain name: 
+
+Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

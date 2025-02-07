@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_reason</fullName>
+    <active>false</active>
+    <description>If is addendum, closed won and Primary Reason is null then send error</description>
+    <errorConditionFormula>AND(
+ RecordTypeId = &quot;0125f000000VvK3&quot;,
+ ISPICKVAL( StageName, &quot;Closed Won&quot;),
+ ISPICKVAL ( Primary_Reason__c ,&quot;&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Primary_Reason__c</errorDisplayField>
+    <errorMessage>Please complete Primary reason field.</errorMessage>
+</ValidationRule>

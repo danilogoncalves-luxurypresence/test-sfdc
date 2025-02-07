@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Client Success Manager</fullName>
+        <default>false</default>
+        <label>Client Success Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Onboarding Manager</fullName>
+        <default>false</default>
+        <label>Onboarding Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SEO Specialist</fullName>
+        <default>false</default>
+        <label>SEO Specialist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Content Manager</fullName>
+        <default>false</default>
+        <label>Content Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Content Specialist</fullName>
+        <default>false</default>
+        <label>Content Specialist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Experience</fullName>
+        <default>false</default>
+        <label>Client Experience</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AD Specialist</fullName>
+        <default>false</default>
+        <label>AD Specialist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paid Media Manager</fullName>
+        <default>false</default>
+        <label>Paid Media Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IDX Coordinator</fullName>
+        <default>false</default>
+        <label>IDX Coordinator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Account Executive</fullName>
+        <default>false</default>
+        <label>Account Executive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SDR</fullName>
+        <default>false</default>
+        <label>SDR</label>
+    </standardValue>
+</StandardValueSet>

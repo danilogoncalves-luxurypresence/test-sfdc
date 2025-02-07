@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>End of Month Incentive - Day 1</name>
+    <style>freeForm</style>
+    <subject>Discounted website setup until the end of the month!</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+I hope you&#39;re doing well! I’m reaching out about a special offer we&#39;ve got going on until the end of the month.
+
+For a limited time, we&#39;re reducing ALL upfront costs on our website setup fees, and we&#39;re offering some terrific deals on our monthly plans for the month of July. This is a fantastic opportunity to save thousands of dollars on a website that elevates your online presence, so you can stand out in today&#39;s competitive market and attract new clients.
+
+We don&#39;t want you to miss out on this limited-time opportunity. Let&#39;s chat about how we can help you build your brand and win more business.
+
+Click here to schedule a call: [Meeting Link]
+
+Best,
+{!User.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

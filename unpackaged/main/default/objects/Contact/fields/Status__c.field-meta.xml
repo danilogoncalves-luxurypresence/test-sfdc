@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>true</default>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>Re - Engage Prospect</fullName>
+                <default>false</default>
+                <label>Re - Engage Prospect</label>
+            </value>
+            <value>
+                <fullName>Client</fullName>
+                <default>false</default>
+                <label>Client</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Cooling</fullName>
+                <default>false</default>
+                <label>Cooling</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Engaging</fullName>
+                <default>false</default>
+                <label>Engaging</label>
+            </value>
+            <value>
+                <fullName>Partner outcome</fullName>
+                <default>false</default>
+                <label>Partner outcome</label>
+            </value>
+            <value>
+                <fullName>Partner advocate</fullName>
+                <default>false</default>
+                <label>Partner advocate</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Lost Opportunity</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lost Opportunity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

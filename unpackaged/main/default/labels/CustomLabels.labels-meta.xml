@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ID_AccountDataBase_Credentials</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - AccountDataBase - Credentials</shortDescription>
+        <value>0125f000000VvK0AAK</value>
+    </labels>
+    <labels>
+        <fullName>ID_AccountDataBase_Plan_Migration</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - AccountDataBase - Plan Migration</shortDescription>
+        <value>012EY0000004KPAYA2</value>
+    </labels>
+    <labels>
+        <fullName>ID_AccountDataBase_Quiz</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - AccountDataBase - Quiz</shortDescription>
+        <value>0125f000000VvK1AAK</value>
+    </labels>
+    <labels>
+        <fullName>ID_AccountDataBase_Strategy</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - AccountDataBase - Strategy</shortDescription>
+        <value>012EY0000004HdWYAU</value>
+    </labels>
+    <labels>
+        <fullName>ID_Almira_Grace</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Almira Grace</shortDescription>
+        <value>005EY000000IIl0YAG</value>
+    </labels>
+    <labels>
+        <fullName>ID_Case_Churn_Probability</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Case - Churn Probability</shortDescription>
+        <value>012EY0000004K4vYAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Case_General_Case</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Case - General Case</shortDescription>
+        <value>012EY0000004Ko0YAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Case_Retention</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Case - Retention</shortDescription>
+        <value>012EY0000004KNiYAM</value>
+    </labels>
+    <labels>
+        <fullName>ID_Case_SFDC_Ticket</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Case - SFDC Ticket</shortDescription>
+        <value>012EY0000004Jw3</value>
+    </labels>
+    <labels>
+        <fullName>ID_Case_Support</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Case - Support</shortDescription>
+        <value>0125f000000VvJzAAK</value>
+    </labels>
+    <labels>
+        <fullName>ID_Case_Umbrella_Cases</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Case - Umbrella Cases</shortDescription>
+        <value>012EY0000004K4wYAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Notification_ContentReview</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Notification - ContentReview</shortDescription>
+        <value>0MLEY000000005x4AA</value>
+    </labels>
+    <labels>
+        <fullName>ID_Notification_GBPSuspendedDuplicated</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Notification - GBPSuspendedDuplicated</shortDescription>
+        <value>0MLEY00000000604AA</value>
+    </labels>
+    <labels>
+        <fullName>ID_Notification_NewRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Notification - NewRecord</shortDescription>
+        <value>0MLEY000000005y4AA</value>
+    </labels>
+    <labels>
+        <fullName>ID_Notification_Opportunity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Notification - Opportunity</shortDescription>
+        <value>0MLEY000000006O4AQ</value>
+    </labels>
+    <labels>
+        <fullName>ID_Notification_PaidMediaStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Notification - PaidMediaStatus</shortDescription>
+        <value>0MLEY00000000614AA</value>
+    </labels>
+    <labels>
+        <fullName>ID_Notification_SEO_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Notification - SEO Status</shortDescription>
+        <value>0MLEY000000005z4AA</value>
+    </labels>
+    <labels>
+        <fullName>ID_Notification_StategyBriefCompleted</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Notification - StategyBriefCompleted</shortDescription>
+        <value>0MLEY00000000624AA</value>
+    </labels>
+    <labels>
+        <fullName>ID_Notification_TaskPastDueDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Notification - TaskPastDueDate</shortDescription>
+        <value>0ML5f000000XdJhGAK</value>
+    </labels>
+    <labels>
+        <fullName>ID_Opp_Addendum</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Opp - Addendum</shortDescription>
+        <value>0125f000000VvK3</value>
+    </labels>
+    <labels>
+        <fullName>ID_Opp_New_Sales</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Opp - New Sales</shortDescription>
+        <value>0125f000000VvK4AAK</value>
+    </labels>
+    <labels>
+        <fullName>ID_Opportunity_Add_Service</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Opportunity - Add Service</shortDescription>
+        <value>012EY0000004KooYAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Opportunity_Closed_Won_Addnedum</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Opportunity - Closed Won - Addnedum</shortDescription>
+        <value>012EY0000004KopYAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Opportunity_Closed_Won_New_Sales</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Opportunity - Closed Won New Sales</shortDescription>
+        <value>012EY0000004KoqYAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Opportunity_Reduce</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Opportunity - Reduce</shortDescription>
+        <value>012EY0000004KorYAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Price_book_Partnership</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Price book - Partnership</shortDescription>
+        <value>01sEY00000013fNYAQ</value>
+    </labels>
+    <labels>
+        <fullName>ID_Price_book_Standard</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Price book - Standard</shortDescription>
+        <value>01s5f00000453KtAAI</value>
+    </labels>
+    <labels>
+        <fullName>ID_Queue_DNC</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Queue - DNC</shortDescription>
+        <value>00GRg0000031jpNMAQ</value>
+    </labels>
+    <labels>
+        <fullName>ID_Queue_General</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Queue - General</shortDescription>
+        <value>00GEY000000NKqn2AG</value>
+    </labels>
+    <labels>
+        <fullName>ID_Queue_IAO_Content</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Queue - IAO Content</shortDescription>
+        <value>00GEY000000NHL82AO</value>
+    </labels>
+    <labels>
+        <fullName>ID_Queue_MLS_Existing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Queue - MLS Existing</shortDescription>
+        <value>00GRg000002sUnx</value>
+    </labels>
+    <labels>
+        <fullName>ID_Queue_MLS_Net_New</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Queue - MLS Net New</shortDescription>
+        <value>00GRg000002sUny</value>
+    </labels>
+    <labels>
+        <fullName>ID_Queue_Marketing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Queue - Marketing</shortDescription>
+        <value>00GRg0000031jpOMAQ</value>
+    </labels>
+    <labels>
+        <fullName>ID_Queue_MidMarket</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Queue - MidMarket</shortDescription>
+        <value>00GRg0000031jpPMAQ</value>
+    </labels>
+    <labels>
+        <fullName>ID_Queue_Partners</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Queue - Partners</shortDescription>
+        <value>00GEY000000NKqo2AG</value>
+    </labels>
+    <labels>
+        <fullName>ID_Queue_QA_Assitance</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Queue - QA Assitance</shortDescription>
+        <value>00GEY000000NHL92AO</value>
+    </labels>
+    <labels>
+        <fullName>ID_Queue_Resting</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Queue - Resting</shortDescription>
+        <value>00GRg0000031jpQMAQ</value>
+    </labels>
+    <labels>
+        <fullName>ID_Queue_Support_VA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Queue - Support VA</shortDescription>
+        <value>00GEY000000NQqh2AG</value>
+    </labels>
+    <labels>
+        <fullName>ID_Queue_Triage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Queue - Triage</shortDescription>
+        <value>00GEY000000MjbM</value>
+    </labels>
+    <labels>
+        <fullName>ID_Revision_Custom_Website</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Revision - Custom Website</shortDescription>
+        <value>012EY0000004Is0YAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Revision_Design_refresh</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Revision - Design refresh</shortDescription>
+        <value>0125f000000VvK5AAK</value>
+    </labels>
+    <labels>
+        <fullName>ID_Revision_Implementation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Revision - Implementation</shortDescription>
+        <value>0125f000000VvK6AAK</value>
+    </labels>
+    <labels>
+        <fullName>ID_Revision_Live_Client</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Revision - Live Client</shortDescription>
+        <value>012EY0000004I0mYAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Revision_Marketing</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Revision - Marketing</shortDescription>
+        <value>0125f000000VvK7AAK</value>
+    </labels>
+    <labels>
+        <fullName>ID_Revision_Migration</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Revision - Migration</shortDescription>
+        <value>012EY0000004HdMYAU</value>
+    </labels>
+    <labels>
+        <fullName>ID_Revision_Onboarding</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Revision - Onboarding</shortDescription>
+        <value>0125f000000VvK6AAK</value>
+    </labels>
+    <labels>
+        <fullName>ID_Revision_PagesCopywriting</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Revision - PagesCopywriting</shortDescription>
+        <value>012Ec0000000FzxIAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Revision_QA_Passback</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Revision - QA Passback</shortDescription>
+        <value>012EY0000004KiMYAU</value>
+    </labels>
+    <labels>
+        <fullName>ID_SS_Blogs</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - SS - Blogs</shortDescription>
+        <value>0125f000000VvKNAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_SS_Blogs_per_Quarter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - SS - Blogs per Quarter</shortDescription>
+        <value>0125f000000VvKNAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_SS_GBP_Posts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - SS - GBP Posts</shortDescription>
+        <value>0125f000000VvKOAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_SS_Monthly_Quarterly_Reporting</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - SS - Monthly/Quarterly Reporting</shortDescription>
+        <value>012EY0000004J68YAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_SS_PagesCopywriting</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - SS - PagesCopywriting</shortDescription>
+        <value>012EY0000004JCcYAM</value>
+    </labels>
+    <labels>
+        <fullName>ID_SS_Paid_Media</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - SS - Paid Media</shortDescription>
+        <value>0125f000000VvKPAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_SS_SEO_Optimizations</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - SS - SEO Optimizations</shortDescription>
+        <value>0125f000000VvKQAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_SS_Social_Media</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - SS - Social Media</shortDescription>
+        <value>0125f000000VvKRAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_AI_Lead_Nurture</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID Service AI Lead Nurture</shortDescription>
+        <value>012Rg000001yhntIAA</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Agent_Subdomains</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - Agent Subdomains</shortDescription>
+        <value>012EY0000004JT6YAM</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Automated_Blogs</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID Service Automated Blogs</shortDescription>
+        <value>012Rg000002GLP7IAO</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Blogs</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - Blogs</shortDescription>
+        <value>0125f000000VvK8AAK</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Brand_Identity</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - Brand Identity</shortDescription>
+        <value>012EY0000004K8nYAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Content_Review</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - Content Review</shortDescription>
+        <value>0125f000000VvK9AAK</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Custom_Website</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - Custom Website</shortDescription>
+        <value>012EY0000004IaBYAU</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Design_Refresh</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - Design Refresh</shortDescription>
+        <value>0125f000000VvKBAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_GBP_Posts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - GBP Posts</shortDescription>
+        <value>0125f000000VvKCAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_GBP_Set_Up</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - GBP Set Up</shortDescription>
+        <value>0125f000000VvKDAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_InAppOnboarding</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - InAppOnboarding</shortDescription>
+        <value>012EY0000004JciYAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_MLS_Implementation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - MLS Implementation</shortDescription>
+        <value>0125f000000VvKEAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Monthly_Quarterly_Reporting</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - Monthly/Quarterly Reporting</shortDescription>
+        <value>012EY0000004JCbYAM</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_OnDemand_Ads</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - OnDemand Ads</shortDescription>
+        <value>012EY0000004K8KYAU</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Paid_Media</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - Paid Media</shortDescription>
+        <value>0125f000000VvKFAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Platform_Migration</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - Platform Migration</shortDescription>
+        <value>0125f000000VvKGAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Presence_Copilot</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - Presence Copilot</shortDescription>
+        <value>012Rg000000eWFhIAM</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Property_Website</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - Property Website</shortDescription>
+        <value>0125f000000VvKHAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_QBR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID Service QBR</shortDescription>
+        <value>012ca0000004G4bAAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_SEO_General</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - SEO General</shortDescription>
+        <value>012EY0000004K8oYAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_SEO_KWA</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - SEO KWA</shortDescription>
+        <value>0125f000000VvKIAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_SEO_Migration</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - SEO Migration</shortDescription>
+        <value>0125f000000VvKJAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_SEO_Optmizations</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - SEO Optmizations</shortDescription>
+        <value>0125f000000VvKKAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Social_Media</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - Social Media</shortDescription>
+        <value>0125f000000VvKLAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Template_Change</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - Template Change</shortDescription>
+        <value>0125f000000VvKAAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_Website_Launches</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Service - Website Launches</shortDescription>
+        <value>0125f000000VvKMAA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Service_White_Label_App</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID_Service_White_Label_App</shortDescription>
+        <value>012Rg000002VmAUIA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Slack_Michelle_Mc</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Slack - Michelle Mc</shortDescription>
+        <value>a0PEY000000XUdA2AW</value>
+    </labels>
+    <labels>
+        <fullName>ID_Slack_Michelle_Thomas</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Slack - Michelle Thomas</shortDescription>
+        <value>a0PEY000000XUdF2AW</value>
+    </labels>
+    <labels>
+        <fullName>ID_Slack_New_Clients</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Slack - New Clients</shortDescription>
+        <value>a0PEY000000co3S2AQ</value>
+    </labels>
+    <labels>
+        <fullName>ID_Slack_Pam_Schaar</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Slack - Pam Schaar</shortDescription>
+        <value>a0PEY000000XUdK2AW</value>
+    </labels>
+    <labels>
+        <fullName>ID_Slack_SupportAdvanced</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Slack - SupportAdvanced</shortDescription>
+        <value>a0PEY000000Vreb2AC</value>
+    </labels>
+    <labels>
+        <fullName>ID_Slack_SupportBasic</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Slack - SupportBasic</shortDescription>
+        <value>a0PEY000000Vnpw2AC</value>
+    </labels>
+    <labels>
+        <fullName>ID_Support</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID_Support</shortDescription>
+        <value>005EY000000Hn1xYAC</value>
+    </labels>
+    <labels>
+        <fullName>ID_Task_AI_Lead_Nurture</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID Task AI Lead Nurture</shortDescription>
+        <value>012Rg000001yhnuIAA</value>
+    </labels>
+    <labels>
+        <fullName>ID_Task_AM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Task - AM</shortDescription>
+        <value>012EY0000004IsoYAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Task_Analytics</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Task - Analytics</shortDescription>
+        <value>012EY0000004JHXYA2</value>
+    </labels>
+    <labels>
+        <fullName>ID_Task_General</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Task - General</shortDescription>
+        <value>012EY0000004HdvYAE</value>
+    </labels>
+    <labels>
+        <fullName>ID_Task_General_Task</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Task - General Task</shortDescription>
+        <value>012Rg000000eWFiIAM</value>
+    </labels>
+    <labels>
+        <fullName>ID_Task_Generic_Task</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID Task Generic Task</shortDescription>
+        <value>012Rg000002VmAVIA0</value>
+    </labels>
+    <labels>
+        <fullName>ID_Task_IDX</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID - Task - IDX</shortDescription>
+        <value>012EY0000004IWnYAM</value>
+    </labels>
+    <labels>
+        <fullName>ID_Task_OTP_Verification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID Task OTP Verification</shortDescription>
+        <value>012EY0000004LHzYAM</value>
+    </labels>
+    <labels>
+        <fullName>ID_Task_TCR_Verification</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID Task TCR Verification</shortDescription>
+        <value>012EY0000004LHzYAM</value>
+    </labels>
+    <labels>
+        <fullName>ID_Task_White_Label_App</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ID Task White Label App</shortDescription>
+        <value>012Rg000002VmAWIA0</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_Body_ChatWindowAgent_04IEY000000000Q_8584358</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_Body_ChatWindowAgent_04IEY000000000Q_8584358</shortDescription>
+        <value>Chatting with Luxury Presence</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_WithoutQueuePos_WaitingDefaultName_04IEY000000000Q_8712405</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_WithoutQueuePos_WaitingDefaultName_04IEY000000000Q_8712405</shortDescription>
+        <value>!</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_WithoutQueuePos_WaitingGreeting_04IEY000000000Q_5630066</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_WithoutQueuePos_WaitingGreeting_04IEY000000000Q_5630066</shortDescription>
+        <value>Hello</value>
+    </labels>
+    <labels>
+        <fullName>fsc_AccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccessLevel</shortDescription>
+        <value>Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Back</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ButtonIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ButtonIsNotSupportedMessage</shortDescription>
+        <value>Following buttons are note supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ConditionLogicHelpText</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ConditionLogicHelpText</shortDescription>
+        <value>Use parentheses, AND, OR, and NOT to customize the logic. For example, if you enter “(1 AND 2 AND 3) OR 4”, the flow evaluates whether the first three conditions are true or only the fourth condition is true.</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Delete</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldIsNotSupportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FieldIsNotSupportedMessage</shortDescription>
+        <value>Following fields are not supported:</value>
+    </labels>
+    <labels>
+        <fullName>fsc_FieldTypeNotSuportedMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>fsc_FieldTypeNotSuportedMessage</shortDescription>
+        <value>You provided an unsupported value for the DataTypeFilter input on Object and Field Picker. Currently the only supported value is ’picklist’</value>
+    </labels>
+    <labels>
+        <fullName>fsc_For</fullName>
+        <categories>Buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>For</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Key_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Key Label</shortDescription>
+        <value>Key</value>
+    </labels>
+    <labels>
+        <fullName>fsc_LackingPermissions</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LackingPermissions</shortDescription>
+        <value>You don\&#39;t have the proper permissions for ths action</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ManagerEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManagerEmptyMessage</shortDescription>
+        <value>&quot;Manager APEX Class&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_MultipleGroupsForRole</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MultipleGroupsForRole</shortDescription>
+        <value>There are multiple groups for that role</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Name</fullName>
+        <categories>quicklinks, Labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>fsc_NonePicklistValueLabel</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NonePicklistValueLabel</shortDescription>
+        <value>-- None --</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OWDReadWrite</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OWDReadWrite</shortDescription>
+        <value>Sharing Settings must be private or public read/write to enable manual sharing</value>
+    </labels>
+    <labels>
+        <fullName>fsc_OwnerAdminModify</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OwnerAdminModify</shortDescription>
+        <value>Only the record owner or administrators can modify permissions</value>
+    </labels>
+    <labels>
+        <fullName>fsc_PublicGroups</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PublicGroups</shortDescription>
+        <value>Public Groups</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Queues</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Queues</shortDescription>
+        <value>Queues</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Read</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Read</shortDescription>
+        <value>Read</value>
+    </labels>
+    <labels>
+        <fullName>fsc_ReadWrite</fullName>
+        <categories>labels, buttons</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReadWrite</shortDescription>
+        <value>Read / Write</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Reason</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reason</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>fsc_RelatedUsers</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RelatedUsers</shortDescription>
+        <value>Related Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Roles</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Roles</shortDescription>
+        <value>Roles</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Search</fullName>
+        <categories>Actions,Buttons,quicklinks</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search in</shortDescription>
+        <value>Search in</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SearchFor</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchFor</shortDescription>
+        <value>For</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SetAccessLevel</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SetAccessLevel</shortDescription>
+        <value>Set Access Level</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedAddCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedAddCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Add Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedButtonsEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedButtonsEmptyMessage</shortDescription>
+        <value>&quot;Supported Buttons&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_SupportedEditCapabilitiesEmptyMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SupportedEditCapabilitiesEmptyMessage</shortDescription>
+        <value>&quot;Edit Capabilities&quot; can not be empty</value>
+    </labels>
+    <labels>
+        <fullName>fsc_TooManyResultsMessage</fullName>
+        <categories>messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TooManyResultsMessage</shortDescription>
+        <value>Your search found more than 200 results.  Keep typing to make it more specific</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Type</fullName>
+        <categories>Buttons,Filters,Title</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Type</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>fsc_UserOrGroup</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserOrGroup</shortDescription>
+        <value>User Or Group</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Users</fullName>
+        <categories>labels</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Users</shortDescription>
+        <value>Users</value>
+    </labels>
+    <labels>
+        <fullName>fsc_Value_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Value Label</shortDescription>
+        <value>Value</value>
+    </labels>
+</CustomLabels>

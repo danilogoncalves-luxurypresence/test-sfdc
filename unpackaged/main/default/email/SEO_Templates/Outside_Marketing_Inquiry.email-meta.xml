@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Outside Marketing Inquiry</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Outside Marketing Inquiry</name>
+    <style>none</style>
+    <subject>Your Website&#39;s SEO Progress &amp; Caution on Spam Emails</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

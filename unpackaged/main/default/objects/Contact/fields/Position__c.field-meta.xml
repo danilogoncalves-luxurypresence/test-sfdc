@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Position__c</fullName>
+    <label>Position</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>QA</fullName>
+                <default>false</default>
+                <label>QA</label>
+            </value>
+            <value>
+                <fullName>Team leader</fullName>
+                <default>false</default>
+                <label>Team leader</label>
+            </value>
+            <value>
+                <fullName>Website Builder</fullName>
+                <default>false</default>
+                <label>Website Builder</label>
+            </value>
+            <value>
+                <fullName>Data Specialist</fullName>
+                <default>false</default>
+                <label>Data Specialist</label>
+            </value>
+            <value>
+                <fullName>Header Image Curator</fullName>
+                <default>false</default>
+                <label>Header Image Curator</label>
+            </value>
+            <value>
+                <fullName>Design project coordinator</fullName>
+                <default>false</default>
+                <label>Design project coordinator</label>
+            </value>
+            <value>
+                <fullName>IDX Data Specialist</fullName>
+                <default>false</default>
+                <label>IDX Data Specialist</label>
+            </value>
+            <value>
+                <fullName>Logo Editor</fullName>
+                <default>false</default>
+                <label>Logo Editor</label>
+            </value>
+            <value>
+                <fullName>Migration Crawl &amp; Mapping Specialist</fullName>
+                <default>false</default>
+                <label>Migration Crawl &amp; Mapping Specialist</label>
+            </value>
+            <value>
+                <fullName>Trainer</fullName>
+                <default>false</default>
+                <label>Trainer</label>
+            </value>
+            <value>
+                <fullName>SEO Specialist</fullName>
+                <default>false</default>
+                <label>SEO Specialist</label>
+            </value>
+            <value>
+                <fullName>Support Specialist</fullName>
+                <default>false</default>
+                <label>Support Specialist</label>
+            </value>
+            <value>
+                <fullName>Marketing Specialist</fullName>
+                <default>false</default>
+                <label>Marketing Specialist</label>
+            </value>
+            <value>
+                <fullName>Ads Specialist</fullName>
+                <default>false</default>
+                <label>Ads Specialist</label>
+            </value>
+            <value>
+                <fullName>Content Creator</fullName>
+                <default>false</default>
+                <label>Content Creator</label>
+            </value>
+            <value>
+                <fullName>Design Project Associate</fullName>
+                <default>false</default>
+                <label>Design Project Associate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

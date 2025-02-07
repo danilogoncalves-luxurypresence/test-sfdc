@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Neighborhood Guide Type --></label>
+        <name>Neighborhood_Guide_Type__c</name>
+        <picklistValues>
+            <masterLabel>Optimized Guide</masterLabel>
+            <translation><!-- Optimized Guide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Summary</masterLabel>
+            <translation><!-- Summary --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

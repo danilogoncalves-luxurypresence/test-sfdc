@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>9 day delay</name>
+    <style>freeForm</style>
+    <subject>ATTN: Access Required</subject>
+    <textOnly>Hi {!Account.Name}
+
+I’ve been trying hard to reach you to get the Domain Registrar login credentials for Website Domain before we complete the Luxury Presence platform upgrade! I need to warn you that without access to the Domain Registrar account, if the website goes down for any reason, we will not be able to quickly assess the issue and bring the website back.
+
+Please feel free to reply to this email, schedule a time on my calendar, or give me a call directly so we can gather your Domain Registrar login credentials.
+
+
+
+Best,
+Danielle.
+
+
+
+
+
+Luxury Presence Inc., 1808 Stanford Street, Santa Monica, California 90404, United States, 3109551077</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

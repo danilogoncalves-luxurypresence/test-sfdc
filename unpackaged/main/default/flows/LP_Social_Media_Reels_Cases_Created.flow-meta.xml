@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <decisions>
+        <name>Social_Media_Plan</name>
+        <label>Social Media Plan</label>
+        <locationX>578</locationX>
+        <locationY>947</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Basic</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Social_Media_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Basic</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Amount_0</targetReference>
+            </connector>
+            <label>Basic</label>
+        </rules>
+        <rules>
+            <name>Premium</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Social_Media_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Premium</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Amount_100</targetReference>
+            </connector>
+            <label>Premium</label>
+        </rules>
+        <rules>
+            <name>Premium_plus</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Social_Media_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Premium+</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Amount_150</targetReference>
+            </connector>
+            <label>Premium+</label>
+        </rules>
+        <rules>
+            <name>Dominance</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Social_Media_Plan__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Dominance</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Amount_297</targetReference>
+            </connector>
+            <label>Dominance</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Social_Media_Request</name>
+        <label>Social Media Request</label>
+        <locationX>578</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>Copy_1_of_Account</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Reels</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Social_Media_Request_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Reels</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Social_Media_Reels_User</targetReference>
+            </connector>
+            <label>Reels</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>for1BDay</name>
+        <dataType>Date</dataType>
+        <expression>CASE(
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+  5, {!$Flow.CurrentDate} + 3,
+  {!$Flow.CurrentDate} + 1
+)</expression>
+    </formulas>
+    <formulas>
+        <name>for3BDays</name>
+        <dataType>Date</dataType>
+        <expression>CASE(
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+  3, {!$Flow.CurrentDate} + 5,
+  4, {!$Flow.CurrentDate} + 5,
+  5, {!$Flow.CurrentDate} + 5,
+  {!$Flow.CurrentDate} + 3
+)</expression>
+    </formulas>
+    <formulas>
+        <name>for6BDays</name>
+        <dataType>Date</dataType>
+        <expression>CASE(
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+  1, {!$Flow.CurrentDate} + 8,
+  2, {!$Flow.CurrentDate} + 8,
+  3, {!$Flow.CurrentDate} + 8,
+  4, {!$Flow.CurrentDate} + 8,
+  5, {!$Flow.CurrentDate} + 10,
+  {!$Flow.CurrentDate} + 6
+)</expression>
+    </formulas>
+    <formulas>
+        <name>forCaseName</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Service_Schedule__r.Name} +&quot; -  &quot;+ TEXT({!$Record.Social_Media_Request_Type__c})</expression>
+    </formulas>
+    <formulas>
+        <description>Due date based on the priority</description>
+        <name>forDueDate</name>
+        <dataType>Date</dataType>
+        <expression>CASE( {!$Record.Priority}, 
+&quot;Low&quot;, {!for6BDays} , 
+&quot;Medium&quot;, {!for3BDays},
+&quot;High&quot;,{!for1BDay},
+{!$Flow.CurrentDate}
+
+)</expression>
+    </formulas>
+    <interviewLabel>LP - Social Media Reels Cases Created {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>LP - Social Media Cases Created</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Account</name>
+        <label>Account</label>
+        <locationX>446</locationX>
+        <locationY>539</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Update_Case</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Service_Schedule__r.Service__r.Account__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Account</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Copy_1_of_Account</name>
+        <label>Account</label>
+        <locationX>710</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Copy_1_of_Update_Case</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Service_Schedule__r.Service__r.Account__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Account</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Social_Media_Reels_User</name>
+        <label>Social Media Reels - User</label>
+        <locationX>446</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Account</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>IsActive</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Social_Media_Reels__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>User</object>
+        <sortField>Last_Case_Assigned__c</sortField>
+        <sortOrder>Asc</sortOrder>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Amount_0</name>
+        <label>Amount 0</label>
+        <locationX>50</locationX>
+        <locationY>1055</locationY>
+        <inputAssignments>
+            <field>Amount__c</field>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Amount_100</name>
+        <label>Amount 100</label>
+        <locationX>314</locationX>
+        <locationY>1055</locationY>
+        <inputAssignments>
+            <field>Amount__c</field>
+            <value>
+                <numberValue>100.0</numberValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Amount_150</name>
+        <label>Amount 150</label>
+        <locationX>578</locationX>
+        <locationY>1055</locationY>
+        <inputAssignments>
+            <field>Amount__c</field>
+            <value>
+                <numberValue>150.0</numberValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Amount_297</name>
+        <label>Amount 297</label>
+        <locationX>842</locationX>
+        <locationY>1055</locationY>
+        <inputAssignments>
+            <field>Amount__c</field>
+            <value>
+                <numberValue>297.0</numberValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Add owner and due date</description>
+        <name>Copy_1_of_Update_Case</name>
+        <label>Update Case</label>
+        <locationX>710</locationX>
+        <locationY>539</locationY>
+        <connector>
+            <targetReference>Social_Media_Plan</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>AccountId</field>
+            <value>
+                <elementReference>Copy_1_of_Account.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Due_Date__c</field>
+            <value>
+                <elementReference>forDueDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>forCaseName</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Social_Media_Reels_User_Last_Case_Assigned</name>
+        <label>Social Media Reels User - Last Case Assigned</label>
+        <locationX>446</locationX>
+        <locationY>755</locationY>
+        <connector>
+            <targetReference>Social_Media_Plan</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Social_Media_Reels_User.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Last_Case_Assigned__c</field>
+            <value>
+                <elementReference>$Flow.CurrentDateTime</elementReference>
+            </value>
+        </inputAssignments>
+        <object>User</object>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Add owner and due date</description>
+        <name>Update_Case</name>
+        <label>Update Case</label>
+        <locationX>446</locationX>
+        <locationY>647</locationY>
+        <connector>
+            <targetReference>Social_Media_Reels_User_Last_Case_Assigned</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>AccountId</field>
+            <value>
+                <elementReference>Account.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Due_Date__c</field>
+            <value>
+                <elementReference>forDueDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>Social_Media_Reels_User.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>forCaseName</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>452</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Social_Media_Request</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Record_Type_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Social Media</stringValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

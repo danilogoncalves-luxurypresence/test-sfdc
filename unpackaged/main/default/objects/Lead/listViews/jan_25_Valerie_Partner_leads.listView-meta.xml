@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>jan_25_Valerie_Partner_leads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Partnership_Organization__c</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>City__c</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>Years_in_Business__c</columns>
+    <columns>Lead_Source_Subtype_1__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Partnership_Organization__c</field>
+        <operation>equals</operation>
+        <value>Compass,Coldwell Banker Realty,Coldwell Banker Affiliate,Corcoran,The Agency,eXP Luxury,The Remax Collection</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Ready,Pursuing</value>
+    </filters>
+    <filters>
+        <field>LEAD.CITY</field>
+        <operation>equals</operation>
+        <value>new york city,charleston,new orleans,st. louis,orlando,san antonio,austin,chicago,nashville,denver,salt lake city,phoenix,philadelphia,miami,dallas,atlanta,charlotte,san diego,san francisco,seattle</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>greaterThan</operation>
+        <value>10000000</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>lessOrEqual</operation>
+        <value>18000000</value>
+    </filters>
+    <filters>
+        <field>Rep_Assigned_Date__c</field>
+        <operation>equals</operation>
+        <value>1/21/2025 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>valerie</value>
+    </filters>
+    <label>jan 25 - Valerie Partner leads</label>
+</ListView>

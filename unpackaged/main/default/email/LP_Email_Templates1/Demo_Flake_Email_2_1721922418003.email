@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hey&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+If you are still open to connecting - do you mind if we put something on the calendar?<br />
+<br />
+I would like to make sure I am available to you.<br />
+<br />
+Looking forward to showing you how we can take the heavy lifting off your plate in the digital space so you can spend your valuable time in the field doing what you do best - being a real estate agent.<br />
+<br />
+Please feel free to reschedule a time on my calendar that works for your schedule:<br />
+https://luxurypresence.na.chilipiper.com/book/me/{{{Sender.FirstName}}}-{{{Sender.LastName}}}<br />
+<br />
+Chat soon,<br />
+{{{Sender.Name}}}</body>
+</html>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OnHold_Reason__c</fullName>
+    <label>On Hold Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blocked</fullName>
+                <default>false</default>
+                <label>Blocked</label>
+            </value>
+            <value>
+                <fullName>Need more information before build</fullName>
+                <default>false</default>
+                <label>Need more information before build</label>
+            </value>
+            <value>
+                <fullName>Connecting with IM</fullName>
+                <default>false</default>
+                <label>Connecting with IM</label>
+            </value>
+            <value>
+                <fullName>Client Type</fullName>
+                <default>false</default>
+                <label>Client Type</label>
+            </value>
+            <value>
+                <fullName>Website Type</fullName>
+                <default>false</default>
+                <label>Website Type</label>
+            </value>
+            <value>
+                <fullName>Brokerage Specification</fullName>
+                <default>false</default>
+                <label>Brokerage Specification</label>
+            </value>
+            <value>
+                <fullName>Contact Info</fullName>
+                <default>false</default>
+                <label>Contact Info</label>
+            </value>
+            <value>
+                <fullName>Design Template</fullName>
+                <default>false</default>
+                <label>Design Template</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>In scope</fullName>
+                <default>false</default>
+                <label>In scope</label>
+            </value>
+            <value>
+                <fullName>Out of Scope</fullName>
+                <default>false</default>
+                <label>Out of Scope</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On Hold</label>
+            </value>
+            <value>
+                <fullName>Unresponsive</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Unresponsive</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

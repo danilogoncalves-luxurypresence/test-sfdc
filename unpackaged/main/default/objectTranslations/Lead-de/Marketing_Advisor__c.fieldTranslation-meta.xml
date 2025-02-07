@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Marketing Advisor --></label>
+        <name>Marketing_Advisor__c</name>
+        <picklistValues>
+            <masterLabel>Coldwell Banker MA</masterLabel>
+            <translation><!-- Coldwell Banker MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass MA</masterLabel>
+            <translation><!-- Compass MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corcoran MA</masterLabel>
+            <translation><!-- Corcoran MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sotheby&#39;s Int Realty MA</masterLabel>
+            <translation><!-- Sotheby&apos;s Int Realty MA --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

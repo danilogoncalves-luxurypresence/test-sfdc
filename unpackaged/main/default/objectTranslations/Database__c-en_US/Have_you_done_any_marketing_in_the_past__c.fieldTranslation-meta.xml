@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Have you done any marketing in the past? What have you tried? Please share what worked and what didn&apos;t. --></help>
+        <label><!-- Have you done any marketing in the past? --></label>
+        <name>Have_you_done_any_marketing_in_the_past__c</name>
+    </CustomFieldTranslation>

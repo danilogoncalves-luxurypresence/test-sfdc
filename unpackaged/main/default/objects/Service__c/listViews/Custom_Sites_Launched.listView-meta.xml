@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Sites_Launched</fullName>
+    <columns>NAME</columns>
+    <columns>Website_Domain__c</columns>
+    <columns>Account__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PFT_Pod__c</field>
+        <operation>equals</operation>
+        <value>Pod 1,Pod 2,Pod 3</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Website Launched,Client Launched</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.Custom_Website</value>
+    </filters>
+    <filters>
+        <field>Implementation_Manager__c</field>
+        <operation>notContain</operation>
+        <value>Courtney Javornik</value>
+    </filters>
+    <label>Custom Sites Launched</label>
+</ListView>

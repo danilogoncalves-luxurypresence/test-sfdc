@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Email Addresses to Receive Reports --></label>
+        <name>Email_Addresses_to_Receive_Reports__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Reason_3__c</fullName>
+    <label>Case Reason 3</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Edit Request</fullName>
+                <default>false</default>
+                <label>Edit Request</label>
+            </value>
+            <value>
+                <fullName>Another LP Team</fullName>
+                <default>false</default>
+                <label>Another LP Team</label>
+            </value>
+            <value>
+                <fullName>How to Question</fullName>
+                <default>false</default>
+                <label>How to Question</label>
+            </value>
+            <value>
+                <fullName>Subscription Question</fullName>
+                <default>false</default>
+                <label>Subscription Question</label>
+            </value>
+            <value>
+                <fullName>Login Question</fullName>
+                <default>false</default>
+                <label>Login Question</label>
+            </value>
+            <value>
+                <fullName>Cancelation Request</fullName>
+                <default>false</default>
+                <label>Cancelation Request</label>
+            </value>
+            <value>
+                <fullName>Stackpath</fullName>
+                <default>false</default>
+                <label>Stackpath</label>
+            </value>
+            <value>
+                <fullName>Bug Report</fullName>
+                <default>false</default>
+                <label>Bug Report</label>
+            </value>
+            <value>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+                <label>Feature Request</label>
+            </value>
+            <value>
+                <fullName>SEO Question</fullName>
+                <default>false</default>
+                <label>SEO Question</label>
+            </value>
+            <value>
+                <fullName>Site Down Report</fullName>
+                <default>false</default>
+                <label>Site Down Report</label>
+            </value>
+            <value>
+                <fullName>Leads</fullName>
+                <default>false</default>
+                <label>Leads</label>
+            </value>
+            <value>
+                <fullName>Google Analytics</fullName>
+                <default>false</default>
+                <label>Google Analytics</label>
+            </value>
+            <value>
+                <fullName>Copywriting</fullName>
+                <default>false</default>
+                <label>Copywriting</label>
+            </value>
+            <value>
+                <fullName>Upcoming Event</fullName>
+                <default>false</default>
+                <label>Upcoming Event</label>
+            </value>
+            <value>
+                <fullName>Design Change</fullName>
+                <default>false</default>
+                <label>Design Change</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

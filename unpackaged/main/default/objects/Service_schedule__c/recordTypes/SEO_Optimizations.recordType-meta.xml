@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SEO_Optimizations</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Service_Schedules</compactLayoutAssignment>
+    <label>SEO Optimizations</label>
+    <picklistValues>
+        <picklist>Content_Type__c</picklist>
+        <values>
+            <fullName>Agent Bio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neighborhood Guide</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Health_Rating__c</picklist>
+        <values>
+            <fullName>Green</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yellow</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Neighborhood_Guide_Type__c</picklist>
+        <values>
+            <fullName>Optimized Guide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PM_Quality_Score__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Picklist__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating_Reason__c</picklist>
+        <values>
+            <fullName>Acknowledgment of value gained from the LP%E2%80%99s product and solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Active client engagement and participation in discussions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adequate client participation%2C but not highly engaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call includes routine updates but strategic discussions are one-way without involvement from the client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clear and proactive communication during the call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clear communication%2C but lacking depth or proactiveness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client expressed concerns with budget</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client expresses dissatisfaction or negative feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client is having issues in understanding%2Fcommunicating their goals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client is neither overly positive nor negative</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client is unhappy with performance or delayed deliverables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collaboration and enthusiasm were demonstrated during the call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivering additional value or unexpected positive outcomes%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lack of clear communication during the call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited client contribution to the conversation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited participation or interest in discussions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low client engagement during the call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No specific feedback provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The client expresses satisfaction and positive feedback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The client is a strong candidate for upselling opportunities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The client is happy about positive performance and deliverables are on track</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The client is indifferent about performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The client is initiating discussions on potential improvements or opportunities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The client is not putting much effort into their marketing outside of what LP is doing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unresolved complaints or concerns are voiced during the call</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

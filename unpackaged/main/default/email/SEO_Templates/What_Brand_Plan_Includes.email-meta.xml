@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>What Brand Plan Includes</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>What Brand Plan Includes</name>
+    <style>none</style>
+    <subject>What The Brand Plan Includes - Luxury Presence</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

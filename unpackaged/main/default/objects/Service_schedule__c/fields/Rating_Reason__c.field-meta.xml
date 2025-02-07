@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rating_Reason__c</fullName>
+    <label>Rating Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Health_Rating__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lack of clear communication during the call</fullName>
+                <default>false</default>
+                <label>Lack of clear communication during the call</label>
+            </value>
+            <value>
+                <fullName>Client is having issues in understanding/communicating their goals</fullName>
+                <default>false</default>
+                <label>Client is having issues in understanding/communicating their goals</label>
+            </value>
+            <value>
+                <fullName>Client expresses dissatisfaction or negative feedback</fullName>
+                <default>false</default>
+                <label>Client expresses dissatisfaction or negative feedback</label>
+            </value>
+            <value>
+                <fullName>Unresolved complaints or concerns are voiced during the call</fullName>
+                <default>false</default>
+                <label>Unresolved complaints or concerns are voiced during the call</label>
+            </value>
+            <value>
+                <fullName>Client is unhappy with performance or delayed deliverables</fullName>
+                <default>false</default>
+                <label>Client is unhappy with performance or delayed deliverables</label>
+            </value>
+            <value>
+                <fullName>Client expressed concerns with budget</fullName>
+                <default>false</default>
+                <label>Client expressed concerns with budget</label>
+            </value>
+            <value>
+                <fullName>Low client engagement during the call</fullName>
+                <default>false</default>
+                <label>Low client engagement during the call</label>
+            </value>
+            <value>
+                <fullName>Limited participation or interest in discussions</fullName>
+                <default>false</default>
+                <label>Limited participation or interest in discussions</label>
+            </value>
+            <value>
+                <fullName>Clear communication, but lacking depth or proactiveness</fullName>
+                <default>false</default>
+                <label>Clear communication, but lacking depth or proactiveness</label>
+            </value>
+            <value>
+                <fullName>Call includes routine updates but strategic discussions are one-way without involvement from the client</fullName>
+                <default>false</default>
+                <label>Call includes routine updates but strategic discussions are one-way without involvement from the client</label>
+            </value>
+            <value>
+                <fullName>Client is neither overly positive nor negative</fullName>
+                <default>false</default>
+                <label>Client is neither overly positive nor negative</label>
+            </value>
+            <value>
+                <fullName>No specific feedback provided</fullName>
+                <default>false</default>
+                <label>No specific feedback provided</label>
+            </value>
+            <value>
+                <fullName>The client is indifferent about performance</fullName>
+                <default>false</default>
+                <label>The client is indifferent about performance</label>
+            </value>
+            <value>
+                <fullName>The client is not putting much effort into their marketing outside of what LP is doing</fullName>
+                <default>false</default>
+                <label>The client is not putting much effort into their marketing outside of what LP is doing</label>
+            </value>
+            <value>
+                <fullName>Adequate client participation, but not highly engaged</fullName>
+                <default>false</default>
+                <label>Adequate client participation, but not highly engaged</label>
+            </value>
+            <value>
+                <fullName>Limited client contribution to the conversation</fullName>
+                <default>false</default>
+                <label>Limited client contribution to the conversation</label>
+            </value>
+            <value>
+                <fullName>Clear and proactive communication during the call</fullName>
+                <default>false</default>
+                <label>Clear and proactive communication during the call</label>
+            </value>
+            <value>
+                <fullName>The client is initiating discussions on potential improvements or opportunities</fullName>
+                <default>false</default>
+                <label>The client is initiating discussions on potential improvements or opportunities</label>
+            </value>
+            <value>
+                <fullName>The client expresses satisfaction and positive feedback</fullName>
+                <default>false</default>
+                <label>The client expresses satisfaction and positive feedback</label>
+            </value>
+            <value>
+                <fullName>Acknowledgment of value gained from the LP’s product and solutions</fullName>
+                <default>false</default>
+                <label>Acknowledgment of value gained from the LP’s product and solutions</label>
+            </value>
+            <value>
+                <fullName>The client is happy about positive performance and deliverables are on track</fullName>
+                <default>false</default>
+                <label>The client is happy about positive performance and deliverables are on track</label>
+            </value>
+            <value>
+                <fullName>The client is a strong candidate for upselling opportunities</fullName>
+                <default>false</default>
+                <label>The client is a strong candidate for upselling opportunities</label>
+            </value>
+            <value>
+                <fullName>Delivering additional value or unexpected positive outcomes.</fullName>
+                <default>false</default>
+                <label>Delivering additional value or unexpected positive outcomes.</label>
+            </value>
+            <value>
+                <fullName>Active client engagement and participation in discussions</fullName>
+                <default>false</default>
+                <label>Active client engagement and participation in discussions</label>
+            </value>
+            <value>
+                <fullName>Collaboration and enthusiasm were demonstrated during the call</fullName>
+                <default>false</default>
+                <label>Collaboration and enthusiasm were demonstrated during the call</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Green</controllingFieldValue>
+            <valueName>Clear and proactive communication during the call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Green</controllingFieldValue>
+            <valueName>The client is initiating discussions on potential improvements or opportunities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Green</controllingFieldValue>
+            <valueName>The client expresses satisfaction and positive feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Green</controllingFieldValue>
+            <valueName>Acknowledgment of value gained from the LP’s product and solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Green</controllingFieldValue>
+            <valueName>The client is happy about positive performance and deliverables are on track</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Green</controllingFieldValue>
+            <valueName>The client is a strong candidate for upselling opportunities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Green</controllingFieldValue>
+            <valueName>Delivering additional value or unexpected positive outcomes.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Green</controllingFieldValue>
+            <valueName>Active client engagement and participation in discussions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Green</controllingFieldValue>
+            <valueName>Collaboration and enthusiasm were demonstrated during the call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yellow</controllingFieldValue>
+            <valueName>Clear communication, but lacking depth or proactiveness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yellow</controllingFieldValue>
+            <valueName>Call includes routine updates but strategic discussions are one-way without involvement from the client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yellow</controllingFieldValue>
+            <valueName>Client is neither overly positive nor negative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yellow</controllingFieldValue>
+            <valueName>No specific feedback provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yellow</controllingFieldValue>
+            <valueName>The client is indifferent about performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yellow</controllingFieldValue>
+            <valueName>The client is not putting much effort into their marketing outside of what LP is doing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yellow</controllingFieldValue>
+            <valueName>Adequate client participation, but not highly engaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yellow</controllingFieldValue>
+            <valueName>Limited client contribution to the conversation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Red</controllingFieldValue>
+            <valueName>Lack of clear communication during the call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Red</controllingFieldValue>
+            <valueName>Client is having issues in understanding/communicating their goals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Red</controllingFieldValue>
+            <valueName>Client expresses dissatisfaction or negative feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Red</controllingFieldValue>
+            <valueName>Unresolved complaints or concerns are voiced during the call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Red</controllingFieldValue>
+            <valueName>Client is unhappy with performance or delayed deliverables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Red</controllingFieldValue>
+            <valueName>Client expressed concerns with budget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Red</controllingFieldValue>
+            <valueName>Low client engagement during the call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Red</controllingFieldValue>
+            <valueName>Limited participation or interest in discussions</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

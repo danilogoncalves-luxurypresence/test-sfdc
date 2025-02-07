@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Bryan_s_Cases</fullName>
+    <columns>Flag__c</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Client_Folder__c</columns>
+    <columns>CASES.LAST_UPDATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Do_Not_Send_Survey__c</columns>
+    <columns>First_Response_Created_Date__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Open,In Progress,Awaiting Client Response,Client Unresponsive,Awaiting Internal Team,Awaiting Linear Response,Escalated,Hold</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>Bryan</value>
+    </filters>
+    <label>Agent | Bryan&#39;s Cases</label>
+</ListView>

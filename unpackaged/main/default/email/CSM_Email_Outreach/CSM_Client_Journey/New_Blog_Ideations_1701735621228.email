@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+Your annual content strategy is ready! It’s driven by keyword research, search intent insights, and the preferences you expressed in our earlier conversations.<br />
+<br />
+Please review the outlined editorial calendar below, which has blog topics for the next few months. If you want to replace any of these topics, please feel free to suggest alternative titles. Your content will go into production 14 days from today, so let me know if you have edits before then! Your feedback is important so we can ensure that all written content reflects your brand and voice.<br />
+<br />
+<br />
+[Month] - [Blog topic 1]<br />
+<br />
+[Month] - [Blog topic 2]<br />
+<br />
+[Month] - [Blog topic 3]<br />
+<br />
+[Month] - [Blog topic 4]<br />
+<br />
+[Month] - [Blog topic 5]<br />
+<br />
+[Month] - [Blog topic 6]<br />
+<br />
+...<br />
+<br />
+[Month] - [Blog topic 24]<br />
+<br />
+Based on the topics above, please communicate some “must-haves” and “don’ts” like favorite spots or places to avoid including.<br />
+<br />
+Looking forward to hearing your thoughts!<br />
+<br />
+{{{Sender.Name}}}</body>
+</html>

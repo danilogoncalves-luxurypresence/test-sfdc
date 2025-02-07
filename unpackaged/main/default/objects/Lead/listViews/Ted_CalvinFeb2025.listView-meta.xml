@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ted_CalvinFeb2025</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Partnership_Organization__c</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>City__c</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>Years_in_Business__c</columns>
+    <columns>Lead_Source_Subtype_1__c</columns>
+    <columns>Lead_Source_Subtype_2__c</columns>
+    <columns>LAST_CALL_DATE</columns>
+    <columns>Other_Source_1__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Calvin</value>
+    </filters>
+    <filters>
+        <field>Other_Source_1__c</field>
+        <operation>equals</operation>
+        <value>Ted-Calvin-Feb-2025</value>
+    </filters>
+    <label>Ted Calvin - Feb 2025</label>
+</ListView>

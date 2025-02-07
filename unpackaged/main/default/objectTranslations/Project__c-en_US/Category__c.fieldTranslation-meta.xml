@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Important Project</masterLabel>
+            <translation><!-- Important Project --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Improvements/Strategy</masterLabel>
+            <translation><!-- Improvements/Strategy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issue Resolution</masterLabel>
+            <translation><!-- Issue Resolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Project</masterLabel>
+            <translation><!-- Key Project --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

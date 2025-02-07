@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hey {{{Recipient.FirstName}}},&nbsp;<br />
+<br />
+Unfortunately, we haven’t been able to connect yet. I totally understand; life gets busy. I hope you don’t take offense to my persistence. That said, I wouldn’t reach out If I didn’t believe Luxury Presence could help your team.<br />
+<br />
+As a quick recap, here are the areas we have been able to help other real estate agents like you:
+<ul>
+	<li>Customized Websites: Our tailored websites showcase properties in a visually appealing and engaging manner, highlighting their unique features and luxury elements.</li>
+	<li>Enhanced Search Visibility: Our optimized websites improve search engine rankings, ensuring properties appear prominently in search results and reach a wider audience.</li>
+	<li>Seamless User Experience: Our design user-friendly websites with intuitive navigation and mobile responsiveness, make it easy for potential buyers to explore listings and gather information.</li>
+	<li>Targeted Marketing: We've developed customized marketing strategies to reach specific demographics and attract high-net-worth individuals interested in luxury properties.Think you can spare a few minutes to connect?</li>
+</ul>
+<br />
+Thanks,<br />
+&nbsp;<br />
+{{{Sender.FirstName}}}</body>
+</html>

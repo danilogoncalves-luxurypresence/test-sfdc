@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Client_Reason__c</fullName>
+    <description>Case 00163538</description>
+    <inlineHelpText>Please fill out the Client&#39;s Other reason for churning</inlineHelpText>
+    <label>Other Client Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

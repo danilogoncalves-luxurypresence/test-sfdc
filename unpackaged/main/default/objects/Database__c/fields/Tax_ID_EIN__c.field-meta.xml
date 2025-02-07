@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_ID_EIN__c</fullName>
+    <inlineHelpText>Please enter your 9-digit EIN (XX-XXXXXXX) if you have one. Sole proprietors without employees typically don&#39;t need an EIN.</inlineHelpText>
+    <label>Tax ID/ EIN</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

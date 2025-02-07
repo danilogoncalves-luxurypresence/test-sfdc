@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Design Template --></label>
+        <name>Design_Template__c</name>
+        <picklistValues>
+            <masterLabel>Bespoke</masterLabel>
+            <translation><!-- Bespoke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coldwell Banker Brand Agent</masterLabel>
+            <translation><!-- Coldwell Banker Brand Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coldwell Banker Brand Property</masterLabel>
+            <translation><!-- Coldwell Banker Brand Property --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coldwell Banker Global Luxury Agent</masterLabel>
+            <translation><!-- Coldwell Banker Global Luxury Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coldwell Banker Global Luxury Property</masterLabel>
+            <translation><!-- Coldwell Banker Global Luxury Property --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass &quot;The Innovator&quot;</masterLabel>
+            <translation><!-- Compass &quot;The Innovator&quot; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass &quot;The Milestone&quot;</masterLabel>
+            <translation><!-- Compass &quot;The Milestone&quot; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass &quot;The Navigator&quot;</masterLabel>
+            <translation><!-- Compass &quot;The Navigator&quot; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass &quot;The Prestige&quot;</masterLabel>
+            <translation><!-- Compass &quot;The Prestige&quot; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass S&amp;E</masterLabel>
+            <translation><!-- Compass S&amp;E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corcoran Agent #1</masterLabel>
+            <translation><!-- Corcoran Agent #1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corcoran Agent #2</masterLabel>
+            <translation><!-- Corcoran Agent #2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corcoran Development Site</masterLabel>
+            <translation><!-- Corcoran Development Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Website Package</masterLabel>
+            <translation><!-- Custom Website Package --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Collective Agent</masterLabel>
+            <translation><!-- Global Collective Agent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pinnacle</masterLabel>
+            <translation><!-- Pinnacle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sotheby&#39;s &quot;The Icon&quot;</masterLabel>
+            <translation><!-- Sotheby&apos;s &quot;The Icon&quot; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sotheby&#39;s &quot;The Inspiration&quot;</masterLabel>
+            <translation><!-- Sotheby&apos;s &quot;The Inspiration&quot; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sotheby&#39;s &quot;The Lifestyle&quot;</masterLabel>
+            <translation><!-- Sotheby&apos;s &quot;The Lifestyle&quot; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sotheby&#39;s &quot;The Trailblazer&quot;</masterLabel>
+            <translation><!-- Sotheby&apos;s &quot;The Trailblazer&quot; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Classic</masterLabel>
+            <translation><!-- The Classic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Evolution</masterLabel>
+            <translation><!-- The Evolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Influencer</masterLabel>
+            <translation><!-- The Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Masterpiece</masterLabel>
+            <translation><!-- The Masterpiece --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Masterpiece - CIRE</masterLabel>
+            <translation><!-- The Masterpiece - CIRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Producer</masterLabel>
+            <translation><!-- The Producer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Producer - CIRE</masterLabel>
+            <translation><!-- The Producer - CIRE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Signature</masterLabel>
+            <translation><!-- The Signature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Visionary</masterLabel>
+            <translation><!-- The Visionary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Visionary - Gestalt</masterLabel>
+            <translation><!-- The Visionary - Gestalt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undecided</masterLabel>
+            <translation><!-- Undecided --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>CA Compass Introduction (Kathy Mehringer)</name>
+    <style>freeForm</style>
+    <subject>IDX Introduction - {!Service__c.MLS_Board_Name__c} - {!Service__c.Contact_First_Name__c}{!Service__c.Contact_Last_Name__c}</subject>
+    <textOnly>Hi {!Service__c.Contact_First_Name__c},
+
+It&#39;s great to e-meet you! My name is {!Service__c.OwnerFullName} and I am an IDX Coordinator at Luxury Presence! I&#39;m contacting you to start the MLS paperwork process! In order for us to display IDX data on your website, Contact: MLS Board Name requires us to have a data access agreement signed. I have drafted the paperwork and sent it out to the respective parties through PandaDoc (similar to DocuSign) for e-signatures.
+
+You can click HERE to sign the IDX Request Form.
+
+Also, please keep in mind that Compass requires agents to sign the Compass Indemnity Agreement before the managing broker can sign off the IDX request form! Keep an eye out for an email from Marni Cell, marni@compass.com, or Stephanie Bass, stephanie.bass@compass.com.
+
+Lastly, if you do not have a Domain/URL finalized, no problem! Please wait until your next call with your Implementation Manager and they will be able to discuss URL options with you in detail. Let me know if you have any questions in the meantime. I&#39;m here to help!
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Salesforce_Submissions</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Team__c</columns>
+    <columns>Request_Type__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>Ultimate_Parent__c</columns>
+    <columns>Project__c</columns>
+    <columns>SF_Team_Reviewed__c</columns>
+    <columns>Quarter__c</columns>
+    <columns>Priority_Category__c</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>Submitted_By__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>Business_System_Analyst__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.SFDC_Ticket</value>
+    </filters>
+    <filters>
+        <field>SF_Team_Reviewed__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New</value>
+    </filters>
+    <label>New Salesforce Submissions</label>
+</ListView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Release_Outcome__c</fullName>
+    <label>Release Outcome</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Disqualify</fullName>
+                <default>false</default>
+                <label>Disqualify</label>
+            </value>
+            <value>
+                <fullName>Nurture</fullName>
+                <default>false</default>
+                <label>Nurture</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Non-Converted</controllingFieldValue>
+            <valueName>Disqualify</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Converted</controllingFieldValue>
+            <valueName>Nurture</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

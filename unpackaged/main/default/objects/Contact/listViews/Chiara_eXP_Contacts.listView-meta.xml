@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Chiara_eXP_Contacts</fullName>
+    <booleanFilter>(1 AND 2) or (1 AND 3)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Chiara</value>
+    </filters>
+    <filters>
+        <field>Event_Name__c</field>
+        <operation>equals</operation>
+        <value>eXp Shareholder Summit 2023</value>
+    </filters>
+    <filters>
+        <field>CONTACT.EMAIL</field>
+        <operation>contains</operation>
+        <value>exprealty</value>
+    </filters>
+    <label>Chiara - eXP Contacts</label>
+</ListView>

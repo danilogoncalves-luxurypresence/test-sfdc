@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Video_Pod</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Revision_Owner__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Google_Folder__c</columns>
+    <columns>Staging_Link__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Revision__c.Opening_Video</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Uploaded</value>
+    </filters>
+    <label>Video Pod</label>
+</ListView>

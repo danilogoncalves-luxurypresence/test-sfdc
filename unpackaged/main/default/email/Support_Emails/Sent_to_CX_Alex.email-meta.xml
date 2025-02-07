@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sent to CX - Alex Coy</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Sent to CX - Alex Coy</name>
+    <style>none</style>
+    <subject>Connecting You with Alex Coy</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

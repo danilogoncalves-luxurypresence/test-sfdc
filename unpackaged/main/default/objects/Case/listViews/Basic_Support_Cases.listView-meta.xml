@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Basic_Support_Cases</fullName>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>NAME</columns>
+    <columns>Last_update__c</columns>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>Flag__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Open,In Progress,Awaiting Client Response,Awaiting Jira Response</value>
+    </filters>
+    <filters>
+        <field>Team_Category__c</field>
+        <operation>equals</operation>
+        <value>Basic Edits</value>
+    </filters>
+    <label>Category | Basic Support Cases</label>
+</ListView>

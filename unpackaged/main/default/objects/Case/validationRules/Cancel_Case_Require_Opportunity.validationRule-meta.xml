@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancel_Case_Require_Opportunity</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    Record_Type_Name__c = &quot;Retention Case&quot;,
+    ISPICKVAL(Status, &quot;Closed&quot;),
+    ISPICKVAL(Retention_Result__c, &quot;Cancelled&quot;),
+    
+    OR(
+        ISBLANK(Opportunity__c),
+        NOT(ISPICKVAL(Opportunity__r.Addendum_Type__c, &quot;Cancellation&quot;)),
+        Opportunity__r.AccountId &lt;&gt; AccountId
+    ),
+    
+    NOT(ISPICKVAL(Retention_Request_Type__c, &quot;Non-Payment&quot;))
+)</errorConditionFormula>
+    <errorMessage>Make sure to fill in the Opportunity field with the Cancellation Addendum and confirm that the Opportunity is linked to the same Account as this Case before closing it.</errorMessage>
+</ValidationRule>

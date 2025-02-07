@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Reason_1__c</fullName>
+    <description>Primary case reason
+updates made via ticket #00190723 &amp; 00210175</description>
+    <inlineHelpText>Populate based on the Primary Case Reason</inlineHelpText>
+    <label>Case Reason 1</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Team_Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Website Builder</fullName>
+                <default>false</default>
+                <label>Website Builder</label>
+            </value>
+            <value>
+                <fullName>CMS</fullName>
+                <default>false</default>
+                <label>CMS</label>
+            </value>
+            <value>
+                <fullName>Domains</fullName>
+                <default>false</default>
+                <label>Domains</label>
+            </value>
+            <value>
+                <fullName>IDX</fullName>
+                <default>false</default>
+                <label>IDX</label>
+            </value>
+            <value>
+                <fullName>Agent Subdomain</fullName>
+                <default>false</default>
+                <label>Agent Subdomain</label>
+            </value>
+            <value>
+                <fullName>Analytics</fullName>
+                <default>false</default>
+                <label>Analytics</label>
+            </value>
+            <value>
+                <fullName>Brokerage Change</fullName>
+                <default>false</default>
+                <label>Brokerage Change</label>
+            </value>
+            <value>
+                <fullName>Bug</fullName>
+                <default>false</default>
+                <label>Bug</label>
+            </value>
+            <value>
+                <fullName>Cases</fullName>
+                <default>false</default>
+                <label>Cases</label>
+            </value>
+            <value>
+                <fullName>Client Meeting</fullName>
+                <default>false</default>
+                <label>Client Meeting</label>
+            </value>
+            <value>
+                <fullName>Another LP Team</fullName>
+                <default>false</default>
+                <label>Another LP Team</label>
+            </value>
+            <value>
+                <fullName>Copilot</fullName>
+                <default>false</default>
+                <label>Copilot</label>
+            </value>
+            <value>
+                <fullName>Copywriting</fullName>
+                <default>false</default>
+                <label>Copywriting</label>
+            </value>
+            <value>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+                <label>Feature Request</label>
+            </value>
+            <value>
+                <fullName>HST</fullName>
+                <default>false</default>
+                <label>HST</label>
+            </value>
+            <value>
+                <fullName>Instagram</fullName>
+                <default>false</default>
+                <label>Instagram</label>
+            </value>
+            <value>
+                <fullName>Leads</fullName>
+                <default>false</default>
+                <label>Leads</label>
+            </value>
+            <value>
+                <fullName>Listing Feeds</fullName>
+                <default>false</default>
+                <label>Listing Feeds</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Paid Media</fullName>
+                <default>false</default>
+                <label>Paid Media</label>
+            </value>
+            <value>
+                <fullName>Presentations</fullName>
+                <default>false</default>
+                <label>Presentations</label>
+            </value>
+            <value>
+                <fullName>RSS Feed</fullName>
+                <default>false</default>
+                <label>RSS Feed</label>
+            </value>
+            <value>
+                <fullName>SEO Client</fullName>
+                <default>false</default>
+                <label>SEO</label>
+            </value>
+            <value>
+                <fullName>Self-Serve Property Sites (Paid)</fullName>
+                <default>false</default>
+                <label>Self-Serve Property Sites (Paid)</label>
+            </value>
+            <value>
+                <fullName>Subscription</fullName>
+                <default>false</default>
+                <label>Subscription</label>
+            </value>
+            <value>
+                <fullName>Spam</fullName>
+                <default>false</default>
+                <label>Spam</label>
+            </value>
+            <value>
+                <fullName>Users</fullName>
+                <default>false</default>
+                <label>Users</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Google Business Profile</fullName>
+                <default>false</default>
+                <label>Google Business Profile</label>
+            </value>
+            <value>
+                <fullName>Google Analytics and Google Search Console</fullName>
+                <default>false</default>
+                <label>Google Analytics and Google Search Console</label>
+            </value>
+            <value>
+                <fullName>Reporting</fullName>
+                <default>false</default>
+                <label>Reporting</label>
+            </value>
+            <value>
+                <fullName>Website Optimization</fullName>
+                <default>false</default>
+                <label>Website Optimization</label>
+            </value>
+            <value>
+                <fullName>Indexing</fullName>
+                <default>false</default>
+                <label>Indexing</label>
+            </value>
+            <value>
+                <fullName>Billing</fullName>
+                <default>false</default>
+                <label>Billing</label>
+            </value>
+            <value>
+                <fullName>Content Inquiry</fullName>
+                <default>false</default>
+                <label>Content Inquiry</label>
+            </value>
+            <value>
+                <fullName>CRM Integration</fullName>
+                <default>false</default>
+                <label>CRM Integration</label>
+            </value>
+            <value>
+                <fullName>Help Center</fullName>
+                <default>false</default>
+                <label>Help Center</label>
+            </value>
+            <value>
+                <fullName>HR</fullName>
+                <default>false</default>
+                <label>HR</label>
+            </value>
+            <value>
+                <fullName>Listing Alert Emails</fullName>
+                <default>false</default>
+                <label>Listing Alert Emails</label>
+            </value>
+            <value>
+                <fullName>Non-IDX Bug</fullName>
+                <default>false</default>
+                <label>Non-IDX Bug</label>
+            </value>
+            <value>
+                <fullName>Non- SEO Client</fullName>
+                <default>false</default>
+                <label>Non- SEO Client</label>
+            </value>
+            <value>
+                <fullName>Onboarding</fullName>
+                <default>false</default>
+                <label>Onboarding</label>
+            </value>
+            <value>
+                <fullName>Platform Leads</fullName>
+                <default>false</default>
+                <label>Platform Leads</label>
+            </value>
+            <value>
+                <fullName>Property Websites</fullName>
+                <default>false</default>
+                <label>Property Websites</label>
+            </value>
+            <value>
+                <fullName>Property Site</fullName>
+                <default>false</default>
+                <label>Property Site</label>
+            </value>
+            <value>
+                <fullName>GBP</fullName>
+                <default>false</default>
+                <label>GBP</label>
+            </value>
+            <value>
+                <fullName>Migration</fullName>
+                <default>false</default>
+                <label>Migration</label>
+            </value>
+            <value>
+                <fullName>Plan Deliverable Question</fullName>
+                <default>false</default>
+                <label>Plan Deliverable Question</label>
+            </value>
+            <value>
+                <fullName>Automated Blogs</fullName>
+                <default>false</default>
+                <label>Automated Blogs</label>
+            </value>
+            <value>
+                <fullName>Bug Report</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bug Report</label>
+            </value>
+            <value>
+                <fullName>Can&#39;t Publish Property Website</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Can&#39;t Publish Property Website</label>
+            </value>
+            <value>
+                <fullName>Cancel Request</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cancel Request</label>
+            </value>
+            <value>
+                <fullName>Cancelation Request</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cancelation Request</label>
+            </value>
+            <value>
+                <fullName>Checking on Existing Case</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Checking on Existing Case</label>
+            </value>
+            <value>
+                <fullName>DNS Updates</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DNS Updates</label>
+            </value>
+            <value>
+                <fullName>Design Change</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Design Change</label>
+            </value>
+            <value>
+                <fullName>Domain Change</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Domain Change</label>
+            </value>
+            <value>
+                <fullName>Domain Forwarding</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Domain Forwarding</label>
+            </value>
+            <value>
+                <fullName>Duplicate Case</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Duplicate Case</label>
+            </value>
+            <value>
+                <fullName>Edit Request</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Edit Request</label>
+            </value>
+            <value>
+                <fullName>Google Analytics</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Google Analytics</label>
+            </value>
+            <value>
+                <fullName>How to Question</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>How to Question</label>
+            </value>
+            <value>
+                <fullName>Login Question</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Login Question</label>
+            </value>
+            <value>
+                <fullName>Platform How-to</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Platform How-to</label>
+            </value>
+            <value>
+                <fullName>SEO Question</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SEO Question</label>
+            </value>
+            <value>
+                <fullName>Site Down</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Site Down</label>
+            </value>
+            <value>
+                <fullName>Site Down Report</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Site Down Report</label>
+            </value>
+            <value>
+                <fullName>Stackpath</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Stackpath</label>
+            </value>
+            <value>
+                <fullName>Subscription Question</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Subscription Question</label>
+            </value>
+            <value>
+                <fullName>Upcoming Event</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Upcoming Event</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Automated Blogs</controllingFieldValue>
+            <valueName>Automated Blogs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Advanced Edits and Site Status</controllingFieldValue>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Domains</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Website Builder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>CMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>IDX</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>IDX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Agent Subdomain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Analytics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Brokerage Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>IDX</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Bug</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Cases</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Client Meeting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Another LP Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Copilot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Copywriting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Feature Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>IDX</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>HST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Instagram</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Leads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Listing Feeds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Paid Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Presentations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>RSS Feed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>SEO Client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Self-Serve Property Sites (Paid)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Subscription</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <controllingFieldValue>Spam</controllingFieldValue>
+            <valueName>Spam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Users</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Webinar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Google Business Profile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Google Analytics and Google Search Console</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Website Optimization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Indexing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Billing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Content Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>CRM Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Help Center</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>HR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Listing Alert Emails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Non-IDX Bug</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Non- SEO Client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Onboarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Platform Leads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Edits</controllingFieldValue>
+            <controllingFieldValue>Triage - Another LP Team</controllingFieldValue>
+            <controllingFieldValue>Triage - Log In Questions</controllingFieldValue>
+            <controllingFieldValue>Triage - Basic Questions</controllingFieldValue>
+            <controllingFieldValue>Billing - Do Not Use</controllingFieldValue>
+            <valueName>Property Websites</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>GBP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Migration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO</controllingFieldValue>
+            <valueName>Plan Deliverable Question</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

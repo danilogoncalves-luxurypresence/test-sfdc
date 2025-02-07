@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Targeted_properties_Which_do_you_work_w__c</fullName>
+    <inlineHelpText>Single-family homes, 
+condos, beach homes, 
+multifamily homes,
+investment properties, 
+vineyard, 
+land, 
+vacation homes,
+town homes, 
+luxury homes/estates, 
+co-ops, 
+commercial properties,
+fixer-uppers, 
+retirement homes, 
+other</inlineHelpText>
+    <label>Targeted properties: Which do you work w</label>
+    <length>500</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

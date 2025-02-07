@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Contact Layout-LP</layout>
+        <sections>
+            <label><!-- Activity &amp; Assignment Information --></label>
+            <section>Activity &amp; Assignment Information</section>
+        </sections>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Hubspot Embed --></label>
+            <section>Hubspot Embed</section>
+        </sections>
+        <sections>
+            <label><!-- Hubspot Sync Status --></label>
+            <section>Hubspot Sync Status</section>
+        </sections>
+        <sections>
+            <label><!-- Survey Information --></label>
+            <section>Survey Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Employee Records</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Contact Admin &amp; Sales Ops - UTM Fields --></label>
+        <name>Contact_Admin_Sales_Ops_UTM_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Contact Details --></label>
+        <name>Contact_Details</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Create Opportunity --></label>
+        <name>Create_Opportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Kubaru Properties --></label>
+        <name>Kubaru_Properties</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- MLS Fields --></label>
+        <name>MLS_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Manager MLS Fields --></label>
+        <name>Manager_MLS_Fields</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Contact --></label>
+        <name>Update_Contact</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Client --></label>
+        <name>Client</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Luxury Presence Academy Contacts --></description>
+        <label><!-- Employees --></label>
+        <name>Employees</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- LP VA&apos;s --></label>
+        <name>LP_VAs</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Partner --></label>
+        <name>Partner</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You cannot create a Contact without an Account. --></errorMessage>
+        <name>Contact_without_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This contact can only be owned by certain users, please contact your system admin. --></errorMessage>
+        <name>Industry_Contact_Owner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot modify the Contact. Please, contact your Salesforce Administrator. --></errorMessage>
+        <name>Lost_Opportunity</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You have exceeded the amount of Leads you can reserve. Please, uncheck the &quot;Reserve&quot; box or remove a Lead from your reserved Leads. --></errorMessage>
+        <name>Reserve</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Assign_Topic --></label>
+        <name>Assign_Topic</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+</CustomObjectTranslation>

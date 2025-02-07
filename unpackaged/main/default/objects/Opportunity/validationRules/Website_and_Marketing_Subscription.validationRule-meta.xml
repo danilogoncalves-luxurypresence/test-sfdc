@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Website_and_Marketing_Subscription</fullName>
+    <active>false</active>
+    <description>Website Subscription Payment Term” and “Marketing Subscription Payment Term” mandatory when marking an opportunity with RT New Sales as Closed won?</description>
+    <errorConditionFormula>AND(
+ ISCHANGED( StageName ),
+ ISPICKVAL(StageName , &quot;Closed Won&quot;),
+ ISPICKVAL( Website_subscription_payment_term__c,&quot;&quot; ),
+ ISPICKVAL( Marketing_subscription_payment_term__c, &quot;&quot; ),
+  RecordType.Name = &quot;New Sales&quot;
+
+)</errorConditionFormula>
+    <errorMessage>Please complete &quot;Website Subscription Payment Term&quot; and &quot;Marketing Subscription Payment Term&quot; before closing the opportunity</errorMessage>
+</ValidationRule>

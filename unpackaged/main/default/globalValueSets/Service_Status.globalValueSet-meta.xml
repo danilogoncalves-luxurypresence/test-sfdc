@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>New IAO Client</fullName>
+        <default>false</default>
+        <label>New IAO Client</label>
+    </customValue>
+    <customValue>
+        <fullName>Pending Invitation</fullName>
+        <default>false</default>
+        <label>Pending Invitation</label>
+    </customValue>
+    <customValue>
+        <fullName>Modules in Progress</fullName>
+        <default>false</default>
+        <label>Modules in Progress</label>
+    </customValue>
+    <customValue>
+        <fullName>Modules Complete</fullName>
+        <default>false</default>
+        <label>Modules Complete</label>
+    </customValue>
+    <customValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+    </customValue>
+    <customValue>
+        <fullName>Set Up</fullName>
+        <default>false</default>
+        <label>Set Up</label>
+    </customValue>
+    <customValue>
+        <fullName>Discovery</fullName>
+        <default>false</default>
+        <label>Discovery</label>
+    </customValue>
+    <customValue>
+        <fullName>Design Concept</fullName>
+        <default>false</default>
+        <label>Design Concept</label>
+    </customValue>
+    <customValue>
+        <fullName>Design Review</fullName>
+        <default>false</default>
+        <label>Design Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Form Received</fullName>
+        <default>false</default>
+        <label>Form Received</label>
+    </customValue>
+    <customValue>
+        <fullName>Sub-template in Progress</fullName>
+        <default>false</default>
+        <label>Sub-template in Progress</label>
+    </customValue>
+    <customValue>
+        <fullName>Sub-Template Review</fullName>
+        <default>false</default>
+        <label>Sub-Template Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Sub-Template Revisions</fullName>
+        <default>false</default>
+        <label>Sub-Template Revisions</label>
+    </customValue>
+    <customValue>
+        <fullName>Sub-Template Feedback</fullName>
+        <default>false</default>
+        <label>Sub-Template Feedback</label>
+    </customValue>
+    <customValue>
+        <fullName>Sub-template Approved</fullName>
+        <default>false</default>
+        <label>Sub-template Approved</label>
+    </customValue>
+    <customValue>
+        <fullName>Subdomain Websites Build in Progress</fullName>
+        <default>false</default>
+        <label>Subdomain Websites Build in Progress</label>
+    </customValue>
+    <customValue>
+        <fullName>Subdomain Websites Done</fullName>
+        <default>false</default>
+        <label>Subdomain Websites Done</label>
+    </customValue>
+    <customValue>
+        <fullName>Launch Subdomain Websites</fullName>
+        <default>false</default>
+        <label>Launch Subdomain Websites</label>
+    </customValue>
+    <customValue>
+        <fullName>Subdomain Websites Launched</fullName>
+        <default>false</default>
+        <label>Subdomain Websites Launched</label>
+    </customValue>
+    <customValue>
+        <fullName>Waiting on DUNS</fullName>
+        <default>false</default>
+        <label>Waiting on DUNS</label>
+    </customValue>
+    <customValue>
+        <fullName>Pending Questionnaire</fullName>
+        <default>false</default>
+        <label>Pending Questionnaire</label>
+    </customValue>
+    <customValue>
+        <fullName>Ready for Assigning</fullName>
+        <default>false</default>
+        <label>Ready for Assigning</label>
+    </customValue>
+    <customValue>
+        <fullName>Creating Content</fullName>
+        <default>false</default>
+        <label>Creating Content</label>
+    </customValue>
+    <customValue>
+        <fullName>Final QA</fullName>
+        <default>false</default>
+        <label>Final QA</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance Check</fullName>
+        <default>false</default>
+        <label>Finance Check</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre-Build IM Review</fullName>
+        <default>false</default>
+        <label>Pre-Build IM Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre-Build Design Change</fullName>
+        <default>false</default>
+        <label>Pre-Build Design Change</label>
+    </customValue>
+    <customValue>
+        <fullName>Credential Check</fullName>
+        <default>false</default>
+        <label>Credential Check</label>
+    </customValue>
+    <customValue>
+        <fullName>Design Intake Call</fullName>
+        <default>false</default>
+        <label>Design Intake Call</label>
+    </customValue>
+    <customValue>
+        <fullName>SEO Migration Audit</fullName>
+        <default>false</default>
+        <label>SEO Migration Audit</label>
+    </customValue>
+    <customValue>
+        <fullName>Build Site</fullName>
+        <default>false</default>
+        <label>Build Site</label>
+    </customValue>
+    <customValue>
+        <fullName>Staging Link</fullName>
+        <default>false</default>
+        <label>Website draft</label>
+    </customValue>
+    <customValue>
+        <fullName>Build Out in Progress</fullName>
+        <default>false</default>
+        <label>Build Out in Progress</label>
+    </customValue>
+    <customValue>
+        <fullName>Building WD</fullName>
+        <default>false</default>
+        <label>Building WD</label>
+    </customValue>
+    <customValue>
+        <fullName>WD Ready</fullName>
+        <default>false</default>
+        <label>WD Ready</label>
+    </customValue>
+    <customValue>
+        <fullName>WD Review</fullName>
+        <default>false</default>
+        <label>WD Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Revision</fullName>
+        <default>false</default>
+        <label>Revision round</label>
+    </customValue>
+    <customValue>
+        <fullName>Revision Feedback</fullName>
+        <default>false</default>
+        <label>Revision Feedback</label>
+    </customValue>
+    <customValue>
+        <fullName>Revision Submitted</fullName>
+        <default>false</default>
+        <label>Feedback round</label>
+    </customValue>
+    <customValue>
+        <fullName>Create Subdomain Sites</fullName>
+        <default>false</default>
+        <label>Create Subdomain Sites</label>
+    </customValue>
+    <customValue>
+        <fullName>Subdomains in Progress</fullName>
+        <default>false</default>
+        <label>Subdomains in Progress</label>
+    </customValue>
+    <customValue>
+        <fullName>Subdomain Review</fullName>
+        <default>false</default>
+        <label>Subdomain Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Subdomains Revisions Round</fullName>
+        <default>false</default>
+        <label>Subdomains Revisions Round</label>
+    </customValue>
+    <customValue>
+        <fullName>Waiting on Feedback</fullName>
+        <default>false</default>
+        <label>Waiting on Feedback</label>
+    </customValue>
+    <customValue>
+        <fullName>Map Redirects</fullName>
+        <default>false</default>
+        <label>Map Redirects</label>
+    </customValue>
+    <customValue>
+        <fullName>QA Redirects</fullName>
+        <default>false</default>
+        <label>QA Redirects</label>
+    </customValue>
+    <customValue>
+        <fullName>Implementation Redirects</fullName>
+        <default>false</default>
+        <label>Implement Redirects</label>
+    </customValue>
+    <customValue>
+        <fullName>Ready to Launch</fullName>
+        <default>false</default>
+        <label>Ready to Launch</label>
+    </customValue>
+    <customValue>
+        <fullName>Revision</fullName>
+        <default>false</default>
+        <label>Revision</label>
+    </customValue>
+    <customValue>
+        <fullName>Sent for Approval</fullName>
+        <default>false</default>
+        <label>Sent for Approval</label>
+    </customValue>
+    <customValue>
+        <fullName>Website Launched</fullName>
+        <default>false</default>
+        <label>Website Launched</label>
+    </customValue>
+    <customValue>
+        <fullName>Feedback</fullName>
+        <default>false</default>
+        <label>Feedback</label>
+    </customValue>
+    <customValue>
+        <fullName>POC Review</fullName>
+        <default>false</default>
+        <label>POC Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Blocked</fullName>
+        <default>false</default>
+        <label>Blocked</label>
+    </customValue>
+    <customValue>
+        <fullName>Onboarding</fullName>
+        <default>false</default>
+        <label>Onboarding</label>
+    </customValue>
+    <customValue>
+        <fullName>Inbox</fullName>
+        <default>false</default>
+        <label>Inbox</label>
+    </customValue>
+    <customValue>
+        <fullName>Strategy Creation</fullName>
+        <default>false</default>
+        <label>Strategy Creation</label>
+    </customValue>
+    <customValue>
+        <fullName>Account Access and Authorization</fullName>
+        <default>false</default>
+        <label>Account Access and Authorization</label>
+    </customValue>
+    <customValue>
+        <fullName>Start Build Out</fullName>
+        <default>false</default>
+        <label>Start Build Out</label>
+    </customValue>
+    <customValue>
+        <fullName>Buildout Complete</fullName>
+        <default>false</default>
+        <label>Buildout Complete</label>
+    </customValue>
+    <customValue>
+        <fullName>Ad Preview</fullName>
+        <default>false</default>
+        <label>Ad Preview</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Review</fullName>
+        <default>false</default>
+        <label>Client Review</label>
+    </customValue>
+    <customValue>
+        <fullName>Revisions Requested</fullName>
+        <default>false</default>
+        <label>Revisions Requested</label>
+    </customValue>
+    <customValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>Approved</label>
+    </customValue>
+    <customValue>
+        <fullName>Posted</fullName>
+        <default>false</default>
+        <label>Posted</label>
+    </customValue>
+    <customValue>
+        <fullName>Ready for Launch</fullName>
+        <default>false</default>
+        <label>Ready for Launch</label>
+    </customValue>
+    <customValue>
+        <fullName>GBP Set Up</fullName>
+        <default>false</default>
+        <label>GBP Set Up</label>
+    </customValue>
+    <customValue>
+        <fullName>GBP Optimization</fullName>
+        <default>false</default>
+        <label>GBP Optimization</label>
+    </customValue>
+    <customValue>
+        <fullName>Waiting on Verification</fullName>
+        <default>false</default>
+        <label>Waiting on Verification</label>
+    </customValue>
+    <customValue>
+        <fullName>Verification</fullName>
+        <default>false</default>
+        <label>Verification</label>
+    </customValue>
+    <customValue>
+        <fullName>Verified</fullName>
+        <default>false</default>
+        <label>Verified</label>
+    </customValue>
+    <customValue>
+        <fullName>Pre Check</fullName>
+        <default>false</default>
+        <label>Pre Check</label>
+    </customValue>
+    <customValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+    </customValue>
+    <customValue>
+        <fullName>Active</fullName>
+        <default>false</default>
+        <label>Active</label>
+    </customValue>
+    <customValue>
+        <fullName>Suspended</fullName>
+        <default>false</default>
+        <label>Suspended</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate</fullName>
+        <default>false</default>
+        <label>Duplicate</label>
+    </customValue>
+    <customValue>
+        <fullName>No Access</fullName>
+        <default>false</default>
+        <label>No Access</label>
+    </customValue>
+    <customValue>
+        <fullName>Live</fullName>
+        <default>false</default>
+        <label>Live</label>
+    </customValue>
+    <customValue>
+        <fullName>Confirm Account Access</fullName>
+        <default>false</default>
+        <label>Confirm Account Access</label>
+    </customValue>
+    <customValue>
+        <fullName>Research</fullName>
+        <default>false</default>
+        <label>Research</label>
+    </customValue>
+    <customValue>
+        <fullName>Migration</fullName>
+        <default>false</default>
+        <label>Migration</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Launched</fullName>
+        <default>false</default>
+        <label>Client Launched</label>
+    </customValue>
+    <customValue>
+        <fullName>Content Strategy</fullName>
+        <default>false</default>
+        <label>Content Strategy</label>
+    </customValue>
+    <customValue>
+        <fullName>Done</fullName>
+        <default>false</default>
+        <label>Done</label>
+    </customValue>
+    <customValue>
+        <fullName>No Migration Needed</fullName>
+        <default>false</default>
+        <label>No Migration Needed</label>
+    </customValue>
+    <customValue>
+        <fullName>Onboarding incomplete</fullName>
+        <default>false</default>
+        <label>Onboarding incomplete</label>
+    </customValue>
+    <customValue>
+        <fullName>Waiting on Brand Website</fullName>
+        <default>false</default>
+        <label>Waiting on Brand Website</label>
+    </customValue>
+    <customValue>
+        <fullName>Awaiting Domain Information</fullName>
+        <default>false</default>
+        <label>Awaiting Domain Information</label>
+    </customValue>
+    <customValue>
+        <fullName>Awaiting Domain Redirection</fullName>
+        <default>false</default>
+        <label>Awaiting Domain Redirection</label>
+    </customValue>
+    <customValue>
+        <fullName>On hold</fullName>
+        <default>false</default>
+        <label>On hold</label>
+    </customValue>
+    <customValue>
+        <fullName>Design Feedback</fullName>
+        <default>false</default>
+        <label>Design Feedback</label>
+    </customValue>
+    <customValue>
+        <fullName>Asset Hand Off</fullName>
+        <default>false</default>
+        <label>Asset Hand Off</label>
+    </customValue>
+    <customValue>
+        <fullName>Unresponsive</fullName>
+        <default>false</default>
+        <label>Unresponsive</label>
+    </customValue>
+    <customValue>
+        <fullName>Waiting on Info</fullName>
+        <default>false</default>
+        <label>Waiting on Info</label>
+    </customValue>
+    <customValue>
+        <fullName>Paused</fullName>
+        <default>false</default>
+        <label>Paused</label>
+    </customValue>
+    <customValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+    </customValue>
+    <customValue>
+        <fullName>Gathering assets</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Gathering assets</label>
+    </customValue>
+    <customValue>
+        <fullName>Quiz Call</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Quiz Call</label>
+    </customValue>
+    <customValue>
+        <fullName>Pending Domain Name</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pending Domain Name</label>
+    </customValue>
+    <customValue>
+        <fullName>Strategist Review</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Strategist Review</label>
+    </customValue>
+    <customValue>
+        <fullName>SFA Revisions in Progress</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SFA Revisions in Progress</label>
+    </customValue>
+    <masterLabel>Service Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

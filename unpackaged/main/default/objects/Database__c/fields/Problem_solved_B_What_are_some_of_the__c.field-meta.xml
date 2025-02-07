@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Problem_solved_B_What_are_some_of_the__c</fullName>
+    <inlineHelpText>Problem solved (B): What are some of the challenges buyers are facing in your area and how are you solving it?</inlineHelpText>
+    <label>Challenges buyers are facing in</label>
+    <length>131072</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

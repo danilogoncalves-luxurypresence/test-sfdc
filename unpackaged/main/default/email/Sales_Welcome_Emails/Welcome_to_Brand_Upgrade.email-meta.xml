@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>Upgrade to Brand+</name>
+    <style>freeForm</style>
+    <subject>Here’s what’s next with your upgraded Brand+ Plan.</subject>
+    <textOnly>Hi {!Account.Primary_Contact_First_Name__c}!
+
+
+We’re excited to welcome you into the Brand+ Plan! 
+
+
+Here’s more information about what it includes, as well as a few easy action items to get the ball rolling.
+
+
+Local SEO. Your new plan includes Google Business Profile (GBP) set-up, monthly GPB posts, Business Citations, and Reputation Monitoring. Our SEO team will reach out to get things set up, and you’ll receive quarterly SEO and GBP reports to keep you updated.
+
+
+Action item: To speed up the process, please add luxurypresenceseo@gmail.com as a Manager for your GPB (instructions here).
+
+
+Search Lead Pages.  Your new plan also includes Search Lead Pages, which will boost your ranking visibility in your local area.
+
+
+Action item: Register for an upcoming session.
+
+
+
+If you have any questions or need help, we’re here for you at support@luxurypresence.com.
+
+
+
+Thank you,
+
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

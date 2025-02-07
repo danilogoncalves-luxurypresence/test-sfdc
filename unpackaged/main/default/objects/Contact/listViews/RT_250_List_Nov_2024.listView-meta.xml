@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RT_250_List_Nov_2024</fullName>
+    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>003EY0000045GxQYAU,003EY0000045GRjYAM,003EY0000045GlyYAE,003Rg00000Grl9FIAR,003EY000001cpNPYAY,003Rg00000EqSkvIAF,003EY000001ck1zYAA,003Rg00000EWrKVIA1,003EY0000047mxFYAQ,003EY000001cFnaYAE</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>003Rg00000G3EmoIAF,003EY0000043z0lYAA,003Rg0000076nIAIAY,003EY000001cyz8YAA,003EY0000045I3cYAE,003EY000004sVmjYAE,003EY000003Pv9JYAS,003EY000001clU0YAI,003EY000001cScdYAE,003Rg000007uW2nIAE</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>003EY000001ZLkhYAG,003EY0000045H2nYAE,003EY000001caObYAI,003EY0000045GfhYAE,003EY0000045HThYAM,003EY000002jlJcYAI,003EY000001cIySYAU,003EY000001ciHWYAY,003EY000001cyKpYAI,003EY000001cdSlYAI</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>003Rg000005nMnhIAE,003EY0000045Gz1YAE,003EY000001cylZYAQ,003EY00000445seYAA,003Rg000004gVoIIAU,003EY00000446TXYAY,003EY0000045HSQYA2,003EY00000446VrYAI,003EY000004aXhUYAU,003EY00000445oYYAQ</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>003EY000003HhT6YAK,003EY000001gWLhYAM,003EY0000045GeDYAU,003Rg00000HoJgoIAF,003EY000003yG25YAE,003EY000001ce3IYAQ,003Rg0000057TYfIAM,003EY0000045GMzYAM,003EY000001cMiSYAU,003EY000001cJaAYAU</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>003EY00000445rbYAA,003EY000004IA14YAG,003EY000002n0TaYAI,003Rg00000A0r8HIAR,003EY0000046ygVYAQ,003Rg00000B2G5aIAF,003EY0000045AVnYAM,003EY000001ckVRYAY,003EY000001cMZkYAM,003EY0000043zRjYAI</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>003EY000001cPtTYAU,003EY000001clvBYAQ,003EY00000445lOYAQ</value>
+    </filters>
+    <label>RT 250 List - Nov 2024</label>
+</ListView>

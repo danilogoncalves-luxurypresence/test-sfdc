@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MLS_Existing_Tier_3</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND (6 OR 7) AND 8 AND 9 and 10</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Prior_12_months_total_transaction_value__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>MLS_Agent_master_key__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>LEAD.PHONE</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>MLS Leads (Existing)</value>
+    </filters>
+    <filters>
+        <field>LEAD.EMAIL</field>
+        <operation>notEqual</operation>
+        <value>dsamlslead@lp.com</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Engaging</value>
+    </filters>
+    <filters>
+        <field>LAST_ACTIVITY_DATETIME</field>
+        <operation>lessThan</operation>
+        <value>11/1/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>LAST_ACTIVITY_DATETIME</field>
+        <operation>equals</operation>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>greaterThan</operation>
+        <value>3000000</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>lessThan</operation>
+        <value>5000000</value>
+    </filters>
+    <filters>
+        <field>Partnership_Organization__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>MLS (Existing) - Tier 3</label>
+    <sharedTo>
+        <role>Sales_Onboarding</role>
+        <role>Superuser</role>
+    </sharedTo>
+</ListView>

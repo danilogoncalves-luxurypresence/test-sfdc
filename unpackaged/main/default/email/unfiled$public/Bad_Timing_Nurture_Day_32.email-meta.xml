@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>Bad Timing Nurture - Day 32</name>
+    <style>freeForm</style>
+    <subject>Stand out with Luxury Presence</subject>
+    <textOnly>Hi {!Contact.FirstName} ,
+
+We know that a strong online presence is essential for any successful real estate business.
+
+If you&#39;re not quite ready to get started, that&#39;s okay. But we&#39;d still love the opportunity to show you what Luxury Presence can do—from our customized websites to our smart tools, including our Digital CMA integration, Instant Property Sites, and On-Demand Ads™.
+
+If you&#39;re interested in seeing how we&#39;ve helped other real estate professionals, check out our case studies here.
+
+Whenever you have questions or would like to learn more, feel free to book a time on my calendar.
+
+Let me know how I can help.
+
+Best,
+{!User.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

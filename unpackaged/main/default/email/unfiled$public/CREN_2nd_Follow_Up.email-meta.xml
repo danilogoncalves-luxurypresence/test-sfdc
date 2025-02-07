@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>CREN - 2nd Follow Up</name>
+    <style>freeForm</style>
+    <subject>Following Up: CREN Introduction</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+I hope you are having a great day! I&#39;m following up with our previous email.
+
+In order for us to display IDX data on your website, the MLS requires us to have a data access agreement completed on crenmls.com/getidx. Please let me know if you have not yet started this process or if you have any questions.
+
+If you do not have a Domain/URL finalized, no problem! Please wait until your next call with your Implementation Manager and they will be able to discuss URL options with you in detail. Let me know if you have any questions in the meantime. I&#39;m here to help!
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

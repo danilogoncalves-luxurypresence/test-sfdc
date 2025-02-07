@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},
+
+There is no need for concern regarding this. Please see the details below.
+
+Regarding the pages not being indexed due to the "robots.txt" file, this is done on purpose for specific pages and a valid practice, such as the thank-you page, for example. When pages are intentionally blocked by "robots.txt," it means they are not meant to be indexed by search engines, which is not a cause for concern. Here's why this deliberate blocking is not an issue:
+
+* Intentional Control: Blocking pages via the "robots.txt" file is a clear signal to search engines that these pages should not be crawled or indexed. It demonstrates that you have control over which parts of your site should and should not be included in search engine results.
+* Content Strategy: Sometimes, there are sections of a website that contain content not intended for public search engine visibility. This can include administrative pages, internal drafts, or content that is sensitive or not suitable for public consumption. By blocking these pages, you maintain control over your site's content strategy.
+* Focus on Indexed Content: By blocking certain pages, you can direct search engines to focus on indexing the most relevant and valuable content on your website. This can lead to better search visibility for the pages that matter most to your site's goals.
+* Preventing Duplicate Content: If you have duplicate or highly similar content on your site, you might choose to block one version to avoid confusion in search results. This helps ensure that the version you want to be indexed is the one that appears in search engine listings.
+
+Thank you!
+The SEO Team at Luxury Presence

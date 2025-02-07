@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <caseValues>
+            <plural>false</plural>
+            <value>External Subscription Reference</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>External Subscription References</value>
+        </caseValues>
+        <name>external_contract_reference</name>
+        <startsWith>Consonant</startsWith>
+    </CustomFieldTranslation>

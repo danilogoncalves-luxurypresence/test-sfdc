@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style=""><div><span style="font-size: 12pt;">Hi </span><span style="font-size: 12pt;">{!Contact.FirstName}</span><span style="font-size: 12pt;">,&nbsp; &nbsp;&nbsp;</span></div><div style=""><div style=""><br><div style=""><div style=""><div style=""><div style=""><div>I hope you are having a great day! I'm following up with our previous email, have you had a chance to complete the requested data access agreement?</div><br><div><strong>Please note if we do not receive a signed data access agreement we will need to hide the home search tool on your site. </strong></div><br><div>Let me know if you have any questions or need anything from me. I'm here to help!</div><br><div>Regards,</div></div></div></div></div></div></div></div>]]></td>
+</tr>
+</table>

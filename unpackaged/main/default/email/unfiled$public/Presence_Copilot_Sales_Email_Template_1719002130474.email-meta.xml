@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Approved written pitch for CSMs and Sales to email clients</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Presence Copilot Sales Email Template</name>
+    <relatedEntityType>Product2</relatedEntityType>
+    <style>none</style>
+    <subject>New at Luxury Presence: Announcing Presence Copilot!</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

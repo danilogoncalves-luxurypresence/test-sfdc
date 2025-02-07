@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Building a strong online presence is essential for any successful real estate business.<br />
+<br />
+If you're not quite ready to get started, I totally understand. When the moment is right, I'd love the opportunity to show you how Luxury Presence can help you elevate your brand and stand out from the competition. We offer many different solutions, including <a href="https://www.luxurypresence.com/real-estate-website-design/">award-winning websites</a>, <a href="https://www.luxurypresence.com/ai-lead-nurture/">smart lead-generation tools</a> , and a <a href="https://www.luxurypresence.com/copilot/">mobile app that's transforming the way agents work</a> .&nbsp;&nbsp;<br />
+<br />
+If you're interested in seeing how we've helped other real estate professionals grow their businesses, check out our <a href="https://www.luxurypresence.com/case-studies/">case studies</a>&nbsp;here.<br />
+<br />
+I'm here to help you achieve your business goals whenever you're ready!&nbsp; Here's a link to book time on my calendar at your convenience:<br />
+https://luxurypresence.na.chilipiper.com/book/me/{{{Sender.FirstName}}}-{{{Sender.LastName}}}<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}</body>
+</html>

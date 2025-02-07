@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DCSM_Engaged__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used to identify whether the account has met with a DCSM and pull specific reports based on whether this field is ‘true’ or ‘false’.</description>
+    <label>DCSM Engaged</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

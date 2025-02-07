@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Time_Zone__c</fullName>
+    <label>Time Zone</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alaska Time (AK)</fullName>
+                <default>false</default>
+                <label>Alaska Time (AK)</label>
+            </value>
+            <value>
+                <fullName>Atlantic Standard (AST)</fullName>
+                <default>false</default>
+                <label>Atlantic Standard (AST)</label>
+            </value>
+            <value>
+                <fullName>Central Time (CT)</fullName>
+                <default>false</default>
+                <label>Central Time (CT)</label>
+            </value>
+            <value>
+                <fullName>Eastern Time (ET)</fullName>
+                <default>false</default>
+                <label>Eastern Time (ET)</label>
+            </value>
+            <value>
+                <fullName>Hawaii Standard Time (HST)</fullName>
+                <default>false</default>
+                <label>Hawaii Standard Time (HST)</label>
+            </value>
+            <value>
+                <fullName>Mountain Standard Time (MST)</fullName>
+                <default>false</default>
+                <label>Mountain Standard Time (MST)</label>
+            </value>
+            <value>
+                <fullName>Mountain Time (MT)</fullName>
+                <default>false</default>
+                <label>Mountain Time (MT)</label>
+            </value>
+            <value>
+                <fullName>Newfoundland Standard (NDT)</fullName>
+                <default>false</default>
+                <label>Newfoundland Standard (NDT)</label>
+            </value>
+            <value>
+                <fullName>Pacific Time (PT)</fullName>
+                <default>false</default>
+                <label>Pacific Time (PT)</label>
+            </value>
+            <value>
+                <fullName>Puerto Rico Standard Time (PST)</fullName>
+                <default>false</default>
+                <label>Puerto Rico Standard Time (PST)</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

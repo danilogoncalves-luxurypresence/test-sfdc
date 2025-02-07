@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dec_2024_Kaleb_Lead_List</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>Partnership_Organization__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LAST_CALL_DATE</columns>
+    <columns>Rep_Assigned_Date__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>Dialpad__Timezone__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>lessThan</operation>
+        <value>12/16/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Engaging</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Dubin</value>
+    </filters>
+    <label>Dec 2024 Kaleb Lead List</label>
+</ListView>

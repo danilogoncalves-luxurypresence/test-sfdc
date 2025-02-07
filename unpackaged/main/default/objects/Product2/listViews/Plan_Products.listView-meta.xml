@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plan_Products</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.FAMILY</columns>
+    <columns>Primary_Plan_Product__c</columns>
+    <columns>Tier_Plan_Product__c</columns>
+    <columns>Launch_plus__c</columns>
+    <columns>Brand_plus__c</columns>
+    <columns>Growth_plus__c</columns>
+    <columns>Premium_plus__c</columns>
+    <columns>Enterprise__c</columns>
+    <columns>Product_Sort_Order__c</columns>
+    <columns>Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>PRODUCT2.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>PRODUCT2.FAMILY</field>
+        <operation>equals</operation>
+        <value>Plan</value>
+    </filters>
+    <label>Plan Products</label>
+</ListView>

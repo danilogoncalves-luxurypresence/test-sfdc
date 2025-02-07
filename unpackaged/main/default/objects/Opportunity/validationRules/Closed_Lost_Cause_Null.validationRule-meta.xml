@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Lost_Cause_Null</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+ ISPICKVAL( StageName , &quot;Closed Lost&quot;),
+ ISPICKVAL( Closed_Lost_Root_Cause__c ,&quot;&quot;)
+)</errorConditionFormula>
+    <errorMessage>&quot;Closed lost root cause&quot; is blank. Please provide a root cause before moving this opportunity to closed lost.</errorMessage>
+</ValidationRule>

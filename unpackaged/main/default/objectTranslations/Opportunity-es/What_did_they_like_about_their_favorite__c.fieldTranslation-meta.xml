@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- (color, layout, imagery, etc?) --></help>
+        <label><!-- What did they like about their favorite --></label>
+        <name>What_did_they_like_about_their_favorite__c</name>
+    </CustomFieldTranslation>

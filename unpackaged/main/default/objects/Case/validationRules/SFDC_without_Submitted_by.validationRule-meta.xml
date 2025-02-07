@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SFDC_without_Submitted_by</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISBLANK( Submitted_By__c ),
+ISPICKVAL( Status ,&quot;Needs Deployment&quot;),
+ISCHANGED(Status),
+RecordTypeId = $Label.ID_Case_SFDC_Ticket 
+
+)</errorConditionFormula>
+    <errorDisplayField>Submitted_By__c</errorDisplayField>
+    <errorMessage>Please add a user in the &quot;Submitted By</errorMessage>
+</ValidationRule>

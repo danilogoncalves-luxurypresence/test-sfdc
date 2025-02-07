@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Reason__c</fullName>
+    <label>No Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>All_services_correct__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client Upgraded</fullName>
+                <default>false</default>
+                <label>Client Upgraded</label>
+            </value>
+            <value>
+                <fullName>Client Downgraded</fullName>
+                <default>false</default>
+                <label>Client Downgraded</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>No</controllingFieldValue>
+            <valueName>Client Upgraded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No</controllingFieldValue>
+            <valueName>Client Downgraded</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

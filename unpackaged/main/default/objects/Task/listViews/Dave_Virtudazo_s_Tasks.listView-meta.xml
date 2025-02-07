@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dave_Virtudazo_s_Tasks</fullName>
+    <columns>SUBJECT</columns>
+    <columns>STATUS</columns>
+    <columns>WHO_NAME</columns>
+    <columns>WHAT_NAME</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>DUE_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>contains</operation>
+        <value>Virtudazo</value>
+    </filters>
+    <label>Dave Virtudazo&#39;s Tasks</label>
+</ListView>

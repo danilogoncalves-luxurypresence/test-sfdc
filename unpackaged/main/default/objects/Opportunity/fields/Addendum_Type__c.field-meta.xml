@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Addendum_Type__c</fullName>
+    <label>Addendum Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Downgrade</fullName>
+                <default>false</default>
+                <label>Downgrade</label>
+            </value>
+            <value>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+                <label>Cancellation</label>
+            </value>
+            <value>
+                <fullName>Upgrade</fullName>
+                <default>false</default>
+                <label>Upgrade</label>
+            </value>
+            <value>
+                <fullName>Extension</fullName>
+                <default>false</default>
+                <label>Extension</label>
+            </value>
+            <value>
+                <fullName>Saved</fullName>
+                <default>false</default>
+                <label>Saved</label>
+            </value>
+            <value>
+                <fullName>Advance Payment</fullName>
+                <default>false</default>
+                <label>Advance Payment</label>
+            </value>
+            <value>
+                <fullName>Advanced Payment</fullName>
+                <default>false</default>
+                <label>Advanced Payment</label>
+            </value>
+            <value>
+                <fullName>Expansion</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Expansion (one time)</label>
+            </value>
+            <value>
+                <fullName>Pause</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pause</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retention_Case_Value</fullName>
+    <active>true</active>
+    <description>Only profiles Finance team, System admin, can use the value non payment in the Retention case.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Retention_Request_Type__c , &quot;Non-Payment&quot;),
+    NOT(ISPICKVAL(Status, &quot;Closed&quot;)),
+    NOT(
+        OR(
+            $Profile.Name = &quot;System Administrator&quot;,
+            $Profile.Name = &quot;Finance Team&quot;
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>You don&#39;t have permission to use &quot;Non-Payment&quot; type. Please contact your system admin</errorMessage>
+</ValidationRule>

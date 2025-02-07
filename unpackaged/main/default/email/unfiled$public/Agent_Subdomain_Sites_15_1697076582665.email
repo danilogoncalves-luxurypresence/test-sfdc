@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi {{{Recipient.FirstName}}},</p>
+
+<p>I’m your Customer Success Manager here at Luxury Presence. I’m committed to helping your team excel. &nbsp;Based on your team size and transaction volume, you qualify for a limited promotion we’re offering until <strong>11/10.&nbsp;</strong><br />
+<br />
+We’ll set up complete, personalized websites for each of your agents – hosted on subdomains under your main website. We’ll waive any setup cost and reduce the monthly to <strong>just $15/month per website.</strong><br />
+<br />
+Most agents love getting their own website and see this as an incredible value-add. Many of our clients use this as an easy way to attract, reward, and retain their agents.&nbsp;<br />
+<br />
+Just complete this <a href="https://form.jotform.com/232846774860165">30-second order form</a>&nbsp;to move forward. I’ll handle the build-out so we won’t need much of your time.<br />
+<br />
+Best,</p>
+
+<p>{{{Sender.Name}}}</p>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>dummy@luxurypresence.com.invalid</email>
+    <name>Revision - Content/Data Specialist</name>
+    <queueMembers>
+        <users>
+            <user>dicasiam@luxurypresence.com</user>
+            <user>jeroles@luxurypresence.com</user>
+            <user>jnazaire@luxurypresence.com</user>
+            <user>kennethmaranan@luxurypresence.com</user>
+            <user>kpalenzuela@luxurypresence.com</user>
+            <user>lbmabuti@luxurypresence.com</user>
+            <user>mfernandez@luxurypresence.com</user>
+            <user>nicolemacasaet@luxurypresence.com</user>
+            <user>obartolata@luxurypresence.com</user>
+            <user>paulcruz@luxurypresence.com</user>
+            <user>rsilva@luxurypresence.com</user>
+            <user>rrico@luxurypresence.com</user>
+            <user>bayarassienna@luxurypresence.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Revision_Cases</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

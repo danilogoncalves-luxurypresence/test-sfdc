@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Mark this checkbox to confirm that the client isn&apos;t changing staging link pages --></help>
+        <label><!-- Website Pages Confirmed --></label>
+        <name>Website_Pages_Confirmed__c</name>
+    </CustomFieldTranslation>

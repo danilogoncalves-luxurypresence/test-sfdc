@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WD_Review</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED(Status__c),
+ISPICKVAL(PRIORVALUE(Status__c), &quot;WD Review&quot;),
+ISPICKVAL(Website_Draft_Score__c,&quot;&quot;),
+NOT(ISPICKVAL(Status__c, &quot;WD Review&quot;)), NOT(ISPICKVAL(Status__c, &quot;Cancelled&quot;)), NOT(ISPICKVAL(Status__c, &quot;Paused&quot;) ),
+OR(
+Record_Type_Name__c = &quot;In-App Onboarding&quot;,
+Record_Type_Name__c = &quot;Custom Website&quot;,
+Record_Type_Name__c = &quot;Website Launches&quot;
+)
+)</errorConditionFormula>
+    <errorMessage>Please complete Website Draft Score before changing the stautus</errorMessage>
+</ValidationRule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OnDemandAds_Validate_StartBuildOutFields</fullName>
+    <active>true</active>
+    <description>Validation to require &#39;Campaign Type&#39; and &#39;Monthly Budget&#39; and &#39;Ad Type&#39;  when moving to Start Build Out</description>
+    <errorConditionFormula>ISCHANGED(Status__c)
+&amp;&amp;
+TEXT(Status__c) = &#39;Start Build Out&#39;
+&amp;&amp;
+RecordType.DeveloperName = &#39;On_Demand_Ads&#39;
+&amp;&amp;
+( ISPICKVAL(Campaign_Type__c,&#39;&#39;) ||
+ISBLANK(Monthly_Budget__c) ||
+ISPICKVAL(Ad_Type__c,&#39;&#39;) )</errorConditionFormula>
+    <errorMessage>Please populate Campaign Type, Monthly Budget and Ad Type before moving to Start Build Out</errorMessage>
+</ValidationRule>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SEO_Weekly_GBP_Posts</fullName>
+    <columns>Account__c</columns>
+    <columns>NAME</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Marketing_Checklist2__c</columns>
+    <columns>Website_Domain__c</columns>
+    <columns>Website_Domain2__c</columns>
+    <columns>Website_Launch_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product__c</field>
+        <operation>equals</operation>
+        <value>Weekly GBP Posts</value>
+    </filters>
+    <label>SEO - Weekly GBP Posts</label>
+</ListView>

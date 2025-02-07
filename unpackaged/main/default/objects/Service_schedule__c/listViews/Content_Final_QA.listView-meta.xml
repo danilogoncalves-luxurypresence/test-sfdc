@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Content_Final_QA</fullName>
+    <columns>NAME</columns>
+    <columns>Content_Associate__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Account_Manager_Linked__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service_schedule__c.Blogs_per_Quarter,Service_schedule__c.Pages_of_Copywriting</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Final QA</value>
+    </filters>
+    <label>Content - Final QA</label>
+</ListView>

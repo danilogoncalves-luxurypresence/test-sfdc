@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Soft 404</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Soft 404</name>
+    <style>none</style>
+    <subject>Understanding Soft 404 Errors: What They Are and How to Avoid Them</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

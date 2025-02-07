@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- The product cannot be discounted to less than this price. --></help>
+        <label><!-- Minimum Price Allowed --></label>
+        <name>Minimum_Price_Allowed__c</name>
+    </CustomFieldTranslation>

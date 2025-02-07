@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>How to Access the Billing Portal</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support_24</letterhead>
+    <name>Billing Portal</name>
+    <style>freeForm</style>
+    <subject>Using the Billing Portal</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Thank you for reaching out! To update your billing details or access your invoices, please follow these steps:
+
+1. Log in to the Client Billing Portal: https://billing.stripe.com/p/login/6oE0090z37SO6XK9AA
+2. Enter the email address associated with your Luxury Presence account.
+3. You&#39;ll receive an email with a link to access the portal. Make sure to check your inbox, spam, or junk folders for this email.
+
+If you receive a message saying no customers are associated with your email, try using any other email addresses you may have used previously. If none of these work, feel free to contact our Billing team at billing@luxurypresence.com for further assistance.
+
+Note: Only the account holder can access and make changes to billing details in the portal. If you&#39;re unsure who the account holder is, feel free to contact us for clarification.
+
+If you need additional help, our Billing team is available at billing@luxurypresence.com or through Live Chat and Phone Support.
+
+Best regards,
+{!User.FirstName}
+Luxury Presence Support
+310-955-1077
+support@luxurypresence.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

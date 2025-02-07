@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_template__c</fullName>
+    <inlineHelpText>Select the Template Change</inlineHelpText>
+    <label>New template</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Classic</fullName>
+                <default>false</default>
+                <label>Classic</label>
+            </value>
+            <value>
+                <fullName>Coldwell Banker (Property)</fullName>
+                <default>false</default>
+                <label>Coldwell Banker (Property)</label>
+            </value>
+            <value>
+                <fullName>Coldwell Banker Brand</fullName>
+                <default>false</default>
+                <label>Coldwell Banker Brand</label>
+            </value>
+            <value>
+                <fullName>Coldwell Banker Global Luxury</fullName>
+                <default>false</default>
+                <label>Coldwell Banker Global Luxury</label>
+            </value>
+            <value>
+                <fullName>Coldwell Banker Global Luxury (Property)</fullName>
+                <default>false</default>
+                <label>Coldwell Banker Global Luxury (Property)</label>
+            </value>
+            <value>
+                <fullName>Compass Innovator</fullName>
+                <default>false</default>
+                <label>Compass Innovator</label>
+            </value>
+            <value>
+                <fullName>Compass Milestone (Dev)</fullName>
+                <default>false</default>
+                <label>Compass Milestone (Dev)</label>
+            </value>
+            <value>
+                <fullName>Compass Navigator</fullName>
+                <default>false</default>
+                <label>Compass Navigator</label>
+            </value>
+            <value>
+                <fullName>Compass Prestige</fullName>
+                <default>false</default>
+                <label>Compass Prestige</label>
+            </value>
+            <value>
+                <fullName>Compass S&amp;E</fullName>
+                <default>false</default>
+                <label>Compass S&amp;E</label>
+            </value>
+            <value>
+                <fullName>Corcoran Agent 1</fullName>
+                <default>false</default>
+                <label>Corcoran Agent 1</label>
+            </value>
+            <value>
+                <fullName>Corcoran Agent 2</fullName>
+                <default>false</default>
+                <label>Corcoran Agent 2</label>
+            </value>
+            <value>
+                <fullName>Corcoran Development</fullName>
+                <default>false</default>
+                <label>Corcoran Development</label>
+            </value>
+            <value>
+                <fullName>Evolution</fullName>
+                <default>false</default>
+                <label>Evolution</label>
+            </value>
+            <value>
+                <fullName>Global Collective</fullName>
+                <default>false</default>
+                <label>Global Collective</label>
+            </value>
+            <value>
+                <fullName>Home Valuation</fullName>
+                <default>false</default>
+                <label>Home Valuation</label>
+            </value>
+            <value>
+                <fullName>Influencer</fullName>
+                <default>false</default>
+                <label>Influencer</label>
+            </value>
+            <value>
+                <fullName>Masterpiece</fullName>
+                <default>false</default>
+                <label>Masterpiece</label>
+            </value>
+            <value>
+                <fullName>Pinnacle</fullName>
+                <default>false</default>
+                <label>Pinnacle</label>
+            </value>
+            <value>
+                <fullName>Redirect Only</fullName>
+                <default>false</default>
+                <label>Redirect Only</label>
+            </value>
+            <value>
+                <fullName>Sothebys 4 (Property)</fullName>
+                <default>false</default>
+                <label>Sothebys 4 (Property)</label>
+            </value>
+            <value>
+                <fullName>The Edge</fullName>
+                <default>false</default>
+                <label>The Edge</label>
+            </value>
+            <value>
+                <fullName>The Icon - SIR 3</fullName>
+                <default>false</default>
+                <label>The Icon - SIR 3</label>
+            </value>
+            <value>
+                <fullName>The Inspiration</fullName>
+                <default>false</default>
+                <label>The Inspiration</label>
+            </value>
+            <value>
+                <fullName>The producer</fullName>
+                <default>false</default>
+                <label>The producer</label>
+            </value>
+            <value>
+                <fullName>The Trailblazer - SIR 2</fullName>
+                <default>false</default>
+                <label>The Trailblazer - SIR 2</label>
+            </value>
+            <value>
+                <fullName>Universal</fullName>
+                <default>false</default>
+                <label>Universal</label>
+            </value>
+            <value>
+                <fullName>Vanguard Properties</fullName>
+                <default>false</default>
+                <label>Vanguard Properties</label>
+            </value>
+            <value>
+                <fullName>VDB Custom</fullName>
+                <default>false</default>
+                <label>VDB Custom</label>
+            </value>
+            <value>
+                <fullName>The Visionary</fullName>
+                <default>false</default>
+                <label>The Visionary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Our team will launch your paid ads within three weeks after your website is live, once AI Lead Nurture is activated. --></help>
+        <label><!-- Agree to launch ads? --></label>
+        <name>Agree_to_launch_ads__c</name>
+    </CustomFieldTranslation>

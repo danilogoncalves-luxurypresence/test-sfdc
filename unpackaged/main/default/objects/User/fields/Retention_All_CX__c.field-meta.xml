@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retention_All_CX__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Check if this user should be part of the round robin case assignment for Brand (+) and Launch (+) retention cases only</description>
+    <inlineHelpText>Check if this user should be part of the round robin case assignment for Brand (+) and Launch (+) retention cases only</inlineHelpText>
+    <label>Retention - All CX</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

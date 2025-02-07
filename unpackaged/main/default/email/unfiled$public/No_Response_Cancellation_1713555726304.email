@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi {{{Recipient.FirstName}}},</p>
+
+<p><br />
+I'm sorry I have not been able to get a hold of you. &nbsp;At this point, I'll hold off on my outreach. &nbsp;Please know that you are in an agreement through <em>[DATE]</em>. &nbsp;As of now, I have you set to terminate at renewal and your website will go dark on <em>[DATE]</em>. &nbsp;However, if anything changes, please reach out and I'm happy to assist.<br />
+<br />
+Thank you!</p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permissions to allow a user to update the Experience Site &amp; SEO settings</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Manage Experiences</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>GovernNetworks</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageNetworks</name>
+    </userPermissions>
+</PermissionSet>

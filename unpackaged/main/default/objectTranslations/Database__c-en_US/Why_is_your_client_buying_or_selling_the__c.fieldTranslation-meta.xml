@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Why is your client buying or selling their home? What kinds of questions do they ask you? --></help>
+        <label><!-- Is your client buying or selling --></label>
+        <name>Why_is_your_client_buying_or_selling_the__c</name>
+    </CustomFieldTranslation>

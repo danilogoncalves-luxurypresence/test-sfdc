@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Who is the Client POC on the account? --></label>
+        <name>Who_is_the_Client_POC_on_the_account__c</name>
+    </CustomFieldTranslation>

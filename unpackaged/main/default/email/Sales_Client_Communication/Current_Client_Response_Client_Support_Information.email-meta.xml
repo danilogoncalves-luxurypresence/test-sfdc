@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>Current Client Response: Client Support Information</name>
+    <style>freeForm</style>
+    <subject>Reply</subject>
+    <textOnly>Hi {!Account.Primary_Contact_First_Name__c}!
+
+Thank you for reaching out!
+
+Here are the steps you should take to get in touch with our support team quickly:
+1. Chat Support - if you know how to log into our platform you can chat with support here http://app.luxurypresence.com
+2. Phone Support - if you can&#39;t log in please call our support team directly at 310-955-1077
+3. Email Support - you can send an email to our support team at support@luxurypresence.com
+
+I&#39;ve included a short video below showing you how to utilize our support team best...I hope this helps!
+
+
+Thank you!
+
+Thank you,
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

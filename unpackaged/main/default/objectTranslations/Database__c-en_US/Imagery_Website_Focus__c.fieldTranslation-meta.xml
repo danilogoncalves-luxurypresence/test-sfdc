@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Which of the below imagery do you want to focus on throughout the website? You may select more than one. --></help>
+        <label><!-- Imagery Website Focus --></label>
+        <name>Imagery_Website_Focus__c</name>
+    </CustomFieldTranslation>

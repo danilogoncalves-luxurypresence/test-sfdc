@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>TRREB MLS  Introduction - 2nd Follow Up</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>TRREB MLS  Introduction - 2nd Follow Up</name>
+    <style>freeForm</style>
+    <subject>Following Up: MLS Introduction- TRREB</subject>
+    <textOnly>Hi {!Contact.FirstName},    
+
+Nice to e-meet you! My name is [Coordinator Name], and I am the IDX Coordinator at Luxury Presence. I will be responsible for the IDX search tool setup process on your new website. 
+
+In order for us to display IDX data on your website, TRREB requires the agent to request IDX services on the TRREB platform. 
+
+Please follow the instructions linked here to submit the requests: Instructions
+
+aTREB - IDX Instructions.pdf
+TREB - IDX Instructions.pdf
+
+Can you please submit this request at your earliest convenience?
+
+Please let me know if you have any questions!
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

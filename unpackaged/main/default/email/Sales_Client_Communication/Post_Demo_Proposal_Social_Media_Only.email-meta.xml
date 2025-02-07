@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used post demo for clients that your pitching only social media</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>Post Demo Proposal | Social Media Only</name>
+    <style>freeForm</style>
+    <subject>Thanks {!Contact.FirstName} | Luxury Presence Social Media Management</subject>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

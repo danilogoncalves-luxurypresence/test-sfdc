@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Add_Plan_False</fullName>
+    <active>true</active>
+    <description>Tier plan cannot have a value if the Add Plan box if false</description>
+    <errorConditionFormula>AND(
+ Add_Plan__c = false,
+ NOT(ISPICKVAL( Tier_Plan__c ,&quot;&quot;)),
+ Record_Type_Name__c = &quot;Add Service&quot;
+
+)</errorConditionFormula>
+    <errorMessage>Please only add a Tier Plan is the client is adding a new plan/subscription, if that&#39;s the case, please select the field &quot;Add Plan&quot; to indicate that.</errorMessage>
+</ValidationRule>

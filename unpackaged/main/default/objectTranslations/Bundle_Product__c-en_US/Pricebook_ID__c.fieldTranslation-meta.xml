@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Pricebook ID. Set by a trigger. Do not edit. --></help>
+        <label><!-- Pricebook ID --></label>
+        <name>Pricebook_ID__c</name>
+    </CustomFieldTranslation>

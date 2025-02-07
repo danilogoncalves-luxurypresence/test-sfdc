@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{recipient.first_name}},<br />
+<br />
+It’s great to meet you, and congratulations on your new website, which looks fantastic! I'm {{{Sender.Name}}}, your Marketing Client Success Manager and new point of contact at Luxury Presence.&nbsp;<br />
+<br />
+I’ve got your custom marketing strategy deck, keyword analysis and annual content strategy ready for your review. Click the link below to view your strategy and [ADD]<u>click here to schedule a call with me</u> to discuss in detail.<br />
+<br />
+SEO Strategy Deck<br />
+<br />
+Our goal is to make your next year successful and my job is to make sure our marketing experts are capitalizing on your strengths and leveraging the things you already have going for you.&nbsp;<br />
+<br />
+The first set of topics for your annual content strategy is driven by keyword research and search intent insights. This editorial calendar was designed using preferences you expressed in your marketing questionnaire. If there’s another topic you are excited about, let's discuss it during our call! Your content will go into production in 7 days, so please let me know if you have edits before then.<br />
+<br />
+I look forward to collaborating with you to reach your marketing goals!<br />
+<br />
+<u>[ADD]Schedule a call with me</u><br />
+<br />
+Warm regards,<br />
+<br />
+{{{Sender.Name}}}</body>
+</html>

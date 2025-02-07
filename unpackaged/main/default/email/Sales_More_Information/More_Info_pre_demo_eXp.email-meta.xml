@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used to send before setting a demo if the client is adamant about you sending more information</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>More Info (pre-demo): eXp Luxury</name>
+    <style>freeForm</style>
+    <subject>Luxury Presence | eXp Luxury Partnership</subject>
+    <textOnly>Hi {!Lead.Name},
+
+
+
+Thanks for taking the time to speak with me today! As promised, I’m following up with additional information about the Luxury Presence | Coldwell Banker Partnership.
+
+
+
+We’re pleased to offer preferred pricing exclusively for Coldwell Banker agents. Here’s what you can expect:
+
+Our award-winning team can tailor your website so that it embodies your specific brand and speaks directly to your target audience, cutting through the digital noise and bringing in the right leads at the right time. 
+
+We connect you with easy-to-use presentation templates and dedicated property sites to wow prospects and win clients. 
+
+Our smart lead generation and nurturing tools, expert SEO management, and content services offer an ongoing boost to your lead pipeline. 
+
+Our new AI-powered mobile app can streamline your workflow so you have more time to collaborate with clients and close those deals.
+
+Book time in my calendar here [Insert link] to learn more about any of these offerings, as well as our preferred partner pricing.
+
+
+
+Finally, I wanted to share some of the Coldwell Banker agents and teams who’ve partnered with Luxury Presence so you can see our work firsthand.
+
+Jade Mills
+
+Tim Allen
+
+The Delanty Group
+
+Carrie Wells
+
+Ricardo Boston
+
+Best,
+
+{!Lead.OwnerFirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

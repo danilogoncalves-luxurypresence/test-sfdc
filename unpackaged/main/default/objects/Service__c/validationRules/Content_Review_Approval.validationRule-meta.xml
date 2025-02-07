@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Content_Review_Approval</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+RecordType.Name = &quot;Content Review&quot;,
+ Content_Approved__c  = False,
+ISCHANGED( Content_Status__c),
+ispickval( Content_Status__c , &quot;Approved&quot;))</errorConditionFormula>
+    <errorMessage>Change status to Sent for approval.</errorMessage>
+</ValidationRule>

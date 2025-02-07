@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partnership_Organization__c</fullName>
+    <label>Partnership Organization</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Compass</fullName>
+                <default>false</default>
+                <label>Compass</label>
+            </value>
+            <value>
+                <fullName>Sotheby&#39;s International Realty</fullName>
+                <default>false</default>
+                <label>Sotheby&#39;s International Realty</label>
+            </value>
+            <value>
+                <fullName>Sotheby&#39;s Int Realty Affiliate</fullName>
+                <default>false</default>
+                <label>Sotheby&#39;s Int Realty Affiliate</label>
+            </value>
+            <value>
+                <fullName>Coldwell Banker Realty</fullName>
+                <default>false</default>
+                <label>Coldwell Banker Realty</label>
+            </value>
+            <value>
+                <fullName>Coldwell Banker Affiliate</fullName>
+                <default>false</default>
+                <label>Coldwell Banker Affiliate</label>
+            </value>
+            <value>
+                <fullName>Corcoran</fullName>
+                <default>false</default>
+                <label>Corcoran</label>
+            </value>
+            <value>
+                <fullName>Corcoran Affiliate</fullName>
+                <default>false</default>
+                <label>Corcoran Affiliate</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>@ Properties</fullName>
+                <default>false</default>
+                <label>@ Properties</label>
+            </value>
+            <value>
+                <fullName>Harvery Kalles</fullName>
+                <default>false</default>
+                <label>Harvery Kalles</label>
+            </value>
+            <value>
+                <fullName>Pinnacle Realty Advisors</fullName>
+                <default>false</default>
+                <label>Pinnacle Realty Advisors</label>
+            </value>
+            <value>
+                <fullName>The Agency</fullName>
+                <default>false</default>
+                <label>The Agency</label>
+            </value>
+            <value>
+                <fullName>Big Block Realty</fullName>
+                <default>false</default>
+                <label>Big Block Realty</label>
+            </value>
+            <value>
+                <fullName>Radius Agent</fullName>
+                <default>false</default>
+                <label>Radius Agent</label>
+            </value>
+            <value>
+                <fullName>LoKation Real Estate</fullName>
+                <default>false</default>
+                <label>LoKation Real Estate</label>
+            </value>
+            <value>
+                <fullName>eXP Luxury</fullName>
+                <default>false</default>
+                <label>eXP Luxury</label>
+            </value>
+            <value>
+                <fullName>JPAR</fullName>
+                <default>false</default>
+                <label>JPAR</label>
+            </value>
+            <value>
+                <fullName>The Remax Collection</fullName>
+                <default>false</default>
+                <label>The Remax Collection</label>
+            </value>
+            <value>
+                <fullName>William Raveis</fullName>
+                <default>false</default>
+                <label>William Raveis</label>
+            </value>
+            <value>
+                <fullName>Real RE</fullName>
+                <default>false</default>
+                <label>Real RE</label>
+            </value>
+            <value>
+                <fullName>Harcourts North America</fullName>
+                <default>false</default>
+                <label>Harcourts North America</label>
+            </value>
+            <value>
+                <fullName>Avenue 8</fullName>
+                <default>false</default>
+                <label>Avenue 8</label>
+            </value>
+            <value>
+                <fullName>Bluegrass</fullName>
+                <default>false</default>
+                <label>Bluegrass</label>
+            </value>
+            <value>
+                <fullName>The Serhant Team</fullName>
+                <default>false</default>
+                <label>The Serhant Team</label>
+            </value>
+            <value>
+                <fullName>Side</fullName>
+                <default>false</default>
+                <label>Side</label>
+            </value>
+            <value>
+                <fullName>Milehimodern</fullName>
+                <default>false</default>
+                <label>Milehimodern</label>
+            </value>
+            <value>
+                <fullName>Howard Hanna</fullName>
+                <default>false</default>
+                <label>Howard Hanna</label>
+            </value>
+            <value>
+                <fullName>California Concierge</fullName>
+                <default>false</default>
+                <label>California Concierge</label>
+            </value>
+            <value>
+                <fullName>Realty ONE Group</fullName>
+                <default>false</default>
+                <label>Realty ONE Group</label>
+            </value>
+            <value>
+                <fullName>Luxury Poerfolio International</fullName>
+                <default>false</default>
+                <label>Luxury Poerfolio International</label>
+            </value>
+            <value>
+                <fullName>Christie’s International Real Estate Affiliate</fullName>
+                <default>false</default>
+                <label>Christie’s International Real Estate Affiliate</label>
+            </value>
+            <value>
+                <fullName>Enterprise</fullName>
+                <default>false</default>
+                <label>Enterprise</label>
+            </value>
+            <value>
+                <fullName>Berkshire Hathaway HomeServices</fullName>
+                <default>false</default>
+                <label>Berkshire Hathaway HomeServices</label>
+            </value>
+            <value>
+                <fullName>Engel &amp; Volkers Gestalt Group (Pending)</fullName>
+                <default>false</default>
+                <label>Engel &amp; Volkers Gestalt Group (Pending)</label>
+            </value>
+            <value>
+                <fullName>Intero</fullName>
+                <default>false</default>
+                <label>Intero</label>
+            </value>
+            <value>
+                <fullName>Aerial Video</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Aerial Video</label>
+            </value>
+            <value>
+                <fullName>BHHS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>BHHS</label>
+            </value>
+            <value>
+                <fullName>Christie’s International Real Estate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Christie’s International Real Estate</label>
+            </value>
+            <value>
+                <fullName>Coldwell Banker</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Coldwell Banker</label>
+            </value>
+            <value>
+                <fullName>Douglas Elliman</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Douglas Elliman</label>
+            </value>
+            <value>
+                <fullName>Flaggship</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Flaggship</label>
+            </value>
+            <value>
+                <fullName>Icenhower</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Icenhower</label>
+            </value>
+            <value>
+                <fullName>Institute for Luxury Home Marketing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Institute for Luxury Home Marketing</label>
+            </value>
+            <value>
+                <fullName>Keller Williams</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Keller Williams</label>
+            </value>
+            <value>
+                <fullName>Luxe Consulting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Luxe Consulting</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>ReMax</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>ReMax</label>
+            </value>
+            <value>
+                <fullName>The Luxury Level</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>The Luxury Level</label>
+            </value>
+            <value>
+                <fullName>eXp</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>eXp</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

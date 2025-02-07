@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Position --></label>
+        <name>Position__c</name>
+        <picklistValues>
+            <masterLabel>Ads Specialist</masterLabel>
+            <translation><!-- Ads Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Content Creator</masterLabel>
+            <translation><!-- Content Creator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Specialist</masterLabel>
+            <translation><!-- Data Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design Project Associate</masterLabel>
+            <translation><!-- Design Project Associate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design project coordinator</masterLabel>
+            <translation><!-- Design project coordinator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Header Image Curator</masterLabel>
+            <translation><!-- Header Image Curator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDX Data Specialist</masterLabel>
+            <translation><!-- IDX Data Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logo Editor</masterLabel>
+            <translation><!-- Logo Editor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing Specialist</masterLabel>
+            <translation><!-- Marketing Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Migration Crawl &amp; Mapping Specialist</masterLabel>
+            <translation><!-- Migration Crawl &amp; Mapping Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA</masterLabel>
+            <translation><!-- QA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEO Specialist</masterLabel>
+            <translation><!-- SEO Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Specialist</masterLabel>
+            <translation><!-- Support Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team leader</masterLabel>
+            <translation><!-- Team leader --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trainer</masterLabel>
+            <translation><!-- Trainer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website Builder</masterLabel>
+            <translation><!-- Website Builder --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

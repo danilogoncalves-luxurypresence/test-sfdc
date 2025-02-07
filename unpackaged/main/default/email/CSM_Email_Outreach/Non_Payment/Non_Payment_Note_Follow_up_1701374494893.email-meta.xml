@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Note 1 (For use after Email 1 has been sent and not responded to, if/when the client engages with other emails or other emails need to be sent. Meant to be added to the end email.)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Non-Payment Note/Follow up</name>
+    <style>none</style>
+    <subject>Re: Payment Past Due</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

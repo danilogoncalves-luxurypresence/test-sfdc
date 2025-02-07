@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>SEO Reporting</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SEO Reporting</name>
+    <style>none</style>
+    <subject>Your Quarterly SEO Report &amp; 90-Day Analytics Comparison</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

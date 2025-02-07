@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Save Tactic Sub Detail --></label>
+        <name>Save_Tactic_Sub_Detail__c</name>
+        <picklistValues>
+            <masterLabel>Change in Services</masterLabel>
+            <translation><!-- Change in Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design Refresh/CWO</masterLabel>
+            <translation><!-- Design Refresh/CWO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design Refresh/Custom Website</masterLabel>
+            <translation><!-- Design Refresh/Custom Website --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downgrade</masterLabel>
+            <translation><!-- Downgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Downgrade Plan</masterLabel>
+            <translation><!-- Downgrade Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Educate on NEW features / add-ons</masterLabel>
+            <translation><!-- Educate on NEW features / add-ons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Free Additional Service</masterLabel>
+            <translation><!-- Free Additional Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Refund</masterLabel>
+            <translation><!-- Full Refund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lower MRR</masterLabel>
+            <translation><!-- Lower MRR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly Service Credit</masterLabel>
+            <translation><!-- Monthly Service Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Credit</masterLabel>
+            <translation><!-- Partial Credit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Refund</masterLabel>
+            <translation><!-- Partial Refund --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pause Full Service</masterLabel>
+            <translation><!-- Pause Full Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pause Partial Service</masterLabel>
+            <translation><!-- Pause Partial Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary Lower MRR</masterLabel>
+            <translation><!-- Temporary Lower MRR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Temporary Pause</masterLabel>
+            <translation><!-- Temporary Pause --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Update Current Terms</masterLabel>
+            <translation><!-- Update Current Terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade Plan</masterLabel>
+            <translation><!-- Upgrade Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upsell Add-on</masterLabel>
+            <translation><!-- Upsell Add-on --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

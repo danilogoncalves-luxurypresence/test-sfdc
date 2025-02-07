@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <color>#78C953</color>
+        <default>true</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Discovery</fullName>
+        <default>false</default>
+        <label>Discovery</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Ready</fullName>
+        <default>false</default>
+        <label>Ready</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting GBP Access</fullName>
+        <default>false</default>
+        <label>Awaiting GBP Access</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Verification</fullName>
+        <default>false</default>
+        <label>Awaiting Verification</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Google</fullName>
+        <default>false</default>
+        <label>Awaiting Google</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Blocked</fullName>
+        <default>false</default>
+        <label>Blocked</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent to Client</fullName>
+        <default>false</default>
+        <label>Sent to Client</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Client Response</fullName>
+        <default>false</default>
+        <label>Awaiting Client Response</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Unresponsive</fullName>
+        <default>false</default>
+        <label>Client Unresponsive</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Internal Team</fullName>
+        <default>false</default>
+        <label>Awaiting Internal Team</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Linear Response</fullName>
+        <default>false</default>
+        <label>Awaiting Linear Response</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated</fullName>
+        <default>false</default>
+        <label>Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Needs more information</fullName>
+        <default>false</default>
+        <label>Needs more information</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Review</fullName>
+        <default>false</default>
+        <label>Review</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Edits Requested</fullName>
+        <default>false</default>
+        <label>Edits Requested</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Edits</fullName>
+        <default>false</default>
+        <label>Pending Edits</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending</fullName>
+        <default>false</default>
+        <label>Pending</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Ready for UAT</fullName>
+        <default>false</default>
+        <label>Ready for UAT</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>UAT</fullName>
+        <default>false</default>
+        <label>UAT</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Needs Deployment</fullName>
+        <default>false</default>
+        <label>Needs Deployment</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Deployed</fullName>
+        <default>false</default>
+        <label>Deployed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>On Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Unresponsive</fullName>
+        <default>false</default>
+        <label>Unresponsive</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Live</fullName>
+        <default>false</default>
+        <label>Live</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Unable to Run</fullName>
+        <default>false</default>
+        <label>Unable to Run</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Spam</fullName>
+        <color>#FF0000</color>
+        <default>false</default>
+        <label>Spam</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Denied</fullName>
+        <default>false</default>
+        <label>Denied</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Additional Revisions</fullName>
+        <default>false</default>
+        <label>Additional Revisions</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Submitted for Approval</fullName>
+        <default>false</default>
+        <label>Submitted for Approval</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Recurring</fullName>
+        <default>false</default>
+        <label>Recurring</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Weekly</fullName>
+        <default>false</default>
+        <label>Weekly</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Monthly</fullName>
+        <default>false</default>
+        <label>Monthly</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Bug</fullName>
+        <default>false</default>
+        <label>Bug</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Stuck</fullName>
+        <default>false</default>
+        <label>Stuck</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Jira</fullName>
+        <default>false</default>
+        <label>Jira</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate</fullName>
+        <default>false</default>
+        <label>Duplicate</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Done</fullName>
+        <default>false</default>
+        <label>Done</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>CSS</fullName>
+        <default>false</default>
+        <label>CSS</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>QA</fullName>
+        <default>false</default>
+        <label>QA</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+</StandardValueSet>

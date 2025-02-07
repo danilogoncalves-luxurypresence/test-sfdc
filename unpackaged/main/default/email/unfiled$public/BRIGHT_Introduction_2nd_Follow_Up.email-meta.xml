@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>BRIGHT Introduction - 2nd Follow Up</name>
+    <style>freeForm</style>
+    <subject>BRIGHT Introduction - 2nd Follow Up</subject>
+    <textOnly>Hi {!Service__c.Contact_First_Name__c}​,
+
+Hope your week is going great! I wanted to follow up on the previous email, please note in order for Bright MLS to approve the IDX display on your website they require agents to submit an IDX request through their portal.
+
+Follow these steps to submit IDX and VOW licensing requests to Bright:
+
+1. Log into brightmls.com and select Account &amp; Settings from the drop-down menu under your name.
+2. From the My Subscription tab, go to IDX and VOW Licensing Request. Note, if you have more than one subscription with Bright, you’ll be prompted to choose the appropriate ID and then continue.
+3. Next, please select that you would like an IDX website.
+4. In the Vendor Name field, please select Luxury Presence.
+5. In the Website URL field, enter your full personal/agent website address. Please be sure to include the URL address (www) along with the domain extension (.com, .org, .net).
+6. Review your entry and when ready, click Submit.
+
+If you have any questions about the status of your request, please contact:
+brokerauthorization@brightmls.com.
+
+After you complete these steps, please reach out to your managing broker to approve the request on their end, and then Luxury Presence will receive an email notification once the request has been processed!
+Lastly, if you do not have a Domain/URL finalized, no problem! Please wait until your next call with your Implementation Manager and they will be able to discuss URL options with you in detail. Let me know if you have any questions in the meantime. I&#39;m here to help!
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

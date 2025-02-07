@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Onboarding_Social_Clients</fullName>
+    <columns>NAME</columns>
+    <columns>Subscription_start_date__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>Content_Creator__c</columns>
+    <columns>Implementation_Manager__c</columns>
+    <columns>Account_Manager__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.Social_Media</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Onboarding</value>
+    </filters>
+    <label>Onboarding Social Clients</label>
+</ListView>

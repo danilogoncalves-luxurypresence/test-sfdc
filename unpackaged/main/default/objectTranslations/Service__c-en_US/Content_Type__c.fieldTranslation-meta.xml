@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Content Type --></label>
+        <name>Content_Type__c</name>
+        <picklistValues>
+            <masterLabel>Agent Bios</masterLabel>
+            <translation><!-- Agent Bios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blogs</masterLabel>
+            <translation><!-- Blogs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Misc. Copy</masterLabel>
+            <translation><!-- Misc. Copy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neighborhood Guide</masterLabel>
+            <translation><!-- Neighborhood Guide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEO Content Substitutions</masterLabel>
+            <translation><!-- SEO Content Substitutions --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jan_2025_Key_Prospects_Eric_K</fullName>
+    <booleanFilter>1 or 2 or 3 or 4 or 5 or 6 or 7</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LAST_ACTIVITY_DATETIME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000001cKBtYAM,003EY000001cUjkYAE,003EY000001cTfdYAE,003EY000001cU46YAE,003Rg00000CvDEZIA3,003EY000001cUQrYAM,003EY000001cy5oYAA,003EY000001cMSLYA2,003EY0000025qeIYAQ,003EY000004Ui6dYAC</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000001cb2uYAA,003EY00000220TDYAY,003EY000001cUSkYAM,003EY000001cZ7FYAU,003EY0000043yuPYAQ,003EY000001ZNE2YAO,003EY000001ZOP8YAO,003EY000001cYYWYA2,003EY000001cYY9YAM,003EY000001cYZgYAM</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000001cWUnYAM,003EY000001cWURYA2,003EY000001cWUCYA2,--,003EY000001cWdkYAE,003EY000001cURJYA2,003EY000001cJWfYAM,003EY000001cVVqYAM,003EY000002cE3aYAE,003EY000001cVWnYAM</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003Rg0000078s46IAA,003Rg00000EIOlNIAX,003Rg0000061f7MIAQ,003Rg000009l4cTIAQ,003EY0000045GvTYAU,003EY0000030ZP4YAM,003Rg000007jgK5IAI,003EY000003XMmJYAW,003EY0000043ySLYAY,003EY000001ZMalYAG</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY0000026YpjYAE,--,003Rg000003xEwVIAU,003EY000002dTcCYAU,003EY000002ptaaYAA,003EY000002pc0hYAA,003EY000002v8GAYAY,003EY000002vOQbYAM,003EY0000045I8dYAE</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000003eWhOYAU,003Rg00000DtEinIAF,003Rg000004JZHVIA4,003Rg000005KarAIAS,--,003Rg000006QuKrIAK,003Rg000006nB5OIAU,003Rg000007JipNIAS,003EY000001cUWZYA2,003Rg000008kIyDIAU</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003Rg00000DwChFIAV,003Rg00000E92H3IAJ,003Rg00000EbUYYIA3,003Rg00000G48lmIAB</value>
+    </filters>
+    <label>Jan 2025 - Key Prospects - Eric K</label>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copywriting_Status__c</fullName>
+    <inlineHelpText>Have all of the pre-launch copywriting pages been written and added to the site? If not, please provide the status and link the Monday submission</inlineHelpText>
+    <label>Copywriting Status</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

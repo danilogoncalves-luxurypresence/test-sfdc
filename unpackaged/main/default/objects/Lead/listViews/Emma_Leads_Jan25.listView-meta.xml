@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Emma_Leads_Jan25</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>Partnership_Organization__c</columns>
+    <columns>Prior_12_months_total_transaction_value__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LAST_CALL_DATE</columns>
+    <columns>Rep_Assigned_Date__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Event_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Ready,Pursuing</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>10000000</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>lessThan</operation>
+        <value>13000000</value>
+    </filters>
+    <filters>
+        <field>Partnership_Organization__c</field>
+        <operation>notEqual</operation>
+        <value>Sotheby&#39;s International Realty,Sotheby&#39;s Int Realty Affiliate</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>emma</value>
+    </filters>
+    <filters>
+        <field>Rep_Assigned_Date__c</field>
+        <operation>equals</operation>
+        <value>1/3/2025 12:00 AM</value>
+    </filters>
+    <label>Emma Leads Jan25</label>
+</ListView>

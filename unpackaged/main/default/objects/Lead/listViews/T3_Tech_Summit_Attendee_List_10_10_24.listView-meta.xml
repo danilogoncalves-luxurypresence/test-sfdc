@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>T3_Tech_Summit_Attendee_List_10_10_24</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>X2024_Event_Name__c</field>
+        <operation>equals</operation>
+        <value>9.29 - 10.1 - T3 Tech Summit - New Orleans</value>
+    </filters>
+    <label>T3 Tech Summit Attendee List - 10-10-24</label>
+</ListView>

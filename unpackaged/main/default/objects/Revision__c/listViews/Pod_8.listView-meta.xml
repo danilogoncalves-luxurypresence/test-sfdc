@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pod_8</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Revisions_Due_Date__c</columns>
+    <columns>Status__c</columns>
+    <columns>Implementation_Manager__c</columns>
+    <columns>Revision_Round__c</columns>
+    <columns>Revision_Type__c</columns>
+    <columns>Staging_Link__c</columns>
+    <columns>Revisions_Document_Link__c</columns>
+    <columns>Website_builder__c</columns>
+    <columns>Design_template__c</columns>
+    <columns>Community_URL__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Revision__c.Onboarding</value>
+    </filters>
+    <filters>
+        <field>PFT_Pod__c</field>
+        <operation>equals</operation>
+        <value>Pod 8</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New,In progress,Ready for QA,QA,Additional Revisions,Submitted for Approval</value>
+    </filters>
+    <filters>
+        <field>Revision_Type__c</field>
+        <operation>notEqual</operation>
+        <value>Xpress Checkout</value>
+    </filters>
+    <filters>
+        <field>Agent_Subdomain__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>IAO Pod 8</label>
+</ListView>

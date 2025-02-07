@@ -1,0 +1,20 @@
+Hi there, {!Contact.FirstName}, 
+
+To connect Follow Up Boss with the Luxury Presence platform, follow these steps:
+
+Generate an API Key in Follow Up Boss:
+
+• Log in to your Follow Up Boss account.
+• Navigate to Admin > API.
+• Click Create API Key, name it (e.g., "Luxury Presence"), and copy the key 
+
+Then, connect the API Key in Luxury Presence:
+
+• Log in to the Luxury Presence dashboard.
+• Go to Settings > CRM Integrations.
+• Click Add New, select Follow Up Boss as the provider, and paste the API key.
+• Save the integration. 
+
+All the best, 
+
+Luxury Presence

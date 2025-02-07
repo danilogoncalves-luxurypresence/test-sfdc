@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Vendor Source --></label>
+        <name>Vendor_Source__c</name>
+        <picklistValues>
+            <masterLabel>Bridge Interactive</masterLabel>
+            <translation><!-- Bridge Interactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Constellation</masterLabel>
+            <translation><!-- Constellation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Integration</masterLabel>
+            <translation><!-- Direct Integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FlexMLS</masterLabel>
+            <translation><!-- FlexMLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MLS Grid</masterLabel>
+            <translation><!-- MLS Grid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Navica</masterLabel>
+            <translation><!-- Navica --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paragon</masterLabel>
+            <translation><!-- Paragon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rapattoni</masterLabel>
+            <translation><!-- Rapattoni --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Really</masterLabel>
+            <translation><!-- Really --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spark API</masterLabel>
+            <translation><!-- Spark API --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Matrix</masterLabel>
+            <translation><!-- The Matrix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trestle</masterLabel>
+            <translation><!-- Trestle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wolfnet</masterLabel>
+            <translation><!-- Wolfnet --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

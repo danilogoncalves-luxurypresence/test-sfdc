@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Hope you're doing well!&nbsp; I wanted to share an example of a client who has seen great success with our Launch+ Plan.<br />
+<br />
+After partnering with Luxury Presence, Palm Beach luxury agent Elizabeth DeWoody experienced a 42% rise in new visitors and saw her site appearing in search results 133% more often. She also went from ranking for 73 keywords to ranking over 250! You can <a href="https://www.luxurypresence.com/case/how-we-helped-elizabeth-dewoody-stand-out-online/">read the full case study here</a> .&nbsp;<br />
+<br />
+We would love to help you achieve similar results.&nbsp; Just book a time in my calendar and we can get you started ASAP!<br />
+https://luxurypresence.na.chilipiper.com/book/me/{{{Sender.FirstName}}}-{{{Sender.LastName}}}<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Customer Type --></label>
+        <name>Customer_Type__c</name>
+        <picklistValues>
+            <masterLabel>High brand value</masterLabel>
+            <translation><!-- High brand value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High contract value</masterLabel>
+            <translation><!-- High contract value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Network member</masterLabel>
+            <translation><!-- Network member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WSJ top 100 agent</masterLabel>
+            <translation><!-- WSJ top 100 agent --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

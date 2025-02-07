@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Facebook Credentials</fullName>
+                <default>false</default>
+                <label>Facebook Credentials</label>
+            </value>
+            <value>
+                <fullName>Google Credentials</fullName>
+                <default>false</default>
+                <label>Google Credentials</label>
+            </value>
+            <value>
+                <fullName>Instagram Credentials</fullName>
+                <default>false</default>
+                <label>Instagram Credentials</label>
+            </value>
+            <value>
+                <fullName>LinkedIn Credentials</fullName>
+                <default>false</default>
+                <label>LinkedIn Credentials</label>
+            </value>
+            <value>
+                <fullName>Twitter Credentials</fullName>
+                <default>false</default>
+                <label>Twitter Credentials</label>
+            </value>
+            <value>
+                <fullName>Design Quiz</fullName>
+                <default>false</default>
+                <label>Design Quiz</label>
+            </value>
+            <value>
+                <fullName>Welcome Call</fullName>
+                <default>false</default>
+                <label>Welcome Call</label>
+            </value>
+            <value>
+                <fullName>Social Media Basic Quiz</fullName>
+                <default>false</default>
+                <label>Social Media Basic Quiz</label>
+            </value>
+            <value>
+                <fullName>Social Media Premium/Dominance Quiz</fullName>
+                <default>false</default>
+                <label>Social Media Premium/Dominance Quiz</label>
+            </value>
+            <value>
+                <fullName>Strategy Brief</fullName>
+                <default>false</default>
+                <label>Strategy brief</label>
+            </value>
+            <value>
+                <fullName>On-Demand Ads</fullName>
+                <default>false</default>
+                <label>On-Demand Ads</label>
+            </value>
+            <value>
+                <fullName>Design Intake Call</fullName>
+                <default>false</default>
+                <label>Design Intake Call</label>
+            </value>
+            <value>
+                <fullName>Plan Migration</fullName>
+                <default>false</default>
+                <label>Plan Migration</label>
+            </value>
+            <value>
+                <fullName>Health Assessment</fullName>
+                <default>false</default>
+                <label>Health Assessment</label>
+            </value>
+            <value>
+                <fullName>SEO Pro</fullName>
+                <default>false</default>
+                <label>SEO Pro</label>
+            </value>
+            <value>
+                <fullName>Leads Pro</fullName>
+                <default>false</default>
+                <label>Leads Pro</label>
+            </value>
+            <value>
+                <fullName>AI Lead Nurture</fullName>
+                <default>false</default>
+                <label>AI Lead Nurture</label>
+            </value>
+            <value>
+                <fullName>SEO Blog Selection</fullName>
+                <default>false</default>
+                <label>SEO Blog Selection</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

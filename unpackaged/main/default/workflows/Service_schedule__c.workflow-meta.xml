@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Ad_Buildout_Approved</fullName>
+        <field>Ad_Buildout_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Ad Buildout Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Client_Review_Approved</fullName>
+        <field>Client_Review_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Client Review Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Create_Revision</fullName>
+        <field>Create_Revision__c</field>
+        <literalValue>1</literalValue>
+        <name>Create Revision</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Create_Revision_False</fullName>
+        <field>Create_Revision__c</field>
+        <literalValue>0</literalValue>
+        <name>Create Revision False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>PMS_Buildout_Approval</fullName>
+        <field>PMS_Buildout_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>PMS Buildout Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Ad_Buildout</fullName>
+        <field>Status__c</field>
+        <literalValue>Ad Buildout</literalValue>
+        <name>Status = Ad Buildout</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Client_Review</fullName>
+        <field>Status__c</field>
+        <literalValue>Client Review</literalValue>
+        <name>Status = Client Review</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Creating_Content</fullName>
+        <field>Status__c</field>
+        <literalValue>Creating Content</literalValue>
+        <name>Status = Creating Content</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Ready_for_Launch</fullName>
+        <field>Status__c</field>
+        <literalValue>Ready for Launch</literalValue>
+        <name>Status = Ready for Launch</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Ready_to_Launch</fullName>
+        <field>Ad_Buildout_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Status = Ready to Launch</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <outboundMessages>
+        <fullName>New_service_schedule_blog</fullName>
+        <apiVersion>61.0</apiVersion>
+        <description>new topic is set for service schedule blog and zapier is triggered to generate an article with airops</description>
+        <endpointUrl>https://hooks.zapier.com/hooks/catch/19660050/26z36l4/</endpointUrl>
+        <fields>Account__c</fields>
+        <fields>Id</fields>
+        <fields>LastModifiedDate</fields>
+        <fields>Name</fields>
+        <fields>Record_Type_Name__c</fields>
+        <fields>Status__c</fields>
+        <includeSessionId>true</includeSessionId>
+        <integrationUser>tnowinski@luxurypresence.com</integrationUser>
+        <name>New service schedule blog</name>
+        <protected>false</protected>
+        <useDeadLetterQueue>false</useDeadLetterQueue>
+    </outboundMessages>
+</Workflow>

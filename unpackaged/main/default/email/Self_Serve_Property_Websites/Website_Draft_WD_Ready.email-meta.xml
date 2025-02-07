@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Website Draft (WD) Ready - Non Pinnacle</name>
+    <style>none</style>
+    <subject>Property Website Preview is Ready</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Great news! The property website preview for [Property Name] is ready. The next step is to launch the website or go through one round of revisions. 
+
+Please follow the steps below
+
+Review the website ➡️ View Here
+Approve/submit edits ➡️ Click Here
+
+Keep in mind that once the website is live you will have access to the platform to make edits and the Luxury Presence Support Team is always there to assist you with changes!
+
+Let us know if you have any questions.
+
+Best,
+
+Self Serve Property Websites
+Luxury Presence
+Phone: (310) 955-1077
+Email: support@luxurypresence.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

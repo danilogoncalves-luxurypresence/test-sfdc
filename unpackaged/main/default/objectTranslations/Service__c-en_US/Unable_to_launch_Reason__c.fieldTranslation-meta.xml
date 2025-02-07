@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Unable to Launch-Reason --></label>
+        <name>Unable_to_launch_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Blocked by OTP Code.</masterLabel>
+            <translation><!-- Blocked by OTP Code. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Wants to Launch Themselves</masterLabel>
+            <translation><!-- Client Wants to Launch Themselves --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client delayed launched date</masterLabel>
+            <translation><!-- Client delayed launched date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Domain not present in Registrar</masterLabel>
+            <translation><!-- Domain not present in Registrar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External Issue (Stackpath, Registrar, etc)</masterLabel>
+            <translation><!-- External Issue (Stackpath, Registrar, etc) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Credentials</masterLabel>
+            <translation><!-- Incorrect Credentials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Launch Blocker (Bug)</masterLabel>
+            <translation><!-- Launch Blocker (Bug) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Launched via Pointing</masterLabel>
+            <translation><!-- Launched via Pointing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MLS Pending</masterLabel>
+            <translation><!-- MLS Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No credentials</masterLabel>
+            <translation><!-- No credentials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEO Migration Pending</masterLabel>
+            <translation><!-- SEO Migration Pending --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

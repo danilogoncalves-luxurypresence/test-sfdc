@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MonthlyMarketing_fee</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISBLANK(  Monthly_Marketing_Fee__c  ),
+ISCHANGED(StageName),
+ISPICKVAL( StageName , &quot;Closed Won&quot;),
+RecordTypeId =  $Label.ID_Opp_Addendum,
+ OR( 
+  ISPICKVAL( Addendum_Type__c , &quot;Downgrade&quot;),
+  ISPICKVAL( Addendum_Type__c, &quot;Paused&quot;) 
+ )
+)</errorConditionFormula>
+    <errorDisplayField>Monthly_Marketing_Fee__c</errorDisplayField>
+    <errorMessage>Please fill before changing to Closed Won</errorMessage>
+</ValidationRule>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scope__c</fullName>
+    <description>References the scope of the revisions, this is used for marketing revisions record type</description>
+    <label>Scope</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Content_Revision_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Title / Subtitle Change</fullName>
+                <default>false</default>
+                <label>Title / Subtitle Change</label>
+            </value>
+            <value>
+                <fullName>Update CTA</fullName>
+                <default>false</default>
+                <label>Update CTA</label>
+            </value>
+            <value>
+                <fullName>Track Changes</fullName>
+                <default>false</default>
+                <label>Track Changes</label>
+            </value>
+            <value>
+                <fullName>Small-Scale Item Edits</fullName>
+                <default>false</default>
+                <label>Small-Scale Item Edits</label>
+            </value>
+            <value>
+                <fullName>Photo Updates</fullName>
+                <default>false</default>
+                <label>Photo Updates</label>
+            </value>
+            <value>
+                <fullName>Spelling / Grammar</fullName>
+                <default>false</default>
+                <label>Spelling / Grammar</label>
+            </value>
+            <value>
+                <fullName>Wrong Location</fullName>
+                <default>false</default>
+                <label>Wrong Location</label>
+            </value>
+            <value>
+                <fullName>Requesting New Topic</fullName>
+                <default>false</default>
+                <label>Requesting New Topic</label>
+            </value>
+            <value>
+                <fullName>Voice / Tone</fullName>
+                <default>false</default>
+                <label>Voice / Tone</label>
+            </value>
+            <value>
+                <fullName>Large-Scale Item Edits</fullName>
+                <default>false</default>
+                <label>Large-Scale Item Edits</label>
+            </value>
+            <value>
+                <fullName>Needs Research</fullName>
+                <default>false</default>
+                <label>Needs Research</label>
+            </value>
+            <value>
+                <fullName>Outdated Info</fullName>
+                <default>false</default>
+                <label>Outdated Info</label>
+            </value>
+            <value>
+                <fullName>Restaurant or Shop Change</fullName>
+                <default>false</default>
+                <label>Restaurant or Shop Change</label>
+            </value>
+            <value>
+                <fullName>Neighborhoods Change</fullName>
+                <default>false</default>
+                <label>Neighborhoods Change</label>
+            </value>
+            <value>
+                <fullName>Structural Changes</fullName>
+                <default>false</default>
+                <label>Structural Changes</label>
+            </value>
+            <value>
+                <fullName>Info from Bad Source</fullName>
+                <default>false</default>
+                <label>Info from Bad Source</label>
+            </value>
+            <value>
+                <fullName>Adding Hyperlinks</fullName>
+                <default>false</default>
+                <label>Adding Hyperlinks</label>
+            </value>
+            <value>
+                <fullName>Additional Context Provided</fullName>
+                <default>false</default>
+                <label>Additional Context Provided</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Title / Subtitle Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Update CTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Track Changes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Small-Scale Item Edits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Photo Updates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Spelling / Grammar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Wrong Location</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Requesting New Topic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Voice / Tone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Large-Scale Item Edits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Needs Research</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Outdated Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Restaurant or Shop Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Neighborhoods Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Structural Changes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Info from Bad Source</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Adding Hyperlinks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Additional Context Provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Minor Edits</controllingFieldValue>
+            <controllingFieldValue>Major Edits</controllingFieldValue>
+            <controllingFieldValue>Client Preference</controllingFieldValue>
+            <controllingFieldValue>Internal Error</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

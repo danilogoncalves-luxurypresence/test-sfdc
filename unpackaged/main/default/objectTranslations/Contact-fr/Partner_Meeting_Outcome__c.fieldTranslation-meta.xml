@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Partner Meeting Outcome --></label>
+        <name>Partner_Meeting_Outcome__c</name>
+        <picklistValues>
+            <masterLabel>Client retention</masterLabel>
+            <translation><!-- Client retention --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead generated</masterLabel>
+            <translation><!-- Lead generated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presentation booked</masterLabel>
+            <translation><!-- Presentation booked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Promotional opp</masterLabel>
+            <translation><!-- Promotional opp --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

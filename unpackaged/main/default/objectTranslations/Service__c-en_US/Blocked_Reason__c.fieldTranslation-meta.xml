@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Blocked Reason --></label>
+        <name>Blocked_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Declined</masterLabel>
+            <translation><!-- Declined --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dev</masterLabel>
+            <translation><!-- Dev --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escalated Client</masterLabel>
+            <translation><!-- Escalated Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unresponsive</masterLabel>
+            <translation><!-- Unresponsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Working with Support</masterLabel>
+            <translation><!-- Working with Support --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

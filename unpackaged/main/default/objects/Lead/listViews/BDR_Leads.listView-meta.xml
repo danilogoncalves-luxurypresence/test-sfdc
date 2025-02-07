@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BDR_Leads</fullName>
+    <booleanFilter>1 AND (2 Or 3)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Partnership_Organization__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Partnership_Organization__c</field>
+        <operation>equals</operation>
+        <value>The Agency,Big Block Realty,JPAR,Real RE,Avenue 8</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>general</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>jp</value>
+    </filters>
+    <label>BDR Open Leads</label>
+    <sharedTo>
+        <group>BDRs</group>
+    </sharedTo>
+</ListView>

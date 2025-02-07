@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Time from New to In Progress --></label>
+        <name>Time_from_New_to_In_Progress__c</name>
+    </CustomFieldTranslation>

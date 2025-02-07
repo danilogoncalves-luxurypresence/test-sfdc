@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor__c</fullName>
+    <label>Competitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agent Fire</fullName>
+                <default>false</default>
+                <label>Agent Fire</label>
+            </value>
+            <value>
+                <fullName>Agent Image</fullName>
+                <default>false</default>
+                <label>Agent Image</label>
+            </value>
+            <value>
+                <fullName>Boom Town!</fullName>
+                <default>false</default>
+                <label>Boom Town!</label>
+            </value>
+            <value>
+                <fullName>Brivity</fullName>
+                <default>false</default>
+                <label>Brivity</label>
+            </value>
+            <value>
+                <fullName>Curaytor</fullName>
+                <default>false</default>
+                <label>Curaytor</label>
+            </value>
+            <value>
+                <fullName>Gabriels</fullName>
+                <default>false</default>
+                <label>Gabriels</label>
+            </value>
+            <value>
+                <fullName>MoxiWorks</fullName>
+                <default>false</default>
+                <label>MoxiWorks</label>
+            </value>
+            <value>
+                <fullName>Placester</fullName>
+                <default>false</default>
+                <label>Placester</label>
+            </value>
+            <value>
+                <fullName>Real Estate Webmasters (REW)</fullName>
+                <default>false</default>
+                <label>Real Estate Webmasters (REW)</label>
+            </value>
+            <value>
+                <fullName>In-House</fullName>
+                <default>false</default>
+                <label>In-House</label>
+            </value>
+            <value>
+                <fullName>Brokerage</fullName>
+                <default>false</default>
+                <label>Brokerage</label>
+            </value>
+            <value>
+                <fullName>No Competitor</fullName>
+                <default>false</default>
+                <label>No Competitor</label>
+            </value>
+            <value>
+                <fullName>Commissions Inc</fullName>
+                <default>false</default>
+                <label>Commissions Inc</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

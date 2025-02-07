@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Citations_Reputation_Management</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Tier_Plan_Account__c</columns>
+    <columns>Website_Launch_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Product__c</field>
+        <operation>equals</operation>
+        <value>Citations + Reputation Management</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Active,Cancelled</value>
+    </filters>
+    <label>Citations + Reputation Management</label>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Queue_to_User</fullName>
+    <active>false</active>
+    <description>Prevents a lead from being assigned from a Queue to a User if the last activity date is less than 30 days ago if the status is “Non Converted”</description>
+    <errorConditionFormula>AND(
+ISCHANGED( OwnerId ),
+TODAY() -  LastActivityDate &lt; 30, 
+ISPICKVAL( Status , &quot;Non-Converted&quot;),
+Queue__c = true
+
+)</errorConditionFormula>
+    <errorMessage>You can not modify the Owner. Please, contact your Salesforce Administrator.</errorMessage>
+</ValidationRule>

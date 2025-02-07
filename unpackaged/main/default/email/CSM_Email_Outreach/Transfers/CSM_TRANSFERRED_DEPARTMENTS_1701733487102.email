@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hello {{{Recipient.FirstName}}},<br />
+<br />
+I’m transitioning to a new role at Luxury Presence and [New CSM Name] will now be your Client Success Manager. It's been a pleasure working with you!<br />
+<br />
+[New CSM Name] is fully aligned with your goals. They’re ready to continue to drive the growth of your brand and business.&nbsp;<br />
+<br />
+To facilitate a smooth transition, please schedule a brief 15-minute introductory meeting with [New CSM Name]: [INSERT CALENDAR LINK].&nbsp;<br />
+<br />
+We’ll circle back if we don’t hear from you by next week.&nbsp;<br />
+<br />
+Thank you for your trust and partnership. Please let us know if you have any questions!&nbsp;<br />
+<br />
+Warm regards,<br />
+{{{Sender.Name}}}</body>
+</html>

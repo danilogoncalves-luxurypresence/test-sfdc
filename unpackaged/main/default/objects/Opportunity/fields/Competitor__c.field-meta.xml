@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor__c</fullName>
+    <label>Competitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agent Image</fullName>
+                <default>false</default>
+                <label>Agent Image</label>
+            </value>
+            <value>
+                <fullName>Agenta</fullName>
+                <default>false</default>
+                <label>Agenta</label>
+            </value>
+            <value>
+                <fullName>Agent Fire</fullName>
+                <default>false</default>
+                <label>Agent Fire</label>
+            </value>
+            <value>
+                <fullName>TREM Group</fullName>
+                <default>false</default>
+                <label>TREM Group</label>
+            </value>
+            <value>
+                <fullName>Sierra Interactive</fullName>
+                <default>false</default>
+                <label>Sierra Interactive</label>
+            </value>
+            <value>
+                <fullName>Inside Real Estate (KVcore, Boomtown)</fullName>
+                <default>false</default>
+                <label>Inside Real Estate (KVcore, Boomtown)</label>
+            </value>
+            <value>
+                <fullName>CINC</fullName>
+                <default>false</default>
+                <label>CINC</label>
+            </value>
+            <value>
+                <fullName>Real Geeks</fullName>
+                <default>false</default>
+                <label>Real Geeks</label>
+            </value>
+            <value>
+                <fullName>Ylopo</fullName>
+                <default>false</default>
+                <label>Ylopo</label>
+            </value>
+            <value>
+                <fullName>REW</fullName>
+                <default>false</default>
+                <label>REW</label>
+            </value>
+            <value>
+                <fullName>Union St Media</fullName>
+                <default>false</default>
+                <label>Union St Media</label>
+            </value>
+            <value>
+                <fullName>Raliance</fullName>
+                <default>false</default>
+                <label>Raliance</label>
+            </value>
+            <value>
+                <fullName>Delta Media Group</fullName>
+                <default>false</default>
+                <label>Delta Media Group</label>
+            </value>
+            <value>
+                <fullName>IDC Global</fullName>
+                <default>false</default>
+                <label>IDC Global</label>
+            </value>
+            <value>
+                <fullName>WordPress (In-House)</fullName>
+                <default>false</default>
+                <label>WordPress (In-House)</label>
+            </value>
+            <value>
+                <fullName>Placester</fullName>
+                <default>false</default>
+                <label>Placester</label>
+            </value>
+            <value>
+                <fullName>LoneWolf</fullName>
+                <default>false</default>
+                <label>LoneWolf</label>
+            </value>
+            <value>
+                <fullName>HomeStack</fullName>
+                <default>false</default>
+                <label>HomeStack</label>
+            </value>
+            <value>
+                <fullName>Zenlist</fullName>
+                <default>false</default>
+                <label>Zenlist</label>
+            </value>
+            <value>
+                <fullName>RealScout</fullName>
+                <default>false</default>
+                <label>RealScout</label>
+            </value>
+            <value>
+                <fullName>Compass Collections</fullName>
+                <default>false</default>
+                <label>Compass Collections</label>
+            </value>
+            <value>
+                <fullName>Rechat</fullName>
+                <default>false</default>
+                <label>Rechat</label>
+            </value>
+            <value>
+                <fullName>Lofty</fullName>
+                <default>false</default>
+                <label>Lofty</label>
+            </value>
+            <value>
+                <fullName>Boomtown</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Boomtown</label>
+            </value>
+            <value>
+                <fullName>Commissions Inc</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Commissions Inc</label>
+            </value>
+            <value>
+                <fullName>Curaytor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Curaytor</label>
+            </value>
+            <value>
+                <fullName>No Competitor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Competitor</label>
+            </value>
+            <value>
+                <fullName>Other (Please Note)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Other (Please Note)</label>
+            </value>
+            <value>
+                <fullName>Real Estate Webmasters</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Real Estate Webmasters</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Agent Image</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Agenta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Agent Fire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>TREM Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Sierra Interactive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Inside Real Estate (KVcore, Boomtown)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>CINC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Real Geeks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Ylopo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>REW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Union St Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Raliance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Delta Media Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>IDC Global</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>WordPress (In-House)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Placester</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>LoneWolf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>HomeStack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Zenlist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>RealScout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Compass Collections</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Rechat</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

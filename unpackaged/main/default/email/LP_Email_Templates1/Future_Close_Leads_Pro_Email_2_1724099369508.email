@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Hope you're doing well!&nbsp; I wanted to share an example of a client who has seen great success with our Leads Pro Plan.<br />
+<br />
+We would love to help you achieve similar results.&nbsp; Just book a time in my calendar and we can get you started ASAP!<br />
+https://luxurypresence.na.chilipiper.com/book/me/{{{Sender.FirstName}}}-{{{Sender.LastName}}}<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}</body>
+</html>

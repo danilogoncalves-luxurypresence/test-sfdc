@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <description>This flow receives a service record and creates a reminder task for the service owner based on service Status and Status Elapsed Days</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>fSubjectFormula</name>
+        <dataType>String</dataType>
+        <expression>CASE({!varServiceRecord.Last_Status_Days_Elapsed__c},
+1,&quot;Client stuck in &quot;&amp;TEXT({!varServiceRecord.Status__c})&amp;&quot; for 1 day. Please call and text the client.&quot;,
+3,&quot;Client stuck in &quot;&amp;TEXT({!varServiceRecord.Status__c})&amp;&quot; for 3 days. Please call and text the client.&quot;,
+5,&quot;Client stuck in &quot;&amp;TEXT({!varServiceRecord.Status__c})&amp;&quot; for 5 days. Please call and email the client to ensure they complete their modules. Let them know we’ll begin building their website draft in 2 business days if not complete.&quot;,
+ 7,&quot;Client stuck in &quot;&amp;TEXT({!varServiceRecord.Status__c})&amp;&quot; for 1 week. Please call and email the client to let them know we’ll begin building their website draft. Move service status to Modules Complete.&quot;,
+&quot;Client stuck in &quot;&amp;TEXT({!varServiceRecord.Status__c})&amp;&quot; for &quot;&amp;TEXT({!varServiceRecord.Last_Status_Days_Elapsed__c})&amp;&quot; day(s). Please call and text the client.&quot;)</expression>
+    </formulas>
+    <interviewLabel>Subflow - Create Status Reminder Task for Service {!$Flow.CurrentDateTime}</interviewLabel>
+    <isAdditionalPermissionRequiredToRun>true</isAdditionalPermissionRequiredToRun>
+    <label>Subflow - Create Status Reminder Task for Service</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_Status_Reminder_Task_For_Service</name>
+        <label>Create Status Reminder Task For Service</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>$Flow.CurrentDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>varServiceRecord.OwnerId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Priority</field>
+            <value>
+                <stringValue>High</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <elementReference>fSubjectFormula</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>varServiceRecord.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Create_Status_Reminder_Task_For_Service</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>varServiceRecord</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Service__c</objectType>
+    </variables>
+</Flow>

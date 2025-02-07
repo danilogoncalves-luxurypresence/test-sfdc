@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SEO_GBP_Posts_Due</fullName>
+    <columns>Account__c</columns>
+    <columns>NAME</columns>
+    <columns>Due_Date__c</columns>
+    <columns>GBP_1__c</columns>
+    <columns>GBP_1_text__c</columns>
+    <columns>GBP_2__c</columns>
+    <columns>GBP_2_text__c</columns>
+    <columns>GBP_3__c</columns>
+    <columns>GBP_3_text__c</columns>
+    <columns>GBP_4__c</columns>
+    <columns>GBP_4_text__c</columns>
+    <columns>GBP_Link__c</columns>
+    <columns>Service__c</columns>
+    <columns>Service_Owner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>NAME</field>
+        <operation>contains</operation>
+        <value>GBP Posts</value>
+    </filters>
+    <label>SEO GBP Posts Due</label>
+</ListView>

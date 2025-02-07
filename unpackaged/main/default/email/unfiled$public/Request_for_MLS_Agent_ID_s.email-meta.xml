@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Request for MLS Agent ID(s)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>Request for MLS Agent ID(s)</name>
+    <style>freeForm</style>
+    <subject>MLS Agent ID Requested</subject>
+    <textOnly>Hi {!Contact.FirstName},    
+
+I hope you&#39;re having a great day! My name is [Coordinator&#39;s Name] and I am an IDX Coordinator here at Luxury Presence. I am working on integrating your site with your MLS.
+
+We use agent MLS IDs to sync your properties with the MLS, and I&#39;m reaching out because I am unable to find all your team member’s MLS agent IDs using our internal tool. If you could please provide the IDs for the team members below, and or confirm that you do not wish to sync their listings to your account at this time.
+
+MLS
+Agent Name: {!Contact.FirstName} {!Contact.LastName}
+
+
+Please note we were able to find all other agent IDs, and have synced them to the account. Let me know if you have any questions.
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

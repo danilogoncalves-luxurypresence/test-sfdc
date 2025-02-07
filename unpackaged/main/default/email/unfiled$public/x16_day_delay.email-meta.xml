@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>16 day delay</name>
+    <style>freeForm</style>
+    <subject>ATTN: The Luxury Presence Website is Getting Upgraded</subject>
+    <textOnly>Hi again,
+
+
+This will be Luxury Presence’s final attempt to let you know the website Website Domain will be upgraded to the new platform, Presence™. However I need to warn you that because Luxury Presence does not have access to the Domain Registrar account, if the website goes down for any reason, our team will not be able to quickly assess the issue and bring the website back.
+
+
+If you have questions please feel free to reply to this email, schedule a time on my calendar, or give me a call directly so we can gather your domain credentials.
+
+Best,
+Danielle.
+
+
+
+
+
+
+Luxury Presence Inc., 1808 Stanford Street, Santa Monica, California 90404, United States, 3109551077</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

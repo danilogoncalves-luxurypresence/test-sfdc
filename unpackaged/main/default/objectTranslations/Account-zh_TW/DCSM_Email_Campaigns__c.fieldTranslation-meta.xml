@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- DCSM Experiment email campaign tracking --></help>
+        <label><!-- DCSM Email Campaigns --></label>
+        <name>DCSM_Email_Campaigns__c</name>
+        <picklistValues>
+            <masterLabel>DCSM group A outreach</masterLabel>
+            <translation><!-- DCSM group A outreach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OWL 5 site optimizations</masterLabel>
+            <translation><!-- OWL 5 site optimizations --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

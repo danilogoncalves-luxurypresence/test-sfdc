@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- (MLS) Prior 12 m total transaction --></label>
+        <name>MLS_Prior_12_m_total_transaction__c</name>
+    </CustomFieldTranslation>

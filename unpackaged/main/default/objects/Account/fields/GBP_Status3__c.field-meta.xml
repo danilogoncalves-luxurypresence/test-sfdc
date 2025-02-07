@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GBP_Status3__c</fullName>
+    <label>GBP Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>GBP Set Up</fullName>
+                <default>false</default>
+                <label>GBP Set Up</label>
+            </value>
+            <value>
+                <fullName>Waiting on Verification</fullName>
+                <default>false</default>
+                <label>Waiting on Verification</label>
+            </value>
+            <value>
+                <fullName>Verification</fullName>
+                <default>false</default>
+                <label>Verification</label>
+            </value>
+            <value>
+                <fullName>Verified</fullName>
+                <default>false</default>
+                <label>Verified</label>
+            </value>
+            <value>
+                <fullName>Suspended</fullName>
+                <default>false</default>
+                <label>Suspended</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>No Access</fullName>
+                <default>false</default>
+                <label>No Access</label>
+            </value>
+            <value>
+                <fullName>Paused</fullName>
+                <default>false</default>
+                <label>Paused</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>GBP Suspended</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GBP Suspended</label>
+            </value>
+            <value>
+                <fullName>GBP Verified</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GBP Verified</label>
+            </value>
+            <value>
+                <fullName>Needs Verification</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Needs Verification</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

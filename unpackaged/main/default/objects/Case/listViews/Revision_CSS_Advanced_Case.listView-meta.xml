@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revision_CSS_Advanced_Case</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Revision - CSS/Advanced</label>
+    <queue>Revision_CSS_Advanced</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

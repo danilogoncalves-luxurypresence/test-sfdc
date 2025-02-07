@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X11_12_11_14_Compass_Retreat_Extra</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND (5 OR 6)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.MOBILE_PHONE</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>X2024_Event_Name__c</columns>
+    <columns>Lead_18_Digit_ID__c</columns>
+    <columns>SDR__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.DO_NOT_CALL</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>notEqual</operation>
+        <value>DNC</value>
+    </filters>
+    <filters>
+        <field>X2024_Event_Name__c</field>
+        <operation>contains</operation>
+        <value>11.13 - 11.14 - Compass Retreat - Charleston</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>contains</operation>
+        <value>General,Partners,MLS Leads (Net New),MLS Leads (Existing),JP,Luxury</value>
+    </filters>
+    <filters>
+        <field>LEAD.MOBILE_PHONE</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>LEAD.PHONE</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>11.12 - 11.14 - Compass Retreat- Extra</label>
+</ListView>

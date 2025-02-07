@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revision_Submitted_Approval_Process</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+OR(
+RecordType.Name = &quot;Design Change&quot;,
+RecordType.Name = &quot;Design Refresh&quot;,
+RecordType.Name = &quot;Property Website&quot;,
+RecordType.Name = &quot;Website Launches&quot;),
+ Revision_Submitted_Approved__c  = False,
+ISCHANGED( Status__c ),
+ispickval(Status__c, &quot;POC Review&quot;))</errorConditionFormula>
+    <errorMessage>Submit for approval to change status.</errorMessage>
+</ValidationRule>

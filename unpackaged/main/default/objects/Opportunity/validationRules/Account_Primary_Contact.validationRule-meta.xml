@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Primary_Contact</fullName>
+    <active>true</active>
+    <description>New Sales Opportunity, cannot be marked as Closed won, if the primary contact on the related Account is blank.</description>
+    <errorConditionFormula>AND(
+ISBLANK( Account.Contact_Email__c ),
+Record_Type_Name__c = &quot;New Sales&quot;,
+ISPICKVAL( StageName , &quot;Closed Won&quot;),
+ISCHANGED(StageName)
+)</errorConditionFormula>
+    <errorMessage>Please add a primary contact on the account</errorMessage>
+</ValidationRule>

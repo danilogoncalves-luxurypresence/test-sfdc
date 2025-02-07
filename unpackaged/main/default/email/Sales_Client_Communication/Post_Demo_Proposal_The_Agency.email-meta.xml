@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Used post demo for The Agency prospects to outline your proposal if there is a follow-up call scheduled.  Make sure your links and examples are up to date and current from the Pro-Designs doc.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>Post Demo Proposal | The Agency</name>
+    <style>freeForm</style>
+    <subject>Thanks {!Contact.FirstName} | Luxury Presence Proposal</subject>
+    <textOnly>Hi {!Contact.Name},
+
+
+Thanks again for the time and consideration today. I’ve outlined your goals and my plan recommendations below.
+
+
+
+Once you’ve had a chance to review them, you can book time on my calendar to ask any questions and discuss the next steps.
+
+
+
+Your goals:
+
+[REMOVE GOAL IF NOT RELEVANT]
+
+Create a beautifully branded website with integrated MLS technology
+
+Easily manage content on your website from a simple platform
+
+Collect quality inbound leads through SEO and lead generation
+
+Leverage fresh content to improve SEO and build trust and authority with your target market
+
+Grow your social media following, increase engagement, and establish yourself as an expert through our professional management services
+
+Boost lead reply rates and schedule more appointments with our AI Lead Nurture tool
+
+Launch dedicated property websites for every listing
+
+Collaborate with clients using the AI-powered tools in our new mobile app, which you can personalize using your own branding
+
+Get access to a flexible and responsive support team that has your back 24/7
+
+Pro Design Examples:
+
+The Producer | The Masterpiece
+
+
+Recommended plan:
+
+REMOVE ALL PLANS EXCEPT FOR THE ONE YOU RECOMMENDED IN THE DEMO
+
+
+Launch+
+
+This plan is designed for agents who want a beautiful website that engages visitors, builds their brand, and converts potential clients. 
+
+Preferred Christie&#39;s International Realty Pricing: $500 setup + $180/month
+
+What’s included:
+
+Website
+A stunning, ADA-compliant, branded website published within 30 days (opening stock video included)
+A modern MLS search experience designed to convert website traffic into leads
+An interactive home valuation tool designed to attract seller leads
+An intuitive interface for publishing content and editing your site
+Interactive neighborhood market data, updated monthly
+Ongoing software and website updates
+A dedicated onboarding manager and 24/7 chat and email support
+Listing marketing
+Three dedicated property sites to market your listings
+A feed of global properties you can showcase on your website
+The ability to share off-market listings privately and securely
+Brand+
+
+This is our most popular plan, built for established agents and teams looking to boost their digital presence and rank higher in search results.
+
+Preferred Christie&#39;s International Realty Pricing: $1,500 setup + $450/month
+
+What’s included:
+
+Website
+A stunning, ADA-compliant, branded website published within 30 days (opening stock video included)
+A modern MLS search experience designed to convert website traffic into leads
+An interactive home valuation tool designed to attract seller leads
+An intuitive interface for publishing content and editing your site
+Interactive neighborhood market data, updated monthly
+Ongoing software and website updates
+A dedicated onboarding manager and 24/7 chat and email support
+Listing marketing
+Three dedicated property sites to market your listings
+A feed of global properties you can showcase on your website
+The ability to share off-market listings privately and securely
+Brand SEO
+Consistency across 25 business citations to help you rank highly in searches for your name and business
+Google Business Profile setup and optimization of how your business appears online
+Online reputation monitoring
+SEO migration from your current site to Luxury Presence
+Lead conversion tools
+Templates to help you create winning listing presentations and CMAs
+Our Lead Intelligence tool, which researches your prospects online to enrich your outreach strategies
+
+Leads Pro
+
+This plan is designed for agents looking to scale through enhanced online lead generation and conversion tools.
+
+Preferred Christie&#39;s International Realty Pricing: $2,500 Setup + $1,500/month
+
+What’s Included:
+
+Website
+A stunning, ADA-compliant, branded website published within 30 days (opening stock video included)
+A modern MLS search experience designed to convert website traffic into leads
+An interactive home valuation tool designed to attract seller leads
+An intuitive interface for publishing content and editing your site
+Interactive neighborhood market data, updated monthly
+Ongoing software and website updates
+A dedicated onboarding manager
+Listing marketing
+20 dedicated property sites to market your listings
+A feed of global properties you can showcase on your website
+The ability to share off-market listings privately and securely
+Brand SEO
+Consistency across 25 business citations to help you rank highly in searches for your name and business
+Google Business Profile setup and optimization of how your business appears online
+Online reputation monitoring
+SEO migration from your current site to Luxury Presence
+Lead conversion tools
+Templates to help you create winning listing presentations and CMAs
+Our Lead Intelligence tool, which researches your prospects online to enrich your outreach strategies
+Our AI Lead Nurture Tool, which engages to inbound leads quickly and automatically
+Lead-generating ads
+Expert management of your paid social and Google PPC campaigns to increase your lead flow, including a $500 budget toward a buyer campaign (seller campaign requires extra $500 minimum spend) 
+Beautiful landing pages tailored to your target audience to boost conversion rates and optimize ad spend 
+Support
+A dedicated client success manager
+24/7 chat and email support
+Monthly reporting to track your progress
+
+
+SEO Pro
+
+This plan is designed to help established agents and teams grow organically with an aggressive approach to SEO and competitive content strategy.
+
+Preferred Christie&#39;s International Realty Pricing: $2,500 setup + $2,700/month
+
+What’s included:
+
+Website
+A stunning, ADA-compliant, branded website published within 30 days (opening stock video included)
+A modern MLS search experience designed to convert website traffic into leads
+An interactive home valuation tool designed to attract seller leads
+An intuitive interface for publishing content and editing your site
+Interactive neighborhood market data, updated monthly
+Ongoing software and website updates
+A dedicated onboarding manager
+Listing marketing
+50 dedicated property sites to market your listings
+A feed of global properties you can showcase on your website
+The ability to share off-market listings privately and securely
+Brand SEO
+Consistency across 25 business citations to help you rank highly in searches for your name and business
+Google Business Profile setup and optimization of how your business appears online
+Online reputation monitoring
+SEO migration from your current site to Luxury Presence
+Lead conversion tools
+Templates to help you create winning listing presentations and CMAs
+Our Lead Intelligence tool, which researches your prospects online to enrich your outreach strategies
+Our AI Lead Nurture Tool, which engages to inbound leads quickly and automatically
+Lead-generating ads
+Expert management of your paid social and Google PPC campaigns to increase your lead flow, including a $500 budget toward a buyer campaign (seller campaign requires extra $500 minimum spend) 
+Beautiful landing pages tailored to your target audience to boost conversion rates and optimize ad spend 
+Support
+A dedicated client success manager
+24/7 chat and email support
+Monthly reporting to track your progress
+Competitive content strategy
+Carefully crafted agent bios
+A campaign to get your site to rank highly for competitive keywords in one viable location
+6 optimized neighborhood articles to increase rankings and establish local credibility
+24 custom, optimized blog posts per year
+12 offsite backlinks per year
+
+We also offer multiple ways to customize your plan, from our new Presence Copilot app, which uses AI to streamline client collaboration, to custom website designs (agent example | team example). You can see all our available add-ons on the pricing sheet linked above, but we can also talk through them when we meet.
+
+Finally, I wanted to mention that if you refer another agent, team, or brokerage who signs up, you’ll get a $1,200 credit toward your plan.
+Looking forward to hearing from you. Book time on my calendar [Insert Link] if you have any questions or are ready to get the ball rolling! 
+
+Best,
+{!Contact.OwnerFirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

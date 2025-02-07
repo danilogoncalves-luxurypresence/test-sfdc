@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>WFA - Email 2 - Gentle Nudge</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>WFA - Email 2 - Gentle Nudge</name>
+    <style>none</style>
+    <subject>Following Up on Google Business Profile Access 🚀</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

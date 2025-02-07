@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Website_launched_stage_changed</fullName>
+    <active>true</active>
+    <description>Prevent anyone from changing &quot;Website Launched&quot; stage to any other stage in the pipeline. If they want to change to something else, they must provide a reason to change it outside that stage.</description>
+    <errorConditionFormula>AND (
+  
+ RecordTypeId  =&quot;0125f000000VvKMAA0&quot;,
+ ISCHANGED( Status__c ),
+ ISPICKVAL(PRIORVALUE(Status__c),&quot;Website Launched&quot;),
+ ISBLANK(Reason_for_Stage_Change__c) 
+
+)</errorConditionFormula>
+    <errorDisplayField>Reason_for_Stage_Change__c</errorDisplayField>
+    <errorMessage>Please provide a reason to change it outside that stage.</errorMessage>
+</ValidationRule>

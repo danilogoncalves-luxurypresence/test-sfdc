@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}}<br />
+<br />
+I hope this message finds you well. I came across your listing, [Property Address], and saw an opportunity to significantly (and simply) enhance your listing's presentation and reach using one of our features, have a look.<br />
+<br />
+I made this complimentary site for you: [Property site URL], using our easy-to-use feature called "One-Click Property Websites", which allows you to effortlessly create a stunning website for any of your listings, at no additional cost and in almost no time at all. Not only does this show your listings in their best light, it also serves as an effective lead generator. It creates the perfect landing page for your listing when used in a paid media promotion or even a social media post.<br />
+<br />
+If you're interested in how you can easily create one as well, I've linked a <a href="https://luxurypresence.my.site.com/helpcenter/s/article/How-to-Create-a-One-Click-Property-Website">tutorial here</a>. I am confident that you'll find this feature both user-friendly and highly beneficial.<br />
+<br />
+Let me know if you have any questions, I’m here to help!<br />
+<br />
+Best,<br />
+{{{Sender.Name}}}</body>
+</html>

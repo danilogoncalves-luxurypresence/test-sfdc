@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BoR Signature Needed - 1st Follow Up</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>BoR Signature Needed - 1st Follow Up</name>
+    <style>freeForm</style>
+    <subject>Following Up: MLS Introduction</subject>
+    <textOnly>Hi {!Service__c.Contact_First_Name__c},
+
+I hope you are having a great day! I&#39;m following up with our previous email.
+
+Let me know if you have any questions. I&#39;m here to help!
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

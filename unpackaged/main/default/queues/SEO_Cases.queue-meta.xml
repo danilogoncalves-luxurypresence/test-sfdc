@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>dummy@luxurypresence.com.invalid</email>
+    <name>SEO Cases</name>
+    <queueMembers>
+        <users>
+            <user>dhernandez@luxurypresence.com</user>
+            <user>mcaguitla@luxurypresence.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>SEO_Cases</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

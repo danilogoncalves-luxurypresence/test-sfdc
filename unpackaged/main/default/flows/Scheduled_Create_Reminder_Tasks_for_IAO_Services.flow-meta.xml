@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <description>Daily scan for Services in Modules in Progress/Pending Invitation in 1, 3, 5 days and create task reminder for their owner</description>
+    <environments>Default</environments>
+    <interviewLabel>Scheduled - Create Reminder Tasks for IAO Services {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Scheduled - Create Reminder Tasks for IAO Services</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Create_Status_Reminder_Task_for_Service</targetReference>
+        </connector>
+        <filterLogic>(1 OR 2) AND (3 OR 4 OR 5 OR 6) AND 7</filterLogic>
+        <filters>
+            <field>Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Pending Invitation</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Modules in Progress</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Last_Status_Days_Elapsed__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Last_Status_Days_Elapsed__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <numberValue>3.0</numberValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Last_Status_Days_Elapsed__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <numberValue>5.0</numberValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Last_Status_Days_Elapsed__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <numberValue>7.0</numberValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Record_Type_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>In-App Onboarding</stringValue>
+            </value>
+        </filters>
+        <object>Service__c</object>
+        <schedule>
+            <frequency>Daily</frequency>
+            <startDate>2024-08-07</startDate>
+            <startTime>08:00:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>Create_Status_Reminder_Task_for_Service</name>
+        <label>Create Status Reminder Task for Service</label>
+        <locationX>176</locationX>
+        <locationY>252</locationY>
+        <flowName>Subflow_Create_Status_Reminder_Task_for_Service</flowName>
+        <inputAssignments>
+            <name>varServiceRecord</name>
+            <value>
+                <elementReference>$Record</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+</Flow>

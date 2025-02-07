@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_Rachel_s_Clients</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Design_Intake_Call__c</columns>
+    <columns>Design_Intake_Call_Status__c</columns>
+    <columns>Staging_Link__c</columns>
+    <columns>Website_Draft_Preview__c</columns>
+    <columns>Strategy_Brief__c</columns>
+    <columns>Subscription_start_date__c</columns>
+    <columns>Subscription_extension_date__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Website Launched,Cancelled</value>
+    </filters>
+    <label>Copy of Rachel&#39;s Clients</label>
+</ListView>

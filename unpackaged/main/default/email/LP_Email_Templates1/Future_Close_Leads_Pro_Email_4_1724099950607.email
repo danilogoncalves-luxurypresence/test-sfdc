@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+If you're ready to elevate your online presence with expert marketing support every step of the way, we're ready to get rolling!<br />
+<br />
+Just reply to this email or book a time in my calendar with the link below, and we'll get your Leads Pro onboarding started ASAP.&nbsp; If you have any questions, let me know!<br />
+https://luxurypresence.na.chilipiper.com/book/me/{{{Sender.FirstName}}}-{{{Sender.LastName}}}<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}</body>
+</html>

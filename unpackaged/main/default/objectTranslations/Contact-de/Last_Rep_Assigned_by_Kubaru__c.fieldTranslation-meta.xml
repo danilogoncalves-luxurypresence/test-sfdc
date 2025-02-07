@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Last Rep Assigned by Kubaru --></label>
+        <name>Last_Rep_Assigned_by_Kubaru__c</name>
+        <relationshipLabel><!-- Contacts (Last Rep Assigned by Kubaru) --></relationshipLabel>
+    </CustomFieldTranslation>

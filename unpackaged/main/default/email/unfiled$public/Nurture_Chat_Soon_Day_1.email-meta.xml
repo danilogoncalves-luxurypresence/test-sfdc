@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>Nurture Chat Soon - Day 1</name>
+    <style>freeForm</style>
+    <subject>Let&#39;s chat about your website</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+It&#39;s {!User.Name} from Luxury Presence. It&#39;s been a while since we last spoke, and I hope you&#39;re doing well.
+
+I wanted to check in and see if you&#39;re still interested in exploring ways to improve your website and digital marketing efforts. Our platform helps real estate agents and teams stand out online and close more deals, and we’d be thrilled to do the same for your business.
+
+We have some new features that might interest you, and I&#39;d love to hear about any changes or challenges you&#39;re facing in your business.
+
+If you have some time, let&#39;s catch up on a call. You can schedule a meeting with me here: [Meeting Link]
+
+Looking forward to hearing from you.
+
+Best,
+{!User.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

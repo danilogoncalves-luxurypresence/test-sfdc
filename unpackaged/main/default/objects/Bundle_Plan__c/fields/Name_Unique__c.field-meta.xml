@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name_Unique__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Very annoyingly, salesforce doesn&#39;t let us define name as unique. This field combined with a simple trigger does the trick.</description>
+    <externalId>false</externalId>
+    <label>Name (Unique)</label>
+    <length>80</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

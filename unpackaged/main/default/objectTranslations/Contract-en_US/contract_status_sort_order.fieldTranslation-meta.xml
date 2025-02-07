@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <caseValues>
+            <plural>false</plural>
+            <value>Subscription Status Sort Order</value>
+        </caseValues>
+        <name>contract_status_sort_order</name>
+        <startsWith>Consonant</startsWith>
+    </CustomFieldTranslation>

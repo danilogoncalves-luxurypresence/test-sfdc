@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Build Your Presence Webinar --></label>
+        <name>Build_Your_Presence_Webinar__c</name>
+        <picklistValues>
+            <masterLabel>4.25.2024</masterLabel>
+            <translation><!-- 4.25.2024 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.30.2024</masterLabel>
+            <translation><!-- 5.30.2024 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

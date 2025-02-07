@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Website Subscription Payment Term --></label>
+        <name>Website_subscription_payment_term__c</name>
+        <picklistValues>
+            <masterLabel>2 Years Upfront</masterLabel>
+            <translation><!-- 2 Years Upfront --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 years upfront</masterLabel>
+            <translation><!-- 3 years upfront --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annually</masterLabel>
+            <translation><!-- Annually --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monthly</masterLabel>
+            <translation><!-- Monthly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

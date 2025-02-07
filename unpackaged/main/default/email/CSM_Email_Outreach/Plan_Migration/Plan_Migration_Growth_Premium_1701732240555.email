@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+Exciting news! We recently enhanced our plans to deliver maximum value and reflect what our clients have told us they care about most.&nbsp;<br />
+<br />
+Since your plan is up for renewal soon, you’ll be upgraded to our [PLAN] plan.<br />
+<br />
+Your enhanced plan includes:
+<ul>
+	<li><strong>Link building:</strong> We secure high-quality backlinks from authoritative websites to boost your site's credibility and search rankings.</li>
+	<li><strong>Business citations:</strong> We ensure that your key business information is consistent across multiple platforms, improving your search visibility and making it easier for prospects to find your business.</li>
+	<li><strong>Reputation monitoring:</strong> We provide real-time insights into how the public perceives your brand, so you can manage your reputation, improve customer loyalty, and increase business opportunities.</li>
+	<li><strong>Blog posts: </strong>You now get 24 blog posts per year for your primary location. This ongoing SEO-optimized long-form content is a critical part of improving your search visibility and generating organic leads.&nbsp;</li>
+</ul>
+You can review our updated Terms of Service here. To confirm your new plan, please sign <u>this contract addendum.</u> I’m happy to answer any questions, and we can review your strategy in our next meeting on [DATE].<br />
+<br />
+Best,<br />
+{{{Sender.Name}}}<br />
+<br />
+&nbsp;</body>
+</html>

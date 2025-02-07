@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_My_BHHS_Team_Report_11_26_24</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Lead_Source_Subtype_1__c</columns>
+    <columns>LEAD.MOBILE_PHONE</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LAST_CALL_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Lead_Source_Subtype_1__c</field>
+        <operation>equals</operation>
+        <value>builtwith-Dec24-competitor</value>
+    </filters>
+    <label>Builtwith.com competitor Dec24</label>
+</ListView>

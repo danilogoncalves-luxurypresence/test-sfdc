@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_Lead_Nurture_Service</fullName>
+    <filterScope>Queue</filterScope>
+    <label>AI Lead Nurture</label>
+    <queue>AI_Lead_Nurture</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

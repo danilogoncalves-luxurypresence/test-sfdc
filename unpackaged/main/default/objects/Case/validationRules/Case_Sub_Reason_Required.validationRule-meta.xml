@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Sub_Reason_Required</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+    Record_Type_Name__c = &quot;Support&quot;,
+ ISPICKVAL(Case_Sub_Reason_1__c, &quot;&quot;),
+ NOT(ISPICKVAL(Status, &quot;New&quot;)),
+
+ AND
+ ( NOT(
+    OR(
+      ISPICKVAL(Case_Reason_1__c , &quot;DNS Updates&quot;),
+      ISPICKVAL(Case_Reason_1__c, &quot;Domain Forwarding&quot;),
+      ISPICKVAL(Case_Reason_1__c, &quot;Domain Change&quot;),
+      ISPICKVAL(Case_Reason_1__c, &quot;Checking on Existing Case&quot;),
+      ISPICKVAL(Case_Reason_1__c, &quot;Spam&quot;),
+      ISPICKVAL(Case_Reason_1__c, &quot;Duplicate Case&quot;),
+      ISPICKVAL(Case_Reason_1__c, &quot;Non-IDX Bug&quot;),
+      ISPICKVAL(Case_Reason_1__c, &quot;Listing Alert Emails&quot;),
+      ISPICKVAL(Case_Reason_1__c, &quot;Feature Request&quot;), ISPICKVAL(Case_Reason_1__c , &quot;Other&quot;),
+ ISPICKVAL(Case_Reason_1__c , &quot;HR&quot;),
+ISPICKVAL(Case_Reason_1__c , &quot;Help Center&quot;),
+ ISPICKVAL(Case_Reason_1__c , &quot;Onboarding&quot;)
+    ))
+  )
+
+)</errorConditionFormula>
+    <errorMessage>Please fill out a case sub reason before saving the case</errorMessage>
+</ValidationRule>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agent Subdomains</fullName>
+                <default>false</default>
+                <label>Agent Subdomains</label>
+            </value>
+            <value>
+                <fullName>AI Lead Nurture</fullName>
+                <default>false</default>
+                <label>AI Lead Nurture</label>
+            </value>
+            <value>
+                <fullName>Automated Blogs</fullName>
+                <default>false</default>
+                <label>Automated Blogs</label>
+            </value>
+            <value>
+                <fullName>Blogs</fullName>
+                <default>false</default>
+                <label>Blogs</label>
+            </value>
+            <value>
+                <fullName>Brand SEO</fullName>
+                <default>false</default>
+                <label>Brand SEO</label>
+            </value>
+            <value>
+                <fullName>Content Review</fullName>
+                <default>false</default>
+                <label>Content Review</label>
+            </value>
+            <value>
+                <fullName>Design Change</fullName>
+                <default>false</default>
+                <label>Design Change</label>
+            </value>
+            <value>
+                <fullName>Design Refresh</fullName>
+                <default>false</default>
+                <label>Design Refresh</label>
+            </value>
+            <value>
+                <fullName>Editorial SEO</fullName>
+                <default>false</default>
+                <label>Editorial SEO</label>
+            </value>
+            <value>
+                <fullName>GMB Posts</fullName>
+                <default>false</default>
+                <label>GBP Posts</label>
+            </value>
+            <value>
+                <fullName>GBP SetUp</fullName>
+                <default>false</default>
+                <label>GBP SetUp</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>true</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>MLS Implementation</fullName>
+                <default>false</default>
+                <label>MLS Implementation</label>
+            </value>
+            <value>
+                <fullName>On-Demand Ads</fullName>
+                <default>false</default>
+                <label>On-Demand Ads</label>
+            </value>
+            <value>
+                <fullName>Paid Media</fullName>
+                <default>false</default>
+                <label>Paid Media</label>
+            </value>
+            <value>
+                <fullName>Platform Migration</fullName>
+                <default>false</default>
+                <label>Platform Migration</label>
+            </value>
+            <value>
+                <fullName>Presence Copilot</fullName>
+                <default>false</default>
+                <label>Presence Copilot</label>
+            </value>
+            <value>
+                <fullName>Property Website</fullName>
+                <default>false</default>
+                <label>Property Website</label>
+            </value>
+            <value>
+                <fullName>SEO Key Word Analysis</fullName>
+                <default>false</default>
+                <label>SEO Key Word Analysis</label>
+            </value>
+            <value>
+                <fullName>SEO Migration</fullName>
+                <default>false</default>
+                <label>SEO Migration</label>
+            </value>
+            <value>
+                <fullName>SEO Optimizations</fullName>
+                <default>false</default>
+                <label>SEO Optimizations</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>Website Launches</fullName>
+                <default>false</default>
+                <label>Website Launches</label>
+            </value>
+            <value>
+                <fullName>White Label App</fullName>
+                <default>false</default>
+                <label>White Label App</label>
+            </value>
+            <value>
+                <fullName>Brand Identity</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Brand Identity</label>
+            </value>
+            <value>
+                <fullName>Citations + Reputation Management</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Citations + Reputation Management</label>
+            </value>
+            <value>
+                <fullName>Custom Website</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Custom Website</label>
+            </value>
+            <value>
+                <fullName>Digital CMA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Digital CMA</label>
+            </value>
+            <value>
+                <fullName>Lead Intelligence</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lead Intelligence</label>
+            </value>
+            <value>
+                <fullName>Link Building</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Link Building</label>
+            </value>
+            <value>
+                <fullName>Local SEO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Local SEO</label>
+            </value>
+            <value>
+                <fullName>Monthly and Quarterly Reporting</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Monthly and Quarterly Reporting</label>
+            </value>
+            <value>
+                <fullName>One-Click Property Website</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>One-Click Property Website</label>
+            </value>
+            <value>
+                <fullName>Self-Service Property Website</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Self-Service Property Website</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

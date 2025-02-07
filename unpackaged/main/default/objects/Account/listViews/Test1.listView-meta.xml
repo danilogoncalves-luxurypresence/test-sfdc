@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Test1</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Tier_Plan__c</columns>
+    <columns>LAST_EMAIL_SENT_DATE</columns>
+    <columns>Subscription_Start_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Cancelled</value>
+    </filters>
+    <label>Test</label>
+</ListView>

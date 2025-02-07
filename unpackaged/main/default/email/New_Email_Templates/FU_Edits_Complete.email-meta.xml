@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support_24</letterhead>
+    <name>Edits Complete</name>
+    <style>freeForm</style>
+    <subject>Your Luxury Presence revisions are complete</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Thanks for your patience while we worked on your request. I’m happy to let you know that the edits for your website have been successfully completed. We’ve made the changes based on your feedback, and everything should now be updated.
+
+Details | Screenshots
+
+You should see these reflected on the live site shortly. If you have any additional feedback, feel free to share it here.
+
+By the way, you’ll receive an email soon asking about your experience working with me. If you could spare a moment to fill it out, I’d be very grateful!
+
+Thank you again for your collaboration, and we look forward to continuing to support your success! 🚀
+
+Best regards,
+{!User.FirstName}
+Luxury Presence Support
+(310) 955-1077
+support@luxurypresence.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

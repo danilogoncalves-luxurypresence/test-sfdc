@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Minimum_Price_lower_than_BundlePrice</fullName>
+    <active>true</active>
+    <errorConditionFormula>Minimum_Price_Allowed__c &gt;  Bundle_Price__c</errorConditionFormula>
+    <errorDisplayField>Minimum_Price_Allowed__c</errorDisplayField>
+    <errorMessage>MInimum Price can&#39;t be higher than the standard Bundle Price</errorMessage>
+</ValidationRule>

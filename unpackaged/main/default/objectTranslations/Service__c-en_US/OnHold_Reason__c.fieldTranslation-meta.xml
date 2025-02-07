@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- On Hold Reason --></label>
+        <name>OnHold_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Blocked</masterLabel>
+            <translation><!-- Blocked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brokerage Specification</masterLabel>
+            <translation><!-- Brokerage Specification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Type</masterLabel>
+            <translation><!-- Client Type --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Connecting with IM</masterLabel>
+            <translation><!-- Connecting with IM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Info</masterLabel>
+            <translation><!-- Contact Info --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design Template</masterLabel>
+            <translation><!-- Design Template --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In scope</masterLabel>
+            <translation><!-- In scope --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need more information before build</masterLabel>
+            <translation><!-- Need more information before build --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Scope</masterLabel>
+            <translation><!-- Out of Scope --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website Type</masterLabel>
+            <translation><!-- Website Type --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

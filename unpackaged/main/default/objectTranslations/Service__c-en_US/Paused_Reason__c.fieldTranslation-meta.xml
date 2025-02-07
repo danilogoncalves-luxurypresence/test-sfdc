@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Paused Reason --></label>
+        <name>Paused_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Blocked</masterLabel>
+            <translation><!-- Blocked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Credit Card Failed</masterLabel>
+            <translation><!-- Credit Card Failed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Budget</masterLabel>
+            <translation><!-- No Budget --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation><!-- On Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opted out of Service</masterLabel>
+            <translation><!-- Opted out of Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Strategizing</masterLabel>
+            <translation><!-- Re-Strategizing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unresponsive</masterLabel>
+            <translation><!-- Unresponsive --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

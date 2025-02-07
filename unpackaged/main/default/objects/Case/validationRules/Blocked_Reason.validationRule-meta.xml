@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blocked_Reason</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ RecordTypeId =  $Label.ID_Case_SFDC_Ticket,
+ ISCHANGED( Status ),
+ ISPICKVAL(Status , &quot;Blocked&quot;), 
+ ISPICKVAL( On_Hold_Reason__c ,&quot;&quot; )
+)</errorConditionFormula>
+    <errorMessage>Blocked Reason needs to be completed to move to the stage “Blocked”</errorMessage>
+</ValidationRule>

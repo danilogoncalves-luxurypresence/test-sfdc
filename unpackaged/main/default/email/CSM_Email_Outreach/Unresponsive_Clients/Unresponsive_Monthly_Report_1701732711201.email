@@ -1,0 +1,13 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+I hope you are well! I’m including your [LINK:]<u>monthly marketing deck</u> for a high-level overview of your website performance, SEO optimizations, and current action items.<br />
+<br />
+For a more in-depth strategy session, please reserve 30 minutes on [LINK]<u>my calendar</u>. As always, feel free to reach out with any questions.<br />
+<br />
+Best,<br />
+{{{Sender.Name}}}</body>
+</html>

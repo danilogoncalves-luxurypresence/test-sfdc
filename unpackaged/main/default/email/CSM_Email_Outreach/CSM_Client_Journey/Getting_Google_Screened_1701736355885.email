@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+I’m reaching out with instructions to help you get verified on Google.&nbsp;<br />
+<br />
+The Google Screened badge helps you build a trusted reputation and appear at the top of Google search results. And because Google makes it so easy to click to call, this can dramatically increase the amount of phone calls you get from leads. Being verified by Google also allows you to participate in Local Services Ads and connect with people searching Google for the services you offer.&nbsp;<br />
+<br />
+I'll attach a PDF with more details but here's a quick overview of how to get verified:
+<ul>
+	<li><a href="https://ads.google.com/local-services-ads/#!/">Create your Local Services Account</a>. Make sure to use the same email address as your Google Business account.&nbsp;</li>
+	<li><strong>Request verification.</strong> Click the 3 lines in the top left corner, choose “Business Verification,” and follow the required steps.</li>
+</ul>
+Let me know if you have any questions!<br />
+<br />
+Best,&nbsp;<br />
+{{{Sender.Name}}}</body>
+</html>

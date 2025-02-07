@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support_24</letterhead>
+    <name>Post-Launch Congratulations</name>
+    <style>freeForm</style>
+    <subject>Congratulations on the successful launch of your new website!</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Congratulations on the recent launch of your new website! 🎉
+
+We know you’re excited, and you might be wondering, “What’s next?” Don’t worry, we’ve got you covered!
+
+The Luxury Presence Support team is here for you 24/7, offering assistance through chat, email, and phone. Below, you’ll find all the ways to get in touch with us, along with some helpful resources.
+
+Chat: Live chat with us from the platform.
+Phone: (310) 955-1077
+Email: support@luxurypresence.com
+
+Webinars: https://luxurypresence.my.site.com/helpcenter/s/article/Sign-Up-for-Live-Classes
+Knowledge Base: https://luxurypresence.my.site.com/helpcenter/s/
+Walk-through of the Presence platform: https://pitch.com/v/luxury-presence-dashboard-walkthrough-bqgftp
+
+Happy browsing, and again, congratulations on your beautiful new site!
+
+Best regards,
+{!User.FirstName}
+Luxury Presence Support
+(310) 955-1077
+support@luxurypresence.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blogs_with_Charlene_in_Freelancer_field</fullName>
+    <columns>NAME</columns>
+    <columns>Content_Specialist__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service_schedule__c.Blogs_per_Quarter</value>
+    </filters>
+    <filters>
+        <field>Freelancer__c</field>
+        <operation>equals</operation>
+        <value>Charlene Pierce</value>
+    </filters>
+    <label>Blogs with Charlene in Freelancer field</label>
+</ListView>

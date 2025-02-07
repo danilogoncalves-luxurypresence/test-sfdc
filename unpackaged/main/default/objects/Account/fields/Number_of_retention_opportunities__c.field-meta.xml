@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_retention_opportunities__c</fullName>
+    <label>Number of retention opportunities</label>
+    <summaryFilterItems>
+        <field>Opportunity.Addendum_Type__c</field>
+        <operation>equals</operation>
+        <value>Downgrade</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Opportunity.Addendum_Type__c</field>
+        <operation>equals</operation>
+        <value>Cancellation</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

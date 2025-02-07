@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Waiting For Setup Fee Payment? --></label>
+        <name>Waiting_For_Setup_Fee_Payment__c</name>
+    </CustomFieldTranslation>

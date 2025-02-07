@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MLS_Pages_Required</fullName>
+    <active>false</active>
+    <description>SF Case #00151185</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Status__c, &quot;Ready to Launch&quot;),
+ Tier_Plan__c &lt;&gt; &quot;Launch+&quot;,
+   OR(
+        RecordType.Name = &quot;In - App Onboarding&quot;,
+        RecordType.Name = &quot;Website Launches&quot;,
+        RecordType.Name = &quot;Custom Website&quot;
+        
+    ),
+   
+
+
+OR (
+ISPICKVAL( Were_the_6_MLS_Pages_added__c  ,&quot;&quot;),
+        AND(
+            ISPICKVAL(Were_the_6_MLS_Pages_added__c, &quot;No&quot;),
+            ISBLANK( Why_were_MLS_Pages_not_complete__c  )
+        )
+)
+)</errorConditionFormula>
+    <errorDisplayField>Were_the_6_MLS_Pages_added__c</errorDisplayField>
+    <errorMessage>&quot;Were the 6 MLS Pages Added?&quot; are Required. If &quot;No&quot; is selected please fill out Why MLS Pages were not complete</errorMessage>
+</ValidationRule>

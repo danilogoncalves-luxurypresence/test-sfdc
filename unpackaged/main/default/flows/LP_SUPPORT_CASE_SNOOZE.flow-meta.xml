@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <decisions>
+        <name>AWAITING_INTERNAL_TEAM</name>
+        <label>AWAITING INTERNAL TEAM</label>
+        <locationX>182</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>STILL_IN_AWAITING_INTERNAL_TEAM_STATUS</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Awaiting Internal Team</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AWAITING_INTERNAL_TEAM_OPEN</targetReference>
+            </connector>
+            <label>STILL IN AWAITING INTERNAL TEAM STATUS</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>HOLD_OR_AWAITING_LINEAR_RESPONSE</name>
+        <label>HOLD OR AWAITING LINEAR RESPONSE</label>
+        <locationX>754</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>STILL_IN_HOLD</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Escalated</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>HOLD_OPEN</targetReference>
+            </connector>
+            <label>STILL IN HOLD</label>
+        </rules>
+        <rules>
+            <name>STILL_IN_AWAITING_LINEAR_RESPONSE</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Awaiting Linear Response</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AWAITING_LINEAR_RESPONSE_OPEN</targetReference>
+            </connector>
+            <label>STILL IN AWAITING LINEAR RESPONSE</label>
+        </rules>
+    </decisions>
+    <description>Returns cases to open after set amounts of time in other statuses</description>
+    <environments>Default</environments>
+    <interviewLabel>LP_SUPPORT_CASE_SNOOZE {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>LP_SUPPORT_CASE_SNOOZE</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>AWAITING_INTERNAL_TEAM_OPEN</name>
+        <label>AWAITING INTERNAL TEAM &gt; OPEN</label>
+        <locationX>50</locationX>
+        <locationY>384</locationY>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Open</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>AWAITING_LINEAR_RESPONSE_OPEN</name>
+        <label>AWAITING LINEAR RESPONSE &gt; OPEN</label>
+        <locationX>754</locationX>
+        <locationY>384</locationY>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Open</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>HOLD_OPEN</name>
+        <label>HOLD &gt; OPEN</label>
+        <locationX>490</locationX>
+        <locationY>384</locationY>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Open</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>144</locationX>
+        <locationY>0</locationY>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>1 AND (2 OR 3 OR 4)</filterLogic>
+        <filters>
+            <field>Record_Type_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Support</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Escalated</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Awaiting Internal Team</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Awaiting Linear Response</stringValue>
+            </value>
+        </filters>
+        <object>Case</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>WAIT_24H</name>
+            <connector>
+                <targetReference>AWAITING_INTERNAL_TEAM</targetReference>
+            </connector>
+            <label>WAIT 24H</label>
+            <offsetNumber>24</offsetNumber>
+            <offsetUnit>Hours</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>WAIT_72H</name>
+            <connector>
+                <targetReference>HOLD_OR_AWAITING_LINEAR_RESPONSE</targetReference>
+            </connector>
+            <label>WAIT 72H</label>
+            <offsetNumber>72</offsetNumber>
+            <offsetUnit>Hours</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+</Flow>

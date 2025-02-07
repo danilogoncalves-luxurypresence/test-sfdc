@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Book_New_Sale_in_Quickbooks__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Assignation in order to create the &quot;Book New Sale in Quickbooks&quot; task</description>
+    <label>Book New Sale in Quickbooks</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

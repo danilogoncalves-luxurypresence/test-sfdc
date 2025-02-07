@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Demo_Status__c</fullName>
+    <defaultValue>&quot;Not Started&quot;</defaultValue>
+    <label>Demo Status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Held Demo</fullName>
+                <default>false</default>
+                <label>Held Demo</label>
+            </value>
+            <value>
+                <fullName>Held Demo Inbound</fullName>
+                <default>false</default>
+                <label>Held Demo Inbound</label>
+            </value>
+            <value>
+                <fullName>Not Held</fullName>
+                <default>true</default>
+                <label>Not Held</label>
+            </value>
+            <value>
+                <fullName>Demo Canceled</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Demo Canceled</label>
+            </value>
+            <value>
+                <fullName>Demo Flaked</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Demo Flaked</label>
+            </value>
+            <value>
+                <fullName>Demo Rescheduled</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Demo Rescheduled</label>
+            </value>
+            <value>
+                <fullName>No Show</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Show</label>
+            </value>
+            <value>
+                <fullName>Not Started</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Started</label>
+            </value>
+            <value>
+                <fullName>Partial Demo</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Partial Demo</label>
+            </value>
+            <value>
+                <fullName>Re-set</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Re-set</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

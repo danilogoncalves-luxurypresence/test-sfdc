@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+{{{Sender.Name}}} here with Luxury Presence.&nbsp; I just attempted to call you for our scheduled meeting.&nbsp; Something must have come up on your end, and I am happy to be flexible and reschedule our call.&nbsp; With that said, I did spend 45 minutes preparing so if I do not hear back, I will give you another call this week.&nbsp;&nbsp;<br />
+<br />
+Please use the link below to choose a better time:<br />
+https://luxurypresence.na.chilipiper.com/book/me/{{{Sender.FirstName}}}-{{{Sender.LastName}}}<br />
+<br />
+Looking forward to hearing back from you!<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}</body>
+</html>

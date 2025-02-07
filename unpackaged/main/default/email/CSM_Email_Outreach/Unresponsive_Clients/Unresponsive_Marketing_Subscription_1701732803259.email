@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+I hope things are well on your side. I’m checking in to see if you had any feedback regarding my last email.&nbsp;<br />
+<br />
+My team will continue to leverage best practices to inform your strategy recommendations and will share these via email. However, these recommendations will be most valuable if you’re able to regularly share feedback and approvals. You also have the option to publish and apply our proposals in bulk whenever you are ready.&nbsp;<br />
+<br />
+Your marketing subscription is ongoing and your account is charged on the [insert date]st/th of every month. We’re unable to offer any credits or refunds for the term of the contract due to delayed approvals.<br />
+<br />
+Feel free to send me any questions! I'm looking forward to hearing your feedback.<br />
+<br />
+Best,&nbsp;<br />
+{{{Sender.Name}}}<br />
+&nbsp;</body>
+</html>

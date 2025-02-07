@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- New Design --></label>
+        <name>New_Design__c</name>
+        <picklistValues>
+            <masterLabel>Classic</masterLabel>
+            <translation><!-- Classic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coldwell Banker (Property)</masterLabel>
+            <translation><!-- Coldwell Banker (Property) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coldwell Banker Brand</masterLabel>
+            <translation><!-- Coldwell Banker Brand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coldwell Banker Global Luxury</masterLabel>
+            <translation><!-- Coldwell Banker Global Luxury --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coldwell Banker Global Luxury (Property)</masterLabel>
+            <translation><!-- Coldwell Banker Global Luxury (Property) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass Innovator</masterLabel>
+            <translation><!-- Compass Innovator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass Milestone (Dev)</masterLabel>
+            <translation><!-- Compass Milestone (Dev) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass Navigator</masterLabel>
+            <translation><!-- Compass Navigator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass Prestige</masterLabel>
+            <translation><!-- Compass Prestige --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass S&amp;E</masterLabel>
+            <translation><!-- Compass S&amp;E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corcoran Agent 1</masterLabel>
+            <translation><!-- Corcoran Agent 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corcoran Agent 2</masterLabel>
+            <translation><!-- Corcoran Agent 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corcoran Development</masterLabel>
+            <translation><!-- Corcoran Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evolution</masterLabel>
+            <translation><!-- Evolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Collective</masterLabel>
+            <translation><!-- Global Collective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home Valuation</masterLabel>
+            <translation><!-- Home Valuation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Masterpiece</masterLabel>
+            <translation><!-- Masterpiece --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pinnacle</masterLabel>
+            <translation><!-- Pinnacle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Redirect Only</masterLabel>
+            <translation><!-- Redirect Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sothebys 4 (Property)</masterLabel>
+            <translation><!-- Sothebys 4 (Property) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Edge</masterLabel>
+            <translation><!-- The Edge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Icon - SIR 3</masterLabel>
+            <translation><!-- The Icon - SIR 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Inspiration</masterLabel>
+            <translation><!-- The Inspiration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The Trailblazer - SIR 2</masterLabel>
+            <translation><!-- The Trailblazer - SIR 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>The producer</masterLabel>
+            <translation><!-- The producer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Universal</masterLabel>
+            <translation><!-- Universal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VDB Custom</masterLabel>
+            <translation><!-- VDB Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vanguard Properties</masterLabel>
+            <translation><!-- Vanguard Properties --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

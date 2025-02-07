@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancelled_Social</fullName>
+    <columns>NAME</columns>
+    <columns>Cancellation_Date__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>Content_Creator__c</columns>
+    <columns>Downgrade_Reason__c</columns>
+    <columns>Description__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.Social_Media</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Cancelled</value>
+    </filters>
+    <label>Social Media Cancellations/Downgrades</label>
+</ListView>

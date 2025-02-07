@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source__c</fullName>
+    <label>Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Internal Revision</fullName>
+                <default>false</default>
+                <label>Internal Revision</label>
+            </value>
+            <value>
+                <fullName>Client Revision</fullName>
+                <default>false</default>
+                <label>Client Revision</label>
+            </value>
+            <value>
+                <fullName>QA Passback</fullName>
+                <default>false</default>
+                <label>QA Passback</label>
+            </value>
+            <value>
+                <fullName>Opening Video</fullName>
+                <default>false</default>
+                <label>Opening Video</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

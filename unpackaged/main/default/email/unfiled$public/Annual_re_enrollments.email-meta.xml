@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>Annual re-enrollments</name>
+    <style>freeForm</style>
+    <subject>Your Annual Subscription with Luxury Presence will be renewing soon</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+
+It’s that time of year! Your annual ::insert plan name:: subscription with Luxury Presence will automatically renew on ::insert date here::. If you’d like the option to move to monthly payments or if you have any questions regarding your subscription, please reply to this email before your renewal date.
+
+
+If you need to update or add a new card on file, please do so by clicking on the link below and entering your email address associated with your account. You will then receive a separate email with a secure link where you can enter your new card.
+
+
+Update credit card
+
+
+Looking forward to another year,
+
+Luxury Presence
+
+
+
+
+Notes:
+
+
+Can we attach their contract to the email?
+
+Only downside to generating emails once a month is that we will potentially get an influx of replies all at once</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

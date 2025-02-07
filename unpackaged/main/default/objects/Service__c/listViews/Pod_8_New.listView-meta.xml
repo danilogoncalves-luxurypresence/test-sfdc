@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pod_8_New</fullName>
+    <columns>NAME</columns>
+    <columns>Modules_Complete__c</columns>
+    <columns>Welcome_Call_Date_calendly__c</columns>
+    <columns>Assigned_VA__c</columns>
+    <columns>Staging_link_status__c</columns>
+    <columns>Website_Builder__c</columns>
+    <columns>Data_Specialist__c</columns>
+    <columns>Header_Image_Curator__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New IAO Client,Modules Complete,New</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.In_App_Onboarding,Service__c.Design_Change,Service__c.Website_Launches</value>
+    </filters>
+    <filters>
+        <field>PFT_Pod__c</field>
+        <operation>equals</operation>
+        <value>Pod 8</value>
+    </filters>
+    <label>Pod 8 New</label>
+</ListView>

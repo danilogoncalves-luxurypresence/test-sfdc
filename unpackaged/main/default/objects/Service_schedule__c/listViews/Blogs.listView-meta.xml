@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Blogs</fullName>
+    <columns>Due_Date__c</columns>
+    <columns>NAME</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Content_Manager__c</columns>
+    <columns>Content_Associate__c</columns>
+    <columns>Writer2__c</columns>
+    <columns>Editor__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service_schedule__c.Blogs_per_Quarter</value>
+    </filters>
+    <filters>
+        <field>Duplicate__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Blogs</label>
+</ListView>

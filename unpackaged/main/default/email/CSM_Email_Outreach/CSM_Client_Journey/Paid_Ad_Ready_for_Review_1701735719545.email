@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+Your new ad is ready to launch! You can see a preview below, and <a href="https://www.loom.com/share/5504a1b657fa44d2aa0bf8ee2a0f9e56?sharedAppSource=personal_library">here’s a quick tutorial on previewing ads.</a> Please let me know if you approve, and we’ll get your ad launched!<br />
+<br />
+Ad Preview 1: [insert preview link or screenshot here]<br />
+<br />
+Ad Preview 2: [insert preview link or screenshot here]<br />
+<br />
+We are currently split testing different [add variable] to see what delivers the best results. The ad algorithm starts by delivering both equally, and learns to favor the one that is performing best. This helps us gain insights into the habits of your target audience.<br />
+<br />
+(Optional) Some notes about the design
+<ul>
+	<li>note 1</li>
+	<li>note 2</li>
+</ul>
+<br />
+Once the ad starts running, you’ll get an email every time you receive a new lead. I’ve attached our Lead Nurturing Guide to set you up for success with converting these leads. We’ll run your ad for two weeks to gather data, and then I’ll reach out to share progress and get your feedback with respect to lead nurturing and response.<br />
+<br />
+Our goal is to simultaneously drive traffic and amplify your brand awareness. Next, we will be [summarize plan]. Once we have [insert milestone] we will [identify next steps].&nbsp;<br />
+<br />
+Best,&nbsp;<br />
+{{{Sender.Name}}}</body>
+</html>

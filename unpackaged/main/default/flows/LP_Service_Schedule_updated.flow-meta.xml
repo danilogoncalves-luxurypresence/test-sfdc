@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Copy_1_of_CSM_Notification</name>
+        <label>CSM - Notification</label>
+        <locationX>1106</locationX>
+        <locationY>600</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>$Label.ID_Notification_NewRecord</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <stringValue>The status of {!$Record.Name} has not moved in 7 days, please review.</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>{!$Record.Name} - Review</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>varUsersID</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>customNotificationAction</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>CSM_Notification</name>
+        <label>CSM - Notification</label>
+        <locationX>842</locationX>
+        <locationY>708</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>$Label.ID_Notification_NewRecord</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <stringValue>The status of {!$Record.Name} has not moved in 7 days, the record has moved to Approved</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>{!$Record.Name} - Approved</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>varUsersID</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>customNotificationAction</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Ready_for_Client_Review_Notification</name>
+        <label>Ready for Client Review - Notification</label>
+        <locationX>1634</locationX>
+        <locationY>492</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>$Label.ID_Notification_ContentReview</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <stringValue>The Service Schedule {!$Record.Name} has not move to Sent for Client Approval after 14 days</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>Service Schedule not in Sent for Client Approval</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>varUsersID</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>customNotificationAction</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>56.0</apiVersion>
+    <assignments>
+        <name>Add_AM_to_user_collection</name>
+        <label>Add AM to user collection</label>
+        <locationX>974</locationX>
+        <locationY>384</locationY>
+        <assignmentItems>
+            <assignToReference>varUsersID</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Account_Manager__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Account_VIP</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Add_Content_Manager</name>
+        <label>Add Content Manager</label>
+        <locationX>1634</locationX>
+        <locationY>384</locationY>
+        <assignmentItems>
+            <assignToReference>varUsersID</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.Content_Manager__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Ready_for_Client_Review_Notification</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Account_VIP</name>
+        <label>Account VIP?</label>
+        <locationX>974</locationX>
+        <locationY>492</locationY>
+        <defaultConnector>
+            <targetReference>Copy_1_of_CSM_Notification</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Not_VIP</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Service__r.Account__r.VIP__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Service__r.Account__r.High_Touch__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Status_Approved</targetReference>
+            </connector>
+            <label>Not VIP</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Record_type_Status</name>
+        <label>Record type - Status</label>
+        <locationX>380</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>SEO_Optimization</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Label.ID_SS_SEO_Optimizations</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Status_SEO</targetReference>
+            </connector>
+            <label>SEO Optimization</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Status_SEO</name>
+        <label>Status - SEO</label>
+        <locationX>182</locationX>
+        <locationY>384</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Done</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Done</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Service__r.Product__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>SEO Optimizations (Monthly)</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Send_insights_to_the_client_task</targetReference>
+            </connector>
+            <label>Done</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Still_New_Blogs_per_Quarter</name>
+        <label>Still New - Blogs per Quarter?</label>
+        <locationX>2294</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>New_blogs_per_quarter</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>New</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Label.ID_SS_Blogs_per_Quarter</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Status_Ready_for_Assigning</targetReference>
+            </connector>
+            <label>New - blogs per quarter</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Still_Review_for_Client_Review</name>
+        <label>Still Review for Client Review?</label>
+        <locationX>1766</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Ready_for_Client_Review_14_days</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Ready for Client Review</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Add_Content_Manager</targetReference>
+            </connector>
+            <label>Ready for Client Review 14 days</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Still_Sent_for_Client_Approval_status</name>
+        <label>Still Sent for Client Approval status?</label>
+        <locationX>1172</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Sent_for_client_status_7days</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Sent for Client Approval</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Account_Manager__r.LastName</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Support</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Label.ID_SS_Blogs_per_Quarter</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Add_AM_to_user_collection</targetReference>
+            </connector>
+            <label>Sent for client status 7days</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>forCheckApprovalTaks</name>
+        <dataType>String</dataType>
+        <expression>&quot;Check Approval by Client - &quot; +  {!$Record.Service__r.Account__r.Name}</expression>
+    </formulas>
+    <formulas>
+        <name>forDueDate1BD</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+  5, {!$Flow.CurrentDate} + 3,
+  6, {!$Flow.CurrentDate} + 2,
+  {!$Flow.CurrentDate} + 1
+)</expression>
+    </formulas>
+    <formulas>
+        <name>forDueDate21BD</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+ 1, {!$Flow.CurrentDate} + 29,
+ 2, {!$Flow.CurrentDate} + 29,
+ 3, {!$Flow.CurrentDate} + 29,
+ 4, {!$Flow.CurrentDate} + 29,
+ 5, {!$Flow.CurrentDate} + 30,
+ 6, {!$Flow.CurrentDate} + 31,
+  {!$Flow.CurrentDate} + 21
+)</expression>
+    </formulas>
+    <interviewLabel>LP - Service Schedule updated {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>LP - Service Schedule updated</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Send_insights_to_the_client_task</name>
+        <label>Send insights to the client task</label>
+        <locationX>50</locationX>
+        <locationY>492</locationY>
+        <inputAssignments>
+            <field>ActivityDate</field>
+            <value>
+                <elementReference>forDueDate1BD</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OwnerId</field>
+            <value>
+                <elementReference>$Record.Service__r.Account__r.Account_Manager__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Subject</field>
+            <value>
+                <stringValue>Send insights to the client</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>WhatId</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Task</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordUpdates>
+        <name>Status_Approved</name>
+        <label>Status - Approved</label>
+        <locationX>842</locationX>
+        <locationY>600</locationY>
+        <connector>
+            <targetReference>CSM_Notification</targetReference>
+        </connector>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>Approved</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status_moved_by_automation__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Status_Ready_for_Assigning</name>
+        <label>Update Status - Ready for Assigning</label>
+        <locationX>2162</locationX>
+        <locationY>384</locationY>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>Ready for Assigning</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Status_moved_by_automation__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>1211</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Record_type_Status</targetReference>
+        </connector>
+        <object>Service_schedule__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <scheduledPaths>
+            <name>Sent_for_Client_Approval_7Days</name>
+            <connector>
+                <targetReference>Still_Sent_for_Client_Approval_status</targetReference>
+            </connector>
+            <label>Sent for Client Approval 7Days</label>
+            <offsetNumber>7</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>Sent_for_Approval_Date__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>X14_days_after_Ready_for_Client_Review</name>
+            <connector>
+                <targetReference>Still_Review_for_Client_Review</targetReference>
+            </connector>
+            <label>14 days after Ready for Client Review</label>
+            <offsetNumber>14</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <recordField>Ready_for_Client_Review_Date__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>X31_days_before_due_date</name>
+            <connector>
+                <targetReference>Still_New_Blogs_per_Quarter</targetReference>
+            </connector>
+            <label>31 days before due date</label>
+            <offsetNumber>-31</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>Due_Date__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Draft</status>
+    <textTemplates>
+        <name>bodyEmailSSReadyForApproval</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>The service {!$Record.Name} for client {!$Record.Service__r.Account__r.Name} is ready for approval please review. 
+https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <variables>
+        <name>collectionUser</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>varUsersID</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

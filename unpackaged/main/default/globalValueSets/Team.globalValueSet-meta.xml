@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Operations</fullName>
+        <default>false</default>
+        <label>🧠Operations</label>
+    </customValue>
+    <customValue>
+        <fullName>Onboarding</fullName>
+        <default>false</default>
+        <label>🛳️Onboarding</label>
+    </customValue>
+    <customValue>
+        <fullName>PFT</fullName>
+        <default>false</default>
+        <label>💥PFT</label>
+    </customValue>
+    <customValue>
+        <fullName>IDX</fullName>
+        <default>false</default>
+        <label>💠IDX</label>
+    </customValue>
+    <customValue>
+        <fullName>Billing</fullName>
+        <default>false</default>
+        <label>💰Billing/Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>CS-All Teams</fullName>
+        <default>false</default>
+        <label>👥CS-All Teams</label>
+    </customValue>
+    <customValue>
+        <fullName>Social Media</fullName>
+        <default>false</default>
+        <label>📱Social Media</label>
+    </customValue>
+    <customValue>
+        <fullName>CSM</fullName>
+        <default>false</default>
+        <label>📟CSM</label>
+    </customValue>
+    <customValue>
+        <fullName>SEO</fullName>
+        <default>false</default>
+        <label>🧼SEO</label>
+    </customValue>
+    <customValue>
+        <fullName>Support</fullName>
+        <default>false</default>
+        <label>💼Support</label>
+    </customValue>
+    <customValue>
+        <fullName>Content</fullName>
+        <default>false</default>
+        <label>📝Content</label>
+    </customValue>
+    <customValue>
+        <fullName>Paid Media</fullName>
+        <default>false</default>
+        <label>📺Paid Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales</fullName>
+        <default>false</default>
+        <label>🏦Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>CX</fullName>
+        <default>false</default>
+        <label>🔒CX</label>
+    </customValue>
+    <customValue>
+        <fullName>PED</fullName>
+        <default>false</default>
+        <label>🎨PED</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Design</fullName>
+        <default>false</default>
+        <label>👔Custom Design</label>
+    </customValue>
+    <customValue>
+        <fullName>All Teams</fullName>
+        <default>false</default>
+        <label>🧬All Teams</label>
+    </customValue>
+    <masterLabel>Team</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

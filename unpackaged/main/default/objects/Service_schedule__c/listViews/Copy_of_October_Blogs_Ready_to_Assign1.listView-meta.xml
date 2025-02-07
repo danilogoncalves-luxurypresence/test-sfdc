@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_October_Blogs_Ready_to_Assign1</fullName>
+    <columns>Content_Specialist__c</columns>
+    <columns>Service__c</columns>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Freelancer__c</columns>
+    <columns>Account_Manager_Linked__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New,Ready for Assigning</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service_schedule__c.Blogs_per_Quarter</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>notContain</operation>
+        <value>,2 Blogs - 1st Quarter,3 Blogs - 1st Quarter,6 Blogs - 1st Quarter,12 Blogs - 2nd Quarter,12 Blogs - 3rd Quarter,4 Blogs - 4th Quarter,4 Blogs,2 Blogs</value>
+    </filters>
+    <filters>
+        <field>Duplicate__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Due_Date__c</field>
+        <operation>equals</operation>
+        <value>LAST_MONTH</value>
+    </filters>
+    <filters>
+        <field>Content_Specialist__c</field>
+        <operation>equals</operation>
+        <value>Valerie Jacobsen</value>
+    </filters>
+    <label>Valerie - October Blogs Ready to Assign</label>
+</ListView>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>SIR One Summit 2022</fullName>
+        <default>false</default>
+        <label>SIR One Summit 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>Compass Retreat 2021</fullName>
+        <default>false</default>
+        <label>Compass Retreat 2021</label>
+    </customValue>
+    <customValue>
+        <fullName>Inman Connect Vegas 2021</fullName>
+        <default>false</default>
+        <label>Inman Connect Vegas 2021</label>
+    </customValue>
+    <customValue>
+        <fullName>Inman Connect New York 2022</fullName>
+        <default>false</default>
+        <label>Inman Connect New York 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>Chirag Shah Future Proof Agent 2022</fullName>
+        <default>false</default>
+        <label>Chirag Shah Future Proof Agent 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>Compass S&amp;E 2022</fullName>
+        <default>false</default>
+        <label>Compass S&amp;E 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>ENGAGE: Coldwell Banker Global Luxury Summit 2022</fullName>
+        <default>false</default>
+        <label>ENGAGE: Coldwell Banker Global Luxury Summit 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>Compass Cup Golf Tournament 2022</fullName>
+        <default>false</default>
+        <label>Compass Cup Golf Tournament 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>RE/MAX Collection Luxury Forum 2022</fullName>
+        <default>false</default>
+        <label>RE/MAX Collection Luxury Forum 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>Tom Ferry EDGE 2022</fullName>
+        <default>false</default>
+        <label>Tom Ferry EDGE 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>Inman Luxury Connect Las Vegas 2022</fullName>
+        <default>false</default>
+        <label>Inman Luxury Connect Las Vegas 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>Inman Connect Las Vegas 2022</fullName>
+        <default>false</default>
+        <label>Inman Connect Las Vegas 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>Tom Ferry Success Summit 2022</fullName>
+        <default>false</default>
+        <label>Tom Ferry Success Summit 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>Leaders in Luxury 2022</fullName>
+        <default>false</default>
+        <label>Leaders in Luxury 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>NAR Realtors Conference &amp; Expo 2022</fullName>
+        <default>false</default>
+        <label>NAR Realtors Conference &amp; Expo 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>SIR Q3 2022 Webinar</fullName>
+        <default>false</default>
+        <label>SIR Q3 2022 Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>ILHM Launch Webinar 9.21.22</fullName>
+        <default>false</default>
+        <label>ILHM Launch Webinar 9.21.22</label>
+    </customValue>
+    <customValue>
+        <fullName>Compass Fall REtreat 2022</fullName>
+        <default>false</default>
+        <label>Compass Fall REtreat 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>CB Gen Blue Experience 2022</fullName>
+        <default>false</default>
+        <label>CB Gen Blue Experience 2022</label>
+    </customValue>
+    <customValue>
+        <fullName>Inman Connect New York 2023</fullName>
+        <default>false</default>
+        <label>Inman Connect New York 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>Side x Side 2023</fullName>
+        <default>false</default>
+        <label>Side x Side 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>2022 Compass Holiday Parties</fullName>
+        <default>false</default>
+        <label>2022 Compass Holiday Parties</label>
+    </customValue>
+    <customValue>
+        <fullName>Tom Ferry Elite Retreat 2023 - 2.2.23</fullName>
+        <default>false</default>
+        <label>Tom Ferry Elite Retreat 2023 - 2.2.23</label>
+    </customValue>
+    <customValue>
+        <fullName>CB D&#39;Ann Harper Awards</fullName>
+        <default>false</default>
+        <label>CB D&#39;Ann Harper Awards</label>
+    </customValue>
+    <customValue>
+        <fullName>SIR Tahoe Summit 2023</fullName>
+        <default>false</default>
+        <label>SIR Tahoe Summit 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>Leading RE Limitless 2023</fullName>
+        <default>false</default>
+        <label>Leading RE Limitless 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>SIR GNE 2023</fullName>
+        <default>false</default>
+        <label>SIR GNE 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>eXp Shareholder Summit 2023</fullName>
+        <default>false</default>
+        <label>eXp Shareholder Summit 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>T360 Summit 2023</fullName>
+        <default>false</default>
+        <label>T360 Summit 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>RE/MAX Luxury Forum 2023</fullName>
+        <default>false</default>
+        <label>RE/MAX Luxury Forum 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>Christie&#39;s Agent Conference 2023</fullName>
+        <default>false</default>
+        <label>Christie&#39;s Agent Conference 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>Compass East Coast Luxury Summit 2023</fullName>
+        <default>false</default>
+        <label>Compass East Coast Luxury Summit 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>Tom Ferry Elite Event 2023 - 6.20.23</fullName>
+        <default>false</default>
+        <label>Tom Ferry Elite Event 2023 - 6.20.23</label>
+    </customValue>
+    <customValue>
+        <fullName>Tom Ferry Team Event 2023 - 6.27.23</fullName>
+        <default>false</default>
+        <label>Tom Ferry Team Event 2023 - 6.27.23</label>
+    </customValue>
+    <customValue>
+        <fullName>Inman Luxury Connect 2023</fullName>
+        <default>false</default>
+        <label>Inman Luxury Connect 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>Inman Connect Las Vegas 2023</fullName>
+        <default>false</default>
+        <label>Inman Connect Las Vegas 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>Tom Ferry Success Summit 2023 - 8.22.23</fullName>
+        <default>false</default>
+        <label>Tom Ferry Success Summit 2023 - 8.22.23</label>
+    </customValue>
+    <customValue>
+        <fullName>CB Colorado Global Luxury Conference</fullName>
+        <default>false</default>
+        <label>CB Colorado Global Luxury Conference</label>
+    </customValue>
+    <customValue>
+        <fullName>Tom Ferry Edge 2023 - 9.12.23</fullName>
+        <default>false</default>
+        <label>Tom Ferry Edge 2023 - 9.12.23</label>
+    </customValue>
+    <customValue>
+        <fullName>ICC Summit Real Estate Conference 2023</fullName>
+        <default>false</default>
+        <label>ICC Summit Real Estate Conference 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>CAR REImagine 2023</fullName>
+        <default>false</default>
+        <label>CAR REImagine 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>Radius Aug Webinar 2023</fullName>
+        <default>false</default>
+        <label>Radius Aug Webinar 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>Compass BH Office Event 2023</fullName>
+        <default>false</default>
+        <label>Compass BH Office Event 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>FUBCON Sept 2023</fullName>
+        <default>false</default>
+        <label>FUBCON Sept 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>EXPCON Oct 2023</fullName>
+        <default>false</default>
+        <label>EXPCON Oct 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>Metro Networking Event Oct 2023</fullName>
+        <default>false</default>
+        <label>Metro Networking Event Oct 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>CB Gen Blue Atlanta Oct 2023</fullName>
+        <default>false</default>
+        <label>CB Gen Blue Atlanta Oct 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>10.23.23 T360 Tech Summit Ft Worth</fullName>
+        <default>false</default>
+        <label>10.23.23 T360 Tech Summit Ft Worth</label>
+    </customValue>
+    <customValue>
+        <fullName>10.11.23 Compass Cup Miami 2023</fullName>
+        <default>false</default>
+        <label>10.11.23 Compass Cup Miami 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>10.22.23 Real Rise San Diego 2023</fullName>
+        <default>false</default>
+        <label>10.22.23 Real Rise San Diego 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>10.30.23 @Properties Expo</fullName>
+        <default>false</default>
+        <label>10.30.23 @Properties Expo</label>
+    </customValue>
+    <customValue>
+        <fullName>11.14.23 Compass REtreat</fullName>
+        <default>false</default>
+        <label>11.14.23 Compass REtreat</label>
+    </customValue>
+    <customValue>
+        <fullName>11.14.23 NAR NXT- Anaheim</fullName>
+        <default>false</default>
+        <label>11.14.23 NAR NXT- Anaheim</label>
+    </customValue>
+    <customValue>
+        <fullName>11.14.23 The Agency Global Forum - Austin</fullName>
+        <default>false</default>
+        <label>11.14.23 The Agency Global Forum - Austin</label>
+    </customValue>
+    <customValue>
+        <fullName>11.28.23 eXp Luxury Is NOW - Irving</fullName>
+        <default>false</default>
+        <label>11.28.23 eXp Luxury Is NOW - Irving</label>
+    </customValue>
+    <customValue>
+        <fullName>SIR-MNE-NJ 2023</fullName>
+        <default>false</default>
+        <label>SIR-MNE-NJ 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>Big Block Realty Collective Coaching Call 2023</fullName>
+        <default>false</default>
+        <label>Big Block Realty Collective Coaching Call 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>REALM Member Event | San Diego</fullName>
+        <default>false</default>
+        <label>REALM Member Event | San Diego</label>
+    </customValue>
+    <customValue>
+        <fullName>11.11 The Agency Austin Grand Opening 2023</fullName>
+        <default>false</default>
+        <label>11.11 The Agency Austin Grand Opening 2023</label>
+    </customValue>
+    <customValue>
+        <fullName>12.11.23 Compass NYC Holiday Party</fullName>
+        <default>false</default>
+        <label>12.11.23 Compass NYC Holiday Party</label>
+    </customValue>
+    <customValue>
+        <fullName>1.24.24 Side x Side - San Diego</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>1.24.24 Side x Side - San Diego</label>
+    </customValue>
+    <customValue>
+        <fullName>2.4.24 Realty One Summit - Las Vegas</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>2.4.24 Realty One Summit - Las Vegas</label>
+    </customValue>
+    <customValue>
+        <fullName>1.22 - 1.26 - The Agency - Pasadena / NYC / Park City</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>1.22 - 1.26 - The Agency - Pasadena / NYC / Park City</label>
+    </customValue>
+    <customValue>
+        <fullName>2.9.24 JPAR - TX</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>2.9.24 JPAR - TX</label>
+    </customValue>
+    <masterLabel>Contact Event Name</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

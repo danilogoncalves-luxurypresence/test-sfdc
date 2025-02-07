@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Addendum_execution_date</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+ ISBLANK(Addendum_Execution_Date__c ),
+ ISCHANGED(StageName),
+ ISPICKVAL( StageName , &quot;Closed Won&quot;),
+ RecordTypeId = &quot;0125f000000VvK3&quot;,
+ NOT(ISPICKVAL(Addendum_Type__c, &quot;Saved&quot;))
+
+)</errorConditionFormula>
+    <errorDisplayField>Addendum_Execution_Date__c</errorDisplayField>
+    <errorMessage>Please fill this field before changing status to Closed Won.</errorMessage>
+</ValidationRule>

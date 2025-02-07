@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Request for MLS Agent ID(s) - 2nd Follow Up</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>Request for MLS Agent ID(s) - 2nd Follow Up</name>
+    <style>freeForm</style>
+    <subject>Following Up: Request for MLS Agent ID(s)</subject>
+    <textOnly>Hi {!Contact.FirstName},    
+
+I hope you&#39;re having a great day! I wanted to follow up on the previous email. We use MLS Agent IDs to sync your properties with the MLS so they appear on the featured properties sections of your site. I am unable to find all your team member&#39;s agent MLS IDs using our internal tool. If you could please provide the IDs for the requested team members and or confirm that you do not wish to sync their listings to your account. 
+
+Let me know if you have any questions, I am happy to help! 
+
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

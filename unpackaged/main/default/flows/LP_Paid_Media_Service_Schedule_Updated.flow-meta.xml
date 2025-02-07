@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <assignments>
+        <name>Add_1_to_counter</name>
+        <label>Add 1 to counter</label>
+        <locationX>50</locationX>
+        <locationY>863</locationY>
+        <assignmentItems>
+            <assignToReference>varSSCount</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <numberValue>1.0</numberValue>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>collectionSS</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>varSingleSS</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <isGoTo>true</isGoTo>
+            <targetReference>Service_Schedule_3</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Add_counter</name>
+        <label>Add counter</label>
+        <locationX>182</locationX>
+        <locationY>539</locationY>
+        <assignmentItems>
+            <assignToReference>varSSCount</assignToReference>
+            <operator>AssignCount</operator>
+            <value>
+                <elementReference>All_Service_Schedule</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Service_Schedule_3</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Create_Service_Schedule</name>
+        <label>Create Service Schedule</label>
+        <locationX>50</locationX>
+        <locationY>755</locationY>
+        <assignmentItems>
+            <assignToReference>varSingleSS.Service__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Service__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varSingleSS.Account_Manager__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Account_Manager__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varSingleSS.RecordTypeId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Label.ID_SS_Paid_Media</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varSingleSS.Name</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>forSSName</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>varSingleSS.Due_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>forSSDueDate</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Add_1_to_counter</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Service_Schedule_3</name>
+        <label>Service Schedule &lt; 3</label>
+        <locationX>182</locationX>
+        <locationY>647</locationY>
+        <defaultConnector>
+            <targetReference>Create_SS</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Create_new_ss</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>varSSCount</leftValueReference>
+                <operator>LessThan</operator>
+                <rightValue>
+                    <numberValue>3.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Create_Service_Schedule</targetReference>
+            </connector>
+            <label>Create new ss</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Status</name>
+        <label>Status</label>
+        <locationX>380</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Done</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Done</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>All_Service_Schedule</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Done</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>forCheckApprovalTaks</name>
+        <dataType>String</dataType>
+        <expression>&quot;Check Approval by Client - &quot; +  {!$Record.Service__r.Account__r.Name}</expression>
+    </formulas>
+    <formulas>
+        <name>forDueDate1BD</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+  5, {!$Flow.CurrentDate} + 3,
+  6, {!$Flow.CurrentDate} + 2,
+  {!$Flow.CurrentDate} + 1
+)</expression>
+    </formulas>
+    <formulas>
+        <name>forDueDate21BD</name>
+        <dataType>Date</dataType>
+        <expression>CASE( 
+  MOD({!$Flow.CurrentDate} - DATE( 1900, 1, 7 ), 7 ),
+ 1, {!$Flow.CurrentDate} + 29,
+ 2, {!$Flow.CurrentDate} + 29,
+ 3, {!$Flow.CurrentDate} + 29,
+ 4, {!$Flow.CurrentDate} + 29,
+ 5, {!$Flow.CurrentDate} + 30,
+ 6, {!$Flow.CurrentDate} + 31,
+  {!$Flow.CurrentDate} + 21
+)</expression>
+    </formulas>
+    <formulas>
+        <name>forSSDueDate</name>
+        <dataType>Date</dataType>
+        <expression>CASE( {!varSSCount}, 
+0, ADDMONTHS({!$Record.Due_Date__c},1),
+1, ADDMONTHS({!$Record.Due_Date__c},2),
+2, ADDMONTHS({!$Record.Due_Date__c},3),
+ADDMONTHS({!$Record.Due_Date__c},1)
+)</expression>
+    </formulas>
+    <formulas>
+        <name>forSSMonth</name>
+        <dataType>String</dataType>
+        <expression>CASE( MONTH({!forSSDueDate}),
+1, &quot;January&quot;,
+2, &quot;February&quot;, 
+3, &quot;March&quot;,
+4, &quot;April&quot;, 
+5, &quot;May&quot;,
+6, &quot;June&quot;,
+7, &quot;July&quot;,
+8, &quot;August&quot;, 
+9, &quot;September&quot;,
+10, &quot;October&quot;,
+11, &quot;November&quot;,
+&quot;December&quot;
+)</expression>
+    </formulas>
+    <formulas>
+        <name>forSSName</name>
+        <dataType>String</dataType>
+        <expression>{!$Record.Service__r.Account__r.Name} + &quot;  - &quot; + {!$Record.Service__r.Product__c} + &quot; - &quot; + {!forSSMonth}</expression>
+    </formulas>
+    <interviewLabel>LP - Paid Media Service Schedule Updated {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>LP - Paid Media Service Schedule Updated</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Create_SS</name>
+        <label>Create SS</label>
+        <locationX>314</locationX>
+        <locationY>755</locationY>
+        <inputReference>collectionSS</inputReference>
+    </recordCreates>
+    <recordLookups>
+        <name>All_Service_Schedule</name>
+        <label>All Service Schedule</label>
+        <locationX>182</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Add_counter</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Service__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Service__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>New</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Service_schedule__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>254</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Status</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Record_Type_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Paid Media</stringValue>
+            </value>
+        </filters>
+        <object>Service_schedule__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>bodyEmailSSReadyForApproval</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>The service {!$Record.Name} for client {!$Record.Service__r.Account__r.Name} is ready for approval please review. 
+https://luxurypresence.lightning.force.com/{!$Record.Id}</text>
+    </textTemplates>
+    <variables>
+        <name>collectionSS</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Service_schedule__c</objectType>
+    </variables>
+    <variables>
+        <name>collectionUser</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>varSingleSS</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Service_schedule__c</objectType>
+    </variables>
+    <variables>
+        <name>varSSCount</name>
+        <dataType>Number</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <scale>0</scale>
+    </variables>
+    <variables>
+        <name>varUsersID</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

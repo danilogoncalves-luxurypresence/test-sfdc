@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>Rescheduling/Demo Ghosted - Day 9</name>
+    <style>freeForm</style>
+    <subject>Your Luxury Presence demo</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Are you still available to chat about how Luxury Presence can help you stand out in a competitive real estate market?
+
+Our award-winning website designs and expert marketing solutions have already helped agents like Carlin Wright and Rochelle Maize take their businesses to the next level.
+
+Use this link to schedule a demo at your convenience: [Meeting Link]
+
+Let&#39;s chat soon and see how we can help you build a strong personal brand, capture more referrals, and generate more leads.
+
+
+Best,
+{!User.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

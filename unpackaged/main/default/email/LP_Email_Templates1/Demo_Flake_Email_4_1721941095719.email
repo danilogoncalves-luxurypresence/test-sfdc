@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+I know real estate agents are busy and hustling for new business.<br />
+<br />
+I don't want to be the one flooding out your inbox so I am going to go ahead and archive your account.<br />
+<br />
+When you are ready, I would like to learn more about your unique marketing challenges.&nbsp; We are partnered with over 20 national brokerages and working with over 250 Real Trends agents and teams.<br />
+<br />
+We are helping them wow their clients with a beautiful digital brand, consistently generate new leads, and collaborate with their clients.<br />
+<br />
+Are you available this week to reschedule and get a time back on the calendar that works for you to be near a computer?<br />
+<br />
+Click here to book a time with Luxury Presence:<br />
+https://luxurypresence.na.chilipiper.com/book/me/{{{Sender.FirstName}}}-{{{Sender.LastName}}}<br />
+<br />
+Happy to be as flexible as possible.</p>
+
+<p>Thanks,<br />
+{{{Sender.Name}}}</p>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Addendum_Opportunity</fullName>
+    <active>true</active>
+    <description>Case Number 00188022</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( StageName , &quot;Closed Won&quot;),
+RecordType.Name = &quot;Addendum&quot;,
+Account_New_Sales_Opportunities__c &lt; 1
+)</errorConditionFormula>
+    <errorMessage>You can not close an &quot;Addendum&quot; opportunity if a New Sales opportunity does not exist on the account. Please reach out to the #salesforce channel for assistance.</errorMessage>
+</ValidationRule>

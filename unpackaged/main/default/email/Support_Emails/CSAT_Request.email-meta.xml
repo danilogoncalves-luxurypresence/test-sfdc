@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Asking for a positive CSAT survey</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CSAT Request</name>
+    <style>none</style>
+    <subject>Thanks for contacting Luxury Presence Support</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

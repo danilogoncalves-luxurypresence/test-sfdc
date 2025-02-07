@@ -1,0 +1,6 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p data-pm-slice="1 1 []">Hi {!Opportunity.Account},</p><p><br></p><p>As a courtesy, I have requested a subscription start date modification for your account to {!Opportunity.Subscription_Extension_Date__c}. Please note that this modification will result on your original agreement term to be updated to {!Opportunity.Subscription_Extension_Date__c}&nbsp;to [[subscription_extension_date]+365 days].</p><p><br></p><p>To move forward with this modification to your subscription term, please reply to this email.</p><p><br></p><p>All the best,</p><p>{!Opportunity.OwnerFullName}</p>]]></td>
+</tr>
+</table>

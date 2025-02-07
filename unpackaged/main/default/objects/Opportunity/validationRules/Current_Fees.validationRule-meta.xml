@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Fees</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ NOT(ISPICKVAL( Addendum_Type__c ,&quot;Extension&quot;)),
+ ISPICKVAL( StageName , &quot;Closed Won&quot;),
+  RecordTypeId =  $Label.ID_Opp_Addendum ,
+ OR(
+  ISBLANK( Current_Monthly_Marketing_Fee__c ),
+  ISBLANK( Current_Monthly_Subscription_Fee__c ),
+  ISBLANK( Current_Tier_Plan__c )
+ ) 
+)</errorConditionFormula>
+    <errorMessage>Please fill out the current fee section before close</errorMessage>
+</ValidationRule>

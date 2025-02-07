@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Current Social Media --></label>
+        <name>Current_Social_Media__c</name>
+        <picklistValues>
+            <masterLabel>Basic</masterLabel>
+            <translation><!-- Basic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dominance</masterLabel>
+            <translation><!-- Dominance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Social Media Product</masterLabel>
+            <translation><!-- No Social Media Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Premium</masterLabel>
+            <translation><!-- Premium --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

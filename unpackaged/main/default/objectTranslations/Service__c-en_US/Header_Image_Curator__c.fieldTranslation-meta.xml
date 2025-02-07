@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Header Image Curator --></label>
+        <name>Header_Image_Curator__c</name>
+        <relationshipLabel><!-- Services (Header Image Curator) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If this field is TRUE it means there is currently an open deal with the Retention team, meaning the client is requesting to either downgrade, pause or cancel their services. --></help>
+        <label><!-- Retention --></label>
+        <name>Retention__c</name>
+    </CustomFieldTranslation>

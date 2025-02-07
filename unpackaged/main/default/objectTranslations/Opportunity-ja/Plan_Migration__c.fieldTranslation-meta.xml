@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This field is to be marked for any legacy client moving to a new pricing plan. --></help>
+        <label><!-- Plan Migration --></label>
+        <name>Plan_Migration__c</name>
+    </CustomFieldTranslation>

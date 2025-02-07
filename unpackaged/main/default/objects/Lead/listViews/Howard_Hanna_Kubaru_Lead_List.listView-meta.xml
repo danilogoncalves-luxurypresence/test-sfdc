@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Howard_Hanna_Kubaru_Lead_List</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Lead_Brokerage__c</columns>
+    <columns>LEAD.CITY</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>Partnership_Organization__c</columns>
+    <columns>Prior_12_months_total_transaction_value__c</columns>
+    <columns>Rep_Assigned_Date__c</columns>
+    <columns>LEAD.ZIP</columns>
+    <columns>Office_Name__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>New,Ready</value>
+    </filters>
+    <filters>
+        <field>Rep_Assigned_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>6/25/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>Partnership_Organization__c</field>
+        <operation>equals</operation>
+        <value>Howard Hanna</value>
+    </filters>
+    <label>Howard Hanna Kubaru Lead List</label>
+</ListView>

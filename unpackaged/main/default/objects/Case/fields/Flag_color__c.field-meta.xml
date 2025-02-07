@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flag_color__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(Has_Jira_ticket__c = true,(NOW()- Last_update__c)*24&gt;= 168), &quot;red&quot;,
+IF(
+AND(Has_Jira_ticket__c = true,(NOW()- Last_update__c)*24 &gt;= 166,(NOW()- Last_update__c)*24 &lt; 168 ), &quot;yellow&quot;,
+IF(
+AND(Has_Jira_ticket__c = true,(NOW()- Last_update__c)*24 &lt; 166), &quot;green&quot;,
+IF(
+AND(Has_Jira_ticket__c = false,(NOW()- Last_update__c)*24 &gt; 24), &quot;red&quot;,
+IF(
+AND(Has_Jira_ticket__c = false,(NOW()- Last_update__c)*24 &gt;= 22,(NOW()- Last_update__c)*24 &lt; 24 ), &quot;yellow&quot;,
+IF(
+AND(Has_Jira_ticket__c = false,(NOW()- Last_update__c)*24 &lt; 22), &quot;green&quot;, &quot;blank&quot;
+)
+)
+)
+)
+)
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Flag color</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

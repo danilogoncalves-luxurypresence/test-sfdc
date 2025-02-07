@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi {{{Recipient.FirstName}}},</p>
+
+<p><br />
+This email serves as confirmation that your services with Luxury Presence for the site&nbsp;<em>[domain]</em> have been canceled as of <em>[date]</em>.<br />
+Next steps:</p>
+
+<ul>
+	<li>You can work with your registrar (GoDaddy, Google Domains, etc) to adjust your domain’s settings. <strong>No action is needed from our team, you control and own your domain.</strong></li>
+	<li>Your last payment is due to Luxury Presence on <em>[date]</em> for <em>[amount]</em>.</li>
+</ul>
+
+<p>We are so grateful for the opportunity to work with you. We’d love to work with you in the future if anything changes.</p>
+
+<p><em>Rights and Obligations: Please be reminded that following the termination of our services, certain rights and obligations may still apply to you.<br />
+We encourage you to review our <a href="https://www.luxurypresence.com/terms-of-service/">Terms of Service</a> for detailed information.</em></p>
+
+<p><br />
+Best,</p>
+</body>
+</html>

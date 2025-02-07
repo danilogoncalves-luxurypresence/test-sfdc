@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pod_5_I_Sibila</fullName>
+    <columns>Revisions_Due_Date__c</columns>
+    <columns>Tier_plan__c</columns>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Website_builder__c</columns>
+    <columns>Revisions_Document_Link__c</columns>
+    <columns>Implementation_Manager__c</columns>
+    <columns>Revision_Type__c</columns>
+    <columns>Staging_Link__c</columns>
+    <columns>Data_specialist__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Template__c</columns>
+    <columns>Google_Folder__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Revision__c.Onboarding</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>New,In progress,Ready for QA,QA,Additional Revisions,Submitted for Approval</value>
+    </filters>
+    <filters>
+        <field>Revision_Type__c</field>
+        <operation>equals</operation>
+        <value>Google Doc - Short,Google Doc - Medium,Google Doc - Long</value>
+    </filters>
+    <filters>
+        <field>PFT_Pod__c</field>
+        <operation>equals</operation>
+        <value>Pod 5</value>
+    </filters>
+    <filters>
+        <field>Agent_Subdomain__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>IAO Pod 5</label>
+</ListView>

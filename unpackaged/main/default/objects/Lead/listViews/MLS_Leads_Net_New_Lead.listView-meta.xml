@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MLS_Leads_Net_New_Lead</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>lessThan</operation>
+        <value>15000000</value>
+    </filters>
+    <filters>
+        <field>Prior_12_months_total_transaction_value__c</field>
+        <operation>greaterThan</operation>
+        <value>4999999</value>
+    </filters>
+    <label>MLS Leads (Net New)</label>
+    <queue>MLS_Leads_Net_New</queue>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

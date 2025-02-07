@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Competitor --></label>
+        <name>Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Agent Fire</masterLabel>
+            <translation><!-- Agent Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agent Image</masterLabel>
+            <translation><!-- Agent Image --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agenta</masterLabel>
+            <translation><!-- Agenta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CINC</masterLabel>
+            <translation><!-- CINC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compass Collections</masterLabel>
+            <translation><!-- Compass Collections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delta Media Group</masterLabel>
+            <translation><!-- Delta Media Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HomeStack</masterLabel>
+            <translation><!-- HomeStack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDC Global</masterLabel>
+            <translation><!-- IDC Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inside Real Estate (KVcore, Boomtown)</masterLabel>
+            <translation><!-- Inside Real Estate (KVcore, Boomtown) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lofty</masterLabel>
+            <translation><!-- Lofty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LoneWolf</masterLabel>
+            <translation><!-- LoneWolf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Placester</masterLabel>
+            <translation><!-- Placester --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REW</masterLabel>
+            <translation><!-- REW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raliance</masterLabel>
+            <translation><!-- Raliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Geeks</masterLabel>
+            <translation><!-- Real Geeks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RealScout</masterLabel>
+            <translation><!-- RealScout --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rechat</masterLabel>
+            <translation><!-- Rechat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sierra Interactive</masterLabel>
+            <translation><!-- Sierra Interactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TREM Group</masterLabel>
+            <translation><!-- TREM Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Union St Media</masterLabel>
+            <translation><!-- Union St Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WordPress (In-House)</masterLabel>
+            <translation><!-- WordPress (In-House) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ylopo</masterLabel>
+            <translation><!-- Ylopo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zenlist</masterLabel>
+            <translation><!-- Zenlist --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

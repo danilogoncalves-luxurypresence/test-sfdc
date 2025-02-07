@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}}!<br />
+<br />
+I'm {{{Sender.Name}}}, your Marketing Client Success Manager.<br />
+<br />
+I'm reaching out quickly to remind you about the Marketing Strategy Brief we sent you. If you’re able, please fill out this important questionnaire before our meeting so we can review it together. The answers you provide will inform the custom marketing strategy we create for you.<br />
+<br />
+Looking forward to meeting you on [date]!&nbsp;<br />
+<br />
+<a href="https://luxurypresence.typeform.com/to/J5UACwem">Strategy Brief Questions</a><br />
+<br />
+Thank you!<br />
+<br />
+{{{Sender.Name}}}</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Social Media Scoring --></label>
+        <name>Social_Media_Scoring__c</name>
+        <picklistValues>
+            <masterLabel>1 - Poor</masterLabel>
+            <translation><!-- 1 - Poor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Good</masterLabel>
+            <translation><!-- 2 - Good --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Great</masterLabel>
+            <translation><!-- 3 - Great --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

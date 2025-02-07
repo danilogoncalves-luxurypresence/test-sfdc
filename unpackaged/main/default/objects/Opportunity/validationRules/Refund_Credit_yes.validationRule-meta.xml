@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Refund_Credit_yes</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL( Refund_Credit__c ,&quot;Yes&quot;),
+
+OR(
+ISBLANK( Refund__c ),
+ISBLANK( Refund_reason__c ),
+ISBLANK( Credit__c )
+)
+)</errorConditionFormula>
+    <errorMessage>Please complete Refund, Refund reason and Credit fields</errorMessage>
+</ValidationRule>

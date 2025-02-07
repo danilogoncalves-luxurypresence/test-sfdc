@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Social_Media_Score_Notes</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(AND(RecordType.Name = &quot;Social Media&quot;, OR( Social_Media_Score__c = 1, Social_Media_Score__c = 2)),TRUE,FALSE)</errorConditionFormula>
+    <errorDisplayField>Score_N__c</errorDisplayField>
+    <errorMessage>Please fill in the Scoring Notes for this service</errorMessage>
+</ValidationRule>

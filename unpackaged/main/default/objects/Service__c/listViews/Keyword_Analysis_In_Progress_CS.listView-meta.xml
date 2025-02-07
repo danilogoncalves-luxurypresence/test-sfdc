@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Keyword_Analysis_In_Progress_CS</fullName>
+    <columns>Account__c</columns>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>Tier_Plan__c</columns>
+    <columns>Account_Manager__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.SEO_Key_Word_Analysis</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>In Progress,Content Strategy</value>
+    </filters>
+    <label>Keyword Analysis - In Progress/CS</label>
+</ListView>

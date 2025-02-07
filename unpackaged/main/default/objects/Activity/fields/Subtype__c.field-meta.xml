@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subtype__c</fullName>
+    <label>Subtype</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SEO Migration Service is not Done</fullName>
+                <default>false</default>
+                <label>SEO Migration Service is not Done</label>
+            </value>
+            <value>
+                <fullName>Implement the redirects for key pages</fullName>
+                <default>false</default>
+                <label>Implement the redirects for key pages</label>
+            </value>
+            <value>
+                <fullName>Preserve the content of these key pages</fullName>
+                <default>false</default>
+                <label>Preserve the content of these key pages</label>
+            </value>
+            <value>
+                <fullName>Fix the following broken links</fullName>
+                <default>false</default>
+                <label>Fix the following broken links</label>
+            </value>
+            <value>
+                <fullName>Target neighborhoods are not in one State/County</fullName>
+                <default>false</default>
+                <label>Target neighborhoods are not in one State/County</label>
+            </value>
+            <value>
+                <fullName>Locations cannot be found in Google Maps:</fullName>
+                <default>false</default>
+                <label>Locations cannot be found in Google Maps:</label>
+            </value>
+            <value>
+                <fullName>Locations aren&#39;t available in the neighborhood data section</fullName>
+                <default>false</default>
+                <label>Locations aren&#39;t available in the neighborhood data section</label>
+            </value>
+            <value>
+                <fullName>People are not searching the following location(s) by name</fullName>
+                <default>false</default>
+                <label>People are not searching the following location(s) by name</label>
+            </value>
+            <value>
+                <fullName>There are no MLS listings for the following areas</fullName>
+                <default>false</default>
+                <label>There are no MLS listings for the following areas</label>
+            </value>
+            <value>
+                <fullName>The KWA Service is not complete</fullName>
+                <default>false</default>
+                <label>The KWA Service is not complete</label>
+            </value>
+            <value>
+                <fullName>The location for the KWA is not one of the neighborhood/MLS pages</fullName>
+                <default>false</default>
+                <label>The location for the KWA is not one of the neighborhood/MLS pages</label>
+            </value>
+            <value>
+                <fullName>Neighborhood Guide Content</fullName>
+                <default>false</default>
+                <label>Neighborhood Guide Content</label>
+            </value>
+            <value>
+                <fullName>Neighborhood Data Elements</fullName>
+                <default>false</default>
+                <label>Neighborhood Data Elements</label>
+            </value>
+            <value>
+                <fullName>Neighborhood Map &amp; Properties</fullName>
+                <default>false</default>
+                <label>Neighborhood Map &amp; Properties</label>
+            </value>
+            <value>
+                <fullName>IDX integration is not complete</fullName>
+                <default>false</default>
+                <label>IDX integration is not complete</label>
+            </value>
+            <value>
+                <fullName>Listings are not populating</fullName>
+                <default>false</default>
+                <label>Listings are not populating</label>
+            </value>
+            <value>
+                <fullName>GBP Set Up Service is not complete</fullName>
+                <default>false</default>
+                <label>GBP Set Up Service is not complete</label>
+            </value>
+            <value>
+                <fullName>NAP is not consistent with Salesforce/GBP/USPS</fullName>
+                <default>false</default>
+                <label>NAP is not consistent with Salesforce/GBP/USPS</label>
+            </value>
+            <value>
+                <fullName>&quot;Detail Pages&quot; do not follow metadata best practices:</fullName>
+                <default>false</default>
+                <label>&quot;Detail Pages&quot; do not follow metadata best practices:</label>
+            </value>
+            <value>
+                <fullName>Other pages do not follow metadata best practices:</fullName>
+                <default>false</default>
+                <label>Other pages do not follow metadata best practices:</label>
+            </value>
+            <value>
+                <fullName>Correct GBP URL</fullName>
+                <default>false</default>
+                <label>Correct GBP URL</label>
+            </value>
+            <value>
+                <fullName>Review GBP URL</fullName>
+                <default>false</default>
+                <label>Review GBP URL</label>
+            </value>
+            <value>
+                <fullName>Website 404 Check</fullName>
+                <default>false</default>
+                <label>Website 404 Check</label>
+            </value>
+            <value>
+                <fullName>Key Pages Migration Verification</fullName>
+                <default>false</default>
+                <label>Key Pages Migration Verification</label>
+            </value>
+            <value>
+                <fullName>GSC 404/Soft 404 Errors</fullName>
+                <default>false</default>
+                <label>GSC 404/Soft 404 Errors</label>
+            </value>
+            <value>
+                <fullName>Meta Robots Check</fullName>
+                <default>false</default>
+                <label>Meta Robots Check</label>
+            </value>
+            <value>
+                <fullName>Indexing Check</fullName>
+                <default>false</default>
+                <label>Indexing Check</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>GBP URL</controllingFieldValue>
+            <valueName>Correct GBP URL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GBP URL</controllingFieldValue>
+            <valueName>Review GBP URL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO Migration (Post Launch)</controllingFieldValue>
+            <valueName>Website 404 Check</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO Migration (Post Launch)</controllingFieldValue>
+            <valueName>Key Pages Migration Verification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO Migration (Post Launch)</controllingFieldValue>
+            <valueName>GSC 404/Soft 404 Errors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO Migration (Post Launch)</controllingFieldValue>
+            <valueName>Meta Robots Check</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO Migration (Post Launch)</controllingFieldValue>
+            <valueName>Indexing Check</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO Migration (Pre Launch)</controllingFieldValue>
+            <valueName>SEO Migration Service is not Done</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO Migration (Pre Launch)</controllingFieldValue>
+            <valueName>Implement the redirects for key pages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO Migration (Pre Launch)</controllingFieldValue>
+            <valueName>Preserve the content of these key pages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEO Migration (Pre Launch)</controllingFieldValue>
+            <valueName>Fix the following broken links</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Definition</controllingFieldValue>
+            <valueName>Target neighborhoods are not in one State/County</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Viable Location</controllingFieldValue>
+            <valueName>Locations cannot be found in Google Maps:</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Viable Location</controllingFieldValue>
+            <valueName>Locations aren&#39;t available in the neighborhood data section</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Viable Location</controllingFieldValue>
+            <valueName>People are not searching the following location(s) by name</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Viable Location</controllingFieldValue>
+            <valueName>There are no MLS listings for the following areas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Keyword Analysis + Content Strategy</controllingFieldValue>
+            <valueName>The KWA Service is not complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Keyword Analysis + Content Strategy</controllingFieldValue>
+            <valueName>The location for the KWA is not one of the neighborhood/MLS pages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Content</controllingFieldValue>
+            <valueName>Neighborhood Guide Content</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Content</controllingFieldValue>
+            <valueName>Neighborhood Data Elements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Content</controllingFieldValue>
+            <valueName>Neighborhood Map &amp; Properties</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLS/Property Listings</controllingFieldValue>
+            <valueName>IDX integration is not complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MLS/Property Listings</controllingFieldValue>
+            <valueName>Listings are not populating</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GBP Set Up</controllingFieldValue>
+            <valueName>GBP Set Up Service is not complete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consistent NAP</controllingFieldValue>
+            <valueName>NAP is not consistent with Salesforce/GBP/USPS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metadata</controllingFieldValue>
+            <valueName>&quot;Detail Pages&quot; do not follow metadata best practices:</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Metadata</controllingFieldValue>
+            <valueName>Other pages do not follow metadata best practices:</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

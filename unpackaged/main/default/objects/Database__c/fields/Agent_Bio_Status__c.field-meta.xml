@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Bio_Status__c</fullName>
+    <inlineHelpText>Status of Agent Bio</inlineHelpText>
+    <label>Agent Bio Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Claimed by Client</fullName>
+                <default>false</default>
+                <label>Not Claimed by Client</label>
+            </value>
+            <value>
+                <fullName>Questionnaire Pending</fullName>
+                <default>false</default>
+                <label>Questionnaire Pending</label>
+            </value>
+            <value>
+                <fullName>Questionnaire Received</fullName>
+                <default>false</default>
+                <label>Questionnaire Received</label>
+            </value>
+            <value>
+                <fullName>Submitted to Content</fullName>
+                <default>false</default>
+                <label>Submitted to Content</label>
+            </value>
+            <value>
+                <fullName>Creation in Progress</fullName>
+                <default>false</default>
+                <label>Creation in Progress</label>
+            </value>
+            <value>
+                <fullName>Pending Client Review</fullName>
+                <default>false</default>
+                <label>Pending Client Review</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Posted</fullName>
+                <default>false</default>
+                <label>Posted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MLS_Request__c</fullName>
+    <label>MLS Request</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Add Buyer Sync</fullName>
+                <default>false</default>
+                <label>Add Buyer Sync</label>
+            </value>
+            <value>
+                <fullName>Remove Buyer Sync</fullName>
+                <default>false</default>
+                <label>Remove Buyer Sync</label>
+            </value>
+            <value>
+                <fullName>Double Listing - Remove one MLS</fullName>
+                <default>false</default>
+                <label>Double Listing - Remove one MLS</label>
+            </value>
+            <value>
+                <fullName>Remove Agent Sync (Listing)</fullName>
+                <default>false</default>
+                <label>Remove Agent Sync (Listing)</label>
+            </value>
+            <value>
+                <fullName>Add Agent Sync (Listing)</fullName>
+                <default>false</default>
+                <label>Add Agent Sync (Listing)</label>
+            </value>
+            <value>
+                <fullName>Add Listing Sync (Property)</fullName>
+                <default>false</default>
+                <label>Add Listing Sync (Property)</label>
+            </value>
+            <value>
+                <fullName>Remove Listing Sync (Property)</fullName>
+                <default>false</default>
+                <label>Remove Listing Sync (Property)</label>
+            </value>
+            <value>
+                <fullName>Add Office Sync</fullName>
+                <default>false</default>
+                <label>Add Office Sync</label>
+            </value>
+            <value>
+                <fullName>Remove Office Sync</fullName>
+                <default>false</default>
+                <label>Remove Office Sync</label>
+            </value>
+            <value>
+                <fullName>Check Sync Status</fullName>
+                <default>false</default>
+                <label>Check Sync Status</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VIP_Reason__c</fullName>
+    <label>VIP Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CB SOE (Society of Excellence)</fullName>
+                <default>false</default>
+                <label>CB SOE (Society of Excellence)</label>
+            </value>
+            <value>
+                <fullName>CB ILA (International Luxury Alliance)</fullName>
+                <default>false</default>
+                <label>CB ILA (International Luxury Alliance)</label>
+            </value>
+            <value>
+                <fullName>SIR Market Leader</fullName>
+                <default>false</default>
+                <label>SIR Market Leader</label>
+            </value>
+            <value>
+                <fullName>CB Global Luxury</fullName>
+                <default>false</default>
+                <label>CB Global Luxury</label>
+            </value>
+            <value>
+                <fullName>Network Member</fullName>
+                <default>false</default>
+                <label>Network Member</label>
+            </value>
+            <value>
+                <fullName>WSJ Top 250</fullName>
+                <default>false</default>
+                <label>WSJ Top 250</label>
+            </value>
+            <value>
+                <fullName>Compass Influencer</fullName>
+                <default>false</default>
+                <label>Compass Influencer</label>
+            </value>
+            <value>
+                <fullName>Corcoran Influencer</fullName>
+                <default>false</default>
+                <label>Corcoran Influencer</label>
+            </value>
+            <value>
+                <fullName>Celebrity Agent</fullName>
+                <default>false</default>
+                <label>Celebrity Agent</label>
+            </value>
+            <value>
+                <fullName>Large Brokerage Client</fullName>
+                <default>false</default>
+                <label>Large Brokerage Client</label>
+            </value>
+            <value>
+                <fullName>Other - Misc. VIP</fullName>
+                <default>false</default>
+                <label>Other - Misc. VIP</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Minor Market Transaction Volume &gt;$500M</fullName>
+                <default>false</default>
+                <label>Minor Market Transaction Volume &gt;$500M</label>
+            </value>
+            <value>
+                <fullName>Major Market Transaction Volume &gt;$1B</fullName>
+                <default>false</default>
+                <label>Major Market Transaction Volume &gt;$1B</label>
+            </value>
+            <value>
+                <fullName>Global Collective Member</fullName>
+                <default>false</default>
+                <label>Global Collective Member</label>
+            </value>
+            <value>
+                <fullName>Large Brokerage 50+ Agents</fullName>
+                <default>false</default>
+                <label>Large Brokerage 50+ Agents</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

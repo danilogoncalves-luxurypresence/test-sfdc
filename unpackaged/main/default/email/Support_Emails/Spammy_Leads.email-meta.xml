@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>How does Luxury Presence Prevent Spammy Leads?</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Spammy Leads</name>
+    <style>none</style>
+    <subject>Re: Preventing Spam Leads on Your Website</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support_24</letterhead>
+    <name>Webinar Signup</name>
+    <style>freeForm</style>
+    <subject>How to Sign Up for Our Live Webinars</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+We’re excited to offer live webinars that can help you get the most out of your Luxury Presence services!
+
+Click here to see our available webinars:
+https://luxurypresence.my.site.com/helpcenter/s/article/Sign-Up-for-Live-Classes
+
+These webinars cover a range of topics designed to enhance your experience, from best practices for managing your site to mastering marketing tools.
+
+If you have any questions or need help signing up, don’t hesitate to reach out to our Support Team.
+
+Looking forward to seeing you in class!
+
+Best regards,
+{!User.FirstName}
+Luxury Presence Support
+(310) 955-1077
+support@luxurypresence.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

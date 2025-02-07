@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Billing</letterhead>
+    <name>Nurture Chat Soon - Day 92</name>
+    <style>freeForm</style>
+    <subject>Last chance to get a stunning website at a great discount</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+I wanted to reach out one last time to see if you&#39;re interested in getting a beautiful real estate website for a discounted cost. Our team is ready to take your brand to the next level.
+
+We only have a few slots left for your market this month, so if you&#39;re interested in taking advantage of this opportunity, let&#39;s chat and see how we can help you.
+
+Don&#39;t miss out on this chance to stand out in a crowded market. Book a meeting today using this link: [Meeting Link].
+
+Kind regards,
+{!User.Name}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- LP Academy Team --></label>
+        <name>LP_Academy_Team__c</name>
+        <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation><!-- Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - CSM</masterLabel>
+            <translation><!-- CSD - CSM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - Client Experience</masterLabel>
+            <translation><!-- CSD - Client Experience --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - Content</masterLabel>
+            <translation><!-- CSD - Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - DCSM</masterLabel>
+            <translation><!-- CSD - DCSM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - Onboarding</masterLabel>
+            <translation><!-- CSD - Onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - PFT</masterLabel>
+            <translation><!-- CSD - PFT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - PFT - IDX - Offshore</masterLabel>
+            <translation><!-- CSD - PFT - IDX - Offshore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - PFT - IDX - Onshore</masterLabel>
+            <translation><!-- CSD - PFT - IDX - Onshore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - PFT - Launch - Offshore</masterLabel>
+            <translation><!-- CSD - PFT - Launch - Offshore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - PFT - Launch - Onshore</masterLabel>
+            <translation><!-- CSD - PFT - Launch - Onshore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - PFT - PET - Offshore</masterLabel>
+            <translation><!-- CSD - PFT - PET - Offshore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - PFT - PET - Onshore</masterLabel>
+            <translation><!-- CSD - PFT - PET - Onshore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - Paid Media</masterLabel>
+            <translation><!-- CSD - Paid Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - SEO</masterLabel>
+            <translation><!-- CSD - SEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - Social - Offshore</masterLabel>
+            <translation><!-- CSD - Social - Offshore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - Social Media</masterLabel>
+            <translation><!-- CSD - Social Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - Social Media - Onshore</masterLabel>
+            <translation><!-- CSD - Social Media - Onshore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - Support</masterLabel>
+            <translation><!-- CSD - Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - Support - Offshore VAs</masterLabel>
+            <translation><!-- CSD - Support - Offshore VAs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSD - Support - Onshore</masterLabel>
+            <translation><!-- CSD - Support - Onshore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales - AE1 - Onboarding</masterLabel>
+            <translation><!-- Sales - AE1 - Onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales - AE1s and AE2s</masterLabel>
+            <translation><!-- Sales - AE1s and AE2s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales - Managers</masterLabel>
+            <translation><!-- Sales - Managers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales - SDR</masterLabel>
+            <translation><!-- Sales - SDR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales - SDR - Onboarding</masterLabel>
+            <translation><!-- Sales - SDR - Onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales - Strategic AE3 and BDR</masterLabel>
+            <translation><!-- Sales - Strategic AE3 and BDR --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

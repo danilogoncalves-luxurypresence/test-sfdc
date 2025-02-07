@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Handoff_Rating_Reason__c</fullName>
+    <label>Handoff Rating Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>AE_Handoff_Rating__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No notes</fullName>
+                <default>false</default>
+                <label>No notes</label>
+            </value>
+            <value>
+                <fullName>Notes not helpful</fullName>
+                <default>false</default>
+                <label>Notes not helpful</label>
+            </value>
+            <value>
+                <fullName>Incorrect domain information</fullName>
+                <default>false</default>
+                <label>Incorrect domain information</label>
+            </value>
+            <value>
+                <fullName>No domain information</fullName>
+                <default>false</default>
+                <label>No domain information</label>
+            </value>
+            <value>
+                <fullName>No template selected</fullName>
+                <default>false</default>
+                <label>No template selected</label>
+            </value>
+            <value>
+                <fullName>Escalation due to sales overselling or misunderstanding</fullName>
+                <default>false</default>
+                <label>Escalation due to sales overselling or misunderstanding</label>
+            </value>
+            <value>
+                <fullName>No preferred communication input</fullName>
+                <default>false</default>
+                <label>No preferred communication input</label>
+            </value>
+            <value>
+                <fullName>No A la Carte items noted on salesforce</fullName>
+                <default>false</default>
+                <label>No A la Carte items noted on salesforce</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <valueName>No notes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <valueName>Notes not helpful</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <valueName>Incorrect domain information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <valueName>No domain information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <valueName>No template selected</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <valueName>Escalation due to sales overselling or misunderstanding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <valueName>No preferred communication input</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>3</controllingFieldValue>
+            <valueName>No A la Carte items noted on salesforce</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

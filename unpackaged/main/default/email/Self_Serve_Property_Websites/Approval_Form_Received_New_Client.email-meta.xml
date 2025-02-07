@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Approval Form Received</name>
+    <style>none</style>
+    <subject>Getting Ready to Launch!</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Thank you for your launch approval! We are excited to get your website live soon. Here is what to expect:
+
+Launch Process: The website launch process will take up to 1 business day. We will email you once the website is live.
+
+Platform Access: We will be providing you with access to the Luxury Presence Platform where you will be able to make edits to the website once the website is live.
+
+We will let you know once the website is launched!
+
+Best,
+
+Self Serve Property Websites
+Luxury Presence
+Phone: (310) 955-1077
+Email: support@luxurypresence.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

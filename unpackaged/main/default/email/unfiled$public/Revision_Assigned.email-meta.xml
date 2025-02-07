@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>Revision Assigned</name>
+    <style>freeForm</style>
+    <subject>New Revision assigned</subject>
+    <textOnly>Hi,
+
+A new revision has been assigned to you.
+
+Review the following link:
+{!Revision__c.Link}
+
+Regards</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Express_Checkout</fullName>
+    <columns>NAME</columns>
+    <columns>Due_date__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Implementation_Manager__c</columns>
+    <columns>Website_builder__c</columns>
+    <columns>Data_specialist__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Revision_Type__c</field>
+        <operation>equals</operation>
+        <value>Xpress Checkout</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Done</value>
+    </filters>
+    <label>Express Checkout</label>
+</ListView>

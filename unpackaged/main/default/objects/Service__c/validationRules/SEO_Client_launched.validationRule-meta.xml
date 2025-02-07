@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SEO_Client_launched</fullName>
+    <active>false</active>
+    <description>If SEO Client launched checkbox is false, people can not change status to ready to launch</description>
+    <errorConditionFormula>AND(
+ ISCHANGED( Status__c ) ,
+ ISPICKVAL( Status__c ,&quot;Ready to Launch&quot;),
+ SEO_Client_launched__c = false,
+  RecordTypeId = &quot;0128D000000DtmT&quot;
+
+)</errorConditionFormula>
+    <errorMessage>SEO is not completed</errorMessage>
+</ValidationRule>

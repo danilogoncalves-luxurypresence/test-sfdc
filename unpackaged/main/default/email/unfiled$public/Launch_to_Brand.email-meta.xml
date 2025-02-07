@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>Launch to Brand</name>
+    <style>freeForm</style>
+    <subject>Here’s what’s next with your upgraded Brand+ Plan</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+
+We’re excited to welcome you into the Brand+ Plan!
+
+
+Here’s more information about what it includes, as well as a few easy action items to get the ball rolling.
+
+
+Local SEO. Your new plan includes Google Business Profile (GBP) set-up, monthly GPB posts, Business Citations, and Reputation Monitoring. Our SEO team will reach out to get things set up, and you’ll receive quarterly SEO and GBP reports to keep you updated.
+
+
+Action item: To speed up the process, please add luxurypresenceseo@gmail.com as a Manager for your GPB (instructions here).
+
+
+MLS Pages. Your new plan also includes 6 optimized MLS pages, which will boost your ranking visibility in these areas.
+
+
+Action item: Please share your top 6 service locations here so our team can build these pages out.
+
+
+On-Demand Ads. For those looking to generate more leads, you have the option to add On-Demand Ads™ to your plan. You can learn more here.
+
+
+Action item: If you’d like to get started with On-Demand Ads, fill out this form.
+
+
+Presence™ Power Hour. We host weekly webinars exclusively for our Brand+ clients, with time built in for Q&amp;A. Topics include SEO best practices, lead capture and nurture, and product spotlights that teach you how to effectively use our platform and products.
+
+
+Action item: Register for an upcoming session.
+
+
+If you have any questions or need help, we’re here for you at support@luxurypresence.com.
+
+
+Cheers,
+
+{!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},&nbsp;<br />
+<br />
+Looking forward to seeing you today at [TIME] for our monthly recurring meeting.<br />
+<br />
+<u>Here’s the link to join the call.</u><br />
+<br />
+And <u>here’s the agenda for our meeting.</u><br />
+<br />
+If this time no longer fits your calendar, no worries! Let me know and we can reschedule for a better time.<br />
+<br />
+Speak with you soon!<br />
+{{{Sender.Name}}}</body>
+</html>

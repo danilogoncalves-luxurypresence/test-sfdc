@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Converts the Website Draft Score to a number for formulas and calculations --></help>
+        <label><!-- Website Draft Score --></label>
+        <name>Website_Draft_Score_Num__c</name>
+    </CustomFieldTranslation>

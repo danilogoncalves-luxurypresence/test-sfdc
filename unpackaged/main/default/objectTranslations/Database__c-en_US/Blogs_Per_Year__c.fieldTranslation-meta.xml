@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- # of posts a client should receive per year. This should NOT be in per quarter format. --></help>
+        <label><!-- Blogs Per Year --></label>
+        <name>Blogs_Per_Year__c</name>
+    </CustomFieldTranslation>

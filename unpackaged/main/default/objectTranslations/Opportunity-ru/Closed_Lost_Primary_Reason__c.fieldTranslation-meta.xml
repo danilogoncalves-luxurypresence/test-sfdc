@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Closed Lost Primary Reason --></label>
+        <name>Closed_Lost_Primary_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Design/look and feel</masterLabel>
+            <translation><!-- Design/look and feel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geography</masterLabel>
+            <translation><!-- Geography --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In a contract</masterLabel>
+            <translation><!-- In a contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low transaction volume</masterLabel>
+            <translation><!-- Low transaction volume --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Market Conditions/Macro</masterLabel>
+            <translation><!-- Market Conditions/Macro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing development/new construction features</masterLabel>
+            <translation><!-- Missing development/new construction features --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing integration</masterLabel>
+            <translation><!-- Missing integration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing rental features</masterLabel>
+            <translation><!-- Missing rental features --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing search filters</masterLabel>
+            <translation><!-- Missing search filters --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Need CRM functionality</masterLabel>
+            <translation><!-- Need CRM functionality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online</masterLabel>
+            <translation><!-- Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other &quot;Now&#39;s not a good time&quot;</masterLabel>
+            <translation><!-- Other &quot;Now&apos;s not a good time&quot; --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Part-time</masterLabel>
+            <translation><!-- Part-time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect&#39;s network</masterLabel>
+            <translation><!-- Prospect&apos;s network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retiring/scaling back</masterLabel>
+            <translation><!-- Retiring/scaling back --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

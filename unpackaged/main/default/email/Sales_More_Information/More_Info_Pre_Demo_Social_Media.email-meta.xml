@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Before Demo to send out if agent is asking for more info on our social media services</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support</letterhead>
+    <name>More Info (Pre Demo) | Social Media</name>
+    <style>freeForm</style>
+    <subject>Luxury Presence Consultation | Before our call...</subject>
+    <textOnly>Hi {!Lead.Name},
+
+
+
+Thanks for taking the time today! As promised, I’m sending along some additional information about our social media management.
+
+
+Our expert social media team helps elevate your brand online, developing a tailored strategy and consistently posting content that sets you apart. We focus on improving your engagement, building your brand awareness, and establishing you as a market and lifestyle expert.
+
+
+Here is an example of an account we&#39;re managing:
+Carrie-Ann Nicholson
+
+
+Let’s schedule a demo so I can share more details and learn about the needs and goals of your business. Here is a link to my calendar [Insert booking link] so you can pick the time that’s best for you.
+
+
+
+{!Lead.OwnerFirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

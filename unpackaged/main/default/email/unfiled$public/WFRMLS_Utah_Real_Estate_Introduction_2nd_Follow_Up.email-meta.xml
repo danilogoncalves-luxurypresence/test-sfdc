@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>WFRMLS / Utah Real Estate Introduction - 2nd Follow Up</name>
+    <style>freeForm</style>
+    <subject>WFRMLS / Utah Real Estate Introduction - 2nd Follow Up</subject>
+    <textOnly>Hi {!Service__c.Contact_First_Name__c}​,
+
+Hope your week is going great! I wanted to follow up on the previous email. Utah Real Estate / Wasatch Front Regional MLS, Inc. requires agents to initiate the IDX Request process. Here is the instruction sheet that outlines the required step and helps with the paperwork process: Instructions.
+
+Let me know if you have any questions. I&#39;m here to help!
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

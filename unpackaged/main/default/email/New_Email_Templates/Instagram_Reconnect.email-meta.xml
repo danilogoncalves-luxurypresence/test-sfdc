@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Support_24</letterhead>
+    <name>Instagram Reconnect</name>
+    <style>freeForm</style>
+    <subject>How to Reconnect Your Instagram Account 📸</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+I hope you&#39;re having a great day! I wanted to share instructions on how to reconnect your Instagram account to your website.
+
+Instagram requires accounts to be reconnected every 60 days for security purposes, so if your feed is missing, this is likely the reason.
+
+To reconnect your Instagram account, follow these steps:
+
+1. Log in to your Luxury Presence dashboard
+2. Navigate to Settings and select Integrations
+3. Find the Instagram section and click Reconnect
+4. A pop-up window will appear asking you to log in to Instagram. Make sure you log in using the correct Instagram credentials associated with your account.
+5. Once logged in, authorize the connection, and your Instagram feed will be restored to your website.
+
+Many agents will set a calendar reminder to log in once a month or so and reauthorize the connection, resetting the 60 day countdown.
+
+This article from our Help Center goes over the process in more detail:
+https://luxurypresence.my.site.com/helpcenter/s/article/Resolving-Missing-Instagram-Feeds-on-Your-Website
+
+Let me know if you need any further assistance, and I’ll be happy to help!
+
+Best regards,
+{!User.FirstName}
+Luxury Presence Support
+(310) 955-1077
+support@luxurypresence.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

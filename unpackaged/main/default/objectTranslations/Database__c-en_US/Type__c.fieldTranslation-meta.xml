@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>AI Lead Nurture</masterLabel>
+            <translation><!-- AI Lead Nurture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design Intake Call</masterLabel>
+            <translation><!-- Design Intake Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design Quiz</masterLabel>
+            <translation><!-- Design Quiz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Facebook Credentials</masterLabel>
+            <translation><!-- Facebook Credentials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Google Credentials</masterLabel>
+            <translation><!-- Google Credentials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Assessment</masterLabel>
+            <translation><!-- Health Assessment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instagram Credentials</masterLabel>
+            <translation><!-- Instagram Credentials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leads Pro</masterLabel>
+            <translation><!-- Leads Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LinkedIn Credentials</masterLabel>
+            <translation><!-- LinkedIn Credentials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Demand Ads</masterLabel>
+            <translation><!-- On-Demand Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plan Migration</masterLabel>
+            <translation><!-- Plan Migration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEO Blog Selection</masterLabel>
+            <translation><!-- SEO Blog Selection --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEO Pro</masterLabel>
+            <translation><!-- SEO Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media Basic Quiz</masterLabel>
+            <translation><!-- Social Media Basic Quiz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social Media Premium/Dominance Quiz</masterLabel>
+            <translation><!-- Social Media Premium/Dominance Quiz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategy brief</masterLabel>
+            <translation><!-- Strategy brief --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Twitter Credentials</masterLabel>
+            <translation><!-- Twitter Credentials --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Welcome Call</masterLabel>
+            <translation><!-- Welcome Call --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IAO_Contact</fullName>
+    <active>true</active>
+    <description>If an Opportunity has the field “In App Onboarding” = Yes, and the field IAO Contact is empty, the oppty cannot be marked as closed won.</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( StageName , &quot;Closed Won&quot;),
+ISCHANGED (StageName),
+ISPICKVAL( Beta_user__c ,&quot;Yes&quot;),
+ISBLANK( IAO_Contact__c ),
+RecordType.Name = &quot;New Sales&quot;
+
+)</errorConditionFormula>
+    <errorDisplayField>IAO_Contact__c</errorDisplayField>
+    <errorMessage>In order to close the opportunity, please fill the IAO Contact</errorMessage>
+</ValidationRule>

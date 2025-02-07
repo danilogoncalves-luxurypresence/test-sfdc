@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>GBP Not Showing Strategy</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>GBP Not Showing Strategy</name>
+    <style>none</style>
+    <subject>🌟 Two Options to Boost Your Google Business Visibility – Let&#39;s Decide!</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

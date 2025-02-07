@@ -1,0 +1,19 @@
+Hi {!Contact.FirstName},
+
+At Luxury Presence, we employ several robust measures to prevent spam leads and ensure the quality of your incoming inquiries:
+
+Spam Filtering Logic: We have built-in filtering logic that screens out leads containing solicitation or low-intent keywords, such as "test."
+
+Blocking by Email: Once a lead is deleted by an agent or Luxury Presence user, any future leads from that same email address will be automatically blocked.
+
+Google reCAPTCHA: While not universally applied, Google reCAPTCHA can be manually added to your forms, helping to prevent spam by verifying user interactions.
+
+Cross-client Spam Check: We've introduced a new spam detection feature that flags leads as spam if the same email address generates activity across three or more clients within a 24-hour period.
+
+These measures are part of our ongoing efforts to provide you with high-quality, relevant leads. If you have any questions or would like to implement additional solutions, feel free to reach out!
+
+Best regards,
+
+The Luxury Presence Team
+Phone: (310) 955-1077
+Email: support@luxurypresence.com

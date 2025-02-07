@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Tier_Plan__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>notEqual</operation>
+        <value>Enterprise</value>
+    </filters>
+    <filters>
+        <field>VIP__c</field>
+        <operation>notEqual</operation>
+        <value>1</value>
+    </filters>
+    <label>All Accounts</label>
+</ListView>

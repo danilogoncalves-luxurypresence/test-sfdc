@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Use for calculations related to DS Quality Score --></help>
+        <label><!-- Website draft: DS Quality Score --></label>
+        <name>Website_draft_DS_Quality_ScoreNUM__c</name>
+    </CustomFieldTranslation>

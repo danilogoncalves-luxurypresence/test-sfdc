@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},
+
+A 404 error, also known as "Not Found," occurs when a web page that a user or search engine is trying to access cannot be found on the server. Encountering a 404 error in Google Search Console (GSC) is not always a cause for immediate concern, and here's why:
+
+* Natural Website Changes: Websites are dynamic, and content can be regularly updated or removed. It's common for pages to be deleted or URLs to be changed during website restructuring or content updates. As a result, some 404 errors may be a natural part of these changes.
+* Old or Irrelevant Content: If you intentionally removed or replaced outdated or irrelevant content, then the resulting 404 errors are expected. Search engines understand that websites evolve, and they are generally forgiving of these types of errors.
+* Redirects: If redirects were setup for pages, search engines will follow the redirects and update their index accordingly. In such cases, the 404 errors are temporary, and the new destination will be crawled and indexed.
+* Not All 404 Errors are Critical: GSC may report 404 errors for pages that aren't crucial for your site's performance or SEO. Some pages might have been indexed by mistake or are not relevant for search engines.
+* Focus on Significant Issues: Google understands that not all websites can be error-free, and it prioritizes addressing critical issues that could impact user experience or indexing. If your site has a few isolated 404 errors for non-essential pages, it's unlikely to have a major impact on your overall SEO performance.
+
+
+Best, 
+The SEO Team at Luxury Presence

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Launch Team: WB Complexity Score --></label>
+        <name>Launch_Team_WB_Complexity_Score1__c</name>
+    </CustomFieldTranslation>

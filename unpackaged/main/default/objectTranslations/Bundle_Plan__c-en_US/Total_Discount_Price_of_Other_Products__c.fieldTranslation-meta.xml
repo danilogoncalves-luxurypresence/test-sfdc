@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Total of the Bundle Price of all associated products that do NOT hav Product Family of Setup Fee. --></help>
+        <label><!-- Total Discount Price of Other Products --></label>
+        <name>Total_Discount_Price_of_Other_Products__c</name>
+    </CustomFieldTranslation>

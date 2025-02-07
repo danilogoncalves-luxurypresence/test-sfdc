@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Closed Lost Root Cause --></label>
+        <name>Closed_Lost_Root_Cause__c</name>
+        <picklistValues>
+            <masterLabel>Bad Fit/ICP</masterLabel>
+            <translation><!-- Bad Fit/ICP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ghosted</masterLabel>
+            <translation><!-- Ghosted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing/Incorrect DM</masterLabel>
+            <translation><!-- Missing/Incorrect DM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Functionality</masterLabel>
+            <translation><!-- Product Functionality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reputation</masterLabel>
+            <translation><!-- Reputation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timing</masterLabel>
+            <translation><!-- Timing --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

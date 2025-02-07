@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Paid_Media_Clients</fullName>
+    <columns>NAME</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Tier_Plan_Account__c</columns>
+    <columns>Last_Status_Update__c</columns>
+    <columns>Content_Creator__c</columns>
+    <columns>Strategy_Brief__c</columns>
+    <columns>Account_Manager2__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.On_Demand_Ads,Service__c.Paid_Media</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Cancelled</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Start Build Out,Live</value>
+    </filters>
+    <label>All Paid Media Clients</label>
+</ListView>

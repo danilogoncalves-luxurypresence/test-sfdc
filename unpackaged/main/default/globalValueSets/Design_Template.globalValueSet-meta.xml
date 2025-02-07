@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Compass &quot;The Innovator&quot;</fullName>
+        <default>false</default>
+        <label>Compass &quot;The Innovator&quot;</label>
+    </customValue>
+    <customValue>
+        <fullName>Compass &quot;The Navigator&quot;</fullName>
+        <default>false</default>
+        <label>Compass &quot;The Navigator&quot;</label>
+    </customValue>
+    <customValue>
+        <fullName>Compass &quot;The Prestige&quot;</fullName>
+        <default>false</default>
+        <label>Compass &quot;The Prestige&quot;</label>
+    </customValue>
+    <customValue>
+        <fullName>Compass &quot;The Milestone&quot;</fullName>
+        <default>false</default>
+        <label>Compass &quot;The Milestone&quot;</label>
+    </customValue>
+    <customValue>
+        <fullName>The Producer</fullName>
+        <default>false</default>
+        <label>The Producer</label>
+    </customValue>
+    <customValue>
+        <fullName>The Classic</fullName>
+        <default>false</default>
+        <label>The Classic</label>
+    </customValue>
+    <customValue>
+        <fullName>Bespoke</fullName>
+        <default>false</default>
+        <label>Bespoke</label>
+    </customValue>
+    <customValue>
+        <fullName>The Evolution</fullName>
+        <default>false</default>
+        <label>The Evolution</label>
+    </customValue>
+    <customValue>
+        <fullName>The Influencer</fullName>
+        <default>false</default>
+        <label>The Influencer</label>
+    </customValue>
+    <customValue>
+        <fullName>Coldwell Banker Brand Agent</fullName>
+        <default>false</default>
+        <label>Coldwell Banker Brand Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Coldwell Banker Global Luxury Agent</fullName>
+        <default>false</default>
+        <label>Coldwell Banker Global Luxury Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Coldwell Banker Global Luxury Property</fullName>
+        <default>false</default>
+        <label>Coldwell Banker Global Luxury Property</label>
+    </customValue>
+    <customValue>
+        <fullName>Coldwell Banker Brand Property</fullName>
+        <default>false</default>
+        <label>Coldwell Banker Brand Property</label>
+    </customValue>
+    <customValue>
+        <fullName>Sotheby&#39;s &quot;The Inspiration&quot;</fullName>
+        <default>false</default>
+        <label>Sotheby&#39;s &quot;The Inspiration&quot;</label>
+    </customValue>
+    <customValue>
+        <fullName>Sotheby&#39;s &quot;The Icon&quot;</fullName>
+        <default>false</default>
+        <label>Sotheby&#39;s &quot;The Icon&quot;</label>
+    </customValue>
+    <customValue>
+        <fullName>Sotheby&#39;s &quot;The Trailblazer&quot;</fullName>
+        <default>false</default>
+        <label>Sotheby&#39;s &quot;The Trailblazer&quot;</label>
+    </customValue>
+    <customValue>
+        <fullName>Sotheby&#39;s &quot;The Lifestyle&quot;</fullName>
+        <default>false</default>
+        <label>Sotheby&#39;s &quot;The Lifestyle&quot;</label>
+    </customValue>
+    <customValue>
+        <fullName>Corcoran Agent #1</fullName>
+        <default>false</default>
+        <label>Corcoran Agent #1</label>
+    </customValue>
+    <customValue>
+        <fullName>Corcoran Agent #2</fullName>
+        <default>false</default>
+        <label>Corcoran Agent #2</label>
+    </customValue>
+    <customValue>
+        <fullName>Corcoran Development Site</fullName>
+        <default>false</default>
+        <label>Corcoran Development Site</label>
+    </customValue>
+    <customValue>
+        <fullName>Masterpiece</fullName>
+        <default>false</default>
+        <label>Masterpiece</label>
+    </customValue>
+    <customValue>
+        <fullName>Compass S&amp;E</fullName>
+        <default>false</default>
+        <label>Compass S&amp;E</label>
+    </customValue>
+    <customValue>
+        <fullName>Pinnacle</fullName>
+        <default>false</default>
+        <label>Pinnacle</label>
+    </customValue>
+    <customValue>
+        <fullName>The Signature</fullName>
+        <default>false</default>
+        <label>The Signature</label>
+    </customValue>
+    <customValue>
+        <fullName>N/A</fullName>
+        <default>false</default>
+        <label>N/A</label>
+    </customValue>
+    <customValue>
+        <fullName>The Producer - CIRE</fullName>
+        <default>false</default>
+        <label>The Producer - CIRE</label>
+    </customValue>
+    <customValue>
+        <fullName>The Masterpiece - CIRE</fullName>
+        <default>false</default>
+        <label>The Masterpiece - CIRE</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Collective Agent</fullName>
+        <default>false</default>
+        <label>Global Collective Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Custom Website Package</fullName>
+        <default>false</default>
+        <label>Custom Website Package</label>
+    </customValue>
+    <customValue>
+        <fullName>Undecided</fullName>
+        <default>false</default>
+        <label>Undecided</label>
+    </customValue>
+    <customValue>
+        <fullName>The Visionary</fullName>
+        <default>false</default>
+        <label>The Visionary</label>
+    </customValue>
+    <customValue>
+        <fullName>Compass Template - Stripped</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Compass Template - Stripped</label>
+    </customValue>
+    <customValue>
+        <fullName>Property website (Non-Compass)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Property website (Non-Compass)</label>
+    </customValue>
+    <customValue>
+        <fullName>Fully Custom</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Fully Custom</label>
+    </customValue>
+    <customValue>
+        <fullName>The Bold</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>The Bold</label>
+    </customValue>
+    <customValue>
+        <fullName>The Exclusive</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>The Exclusive</label>
+    </customValue>
+    <customValue>
+        <fullName>The Elite</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>The Elite</label>
+    </customValue>
+    <customValue>
+        <fullName>The Modern</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>The Modern</label>
+    </customValue>
+    <customValue>
+        <fullName>The Foundation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>The Foundation</label>
+    </customValue>
+    <customValue>
+        <fullName>The Flaggship</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>The Flaggship</label>
+    </customValue>
+    <masterLabel>Design Template</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

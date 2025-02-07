@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Any additional notes you think the AM should know about the client or the account? --></help>
+        <label><!-- Additional Notes --></label>
+        <name>Any_additional_notes__c</name>
+    </CustomFieldTranslation>

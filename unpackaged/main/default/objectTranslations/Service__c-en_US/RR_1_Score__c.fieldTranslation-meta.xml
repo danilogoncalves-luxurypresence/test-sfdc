@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is used for formula calculations relating to the RR1 Score --></help>
+        <label><!-- RR 1 Score --></label>
+        <name>RR_1_Score__c</name>
+    </CustomFieldTranslation>

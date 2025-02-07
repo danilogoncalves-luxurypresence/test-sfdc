@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Take_2</fullName>
+    <columns>NAME</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Status__c</columns>
+    <columns>Website_builder__c</columns>
+    <columns>Data_specialist__c</columns>
+    <columns>Header_image_curator__c</columns>
+    <columns>Revisions_Due_Date__c</columns>
+    <columns>Implementation_Manager__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Revision__c.Take_2</value>
+    </filters>
+    <label>Take 2</label>
+</ListView>

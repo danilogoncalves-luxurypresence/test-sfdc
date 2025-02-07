@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Is your business more buyer or seller-focused? What would you like to be --></help>
+        <label><!-- More buyer or seller-focused --></label>
+        <name>Is_your_business_more_buyer_or_seller_fo__c</name>
+    </CustomFieldTranslation>

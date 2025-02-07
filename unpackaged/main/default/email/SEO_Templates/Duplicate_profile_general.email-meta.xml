@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Duplicate profile (general)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Duplicate profile (general)</name>
+    <style>none</style>
+    <subject>🚩 Google Business Profile Flagged as Duplicate – Here&#39;s How We Can Resolve It!</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

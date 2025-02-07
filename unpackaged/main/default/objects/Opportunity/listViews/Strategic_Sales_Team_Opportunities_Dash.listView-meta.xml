@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strategic_Sales_Team_Opportunities_Dash</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Total_Fees__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Demo_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>equals</operation>
+        <value>Eric Klusman,Austin Groth,Kaleb Dubin,Nina Uchida,Derek Dombrowsky,Justin Ward,Jadwin Hart,Laura McDonald,Andrew Stewart</value>
+    </filters>
+    <filters>
+        <field>Qualifying_date__c</field>
+        <operation>lessOrEqual</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Qualifying,Selling,Contract,Closed Won</value>
+    </filters>
+    <label>Strategic Sales Team Opportunities Dash</label>
+</ListView>

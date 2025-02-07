@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jan_2025_MM_Key_Prospects_Laura</fullName>
+    <booleanFilter>1 or 2 or 3 or 4 or 5 or 6 or 7</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LAST_ACTIVITY_DATETIME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY00000375tcYAA,003EY0000043ymYYAQ,003EY000001eNisYAE,003EY000001glfCYAQ,003EY000001iQDPYA2,003EY000001cXpvYAE,003EY0000045GmYYAU,003EY000002r1DUYAY,003EY000001eLAWYA2,003EY000001jqsTYAQ</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000002o8N4YAI,003EY000002qm5jYAA,003Rg0000092iasIAA,003EY0000045H5EYAU,003EY000003LmdCYAS,--,003EY000002BGKKYA4,003EY000002U3a4YAC,003EY000002eteoYAA,003EY000002Th7SYAS</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000002kEqFYAU,003Rg000004tjgZIAQ,003EY000002u9v6YAA,003EY000001cyEJYAY,003EY000002cZzNYAU,003EY000003UzKeYAK,003Rg0000065HrCIAU,003EY000003eceUYAQ,003Rg000003Vvl4IAC,003EY000003xMxtYAE</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000003ecjUYAQ,003EY000004rSi4YAE,003EY000003lUP4YAM,003EY000004R5tQYAS,--,003Rg00000BOPvBIAX,003Rg000003GZ6bIAG,003EY000004ea8hYAA,003EY000004seYDYAY</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003Rg000004SlrNIAS,003Rg000005SulxIAC,003Rg000005DshHIAS,003Rg00000774R3IAI,003Rg000007oLZtIAM,003Rg0000086cIwIAI,003Rg000008hv6VIAQ,003Rg00000ASIXJIA5,003Rg00000AqpISIAZ,003Rg00000Bnge9IAB</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>003Rg00000HKmjRIAT,003EY000002RaFiYAK</value>
+    </filters>
+    <filters>
+        <field>Account.Account_18_Digit_ID__c</field>
+        <operation>equals</operation>
+        <value>001EY000002LQBWYA4,001EY0000038lAVYAY,001Rg0000040ghhIAA,001Rg00000CzkWtIAJ,001EY0000039OkiYAE,001EY000002lmOYYAY</value>
+    </filters>
+    <label>Jan 2025 - MM Key Prospects - Laura</label>
+</ListView>

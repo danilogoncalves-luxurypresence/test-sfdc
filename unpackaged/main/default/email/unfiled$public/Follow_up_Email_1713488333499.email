@@ -1,0 +1,10 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{Recipient.FirstName}}},<br />
+<br />
+Circling back to discuss your account and find a solution. &nbsp;When is a good time to connect?<br />
+Please take a look at my availability <em>[Here]</em> and let me know what works for you.<br />
+Thank you,</body>
+</html>

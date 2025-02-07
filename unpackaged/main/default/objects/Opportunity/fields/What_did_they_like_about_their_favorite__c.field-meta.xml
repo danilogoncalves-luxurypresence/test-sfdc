@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_did_they_like_about_their_favorite__c</fullName>
+    <inlineHelpText>(color, layout, imagery, etc?)</inlineHelpText>
+    <label>What did they like about their favorite</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

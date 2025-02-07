@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Verified --></label>
+        <name>Verified__c</name>
+        <picklistValues>
+            <masterLabel>Need Verification</masterLabel>
+            <translation><!-- Need Verification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No access</masterLabel>
+            <translation><!-- No access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Suspended</masterLabel>
+            <translation><!-- Suspended --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verified</masterLabel>
+            <translation><!-- Verified --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

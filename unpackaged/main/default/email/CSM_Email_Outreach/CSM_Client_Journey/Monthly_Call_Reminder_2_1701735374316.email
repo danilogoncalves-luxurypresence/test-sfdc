@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi {{{recipient.first_name}}},<br />
+<br />
+I’m looking forward to our upcoming call this [insert day of the week], [insert date] at [insert time in agents timezone].<br />
+<br />
+I’ve included the link for our meeting below. You can join by computer or dial-in at your preference.<br />
+<br />
+If you need to reschedule this meeting for any reason, please let me know and I can send through some alternative times for us to connect.&nbsp;<br />
+<br />
+[Insert meeting link and phone number]<br />
+<br />
+Chat soon!&nbsp;<br />
+<br />
+{{{Sender.Name}}}<br />
+<br />
+&nbsp;</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Footage Type --></label>
+        <name>Footage_Type__c</name>
+        <picklistValues>
+            <masterLabel>Client &amp; LP Stock Videos</masterLabel>
+            <translation><!-- Client &amp; LP Stock Videos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Videos</masterLabel>
+            <translation><!-- Client Videos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LP Stock Videos</masterLabel>
+            <translation><!-- LP Stock Videos --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

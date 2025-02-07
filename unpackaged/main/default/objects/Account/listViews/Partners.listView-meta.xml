@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partners</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>Prospecting__c</columns>
+    <columns>Year_Est__c</columns>
+    <columns>Location__c</columns>
+    <columns>Exclusivity__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Brokerage Partner,Industry Partner,Affiliate Partner</value>
+    </filters>
+    <filters>
+        <field>PARENT_NAME</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Partners</label>
+</ListView>

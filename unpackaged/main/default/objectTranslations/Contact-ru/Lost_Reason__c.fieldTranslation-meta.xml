@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Lost Reason --></label>
+        <name>Lost_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Don&#39;t think it will work</masterLabel>
+            <translation><!-- Don&apos;t think it will work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Features</masterLabel>
+            <translation><!-- Features --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner/Spouse disagree</masterLabel>
+            <translation><!-- Partner/Spouse disagree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poorly Qualified</masterLabel>
+            <translation><!-- Poorly Qualified --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reputation</masterLabel>
+            <translation><!-- Reputation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timing</masterLabel>
+            <translation><!-- Timing --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

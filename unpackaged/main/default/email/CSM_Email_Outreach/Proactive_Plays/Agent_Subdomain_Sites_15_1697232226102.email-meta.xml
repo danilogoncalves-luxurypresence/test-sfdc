@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Based on your team size and transaction volume, you qualify for a limited promotion for Agent Sub Domains</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Agent Subdomain Sites $15</name>
+    <style>none</style>
+    <subject>Exclusive Offer: Get Agent Subdomain Sites for just $15/month</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

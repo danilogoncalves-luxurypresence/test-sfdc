@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>Service Ready to Launch</name>
+    <style>freeForm</style>
+    <subject>{!Service__c.Name} is ready to launch</subject>
+    <textOnly>Hi,
+The {!Service__c.Name} service corresponding to the account {!Service__c.Account__c} is ready to launch.
+
+Please review and complete steps to launch the website.
+
+Regards</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Downgrade Reason --></label>
+        <name>Downgrade_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Budget/Cost</masterLabel>
+            <translation><!-- Budget/Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Content Quality</masterLabel>
+            <translation><!-- Content Quality --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late Deliverables</masterLabel>
+            <translation><!-- Late Deliverables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No ROI/Don&#39;t see value</masterLabel>
+            <translation><!-- No ROI/Don&apos;t see value --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-renewal</masterLabel>
+            <translation><!-- Non-renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personal Reasons</masterLabel>
+            <translation><!-- Personal Reasons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unresponsive</masterLabel>
+            <translation><!-- Unresponsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Website/Other Service</masterLabel>
+            <translation><!-- Website/Other Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wrong/Unmet Expectations</masterLabel>
+            <translation><!-- Wrong/Unmet Expectations --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

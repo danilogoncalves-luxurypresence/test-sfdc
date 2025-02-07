@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>High_Touch__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>This should only be checked for high-touch content clients. Refer to criteria for high-touch clients prior to checking.</inlineHelpText>
+    <label>High Touch</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

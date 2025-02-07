@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MLS_Board__c</fullName>
+    <label>MLS Board</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>[In progress] AR - Northwest Arkansas Board of REALTORS MLS (NWAR)</fullName>
+                <default>false</default>
+                <label>[In progress] AR - Northwest Arkansas Board of REALTORS MLS (NWAR)</label>
+            </value>
+            <value>
+                <fullName>[In progress] WI - REALTOR Association of Northeast Wisconsin (RANW)</fullName>
+                <default>false</default>
+                <label>[In progress] WI - REALTOR Association of Northeast Wisconsin (RANW)</label>
+            </value>
+            <value>
+                <fullName>AK - Alaska Multiple Listing Service, Inc. (AMLS)</fullName>
+                <default>false</default>
+                <label>AK - Alaska Multiple Listing Service, Inc. (AMLS)</label>
+            </value>
+            <value>
+                <fullName>AL - Baldwin County Association of REALTORS (BCAR)</fullName>
+                <default>false</default>
+                <label>AL - Baldwin County Association of REALTORS (BCAR)</label>
+            </value>
+            <value>
+                <fullName>AL - Valley MLS (NALMLS)</fullName>
+                <default>false</default>
+                <label>AL - Valley MLS (NALMLS)</label>
+            </value>
+            <value>
+                <fullName>AR - Cooperative Arkansas (CARMLS)</fullName>
+                <default>false</default>
+                <label>AR - Cooperative Arkansas (CARMLS)</label>
+            </value>
+            <value>
+                <fullName>AZ - Arizona Regional MLS (ARMLS)</fullName>
+                <default>false</default>
+                <label>AZ - Arizona Regional MLS (ARMLS)</label>
+            </value>
+            <value>
+                <fullName>AZ - Sedona Verde Valley (SVVAOR)</fullName>
+                <default>false</default>
+                <label>AZ - Sedona Verde Valley (SVVAOR)</label>
+            </value>
+            <value>
+                <fullName>AZ - Southern Arizona MLS (TAR)</fullName>
+                <default>false</default>
+                <label>AZ - Southern Arizona MLS (TAR)</label>
+            </value>
+            <value>
+                <fullName>AZ - Tucson AoR (TAR)</fullName>
+                <default>false</default>
+                <label>AZ - Tucson AoR (TAR)</label>
+            </value>
+            <value>
+                <fullName>Bermuda SIR</fullName>
+                <default>false</default>
+                <label>Bermuda SIR</label>
+            </value>
+            <value>
+                <fullName>BNAR - Buffalo Niagara Association of REALTORS</fullName>
+                <default>false</default>
+                <label>BNAR - Buffalo Niagara Association of REALTORS</label>
+            </value>
+            <value>
+                <fullName>CA - Bakersfield Association of REALTORS (BAOR)</fullName>
+                <default>false</default>
+                <label>CA - Bakersfield Association of REALTORS (BAOR)</label>
+            </value>
+            <value>
+                <fullName>CA - Bay Area Real Estate Information Services (BAREIS)</fullName>
+                <default>false</default>
+                <label>CA - Bay Area Real Estate Information Services (BAREIS)</label>
+            </value>
+            <value>
+                <fullName>CA - Bay East AoR (BEAR)</fullName>
+                <default>false</default>
+                <label>CA - Bay East AoR (BEAR)</label>
+            </value>
+            <value>
+                <fullName>CA - Big Bear Association of REALTORS (BBAR)</fullName>
+                <default>false</default>
+                <label>CA - Big Bear Association of REALTORS (BBAR)</label>
+            </value>
+            <value>
+                <fullName>CA - Bridge MLS (EBRD)</fullName>
+                <default>false</default>
+                <label>CA - Bridge MLS (EBRD)</label>
+            </value>
+            <value>
+                <fullName>CA - California Regional MLS (CRMLS)</fullName>
+                <default>false</default>
+                <label>CA - California Regional MLS (CRMLS)</label>
+            </value>
+            <value>
+                <fullName>CA - Combined LA/Westside MLS (CLAW)</fullName>
+                <default>false</default>
+                <label>CA - Combined LA/Westside MLS (CLAW)</label>
+            </value>
+            <value>
+                <fullName>CA - Conejo Simi Moorpark (CSMAR)</fullName>
+                <default>false</default>
+                <label>CA - Conejo Simi Moorpark (CSMAR)</label>
+            </value>
+            <value>
+                <fullName>CA - Contra Costa Association of Realtors (CCAR)</fullName>
+                <default>false</default>
+                <label>CA - Contra Costa Association of Realtors (CCAR)</label>
+            </value>
+            <value>
+                <fullName>CA - Desert Area MLS / CDAR (DAMLS)</fullName>
+                <default>false</default>
+                <label>CA - Desert Area MLS / CDAR (DAMLS)</label>
+            </value>
+            <value>
+                <fullName>CA - Fresno Association of REALTORS (FMLS)</fullName>
+                <default>false</default>
+                <label>CA - Fresno Association of REALTORS (FMLS)</label>
+            </value>
+            <value>
+                <fullName>CA - Idyllwild Association of Realtors</fullName>
+                <default>false</default>
+                <label>CA - Idyllwild Association of Realtors</label>
+            </value>
+            <value>
+                <fullName>CA - MetroList MLS</fullName>
+                <default>false</default>
+                <label>CA - MetroList MLS</label>
+            </value>
+            <value>
+                <fullName>CA - MLSListings, Inc.</fullName>
+                <default>false</default>
+                <label>CA - MLSListings, Inc.</label>
+            </value>
+            <value>
+                <fullName>CA - North Santa Barbara County Regional MLS (NSBCRMLS)</fullName>
+                <default>false</default>
+                <label>CA - North Santa Barbara County Regional MLS (NSBCRMLS)</label>
+            </value>
+            <value>
+                <fullName>CA - Pasadena-Foothills AoR (CRMLS)</fullName>
+                <default>false</default>
+                <label>CA - Pasadena-Foothills AoR (CRMLS)</label>
+            </value>
+            <value>
+                <fullName>CA - Rim O&#39; the World Association of REALTORS (ROTWAR)</fullName>
+                <default>false</default>
+                <label>CA - Rim O&#39; the World Association of REALTORS (ROTWAR)</label>
+            </value>
+            <value>
+                <fullName>CA - San Diego MLS (SDMLS)</fullName>
+                <default>false</default>
+                <label>CA - San Diego MLS (SDMLS)</label>
+            </value>
+            <value>
+                <fullName>CA - San Francisco MLS (SFAR)</fullName>
+                <default>false</default>
+                <label>CA - San Francisco MLS (SFAR)</label>
+            </value>
+            <value>
+                <fullName>CA - Santa Barbara AoR (SBAOR)</fullName>
+                <default>false</default>
+                <label>CA - Santa Barbara AoR (SBAOR)</label>
+            </value>
+            <value>
+                <fullName>CA - Shasta Association of REALTORS (SAR)</fullName>
+                <default>false</default>
+                <label>CA - Shasta Association of REALTORS (SAR)</label>
+            </value>
+            <value>
+                <fullName>CA - South Tahoe Board of REALTORS (STAR)</fullName>
+                <default>false</default>
+                <label>CA - South Tahoe Board of REALTORS (STAR)</label>
+            </value>
+            <value>
+                <fullName>CA - Southland Regional AoR (CRISNET)</fullName>
+                <default>false</default>
+                <label>CA - Southland Regional AoR (CRISNET)</label>
+            </value>
+            <value>
+                <fullName>CA - Tahoe Sierra MLS (TSBOR)</fullName>
+                <default>false</default>
+                <label>CA - Tahoe Sierra MLS (TSBOR)</label>
+            </value>
+            <value>
+                <fullName>CA - Tehachapi Area Association of REALTORS (TAAR)</fullName>
+                <default>false</default>
+                <label>CA - Tehachapi Area Association of REALTORS (TAAR)</label>
+            </value>
+            <value>
+                <fullName>CA - Ventura County Coastal Association (VCMLS)</fullName>
+                <default>false</default>
+                <label>CA - Ventura County Coastal Association (VCMLS)</label>
+            </value>
+            <value>
+                <fullName>CAN - Calgary Board of Realtors / Pillar9 (CBR)</fullName>
+                <default>false</default>
+                <label>CAN - Calgary Board of Realtors / Pillar9 (CBR)</label>
+            </value>
+            <value>
+                <fullName>CAN - Canadian Real Estate Association (CREA)</fullName>
+                <default>false</default>
+                <label>CAN - Canadian Real Estate Association (CREA)</label>
+            </value>
+            <value>
+                <fullName>CAN - Edmonton (EBR)</fullName>
+                <default>false</default>
+                <label>CAN - Edmonton (EBR)</label>
+            </value>
+            <value>
+                <fullName>CAN - Information Technology Systems Ontario (ITSO)</fullName>
+                <default>false</default>
+                <label>CAN - Information Technology Systems Ontario (ITSO)</label>
+            </value>
+            <value>
+                <fullName>CAN - Oakville Milton District Real Estate Board (OMDREB)</fullName>
+                <default>false</default>
+                <label>CAN - Oakville Milton District Real Estate Board (OMDREB)</label>
+            </value>
+            <value>
+                <fullName>CAN - Real Estate Board of Greater Vancouver (VBR)</fullName>
+                <default>false</default>
+                <label>CAN - Real Estate Board of Greater Vancouver (VBR)</label>
+            </value>
+            <value>
+                <fullName>CAN - Toronto Real Estate Board (TREB)</fullName>
+                <default>false</default>
+                <label>CAN - Toronto Real Estate Board (TREB)</label>
+            </value>
+            <value>
+                <fullName>CAN - Vancouver Island and Victoria Real Estate Board / VIVA (VREB)</fullName>
+                <default>false</default>
+                <label>CAN - Vancouver Island and Victoria Real Estate Board / VIVA (VREB)</label>
+            </value>
+            <value>
+                <fullName>CCAR - North Carolina Regional MLS</fullName>
+                <default>false</default>
+                <label>CCAR - North Carolina Regional MLS</label>
+            </value>
+            <value>
+                <fullName>CIRABA - Cayman Islands Real Estate Brokers Association</fullName>
+                <default>false</default>
+                <label>CIRABA - Cayman Islands Real Estate Brokers Association</label>
+            </value>
+            <value>
+                <fullName>CO - Aspen / Glenwood Springs MLS (AGSMLS)</fullName>
+                <default>false</default>
+                <label>CO - Aspen / Glenwood Springs MLS (AGSMLS)</label>
+            </value>
+            <value>
+                <fullName>CO - Colorado Real Estate Network (CREN)</fullName>
+                <default>false</default>
+                <label>CO - Colorado Real Estate Network (CREN)</label>
+            </value>
+            <value>
+                <fullName>CO - Grand County Board of REALTORS (GCBOR)</fullName>
+                <default>false</default>
+                <label>CO - Grand County Board of REALTORS (GCBOR)</label>
+            </value>
+            <value>
+                <fullName>CO - Information and Real Estate Services, LLC (IRES)</fullName>
+                <default>false</default>
+                <label>CO - Information and Real Estate Services, LLC (IRES)</label>
+            </value>
+            <value>
+                <fullName>CO - METROLIST - REColorado</fullName>
+                <default>false</default>
+                <label>CO - METROLIST - REColorado</label>
+            </value>
+            <value>
+                <fullName>CO - Pikes Peak Multiple Listing Service (PPAR)</fullName>
+                <default>false</default>
+                <label>CO - Pikes Peak Multiple Listing Service (PPAR)</label>
+            </value>
+            <value>
+                <fullName>CO - Pueblo Association of REALTORS (PAR)</fullName>
+                <default>false</default>
+                <label>CO - Pueblo Association of REALTORS (PAR)</label>
+            </value>
+            <value>
+                <fullName>CO - Summit MLS (SAR)</fullName>
+                <default>false</default>
+                <label>CO - Summit MLS (SAR)</label>
+            </value>
+            <value>
+                <fullName>CO - Telluride Association of REALTORS (TAR)</fullName>
+                <default>false</default>
+                <label>CO - Telluride Association of REALTORS (TAR)</label>
+            </value>
+            <value>
+                <fullName>CO - Vail Board of Realtors (VBR)</fullName>
+                <default>false</default>
+                <label>CO - Vail Board of Realtors (VBR)</label>
+            </value>
+            <value>
+                <fullName>CR - Costa Rica Global Association of REALTORS (CRGR)</fullName>
+                <default>false</default>
+                <label>CR - Costa Rica Global Association of REALTORS (CRGR)</label>
+            </value>
+            <value>
+                <fullName>CREA - Canadian Real Estate Association</fullName>
+                <default>false</default>
+                <label>CREA - Canadian Real Estate Association</label>
+            </value>
+            <value>
+                <fullName>CT - Greenwich (GAR)</fullName>
+                <default>false</default>
+                <label>CT - Greenwich (GAR)</label>
+            </value>
+            <value>
+                <fullName>CT - Smart MLS, Inc. (GNHAR)</fullName>
+                <default>false</default>
+                <label>CT - Smart MLS, Inc. (GNHAR)</label>
+            </value>
+            <value>
+                <fullName>DASH Feed - Coldwell Banker (CB)</fullName>
+                <default>false</default>
+                <label>DASH Feed - Coldwell Banker (CB)</label>
+            </value>
+            <value>
+                <fullName>DASH Feed - Sotheby&#39;s International Realty (SIR)</fullName>
+                <default>false</default>
+                <label>DASH Feed - Sotheby&#39;s International Realty (SIR)</label>
+            </value>
+            <value>
+                <fullName>Douglas Elliman feed</fullName>
+                <default>false</default>
+                <label>Douglas Elliman feed</label>
+            </value>
+            <value>
+                <fullName>FL - Amelia Island-Nassau County (AINCAR)</fullName>
+                <default>false</default>
+                <label>FL - Amelia Island-Nassau County (AINCAR)</label>
+            </value>
+            <value>
+                <fullName>FL - Beaches MLS / Palm Beaches and Greater Fort Lauderdale</fullName>
+                <default>false</default>
+                <label>FL - Beaches MLS / Palm Beaches and Greater Fort Lauderdale</label>
+            </value>
+            <value>
+                <fullName>FL - Bonita Springs Association of REALTORS (BEAR)</fullName>
+                <default>false</default>
+                <label>FL - Bonita Springs Association of REALTORS (BEAR)</label>
+            </value>
+            <value>
+                <fullName>FL - Central Listing Service at Ocean Reef, Inc. (CLSOR)</fullName>
+                <default>false</default>
+                <label>FL - Central Listing Service at Ocean Reef, Inc. (CLSOR)</label>
+            </value>
+            <value>
+                <fullName>FL - Daytona Beach Area Association of REALTORS (DBAAR)</fullName>
+                <default>false</default>
+                <label>FL - Daytona Beach Area Association of REALTORS (DBAAR)</label>
+            </value>
+            <value>
+                <fullName>FL - Emerald Coast AoR (ECAR)</fullName>
+                <default>false</default>
+                <label>FL - Emerald Coast AoR (ECAR)</label>
+            </value>
+            <value>
+                <fullName>FL - Hernando County Association of Realtors (HCAR)</fullName>
+                <default>false</default>
+                <label>FL - Hernando County Association of Realtors (HCAR)</label>
+            </value>
+            <value>
+                <fullName>FL - Key West Association of REALTORS (KWAR)</fullName>
+                <default>false</default>
+                <label>FL - Key West Association of REALTORS (KWAR)</label>
+            </value>
+            <value>
+                <fullName>FL - Miami Association of REALTORS (RAMB)</fullName>
+                <default>false</default>
+                <label>FL - Miami Association of REALTORS (RAMB)</label>
+            </value>
+            <value>
+                <fullName>FL - MLS of South Brevard &amp; the Space Coast Association of REALTORS (SPACE)</fullName>
+                <default>false</default>
+                <label>FL - MLS of South Brevard &amp; the Space Coast Association of REALTORS (SPACE)</label>
+            </value>
+            <value>
+                <fullName>FL - Naples MLS (MLSN)</fullName>
+                <default>false</default>
+                <label>FL - Naples MLS (MLSN)</label>
+            </value>
+            <value>
+                <fullName>FL - Northeast Florida MLS, Inc. (NEFMLS)</fullName>
+                <default>false</default>
+                <label>FL - Northeast Florida MLS, Inc. (NEFMLS)</label>
+            </value>
+            <value>
+                <fullName>FL - Palm Beach Board of Realtors (PBMLS)</fullName>
+                <default>false</default>
+                <label>FL - Palm Beach Board of Realtors (PBMLS)</label>
+            </value>
+            <value>
+                <fullName>FL - Pensacola Association of REALTORS®, Inc. (PMLS)</fullName>
+                <default>false</default>
+                <label>FL - Pensacola Association of REALTORS®, Inc. (PMLS)</label>
+            </value>
+            <value>
+                <fullName>FL - REALTORS Association of Indian River County, Inc. (RAIRC)</fullName>
+                <default>false</default>
+                <label>FL - REALTORS Association of Indian River County, Inc. (RAIRC)</label>
+            </value>
+            <value>
+                <fullName>FL - Royal Palm Coast Association of REALTORS / Southwest Florida MLS (GFMB / SWFL))</fullName>
+                <default>false</default>
+                <label>FL - Royal Palm Coast Association of REALTORS / Southwest Florida MLS (GFMB / SWFL))</label>
+            </value>
+            <value>
+                <fullName>FL - Stellar MLS (MFRMLS)</fullName>
+                <default>false</default>
+                <label>FL - Stellar MLS (MFRMLS)</label>
+            </value>
+            <value>
+                <fullName>FL - The Florida Keys Board of REALTORS (FKBOR)</fullName>
+                <default>false</default>
+                <label>FL - The Florida Keys Board of REALTORS (FKBOR)</label>
+            </value>
+            <value>
+                <fullName>GA - Central Georgia MLS (CGMLS)</fullName>
+                <default>false</default>
+                <label>GA - Central Georgia MLS (CGMLS)</label>
+            </value>
+            <value>
+                <fullName>GA - First Georgia MLS (FMLS)</fullName>
+                <default>false</default>
+                <label>GA - First Georgia MLS (FMLS)</label>
+            </value>
+            <value>
+                <fullName>GA - Georgia MLS (GAMLS)</fullName>
+                <default>false</default>
+                <label>GA - Georgia MLS (GAMLS)</label>
+            </value>
+            <value>
+                <fullName>GA - Golden Isles Association of Realtors (GIAR)</fullName>
+                <default>false</default>
+                <label>GA - Golden Isles Association of Realtors (GIAR)</label>
+            </value>
+            <value>
+                <fullName>GA - Lake Country Board Of REALTORS (LCBOR)</fullName>
+                <default>false</default>
+                <label>GA - Lake Country Board Of REALTORS (LCBOR)</label>
+            </value>
+            <value>
+                <fullName>GA - Northeast Georgia Board of REALTORS, Inc. (NEGBOR)</fullName>
+                <default>false</default>
+                <label>GA - Northeast Georgia Board of REALTORS, Inc. (NEGBOR)</label>
+            </value>
+            <value>
+                <fullName>GFMB - Royal Palm Coast / Florida Gulf MLS</fullName>
+                <default>false</default>
+                <label>GFMB - Royal Palm Coast / Florida Gulf MLS</label>
+            </value>
+            <value>
+                <fullName>HI - Hawaii Information Service (HIS)</fullName>
+                <default>false</default>
+                <label>HI - Hawaii Information Service (HIS)</label>
+            </value>
+            <value>
+                <fullName>HI - HICentral MLS (HBR)</fullName>
+                <default>false</default>
+                <label>HI - HICentral MLS (HBR)</label>
+            </value>
+            <value>
+                <fullName>HI - Realtors Association of Maui (RAM)</fullName>
+                <default>false</default>
+                <label>HI - Realtors Association of Maui (RAM)</label>
+            </value>
+            <value>
+                <fullName>HI- HICentral / Honolulu BoR (HBR)</fullName>
+                <default>false</default>
+                <label>HI- HICentral / Honolulu BoR (HBR)</label>
+            </value>
+            <value>
+                <fullName>IA - Iowa City Area Association of REALTORS (ICAAR)</fullName>
+                <default>false</default>
+                <label>IA - Iowa City Area Association of REALTORS (ICAAR)</label>
+            </value>
+            <value>
+                <fullName>ID - Coeur d&#39;Alene MLS (CDAR)</fullName>
+                <default>false</default>
+                <label>ID - Coeur d&#39;Alene MLS (CDAR)</label>
+            </value>
+            <value>
+                <fullName>ID - Intermountains MLS (IMLS)</fullName>
+                <default>false</default>
+                <label>ID - Intermountains MLS (IMLS)</label>
+            </value>
+            <value>
+                <fullName>ID - Selkirk Association of REALTORS (SAR)</fullName>
+                <default>false</default>
+                <label>ID - Selkirk Association of REALTORS (SAR)</label>
+            </value>
+            <value>
+                <fullName>ID - Sun Valley Board of Realtors (SBOR)</fullName>
+                <default>false</default>
+                <label>ID - Sun Valley Board of Realtors (SBOR)</label>
+            </value>
+            <value>
+                <fullName>IL - Midwest Real Estate Data (MRED)</fullName>
+                <default>false</default>
+                <label>IL - Midwest Real Estate Data (MRED)</label>
+            </value>
+            <value>
+                <fullName>IN - Greater Northwest Indiana (GNIAR)</fullName>
+                <default>false</default>
+                <label>IN - Greater Northwest Indiana (GNIAR)</label>
+            </value>
+            <value>
+                <fullName>IN - Indiana Regional MLS (LBAR)</fullName>
+                <default>false</default>
+                <label>IN - Indiana Regional MLS (LBAR)</label>
+            </value>
+            <value>
+                <fullName>IN - Metropolitan Indianapolis BoR (MIBOR)</fullName>
+                <default>false</default>
+                <label>IN - Metropolitan Indianapolis BoR (MIBOR)</label>
+            </value>
+            <value>
+                <fullName>KADREA - Kamloops and District Real Estate Association</fullName>
+                <default>false</default>
+                <label>KADREA - Kamloops and District Real Estate Association</label>
+            </value>
+            <value>
+                <fullName>KS - Heartland MLS (MOKS)</fullName>
+                <default>false</default>
+                <label>KS - Heartland MLS (MOKS)</label>
+            </value>
+            <value>
+                <fullName>KVBOR - Kanawha Valley Board of Realtors</fullName>
+                <default>false</default>
+                <label>KVBOR - Kanawha Valley Board of Realtors</label>
+            </value>
+            <value>
+                <fullName>KY - Lexington-Bluegrass AoR (LBAR)</fullName>
+                <default>false</default>
+                <label>KY - Lexington-Bluegrass AoR (LBAR)</label>
+            </value>
+            <value>
+                <fullName>KY - Metro Search Inc / Greater Louisville MLS (MSMLS)</fullName>
+                <default>false</default>
+                <label>KY - Metro Search Inc / Greater Louisville MLS (MSMLS)</label>
+            </value>
+            <value>
+                <fullName>KY - Northern Kentucky Association of REALTORS (NKMLS)</fullName>
+                <default>false</default>
+                <label>KY - Northern Kentucky Association of REALTORS (NKMLS)</label>
+            </value>
+            <value>
+                <fullName>LA - Acadiana MLS (RAAMLS)</fullName>
+                <default>false</default>
+                <label>LA - Acadiana MLS (RAAMLS)</label>
+            </value>
+            <value>
+                <fullName>LA - Greater Baton Rouge MLS (GBRMLS)</fullName>
+                <default>false</default>
+                <label>LA - Greater Baton Rouge MLS (GBRMLS)</label>
+            </value>
+            <value>
+                <fullName>LVAR - Greater Lehigh Valley REALTORS</fullName>
+                <default>false</default>
+                <label>LVAR - Greater Lehigh Valley REALTORS</label>
+            </value>
+            <value>
+                <fullName>MA - Berkshire County Multiple Listing Service (BCMLS)</fullName>
+                <default>false</default>
+                <label>MA - Berkshire County Multiple Listing Service (BCMLS)</label>
+            </value>
+            <value>
+                <fullName>MA - Cape Cod and Islands Multiple Listing Service, Inc. (CCIAOR)</fullName>
+                <default>false</default>
+                <label>MA - Cape Cod and Islands Multiple Listing Service, Inc. (CCIAOR)</label>
+            </value>
+            <value>
+                <fullName>MA - LINK Martha&#39;s Vineyard (LMV)</fullName>
+                <default>false</default>
+                <label>MA - LINK Martha&#39;s Vineyard (LMV)</label>
+            </value>
+            <value>
+                <fullName>MA - Martha&#39;s Vineyard MLS (MVMLS)</fullName>
+                <default>false</default>
+                <label>MA - Martha&#39;s Vineyard MLS (MVMLS)</label>
+            </value>
+            <value>
+                <fullName>MA - Property Information Network, Inc. (MLSPIN)</fullName>
+                <default>false</default>
+                <label>MA - Property Information Network, Inc. (MLSPIN)</label>
+            </value>
+            <value>
+                <fullName>ME - Maine Listings Real Estate Information System, Inc. (MREIS)</fullName>
+                <default>false</default>
+                <label>ME - Maine Listings Real Estate Information System, Inc. (MREIS)</label>
+            </value>
+            <value>
+                <fullName>MEX - MLS of Baja California</fullName>
+                <default>false</default>
+                <label>MEX - MLS of Baja California</label>
+            </value>
+            <value>
+                <fullName>MI - Greater Lansing Association of REALTORS (GLAR)</fullName>
+                <default>false</default>
+                <label>MI - Greater Lansing Association of REALTORS (GLAR)</label>
+            </value>
+            <value>
+                <fullName>MI - Michigan Regional Information Center, LLC (SWMRIC)</fullName>
+                <default>false</default>
+                <label>MI - Michigan Regional Information Center, LLC (SWMRIC)</label>
+            </value>
+            <value>
+                <fullName>MI - Northern Great Lakes Regional MLS (NGLRMLS)</fullName>
+                <default>false</default>
+                <label>MI - Northern Great Lakes Regional MLS (NGLRMLS)</label>
+            </value>
+            <value>
+                <fullName>MI - Realcomp II LTD</fullName>
+                <default>false</default>
+                <label>MI - Realcomp II LTD</label>
+            </value>
+            <value>
+                <fullName>MN - Northstar MLS / Regional MLS of Minnesota, Inc (RMLS)</fullName>
+                <default>false</default>
+                <label>MN - Northstar MLS / Regional MLS of Minnesota, Inc (RMLS)</label>
+            </value>
+            <value>
+                <fullName>MO - Mid America Regional Information Systems (MARIS)</fullName>
+                <default>false</default>
+                <label>MO - Mid America Regional Information Systems (MARIS)</label>
+            </value>
+            <value>
+                <fullName>MT - Big Sky Country MLS - Gallatin MLS (BZM)</fullName>
+                <default>false</default>
+                <label>MT - Big Sky Country MLS - Gallatin MLS (BZM)</label>
+            </value>
+            <value>
+                <fullName>MT - Northwest Montana Association of REALTORS / Montana Regional (NMAR)</fullName>
+                <default>false</default>
+                <label>MT - Northwest Montana Association of REALTORS / Montana Regional (NMAR)</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>NC - Carolina MLS / Canopy MLS (CMLS)</fullName>
+                <default>false</default>
+                <label>NC - Carolina MLS / Canopy MLS (CMLS)</label>
+            </value>
+            <value>
+                <fullName>NC - Carolina Smokies Association of REALTORS (FBOR)</fullName>
+                <default>false</default>
+                <label>NC - Carolina Smokies Association of REALTORS (FBOR)</label>
+            </value>
+            <value>
+                <fullName>NC - Carteret County / North Carolina Regional MLS (CCAR)</fullName>
+                <default>false</default>
+                <label>NC - Carteret County / North Carolina Regional MLS (CCAR)</label>
+            </value>
+            <value>
+                <fullName>NC - Highland Cashiers MLS (HCMLS)</fullName>
+                <default>false</default>
+                <label>NC - Highland Cashiers MLS (HCMLS)</label>
+            </value>
+            <value>
+                <fullName>NC - Longleaf Pine REALTORS, Inc. (FRAR)</fullName>
+                <default>false</default>
+                <label>NC - Longleaf Pine REALTORS, Inc. (FRAR)</label>
+            </value>
+            <value>
+                <fullName>NC - Roanoke Valley Lake Gaston Board of REALTORS (RVLGBR)</fullName>
+                <default>false</default>
+                <label>NC - Roanoke Valley Lake Gaston Board of REALTORS (RVLGBR)</label>
+            </value>
+            <value>
+                <fullName>NC - Triad MLS, Inc. (TRIAD)</fullName>
+                <default>false</default>
+                <label>NC - Triad MLS, Inc. (TRIAD)</label>
+            </value>
+            <value>
+                <fullName>NH - The New England Real Estate Network (NNEREN)</fullName>
+                <default>false</default>
+                <label>NH - The New England Real Estate Network (NNEREN)</label>
+            </value>
+            <value>
+                <fullName>NJ - Cape May MLS (CMCAR)</fullName>
+                <default>false</default>
+                <label>NJ - Cape May MLS (CMCAR)</label>
+            </value>
+            <value>
+                <fullName>NJ - Central Jersey Multiple Listing System (MCMLS)</fullName>
+                <default>false</default>
+                <label>NJ - Central Jersey Multiple Listing System (MCMLS)</label>
+            </value>
+            <value>
+                <fullName>NJ - Garden State MLS (GSMLS)</fullName>
+                <default>false</default>
+                <label>NJ - Garden State MLS (GSMLS)</label>
+            </value>
+            <value>
+                <fullName>NJ - Hudson County / Realty MLS (HCMLS)</fullName>
+                <default>false</default>
+                <label>NJ - Hudson County / Realty MLS (HCMLS)</label>
+            </value>
+            <value>
+                <fullName>NJ - Monmouth Ocean Regional (MOMLS)</fullName>
+                <default>false</default>
+                <label>NJ - Monmouth Ocean Regional (MOMLS)</label>
+            </value>
+            <value>
+                <fullName>NJ - New Jersey Multiple Listing Service (NJMLS)</fullName>
+                <default>false</default>
+                <label>NJ - New Jersey Multiple Listing Service (NJMLS)</label>
+            </value>
+            <value>
+                <fullName>NJ - South Jersey Shore Regional MLS (SJSRMLS)</fullName>
+                <default>false</default>
+                <label>NJ - South Jersey Shore Regional MLS (SJSRMLS)</label>
+            </value>
+            <value>
+                <fullName>NM - Santa Fe Association of Realtors (SFAR)</fullName>
+                <default>false</default>
+                <label>NM - Santa Fe Association of Realtors (SFAR)</label>
+            </value>
+            <value>
+                <fullName>NV - Greater Las Vegas Association (GLVAR)of REALTORS (</fullName>
+                <default>false</default>
+                <label>NV - Greater Las Vegas Association (GLVAR)of REALTORS (</label>
+            </value>
+            <value>
+                <fullName>NV - Incline Village Board of Realtors (IVBOR)</fullName>
+                <default>false</default>
+                <label>NV - Incline Village Board of Realtors (IVBOR)</label>
+            </value>
+            <value>
+                <fullName>NV - Northern Nevada Regional MLS (NNRMLS)</fullName>
+                <default>false</default>
+                <label>NV - Northern Nevada Regional MLS (NNRMLS)</label>
+            </value>
+            <value>
+                <fullName>NY - Adirondack-Champlain Valley MLS (ACVMLS)</fullName>
+                <default>false</default>
+                <label>NY - Adirondack-Champlain Valley MLS (ACVMLS)</label>
+            </value>
+            <value>
+                <fullName>NY - Brooklyn Board of REALTORS (BBOR)</fullName>
+                <default>false</default>
+                <label>NY - Brooklyn Board of REALTORS (BBOR)</label>
+            </value>
+            <value>
+                <fullName>NY - Columbia Greene Northern Dutchess MLS (CGND)</fullName>
+                <default>false</default>
+                <label>NY - Columbia Greene Northern Dutchess MLS (CGND)</label>
+            </value>
+            <value>
+                <fullName>NY - Global MLS (GCAR)</fullName>
+                <default>false</default>
+                <label>NY - Global MLS (GCAR)</label>
+            </value>
+            <value>
+                <fullName>NY - Mid Hudson MLS (MHMLS)</fullName>
+                <default>false</default>
+                <label>NY - Mid Hudson MLS (MHMLS)</label>
+            </value>
+            <value>
+                <fullName>NY - MLS of Ulster County, Inc. (MLSUC)</fullName>
+                <default>false</default>
+                <label>NY - MLS of Ulster County, Inc. (MLSUC)</label>
+            </value>
+            <value>
+                <fullName>NY - New York State MLS (STATE)</fullName>
+                <default>false</default>
+                <label>NY - New York State MLS (STATE)</label>
+            </value>
+            <value>
+                <fullName>NY - OneKey MLS / Hudson Gateway &amp; Long Island MLS</fullName>
+                <default>false</default>
+                <label>NY - OneKey MLS / Hudson Gateway &amp; Long Island MLS</label>
+            </value>
+            <value>
+                <fullName>NY - Otsego-Delaware BoR (ODBR)</fullName>
+                <default>false</default>
+                <label>NY - Otsego-Delaware BoR (ODBR)</label>
+            </value>
+            <value>
+                <fullName>NY - Real Estate Board of New York (REBNY)</fullName>
+                <default>false</default>
+                <label>NY - Real Estate Board of New York (REBNY)</label>
+            </value>
+            <value>
+                <fullName>NY - Staten Island Board of REALTORS (SIBOR)</fullName>
+                <default>false</default>
+                <label>NY - Staten Island Board of REALTORS (SIBOR)</label>
+            </value>
+            <value>
+                <fullName>NY - Western New York Real Estate Information Systems / NY State Alliance (WNYREIS)</fullName>
+                <default>false</default>
+                <label>NY - Western New York Real Estate Information Systems / NY State Alliance (WNYREIS)</label>
+            </value>
+            <value>
+                <fullName>OH - Columbus and Central Ohio Regional MLS (CBR)</fullName>
+                <default>false</default>
+                <label>OH - Columbus and Central Ohio Regional MLS (CBR)</label>
+            </value>
+            <value>
+                <fullName>OH - Firelands Association of REALTORS (FMLS)</fullName>
+                <default>false</default>
+                <label>OH - Firelands Association of REALTORS (FMLS)</label>
+            </value>
+            <value>
+                <fullName>OH - MLS of Greater Cincinnati (CINCY)</fullName>
+                <default>false</default>
+                <label>OH - MLS of Greater Cincinnati (CINCY)</label>
+            </value>
+            <value>
+                <fullName>OH - Toledo / NORIS - Northwest Ohio Realtors (TBR)</fullName>
+                <default>false</default>
+                <label>OH - Toledo / NORIS - Northwest Ohio Realtors (TBR)</label>
+            </value>
+            <value>
+                <fullName>OH - Yes MLS (NEOHREX)</fullName>
+                <default>false</default>
+                <label>OH - Yes MLS (NEOHREX)</label>
+            </value>
+            <value>
+                <fullName>OK - Greater Tulsa Association of REALTORS / MLS Technology (NORES)</fullName>
+                <default>false</default>
+                <label>OK - Greater Tulsa Association of REALTORS / MLS Technology (NORES)</label>
+            </value>
+            <value>
+                <fullName>OK - Oklahoma City Metropolitan AoR (OKC)</fullName>
+                <default>false</default>
+                <label>OK - Oklahoma City Metropolitan AoR (OKC)</label>
+            </value>
+            <value>
+                <fullName>OR - Central Oregon Association of REALTORS (MLCOBO)</fullName>
+                <default>false</default>
+                <label>OR - Central Oregon Association of REALTORS (MLCOBO)</label>
+            </value>
+            <value>
+                <fullName>OR - Lincoln County Board of REALTORS (LCBR)</fullName>
+                <default>false</default>
+                <label>OR - Lincoln County Board of REALTORS (LCBR)</label>
+            </value>
+            <value>
+                <fullName>OR - Portland Regional MLS (RMLS)</fullName>
+                <default>false</default>
+                <label>OR - Portland Regional MLS (RMLS)</label>
+            </value>
+            <value>
+                <fullName>OR - Southern Oregon Multiple Listing Service (SOMLS)</fullName>
+                <default>false</default>
+                <label>OR - Southern Oregon Multiple Listing Service (SOMLS)</label>
+            </value>
+            <value>
+                <fullName>OR - Willamette Valley Multiple Listing Service (WVMLS)</fullName>
+                <default>false</default>
+                <label>OR - Willamette Valley Multiple Listing Service (WVMLS)</label>
+            </value>
+            <value>
+                <fullName>Other - New Feed Request</fullName>
+                <default>false</default>
+                <label>Other - New Feed Request</label>
+            </value>
+            <value>
+                <fullName>PA - Greater Lehigh Valley REALTORS (LVAR)</fullName>
+                <default>false</default>
+                <label>PA - Greater Lehigh Valley REALTORS (LVAR)</label>
+            </value>
+            <value>
+                <fullName>PA - Pocono Mountains Association of REALTORS (PMAR)</fullName>
+                <default>false</default>
+                <label>PA - Pocono Mountains Association of REALTORS (PMAR)</label>
+            </value>
+            <value>
+                <fullName>PA - West Penn Multi-List, Inc. (WPN)</fullName>
+                <default>false</default>
+                <label>PA - West Penn Multi-List, Inc. (WPN)</label>
+            </value>
+            <value>
+                <fullName>RI - State-Wide MLS, Inc.</fullName>
+                <default>false</default>
+                <label>RI - State-Wide MLS, Inc.</label>
+            </value>
+            <value>
+                <fullName>SC - Charleston Trident Multiple Listing Service, Inc. (CTAR)</fullName>
+                <default>false</default>
+                <label>SC - Charleston Trident Multiple Listing Service, Inc. (CTAR)</label>
+            </value>
+            <value>
+                <fullName>SC - Consolidated Multiple Listing Service, Inc. (CMLS)</fullName>
+                <default>false</default>
+                <label>SC - Consolidated Multiple Listing Service, Inc. (CMLS)</label>
+            </value>
+            <value>
+                <fullName>SC - Greater Greenville (GGAR)</fullName>
+                <default>false</default>
+                <label>SC - Greater Greenville (GGAR)</label>
+            </value>
+            <value>
+                <fullName>SC - Hilton Head Island MLS (HHMLS)</fullName>
+                <default>false</default>
+                <label>SC - Hilton Head Island MLS (HHMLS)</label>
+            </value>
+            <value>
+                <fullName>SC - The Coastal Carolinas Association of REALTORS MLS (CCAR)</fullName>
+                <default>false</default>
+                <label>SC - The Coastal Carolinas Association of REALTORS MLS (CCAR)</label>
+            </value>
+            <value>
+                <fullName>SC - Western Upstate Association of REALTORS (AAR)</fullName>
+                <default>false</default>
+                <label>SC - Western Upstate Association of REALTORS (AAR)</label>
+            </value>
+            <value>
+                <fullName>TMLS - Triangle MLS</fullName>
+                <default>false</default>
+                <label>TMLS - Triangle MLS</label>
+            </value>
+            <value>
+                <fullName>TN - Greater Chattanooga Association of REALTORS (CAR)</fullName>
+                <default>false</default>
+                <label>TN - Greater Chattanooga Association of REALTORS (CAR)</label>
+            </value>
+            <value>
+                <fullName>TN - Knoxville Area Association of Realtors (KAAR)</fullName>
+                <default>false</default>
+                <label>TN - Knoxville Area Association of Realtors (KAAR)</label>
+            </value>
+            <value>
+                <fullName>TN - Realtracs / Middle Tennessee Regional MLS (MTRMLS)</fullName>
+                <default>false</default>
+                <label>TN - Realtracs / Middle Tennessee Regional MLS (MTRMLS)</label>
+            </value>
+            <value>
+                <fullName>TX - Austin/Central Texas Reality Information Service (ACTRIS)</fullName>
+                <default>false</default>
+                <label>TX - Austin/Central Texas Reality Information Service (ACTRIS)</label>
+            </value>
+            <value>
+                <fullName>TX - Central Hill Country Board of REALTORS (GCBOR)</fullName>
+                <default>false</default>
+                <label>TX - Central Hill Country Board of REALTORS (GCBOR)</label>
+            </value>
+            <value>
+                <fullName>TX - Central Texas MLS (CTXMLS)</fullName>
+                <default>false</default>
+                <label>TX - Central Texas MLS (CTXMLS)</label>
+            </value>
+            <value>
+                <fullName>TX - Corpus Christi Association of REALTORS / South Texas MLS (CCAR)</fullName>
+                <default>false</default>
+                <label>TX - Corpus Christi Association of REALTORS / South Texas MLS (CCAR)</label>
+            </value>
+            <value>
+                <fullName>TX - Galveston Association of Realtors (GAR)</fullName>
+                <default>false</default>
+                <label>TX - Galveston Association of Realtors (GAR)</label>
+            </value>
+            <value>
+                <fullName>TX - Greater Tyler Association of REALTORS (GTAR)</fullName>
+                <default>false</default>
+                <label>TX - Greater Tyler Association of REALTORS (GTAR)</label>
+            </value>
+            <value>
+                <fullName>TX - Highland Lakes Association of REALTORS (HLAR)</fullName>
+                <default>false</default>
+                <label>TX - Highland Lakes Association of REALTORS (HLAR)</label>
+            </value>
+            <value>
+                <fullName>TX - Houston MLS (HAR)</fullName>
+                <default>false</default>
+                <label>TX - Houston MLS (HAR)</label>
+            </value>
+            <value>
+                <fullName>TX - Kerrville Board of REALTORS (KBOR)</fullName>
+                <default>false</default>
+                <label>TX - Kerrville Board of REALTORS (KBOR)</label>
+            </value>
+            <value>
+                <fullName>TX - Lubbock Association of Realtors (LAR)</fullName>
+                <default>false</default>
+                <label>TX - Lubbock Association of Realtors (LAR)</label>
+            </value>
+            <value>
+                <fullName>TX - North Texas Real Estate Information Systems (NTREIS)</fullName>
+                <default>false</default>
+                <label>TX - North Texas Real Estate Information Systems (NTREIS)</label>
+            </value>
+            <value>
+                <fullName>TX - San Antonio Board of REALTORS (SABOR)</fullName>
+                <default>false</default>
+                <label>TX - San Antonio Board of REALTORS (SABOR)</label>
+            </value>
+            <value>
+                <fullName>TX - Waco Association of REALTORS (WAR)</fullName>
+                <default>false</default>
+                <label>TX - Waco Association of REALTORS (WAR)</label>
+            </value>
+            <value>
+                <fullName>UT - Park City Board of REALTORS (PCBR)</fullName>
+                <default>false</default>
+                <label>UT - Park City Board of REALTORS (PCBR)</label>
+            </value>
+            <value>
+                <fullName>UT - Utah Real Estate / Wasatch Front Regional MLS, Inc. (WFRMLS)</fullName>
+                <default>false</default>
+                <label>UT - Utah Real Estate / Wasatch Front Regional MLS, Inc. (WFRMLS)</label>
+            </value>
+            <value>
+                <fullName>VA - BRIGHT MLS - Bright MLS</fullName>
+                <default>false</default>
+                <label>VA - BRIGHT MLS - Bright MLS</label>
+            </value>
+            <value>
+                <fullName>VA - Central Virginia Regional Multiple Listing Service (CVRMLS)</fullName>
+                <default>false</default>
+                <label>VA - Central Virginia Regional Multiple Listing Service (CVRMLS)</label>
+            </value>
+            <value>
+                <fullName>VA - Real Estate Information Network, Inc. (REIN)</fullName>
+                <default>false</default>
+                <label>VA - Real Estate Information Network, Inc. (REIN)</label>
+            </value>
+            <value>
+                <fullName>VA - Williamsburg Area Association of REALTORS (WMLS)</fullName>
+                <default>false</default>
+                <label>VA - Williamsburg Area Association of REALTORS (WMLS)</label>
+            </value>
+            <value>
+                <fullName>VBR - Real Estate Board of Greater Vancouver</fullName>
+                <default>false</default>
+                <label>VBR - Real Estate Board of Greater Vancouver</label>
+            </value>
+            <value>
+                <fullName>WA - Northwest Multiple Listing Service (NWMLS)</fullName>
+                <default>false</default>
+                <label>WA - Northwest Multiple Listing Service (NWMLS)</label>
+            </value>
+            <value>
+                <fullName>WA - Spokane Association of Realtors (SAR)</fullName>
+                <default>false</default>
+                <label>WA - Spokane Association of Realtors (SAR)</label>
+            </value>
+            <value>
+                <fullName>WI - Greater Milwaukee Association of REALTORS (GMAR)</fullName>
+                <default>false</default>
+                <label>WI - Greater Milwaukee Association of REALTORS (GMAR)</label>
+            </value>
+            <value>
+                <fullName>WI - South Central Wisconsin MLS (SCWMLS)</fullName>
+                <default>false</default>
+                <label>WI - South Central Wisconsin MLS (SCWMLS)</label>
+            </value>
+            <value>
+                <fullName>WI - Wisconsin Real Estate Exchange (WIREX)</fullName>
+                <default>false</default>
+                <label>WI - Wisconsin Real Estate Exchange (WIREX)</label>
+            </value>
+            <value>
+                <fullName>WIREX - Wisconsin Real Estate Exchange</fullName>
+                <default>false</default>
+                <label>WIREX - Wisconsin Real Estate Exchange</label>
+            </value>
+            <value>
+                <fullName>WY - Teton Board of REALTORS (TBOR)</fullName>
+                <default>false</default>
+                <label>WY - Teton Board of REALTORS (TBOR)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

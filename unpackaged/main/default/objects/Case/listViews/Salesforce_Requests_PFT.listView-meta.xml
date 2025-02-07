@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_Requests_PFT</fullName>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Team__c</columns>
+    <columns>Request_Type__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>PARENT.CASE_NUMBER</columns>
+    <columns>CASES.CLOSED</columns>
+    <columns>Deployed_Start_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.SFDC_Ticket</value>
+    </filters>
+    <filters>
+        <field>Team__c</field>
+        <operation>equals</operation>
+        <value>PFT</value>
+    </filters>
+    <filters>
+        <field>CASES.CLOSED</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Salesforce Requests - PFT</label>
+</ListView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Only complete this field if &quot;What they&apos;ve tried before&quot;  field answer is &quot;other&quot; --></help>
+        <label><!-- Other --></label>
+        <name>Other_ICP__c</name>
+    </CustomFieldTranslation>

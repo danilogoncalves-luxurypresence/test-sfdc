@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Escalation --></label>
+        <name>Escalation__c</name>
+        <picklistValues>
+            <masterLabel>Post-Launch</masterLabel>
+            <translation><!-- Post-Launch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Launch</masterLabel>
+            <translation><!-- Pre-Launch --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

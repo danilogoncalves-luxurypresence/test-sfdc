@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stackpath_Migraton</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>contains</operation>
+        <value>DNS Assistance,How to update your DNS,Action Required: Update your DNS,Migrate Your Site by 11/10,Schedule Your Site Migration,Urgent: Luxury Presence Site Migration,A Message from the CEO</value>
+    </filters>
+    <label>Stackpath Migraton</label>
+</ListView>

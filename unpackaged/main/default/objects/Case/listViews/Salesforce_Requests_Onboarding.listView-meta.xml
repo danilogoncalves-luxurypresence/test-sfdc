@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_Requests_Onboarding</fullName>
+    <booleanFilter>1 AND 3 AND (2 OR 4)</booleanFilter>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Team__c</columns>
+    <columns>Request_Type__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>PARENT.CASE_NUMBER</columns>
+    <columns>CASES.CLOSED</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.SFDC_Ticket</value>
+    </filters>
+    <filters>
+        <field>Team__c</field>
+        <operation>equals</operation>
+        <value>Onboarding</value>
+    </filters>
+    <filters>
+        <field>Quarter__c</field>
+        <operation>equals</operation>
+        <value>Q2-2024,Q3-2024,Q4-2024</value>
+    </filters>
+    <filters>
+        <field>Impacted_Teams__c</field>
+        <operation>includes</operation>
+        <value>Onboarding</value>
+    </filters>
+    <label>Salesforce Requests - Onboarding</label>
+</ListView>

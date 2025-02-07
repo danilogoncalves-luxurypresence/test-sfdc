@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+I tried calling a few times! I just wanted to share with you that we are currently offering extraordinary end-of-quarter discounts. I am confident that these savings will be worthwhile! They rarely happen to this extreme, so I would love to grandfather you into that.<br />
+<br />
+Happy to schedule a meeting with you at a time that is convenient for you before EOM if you're up for it. Would you prefer to meet tomorrow or next week? I'm excited to hear your ideas and work together to make the most of this opportunity. Let me know what works best for you.<br />
+<br />
+You can also <a href="https://meetings.hubspot.com/briana-fitz/briana-fitz-">book some time here!</a><br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}</body>
+</html>

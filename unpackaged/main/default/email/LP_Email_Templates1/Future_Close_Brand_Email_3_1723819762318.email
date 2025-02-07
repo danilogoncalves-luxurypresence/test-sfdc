@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+How are you feeling about our Brand+ Plan?&nbsp; I wanted to share a little more about the custom add-ons you can select to build the ideal plan for your needs.
+<ul>
+	<li>Agent subdomain sites: Create individual websites for every agent on your team. Subdomain sites empower your agents to build their personal brands and engage more leads, and they contain your team or brokerage name in the URL, reinforcing your brand to every site visitor.&nbsp;&nbsp;</li>
+	<li>Custom website design: Receive a white-glove experience with a site custom-built for you. Get up to 20 hours of front-end coding and launch a customized website in 60 days.</li>
+	<li>Social media: Our professionally managed social media services include a custom social media strategy, a monthly content calendar, 24 posts per month, and social ads.</li>
+</ul>
+You can find more information about all of our plans <a href="https://www.luxurypresence.com/blogs/new-luxury-presence-plans/">here</a>.<br />
+<br />
+If you have any questions about our plans or are ready to get going with Luxury Presence, just reply to this email! We'll get you started ASAP.<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}<br />
+<br />
+Book a time to meet with me:<br />
+https://luxurypresence.na.chilipiper.com/book/me/{{{Sender.FirstName}}}-{{{Sender.LastName}}}</body>
+</html>

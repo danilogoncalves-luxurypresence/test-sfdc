@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Meeting_Held_Health_Rating</fullName>
+    <active>true</active>
+    <description>Requires Health Rating to be filled out in order to move service schedule to &quot;Meeting Held&quot;</description>
+    <errorConditionFormula>AND(
+OR(
+ISPICKVAL(Status__c, &quot;Meeting Held&quot;),
+ISPICKVAL(Status__c, &quot;No Meeting Held&quot;)
+),
+RecordType.Name = &quot;Monthly and Quarterly Reporting&quot;,
+ISBLANK(TEXT(Health_Rating__c))
+)</errorConditionFormula>
+    <errorMessage>Update client health rating to red, yellow, or green</errorMessage>
+</ValidationRule>

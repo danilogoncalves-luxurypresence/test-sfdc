@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pod_1</fullName>
+    <columns>NAME</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Welcome_Call_Date_calendly__c</columns>
+    <columns>Staging_Link__c</columns>
+    <columns>Assigned_VA__c</columns>
+    <columns>Staging_link_status__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>Website_Builder__c</columns>
+    <columns>WB_Task_Status__c</columns>
+    <columns>Data_Specialist__c</columns>
+    <columns>DS_Task_Status__c</columns>
+    <columns>Header_Image_Curator__c</columns>
+    <columns>HIC_Task_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Staging Link</value>
+    </filters>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.Custom_Website,Service__c.Design_Refresh,Service__c.In_App_Onboarding,Service__c.Website_Launches</value>
+    </filters>
+    <filters>
+        <field>PFT_Pod__c</field>
+        <operation>equals</operation>
+        <value>Pod 1</value>
+    </filters>
+    <label>Custom Pod 1</label>
+</ListView>

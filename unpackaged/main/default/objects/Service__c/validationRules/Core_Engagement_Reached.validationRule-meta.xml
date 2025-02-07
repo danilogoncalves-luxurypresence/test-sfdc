@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Core_Engagement_Reached</fullName>
+    <active>false</active>
+    <description>Core Engagement Reached required Fields Case #00124073</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Status__c, &quot;Ready to Launch&quot;),
+   OR(
+        RecordType.Name = &quot;In - App Onboarding&quot;,
+ RecordType.Name = &quot;In-App Onboarding&quot;,
+        RecordType.Name = &quot;Website Launches&quot;,
+        RecordType.Name = &quot;Custom Website&quot;
+        
+    ),
+   
+    OR(
+        ISPICKVAL(Reached_Core_Engagement__c,&quot;&quot;),
+        AND(
+            ISPICKVAL(Reached_Core_Engagement__c, &quot;No&quot;),
+            ISPICKVAL(Why_do_clients_not_reach_Core_Engagement__c, &quot;&quot;)
+        ),
+        AND(
+            ISPICKVAL(Why_do_clients_not_reach_Core_Engagement__c, &quot;Other&quot;),
+            ISBLANK(Core_Engagement_Other_Reason__c)
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>Reached Core Engagement is required. If &quot;No&quot; select Why do Clients not reach Core Engagement. If &quot;Other&quot; is selected please specify the Reason.</errorMessage>
+</ValidationRule>

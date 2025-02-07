@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Designs_by_Market</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Status__c</columns>
+    <columns>Website_Domain__c</columns>
+    <columns>Design_Template__c</columns>
+    <columns>Website_Launch_Date__c</columns>
+    <columns>State__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Service__c.Custom_Website,Service__c.In_App_Onboarding,Service__c.Website_Launches</value>
+    </filters>
+    <filters>
+        <field>Design_Template__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Website Launched</value>
+    </filters>
+    <filters>
+        <field>State__c</field>
+        <operation>contains</operation>
+        <value>Denver</value>
+    </filters>
+    <label>Designs by Market</label>
+</ListView>

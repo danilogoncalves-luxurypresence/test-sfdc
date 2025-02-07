@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>High</fullName>
+        <default>false</default>
+        <label>High</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medium</fullName>
+        <default>true</default>
+        <label>Medium</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Low</fullName>
+        <default>false</default>
+        <label>Low</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Critical</fullName>
+        <default>false</default>
+        <label>🔴Critical</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Urgent</fullName>
+        <default>false</default>
+        <label>🟠Urgent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Intermediate</fullName>
+        <default>false</default>
+        <label>🟡Intermediate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Low2</fullName>
+        <default>false</default>
+        <label>🔵Low</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Nice to Have</fullName>
+        <default>false</default>
+        <label>🟢Nice to Have</label>
+    </standardValue>
+    <standardValue>
+        <fullName>High/ VIP</fullName>
+        <default>false</default>
+        <label>High/ VIP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Urgent Internal</fullName>
+        <default>false</default>
+        <label>Urgent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Normal</fullName>
+        <default>false</default>
+        <label>Normal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Side</fullName>
+        <default>false</default>
+        <label>Side</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Website_Implementation_Service</fullName>
+    <active>true</active>
+    <description>The website implementation field is required to mark the following opportunities as closed won (Add service RT and Addendum RT with Addendum Type Upgrade or Downgrade), when the product AI Lead Nurture is added</description>
+    <errorConditionFormula>AND(
+ Product_AI_Lead_Nurturing__c = true,
+ ISBLANK(Website_implementation_service__c),
+ ISPICKVAL( StageName , &quot;Close Won&quot;),
+ ISCHANGED(StageName),
+ OR(
+    Record_Type_Name__c = &quot;Add Service&quot;,
+    AND(
+    Record_Type_Name__c = &quot;Addendum&quot;,
+     OR( ISPICKVAL(Addendum_Type__c,&quot;Upgrade&quot;),
+         ISPICKVAL(Addendum_Type__c,&quot;Downgrade&quot;))
+  )
+ )
+)</errorConditionFormula>
+    <errorDisplayField>Website_implementation_service__c</errorDisplayField>
+    <errorMessage>Please complete this field</errorMessage>
+</ValidationRule>

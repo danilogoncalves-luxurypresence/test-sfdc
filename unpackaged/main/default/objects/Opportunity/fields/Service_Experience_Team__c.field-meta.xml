@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Experience_Team__c</fullName>
+    <label>Service/Experience Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Root_Cause__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Implementation</fullName>
+                <default>false</default>
+                <label>Implementation</label>
+            </value>
+            <value>
+                <fullName>Product Fulfillment</fullName>
+                <default>false</default>
+                <label>Product Fulfillment</label>
+            </value>
+            <value>
+                <fullName>Account Management</fullName>
+                <default>false</default>
+                <label>Account Management</label>
+            </value>
+            <value>
+                <fullName>SEO</fullName>
+                <default>false</default>
+                <label>SEO</label>
+            </value>
+            <value>
+                <fullName>Content</fullName>
+                <default>false</default>
+                <label>Content</label>
+            </value>
+            <value>
+                <fullName>Paid Media</fullName>
+                <default>false</default>
+                <label>Paid Media</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>Support</fullName>
+                <default>false</default>
+                <label>Support</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Implementation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Product Fulfillment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Account Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>SEO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Content</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Paid Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Social Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service/Experience</controllingFieldValue>
+            <valueName>Support</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

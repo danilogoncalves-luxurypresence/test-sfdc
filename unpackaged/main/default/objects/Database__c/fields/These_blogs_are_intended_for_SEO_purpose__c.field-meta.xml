@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>These_blogs_are_intended_for_SEO_purpose__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>These blogs are intended for SEO purpose</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

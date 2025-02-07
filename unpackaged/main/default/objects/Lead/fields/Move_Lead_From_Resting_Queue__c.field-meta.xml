@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Move_Lead_From_Resting_Queue__c</fullName>
+    <description>Used by scheduled flow to query leads on resting queue for more than 30 days.</description>
+    <formula>CASESAFEID(OwnerId) = $Label.ID_Queue_Resting 
+&amp;&amp;
+IsConverted = false
+&amp;&amp;
+Rep_Assigned_Date_Days__c &gt; 30</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>SYS - Move Lead From Resting Queue</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

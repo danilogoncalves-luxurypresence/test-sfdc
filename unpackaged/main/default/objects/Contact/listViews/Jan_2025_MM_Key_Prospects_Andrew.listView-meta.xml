@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jan_2025_MM_Key_Prospects_Andrew</fullName>
+    <booleanFilter>1 or 2 or 3 or 4 or 5 or 6 or 7</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LAST_ACTIVITY_DATETIME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000001cd7qYAA,003EY000002uztmYAA,003EY000002ajpmYAA,003EY000001evWxYAI,--,003EY000001qJT7YAM,003Rg000009hOxxIAE,003EY000001cgIIYAY,003EY000003B1wWYAS,003EY000001cXX1YAM</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003Rg00000GMMdUIAX,003EY000001cJeMYAU,--,003EY000001cLL8YAM,003EY000001cGY5YAM,003EY000001cKIQYA2,003Rg000006twuMIAQ,003Rg000006cEHpIAM,003EY000001ceTOYAY</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000001cJVuYAM,003EY000001cpyjYAA,003EY000001cG2FYAU,003EY000001cG2RYAU,003EY000001cHC0YAM,003EY000001cHwRYAU,003EY000001ccV0YAI,003EY000001ufYaYAI,003Rg000005fwRlIAI,003EY000001cHv5YAE</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000001cHusYAE,--,003EY000002rDx7YAE,003EY000001i7ACYAY,003EY000001vbIuYAI,003EY000002GVoLYAW,003EY000003Hu1dYAC,003EY000003LfyCYAS,003EY0000021zxdYAA,003EY000001zeJIYAY</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY0000045HAnYAM,003Rg000007eEzWIAU,003EY000002bojLYAQ,003EY000002lGzWYAU,003EY000002hAzjYAE,003EY000002i5JdYAI,003EY000002qEtTYAU,003EY000002whyYYAQ,003EY000002uzyhYAA,003EY000002sOH1YAM</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003EY000002wej1YAA,003EY000003yo9mYAA,003EY000004rcZUYAY,003Rg0000046fB4IAI,003Rg0000047DzAIAU,003Rg0000076jCvIAI,003Rg000009799RIAQ,003Rg0000099JflIAE,003Rg000009wbzhIAA,003Rg00000AAsnnIAD</value>
+    </filters>
+    <filters>
+        <field>Contact_18_digit_ID__c</field>
+        <operation>equals</operation>
+        <value>,003Rg00000AJmj8IAD,003Rg00000BkWkvIAF,003Rg00000FDkZ3IAL,003Rg00000G0hYPIAZ,003Rg00000GT8nNIAT,003Rg00000HZGphIAH</value>
+    </filters>
+    <label>Jan 2025 - MM Key Prospects - Andrew</label>
+</ListView>

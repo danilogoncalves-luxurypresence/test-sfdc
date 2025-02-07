@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>IDX</label>
+                <name>IDX</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Internal Website Builder</label>
+                <name>Internal_Website_Builder</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Internal Settings</label>
+                <name>Internal_Settings</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Internal CMS</label>
+                <name>Properties_k</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Marketing</label>
+                <name>Marketing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Internal Property Websites</label>
+                <name>Property_Websites</name>
+            </dataCategory>
+            <label>Internal</label>
+            <name>internal</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Account &amp; Subscription</label>
+                <name>Account_Settings</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Users</label>
+                <name>Users</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Connected Accounts</label>
+                <name>Connected_Accounts</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Frequently Asked Questions</label>
+                <name>Frequently_Asked_Questions</name>
+            </dataCategory>
+            <dataCategory>
+                <label>3rd Party Widgets</label>
+                <name>X3rd_Party_Widgets</name>
+            </dataCategory>
+            <label>Getting Started</label>
+            <name>getting_started</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>AI Lead Nurture</label>
+                <name>AI_Lead_Nurture</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Password Protection</label>
+                <name>Password_Protection</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Presence Copilot App</label>
+                <name>copilot_app</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Property Websites</label>
+                <name>Property_Websites_k</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Presentations</label>
+                <name>presentations</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Listing Feeds</label>
+                <name>listing_feeds</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Agent Subdomains</label>
+                <name>Agent_Subdomains</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Domains &amp; DNS</label>
+                <name>Domains_DNS</name>
+            </dataCategory>
+            <label>Tools &amp; Features</label>
+            <name>Tools_Features</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Contact Form</label>
+                <name>Contact_Form</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Elements</label>
+                <name>Elements</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Menus &amp; Pages</label>
+                <name>Global_Menus</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Logos</label>
+                <name>Logos</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Site Settings</label>
+                <name>Site_Settings</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Media (Images/Videos)</label>
+                <name>Media_Images_Videos</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Website Styling</label>
+                <name>Website_Styling</name>
+            </dataCategory>
+            <label>Website Builder</label>
+            <name>website_builder</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Agents</label>
+                <name>Agents_Teams</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Teams</label>
+                <name>Teams</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Blogs</label>
+                <name>Blogs</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Developments</label>
+                <name>Developments</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Neighborhoods</label>
+                <name>Neighborhoods</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Offices</label>
+                <name>Offices</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Press Releases</label>
+                <name>Press_Releases</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Properties</label>
+                <name>Properties</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Testimonials</label>
+                <name>Testimonials</name>
+            </dataCategory>
+            <label>CMS</label>
+            <name>content</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>CRM Connections</label>
+                <name>CRM_Connections</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Lead Routing</label>
+                <name>Lead_Routing</name>
+            </dataCategory>
+            <label>Leads</label>
+            <name>Contacts</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Home Search Tool Settings</label>
+                <name>Settings</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Listing Alert Emails</label>
+                <name>Listing_Alerts</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Saved Home Searches</label>
+                <name>Saved_Home_Searches</name>
+            </dataCategory>
+            <dataCategory>
+                <label>MLS Sync</label>
+                <name>MLS_Sync</name>
+            </dataCategory>
+            <label>Home Search &amp; MLS</label>
+            <name>Home_Search_Tool</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>GBP</label>
+                <name>GBP</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Rankings</label>
+                <name>Rankings</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Reporting</label>
+                <name>Reporting</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Indexing</label>
+                <name>Indexing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>SEO MIgration</label>
+                <name>SEO_MIgration</name>
+            </dataCategory>
+            <label>SEO &amp; Analytics</label>
+            <name>SEO_Analytics</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Knowledge Base</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

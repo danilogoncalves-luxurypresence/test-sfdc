@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>MiamiRE (RAMB) Introduction - 1st Follow Up</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>MiamiRE (RAMB) Introduction - 1st Follow Up</name>
+    <style>freeForm</style>
+    <subject>Following Up: MiamiRE (RAMB) Introduction</subject>
+    <textOnly>Hi {!Contact.FirstName},    
+
+Hope your week is going great! I wanted to follow up on the previous email and see if you had any questions on the requested items. I am happy to help! 
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

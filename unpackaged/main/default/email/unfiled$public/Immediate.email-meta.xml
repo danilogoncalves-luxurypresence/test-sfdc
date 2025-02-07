@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>Immediate</name>
+    <style>freeForm</style>
+    <subject>Get Started on the Luxury Presence Platform Upgrade</subject>
+    <textOnly>Hi Agent Name
+
+I hope you are having a wonderful day. Luxury Presence is thrilled to announce the upgrade of the website Website Domain to the new Presence™ Platform! With this upgrade, you’ll experience a more modern and responsive editor that makes editing your website smoother, faster, and simply more enjoyable --- Oh, and you’ll also gain access to more elevated features!
+
+To get started we require updated Domain Registrar credentials to make the switch since we host it on a different server. Please choose from the options below:
+
+Send via email your username and password -OR-
+By phone, please pick a time by scheduling a call Here
+
+While your website design will remain the same, there will be minor design enhancements built into the upgrade. Lastly, once your site is live on the new platform, I&#39;ll be reaching out with another email inviting you to the new platform. We&#39;ll also have various webinars you can sign up to attend and of course, our support team will be there to answer any questions along the way :)
+
+
+Best,
+
+
+Luxury Presence Inc., 1808 Stanford Street, Santa Monica, California 90404, United States, 3109551077</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

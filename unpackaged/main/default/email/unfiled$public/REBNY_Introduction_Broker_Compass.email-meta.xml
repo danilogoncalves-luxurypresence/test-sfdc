@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>LP_Internal</letterhead>
+    <name>REBNY Introduction - Broker Compass</name>
+    <style>freeForm</style>
+    <subject>IDX Introduction - REBNY - {!Service__c.Contact_First_Name__c}{!Contact.LastName{!Service__c.Contact_Last_Name__c}</subject>
+    <textOnly>Hi {!Service__c.Contact_First_Name__c}​,
+
+It&#39;s great to e-meet you! My name is [Coordinator&#39;s Name] and I am the IDX Coordinator at Luxury Presence! I will be responsible for the IDX search tool setup process on your new website.
+
+In order for us to display IDX data on your website, REBNY requires us to have a data access agreement signed. I have initiated the agreement through Trestle.com for digital signatures. The form has been sent to your broker of record to sign and once completed the Trestle.com will automatically send you the form to complete. Please be on the lookout for an email from them.
+
+In addition, REBNY requires agents to complete their in-house Ethics courses. Substitutions are not accepted. It will cover the Residential Listing Service as well as ethics. The course is complimentary and runs approximately 1.5 hours long. If the course is not completed before your site goes Live the Home Search tool will need to be hidden.
+
+Please note the Ethics Course is only offered once a month and the next course is Wednesday, [Date and Time]
+
+Please click HERE to register for the course.
+
+Lastly, Compass requires agents to sign the Compass Indemnity Agreement before the Broker of Record (Elizabeth Ann Stribling-Kivlan) can sign the IDX request form. If you could please reach out to your Sales Manager to complete the Indemnity Agreement.
+
+Let me know if you have any questions, I am happy to help!
+
+Best Regards,</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

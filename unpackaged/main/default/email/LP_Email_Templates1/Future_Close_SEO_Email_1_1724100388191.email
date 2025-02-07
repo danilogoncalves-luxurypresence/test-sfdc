@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+Thanks so much for taking the time to meet and get a demo of Luxury Presence in action!<br />
+<br />
+After learning about your needs and goals, we believe our SEO Pro plan is the best fit for your business. It's designed for clients seeking a comprehensive digital marketing strategy with expert support and includes website design, lead generation, lead nurture, expert local SEO, and our powerful competitive SEO services.<br />
+<br />
+Here's everything you get with our Brand+ plan:
+<ul>
+	<li>Website Platform</li>
+	<li>IDX home search</li>
+	<li>Accessibility widget</li>
+	<li>Digital CMA</li>
+	<li>Property websites</li>
+	<li>Lead Intelligence</li>
+	<li>SEO migration</li>
+	<li>Local SEO</li>
+	<li>Lead Gen Ads</li>
+	<li>AI Lead Nurture</li>
+	<li>Editorial SEO (which helps you target competitive searches like "real estate agent, realtor + city"</li>
+	<li>A dedicated client success manager</li>
+	<li>Optional add-ons: custom website, agent subdomain sites, additional editorial SEO for other target locations</li>
+</ul>
+To get started with SEO Pro, just book a time in my calendar and we'll get things rolling!<br />
+https://luxurypresence.na.chilipiper.com/book/me/{{{Sender.FirstName}}}-{{{Sender.LastName}}}<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}</body>
+</html>

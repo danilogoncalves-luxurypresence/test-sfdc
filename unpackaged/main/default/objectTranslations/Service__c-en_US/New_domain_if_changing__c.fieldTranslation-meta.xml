@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is the new domain pulled from the opportunity --></help>
+        <label><!-- New domain (if changing) --></label>
+        <name>New_domain_if_changing__c</name>
+    </CustomFieldTranslation>

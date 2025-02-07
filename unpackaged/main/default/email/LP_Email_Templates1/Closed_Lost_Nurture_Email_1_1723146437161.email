@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p>Hi&nbsp;{{{Recipient.FirstName}}},<br />
+<br />
+I appreciate you taking the time to consider Luxury Presence!<br />
+<br />
+I understand the timing wasn't quite right for you at the present moment.&nbsp; However, if you'd like to learn more about our award-winning design and digital marketing solutions at any point, feel free to book time on my calendar:<br />
+https://luxurypresence.na.chilipiper.com/book/me/{{{Sender.FirstName}}}-{{{Sender.LastName}}}<br />
+<br />
+In the meantime, I'll plan to reach out periodically to see if your needs have changed.&nbsp; And here's a link to our <a href="https://www.luxurypresence.com/case-studies/">case studies</a> so you can see how we've helped other real estate agents, teams, and brokerages grow their businesses.&nbsp;</p>
+
+<p>Thanks again for your time, {{{Recipient.FirstName}}}!<br />
+<br />
+Best,<br />
+{{{Sender.FirstName}}}</p>
+</body>
+</html>

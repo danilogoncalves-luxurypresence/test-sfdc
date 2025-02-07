@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Under $300,000
+$300,000 to $500,000
+$500,000 to $750,000
+$750,000 to $1,000,000
+Over $1,000,000 --></help>
+        <label><!-- Price Range --></label>
+        <name>Price_Range__c</name>
+    </CustomFieldTranslation>

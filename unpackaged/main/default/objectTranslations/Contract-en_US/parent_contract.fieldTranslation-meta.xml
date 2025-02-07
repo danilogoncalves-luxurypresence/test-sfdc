@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <caseValues>
+            <plural>false</plural>
+            <value>Parent Subscription</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Parent Subscriptions</value>
+        </caseValues>
+        <name>parent_contract</name>
+        <startsWith>Consonant</startsWith>
+    </CustomFieldTranslation>
