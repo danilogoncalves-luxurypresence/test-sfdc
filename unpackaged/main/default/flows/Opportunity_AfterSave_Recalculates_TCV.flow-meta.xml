@@ -1,6 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>62.0</apiVersion>
+    <decisions>
+        <name>test_decision_1</name>
+        <label>test decision 1</label>
+        <locationX>586</locationX>
+        <locationY>466</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>tst</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.Account.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>tst</label>
+        </rules>
+    </decisions>
     <description>test description</description>
     <environments>Default</environments>
     <formulas>
@@ -46,6 +64,9 @@
     <start>
         <locationX>446</locationX>
         <locationY>48</locationY>
+        <connector>
+            <targetReference>test_decision_1</targetReference>
+        </connector>
         <filterLogic>or</filterLogic>
         <filters>
             <field>Monthly_Marketing_Fee__c</field>
