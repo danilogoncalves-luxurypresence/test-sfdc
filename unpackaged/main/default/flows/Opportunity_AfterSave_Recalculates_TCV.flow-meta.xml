@@ -9,7 +9,7 @@
         <scale>2</scale>
     </formulas>
     <interviewLabel>Opportunity BeforeSave Recalculates TCV {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Opportunity AfterSave Recalculates TCV</label>
+    <label>Opportunity AfterSave Recalculates TCV test</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
